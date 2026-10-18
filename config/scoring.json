@@ -1,0 +1,95 @@
+{
+  "_about": "Proposed V1 defaults. Edit freely: the app reads every number from this file. Each signal is scored 0-1, then weighted into a 0-100 watchability score.",
+
+  "weights": {
+    "form": 25,
+    "stakes": 20,
+    "entertainment": 15,
+    "rivalry": 15,
+    "closeness": 10,
+    "records": 10,
+    "revenge": 5
+  },
+
+  "signals": {
+    "form": {
+      "_how": "Points per game over each team's last N matches, both teams averaged. Two in-form teams beat one.",
+      "last_n_matches": 5,
+      "both_in_form_bonus": 0.15,
+      "in_form_ppg": 2.0
+    },
+    "stakes": {
+      "_how": "League: the match matters for the title, Europe spots or relegation. Europe: league-phase cutoffs (top 8, top 24) or a knockout tie.",
+      "title_race_points_gap": 6,
+      "europe_race_points_gap": 4,
+      "relegation_points_gap": 4,
+      "knockout_match": 1.0
+    },
+    "entertainment": {
+      "_how": "Average total goals (scored + conceded) per game across both teams' last N matches.",
+      "last_n_matches": 5,
+      "goals_per_game_for_max": 4.0
+    },
+    "rivalry": {
+      "_how": "From data/rivalries.json.",
+      "tier_1": 1.0,
+      "tier_2": 0.6,
+      "tier_3": 0.3
+    },
+    "closeness": {
+      "_how": "Small table gap and similar form means a tight game.",
+      "table_position_weight": 0.6,
+      "form_gap_weight": 0.4
+    },
+    "records": {
+      "_how": "Distance to a record in data/records.json, in the record's own unit (goals, matches, points...).",
+      "within_1": 1.0,
+      "within_3": 0.6,
+      "within_5": 0.3
+    },
+    "revenge": {
+      "_how": "A player or manager faces a club he left within this window (Transfermarkt data).",
+      "transfer_window_months": 18,
+      "player": 1.0,
+      "manager": 0.8
+    }
+  },
+
+  "competition_bonus": {
+    "_how": "Points added to the 0-100 score. Small nudge for Europa and Conference League nights, which you flagged as underrated.",
+    "Champions League": 5,
+    "Europa League": 5,
+    "Conference League": 5
+  },
+
+  "favourites": {
+    "_how": "Your teams get a boost. A must-watch match still ranks above them.",
+    "boost": 15,
+    "teams": []
+  },
+
+  "must_watch": {
+    "_how": "A match is must-watch if its score reaches the threshold OR it is a tier-1 rivalry. Must-watch matches rank above favourite-team matches.",
+    "score_threshold": 80,
+    "tier_1_rivalry_always": true
+  },
+
+  "story": {
+    "_how": "The 'why watch' line: the top contributing signals, most important first, joined with a dot.",
+    "max_reasons": 3,
+    "separator": " · ",
+    "templates": {
+      "form": "{home} won {home_wins} of last {n} · {away} won {away_wins} of last {n}",
+      "both_in_form": "Both teams in form",
+      "stakes_title": "Title race: {gap} pts between them",
+      "stakes_europe": "Fight for Europe",
+      "stakes_relegation": "Relegation battle",
+      "stakes_knockout": "Knockout: loser goes out",
+      "entertainment": "{goals_per_game} goals per game lately",
+      "rivalry": "{rivalry_name}",
+      "closeness": "{home_pos} vs {away_pos} in the table",
+      "records": "{player} is {distance} {unit} from the {competition} record ({record})",
+      "revenge": "{person} faces his former club"
+    }
+  }
+}
