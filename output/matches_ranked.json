@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:31:21.897733+02:00",
+ "generated_at": "2026-10-18T22:59:20.990378+02:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 15,
@@ -64,7 +64,14 @@
      "reason": "Dro Fernández faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915399",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-564723",
@@ -115,7 +122,16 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": true
+   "tier1_rivalry": true,
+   "espn": {
+    "id": "401882832",
+    "league": "esp.1",
+    "us_tv": [
+     "ABC",
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-575376",
@@ -165,7 +181,14 @@
      "reason": "Feyenoord lost 2-1 to Real Betis in the Europa League (January 2026)"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915389",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-575372",
@@ -216,7 +239,14 @@
      "reason": "Bayern Munich lost 3-1 to Arsenal in the Champions League (November 2025)"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915312",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-575370",
@@ -266,7 +296,14 @@
      "reason": "Yan Diomande faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915313",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-559648",
@@ -275,17 +312,17 @@
    "day": "2026-10-25",
    "home": "Paris Saint-Germain",
    "away": "Lyon",
-   "score": 59,
-   "base": 59.4,
+   "score": 61,
+   "base": 61.1,
    "competition_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
-   "must_watch": false,
-   "story": "Both teams in form · 3.3 goals per game lately · Noham Kamara faces his former club",
+   "must_watch": true,
+   "story": "Both teams in form · 3.6 goals per game lately · Noham Kamara faces his former club",
    "breakdown": {
     "form": {
-     "value": 0.983,
-     "points": 24.6,
+     "value": 1.0,
+     "points": 25.0,
      "reason": "Both teams in form"
     },
     "stakes": {
@@ -294,17 +331,17 @@
      "reason": "Title race: 0 pts between them"
     },
     "entertainment": {
-     "value": 0.825,
-     "points": 12.4,
-     "reason": "3.3 goals per game lately"
+     "value": 0.9,
+     "points": 13.5,
+     "reason": "3.6 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.831,
-     "points": 4.2,
+     "value": 0.885,
+     "points": 4.4,
      "reason": "2nd vs 1st in the table"
     },
     "records": {
@@ -317,7 +354,12 @@
      "reason": "Noham Kamara faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876422",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558858",
@@ -367,57 +409,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
-  },
-  {
-   "id": "fd-558570",
-   "competition": "Serie A",
-   "kickoff_paris": "2026-10-18T20:45:00+02:00",
-   "day": "2026-10-18",
-   "home": "Juventus",
-   "away": "Lazio",
-   "score": 52,
-   "base": 51.8,
-   "competition_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "story": "Both teams in form · 3.1 goals per game lately · Luca Pellegrini faces his former club",
-   "breakdown": {
-    "form": {
-     "value": 0.917,
-     "points": 22.9,
-     "reason": "Both teams in form"
-    },
-    "stakes": {
-     "value": 0.179,
-     "points": 3.6
-    },
-    "entertainment": {
-     "value": 0.775,
-     "points": 11.6,
-     "reason": "3.1 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.731,
-     "points": 3.7,
-     "reason": "8th vs 2nd in the table"
-    },
-    "records": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "reason": "Luca Pellegrini faces his former club"
-    }
-   },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875568",
+    "league": "ned.1",
+    "us_tv": [
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-558862",
@@ -466,7 +465,12 @@
      "reason": "Davy van den Berg faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875573",
+    "league": "ned.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-575363",
@@ -516,7 +520,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915397",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-564709",
@@ -566,7 +577,16 @@
      "reason": "Fran González faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882839",
+    "league": "esp.1",
+    "us_tv": [
+     "ABC",
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-564722",
@@ -617,7 +637,15 @@
      "reason": "Arnaut Danjuma faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882827",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-565836",
@@ -667,7 +695,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884759",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "espn-401915547",
@@ -677,12 +712,12 @@
    "home": "Juventus",
    "away": "Rennes",
    "score": 46,
-   "base": 41.3,
+   "base": 40.6,
    "competition_bonus": 5,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Juventus won 3 of last 5, Rennes won 2 of last 5 · 3.6 goals per game lately · Fight for a top-8 spot",
+   "story": "Juventus won 3 of last 5, Rennes won 2 of last 5 · 3.4 goals per game lately · Fight for a top-8 spot",
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -695,9 +730,9 @@
      "reason": "Fight for a top-8 spot"
     },
     "entertainment": {
-     "value": 0.9,
-     "points": 13.5,
-     "reason": "3.6 goals per game lately"
+     "value": 0.85,
+     "points": 12.8,
+     "reason": "3.4 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
@@ -717,7 +752,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915547",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915552",
@@ -767,7 +809,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915552",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-564725",
@@ -817,57 +866,14 @@
      "reason": "Borja Iglesias faces his former club"
     }
    },
-   "tier1_rivalry": false
-  },
-  {
-   "id": "fd-559665",
-   "competition": "Ligue 1",
-   "kickoff_paris": "2026-10-18T20:45:00+02:00",
-   "day": "2026-10-18",
-   "home": "Lyon",
-   "away": "Nice",
-   "score": 45,
-   "base": 45.0,
-   "competition_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "story": "Lyon won 3 of last 5, Nice won 2 of last 5 · 2.7 goals per game lately · Kaïl Boudache faces his former club",
-   "breakdown": {
-    "form": {
-     "value": 0.567,
-     "points": 14.2,
-     "reason": "Lyon won 3 of last 5, Nice won 2 of last 5"
-    },
-    "stakes": {
-     "value": 0.412,
-     "points": 8.2,
-     "reason": "Title race: 6 pts between them"
-    },
-    "entertainment": {
-     "value": 0.675,
-     "points": 10.1,
-     "reason": "2.7 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.496,
-     "points": 2.5
-    },
-    "records": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "reason": "Kaïl Boudache faces his former club"
-    }
-   },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882833",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-575365",
@@ -917,7 +923,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915398",
+    "league": "uefa.champions",
+    "us_tv": [
+     "CBSSN",
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-560612",
@@ -966,7 +980,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401878765",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-575362",
@@ -1015,7 +1034,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915392",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-560614",
@@ -1063,7 +1089,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401879256",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-564727",
@@ -1113,7 +1144,15 @@
      "reason": "Pablo Ramón faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882831",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-560617",
@@ -1162,7 +1201,12 @@
      "reason": "Tosin Adarabioyo faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401878767",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558857",
@@ -1211,7 +1255,14 @@
      "reason": "Rijk Janse faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875569",
+    "league": "ned.1",
+    "us_tv": [
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-564726",
@@ -1259,7 +1310,15 @@
      "reason": "Jon Ander Olasagasti faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882829",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "espn-401915836",
@@ -1309,7 +1368,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915836",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-565830",
@@ -1359,7 +1425,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884757",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "fd-567332",
@@ -1408,7 +1481,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885413",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-559653",
@@ -1457,7 +1535,12 @@
      "reason": "Alexandre Dujeux faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876430",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "espn-401915837",
@@ -1505,7 +1588,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915837",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-565832",
@@ -1555,7 +1645,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884762",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "fd-560616",
@@ -1604,7 +1701,12 @@
      "reason": "Christian Nørgaard faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401878768",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-567335",
@@ -1652,7 +1754,12 @@
      "reason": "Samuel Portugal faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885417",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558564",
@@ -1702,7 +1809,69 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874948",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "espn-401915543",
+   "competition": "Europa League",
+   "kickoff_paris": "2026-10-22T21:00:00+02:00",
+   "day": "2026-10-22",
+   "home": "Hoffenheim",
+   "away": "Lyon",
+   "score": 38,
+   "base": 33.3,
+   "competition_bonus": 5,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "story": "3.7 goals per game lately · Hoffenheim won 1 of last 5, Lyon won 4 of last 5",
+   "breakdown": {
+    "form": {
+     "value": 0.5,
+     "points": 12.5,
+     "reason": "Hoffenheim won 1 of last 5, Lyon won 4 of last 5"
+    },
+    "stakes": {
+     "value": 0.25,
+     "points": 5.0
+    },
+    "entertainment": {
+     "value": 0.925,
+     "points": 13.9,
+     "reason": "3.7 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.383,
+     "points": 1.9
+    },
+    "records": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915543",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-558560",
@@ -1751,7 +1920,14 @@
      "reason": "Nadir Zortea faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874958",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-567333",
@@ -1801,7 +1977,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885420",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-559652",
@@ -1851,7 +2032,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876427",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558855",
@@ -1901,7 +2087,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875566",
+    "league": "ned.1",
+    "us_tv": [
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-564718",
@@ -1950,7 +2143,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882830",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-558859",
@@ -1998,7 +2199,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875570",
+    "league": "ned.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-575368",
@@ -2047,54 +2253,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
-  },
-  {
-   "id": "espn-401915543",
-   "competition": "Europa League",
-   "kickoff_paris": "2026-10-22T21:00:00+02:00",
-   "day": "2026-10-22",
-   "home": "Hoffenheim",
-   "away": "Lyon",
-   "score": 36,
-   "base": 30.8,
-   "competition_bonus": 5,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "story": "3.4 goals per game lately",
-   "breakdown": {
-    "form": {
-     "value": 0.433,
-     "points": 10.8
-    },
-    "stakes": {
-     "value": 0.25,
-     "points": 5.0
-    },
-    "entertainment": {
-     "value": 0.85,
-     "points": 12.8,
-     "reason": "3.4 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.436,
-     "points": 2.2
-    },
-    "records": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    }
-   },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915395",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-559656",
@@ -2143,7 +2309,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876429",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558566",
@@ -2153,12 +2324,12 @@
    "home": "Lecce",
    "away": "Juventus",
    "score": 36,
-   "base": 36.5,
+   "base": 35.7,
    "competition_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Lecce won 2 of last 5, Juventus won 3 of last 5 · 3.2 goals per game lately · Fight for Europe",
+   "story": "Lecce won 2 of last 5, Juventus won 3 of last 5 · 3.0 goals per game lately · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.533,
@@ -2171,9 +2342,9 @@
      "reason": "Fight for Europe"
     },
     "entertainment": {
-     "value": 0.8,
-     "points": 12.0,
-     "reason": "3.2 goals per game lately"
+     "value": 0.75,
+     "points": 11.2,
+     "reason": "3.0 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
@@ -2193,7 +2364,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874772",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-564717",
@@ -2242,7 +2420,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882842",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-575373",
@@ -2291,7 +2477,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915388",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-567329",
@@ -2341,7 +2534,12 @@
      "reason": "Fabio Blanco faces his former club"
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885412",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-567330",
@@ -2390,7 +2588,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885415",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-575360",
@@ -2439,7 +2642,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915403",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-575371",
@@ -2487,7 +2697,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915390",
+    "league": "uefa.champions",
+    "us_tv": [
+     "CBSSN",
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-559654",
@@ -2536,7 +2754,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876428",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-565837",
@@ -2585,7 +2808,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884763",
+    "league": "ger.1",
+    "us_tv": [
+     "USA Net"
+    ]
+   }
   },
   {
    "id": "fd-558861",
@@ -2633,7 +2863,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875572",
+    "league": "ned.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-560613",
@@ -2682,7 +2917,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401879254",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558562",
@@ -2731,7 +2971,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874972",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-559650",
@@ -2781,7 +3028,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876425",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-565835",
@@ -2829,7 +3081,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884760",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "fd-558856",
@@ -2876,7 +3135,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875567",
+    "league": "ned.1",
+    "us_tv": [
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-575364",
@@ -2924,7 +3190,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915402",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915553",
@@ -2972,7 +3245,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915553",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-558567",
@@ -3021,7 +3301,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874957",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-565834",
@@ -3069,7 +3356,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884755",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "fd-565838",
@@ -3118,7 +3412,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884758",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "fd-575361",
@@ -3167,7 +3468,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915401",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-575369",
@@ -3216,7 +3524,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915396",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-564685",
@@ -3264,7 +3579,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882870",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "espn-401915555",
@@ -3313,7 +3636,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915555",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915540",
@@ -3362,7 +3692,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915540",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-558863",
@@ -3410,7 +3747,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875574",
+    "league": "ned.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558563",
@@ -3457,7 +3799,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875036",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915548",
@@ -3505,7 +3854,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915548",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-559655",
@@ -3553,7 +3909,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876423",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-564724",
@@ -3601,7 +3962,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882834",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-564720",
@@ -3650,7 +4019,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882835",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "fd-559651",
@@ -3697,7 +4073,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876424",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558578",
@@ -3746,7 +4127,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874784",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915558",
@@ -3794,7 +4182,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915558",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915743",
@@ -3843,7 +4238,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915743",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915554",
@@ -3892,7 +4294,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915554",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-558561",
@@ -3940,7 +4349,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874961",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-560618",
@@ -3989,7 +4405,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401879255",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558565",
@@ -3999,12 +4420,12 @@
    "home": "Lazio",
    "away": "Parma",
    "score": 30,
-   "base": 29.5,
+   "base": 30.3,
    "competition_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Lazio won 4 of last 5, Parma won 1 of last 5 · 2.7 goals per game lately",
+   "story": "Lazio won 4 of last 5, Parma won 1 of last 5 · 2.9 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -4016,9 +4437,9 @@
      "points": 3.6
     },
     "entertainment": {
-     "value": 0.675,
-     "points": 10.1,
-     "reason": "2.7 goals per game lately"
+     "value": 0.725,
+     "points": 10.9,
+     "reason": "2.9 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
@@ -4037,7 +4458,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874955",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-558860",
@@ -4084,7 +4512,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401875571",
+    "league": "ned.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-560615",
@@ -4133,7 +4566,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401879252",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558568",
@@ -4182,7 +4620,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874952",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-567271",
@@ -4231,7 +4676,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885480",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-575359",
@@ -4280,7 +4730,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915404",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-575366",
@@ -4329,7 +4786,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915400",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915559",
@@ -4377,7 +4841,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915559",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915557",
@@ -4426,7 +4897,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915557",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915544",
@@ -4475,7 +4953,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915544",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-560619",
@@ -4524,7 +5009,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401878766",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558576",
@@ -4571,7 +5061,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874762",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915542",
@@ -4619,7 +5116,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915542",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915539",
@@ -4668,7 +5172,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915539",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-565833",
@@ -4716,7 +5227,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884761",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "fd-560620",
@@ -4764,7 +5282,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401879253",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-559649",
@@ -4812,7 +5335,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401876426",
+    "league": "fra.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-560606",
@@ -4861,7 +5389,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401879257",
+    "league": "eng.1",
+    "us_tv": [
+     "USA Net",
+     "Universo"
+    ]
+   }
   },
   {
    "id": "fd-575374",
@@ -4908,7 +5444,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915394",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915745",
@@ -4956,7 +5499,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915745",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915541",
@@ -5004,7 +5554,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915541",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-565831",
@@ -5053,7 +5610,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401884756",
+    "league": "ger.1",
+    "us_tv": [
+     "Fandango"
+    ]
+   }
   },
   {
    "id": "fd-560621",
@@ -5100,7 +5664,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401878764",
+    "league": "eng.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-575375",
@@ -5147,7 +5716,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915391",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915840",
@@ -5195,7 +5771,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915840",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915842",
@@ -5243,7 +5826,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915842",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915843",
@@ -5291,7 +5881,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915843",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915545",
@@ -5339,7 +5936,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915545",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-567337",
@@ -5387,7 +5991,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885419",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-567336",
@@ -5436,7 +6045,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885418",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "fd-558559",
@@ -5483,7 +6097,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401874779",
+    "league": "ita.1",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915838",
@@ -5531,7 +6152,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915838",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915556",
@@ -5579,7 +6207,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915556",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915546",
@@ -5626,7 +6261,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915546",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915841",
@@ -5674,7 +6316,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915841",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-564719",
@@ -5722,7 +6371,15 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401882836",
+    "league": "esp.1",
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
   },
   {
    "id": "espn-401915846",
@@ -5770,7 +6427,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915846",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915844",
@@ -5818,7 +6482,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915844",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915833",
@@ -5866,7 +6537,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915833",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "fd-567334",
@@ -5913,7 +6591,12 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401885416",
+    "league": "por.1",
+    "us_tv": []
+   }
   },
   {
    "id": "espn-401915839",
@@ -5961,7 +6644,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915839",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915835",
@@ -6009,7 +6699,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915835",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915744",
@@ -6057,7 +6754,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915744",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915834",
@@ -6105,7 +6809,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915834",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915845",
@@ -6153,7 +6864,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915845",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   },
   {
    "id": "espn-401915832",
@@ -6201,7 +6919,14 @@
      "points": 0.0
     }
    },
-   "tier1_rivalry": false
+   "tier1_rivalry": false,
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915832",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
   }
  ],
  "warnings": [],
