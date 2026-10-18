@@ -1,4 +1,6 @@
 {
+  "window_days": 7,
+
   "_about": "Proposed V1 defaults. Edit freely: the app reads every number from this file. Each signal is scored 0-1, then weighted into a 0-100 watchability score.",
 
   "weights": {
@@ -16,14 +18,32 @@
       "_how": "Points per game over each team's last N matches, both teams averaged. Two in-form teams beat one.",
       "last_n_matches": 5,
       "both_in_form_bonus": 0.15,
-      "in_form_ppg": 2.0
+      "in_form_ppg": 2.0,
+      "min_matches": 3
     },
     "stakes": {
       "_how": "League: the match matters for the title, Europe spots or relegation. Europe: league-phase cutoffs (top 8, top 24) or a knockout tie.",
       "title_race_points_gap": 6,
       "europe_race_points_gap": 4,
       "relegation_points_gap": 4,
-      "knockout_match": 1.0
+      "knockout_match": 1.0,
+      "both_teams_in_race": 1.0,
+      "one_team_in_race": 0.5,
+      "_zones": "Approximate places per league. europe = all European spots (CL+EL+ECL), relegation = direct + playoff places.",
+      "league_zones": {
+        "Premier League": {"europe": 7, "relegation": 3},
+        "La Liga": {"europe": 7, "relegation": 3},
+        "Serie A": {"europe": 7, "relegation": 3},
+        "Bundesliga": {"europe": 7, "relegation": 3},
+        "Ligue 1": {"europe": 6, "relegation": 3},
+        "Eredivisie": {"europe": 5, "relegation": 3},
+        "Primeira Liga": {"europe": 5, "relegation": 3}
+      },
+      "league_phase_cutoffs": [8, 24],
+      "league_phase_points_gap": 3,
+      "_damping": "Early in the season every team is close to every cutoff. Stakes are scaled by share of season played / full_weight_from_share, never below min_factor.",
+      "full_weight_from_share": 0.5,
+      "min_factor": 0.25
     },
     "entertainment": {
       "_how": "Average total goals (scored + conceded) per game across both teams' last N matches.",
@@ -39,7 +59,8 @@
     "closeness": {
       "_how": "Small table gap and similar form means a tight game.",
       "table_position_weight": 0.6,
-      "form_gap_weight": 0.4
+      "form_gap_weight": 0.4,
+      "min_value_for_reason": 0.7
     },
     "records": {
       "_how": "Distance to a record in data/records.json, in the record's own unit (goals, matches, points...).",
@@ -79,10 +100,11 @@
     "max_reasons": 3,
     "separator": " · ",
     "templates": {
-      "form": "{home} won {home_wins} of last {n} · {away} won {away_wins} of last {n}",
+      "form": "{home} won {home_wins} of last {n}, {away} won {away_wins} of last {n}",
       "both_in_form": "Both teams in form",
       "stakes_title": "Title race: {gap} pts between them",
       "stakes_europe": "Fight for Europe",
+      "stakes_cutoff": "Fight for a top-{cutoff} spot",
       "stakes_relegation": "Relegation battle",
       "stakes_knockout": "Knockout: loser goes out",
       "entertainment": "{goals_per_game} goals per game lately",
