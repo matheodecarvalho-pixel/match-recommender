@@ -12,10 +12,14 @@ const STAT_ROWS = [  // ESPN boxscore label -> what we show
   ["SHOTS", "Shots"], ["ON GOAL", "On target"], ["Corner Kicks", "Corners"],
   ["Fouls", "Fouls"], ["Yellow Cards", "Yellow cards"], ["Red Cards", "Red cards"], ["Saves", "Saves"],
 ];
+const TV_SOURCES = ["broadcasters.json", "../data/broadcasters.json"];
+const COUNTRY_KEY = "mr.country";
 const FAV_KEY = "mr.favourites";
 const COMP_KEY = "mr.competitions";
 
 let data = null;
+let tv = null;        // broadcasters.json: rights per competition and country
+let country = null;   // ISO code: picked by hand, else from the device time zone
 let favourites = new Set(load(FAV_KEY, []));
 let hidden = new Set(load(COMP_KEY, []));  // competitions switched off
 
@@ -35,6 +39,66 @@ function el(tag, attrs = {}, ...children) {
   }
   for (const c of children.flat()) if (c != null) node.append(c);
   return node;
+}
+
+async function fetchJson(sources) {
+  for (const url of sources) {
+    try {
+      const r = await fetch(url, { cache: "no-cache" });
+      if (r.ok) return await r.json();
+    } catch { /* try the next location */ }
+  }
+  return null;
+}
+
+// ---------- Where to watch ----------
+
+// The time zone never leaves the device: it is only looked up in broadcasters.json.
+function deviceCountry() {
+  try {
+    const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    return tv?.timezones?.[zone] || null;
+  } catch { return null; }
+}
+
+function watchInfo(m) {
+  if (!tv || !country) return null;
+  // ESPN lists US channels per match, which beats the competition-wide table.
+  if (country === "US" && m.espn?.us_tv?.length) return { channels: m.espn.us_tv, source: "ESPN", perMatch: true };
+  const entry = tv.rights?.[m.competition]?.[country];
+  return entry ? { ...entry, perMatch: false } : null;
+}
+
+function watchLine(m) {
+  const w = watchInfo(m);
+  return w ? el("div", { class: "watch" }, "📺 " + w.channels.join(" · ")) : null;
+}
+
+function watchDetail(m) {
+  const name = tv?.countries?.[country] || country;
+  const w = watchInfo(m);
+  if (!country) return null;
+  if (!w) return el("p", { class: "watch-detail" }, `No listing for ${m.competition} in ${name}.`);
+  const src = w.source === "ESPN" ? "ESPN" : el("a", { href: w.source, target: "_blank", rel: "noopener" }, "source");
+  return el("p", { class: "watch-detail" },
+    `${w.perMatch ? "On" : "Usually on"} in ${name}: `, el("strong", {}, w.channels.join(", ")),
+    w.note ? ` (${w.note})` : "", " · ", src);
+}
+
+function setupCountry() {
+  const select = document.getElementById("country");
+  const auto = deviceCountry();
+  country = load(COUNTRY_KEY, null) || auto;
+  const names = Object.entries(tv?.countries || {}).sort((a, b) => a[1].localeCompare(b[1]));
+  select.replaceChildren(
+    el("option", { value: "" }, auto ? `Auto (${tv.countries[auto] || auto})` : "Pick a country"),
+    ...names.map(([code, name]) => el("option", { value: code }, name)));
+  select.value = load(COUNTRY_KEY, null) || "";
+  select.addEventListener("change", () => {
+    country = select.value || auto;
+    save(COUNTRY_KEY, select.value || null);
+    render();
+  });
 }
 
 async function fetchData() {
@@ -204,7 +268,7 @@ function card(m) {
   const id = "b-" + m.id;
   const centre = el("div", { class: "centre" });
   centre.hidden = true;
-  const detail = el("div", { id }, centre, breakdown(m));
+  const detail = el("div", { id }, centre, watchDetail(m), breakdown(m));
   detail.hidden = true;
   let node;
   const button = el("button", {
@@ -222,7 +286,8 @@ function card(m) {
     el("div", { class: "teams" }, team(m.home), " v ", team(m.away)),
     el("div", { class: "live", hidden: "" }),
     el("div", { class: "score", "aria-label": `Score ${m.score} out of 100` }, String(m.score)),
-    m.story ? el("div", { class: "story" }, m.story) : null);
+    m.story ? el("div", { class: "story" }, m.story) : null,
+    watchLine(m));
   node = el("article", { class: "card" + (m.must ? " must" : "") }, button, detail);
   if (m.espn) {
     node.dataset.espn = m.espn.id;
@@ -295,8 +360,10 @@ function setupFavourites() {
   document.getElementById("open-favs").addEventListener("click", () => { draw(); dialog.showModal(); });
 }
 
-fetchData().then(d => {
+Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   data = d;
+  tv = t;
+  setupCountry();
   const when = new Date(d.generated_at);
   document.getElementById("updated").textContent =
     `${d.matches.length} matches in the next ${d.window_days} days · updated ${dayFmt.format(when)}, ${timeFmt.format(when)}`;

@@ -22,10 +22,11 @@ def load_rivalries(registry):
 ESPN_SLUGS = {"Europa League": "uefa.europa", "Conference League": "uefa.europa.conf"}
 
 
-def espn_link(m, ids):
-    """Which ESPN game this is, so the site can fetch live scores. None when unknown."""
+def espn_link(m, ids, us_tv):
+    """Which ESPN game this is (for live scores) and its US channels. None when unknown."""
     if m["id"].startswith("espn-"):
-        return {"league": ESPN_SLUGS[m["competition"]], "id": m["id"][len("espn-"):]}
+        eid = m["id"][len("espn-"):]
+        return {"league": ESPN_SLUGS[m["competition"]], "id": eid, "us_tv": us_tv.get(eid, [])}
     return ids.get(m["id"])
 
 
@@ -55,6 +56,9 @@ def build(now=None):
     meetings = euro_results.european_meetings(ROOT)
     ids_path = OUTPUT / "espn_ids.json"
     espn_ids = json.loads(ids_path.read_text(encoding="utf-8")) if ids_path.exists() else {}
+    europe_path = OUTPUT / "europe_matches.json"
+    us_tv = {m["id"]: m.get("us_tv", []) for m in json.loads(europe_path.read_text(encoding="utf-8"))["matches"]} \
+        if europe_path.exists() else {}
 
     # After the 8 league-phase rounds, every Europa/Conference match is a knockout.
     knockout = {comp for comp, table in eu_tables.items() if table and min(r["played"] for r in table) >= 8}
@@ -80,7 +84,7 @@ def build(now=None):
         ranked.append({"id": m["id"], "competition": m["competition"],
                        "kickoff_paris": kickoff.isoformat(), "day": kickoff.date().isoformat(),
                        "home": m["home"], "away": m["away"], **result,
-                       "tier1_rivalry": bool(extras.get("tier1")), "espn": espn_link(m, espn_ids)})
+                       "tier1_rivalry": bool(extras.get("tier1")), "espn": espn_link(m, espn_ids, us_tv)})
 
     ranked.sort(key=sort_key)
     out = {"generated_at": now.astimezone(PARIS).isoformat(), "window_days": config["window_days"],

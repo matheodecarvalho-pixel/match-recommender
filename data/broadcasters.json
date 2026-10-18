@@ -1,0 +1,7121 @@
+{
+ "_about": "Rights per competition and country. Wikipedia tables plus researched entries (data/broadcasters_manual.json). A given match can be on another channel.",
+ "countries": {
+  "AD": "Andorra",
+  "AE": "United Arab Emirates",
+  "AF": "Afghanistan",
+  "AG": "Antigua & Barbuda",
+  "AI": "Anguilla",
+  "AL": "Albania",
+  "AM": "Armenia",
+  "AO": "Angola",
+  "AQ": "Antarctica",
+  "AR": "Argentina",
+  "AS": "Samoa (American)",
+  "AT": "Austria",
+  "AU": "Australia",
+  "AW": "Aruba",
+  "AX": "Åland Islands",
+  "AZ": "Azerbaijan",
+  "BA": "Bosnia & Herzegovina",
+  "BB": "Barbados",
+  "BD": "Bangladesh",
+  "BE": "Belgium",
+  "BF": "Burkina Faso",
+  "BG": "Bulgaria",
+  "BH": "Bahrain",
+  "BI": "Burundi",
+  "BJ": "Benin",
+  "BL": "St Barthelemy",
+  "BM": "Bermuda",
+  "BN": "Brunei",
+  "BO": "Bolivia",
+  "BQ": "Caribbean NL",
+  "BR": "Brazil",
+  "BS": "Bahamas",
+  "BT": "Bhutan",
+  "BV": "Bouvet Island",
+  "BW": "Botswana",
+  "BY": "Belarus",
+  "BZ": "Belize",
+  "CA": "Canada",
+  "CC": "Cocos (Keeling) Islands",
+  "CD": "Congo (Dem. Rep.)",
+  "CF": "Central African Rep.",
+  "CG": "Congo (Rep.)",
+  "CH": "Switzerland",
+  "CI": "Côte d’Ivoire",
+  "CK": "Cook Islands",
+  "CL": "Chile",
+  "CM": "Cameroon",
+  "CN": "China",
+  "CO": "Colombia",
+  "CR": "Costa Rica",
+  "CU": "Cuba",
+  "CV": "Cape Verde",
+  "CW": "Curaçao",
+  "CX": "Christmas Island",
+  "CY": "Cyprus",
+  "CZ": "Czech Republic",
+  "DE": "Germany",
+  "DJ": "Djibouti",
+  "DK": "Denmark",
+  "DM": "Dominica",
+  "DO": "Dominican Republic",
+  "DZ": "Algeria",
+  "EC": "Ecuador",
+  "EE": "Estonia",
+  "EG": "Egypt",
+  "EH": "Western Sahara",
+  "ER": "Eritrea",
+  "ES": "Spain",
+  "ET": "Ethiopia",
+  "FI": "Finland",
+  "FJ": "Fiji",
+  "FK": "Falkland Islands",
+  "FM": "Micronesia",
+  "FO": "Faroe Islands",
+  "FR": "France",
+  "GA": "Gabon",
+  "GB": "Britain (UK)",
+  "GD": "Grenada",
+  "GE": "Georgia",
+  "GF": "French Guiana",
+  "GG": "Guernsey",
+  "GH": "Ghana",
+  "GI": "Gibraltar",
+  "GL": "Greenland",
+  "GM": "Gambia",
+  "GN": "Guinea",
+  "GP": "Guadeloupe",
+  "GQ": "Equatorial Guinea",
+  "GR": "Greece",
+  "GS": "South Georgia & the South Sandwich Islands",
+  "GT": "Guatemala",
+  "GU": "Guam",
+  "GW": "Guinea-Bissau",
+  "GY": "Guyana",
+  "HK": "Hong Kong",
+  "HM": "Heard Island & McDonald Islands",
+  "HN": "Honduras",
+  "HR": "Croatia",
+  "HT": "Haiti",
+  "HU": "Hungary",
+  "ID": "Indonesia",
+  "IE": "Ireland",
+  "IL": "Israel",
+  "IM": "Isle of Man",
+  "IN": "India",
+  "IO": "British Indian Ocean Territory",
+  "IQ": "Iraq",
+  "IR": "Iran",
+  "IS": "Iceland",
+  "IT": "Italy",
+  "JE": "Jersey",
+  "JM": "Jamaica",
+  "JO": "Jordan",
+  "JP": "Japan",
+  "KE": "Kenya",
+  "KG": "Kyrgyzstan",
+  "KH": "Cambodia",
+  "KI": "Kiribati",
+  "KM": "Comoros",
+  "KN": "St Kitts & Nevis",
+  "KP": "Korea (North)",
+  "KR": "Korea (South)",
+  "KW": "Kuwait",
+  "KY": "Cayman Islands",
+  "KZ": "Kazakhstan",
+  "LA": "Laos",
+  "LB": "Lebanon",
+  "LC": "St Lucia",
+  "LI": "Liechtenstein",
+  "LK": "Sri Lanka",
+  "LR": "Liberia",
+  "LS": "Lesotho",
+  "LT": "Lithuania",
+  "LU": "Luxembourg",
+  "LV": "Latvia",
+  "LY": "Libya",
+  "MA": "Morocco",
+  "MC": "Monaco",
+  "MD": "Moldova",
+  "ME": "Montenegro",
+  "MF": "St Martin (French)",
+  "MG": "Madagascar",
+  "MH": "Marshall Islands",
+  "MK": "North Macedonia",
+  "ML": "Mali",
+  "MM": "Myanmar (Burma)",
+  "MN": "Mongolia",
+  "MO": "Macau",
+  "MP": "Northern Mariana Islands",
+  "MQ": "Martinique",
+  "MR": "Mauritania",
+  "MS": "Montserrat",
+  "MT": "Malta",
+  "MU": "Mauritius",
+  "MV": "Maldives",
+  "MW": "Malawi",
+  "MX": "Mexico",
+  "MY": "Malaysia",
+  "MZ": "Mozambique",
+  "NA": "Namibia",
+  "NC": "New Caledonia",
+  "NE": "Niger",
+  "NF": "Norfolk Island",
+  "NG": "Nigeria",
+  "NI": "Nicaragua",
+  "NL": "Netherlands",
+  "NO": "Norway",
+  "NP": "Nepal",
+  "NR": "Nauru",
+  "NU": "Niue",
+  "NZ": "New Zealand",
+  "OM": "Oman",
+  "PA": "Panama",
+  "PE": "Peru",
+  "PF": "French Polynesia",
+  "PG": "Papua New Guinea",
+  "PH": "Philippines",
+  "PK": "Pakistan",
+  "PL": "Poland",
+  "PM": "St Pierre & Miquelon",
+  "PN": "Pitcairn",
+  "PR": "Puerto Rico",
+  "PS": "Palestine",
+  "PT": "Portugal",
+  "PW": "Palau",
+  "PY": "Paraguay",
+  "QA": "Qatar",
+  "RE": "Réunion",
+  "RO": "Romania",
+  "RS": "Serbia",
+  "RU": "Russia",
+  "RW": "Rwanda",
+  "SA": "Saudi Arabia",
+  "SB": "Solomon Islands",
+  "SC": "Seychelles",
+  "SD": "Sudan",
+  "SE": "Sweden",
+  "SG": "Singapore",
+  "SH": "St Helena",
+  "SI": "Slovenia",
+  "SJ": "Svalbard & Jan Mayen",
+  "SK": "Slovakia",
+  "SL": "Sierra Leone",
+  "SM": "San Marino",
+  "SN": "Senegal",
+  "SO": "Somalia",
+  "SR": "Suriname",
+  "SS": "South Sudan",
+  "ST": "Sao Tome & Principe",
+  "SV": "El Salvador",
+  "SX": "St Maarten (Dutch)",
+  "SY": "Syria",
+  "SZ": "Eswatini (Swaziland)",
+  "TC": "Turks & Caicos Is",
+  "TD": "Chad",
+  "TF": "French S. Terr.",
+  "TG": "Togo",
+  "TH": "Thailand",
+  "TJ": "Tajikistan",
+  "TK": "Tokelau",
+  "TL": "East Timor",
+  "TM": "Turkmenistan",
+  "TN": "Tunisia",
+  "TO": "Tonga",
+  "TR": "Turkey",
+  "TT": "Trinidad & Tobago",
+  "TV": "Tuvalu",
+  "TW": "Taiwan",
+  "TZ": "Tanzania",
+  "UA": "Ukraine",
+  "UG": "Uganda",
+  "UM": "US minor outlying islands",
+  "US": "United States",
+  "UY": "Uruguay",
+  "UZ": "Uzbekistan",
+  "VA": "Vatican City",
+  "VC": "St Vincent",
+  "VE": "Venezuela",
+  "VG": "Virgin Islands (UK)",
+  "VI": "Virgin Islands (US)",
+  "VN": "Vietnam",
+  "VU": "Vanuatu",
+  "WF": "Wallis & Futuna",
+  "WS": "Samoa (western)",
+  "YE": "Yemen",
+  "YT": "Mayotte",
+  "ZA": "South Africa",
+  "ZM": "Zambia",
+  "ZW": "Zimbabwe"
+ },
+ "generated": "2026-10-18",
+ "rights": {
+  "Bundesliga": {
+   "DE": {
+    "channels": [
+     "Sky Sport",
+     "DAZN",
+     "Sat.1"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://en.wikipedia.org/wiki/Bundesliga#Broadcasting"
+   },
+   "ES": {
+    "channels": [
+     "DAZN"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://cybernews.com/stream-online/how-to-watch-2-bundesliga-2026-27-live-streams-and-tv-channels/"
+   },
+   "FR": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.footmarseille.com/154932-154932"
+   },
+   "GB": {
+    "channels": [
+     "Sky Sports",
+     "Prime Video",
+     "BBC"
+    ],
+    "checked": "2026-10-18",
+    "note": "Prime Video has Sunday matches; BBC one match a week",
+    "source": "https://www.livesoccertv.com/competitions/germany/bundesliga/watch/great-britain/"
+   },
+   "IE": {
+    "channels": [
+     "Sky Sports",
+     "Prime Video"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.livesoccertv.com/competitions/germany/bundesliga/watch/great-britain/"
+   }
+  },
+  "Champions League": {
+   "AE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AG": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AI": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AL": {
+    "channels": [
+     "Top Channel",
+     "Tring Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AM": {
+    "channels": [
+     "Fast Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AO": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AT": {
+    "channels": [
+     "Sky Sport",
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AU": {
+    "channels": [
+     "Stan Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AW": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "AZ": {
+    "channels": [
+     "CBC Sport",
+     "İTV",
+     "SportTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BA": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BB": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BD": {
+    "channels": [
+     "tapmad",
+     "Sony Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BE": {
+    "channels": [
+     "RTL/VTM",
+     "Proximus",
+     "Play Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BF": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BG": {
+    "channels": [
+     "bTV",
+     "Max Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BI": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BJ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BN": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BQ": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BR": {
+    "channels": [
+     "TNT Sports",
+     "SBT",
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BS": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BT": {
+    "channels": [
+     "Sony Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BY": {
+    "channels": [
+     "Sport TV",
+     "Okko"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "BZ": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CA": {
+    "channels": [
+     "DAZN",
+     "OneSoccer"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CD": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CF": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CH": {
+    "channels": [
+     "SRG SSR",
+     "Blue Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CI": {
+    "channels": [
+     "NCI",
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CL": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CM": {
+    "channels": [
+     "CRTV",
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CN": {
+    "channels": [
+     "iQIYI"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CV": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CW": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CY": {
+    "channels": [
+     "CYTA"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "CZ": {
+    "channels": [
+     "Nova Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "DE": {
+    "channels": [
+     "DAZN",
+     "Prime Video",
+     "ZDF"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "DJ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "DK": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "DM": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "DO": {
+    "channels": [
+     "Rush Sports",
+     "Antena 7"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "DZ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "EC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "EE": {
+    "channels": [
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "EG": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ER": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ES": {
+    "channels": [
+     "Movistar Plus+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ET": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "FI": {
+    "channels": [
+     "MTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "FJ": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "FM": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "FR": {
+    "channels": [
+     "Canal+",
+     "M6"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GB": {
+    "channels": [
+     "TNT Sports/Channel 5 (2026-27 only)",
+     "Prime Video",
+     "BBC"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GD": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GE": {
+    "channels": [
+     "Setanta Sports",
+     "Silk Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GH": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GI": {
+    "channels": [
+     "Gibtelecom"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GM": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GN": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GQ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GR": {
+    "channels": [
+     "MEGA",
+     "Magenta Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GT": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "GY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "HK": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "HN": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "HR": {
+    "channels": [
+     "HRT",
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "HT": {
+    "channels": [
+     "Rush Sports",
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "HU": {
+    "channels": [
+     "RTL",
+     "Sport1"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ID": {
+    "channels": [
+     "beIN Sports",
+     "Emtek"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "IE": {
+    "channels": [
+     "RTÉ",
+     "Premier Sports",
+     "Virgin Media",
+     "TNT Sports",
+     "Prime Video"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "IL": {
+    "channels": [
+     "Sports Channel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "IN": {
+    "channels": [
+     "Sony Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "IQ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "IS": {
+    "channels": [
+     "Sýn",
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "IT": {
+    "channels": [
+     "Sky Sport",
+     "Prime Video"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "JM": {
+    "channels": [
+     "Rush Sports",
+     "TVJ"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "JO": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "JP": {
+    "channels": [
+     "WOWOW"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KE": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KG": {
+    "channels": [
+     "Q Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KI": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KN": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KR": {
+    "channels": [
+     "SPOTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KW": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KY": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "KZ": {
+    "channels": [
+     "Qazsport",
+     "Q Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LB": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LC": {
+    "channels": [
+     "Rush Sports",
+     "Winners Sports TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LK": {
+    "channels": [
+     "Sony Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LR": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LS": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LT": {
+    "channels": [
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LU": {
+    "channels": [
+     "RTL",
+     "Proximus"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LV": {
+    "channels": [
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "LY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MD": {
+    "channels": [
+     "Jurnal TV",
+     "Setanta Sports",
+     "WESport TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ME": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MH": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MK": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ML": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MM": {
+    "channels": [
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MN": {
+    "channels": [
+     "PSN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MO": {
+    "channels": [
+     "TDM"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MR": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MS": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MT": {
+    "channels": [
+     "PBS",
+     "TSN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MU": {
+    "channels": [
+     "MBC",
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MV": {
+    "channels": [
+     "Sony Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MX": {
+    "channels": [
+     "Fox",
+     "TNT Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "MZ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NE": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NI": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NL": {
+    "channels": [
+     "Ziggo Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NO": {
+    "channels": [
+     "TV2"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NP": {
+    "channels": [
+     "Sony Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NR": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "NZ": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "OM": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PA": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PG": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PK": {
+    "channels": [
+     "Sony Sports Network",
+     "tapmad"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PL": {
+    "channels": [
+     "TVP",
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PS": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PT": {
+    "channels": [
+     "DAZN",
+     "Sport TV",
+     "LiveModeTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PW": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "PY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "QA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "RO": {
+    "channels": [
+     "Digi Sport",
+     "Prima Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "RS": {
+    "channels": [
+     "RTS",
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "RU": {
+    "channels": [
+     "Okko"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "RW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SB": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SC": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SD": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SE": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SG": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SI": {
+    "channels": [
+     "Pro Plus",
+     "Sport Klub"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SK": {
+    "channels": [
+     "Nova Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SL": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SN": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SO": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SR": {
+    "channels": [
+     "ESPN",
+     "ATV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SS": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ST": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SV": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SX": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "SZ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TC": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TD": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TJ": {
+    "channels": [
+     "Varzish TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TL": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TN": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TO": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TR": {
+    "channels": [
+     "TRT"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TT": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TV": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TW": {
+    "channels": [
+     "ELTA"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "TZ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "UA": {
+    "channels": [
+     "Megogo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "UG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "US": {
+    "channels": [
+     "CBS/Paramount+",
+     "TelevisaUnivision",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "UY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "UZ": {
+    "channels": [
+     "Zo'r TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "VC": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "VE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "VG": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "VN": {
+    "channels": [
+     "VTVcab",
+     "Viettel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "VU": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "WS": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "XK": {
+    "channels": [
+     "RTK",
+     "ArtMotion"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "YE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ZA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ZM": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   },
+   "ZW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "New World TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843"
+   }
+  },
+  "Conference League": {
+   "ES": {
+    "channels": [
+     "Movistar Plus+"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters"
+   },
+   "FR": {
+    "channels": [
+     "Canal+"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters"
+   },
+   "GB": {
+    "channels": [
+     "TNT Sports"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.livesoccertv.com/competitions/international/uefa-europa-conference-league/watch/great-britain/"
+   },
+   "PT": {
+    "channels": [
+     "DAZN",
+     "Sport TV"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters"
+   },
+   "US": {
+    "channels": [
+     "CBS/Paramount+"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.goal.com/en-us/news/watch-live-stream-conference-league-soccer/blt6e1dc67c5fa7cf6a"
+   }
+  },
+  "Eredivisie": {
+   "NL": {
+    "channels": [
+     "ESPN",
+     "NOS (highlights)"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://en.wikipedia.org/wiki/Eredivisie"
+   },
+   "US": {
+    "channels": [
+     "ESPN"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://worldsoccertalk.com/eredivisie-tv-schedule/"
+   }
+  },
+  "Europa League": {
+   "ES": {
+    "channels": [
+     "Movistar Plus+"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.sportcal.com/media/uefa-rights-bonanza-across-europe-dazn-movistar-canal-all-consolidate/"
+   },
+   "FR": {
+    "channels": [
+     "Canal+"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.lephoceen.fr/infos-om/vdm/tv-ligue-1-canal-dazn-bein-disney-qui-diffuse-quelles-competitions-cette-saison-237238"
+   },
+   "GB": {
+    "channels": [
+     "TNT Sports"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.broadbandtvnews.com/2025/11/21/uefa-renewals-who-has-the-rights/"
+   },
+   "PT": {
+    "channels": [
+     "DAZN",
+     "Sport TV"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://tv-sports-rights.fandom.com/wiki/List_of_UEFA_Europa_League_Broadcasters"
+   },
+   "US": {
+    "channels": [
+     "CBS/Paramount+"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.goal.com/en-us/news/watch-live-stream-conference-league-soccer/blt6e1dc67c5fa7cf6a"
+   }
+  },
+  "La Liga": {
+   "AE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AF": {
+    "channels": [
+     "AF Sports",
+     "Meraj Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AG": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AI": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AL": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AM": {
+    "channels": [
+     "Fast Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AO": {
+    "channels": [
+     "ZAP",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AR": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AT": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AU": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AW": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "AZ": {
+    "channels": [
+     "Setanta Sports",
+     "Idman TV",
+     "SportTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BA": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BB": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BD": {
+    "channels": [
+     "T Sports",
+     "Tapmad"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BE": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BF": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BG": {
+    "channels": [
+     "Max Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BI": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BJ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BN": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BO": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BQ": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BR": {
+    "channels": [
+     "CazéTV",
+     "SportyNet"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BS": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "BY": {
+    "channels": [
+     "Kinopoisk",
+     "Belarus 5"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CA": {
+    "channels": [
+     "TSN/RDS"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CD": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CF": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CH": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CI": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CL": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CM": {
+    "channels": [
+     "CRTV Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CN": {
+    "channels": [
+     "Migu",
+     "CCTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CO": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CR": {
+    "channels": [
+     "Sky Sports",
+     "Vix+ en Tigo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CU": {
+    "channels": [
+     "Tele Rebelde"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CV": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CW": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CY": {
+    "channels": [
+     "Cytavision Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "CZ": {
+    "channels": [
+     "Nova Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "DE": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "DJ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "DK": {
+    "channels": [
+     "Disney+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "DM": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "DO": {
+    "channels": [
+     "Rush Sports",
+     "Sky Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "DZ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "EC": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "EE": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "EG": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ER": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ES": {
+    "channels": [
+     "Movistar Plus+",
+     "DAZN"
+    ],
+    "checked": "2026-10-18",
+    "note": "Five matches each per matchday; one free match per matchday",
+    "source": "https://www.que.es/2026/07/21/donde-ver-laliga-2026-2027-movistar-dazn/"
+   },
+   "ET": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "FI": {
+    "channels": [
+     "Disney+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "FJ": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "FM": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "FR": {
+    "channels": [
+     "Disney+",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GB": {
+    "channels": [
+     "Premier Sports",
+     "Disney+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GD": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GE": {
+    "channels": [
+     "Silk Sport",
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GH": {
+    "channels": [
+     "Sporty TV",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GM": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GN": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GQ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GR": {
+    "channels": [
+     "Magenta Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GT": {
+    "channels": [
+     "Sky Sports",
+     "Vix+ en Tigo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "GW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "HK": {
+    "channels": [
+     "Now Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "HN": {
+    "channels": [
+     "Sky Sports",
+     "Vix+ en Tigo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "HR": {
+    "channels": [
+     "Sport Klub"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "HT": {
+    "channels": [
+     "Rush Sports",
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "HU": {
+    "channels": [
+     "Spíler TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ID": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "IE": {
+    "channels": [
+     "Premier Sports",
+     "Disney+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "IN": {
+    "channels": [
+     "FanCode"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "IQ": {
+    "channels": [
+     "beIN Sports",
+     "1001"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "IR": {
+    "channels": [
+     "IRIB Varzesh",
+     "Gem Sport",
+     "Persiana Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "IS": {
+    "channels": [
+     "Disney+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "IT": {
+    "channels": [
+     "DAZN",
+     "Mediaset"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "JM": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "JO": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "JP": {
+    "channels": [
+     "DAZN",
+     "U-Next"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KE": {
+    "channels": [
+     "Sporty TV",
+     "Azam Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KG": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KI": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KN": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KR": {
+    "channels": [
+     "Coupang Play"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KW": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KY": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "KZ": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LB": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LC": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LI": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LK": {
+    "channels": [
+     "Begin"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LR": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LS": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LT": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LU": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LV": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "LY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MD": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ME": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MH": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MK": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ML": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MO": {
+    "channels": [
+     "TDM",
+     "Macau Cable TV",
+     "M Plus"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MR": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MS": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MT": {
+    "channels": [
+     "Total Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MU": {
+    "channels": [
+     "MBC",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MV": {
+    "channels": [
+     "ICE Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MW": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MX": {
+    "channels": [
+     "Sky Sports",
+     "Canal 5"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "MZ": {
+    "channels": [
+     "ZAP",
+     "TV Miramar",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NE": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NG": {
+    "channels": [
+     "Sporty TV",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NI": {
+    "channels": [
+     "Sky Sports",
+     "Vix+ en Tigo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NL": {
+    "channels": [
+     "Ziggo Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NO": {
+    "channels": [
+     "TV 2 Sport",
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NP": {
+    "channels": [
+     "DGO"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NR": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "NZ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "OM": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PA": {
+    "channels": [
+     "Sky Sports",
+     "Vix+ en Tigo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PE": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PG": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PH": {
+    "channels": [
+     "beIN Sports",
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PK": {
+    "channels": [
+     "Begin"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PL": {
+    "channels": [
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PS": {
+    "channels": [
+     "beIN Sports",
+     "ONE"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PT": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PW": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "PY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "QA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "RO": {
+    "channels": [
+     "Digi Sport",
+     "Prima Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "RS": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "RU": {
+    "channels": [
+     "Match TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "RW": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SB": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SC": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SD": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SE": {
+    "channels": [
+     "Disney+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SG": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SI": {
+    "channels": [
+     "Sport Klub"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SK": {
+    "channels": [
+     "Nova Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SL": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SM": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SN": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SO": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SR": {
+    "channels": [
+     "Rush Sports",
+     "ABC",
+     "ATV",
+     "QN Sport",
+     "SCCN",
+     "STVS"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SS": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ST": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SV": {
+    "channels": [
+     "Sky Sports",
+     "Vix+ en Tigo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SX": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "SZ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TC": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TD": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TH": {
+    "channels": [
+     "beIN Sports",
+     "PPTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TJ": {
+    "channels": [
+     "Setanta Sports",
+     "Varzish TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TM": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TN": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TO": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TR": {
+    "channels": [
+     "S Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TT": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TV": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TW": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "TZ": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "UA": {
+    "channels": [
+     "MEGOGO"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "UG": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "US": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "UY": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "UZ": {
+    "channels": [
+     "Setanta Sports",
+     "Zo'r TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "VC": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "VE": {
+    "channels": [
+     "ESPN",
+     "DSports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "VG": {
+    "channels": [
+     "Rush Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "VN": {
+    "channels": [
+     "SCTV",
+     "On Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "VU": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "WS": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "XK": {
+    "channels": [
+     "Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "YE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ZA": {
+    "channels": [
+     "Sporty TV",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ZM": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   },
+   "ZW": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport",
+     "Canal+ Afrique",
+     "StarTimes",
+     "New World TV",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166"
+   }
+  },
+  "Ligue 1": {
+   "AD": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AL": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AM": {
+    "channels": [
+     "Fast Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AO": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AT": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AU": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "AZ": {
+    "channels": [
+     "Setanta Sports",
+     "SportTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BA": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BD": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BE": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BF": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BG": {
+    "channels": [
+     "Diema Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BI": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BJ": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BN": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BR": {
+    "channels": [
+     "CazéTV",
+     "XSports",
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BT": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BW": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BY": {
+    "channels": [
+     "Kinopoisk"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "BZ": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CD": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CF": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CG": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CH": {
+    "channels": [
+     "DAZN",
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CI": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CL": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CM": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CN": {
+    "channels": [
+     "Migu",
+     "CCTV-5"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CV": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CY": {
+    "channels": [
+     "Cablenet Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "CZ": {
+    "channels": [
+     "Nova Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "DE": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "DJ": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "DK": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "DZ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "EC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "EE": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "EG": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ER": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ES": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ET": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "FI": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "FR": {
+    "channels": [
+     "Ligue 1+"
+    ],
+    "checked": "2026-10-18",
+    "note": "All 306 matches",
+    "source": "https://www.sportsillustrated.fr/football/ligue-1-2026-2027-abonnements-tarifs-diffusion-le-guide-complet-pour-ne-rien-manquer/"
+   },
+   "GA": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GB": {
+    "channels": [
+     "Ligue 1+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GE": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GH": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GM": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GN": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GQ": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GR": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GT": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GW": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "GY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "HK": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "HN": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "HR": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "HU": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ID": {
+    "channels": [
+     "Emtek"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "IE": {
+    "channels": [
+     "Ligue 1+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "IL": {
+    "channels": [
+     "Sport5"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "IN": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "IQ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "IR": {
+    "channels": [
+     "Persiana Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "IS": {
+    "channels": [
+     "Livey"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "IT": {
+    "channels": [
+     "Ligue 1+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "JO": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "JP": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "KE": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "KG": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "KH": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "KR": {
+    "channels": [
+     "Coupang Play"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "KW": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "KZ": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LA": {
+    "channels": [
+     "JAS"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LB": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LI": {
+    "channels": [
+     "DAZN",
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LK": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LR": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LS": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LT": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LU": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LV": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "LY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MD": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ME": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MG": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MK": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ML": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MM": {
+    "channels": [
+     "Bebee TV Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MR": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MT": {
+    "channels": [
+     "TVMSport+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MU": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MV": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MW": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MX": {
+    "channels": [
+     "Fox"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MY": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "MZ": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NA": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NE": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NG": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NI": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NL": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NO": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NP": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "NZ": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "OM": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PA": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PH": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PK": {
+    "channels": [
+     "Star Sports",
+     "Tapmad"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PL": {
+    "channels": [
+     "Eleven Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PR": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PS": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PT": {
+    "channels": [
+     "Sport TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "PY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "QA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "RO": {
+    "channels": [
+     "Voyo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "RS": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "RU": {
+    "channels": [
+     "Okko Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "RW": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SC": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SD": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SE": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SG": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SI": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SK": {
+    "channels": [
+     "Nova Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SL": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SM": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SN": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SO": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SR": {
+    "channels": [
+     "ESPN",
+     "STVS"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SS": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ST": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SV": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "SZ": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TD": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TG": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TH": {
+    "channels": [
+     "MONOMAX"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TJ": {
+    "channels": [
+     "Setanta Sports",
+     "Varzish TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TM": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TN": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TR": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TW": {
+    "channels": [
+     "ELTA"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "TZ": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "UA": {
+    "channels": [
+     "MEGOGO"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "UG": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "US": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "UY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "UZ": {
+    "channels": [
+     "Setanta Sports",
+     "Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "VE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "VN": {
+    "channels": [
+     "ON Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "XK": {
+    "channels": [
+     "Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "YE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ZA": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ZM": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   },
+   "ZW": {
+    "channels": [
+     "Canal+ Afrique",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583"
+   }
+  },
+  "Premier League": {
+   "AD": {
+    "channels": [
+     "DAZN",
+     "Movistar Plus+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AF": {
+    "channels": [
+     "Meraj Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AG": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AI": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AL": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AM": {
+    "channels": [
+     "Fast Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AO": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AT": {
+    "channels": [
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AU": {
+    "channels": [
+     "Stan Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AW": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "AZ": {
+    "channels": [
+     "Setanta Sports",
+     "Idman TV",
+     "SportTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BA": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BB": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BD": {
+    "channels": [
+     "Myco",
+     "Bongo",
+     "Toffee",
+     "Rajdhani TV",
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BE": {
+    "channels": [
+     "Play Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BF": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BH": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BI": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BJ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "SRTB"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BQ": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BR": {
+    "channels": [
+     "ESPN",
+     "CazéTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BS": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BT": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "YTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BY": {
+    "channels": [
+     "TBD"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "BZ": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CA": {
+    "channels": [
+     "fuboTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CD": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CF": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CH": {
+    "channels": [
+     "Sky Sport",
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CI": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "NCI"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CL": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CM": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CN": {
+    "channels": [
+     "Migu",
+     "CCTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CR": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox",
+     "Teletica"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CV": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CW": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CY": {
+    "channels": [
+     "Cytavision Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "CZ": {
+    "channels": [
+     "Canal+ Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "DE": {
+    "channels": [
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "DJ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "DK": {
+    "channels": [
+     "Viaplay",
+     "Prime Video"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "DM": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "DO": {
+    "channels": [
+     "ESPN",
+     "Warner Bros. Discovery"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "DZ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "EC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "EE": {
+    "channels": [
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "EG": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ER": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ES": {
+    "channels": [
+     "DAZN",
+     "Movistar Plus+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ET": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "FI": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "FJ": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "FM": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "FR": {
+    "channels": [
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GB": {
+    "channels": [
+     "Sky Sports",
+     "TNT Sports"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.premierleague.com/en/about/faq/broadcast"
+   },
+   "GD": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GE": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GH": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "SportyTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GM": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GN": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GQ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GR": {
+    "channels": [
+     "Nova Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GT": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "GY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "HK": {
+    "channels": [
+     "now TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "HN": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox",
+     "TVC"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "HR": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "HT": {
+    "channels": [
+     "ESPN",
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "HU": {
+    "channels": [
+     "Spíler TV",
+     "Arena4"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ID": {
+    "channels": [
+     "Emtek"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "IE": {
+    "channels": [
+     "Premier Sports",
+     "Sky Sports",
+     "TNT Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "IL": {
+    "channels": [
+     "Sport 1"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "IN": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "IQ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "IR": {
+    "channels": [
+     "IRIB Varzesh",
+     "Gem Sport",
+     "Persiana Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "IS": {
+    "channels": [
+     "Sýn Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "IT": {
+    "channels": [
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "JM": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "JO": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "JP": {
+    "channels": [
+     "U-Next"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KE": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "SportyTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KG": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KH": {
+    "channels": [
+     "JAS/MONOMAX"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KI": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KN": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KR": {
+    "channels": [
+     "Coupang Play"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KW": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "KZ": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LA": {
+    "channels": [
+     "JAS/MONOMAX"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LB": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LI": {
+    "channels": [
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LK": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LR": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LS": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LT": {
+    "channels": [
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LU": {
+    "channels": [
+     "Sky Sport",
+     "Play Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LV": {
+    "channels": [
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "LY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MD": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ME": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MH": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MK": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ML": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MM": {
+    "channels": [
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MN": {
+    "channels": [
+     "Premier Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MO": {
+    "channels": [
+     "M Plus"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MR": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MS": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MT": {
+    "channels": [
+     "Total Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MU": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MV": {
+    "channels": [
+     "Star Sports",
+     "ICE Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MX": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MY": {
+    "channels": [
+     "Astro Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "MZ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "TV Miramar"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "One Africa TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NE": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "SportyTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NI": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NL": {
+    "channels": [
+     "Viaplay",
+     "Prime Video"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NO": {
+    "channels": [
+     "Viaplay"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NP": {
+    "channels": [
+     "Star Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NR": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "NZ": {
+    "channels": [
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "OM": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PA": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PG": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PH": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PK": {
+    "channels": [
+     "Star Sports",
+     "Myco"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PL": {
+    "channels": [
+     "Canal+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PR": {
+    "channels": [
+     "NBC/Telemundo",
+     "USA Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PS": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PT": {
+    "channels": [
+     "DAZN",
+     "LiveModeTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PW": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "PY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "QA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "RO": {
+    "channels": [
+     "Voyo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "RS": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "RW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SA": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SB": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SC": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SD": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SE": {
+    "channels": [
+     "Viaplay",
+     "Prime Video"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SG": {
+    "channels": [
+     "StarHub"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SI": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SK": {
+    "channels": [
+     "Canal+ Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SL": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SM": {
+    "channels": [
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SN": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "RTS"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SO": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SR": {
+    "channels": [
+     "ESPN",
+     "ABC",
+     "ATV",
+     "SCCN",
+     "STVS",
+     "QN Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SS": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ST": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SV": {
+    "channels": [
+     "Warner Bros. Discovery",
+     "Fox",
+     "TCS"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SX": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SY": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "SZ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "Eswatini TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TD": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TH": {
+    "channels": [
+     "JAS/MONOMAX"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TJ": {
+    "channels": [
+     "Setanta Sports",
+     "Varzish TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TM": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TN": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TO": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TR": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TT": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TV": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TW": {
+    "channels": [
+     "ELTA"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "TZ": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "UTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "UA": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "UG": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "NBS Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "US": {
+    "channels": [
+     "NBC/Telemundo",
+     "USA Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "UY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "UZ": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "VC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "VE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "VG": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "VN": {
+    "channels": [
+     "FPT (from January 2026)",
+     "K+ (until December 2025)",
+     "FPT"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "VU": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "WS": {
+    "channels": [
+     "Digicel"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "XK": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "YE": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ZA": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "SABC Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ZM": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique",
+     "ZNBC"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   },
+   "ZW": {
+    "channels": [
+     "SuperSport",
+     "Canal+ Afrique"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622"
+   }
+  },
+  "Primeira Liga": {
+   "DE": {
+    "channels": [
+     "Sportdigital"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://www.broadbandtvnews.com/2026/08/03/sportdigital-secures-liga-portugal-rights-until-2028/"
+   },
+   "ES": {
+    "channels": [
+     "DAZN"
+    ],
+    "checked": "2026-10-18",
+    "note": "Three matches per matchday",
+    "source": "https://senalnews.com/en/content/dazn-get-the-rights-of-three-liga-portugal-matches-for-spain/amp"
+   },
+   "US": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "checked": "2026-10-18",
+    "source": "https://worldsoccertalk.com/primeira-liga-tv-schedule/"
+   }
+  },
+  "Serie A": {
+   "AD": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AE": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AG": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AI": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AL": {
+    "channels": [
+     "Tring Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AM": {
+    "channels": [
+     "Fast Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AO": {
+    "channels": [
+     "Z Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AT": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AU": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AW": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "AZ": {
+    "channels": [
+     "SportTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BA": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BB": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BD": {
+    "channels": [
+     "Myco"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BE": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BF": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BG": {
+    "channels": [
+     "Max Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BH": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports",
+     "STC TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BI": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BJ": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BQ": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BR": {
+    "channels": [
+     "ESPN",
+     "SportyNet",
+     "CazéTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BS": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BW": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "BY": {
+    "channels": [
+     "Sport TV",
+     "Kinopoisk"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CA": {
+    "channels": [
+     "fubo TV",
+     "TLN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CD": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CF": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CG": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CH": {
+    "channels": [
+     "DAZN",
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CI": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CL": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CM": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CN": {
+    "channels": [
+     "Migu"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CR": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CU": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CV": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CW": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CY": {
+    "channels": [
+     "Cytavision Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "CZ": {
+    "channels": [
+     "Sport1"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "DE": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "DJ": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "DK": {
+    "channels": [
+     "TV 2 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "DM": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "DO": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "DZ": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "EC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "EE": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "EG": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ER": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ES": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ET": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "FI": {
+    "channels": [
+     "MTV Urheilu"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "FR": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GA": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GB": {
+    "channels": [
+     "TNT Sports",
+     "DAZN",
+     "BBC Alba/BBC iPlayer"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GD": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GE": {
+    "channels": [
+     "Silk Sport",
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GH": {
+    "channels": [
+     "SportyTV",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GM": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GN": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GQ": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GR": {
+    "channels": [
+     "Magenta Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GT": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "GW": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "HK": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "HN": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "HR": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "HT": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "HU": {
+    "channels": [
+     "Arena4"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ID": {
+    "channels": [
+     "Emtek",
+     "ANTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "IE": {
+    "channels": [
+     "TNT Sports",
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "IL": {
+    "channels": [
+     "ONE"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "IN": {
+    "channels": [
+     "Unite8 Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "IQ": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports",
+     "Alrabiaa TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "IR": {
+    "channels": [
+     "Gem Sport",
+     "Persiana Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "IS": {
+    "channels": [
+     "Livey"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "JM": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "JO": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "JP": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "KE": {
+    "channels": [
+     "Azam Sports",
+     "SportyTV",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "KG": {
+    "channels": [
+     "Q Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "KN": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "KR": {
+    "channels": [
+     "SPOTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "KW": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports",
+     "STC TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "KY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "KZ": {
+    "channels": [
+     "Q Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LB": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LI": {
+    "channels": [
+     "DAZN",
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LR": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LS": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LT": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LU": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LV": {
+    "channels": [
+     "Setanta Sports",
+     "Go3 Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "LY": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MA": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MD": {
+    "channels": [
+     "Setanta Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ME": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MG": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MK": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ML": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MM": {
+    "channels": [
+     "Bebee TV Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MO": {
+    "channels": [
+     "Macau Cable TV",
+     "M Plus"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MR": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MS": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MT": {
+    "channels": [
+     "Total Sports Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MU": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MV": {
+    "channels": [
+     "ICE Network"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MW": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MX": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MY": {
+    "channels": [
+     "Astro Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "MZ": {
+    "channels": [
+     "Z Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "NA": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "NE": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "NG": {
+    "channels": [
+     "SportyTV",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "NI": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "NL": {
+    "channels": [
+     "Ziggo Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "NO": {
+    "channels": [
+     "VG+"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "NZ": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "OM": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PA": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PK": {
+    "channels": [
+     "Begin"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PL": {
+    "channels": [
+     "Eleven Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PR": {
+    "channels": [
+     "Paramount+",
+     "Telemundo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PS": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PT": {
+    "channels": [
+     "Sport TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "PY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "QA": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "RO": {
+    "channels": [
+     "Digi Sport",
+     "Prima Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "RS": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "RU": {
+    "channels": [
+     "Match TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "RW": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SA": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports",
+     "STC TV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SC": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SD": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SE": {
+    "channels": [
+     "TV4"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SI": {
+    "channels": [
+     "Arena Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SK": {
+    "channels": [
+     "Sport1"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SL": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SM": {
+    "channels": [
+     "DAZN",
+     "Sky Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SN": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SO": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SR": {
+    "channels": [
+     "ATV",
+     "QN Sport",
+     "SCCN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SS": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ST": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SV": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SX": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SY": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "SZ": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TD": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TG": {
+    "channels": [
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TH": {
+    "channels": [
+     "TrueVisions"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TN": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TR": {
+    "channels": [
+     "S Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TT": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TW": {
+    "channels": [
+     "ELTA"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "TZ": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "UA": {
+    "channels": [
+     "MEGOGO"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "UG": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "US": {
+    "channels": [
+     "Paramount+",
+     "Telemundo"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "UY": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "VC": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "VE": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "VG": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "VN": {
+    "channels": [
+     "MyTV"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "XK": {
+    "channels": [
+     "Sport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "YE": {
+    "channels": [
+     "StarzPlay",
+     "Shasha Sports"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ZA": {
+    "channels": [
+     "SportyTV",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ZM": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   },
+   "ZW": {
+    "channels": [
+     "Azam Sports",
+     "SuperSport"
+    ],
+    "source": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+   }
+  }
+ },
+ "sources": {
+  "Champions League": "https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Champions_League_broadcasters&oldid=1380432843",
+  "La Liga": "https://en.wikipedia.org/w/index.php?title=List_of_La_Liga_broadcasters&oldid=1379346166",
+  "Ligue 1": "https://en.wikipedia.org/w/index.php?title=Ligue_1&oldid=1380853583",
+  "Premier League": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_overseas_broadcasters&oldid=1375848622",
+  "Serie A": "https://en.wikipedia.org/w/index.php?title=List_of_Serie_A_broadcasters&oldid=1375414697"
+ },
+ "timezones": {
+  "Africa/Abidjan": "CI",
+  "Africa/Accra": "GH",
+  "Africa/Addis_Ababa": "ET",
+  "Africa/Algiers": "DZ",
+  "Africa/Asmara": "ER",
+  "Africa/Bamako": "ML",
+  "Africa/Bangui": "CF",
+  "Africa/Banjul": "GM",
+  "Africa/Bissau": "GW",
+  "Africa/Blantyre": "MW",
+  "Africa/Brazzaville": "CG",
+  "Africa/Bujumbura": "BI",
+  "Africa/Cairo": "EG",
+  "Africa/Casablanca": "MA",
+  "Africa/Ceuta": "ES",
+  "Africa/Conakry": "GN",
+  "Africa/Dakar": "SN",
+  "Africa/Dar_es_Salaam": "TZ",
+  "Africa/Djibouti": "DJ",
+  "Africa/Douala": "CM",
+  "Africa/El_Aaiun": "EH",
+  "Africa/Freetown": "SL",
+  "Africa/Gaborone": "BW",
+  "Africa/Harare": "ZW",
+  "Africa/Johannesburg": "ZA",
+  "Africa/Juba": "SS",
+  "Africa/Kampala": "UG",
+  "Africa/Khartoum": "SD",
+  "Africa/Kigali": "RW",
+  "Africa/Kinshasa": "CD",
+  "Africa/Lagos": "NG",
+  "Africa/Libreville": "GA",
+  "Africa/Lome": "TG",
+  "Africa/Luanda": "AO",
+  "Africa/Lubumbashi": "CD",
+  "Africa/Lusaka": "ZM",
+  "Africa/Malabo": "GQ",
+  "Africa/Maputo": "MZ",
+  "Africa/Maseru": "LS",
+  "Africa/Mbabane": "SZ",
+  "Africa/Mogadishu": "SO",
+  "Africa/Monrovia": "LR",
+  "Africa/Nairobi": "KE",
+  "Africa/Ndjamena": "TD",
+  "Africa/Niamey": "NE",
+  "Africa/Nouakchott": "MR",
+  "Africa/Ouagadougou": "BF",
+  "Africa/Porto-Novo": "BJ",
+  "Africa/Sao_Tome": "ST",
+  "Africa/Tripoli": "LY",
+  "Africa/Tunis": "TN",
+  "Africa/Windhoek": "NA",
+  "America/Adak": "US",
+  "America/Anchorage": "US",
+  "America/Anguilla": "AI",
+  "America/Antigua": "AG",
+  "America/Araguaina": "BR",
+  "America/Argentina/Buenos_Aires": "AR",
+  "America/Argentina/Catamarca": "AR",
+  "America/Argentina/Cordoba": "AR",
+  "America/Argentina/Jujuy": "AR",
+  "America/Argentina/La_Rioja": "AR",
+  "America/Argentina/Mendoza": "AR",
+  "America/Argentina/Rio_Gallegos": "AR",
+  "America/Argentina/Salta": "AR",
+  "America/Argentina/San_Juan": "AR",
+  "America/Argentina/San_Luis": "AR",
+  "America/Argentina/Tucuman": "AR",
+  "America/Argentina/Ushuaia": "AR",
+  "America/Aruba": "AW",
+  "America/Asuncion": "PY",
+  "America/Atikokan": "CA",
+  "America/Bahia": "BR",
+  "America/Bahia_Banderas": "MX",
+  "America/Barbados": "BB",
+  "America/Belem": "BR",
+  "America/Belize": "BZ",
+  "America/Blanc-Sablon": "CA",
+  "America/Boa_Vista": "BR",
+  "America/Bogota": "CO",
+  "America/Boise": "US",
+  "America/Cambridge_Bay": "CA",
+  "America/Campo_Grande": "BR",
+  "America/Cancun": "MX",
+  "America/Caracas": "VE",
+  "America/Cayenne": "GF",
+  "America/Cayman": "KY",
+  "America/Chicago": "US",
+  "America/Chihuahua": "MX",
+  "America/Ciudad_Juarez": "MX",
+  "America/Costa_Rica": "CR",
+  "America/Coyhaique": "CL",
+  "America/Creston": "CA",
+  "America/Cuiaba": "BR",
+  "America/Curacao": "CW",
+  "America/Danmarkshavn": "GL",
+  "America/Dawson": "CA",
+  "America/Dawson_Creek": "CA",
+  "America/Denver": "US",
+  "America/Detroit": "US",
+  "America/Dominica": "DM",
+  "America/Edmonton": "CA",
+  "America/Eirunepe": "BR",
+  "America/El_Salvador": "SV",
+  "America/Fort_Nelson": "CA",
+  "America/Fortaleza": "BR",
+  "America/Glace_Bay": "CA",
+  "America/Godthab": "GL",
+  "America/Goose_Bay": "CA",
+  "America/Grand_Turk": "TC",
+  "America/Grenada": "GD",
+  "America/Guadeloupe": "GP",
+  "America/Guatemala": "GT",
+  "America/Guayaquil": "EC",
+  "America/Guyana": "GY",
+  "America/Halifax": "CA",
+  "America/Havana": "CU",
+  "America/Hermosillo": "MX",
+  "America/Indiana/Indianapolis": "US",
+  "America/Indiana/Knox": "US",
+  "America/Indiana/Marengo": "US",
+  "America/Indiana/Petersburg": "US",
+  "America/Indiana/Tell_City": "US",
+  "America/Indiana/Vevay": "US",
+  "America/Indiana/Vincennes": "US",
+  "America/Indiana/Winamac": "US",
+  "America/Inuvik": "CA",
+  "America/Iqaluit": "CA",
+  "America/Jamaica": "JM",
+  "America/Juneau": "US",
+  "America/Kentucky/Louisville": "US",
+  "America/Kentucky/Monticello": "US",
+  "America/Kralendijk": "BQ",
+  "America/La_Paz": "BO",
+  "America/Lima": "PE",
+  "America/Los_Angeles": "US",
+  "America/Lower_Princes": "SX",
+  "America/Maceio": "BR",
+  "America/Managua": "NI",
+  "America/Manaus": "BR",
+  "America/Marigot": "MF",
+  "America/Martinique": "MQ",
+  "America/Matamoros": "MX",
+  "America/Mazatlan": "MX",
+  "America/Menominee": "US",
+  "America/Merida": "MX",
+  "America/Metlakatla": "US",
+  "America/Mexico_City": "MX",
+  "America/Miquelon": "PM",
+  "America/Moncton": "CA",
+  "America/Monterrey": "MX",
+  "America/Montevideo": "UY",
+  "America/Montserrat": "MS",
+  "America/Nassau": "BS",
+  "America/New_York": "US",
+  "America/Nome": "US",
+  "America/Noronha": "BR",
+  "America/North_Dakota/Beulah": "US",
+  "America/North_Dakota/Center": "US",
+  "America/North_Dakota/New_Salem": "US",
+  "America/Nuuk": "GL",
+  "America/Ojinaga": "MX",
+  "America/Panama": "PA",
+  "America/Paramaribo": "SR",
+  "America/Phoenix": "US",
+  "America/Port-au-Prince": "HT",
+  "America/Port_of_Spain": "TT",
+  "America/Porto_Velho": "BR",
+  "America/Puerto_Rico": "PR",
+  "America/Punta_Arenas": "CL",
+  "America/Rankin_Inlet": "CA",
+  "America/Recife": "BR",
+  "America/Regina": "CA",
+  "America/Resolute": "CA",
+  "America/Rio_Branco": "BR",
+  "America/Santarem": "BR",
+  "America/Santiago": "CL",
+  "America/Santo_Domingo": "DO",
+  "America/Sao_Paulo": "BR",
+  "America/Scoresbysund": "GL",
+  "America/Sitka": "US",
+  "America/St_Barthelemy": "BL",
+  "America/St_Johns": "CA",
+  "America/St_Kitts": "KN",
+  "America/St_Lucia": "LC",
+  "America/St_Thomas": "VI",
+  "America/St_Vincent": "VC",
+  "America/Swift_Current": "CA",
+  "America/Tegucigalpa": "HN",
+  "America/Thule": "GL",
+  "America/Tijuana": "MX",
+  "America/Toronto": "CA",
+  "America/Tortola": "VG",
+  "America/Vancouver": "CA",
+  "America/Whitehorse": "CA",
+  "America/Winnipeg": "CA",
+  "America/Yakutat": "US",
+  "Antarctica/Casey": "AQ",
+  "Antarctica/Davis": "AQ",
+  "Antarctica/DumontDUrville": "AQ",
+  "Antarctica/Macquarie": "AU",
+  "Antarctica/Mawson": "AQ",
+  "Antarctica/McMurdo": "AQ",
+  "Antarctica/Palmer": "AQ",
+  "Antarctica/Rothera": "AQ",
+  "Antarctica/Syowa": "AQ",
+  "Antarctica/Troll": "AQ",
+  "Antarctica/Vostok": "AQ",
+  "Arctic/Longyearbyen": "SJ",
+  "Asia/Aden": "YE",
+  "Asia/Almaty": "KZ",
+  "Asia/Amman": "JO",
+  "Asia/Anadyr": "RU",
+  "Asia/Aqtau": "KZ",
+  "Asia/Aqtobe": "KZ",
+  "Asia/Ashgabat": "TM",
+  "Asia/Atyrau": "KZ",
+  "Asia/Baghdad": "IQ",
+  "Asia/Bahrain": "BH",
+  "Asia/Baku": "AZ",
+  "Asia/Bangkok": "TH",
+  "Asia/Barnaul": "RU",
+  "Asia/Beirut": "LB",
+  "Asia/Bishkek": "KG",
+  "Asia/Brunei": "BN",
+  "Asia/Calcutta": "IN",
+  "Asia/Chita": "RU",
+  "Asia/Colombo": "LK",
+  "Asia/Damascus": "SY",
+  "Asia/Dhaka": "BD",
+  "Asia/Dili": "TL",
+  "Asia/Dubai": "AE",
+  "Asia/Dushanbe": "TJ",
+  "Asia/Famagusta": "CY",
+  "Asia/Gaza": "PS",
+  "Asia/Hebron": "PS",
+  "Asia/Ho_Chi_Minh": "VN",
+  "Asia/Hong_Kong": "HK",
+  "Asia/Hovd": "MN",
+  "Asia/Irkutsk": "RU",
+  "Asia/Jakarta": "ID",
+  "Asia/Jayapura": "ID",
+  "Asia/Jerusalem": "IL",
+  "Asia/Kabul": "AF",
+  "Asia/Kamchatka": "RU",
+  "Asia/Karachi": "PK",
+  "Asia/Kathmandu": "NP",
+  "Asia/Khandyga": "RU",
+  "Asia/Kolkata": "IN",
+  "Asia/Krasnoyarsk": "RU",
+  "Asia/Kuala_Lumpur": "MY",
+  "Asia/Kuching": "MY",
+  "Asia/Kuwait": "KW",
+  "Asia/Macau": "MO",
+  "Asia/Magadan": "RU",
+  "Asia/Makassar": "ID",
+  "Asia/Manila": "PH",
+  "Asia/Muscat": "OM",
+  "Asia/Nicosia": "CY",
+  "Asia/Novokuznetsk": "RU",
+  "Asia/Novosibirsk": "RU",
+  "Asia/Omsk": "RU",
+  "Asia/Oral": "KZ",
+  "Asia/Phnom_Penh": "KH",
+  "Asia/Pontianak": "ID",
+  "Asia/Pyongyang": "KP",
+  "Asia/Qatar": "QA",
+  "Asia/Qostanay": "KZ",
+  "Asia/Qyzylorda": "KZ",
+  "Asia/Rangoon": "MM",
+  "Asia/Riyadh": "SA",
+  "Asia/Sakhalin": "RU",
+  "Asia/Samarkand": "UZ",
+  "Asia/Seoul": "KR",
+  "Asia/Shanghai": "CN",
+  "Asia/Singapore": "SG",
+  "Asia/Srednekolymsk": "RU",
+  "Asia/Taipei": "TW",
+  "Asia/Tashkent": "UZ",
+  "Asia/Tbilisi": "GE",
+  "Asia/Tehran": "IR",
+  "Asia/Thimphu": "BT",
+  "Asia/Tokyo": "JP",
+  "Asia/Tomsk": "RU",
+  "Asia/Ulaanbaatar": "MN",
+  "Asia/Urumqi": "CN",
+  "Asia/Ust-Nera": "RU",
+  "Asia/Vientiane": "LA",
+  "Asia/Vladivostok": "RU",
+  "Asia/Yakutsk": "RU",
+  "Asia/Yangon": "MM",
+  "Asia/Yekaterinburg": "RU",
+  "Asia/Yerevan": "AM",
+  "Atlantic/Azores": "PT",
+  "Atlantic/Bermuda": "BM",
+  "Atlantic/Canary": "ES",
+  "Atlantic/Cape_Verde": "CV",
+  "Atlantic/Faroe": "FO",
+  "Atlantic/Madeira": "PT",
+  "Atlantic/Reykjavik": "IS",
+  "Atlantic/South_Georgia": "GS",
+  "Atlantic/St_Helena": "SH",
+  "Atlantic/Stanley": "FK",
+  "Australia/Adelaide": "AU",
+  "Australia/Brisbane": "AU",
+  "Australia/Broken_Hill": "AU",
+  "Australia/Darwin": "AU",
+  "Australia/Eucla": "AU",
+  "Australia/Hobart": "AU",
+  "Australia/Lindeman": "AU",
+  "Australia/Lord_Howe": "AU",
+  "Australia/Melbourne": "AU",
+  "Australia/Perth": "AU",
+  "Australia/Sydney": "AU",
+  "Europe/Amsterdam": "NL",
+  "Europe/Andorra": "AD",
+  "Europe/Astrakhan": "RU",
+  "Europe/Athens": "GR",
+  "Europe/Belgrade": "RS",
+  "Europe/Berlin": "DE",
+  "Europe/Bratislava": "SK",
+  "Europe/Brussels": "BE",
+  "Europe/Bucharest": "RO",
+  "Europe/Budapest": "HU",
+  "Europe/Busingen": "DE",
+  "Europe/Chisinau": "MD",
+  "Europe/Copenhagen": "DK",
+  "Europe/Dublin": "IE",
+  "Europe/Gibraltar": "GI",
+  "Europe/Guernsey": "GG",
+  "Europe/Helsinki": "FI",
+  "Europe/Isle_of_Man": "IM",
+  "Europe/Istanbul": "TR",
+  "Europe/Jersey": "JE",
+  "Europe/Kaliningrad": "RU",
+  "Europe/Kiev": "UA",
+  "Europe/Kirov": "RU",
+  "Europe/Kyiv": "UA",
+  "Europe/Lisbon": "PT",
+  "Europe/Ljubljana": "SI",
+  "Europe/London": "GB",
+  "Europe/Luxembourg": "LU",
+  "Europe/Madrid": "ES",
+  "Europe/Malta": "MT",
+  "Europe/Mariehamn": "AX",
+  "Europe/Minsk": "BY",
+  "Europe/Monaco": "MC",
+  "Europe/Moscow": "RU",
+  "Europe/Oslo": "NO",
+  "Europe/Paris": "FR",
+  "Europe/Podgorica": "ME",
+  "Europe/Prague": "CZ",
+  "Europe/Riga": "LV",
+  "Europe/Rome": "IT",
+  "Europe/Samara": "RU",
+  "Europe/San_Marino": "SM",
+  "Europe/Sarajevo": "BA",
+  "Europe/Saratov": "RU",
+  "Europe/Simferopol": "UA",
+  "Europe/Skopje": "MK",
+  "Europe/Sofia": "BG",
+  "Europe/Stockholm": "SE",
+  "Europe/Tallinn": "EE",
+  "Europe/Tirane": "AL",
+  "Europe/Ulyanovsk": "RU",
+  "Europe/Vaduz": "LI",
+  "Europe/Vatican": "VA",
+  "Europe/Vienna": "AT",
+  "Europe/Vilnius": "LT",
+  "Europe/Volgograd": "RU",
+  "Europe/Warsaw": "PL",
+  "Europe/Zagreb": "HR",
+  "Europe/Zurich": "CH",
+  "Indian/Antananarivo": "MG",
+  "Indian/Chagos": "IO",
+  "Indian/Christmas": "CX",
+  "Indian/Cocos": "CC",
+  "Indian/Comoro": "KM",
+  "Indian/Kerguelen": "TF",
+  "Indian/Mahe": "SC",
+  "Indian/Maldives": "MV",
+  "Indian/Mauritius": "MU",
+  "Indian/Mayotte": "YT",
+  "Indian/Reunion": "RE",
+  "Pacific/Apia": "WS",
+  "Pacific/Auckland": "NZ",
+  "Pacific/Bougainville": "PG",
+  "Pacific/Chatham": "NZ",
+  "Pacific/Chuuk": "FM",
+  "Pacific/Easter": "CL",
+  "Pacific/Efate": "VU",
+  "Pacific/Fakaofo": "TK",
+  "Pacific/Fiji": "FJ",
+  "Pacific/Funafuti": "TV",
+  "Pacific/Galapagos": "EC",
+  "Pacific/Gambier": "PF",
+  "Pacific/Guadalcanal": "SB",
+  "Pacific/Guam": "GU",
+  "Pacific/Honolulu": "US",
+  "Pacific/Kanton": "KI",
+  "Pacific/Kiritimati": "KI",
+  "Pacific/Kosrae": "FM",
+  "Pacific/Kwajalein": "MH",
+  "Pacific/Majuro": "MH",
+  "Pacific/Marquesas": "PF",
+  "Pacific/Midway": "UM",
+  "Pacific/Nauru": "NR",
+  "Pacific/Niue": "NU",
+  "Pacific/Norfolk": "NF",
+  "Pacific/Noumea": "NC",
+  "Pacific/Pago_Pago": "AS",
+  "Pacific/Palau": "PW",
+  "Pacific/Pitcairn": "PN",
+  "Pacific/Pohnpei": "FM",
+  "Pacific/Port_Moresby": "PG",
+  "Pacific/Rarotonga": "CK",
+  "Pacific/Saipan": "MP",
+  "Pacific/Tahiti": "PF",
+  "Pacific/Tarawa": "KI",
+  "Pacific/Tongatapu": "TO",
+  "Pacific/Wake": "UM",
+  "Pacific/Wallis": "WF"
+ },
+ "unmapped": []
+}

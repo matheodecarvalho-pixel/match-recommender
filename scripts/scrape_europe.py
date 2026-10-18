@@ -72,7 +72,9 @@ def parse(data, competition):
                "home": sides["home"]["team"]["displayName"], "home_espn_id": sides["home"]["team"]["id"],
                "away": sides["away"]["team"]["displayName"], "away_espn_id": sides["away"]["team"]["id"],
                "status": status, "stage": (e.get("season") or {}).get("slug"),
-               "season": (e.get("season") or {}).get("year")}
+               "season": (e.get("season") or {}).get("year"),
+               # ESPN only lists US channels, per match.
+               "us_tv": list(dict.fromkeys(n for b in comp.get("broadcasts", []) for n in b.get("names", [])))}
         if status == "finished":
             row["home_goals"] = int(sides["home"]["score"])
             row["away_goals"] = int(sides["away"]["score"])
