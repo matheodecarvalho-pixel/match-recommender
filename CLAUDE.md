@@ -44,7 +44,7 @@ site/                   the website
 | Data | Source | Cadence |
 |---|---|---|
 | 7 leagues + Champions League: fixtures, results, standings, top scorers | football-data.org v4, free tier (10 requests/min, delayed scores) | Daily |
-| Europa League + Conference League: fixtures (UK kickoff times), results | Football Web Pages date pages via `scripts/scrape_europe.py` | Daily |
+| Europa League + Conference League: fixtures, results, league-phase table | ESPN public JSON feed via `scripts/scrape_europe.py` (Football Web Pages is behind Cloudflare) | Daily |
 | Revenge games: player and manager moves | Transfermarkt, scraped (no official API) | Twice a season, after each transfer window closes |
 | Rivalries | `data/rivalries.json` | Static |
 | Records | `data/records.json` | Refresh at season start |
@@ -90,7 +90,7 @@ Rules for scraping: identify the client in the User-Agent, wait at least 4 secon
 
 - `scrape_europe.py` and `match_teams.py` were tested only on sample data; their first real run is the true test.
 - `data/records.json`: rows with a `note` flagged "verify" (all Ligue 1, 4 Serie A, Neuer's Bundesliga clean sheets) need checking against the live source. Serie A, Eredivisie and Primeira Liga are missing team records.
-- Football Web Pages kickoff times are UK time: convert with `zoneinfo` (Europe/London to Europe/Paris), never by adding a fixed hour.
+- ESPN kickoff times are UTC: convert with `zoneinfo` to Europe/Paris, never by adding a fixed hour. The ESPN feed is unofficial and may change.
 - Transfermarkt has no official API and its terms on scraping weren't confirmed: fine for personal use, re-check before any public launch.
 
 ## Working rules

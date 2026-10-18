@@ -6,7 +6,7 @@ Status as of 18 Oct 2026. "Verified" = confirmed from the provider's own pages. 
 | Competitions | Source | Status |
 |---|---|---|
 | 7 leagues + Champions League | football-data.org free tier (10 calls/min, delayed scores) | Verified |
-| Europa League, Conference League | Football Web Pages date pages, scraped once a day (scrape_europe.py) | Verified: date pages show fixtures with UK kickoff times and final scores, e.g. /uefa-europa-league/20261022 |
+| Europa League, Conference League | ESPN public JSON feed (site.api.espn.com scoreboard + standings), via scrape_europe.py | Working since 18 Oct 2026. Unofficial and undocumented: no key, could change without notice. Football Web Pages (the first choice) returns a Cloudflare bot check (403) and was dropped, not worked around |
 
 Why not Google: Google doesn't publish this data openly, blocks automated queries, and sued a scraping company (SerpApi) in Dec 2025. Why not Wikipedia: on 18 Oct 2026 its Conference League page still showed no Matchday 1 scores from 15 Oct.
 
@@ -25,3 +25,6 @@ Transfermarkt, scraped twice a season (after each transfer window closes). No of
 
 ## Team names
 teams.csv holds one canonical name per club. Run match_teams.py once per provider to fill football_data_id, api_football_id and transfermarkt_id; fix any "no match" lines by hand.
+
+## Not tracked (no free source)
+Clean sheets, minutes without conceding, fewest goals conceded, career totals and titles. Those records never score.

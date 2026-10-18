@@ -1,0 +1,69 @@
+name: Daily update
+
+on:
+  schedule:
+    # 04:00 UTC = 06:00 Paris in summer, 05:00 in winter. GitHub may start it a little late.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4 pytest
+
+      - name: Tests
+        run: python -m pytest -q tests
+
+      - name: Fetch football-data.org (8 competitions)
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          python scripts/fetch_fd.py --teams
+          python scripts/fd_teams_flat.py
+
+      - name: Fetch Europa and Conference League
+        run: python scripts/scrape_europe.py
+
+      - name: Score matches
+        run: python scripts/build.py
+
+      - name: Commit fresh data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output
+          git diff --cached --quiet || git commit -m "Daily update $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp site/* _site/
+          cp output/matches_ranked.json _site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

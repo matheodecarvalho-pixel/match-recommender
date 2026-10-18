@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Match Recommender</title>
+<meta name="description" content="Which football matches are worth watching this week, and why.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Worth watching</h1>
+    <p class="sub" id="updated">Loading…</p>
+  </div>
+</header>
+
+<nav class="controls wrap" aria-label="Filters">
+  <div class="chips" id="competitions" role="group" aria-label="Competitions"></div>
+  <button class="fav-btn" id="open-favs" type="button">★ Favourites <span id="fav-count"></span></button>
+</nav>
+
+<main class="wrap" id="days" aria-live="polite"></main>
+
+<dialog id="favs">
+  <form method="dialog" class="fav-panel">
+    <div class="fav-head">
+      <h2>Favourite teams</h2>
+      <button class="close" value="close" aria-label="Close">×</button>
+    </div>
+    <p class="hint">Their matches get a +<span id="boost"></span> boost. Saved on this device.</p>
+    <input type="search" id="fav-search" placeholder="Search teams" autocomplete="off">
+    <div class="fav-list" id="fav-list"></div>
+  </form>
+</dialog>
+
+<footer class="wrap foot">
+  Scores 0–100 from form, stakes, goals, rivalry, closeness, records and revenge games.
+  Tap a match to see why.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
