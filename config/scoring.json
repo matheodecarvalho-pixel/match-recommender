@@ -55,7 +55,13 @@
       "_how": "From data/rivalries.json.",
       "tier_1": 1.0,
       "tier_2": 0.6,
-      "tier_3": 0.3
+      "tier_3": 0.3,
+      "european_classic": {
+        "_how": "Two clubs with at least min_meetings European matches since `since` count as a rivalry (football-data.org head-to-head, Champions League fixtures).",
+        "since": "2020-01-01",
+        "min_meetings": 5,
+        "value": 0.6
+      }
     },
     "closeness": {
       "_how": "Small table gap and similar form means a tight game.",
@@ -74,7 +80,11 @@
       "transfer_window_months": 18,
       "include_current_loans": false,
       "player": 1.0,
-      "manager": 0.8
+      "manager": 0.8,
+      "_club": "Club revenge: a club meets a side that beat it in a European match within club_window_months. Being knocked out counts more than losing a single game.",
+      "club_window_months": 12,
+      "club_knockout": 1.0,
+      "club_loss": 0.5
     }
   },
 
@@ -113,7 +123,10 @@
       "rivalry": "{rivalry_name}",
       "closeness": "{home_pos} vs {away_pos} in the table",
       "records": "{player} is {distance} {unit} from the {competition} record ({record})",
-      "revenge": "{person} faces his former club"
+      "revenge": "{person} faces his former club",
+      "revenge_knockout": "{loser} were knocked out by {winner} in the {competition} {stage} ({when})",
+      "revenge_loss": "{loser} lost {score} to {winner} in the {competition} ({when})",
+      "european_classic": "European classic: {n} meetings since {since}"
     }
   }
 }

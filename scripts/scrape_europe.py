@@ -32,6 +32,8 @@ PARIS = ZoneInfo("Europe/Paris")
 HEADERS = {"User-Agent": "personal-match-recommender/0.1 (personal use, 1 run/day)"}
 DELAY_SECONDS = 4
 CACHE = ROOT / "output" / "europe_cache"
+HISTORY = ROOT / "output" / "europe_history"
+HISTORY_MONTHS = 13  # club revenge looks back 12 months; one extra for safety
 OUT = ROOT / "output" / "europe_matches.json"
 
 STATUS = {"STATUS_SCHEDULED": "scheduled", "STATUS_FULL_TIME": "finished",
@@ -69,10 +71,13 @@ def parse(data, competition):
                "kickoff_utc": kickoff.isoformat(), "kickoff_paris": kickoff.astimezone(PARIS).isoformat(),
                "home": sides["home"]["team"]["displayName"], "home_espn_id": sides["home"]["team"]["id"],
                "away": sides["away"]["team"]["displayName"], "away_espn_id": sides["away"]["team"]["id"],
-               "status": status}
+               "status": status, "stage": (e.get("season") or {}).get("slug"),
+               "season": (e.get("season") or {}).get("year")}
         if status == "finished":
             row["home_goals"] = int(sides["home"]["score"])
             row["away_goals"] = int(sides["away"]["score"])
+            # ESPN flags the winner, which also settles penalty shootouts.
+            row["winner"] = next((side for side in ("home", "away") if sides[side].get("winner")), None)
         matches.append(row)
     return matches
 
@@ -102,6 +107,31 @@ def day_matches(fetcher, slug, name, day, today, warnings):
     return matches
 
 
+def month_matches(fetcher, slug, name, month, today, warnings):
+    """One past month of results, for club revenge. A month that has ended is fetched once."""
+    path = HISTORY / slug / f"{month:%Y%m}.json"
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))["matches"]
+    try:
+        data = fetcher.get(f"{BASE}/site/v2/sports/soccer/{slug}/scoreboard", dates=f"{month:%Y%m}", limit=300)
+    except requests.RequestException as e:
+        warnings.append(f"{name} {month:%Y-%m} history: request failed ({e})")
+        return []
+    matches = [m for m in parse(data, name) if m["status"] == "finished"]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"matches": matches}, ensure_ascii=False, indent=1), encoding="utf-8")
+    return matches
+
+
+def past_months(today, count):
+    """First day of each of the `count` months before the current one, oldest first."""
+    months, y, m = [], today.year, today.month
+    for _ in range(count):
+        y, m = (y - 1, 12) if m == 1 else (y, m - 1)
+        months.append(date(y, m, 1))
+    return months[::-1]
+
+
 def standings(fetcher, slug, name, warnings):
     try:
         data = fetcher.get(f"{BASE}/v2/sports/soccer/{slug}/standings")
@@ -125,8 +155,10 @@ def run(back=3, ahead=10, since=None):
     fetcher = Fetcher()
     today = date.today()
     start = since or today - timedelta(days=back)
-    found, tables, warnings = [], {}, []
+    found, history, tables, warnings = [], [], {}, []
     for slug, name in COMPETITIONS.items():
+        for month in past_months(today, HISTORY_MONTHS):
+            history.extend(month_matches(fetcher, slug, name, month, today, warnings))
         # Dates cached by earlier runs are included, so form covers the whole season.
         folder = CACHE / slug
         days = {start + timedelta(days=i) for i in range((today + timedelta(days=ahead) - start).days + 1)}
@@ -146,7 +178,9 @@ def run(back=3, ahead=10, since=None):
     unique = {m["id"]: m for m in found}
     data = {"fetched_at": datetime.now(PARIS).isoformat(), "source": "ESPN public JSON feed",
             "matches": sorted(unique.values(), key=lambda m: (m["kickoff_utc"], m["competition"], m["home"])),
-            "standings": tables, "warnings": warnings}
+            "standings": tables, "warnings": warnings,
+            # Finished matches from the months before this one (club revenge looks back a year).
+            "history": sorted({m["id"]: m for m in history}.values(), key=lambda m: m["kickoff_utc"])}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(data['matches'])} matches saved to {OUT.relative_to(ROOT)}")

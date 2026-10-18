@@ -32,3 +32,10 @@ teams.csv holds one canonical name per club. Run match_teams.py once per provide
 
 ## Not tracked (no free source)
 Clean sheets, minutes without conceding, fewest goals conceded, career totals and titles. Those records never score.
+
+## Club revenge and European classics
+| Need | Source | Notes |
+|---|---|---|
+| Last season's Champions League (knockouts included) | football-data.org `competitions/CL/matches?season=<last>` | Fetched once into output/history/ (free tier allows the previous season) |
+| Last 13 months of Europa/Conference League | ESPN scoreboard, one request per month (`dates=YYYYMM`), with round (`season.slug`) and winner flags | Cached in output/europe_history/; a finished month is never refetched |
+| European meetings since 2020 per pair | football-data.org `matches/{id}/head2head` for upcoming Champions League fixtures | Cached in output/h2h_cache.json, refetched only after the pair meets again. Free history starts around 2020. Europa/Conference fixtures can't use it (not in the free tier), so classics are only detected for Champions League matches |

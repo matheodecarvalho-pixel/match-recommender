@@ -103,9 +103,12 @@ def signal_entertainment(ctx, cfg):
 
 def signal_rivalry(ctx, cfg):
     r = ctx["rivalry"]
-    if not r:
-        return 0.0, None
-    return cfg[f"tier_{r['tier']}"], ("rivalry", {"rivalry_name": r["rivalry_name"]})
+    best = (cfg[f"tier_{r['tier']}"], ("rivalry", {"rivalry_name": r["rivalry_name"]})) if r else (0.0, None)
+    classic = cfg["european_classic"]
+    n = ctx.get("european_meetings") or 0
+    if n >= classic["min_meetings"] and classic["value"] > best[0]:
+        best = (classic["value"], ("european_classic", {"n": n, "since": classic["since"][:4]}))
+    return best
 
 
 def signal_closeness(ctx, cfg):
@@ -140,11 +143,15 @@ def signal_records(ctx, cfg):
 
 
 def signal_revenge(ctx, cfg):
-    flags = ctx.get("revenge", [])
-    if not flags:
+    """Player/manager facing a former club, or a club facing the side that beat it.
+
+    Club flags come first, so on a tie the club story wins.
+    """
+    options = [(f["value"], f["story"]) for f in ctx.get("club_revenge", [])]
+    options += [(cfg[f["role"]], ("revenge", {"person": f["person"]})) for f in ctx.get("revenge", [])]
+    if not options:
         return 0.0, None
-    top = max(flags, key=lambda f: cfg[f["role"]])
-    return cfg[top["role"]], ("revenge", {"person": top["person"]})
+    return max(options, key=lambda o: o[0])
 
 
 SIGNALS = {"form": signal_form, "stakes": signal_stakes, "entertainment": signal_entertainment,

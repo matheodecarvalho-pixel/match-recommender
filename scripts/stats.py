@@ -35,7 +35,8 @@ def load_fd(raw_dir, registry):
                 "id": f"fd-{m['id']}", "competition": name, "stage": m.get("stage"),
                 "kickoff_utc": _utc(m["utcDate"]),
                 "home": registry.from_fd(m["homeTeam"]), "away": registry.from_fd(m["awayTeam"]),
-                "status": status, "home_goals": full.get("home"), "away_goals": full.get("away")})
+                "status": status, "home_goals": full.get("home"), "away_goals": full.get("away"),
+                "fd_ids": (m["homeTeam"]["id"], m["awayTeam"]["id"])})
         spath = raw_dir / f"{code}_standings.json"
         if spath.exists():
             for s in json.loads(spath.read_text(encoding="utf-8"))["standings"]:

@@ -1,0 +1,52 @@
+{
+ "matches": [
+  {
+   "id": "401862927",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-05-07T19:00:00+00:00",
+   "kickoff_paris": "2026-05-07T21:00:00+02:00",
+   "home": "Crystal Palace",
+   "home_espn_id": "384",
+   "away": "Shakhtar Donetsk",
+   "away_espn_id": "493",
+   "status": "finished",
+   "stage": "semifinals",
+   "season": 2025,
+   "home_goals": 2,
+   "away_goals": 1,
+   "winner": "home"
+  },
+  {
+   "id": "401862928",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-05-07T19:00:00+00:00",
+   "kickoff_paris": "2026-05-07T21:00:00+02:00",
+   "home": "Strasbourg",
+   "home_espn_id": "180",
+   "away": "Rayo Vallecano",
+   "away_espn_id": "101",
+   "status": "finished",
+   "stage": "semifinals",
+   "season": 2025,
+   "home_goals": 0,
+   "away_goals": 1,
+   "winner": "away"
+  },
+  {
+   "id": "401862929",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-05-27T19:00:00+00:00",
+   "kickoff_paris": "2026-05-27T21:00:00+02:00",
+   "home": "Crystal Palace",
+   "home_espn_id": "384",
+   "away": "Rayo Vallecano",
+   "away_espn_id": "101",
+   "status": "finished",
+   "stage": "final",
+   "season": 2025,
+   "home_goals": 1,
+   "away_goals": 0,
+   "winner": "home"
+  }
+ ]
+}

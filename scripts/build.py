@@ -6,7 +6,7 @@ Run after fetch_fd.py and scrape_europe.py:
 import json, sys
 from datetime import datetime, timedelta, timezone
 
-import records, revenge, teams
+import euro_results, records, revenge, teams
 from fd_client import ROOT
 from score import context, score_match
 from stats import PARIS, load_europe, load_fd, team_results
@@ -40,6 +40,10 @@ def build(now=None):
         warnings.append("No Transfermarkt snapshot: revenge games not flagged")
     moves = revenge.Revenge(snapshot, registry, config["signals"]["revenge"], warnings)
 
+    european = euro_results.load(ROOT, registry)
+    elims = euro_results.eliminations(european)
+    meetings = euro_results.european_meetings(ROOT)
+
     # After the 8 league-phase rounds, every Europa/Conference match is a knockout.
     knockout = {comp for comp, table in eu_tables.items() if table and min(r["played"] for r in table) >= 8}
 
@@ -51,7 +55,11 @@ def build(now=None):
         extras = {"knockout": m["competition"] in knockout,
                   "record_chases": [c for team in (m["home"], m["away"]) for c in chases.get(team, [])
                                     if c["competition"] == m["competition"]],
-                  "revenge": moves.flags(m["home"], m["away"], m["kickoff_utc"])}
+                  "revenge": moves.flags(m["home"], m["away"], m["kickoff_utc"]),
+                  "club_revenge": euro_results.club_revenge(m["home"], m["away"], m["kickoff_utc"], european,
+                                                            elims, config["signals"]["revenge"]),
+                  "european_meetings": meetings.get("-".join(str(i) for i in sorted(m["fd_ids"])))
+                  if m.get("fd_ids") else None}
         ctx = context(m, results, tables, rivalries, config, extras)
         extras["tier1"] = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and \
             config["must_watch"]["tier_1_rivalry_always"]
