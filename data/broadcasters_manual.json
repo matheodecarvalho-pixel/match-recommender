@@ -2,43 +2,205 @@
  "_about": "Researched where-to-watch entries for gaps in the Wikipedia tables (domestic rights and competitions without a table). Each entry has its source and the date it was checked. These win over Wikipedia for the same competition and country. Left out on purpose because no clear 2026-27 source was found: Serie A in Italy, Primeira Liga in Portugal and France, Bundesliga in Portugal.",
  "rights": {
   "Premier League": {
-   "GB": {"channels": ["Sky Sports", "TNT Sports"], "source": "https://www.premierleague.com/en/about/faq/broadcast", "checked": "2026-10-18"}
+   "GB": {
+    "channels": [
+     "Sky Sports",
+     "TNT Sports"
+    ],
+    "source": "https://www.premierleague.com/en/about/faq/broadcast",
+    "checked": "2026-10-18"
+   }
   },
   "La Liga": {
-   "ES": {"channels": ["Movistar Plus+", "DAZN"], "note": "Five matches each per matchday; one free match per matchday", "source": "https://www.que.es/2026/07/21/donde-ver-laliga-2026-2027-movistar-dazn/", "checked": "2026-10-18"}
+   "ES": {
+    "channels": [
+     "Movistar Plus+",
+     "DAZN"
+    ],
+    "note": "Five matches each per matchday; one free match per matchday",
+    "source": "https://www.que.es/2026/07/21/donde-ver-laliga-2026-2027-movistar-dazn/",
+    "checked": "2026-10-18"
+   }
   },
   "Ligue 1": {
-   "FR": {"channels": ["Ligue 1+"], "note": "All 306 matches", "source": "https://www.sportsillustrated.fr/football/ligue-1-2026-2027-abonnements-tarifs-diffusion-le-guide-complet-pour-ne-rien-manquer/", "checked": "2026-10-18"}
+   "FR": {
+    "channels": [
+     "Ligue 1+"
+    ],
+    "note": "All 306 matches",
+    "source": "https://www.sportsillustrated.fr/football/ligue-1-2026-2027-abonnements-tarifs-diffusion-le-guide-complet-pour-ne-rien-manquer/",
+    "checked": "2026-10-18"
+   }
   },
   "Bundesliga": {
-   "DE": {"channels": ["Sky Sport", "DAZN", "Sat.1"], "source": "https://en.wikipedia.org/wiki/Bundesliga#Broadcasting", "checked": "2026-10-18"},
-   "FR": {"channels": ["beIN Sports"], "source": "https://www.footmarseille.com/154932-154932", "checked": "2026-10-18"},
-   "GB": {"channels": ["Sky Sports", "Prime Video", "BBC"], "note": "Prime Video has Sunday matches; BBC one match a week", "source": "https://www.livesoccertv.com/competitions/germany/bundesliga/watch/great-britain/", "checked": "2026-10-18"},
-   "IE": {"channels": ["Sky Sports", "Prime Video"], "source": "https://www.livesoccertv.com/competitions/germany/bundesliga/watch/great-britain/", "checked": "2026-10-18"},
-   "ES": {"channels": ["DAZN"], "source": "https://cybernews.com/stream-online/how-to-watch-2-bundesliga-2026-27-live-streams-and-tv-channels/", "checked": "2026-10-18"}
+   "DE": {
+    "channels": [
+     "Sky Sport",
+     "DAZN",
+     "Sat.1"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Bundesliga#Broadcasting",
+    "checked": "2026-10-18"
+   },
+   "FR": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://www.footmarseille.com/154932-154932",
+    "checked": "2026-10-18"
+   },
+   "GB": {
+    "channels": [
+     "Sky Sports",
+     "Prime Video",
+     "BBC"
+    ],
+    "note": "Prime Video has Sunday matches; BBC one match a week",
+    "source": "https://www.livesoccertv.com/competitions/germany/bundesliga/watch/great-britain/",
+    "checked": "2026-10-18"
+   },
+   "IE": {
+    "channels": [
+     "Sky Sports",
+     "Prime Video"
+    ],
+    "source": "https://www.livesoccertv.com/competitions/germany/bundesliga/watch/great-britain/",
+    "checked": "2026-10-18"
+   },
+   "ES": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://cybernews.com/stream-online/how-to-watch-2-bundesliga-2026-27-live-streams-and-tv-channels/",
+    "checked": "2026-10-18"
+   }
   },
   "Eredivisie": {
-   "NL": {"channels": ["ESPN", "NOS (highlights)"], "source": "https://en.wikipedia.org/wiki/Eredivisie", "checked": "2026-10-18"},
-   "US": {"channels": ["ESPN"], "source": "https://worldsoccertalk.com/eredivisie-tv-schedule/", "checked": "2026-10-18"}
+   "NL": {
+    "channels": [
+     "ESPN",
+     "NOS (highlights)"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Eredivisie",
+    "checked": "2026-10-18"
+   },
+   "US": {
+    "channels": [
+     "ESPN"
+    ],
+    "source": "https://worldsoccertalk.com/eredivisie-tv-schedule/",
+    "checked": "2026-10-18"
+   }
   },
   "Primeira Liga": {
-   "ES": {"channels": ["DAZN"], "note": "Three matches per matchday", "source": "https://senalnews.com/en/content/dazn-get-the-rights-of-three-liga-portugal-matches-for-spain/amp", "checked": "2026-10-18"},
-   "DE": {"channels": ["Sportdigital"], "source": "https://www.broadbandtvnews.com/2026/08/03/sportdigital-secures-liga-portugal-rights-until-2028/", "checked": "2026-10-18"},
-   "US": {"channels": ["beIN Sports"], "source": "https://worldsoccertalk.com/primeira-liga-tv-schedule/", "checked": "2026-10-18"}
+   "ES": {
+    "channels": [
+     "DAZN"
+    ],
+    "note": "Three matches per matchday",
+    "source": "https://senalnews.com/en/content/dazn-get-the-rights-of-three-liga-portugal-matches-for-spain/amp",
+    "checked": "2026-10-18"
+   },
+   "DE": {
+    "channels": [
+     "Sportdigital"
+    ],
+    "source": "https://www.broadbandtvnews.com/2026/08/03/sportdigital-secures-liga-portugal-rights-until-2028/",
+    "checked": "2026-10-18"
+   },
+   "US": {
+    "channels": [
+     "beIN Sports"
+    ],
+    "source": "https://worldsoccertalk.com/primeira-liga-tv-schedule/",
+    "checked": "2026-10-18"
+   }
   },
   "Europa League": {
-   "FR": {"channels": ["Canal+"], "source": "https://www.lephoceen.fr/infos-om/vdm/tv-ligue-1-canal-dazn-bein-disney-qui-diffuse-quelles-competitions-cette-saison-237238", "checked": "2026-10-18"},
-   "GB": {"channels": ["TNT Sports"], "source": "https://www.broadbandtvnews.com/2025/11/21/uefa-renewals-who-has-the-rights/", "checked": "2026-10-18"},
-   "ES": {"channels": ["Movistar Plus+"], "source": "https://www.sportcal.com/media/uefa-rights-bonanza-across-europe-dazn-movistar-canal-all-consolidate/", "checked": "2026-10-18"},
-   "PT": {"channels": ["DAZN", "Sport TV"], "source": "https://tv-sports-rights.fandom.com/wiki/List_of_UEFA_Europa_League_Broadcasters", "checked": "2026-10-18"},
-   "US": {"channels": ["CBS/Paramount+"], "source": "https://www.goal.com/en-us/news/watch-live-stream-conference-league-soccer/blt6e1dc67c5fa7cf6a", "checked": "2026-10-18"}
+   "FR": {
+    "channels": [
+     "Canal+"
+    ],
+    "source": "https://www.lephoceen.fr/infos-om/vdm/tv-ligue-1-canal-dazn-bein-disney-qui-diffuse-quelles-competitions-cette-saison-237238",
+    "checked": "2026-10-18"
+   },
+   "GB": {
+    "channels": [
+     "TNT Sports"
+    ],
+    "source": "https://www.broadbandtvnews.com/2025/11/21/uefa-renewals-who-has-the-rights/",
+    "checked": "2026-10-18"
+   },
+   "ES": {
+    "channels": [
+     "Movistar Plus+"
+    ],
+    "source": "https://www.sportcal.com/media/uefa-rights-bonanza-across-europe-dazn-movistar-canal-all-consolidate/",
+    "checked": "2026-10-18"
+   },
+   "PT": {
+    "channels": [
+     "DAZN",
+     "Sport TV"
+    ],
+    "source": "https://tv-sports-rights.fandom.com/wiki/List_of_UEFA_Europa_League_Broadcasters",
+    "checked": "2026-10-18"
+   },
+   "US": {
+    "channels": [
+     "CBS/Paramount+"
+    ],
+    "source": "https://www.goal.com/en-us/news/watch-live-stream-conference-league-soccer/blt6e1dc67c5fa7cf6a",
+    "checked": "2026-10-18"
+   }
   },
   "Conference League": {
-   "FR": {"channels": ["Canal+"], "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters", "checked": "2026-10-18"},
-   "GB": {"channels": ["TNT Sports"], "source": "https://www.livesoccertv.com/competitions/international/uefa-europa-conference-league/watch/great-britain/", "checked": "2026-10-18"},
-   "ES": {"channels": ["Movistar Plus+"], "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters", "checked": "2026-10-18"},
-   "PT": {"channels": ["DAZN", "Sport TV"], "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters", "checked": "2026-10-18"},
-   "US": {"channels": ["CBS/Paramount+"], "source": "https://www.goal.com/en-us/news/watch-live-stream-conference-league-soccer/blt6e1dc67c5fa7cf6a", "checked": "2026-10-18"}
+   "FR": {
+    "channels": [
+     "Canal+"
+    ],
+    "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters",
+    "checked": "2026-10-18"
+   },
+   "GB": {
+    "channels": [
+     "TNT Sports"
+    ],
+    "source": "https://www.livesoccertv.com/competitions/international/uefa-europa-conference-league/watch/great-britain/",
+    "checked": "2026-10-18"
+   },
+   "ES": {
+    "channels": [
+     "Movistar Plus+"
+    ],
+    "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters",
+    "checked": "2026-10-18"
+   },
+   "PT": {
+    "channels": [
+     "DAZN",
+     "Sport TV"
+    ],
+    "source": "https://dxs.fandom.com/wiki/List_of_UEFA_Conference_League_broadcasters",
+    "checked": "2026-10-18"
+   },
+   "US": {
+    "channels": [
+     "CBS/Paramount+"
+    ],
+    "source": "https://www.goal.com/en-us/news/watch-live-stream-conference-league-soccer/blt6e1dc67c5fa7cf6a",
+    "checked": "2026-10-18"
+   }
+  },
+  "Champions League": {
+   "FR": {
+    "channels": [
+     "Canal+"
+    ],
+    "note": "Every match; M6 shows only the final, free-to-air",
+    "source": "https://droits-tv.fr/competitions/football/ligue-des-champions/",
+    "checked": "2026-10-19"
+   }
   }
  }
 }
