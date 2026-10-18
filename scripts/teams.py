@@ -13,7 +13,7 @@ RENAME = {"Bournemouth": "AFC Bournemouth", "Deportivo": "Deportivo La Coruña"}
 
 
 class Registry:
-    def __init__(self, teams_csv, fd_teams=()):
+    def __init__(self, teams_csv, fd_teams=(), extra_aliases=None):
         self.by_fd, self.by_espn, self.by_name = {}, {}, {}
         self.unmatched = set()
         for row in csv.DictReader(open(teams_csv, encoding="utf-8")):
@@ -33,6 +33,10 @@ class Registry:
             for name in (t["name"], t.get("short_name")):
                 if name:
                     self.by_name.setdefault(norm(name), self.by_fd[fid])
+
+        for alias, key in (extra_aliases or {}).items():
+            if not alias.startswith("_"):
+                self.by_name.setdefault(norm(alias), key)
 
     def canonical(self, name):
         return RENAME.get(name, name)
@@ -58,4 +62,6 @@ class Registry:
 def load(root):
     flat = root / "output" / "raw" / "fd" / "teams_flat.json"
     fd_teams = json.loads(flat.read_text(encoding="utf-8")) if flat.exists() else []
-    return Registry(root / "data" / "teams.csv", fd_teams)
+    extra = root / "data" / "extra_aliases.json"
+    aliases = json.loads(extra.read_text(encoding="utf-8")) if extra.exists() else {}
+    return Registry(root / "data" / "teams.csv", fd_teams, aliases)

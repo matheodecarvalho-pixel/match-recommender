@@ -86,7 +86,9 @@ def signal_stakes(ctx, cfg):
     if best[0] <= 0:
         return 0.0, None
     value = best[0] * _season_factor(table, total, cfg)
-    return value, (best[1], best[2])
+    # "Title race" or "Relegation battle" only reads true when both teams are in it.
+    story = (best[1], best[2]) if best[0] >= cfg["both_teams_in_race"] else None
+    return value, story
 
 
 def signal_entertainment(ctx, cfg):

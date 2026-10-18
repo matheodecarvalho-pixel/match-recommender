@@ -132,13 +132,15 @@ def run(back=3, ahead=10, since=None):
         days = {start + timedelta(days=i) for i in range((today + timedelta(days=ahead) - start).days + 1)}
         if folder.exists():
             days |= {datetime.strptime(p.stem, "%Y%m%d").date() for p in folder.glob("*.json")}
+        window = 0
         for day in sorted(days):
             rows = day_matches(fetcher, slug, name, day, today, warnings)
-            # Zero rows on an in-season Thursday is suspicious (feed change or blocked request).
-            in_season = day.month >= 9 or day.month <= 5
-            if not rows and in_season and day.weekday() == 3:
-                warnings.append(f"{name} {day}: 0 matches on a Thursday")
+            if today - timedelta(days=back) <= day <= today + timedelta(days=ahead):
+                window += len(rows)
             found.extend(rows)
+        # Two weeks without a match in season is suspicious (feed change or blocked request).
+        if not window and (today.month >= 9 or today.month <= 5):
+            warnings.append(f"{name}: 0 matches between {back} days ago and {ahead} days ahead")
         tables[name] = standings(fetcher, slug, name, warnings)
 
     unique = {m["id"]: m for m in found}

@@ -83,7 +83,7 @@ ALIASES = {
  "Caen": ["Stade Malherbe Caen", "SM Caen"], "Auxerre": ["AJ Auxerre"], "Troyes": ["ESTAC Troyes", "Troyes AC", "ES Troyes AC"],
  "Reims": ["Stade de Reims"], "Montpellier": ["Montpellier HSC"], "Paris FC": ["Paris FC"],
  # Netherlands
- "Ajax": ["AFC Ajax"], "Feyenoord": ["Feyenoord Rotterdam"], "PSV": ["PSV Eindhoven", "PSV"],
+ "Ajax": ["AFC Ajax", "Ajax Amsterdam"], "Feyenoord": ["Feyenoord Rotterdam"], "PSV": ["PSV Eindhoven", "PSV"],
  "AZ": ["AZ Alkmaar"], "FC Twente": ["FC Twente '65", "Twente"], "Heracles Almelo": ["Heracles"],
  "FC Groningen": ["Groningen"], "SC Heerenveen": ["sc Heerenveen", "Heerenveen"],
  "Sparta Rotterdam": ["Sparta"], "Excelsior": ["SBV Excelsior", "Excelsior Rotterdam"],
