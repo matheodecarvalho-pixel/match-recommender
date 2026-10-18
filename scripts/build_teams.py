@@ -108,6 +108,8 @@ def add(name, country):
     clubs.setdefault(name, country)
 
 for r in json.load(open("data/rivalries.json", encoding="utf-8")):
+    if r["league"] not in COUNTRY:
+        continue  # European rivalries: both clubs already come from their own leagues
     for side in ("club_a", "club_b"):
         add(r[side], COUNTRY[r["league"]])
 
