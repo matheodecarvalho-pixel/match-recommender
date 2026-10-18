@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:59:20.990378+02:00",
+ "generated_at": "2026-10-19T00:37:23.247080+02:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 15,
@@ -526,65 +526,6 @@
     "league": "uefa.champions",
     "us_tv": [
      "Paramount+"
-    ]
-   }
-  },
-  {
-   "id": "fd-564709",
-   "competition": "La Liga",
-   "kickoff_paris": "2026-10-18T21:00:00+02:00",
-   "day": "2026-10-18",
-   "home": "Real Madrid",
-   "away": "Sevilla",
-   "score": 48,
-   "base": 48.4,
-   "competition_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "story": "Real Madrid won 4 of last 5, Sevilla won 2 of last 5 · 3.5 goals per game lately · Fran González faces his former club",
-   "breakdown": {
-    "form": {
-     "value": 0.667,
-     "points": 16.7,
-     "reason": "Real Madrid won 4 of last 5, Sevilla won 2 of last 5"
-    },
-    "stakes": {
-     "value": 0.229,
-     "points": 4.6
-    },
-    "entertainment": {
-     "value": 0.875,
-     "points": 13.1,
-     "reason": "3.5 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.799,
-     "points": 4.0,
-     "reason": "3rd vs 6th in the table"
-    },
-    "records": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "reason": "Fran González faces his former club"
-    }
-   },
-   "tier1_rivalry": false,
-   "espn": {
-    "id": "401882839",
-    "league": "esp.1",
-    "us_tv": [
-     "ABC",
-     "ESPN Deportes",
-     "ESPN+"
     ]
    }
   },
