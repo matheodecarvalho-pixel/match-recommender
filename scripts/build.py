@@ -90,6 +90,14 @@ def build(now=None):
                        "home": m["home"], "away": m["away"], **result,
                        "tier1_rivalry": bool(extras.get("tier1")), "espn": espn_link(m, espn_ids, us_tv)})
 
+    # A competition with fixtures still to play but none in the window is suspicious
+    # (a bad API response once dropped the whole Champions League without any error).
+    in_window = {m["competition"] for m in ranked}
+    for comp in sorted({m["competition"] for m in matches if m["status"] == "upcoming"} - in_window):
+        nxt = min(m["kickoff_utc"] for m in matches if m["competition"] == comp and m["status"] == "upcoming")
+        if nxt < end:
+            warnings.append(f"{comp}: upcoming fixtures exist in the window but none were ranked")
+
     ranked.sort(key=sort_key)
     out = {"generated_at": now.astimezone(PARIS).isoformat(), "window_days": config["window_days"],
            "favourites": config["favourites"]["teams"], "favourite_boost": config["favourites"]["boost"],
@@ -106,6 +114,10 @@ def build(now=None):
 if __name__ == "__main__":
     out = build()
     print(f"{len(out['matches'])} matches ranked, {sum(m['must_watch'] for m in out['matches'])} must-watch")
+    counts = {}
+    for m in out["matches"]:
+        counts[m["competition"]] = counts.get(m["competition"], 0) + 1
+    print("  per competition:", ", ".join(f"{c} {n}" for c, n in sorted(counts.items())))
     for m in out["matches"][:15]:
         print(f"{m['score']:3} {'*' if m['must_watch'] else ' '} {m['day']} {m['competition'][:16]:16} "
               f"{m['home']} v {m['away']}  | {m['story']}")
