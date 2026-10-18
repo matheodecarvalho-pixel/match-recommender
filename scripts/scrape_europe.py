@@ -1,129 +1,166 @@
-"""Daily scraper for Europa League and Conference League (Champions League optional).
+"""Daily fetch for Europa League and Conference League: fixtures, results, league-phase table.
 
-Source: Football Web Pages date pages, e.g.
-  https://www.footballwebpages.co.uk/uefa-europa-league/20261022
-Each page lists that day's matches: kickoff time (UK time) before the game,
-final score after it.
+Source: ESPN's public JSON feed (no key, unofficial and undocumented), one request per
+competition per date, e.g.
+  https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022
+Kickoff times come in UTC and are converted to Europe/Paris with zoneinfo.
 
-Run once a day (personal use). It checks a window of dates, sleeps between
-requests, and writes europe_matches.json.
+Football Web Pages, the original source, sits behind a Cloudflare bot check (403), so it
+was dropped rather than worked around.
 
-  pip install requests beautifulsoup4
-  python scrape_europe.py                 # default window: 3 days back, 10 ahead
-  python scrape_europe.py --debug 20261022 uefa-europa-league
+Each date is cached in output/europe_cache/; a past date whose matches are all final is
+never fetched again. Requests are 4 seconds apart.
+
+  python scripts/scrape_europe.py                    # 3 days back, 10 ahead
+  python scripts/scrape_europe.py --since 20260901   # one-off backfill (cached dates are skipped)
+  python scripts/scrape_europe.py --debug 20261022 uefa.europa
 """
-import argparse, json, re, sys, time
-from datetime import date, datetime, timedelta
+import argparse, json, sys, time
+from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup
 
-BASE = "https://www.footballwebpages.co.uk"
+from fd_client import ROOT
+
+BASE = "https://site.api.espn.com/apis"
 COMPETITIONS = {
-    "uefa-europa-league": "Europa League",
-    "uefa-conference-league": "Conference League",
-    # "uefa-champions-league": "Champions League",  # already covered by football-data.org
+    "uefa.europa": "Europa League",
+    "uefa.europa.conf": "Conference League",
 }
-UK, PARIS = ZoneInfo("Europe/London"), ZoneInfo("Europe/Paris")
+PARIS = ZoneInfo("Europe/Paris")
 HEADERS = {"User-Agent": "personal-match-recommender/0.1 (personal use, 1 run/day)"}
 DELAY_SECONDS = 4
+CACHE = ROOT / "output" / "europe_cache"
+OUT = ROOT / "output" / "europe_matches.json"
 
-SCORE = re.compile(r"^(\d+)\s*[-–]\s*(\d+)$")
-TIME = re.compile(r"^(\d{1,2})(?:[.:](\d{2}))?\s*(am|pm)$", re.I)
-
-
-def kickoff_iso(day, text):
-    m = TIME.match(text)
-    h, mins, ampm = int(m.group(1)), int(m.group(2) or 0), m.group(3).lower()
-    if ampm == "pm" and h != 12:
-        h += 12
-    if ampm == "am" and h == 12:
-        h = 0
-    uk = datetime(day.year, day.month, day.day, h, mins, tzinfo=UK)
-    return uk.astimezone(PARIS).isoformat()
+STATUS = {"STATUS_SCHEDULED": "scheduled", "STATUS_FULL_TIME": "finished",
+          "STATUS_FINAL_AET": "finished", "STATUS_FINAL_PEN": "finished",
+          "STATUS_POSTPONED": "postponed", "STATUS_CANCELED": "cancelled"}
 
 
-def parse(html, day, competition):
-    """Find rows shaped like: home | score-or-time | away.
+class Fetcher:
+    def __init__(self):
+        self.session = requests.Session()
+        self.session.headers.update(HEADERS)
+        self._last = 0.0
 
-    Written against the page's visible layout (home, middle cell, away), not its
-    exact markup, so it survives cosmetic changes. If the site changes layout,
-    this returns [] and the run logs a warning.
-    """
-    soup = BeautifulSoup(html, "html.parser")
+    def get(self, url, **params):
+        wait = DELAY_SECONDS - (time.monotonic() - self._last)
+        if wait > 0:
+            time.sleep(wait)
+        self._last = time.monotonic()
+        r = self.session.get(url, params=params or None, timeout=30)
+        r.raise_for_status()
+        return r.json()
+
+
+def parse(data, competition):
     matches = []
-    for tr in soup.find_all("tr"):
-        cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
-        cells = [c for c in cells if c and c.lower() not in {"v", "vs", "ft", "aet", "pens"}]
-        for i in range(1, len(cells) - 1):
-            mid = cells[i]
-            s, t = SCORE.match(mid), TIME.match(mid)
-            if not (s or t):
-                continue
-            home, away = cells[i - 1], cells[i + 1]
-            if SCORE.match(home) or TIME.match(home) or SCORE.match(away) or TIME.match(away):
-                continue
-            row = {"competition": competition, "date": day.isoformat(),
-                   "home": home, "away": away, "status": "finished" if s else "scheduled"}
-            if s:
-                row["home_goals"], row["away_goals"] = int(s.group(1)), int(s.group(2))
-            else:
-                row["kickoff_paris"] = kickoff_iso(day, mid)
-            matches.append(row)
-            break
+    for e in data.get("events", []):
+        comp = e["competitions"][0]
+        sides = {c["homeAway"]: c for c in comp["competitors"]}
+        if set(sides) != {"home", "away"}:
+            continue
+        kickoff = datetime.fromisoformat(e["date"].replace("Z", "+00:00")).astimezone(timezone.utc)
+        kind = e["status"]["type"]
+        status = STATUS.get(kind["name"], "finished" if kind.get("completed") else "live")
+        row = {"id": e["id"], "competition": competition,
+               "kickoff_utc": kickoff.isoformat(), "kickoff_paris": kickoff.astimezone(PARIS).isoformat(),
+               "home": sides["home"]["team"]["displayName"], "home_espn_id": sides["home"]["team"]["id"],
+               "away": sides["away"]["team"]["displayName"], "away_espn_id": sides["away"]["team"]["id"],
+               "status": status}
+        if status == "finished":
+            row["home_goals"] = int(sides["home"]["score"])
+            row["away_goals"] = int(sides["away"]["score"])
+        matches.append(row)
     return matches
 
 
-def fetch(slug, day, session):
-    url = f"{BASE}/{slug}/{day:%Y%m%d}"
-    r = session.get(url, headers=HEADERS, timeout=20)
-    r.raise_for_status()
-    return r.text
+def is_settled(day, matches, today):
+    """A past date is final once every match on it is finished (or there were none)."""
+    if day >= today - timedelta(days=1):
+        return False
+    return all(m["status"] in ("finished", "postponed", "cancelled") for m in matches)
 
 
-def run(back=3, ahead=10, out="output/europe_matches.json"):
-    session = requests.Session()
+def day_matches(fetcher, slug, name, day, today, warnings):
+    path = CACHE / slug / f"{day:%Y%m%d}.json"
+    if path.exists():
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        if cached.get("settled"):
+            return cached["matches"]
+    try:
+        data = fetcher.get(f"{BASE}/site/v2/sports/soccer/{slug}/scoreboard", dates=f"{day:%Y%m%d}")
+    except requests.RequestException as e:
+        warnings.append(f"{name} {day}: request failed ({e})")
+        return json.loads(path.read_text(encoding="utf-8"))["matches"] if path.exists() else []
+    matches = parse(data, name)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"settled": is_settled(day, matches, today), "matches": matches},
+                               ensure_ascii=False, indent=1), encoding="utf-8")
+    return matches
+
+
+def standings(fetcher, slug, name, warnings):
+    try:
+        data = fetcher.get(f"{BASE}/v2/sports/soccer/{slug}/standings")
+    except requests.RequestException as e:
+        warnings.append(f"{name} standings: request failed ({e})")
+        return []
+    table = []
+    for group in data.get("children", []):
+        for entry in group["standings"]["entries"]:
+            stats = {s["name"]: s.get("value") for s in entry["stats"]}
+            table.append({"team": entry["team"]["displayName"], "espn_id": entry["team"]["id"],
+                          "position": int(stats.get("rank") or 0), "played": int(stats.get("gamesPlayed") or 0),
+                          "points": int(stats.get("points") or 0), "goals_for": int(stats.get("pointsFor") or 0),
+                          "goals_against": int(stats.get("pointsAgainst") or 0)})
+    if not table:
+        warnings.append(f"{name}: empty league-phase table")
+    return sorted(table, key=lambda r: r["position"])
+
+
+def run(back=3, ahead=10, since=None):
+    fetcher = Fetcher()
     today = date.today()
-    found, warnings = [], []
+    start = since or today - timedelta(days=back)
+    found, tables, warnings = [], {}, []
     for slug, name in COMPETITIONS.items():
-        for offset in range(-back, ahead + 1):
-            day = today + timedelta(days=offset)
-            try:
-                rows = parse(fetch(slug, day, session), day, name)
-            except requests.RequestException as e:
-                warnings.append(f"{name} {day}: request failed ({e})")
-                rows = []
-            # UEFA club matches are played on Tuesdays-Thursdays. Zero rows on a
-            # Thursday is suspicious (layout change or blocked request).
-            if not rows and day.weekday() == 3:
-                warnings.append(f"{name} {day}: 0 matches on a Thursday, check the parser")
+        # Dates cached by earlier runs are included, so form covers the whole season.
+        folder = CACHE / slug
+        days = {start + timedelta(days=i) for i in range((today + timedelta(days=ahead) - start).days + 1)}
+        if folder.exists():
+            days |= {datetime.strptime(p.stem, "%Y%m%d").date() for p in folder.glob("*.json")}
+        for day in sorted(days):
+            rows = day_matches(fetcher, slug, name, day, today, warnings)
+            # Zero rows on an in-season Thursday is suspicious (feed change or blocked request).
+            in_season = day.month >= 9 or day.month <= 5
+            if not rows and in_season and day.weekday() == 3:
+                warnings.append(f"{name} {day}: 0 matches on a Thursday")
             found.extend(rows)
-            time.sleep(DELAY_SECONDS)
+        tables[name] = standings(fetcher, slug, name, warnings)
 
-    # Keep one row per fixture (same match can't appear twice, but be safe).
-    unique = {(m["competition"], m["date"], m["home"], m["away"]): m for m in found}
-    data = {"scraped_at": datetime.now(PARIS).isoformat(), "source": BASE,
-            "matches": sorted(unique.values(), key=lambda m: (m["date"], m["competition"], m["home"])),
-            "warnings": warnings}
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
-    print(f"{len(data['matches'])} matches saved to {out}")
+    unique = {m["id"]: m for m in found}
+    data = {"fetched_at": datetime.now(PARIS).isoformat(), "source": "ESPN public JSON feed",
+            "matches": sorted(unique.values(), key=lambda m: (m["kickoff_utc"], m["competition"], m["home"])),
+            "standings": tables, "warnings": warnings}
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{len(data['matches'])} matches saved to {OUT.relative_to(ROOT)}")
     for w in warnings:
         print("WARNING:", w, file=sys.stderr)
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--debug", nargs=2, metavar=("YYYYMMDD", "SLUG"),
-                    help="fetch one page, print parsed rows, save raw HTML to debug.html")
+    ap.add_argument("--debug", nargs=2, metavar=("YYYYMMDD", "SLUG"), help="fetch one date, print parsed rows")
     ap.add_argument("--back", type=int, default=3)
     ap.add_argument("--ahead", type=int, default=10)
+    ap.add_argument("--since", type=lambda s: datetime.strptime(s, "%Y%m%d").date())
     a = ap.parse_args()
     if a.debug:
-        d = datetime.strptime(a.debug[0], "%Y%m%d").date()
-        html = fetch(a.debug[1], d, requests.Session())
-        open("debug.html", "w", encoding="utf-8").write(html)
-        print(json.dumps(parse(html, d, a.debug[1]), ensure_ascii=False, indent=1))
+        data = Fetcher().get(f"{BASE}/site/v2/sports/soccer/{a.debug[1]}/scoreboard", dates=a.debug[0])
+        print(json.dumps(parse(data, COMPETITIONS.get(a.debug[1], a.debug[1])), ensure_ascii=False, indent=1))
     else:
-        run(a.back, a.ahead)
+        run(a.back, a.ahead, a.since)

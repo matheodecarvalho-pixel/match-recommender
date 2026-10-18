@@ -117,7 +117,7 @@ for r in json.load(open("data/records.json", encoding="utf-8")):
             add(strip(name), COUNTRY[r["competition"]])
 
 # Keep provider IDs already filled by match_teams.py.
-ID_COLUMNS = ("football_data_id", "api_football_id", "transfermarkt_id")
+ID_COLUMNS = ("football_data_id", "api_football_id", "transfermarkt_id", "espn_id")
 try:
     old = {r["canonical_name"]: r for r in csv.DictReader(open("data/teams.csv", encoding="utf-8"))}
 except FileNotFoundError:
