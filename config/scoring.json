@@ -72,6 +72,7 @@
     "revenge": {
       "_how": "A player or manager faces a club he left within this window (Transfermarkt data).",
       "transfer_window_months": 18,
+      "include_current_loans": false,
       "player": 1.0,
       "manager": 0.8
     }

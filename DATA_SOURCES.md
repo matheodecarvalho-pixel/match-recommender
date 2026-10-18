@@ -23,6 +23,10 @@ Why not Google: Google doesn't publish this data openly, blocks automated querie
 ## Revenge games
 Transfermarkt, scraped twice a season (after each transfer window closes). No official API; slow requests, cache results. Check Transfermarkt's terms before a public launch.
 
+`scripts/scrape_transfermarkt.py` reads two pages per club in the 7 leagues: the detailed squad (`/kader/.../plus/1`, "Joined" and "Signed from" columns) and the staff page (`/mitarbeiter/...`, the manager's appointment date and previous club). robots.txt allows them. 4 s between requests, pages cached in `output/transfermarkt/cache/` (not committed), about 20 minutes for a full run. A 403/429 or bot-check page stops the run. Output: `output/transfermarkt/squads_YYYY-MM-DD.json` (build.py uses the newest) and `clubs.json` for `match_teams.py`. Run it from the manual "Transfermarkt squads" workflow.
+
+A match is flagged when someone joined from the opponent within `signals.revenge.transfer_window_months`. Clubs are compared by Transfermarkt id, so moves from a U21 side don't count. Players currently on loan from the opponent are skipped (`include_current_loans`, false by default) because many leagues bar loanees from facing their parent club. The manager's "previous club" is the last club on his staff record, which can be an assistant job (Arteta: Manchester City).
+
 ## Team names
 teams.csv holds one canonical name per club. Run match_teams.py once per provider to fill football_data_id, api_football_id and transfermarkt_id; fix any "no match" lines by hand.
 

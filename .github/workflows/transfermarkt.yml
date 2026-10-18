@@ -1,0 +1,51 @@
+name: Transfermarkt squads (twice a season)
+
+# Run by hand after each transfer window closes (early September, early February).
+# The daily job reads the snapshot this commits; it never scrapes Transfermarkt itself.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  squads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4 pytest
+
+      - name: Tests
+        run: python -m pytest -q tests
+
+      # Pages fetched by an earlier (e.g. failed) run are reused instead of fetched again.
+      - uses: actions/cache@v4
+        with:
+          path: output/transfermarkt/cache
+          key: transfermarkt-${{ github.run_id }}
+          restore-keys: transfermarkt-
+
+      - name: Scrape squads and managers (stops if Transfermarkt shows a bot check)
+        run: python scripts/scrape_transfermarkt.py
+
+      - name: Fill transfermarkt_id in teams.csv
+        run: python scripts/match_teams.py data/teams.csv output/transfermarkt/clubs.json transfermarkt_id
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/transfermarkt data/teams.csv
+          git diff --cached --quiet || git commit -m "Transfermarkt snapshot $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

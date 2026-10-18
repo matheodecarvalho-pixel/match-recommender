@@ -35,6 +35,8 @@ data/teams.csv          201 clubs: canonical name, aliases, provider ID columns
 scripts/match_teams.py  fills provider IDs in teams.csv from a provider team list
 scripts/scrape_europe.py  daily Europa + Conference League fixtures/results
 scripts/build_teams.py  regenerates teams.csv from the data files
+scripts/scrape_transfermarkt.py  squads + managers with previous club (twice a season)
+scripts/revenge.py      revenge flags from the newest Transfermarkt snapshot
 output/                 generated JSON (pipeline writes here)
 site/                   the website
 ```

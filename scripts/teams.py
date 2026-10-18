@@ -14,7 +14,7 @@ RENAME = {"Bournemouth": "AFC Bournemouth", "Deportivo": "Deportivo La Coruña"}
 
 class Registry:
     def __init__(self, teams_csv, fd_teams=(), extra_aliases=None):
-        self.by_fd, self.by_espn, self.by_name = {}, {}, {}
+        self.by_fd, self.by_espn, self.by_tm, self.by_name = {}, {}, {}, {}
         self.unmatched = set()
         for row in csv.DictReader(open(teams_csv, encoding="utf-8")):
             name = row["canonical_name"]
@@ -22,6 +22,8 @@ class Registry:
                 self.by_fd[row["football_data_id"]] = name
             if row.get("espn_id"):
                 self.by_espn[row["espn_id"]] = name
+            if row.get("transfermarkt_id"):
+                self.by_tm[row["transfermarkt_id"]] = name
             for alias in [name] + [a for a in row["aliases"].split("|") if a]:
                 self.by_name.setdefault(norm(alias), name)
         # Clubs football-data.org knows but teams.csv doesn't (no rivalry or record):
@@ -57,6 +59,13 @@ class Registry:
             return hit
         self.unmatched.add(f"ESPN: {name} ({espn_id})")
         return name
+
+    def from_tm(self, tm_id, name):
+        """Key for a Transfermarkt club, or None. Callers log what they need to (former clubs
+        outside the 7 leagues are expected misses)."""
+        if tm_id and tm_id in self.by_tm:
+            return self.by_tm[tm_id]
+        return self.by_name.get(norm(name)) if name else None
 
 
 def load(root):
