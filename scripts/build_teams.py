@@ -39,7 +39,7 @@ ALIASES = {
  "Valencia": ["Valencia CF"], "Levante": ["Levante UD"], "Villarreal": ["Villarreal CF"],
  "Celta Vigo": ["RC Celta de Vigo", "Celta"],
  "Deportivo La Coruña": ["RC Deportivo La Coruña", "Deportivo", "Deportivo de La Coruña"],
- "Real Oviedo": ["Oviedo"], "Sporting Gijón": ["Real Sporting de Gijón", "Sporting de Gijón"],
+ "Real Oviedo": ["Oviedo"], "Racing Santander": ["Real Racing Club de Santander"], "Sporting Gijón": ["Real Sporting de Gijón", "Sporting de Gijón"],
  "Getafe": ["Getafe CF"], "Leganés": ["CD Leganés"], "Girona": ["Girona FC"],
  "Osasuna": ["CA Osasuna"], "Alavés": ["Deportivo Alavés"], "Elche": ["Elche CF"],
  "Granada": ["Granada CF"], "Málaga": ["Málaga CF"], "Almería": ["UD Almería"],
@@ -80,7 +80,7 @@ ALIASES = {
  "Angers": ["Angers SCO"], "Bordeaux": ["FC Girondins de Bordeaux", "Girondins de Bordeaux"],
  "Toulouse": ["Toulouse FC"], "Metz": ["FC Metz"], "Nancy": ["AS Nancy Lorraine"],
  "Strasbourg": ["RC Strasbourg Alsace", "RC Strasbourg"], "Le Havre": ["Le Havre AC"],
- "Caen": ["Stade Malherbe Caen", "SM Caen"], "Auxerre": ["AJ Auxerre"], "Troyes": ["ESTAC Troyes", "Troyes AC"],
+ "Caen": ["Stade Malherbe Caen", "SM Caen"], "Auxerre": ["AJ Auxerre"], "Troyes": ["ESTAC Troyes", "Troyes AC", "ES Troyes AC"],
  "Reims": ["Stade de Reims"], "Montpellier": ["Montpellier HSC"], "Paris FC": ["Paris FC"],
  # Netherlands
  "Ajax": ["AFC Ajax"], "Feyenoord": ["Feyenoord Rotterdam"], "PSV": ["PSV Eindhoven", "PSV"],
@@ -88,12 +88,12 @@ ALIASES = {
  "FC Groningen": ["Groningen"], "SC Heerenveen": ["sc Heerenveen", "Heerenveen"],
  "Sparta Rotterdam": ["Sparta"], "Excelsior": ["SBV Excelsior", "Excelsior Rotterdam"],
  "PEC Zwolle": ["Zwolle"], "Go Ahead Eagles": ["GA Eagles"], "NAC Breda": ["NAC"],
- "Willem II": ["Willem II Tilburg"], "Fortuna Sittard": ["Fortuna"],
+ "Willem II": ["Willem II Tilburg"], "Telstar": ["Telstar 1963"], "SC Cambuur": ["SC Cambuur-Leeuwarden", "Cambuur"], "Fortuna Sittard": ["Fortuna"],
  # Portugal
  "Benfica": ["SL Benfica", "Sport Lisboa e Benfica"], "Porto": ["FC Porto"],
  "Sporting CP": ["Sporting Clube de Portugal", "Sporting Lisbon", "Sporting"],
- "Braga": ["SC Braga", "Sporting Braga"], "Vitória SC": ["Vitória Guimarães", "Vitoria Guimaraes"],
- "Boavista": ["Boavista FC"], "Rio Ave": ["Rio Ave FC"],
+ "Braga": ["SC Braga", "Sporting Braga", "Sporting Clube de Braga"], "Vitória SC": ["Vitória Guimarães", "Vitoria Guimaraes"],
+ "Boavista": ["Boavista FC"], "Marítimo": ["CS Marítimo", "Maritimo"], "Rio Ave": ["Rio Ave FC"],
 }
 
 # The rivalries file says "Bournemouth"; fold it into the official canonical name.
@@ -116,11 +116,18 @@ for r in json.load(open("data/records.json", encoding="utf-8")):
         for name in r["holder"].split("/"):
             add(strip(name), COUNTRY[r["competition"]])
 
+# Keep provider IDs already filled by match_teams.py.
+ID_COLUMNS = ("football_data_id", "api_football_id", "transfermarkt_id")
+try:
+    old = {r["canonical_name"]: r for r in csv.DictReader(open("data/teams.csv", encoding="utf-8"))}
+except FileNotFoundError:
+    old = {}
+
 rows = []
 for name in sorted(clubs, key=lambda n: (clubs[n], n)):
     rows.append({"canonical_name": name, "country": clubs[name],
                  "aliases": "|".join(ALIASES.get(name, [])),
-                 "football_data_id": "", "api_football_id": "", "transfermarkt_id": ""})
+                 **{c: old.get(name, {}).get(c, "") for c in ID_COLUMNS}})
 
 with open("data/teams.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0]))

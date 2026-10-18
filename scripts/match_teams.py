@@ -5,9 +5,9 @@ Usage:
   python match_teams.py teams.csv provider_teams.json api_football_id
   python match_teams.py teams.csv provider_teams.json transfermarkt_id
 
-provider_teams.json is a list of {"id": ..., "name": ..., "country": ...}
-saved from the provider (for football-data.org: /v4/competitions/{code}/teams;
-flatten "teams" into that shape). Anything unmatched or ambiguous is printed
+provider_teams.json is a list of {"id": ..., "name": ..., "country": ...} (optional "short_name")
+saved from the provider (for football-data.org: run fetch_fd.py --teams, then
+fd_teams_flat.py). Anything unmatched or ambiguous is printed
 so a human can fix it once in teams.csv.
 """
 import csv, json, re, sys, unicodedata
@@ -31,7 +31,8 @@ def main(teams_path, provider_path, column):
     provider = json.load(open(provider_path, encoding="utf-8"))
     index = {}
     for p in provider:
-        index.setdefault(norm(p["name"]), []).append(p)
+        for name in {p["name"], p.get("short_name") or p["name"]}:
+            index.setdefault(norm(name), []).append(p)
 
     matched, unmatched, ambiguous = 0, [], []
     for row in rows:
