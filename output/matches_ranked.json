@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T01:06:58.520345+02:00",
+ "generated_at": "2026-10-19T01:19:23.422865+02:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 0,
@@ -17,6 +17,79 @@
   "closeness": 5
  },
  "matches": [
+  {
+   "id": "fd-575367",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T21:00:00+02:00",
+   "day": "2026-10-20",
+   "home": "Paris Saint-Germain",
+   "away": "Barcelona",
+   "score": 100,
+   "base": 93.9,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": true,
+   "recommended": true,
+   "story": "Both teams in form · Heavyweights: #4 v #6 in Europe's club ranking · 4.6 goals per game lately",
+   "breakdown": {
+    "form": {
+     "value": 1.0,
+     "points": 25.0,
+     "kind": "both_in_form",
+     "reason": "Both teams in form"
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.6 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.6,
+     "points": 9.0,
+     "kind": "rivalry",
+     "reason": "PSG v Barça: 7 Champions League meetings since 2017"
+    },
+    "closeness": {
+     "value": 0.983,
+     "points": 4.9,
+     "kind": "closeness",
+     "reason": "1st vs 2nd in the table"
+    },
+    "revenge": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "revenge",
+     "reason": "Dro Fernández faces his former club"
+    },
+    "big_match": {
+     "value": 1.0,
+     "points": 20.0,
+     "kind": "big_match",
+     "reason": "Heavyweights: #4 v #6 in Europe's club ranking"
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915399",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
   {
    "id": "fd-564723",
    "competition": "La Liga",
@@ -87,6 +160,213 @@
      "ABC",
      "ESPN Deportes",
      "ESPN+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575372",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T21:00:00+02:00",
+   "day": "2026-10-21",
+   "home": "Bayern Munich",
+   "away": "Arsenal",
+   "score": 89,
+   "base": 77.1,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": true,
+   "recommended": true,
+   "story": "Both teams in form · Heavyweights: #1 v #2 in Europe's club ranking · 3.9 goals per game lately",
+   "breakdown": {
+    "form": {
+     "value": 0.917,
+     "points": 22.9,
+     "kind": "both_in_form",
+     "reason": "Both teams in form"
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.975,
+     "points": 14.6,
+     "kind": "entertainment",
+     "reason": "3.9 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.922,
+     "points": 4.6,
+     "kind": "closeness",
+     "reason": "10th vs 7th in the table"
+    },
+    "revenge": {
+     "value": 0.5,
+     "points": 5.0,
+     "kind": "revenge_loss",
+     "reason": "Bayern Munich lost 3-1 to Arsenal in the Champions League (November 2025)"
+    },
+    "big_match": {
+     "value": 1.0,
+     "points": 20.0,
+     "kind": "big_match",
+     "reason": "Heavyweights: #1 v #2 in Europe's club ranking"
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915312",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575370",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T21:00:00+02:00",
+   "day": "2026-10-21",
+   "home": "Real Madrid",
+   "away": "RB Leipzig",
+   "score": 82,
+   "base": 70.4,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": true,
+   "story": "Real Madrid won 4 of last 5, RB Leipzig won 3 of last 5 · 4.2 goals per game lately · Heavyweights: #3 v #37 in Europe's club ranking",
+   "breakdown": {
+    "form": {
+     "value": 0.7,
+     "points": 17.5,
+     "kind": "form",
+     "reason": "Real Madrid won 4 of last 5, RB Leipzig won 3 of last 5"
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.2 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.697,
+     "points": 3.5
+    },
+    "revenge": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "revenge",
+     "reason": "Yan Diomande faces his former club"
+    },
+    "big_match": {
+     "value": 0.721,
+     "points": 14.4,
+     "kind": "big_match",
+     "reason": "Heavyweights: #3 v #37 in Europe's club ranking"
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915313",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575376",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T21:00:00+02:00",
+   "day": "2026-10-21",
+   "home": "Real Betis",
+   "away": "Feyenoord",
+   "score": 82,
+   "base": 70.4,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": true,
+   "story": "Both teams in form · 4.8 goals per game lately · Fight for a top-8 spot",
+   "breakdown": {
+    "form": {
+     "value": 0.983,
+     "points": 24.6,
+     "kind": "both_in_form",
+     "reason": "Both teams in form"
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.8 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.627,
+     "points": 3.1
+    },
+    "revenge": {
+     "value": 0.5,
+     "points": 5.0,
+     "kind": "revenge_loss",
+     "reason": "Feyenoord lost 2-1 to Real Betis in the Europa League (January 2026)"
+    },
+    "big_match": {
+     "value": 0.636,
+     "points": 12.7
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915389",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
     ]
    }
   },
@@ -221,6 +501,75 @@
     "id": "401879256",
     "league": "eng.1",
     "us_tv": []
+   }
+  },
+  {
+   "id": "fd-575363",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T21:00:00+02:00",
+   "day": "2026-10-20",
+   "home": "Liverpool",
+   "away": "Villarreal",
+   "score": 75,
+   "base": 63.6,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": true,
+   "story": "Both teams in form · 2.9 goals per game lately · Fight for a top-8 spot",
+   "breakdown": {
+    "form": {
+     "value": 0.817,
+     "points": 20.4,
+     "kind": "both_in_form",
+     "reason": "Both teams in form"
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.725,
+     "points": 10.9,
+     "kind": "entertainment",
+     "reason": "2.9 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.846,
+     "points": 4.2,
+     "kind": "closeness",
+     "reason": "5th vs 14th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.656,
+     "points": 13.1
+    },
+    "giant_trouble": {
+     "value": 0.5,
+     "points": 5.0,
+     "kind": "giant_gap",
+     "reason": "Liverpool 9 pts off the top of the Premier League: a giant in trouble"
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915397",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
    }
   },
   {
@@ -424,6 +773,143 @@
     "league": "ger.1",
     "us_tv": [
      "Fandango"
+    ]
+   }
+  },
+  {
+   "id": "fd-575362",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T21:00:00+02:00",
+   "day": "2026-10-20",
+   "home": "VfB Stuttgart",
+   "away": "Atlético Madrid",
+   "score": 65,
+   "base": 55.2,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "VfB Stuttgart won 2 of last 5, Atlético Madrid won 5 of last 5 · Fight for a top-8 spot · 2.3 goals per game lately",
+   "breakdown": {
+    "form": {
+     "value": 0.7,
+     "points": 17.5,
+     "kind": "form",
+     "reason": "VfB Stuttgart won 2 of last 5, Atlético Madrid won 5 of last 5"
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.575,
+     "points": 8.6,
+     "kind": "entertainment",
+     "reason": "2.3 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.571,
+     "points": 2.9
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.593,
+     "points": 11.9
+    },
+    "giant_trouble": {
+     "value": 0.429,
+     "points": 4.3,
+     "kind": "giant_trouble",
+     "reason": "VfB Stuttgart only 13th in the Bundesliga: a giant in trouble"
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915392",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575365",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T21:00:00+02:00",
+   "day": "2026-10-20",
+   "home": "Porto",
+   "away": "PSV",
+   "score": 65,
+   "base": 54.4,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Heavyweights: #16 v #23 in Europe's club ranking · 3.5 goals per game lately · Porto won 3 of last 5, PSV won 2 of last 5",
+   "breakdown": {
+    "form": {
+     "value": 0.5,
+     "points": 12.5,
+     "kind": "form",
+     "reason": "Porto won 3 of last 5, PSV won 2 of last 5"
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 0.875,
+     "points": 13.1,
+     "kind": "entertainment",
+     "reason": "3.5 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.851,
+     "points": 4.3,
+     "kind": "closeness",
+     "reason": "30th vs 26th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.724,
+     "points": 14.5,
+     "kind": "big_match",
+     "reason": "Heavyweights: #16 v #23 in Europe's club ranking"
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915398",
+    "league": "uefa.champions",
+    "us_tv": [
+     "CBSSN",
+     "Paramount+"
     ]
    }
   },
@@ -1168,6 +1654,202 @@
    }
   },
   {
+   "id": "fd-575371",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T21:00:00+02:00",
+   "day": "2026-10-21",
+   "home": "Inter",
+   "away": "Shaktar",
+   "score": 53,
+   "base": 43.9,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Heavyweights: #5 v #28 in Europe's club ranking · 4.1 goals per game lately · Fight for a top-24 spot",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.1 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.691,
+     "points": 3.5
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.77,
+     "points": 15.4,
+     "kind": "big_match",
+     "reason": "Heavyweights: #5 v #28 in Europe's club ranking"
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915390",
+    "league": "uefa.champions",
+    "us_tv": [
+     "CBSSN",
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575368",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T18:45:00+02:00",
+   "day": "2026-10-21",
+   "home": "Como",
+   "away": "Manchester United",
+   "score": 49,
+   "base": 40.2,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Fight for a top-8 spot · 2.3 goals per game lately · 12th vs 13th in the table",
+   "breakdown": {
+    "form": {
+     "value": 0.333,
+     "points": 8.3
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.575,
+     "points": 8.6,
+     "kind": "entertainment",
+     "reason": "2.3 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.876,
+     "points": 4.4,
+     "kind": "closeness",
+     "reason": "12th vs 13th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.231,
+     "points": 4.6
+    },
+    "giant_trouble": {
+     "value": 0.429,
+     "points": 4.3,
+     "kind": "giant_trouble",
+     "reason": "Manchester United only 13th in the Premier League: a giant in trouble"
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915395",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575364",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T21:00:00+02:00",
+   "day": "2026-10-20",
+   "home": "Roma",
+   "away": "Sl. Bratislava",
+   "score": 48,
+   "base": 38.8,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "4.0 goals per game lately · Fight for a top-24 spot",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.0 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.598,
+     "points": 3.0
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.542,
+     "points": 10.8
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915402",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-559650",
    "competition": "Ligue 1",
    "kickoff_paris": "2026-10-25T15:00:00+01:00",
@@ -1230,6 +1912,71 @@
     "id": "401876425",
     "league": "fra.1",
     "us_tv": []
+   }
+  },
+  {
+   "id": "fd-575360",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T18:45:00+02:00",
+   "day": "2026-10-20",
+   "home": "Fenerbahçe",
+   "away": "Slavia Praha",
+   "score": 47,
+   "base": 38.3,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.8 goals per game lately · Fight for a top-24 spot · 28th vs 31st in the table",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 0.938,
+     "points": 14.1,
+     "kind": "entertainment",
+     "reason": "3.8 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.882,
+     "points": 4.4,
+     "kind": "closeness",
+     "reason": "28th vs 31st in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.489,
+     "points": 9.8
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915403",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
    }
   },
   {
@@ -1430,6 +2177,71 @@
     "league": "ned.1",
     "us_tv": [
      "ESPN+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575373",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T21:00:00+02:00",
+   "day": "2026-10-21",
+   "home": "Club Brugge",
+   "away": "Lens",
+   "score": 46,
+   "base": 37.6,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "4.6 goals per game lately · Fight for a top-8 spot · 16th vs 19th in the table",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.6 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.935,
+     "points": 4.7,
+     "kind": "closeness",
+     "reason": "16th vs 19th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.395,
+     "points": 7.9
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915388",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
     ]
    }
   },
@@ -1689,6 +2501,71 @@
    }
   },
   {
+   "id": "fd-575369",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T18:45:00+02:00",
+   "day": "2026-10-21",
+   "home": "Lille",
+   "away": "Galatasaray",
+   "score": 45,
+   "base": 36.7,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.4 goals per game lately · Fight for a top-24 spot · 34th vs 35th in the table",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 0.838,
+     "points": 12.6,
+     "kind": "entertainment",
+     "reason": "3.4 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.796,
+     "points": 4.0,
+     "kind": "closeness",
+     "reason": "34th vs 35th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.507,
+     "points": 10.1
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915396",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-565830",
    "competition": "Bundesliga",
    "kickoff_paris": "2026-10-24T15:30:00+02:00",
@@ -1816,6 +2693,135 @@
     "id": "401876430",
     "league": "fra.1",
     "us_tv": []
+   }
+  },
+  {
+   "id": "fd-575366",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T21:00:00+02:00",
+   "day": "2026-10-20",
+   "home": "Napoli",
+   "away": "Bodø/Glimt",
+   "score": 44,
+   "base": 35.7,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Fight for a top-24 spot · 2.6 goals per game lately · 32nd vs 24th in the table",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 0.65,
+     "points": 9.8,
+     "kind": "entertainment",
+     "reason": "2.6 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.85,
+     "points": 4.2,
+     "kind": "closeness",
+     "reason": "32nd vs 24th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.585,
+     "points": 11.7
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915400",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575374",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T21:00:00+02:00",
+   "day": "2026-10-21",
+   "home": "Aston Villa",
+   "away": "Viking",
+   "score": 44,
+   "base": 35.5,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "4.4 goals per game lately · Aston Villa only 12th in the Premier League: a giant in trouble",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.25,
+     "points": 5.0,
+     "kind": "stakes_cutoff"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.4 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.389,
+     "points": 1.9
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.327,
+     "points": 6.5
+    },
+    "giant_trouble": {
+     "value": 0.714,
+     "points": 7.1,
+     "kind": "giant_trouble",
+     "reason": "Aston Villa only 12th in the Premier League: a giant in trouble"
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915394",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
    }
   },
   {
@@ -2795,6 +3801,71 @@
    }
   },
   {
+   "id": "fd-575359",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T18:45:00+02:00",
+   "day": "2026-10-20",
+   "home": "Sabah FK",
+   "away": "Borussia Dortmund",
+   "score": 39,
+   "base": 31.0,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Fight for a top-8 spot · 2.4 goals per game lately · 22nd vs 18th in the table",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.6,
+     "points": 9.0,
+     "kind": "entertainment",
+     "reason": "2.4 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.918,
+     "points": 4.6,
+     "kind": "closeness",
+     "reason": "22nd vs 18th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.372,
+     "points": 7.4
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915404",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-559651",
    "competition": "Ligue 1",
    "kickoff_paris": "2026-10-25T17:15:00+01:00",
@@ -3690,6 +4761,133 @@
    }
   },
   {
+   "id": "fd-575361",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-20T21:00:00+02:00",
+   "day": "2026-10-20",
+   "home": "Manchester City",
+   "away": "PAE AEK",
+   "score": 35,
+   "base": 27.4,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.5 goals per game lately · Fight for a top-8 spot · 17th vs 20th in the table",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.887,
+     "points": 13.3,
+     "kind": "entertainment",
+     "reason": "3.5 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.829,
+     "points": 4.1,
+     "kind": "closeness",
+     "reason": "17th vs 20th in the table"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915401",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-575375",
+   "competition": "Champions League",
+   "kickoff_paris": "2026-10-21T21:00:00+02:00",
+   "day": "2026-10-21",
+   "home": "Sporting CP",
+   "away": "LASK",
+   "score": 35,
+   "base": 27.3,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "4.1 goals per game lately",
+   "breakdown": {
+    "form": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "stakes": {
+     "value": 0.25,
+     "points": 5.0,
+     "kind": "stakes_cutoff"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.1 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.244,
+     "points": 1.2
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.306,
+     "points": 6.1
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401915391",
+    "league": "uefa.champions",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "espn-401915540",
    "competition": "Europa League",
    "kickoff_paris": "2026-10-22T21:00:00+02:00",
@@ -4262,69 +5460,6 @@
     "us_tv": [
      "Paramount+"
     ]
-   }
-  },
-  {
-   "id": "fd-560620",
-   "competition": "Premier League",
-   "kickoff_paris": "2026-10-23T21:00:00+02:00",
-   "day": "2026-10-23",
-   "home": "Ipswich Town",
-   "away": "Nottingham Forest",
-   "score": 33,
-   "base": 30.6,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.8 goals per game lately · Relegation battle · 10th vs 18th in the table",
-   "breakdown": {
-    "form": {
-     "value": 0.367,
-     "points": 9.2
-    },
-    "stakes": {
-     "value": 0.363,
-     "points": 7.3,
-     "kind": "stakes_relegation",
-     "reason": "Relegation battle"
-    },
-    "entertainment": {
-     "value": 0.7,
-     "points": 10.5,
-     "kind": "entertainment",
-     "reason": "2.8 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.721,
-     "points": 3.6,
-     "kind": "closeness",
-     "reason": "10th vs 18th in the table"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "giant_trouble": {
-     "value": 0.0,
-     "points": 0.0
-    }
-   },
-   "tier1_rivalry": false,
-   "espn": {
-    "id": "401879253",
-    "league": "eng.1",
-    "us_tv": []
    }
   },
   {
@@ -5150,6 +6285,67 @@
     "us_tv": [
      "Paramount+"
     ]
+   }
+  },
+  {
+   "id": "fd-560620",
+   "competition": "Premier League",
+   "kickoff_paris": "2026-10-23T21:00:00+02:00",
+   "day": "2026-10-23",
+   "home": "Ipswich Town",
+   "away": "Nottingham Forest",
+   "score": 31,
+   "base": 28.5,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "2.5 goals per game lately · Relegation battle",
+   "breakdown": {
+    "form": {
+     "value": 0.333,
+     "points": 8.3
+    },
+    "stakes": {
+     "value": 0.363,
+     "points": 7.3,
+     "kind": "stakes_relegation",
+     "reason": "Relegation battle"
+    },
+    "entertainment": {
+     "value": 0.625,
+     "points": 9.4,
+     "kind": "entertainment",
+     "reason": "2.5 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.694,
+     "points": 3.5
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "giant_trouble": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "espn": {
+    "id": "401879253",
+    "league": "eng.1",
+    "us_tv": []
    }
   },
   {
