@@ -15,6 +15,11 @@
   </div>
 </header>
 
+<div class="wrap tabs" role="tablist" aria-label="View">
+  <button type="button" role="tab" data-view="week" aria-selected="true">This week</button>
+  <button type="button" role="tab" data-view="results" aria-selected="false">Results</button>
+</div>
+
 <div class="wrap feed-bar">
   <button class="feed-btn" id="open-feed" type="button">✨ My Feed <span id="feed-name"></span></button>
 </div>
@@ -28,6 +33,14 @@
 </nav>
 
 <main class="wrap" id="days" aria-live="polite"></main>
+
+<main class="wrap" id="results" hidden>
+  <div class="results-tools">
+    <input type="search" id="search" placeholder="Search a club: Barça, Spurs, PSG…" autocomplete="off" aria-label="Search a club">
+    <label class="spoiler"><input type="checkbox" id="hide-scores"> Hide scores</label>
+  </div>
+  <div id="results-list"></div>
+</main>
 
 <dialog id="feed">
   <form method="dialog" class="fav-panel">

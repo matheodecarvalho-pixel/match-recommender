@@ -306,7 +306,8 @@ async function loadStats(m) {
 }
 
 async function paintCentre(node) {
-  const m = data.matches.find(x => x.espn && x.espn.id === node.dataset.espn);
+  const m = data.matches.find(x => x.espn && x.espn.id === node.dataset.espn)
+    || results?.matches.find(x => x.espn && x.espn.id === node.dataset.espn);
   const info = live.get(node.dataset.espn);
   const centre = node.querySelector(".centre");
   if (!m || !info || info.state === "pre") { centre.hidden = true; return; }
@@ -324,7 +325,7 @@ async function paintCentre(node) {
     rows.length ? el("table", { class: "stats" },
       el("thead", {}, el("tr", {}, el("th", {}, m.home), el("th", {}), el("th", {}, m.away))),
       el("tbody", {}, rows)) : null,
-    el("p", { class: "quiet" }, "Live data: ESPN"));
+    el("p", { class: "quiet" }, "Data: ESPN"));
 }
 
 function team(name) {
@@ -387,6 +388,10 @@ function card(m) {
 }
 
 function render() {
+  document.getElementById("days").hidden = view !== "week";
+  document.getElementById("results").hidden = view !== "results";
+  document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.view === view)));
+  if (view === "results") return renderResults();
   const matches = data.matches.map(rescore).filter(m => !hidden.has(m.competition));
   const byDay = new Map();
   for (const m of matches) {
@@ -407,6 +412,98 @@ function render() {
   }
   const n = favourites.size + data.favourites.length;
   document.getElementById("fav-count").textContent = n ? `(${n})` : "";
+}
+
+// ---------- Results: past matches, with search ----------
+
+const RESULTS_SOURCES = ["results.json", "../output/results.json"];
+const VIEW_KEY = "mr.view";
+const SPOILER_KEY = "mr.hideScores";
+const PAGE = 60;
+let view = load(VIEW_KEY, "week");
+let results = null;
+let shown = PAGE;
+let hideScores = load(SPOILER_KEY, false);
+
+// "Barça", "barca", "BARCELONA" all match; aliases come from teams.csv.
+const fold = t => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+function matchesQuery(m, q) {
+  if (!q) return true;
+  const hay = [m.home, m.away, results.aliases[m.home] || "", results.aliases[m.away] || "", m.competition].map(fold).join(" ");
+  return q.split(" ").every(word => hay.includes(word));
+}
+
+async function ensureEvent(m) {
+  // A past game's goals and cards come from that day's ESPN scoreboard.
+  if (!m.espn || live.has(m.espn.id)) return;
+  try {
+    const r = await fetch(`${ESPN}/${m.espn.league}/scoreboard?dates=${ymd(new Date(m.kickoff_paris))}`);
+    if (r.ok) for (const e of (await r.json()).events || []) live.set(e.id, readEvent(e));
+  } catch { /* offline: the panel says so */ }
+}
+
+function resultRow(m) {
+  const homeWon = m.home_goals > m.away_goals, awayWon = m.away_goals > m.home_goals;
+  const score = el("span", { class: "result-score" + (hideScores ? " veiled" : "") },
+    hideScores ? "? – ?" : `${m.home_goals} – ${m.away_goals}`);
+  const centre = el("div", { class: "centre" });
+  centre.hidden = true;
+  let node;
+  const button = el("button", { type: "button", "aria-expanded": "false",
+    onclick: async () => {
+      const open = centre.hidden;
+      centre.hidden = !open;
+      button.setAttribute("aria-expanded", String(open));
+      if (open) {
+        score.textContent = `${m.home_goals} – ${m.away_goals}`;  // opening a game reveals its score
+        score.classList.remove("veiled");
+        if (m.espn) { centre.replaceChildren(el("p", { class: "quiet" }, "Loading…")); await ensureEvent(m); paintCentre(node); }
+        else centre.replaceChildren(el("p", { class: "quiet" }, "No match details for this game."));
+      }
+    } },
+    el("div", { class: "meta" }, el("span", {}, timeFmt.format(new Date(m.kickoff_paris))), el("span", {}, m.competition)),
+    el("div", { class: "result-line" },
+      el("span", { class: "side" + (homeWon && !hideScores ? " won" : "") }, team(m.home)),
+      score,
+      el("span", { class: "side away" + (awayWon && !hideScores ? " won" : "") }, team(m.away))));
+  node = el("article", { class: "card result" }, button, centre);
+  if (m.espn) node.dataset.espn = m.espn.id;
+  return node;
+}
+
+async function renderResults() {
+  const list = document.getElementById("results-list");
+  if (!results) {
+    list.replaceChildren(el("p", { class: "empty" }, "Loading results…"));
+    results = await fetchJson(RESULTS_SOURCES);
+    if (!results) { list.replaceChildren(el("p", { class: "empty" }, "Couldn't load results.")); return; }
+  }
+  const q = fold(document.getElementById("search").value || "");
+  const found = results.matches.filter(m => !hidden.has(m.competition) && matchesQuery(m, q));
+  const byDay = new Map();
+  for (const m of found.slice(0, shown)) {
+    if (!byDay.has(m.day)) byDay.set(m.day, []);
+    byDay.get(m.day).push(m);
+  }
+  list.replaceChildren(
+    found.length ? el("p", { class: "quiet" }, `${found.length} match${found.length === 1 ? "" : "es"}${q ? ` for “${document.getElementById("search").value.trim()}”` : " this season"}`)
+      : el("p", { class: "empty" }, "No results for this search."),
+    ...[...byDay.entries()].map(([day, ms]) => el("section", { class: "day" }, el("h2", {}, dayLabel(day)), ms.map(resultRow))),
+    found.length > shown ? el("button", { type: "button", class: "more", onclick: () => { shown += PAGE; renderResults(); } }, `Show more (${found.length - shown} left)`) : null);
+}
+
+function setupTabs() {
+  document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+    view = b.dataset.view;
+    save(VIEW_KEY, view);
+    render();
+  }));
+  const search = document.getElementById("search");
+  search.addEventListener("input", () => { shown = PAGE; renderResults(); });
+  const spoiler = document.getElementById("hide-scores");
+  spoiler.checked = hideScores;
+  spoiler.addEventListener("change", () => { hideScores = spoiler.checked; save(SPOILER_KEY, hideScores); renderResults(); });
 }
 
 function renderChips() {
@@ -551,6 +648,7 @@ Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   renderChips();
   setupFavourites();
   setupFeed();
+  setupTabs();
   render();
   pollLive();
 }).catch(err => {

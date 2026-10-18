@@ -8,7 +8,7 @@ ESPN and need nothing here.
   python scripts/espn_ids.py      # writes output/espn_ids.json
 """
 import json, sys
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import requests
 
@@ -25,6 +25,7 @@ LEAGUES = {
     "Champions League": "uefa.champions",
 }
 OUT = ROOT / "output" / "espn_ids.json"
+CACHE = ROOT / "output" / "espn_months"  # finished months, never fetched again
 
 
 def months(start, end):
@@ -58,28 +59,47 @@ def link(fixtures, games, registry):
     return out
 
 
+def season_start(today):
+    return date(today.year if today.month >= 7 else today.year - 1, 7, 1)
+
+
+def month_games(fetcher, comp, slug, month, today, failures):
+    """One league-month of ESPN games; months that have ended come from the cache."""
+    path = CACHE / slug / f"{month:%Y%m}.json"
+    finished = (month.year, month.month) < (today.year, today.month)
+    if finished and path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    try:
+        data = fetcher.get(f"{BASE}/site/v2/sports/soccer/{slug}/scoreboard", dates=f"{month:%Y%m}", limit=500)
+    except requests.RequestException as e:
+        failures.append(f"{comp} {month:%Y-%m}: {e}")
+        return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    games = parse(data, comp)
+    if finished:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(games, ensure_ascii=False), encoding="utf-8")
+    return games
+
+
 def main():
     config = json.loads((ROOT / "config" / "scoring.json").read_text(encoding="utf-8"))
     registry = teams.load(ROOT)
     matches, _ = load_fd(ROOT / "output" / "raw" / "fd", registry)
     now = datetime.now(timezone.utc)
     end = now + timedelta(days=config["window_days"])
-    fixtures = [m for m in matches if m["status"] == "upcoming" and now - timedelta(hours=3) <= m["kickoff_utc"] < end]
+    # This week's fixtures (live scores) and every finished match this season (Results tab).
+    fixtures = [m for m in matches if (m["status"] == "upcoming" and now - timedelta(hours=3) <= m["kickoff_utc"] < end)
+                or m["status"] == "finished"]
 
     fetcher, games, failures = Fetcher(), {}, []
     for comp, slug in LEAGUES.items():
-        for month in months(now.date(), end.date()):
-            try:
-                data = fetcher.get(f"{BASE}/site/v2/sports/soccer/{slug}/scoreboard", dates=f"{month:%Y%m}", limit=500)
-            except requests.RequestException as e:
-                failures.append(f"{comp} {month:%Y-%m}: {e}")
-                continue
-            games.setdefault(comp, []).extend(parse(data, comp))
+        for month in months(season_start(now.date()), end.date()):
+            games.setdefault(comp, []).extend(month_games(fetcher, comp, slug, month, now.date(), failures))
 
     ids = link(fixtures, games, registry)
     OUT.write_text(json.dumps(ids, indent=1, sort_keys=True), encoding="utf-8")
     missing = [f"{m['competition']}: {m['home']} v {m['away']}" for m in fixtures if m["id"] not in ids]
-    print(f"{len(ids)}/{len(fixtures)} fixtures linked to ESPN games")
+    print(f"{len(ids)}/{len(fixtures)} matches linked to ESPN games")
     for line in missing + failures:
         print("  not linked:" if line in missing else "  FAILED:", line, file=sys.stderr)
 

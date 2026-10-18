@@ -108,7 +108,34 @@ def build(now=None):
            "matches": ranked, "warnings": warnings,
            "unmatched_teams": sorted(registry.unmatched)}
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_results(matches, espn_ids, us_tv, registry, now)
     return out
+
+
+def search_aliases(registry):
+    """Every name a club goes by (teams.csv aliases, football-data.org names), for the search bar."""
+    names = {}
+    for alias_norm, key in registry.by_name.items():
+        names.setdefault(key, set()).add(alias_norm)
+    return {k: " ".join(sorted(v)) for k, v in names.items()}
+
+
+def write_results(matches, espn_ids, us_tv, registry, now):
+    """Finished matches this season, newest first, for the Results tab."""
+    rows = []
+    for m in matches:
+        if m["status"] != "finished" or m["home_goals"] is None:
+            continue
+        kickoff = m["kickoff_utc"].astimezone(PARIS)
+        rows.append({"id": m["id"], "competition": m["competition"], "kickoff_paris": kickoff.isoformat(),
+                     "day": kickoff.date().isoformat(), "home": m["home"], "away": m["away"],
+                     "home_goals": m["home_goals"], "away_goals": m["away_goals"],
+                     "espn": espn_link(m, espn_ids, us_tv)})
+    rows.sort(key=lambda r: r["kickoff_paris"], reverse=True)
+    teams_seen = {t for r in rows for t in (r["home"], r["away"])}
+    aliases = {k: v for k, v in search_aliases(registry).items() if k in teams_seen}
+    out = {"generated_at": now.astimezone(PARIS).isoformat(), "matches": rows, "aliases": aliases}
+    (OUTPUT / "results.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 if __name__ == "__main__":

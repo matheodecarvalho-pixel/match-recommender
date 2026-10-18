@@ -230,3 +230,28 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 .profile { font-size: 1.4rem !important; color: var(--accent); }
 .picks { padding-left: 1.2em; margin: 4px 0 8px; }
 #feed-main { padding-right: 6px; }
+
+/* Tabs */
+.tabs { display: flex; gap: 4px; padding-top: 12px; padding-bottom: 8px; }
+.tabs button {
+  font: inherit; font-weight: 600; cursor: pointer; padding: 7px 14px; border-radius: 999px;
+  border: 1px solid transparent; background: transparent; color: var(--muted);
+}
+.tabs button[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+
+/* Results */
+.results-tools { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding-top: 14px; }
+#search {
+  flex: 1; min-width: 12em; font: inherit; padding: 9px 12px; border-radius: 10px;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink);
+}
+.spoiler { display: flex; gap: 6px; align-items: center; font-size: 0.85rem; color: var(--muted); cursor: pointer; }
+.result-line {
+  grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center;
+  font-size: 0.98rem;
+}
+.result-line .side.away { text-align: right; }
+.result-line .won { font-weight: 700; }
+.result-score { font-weight: 750; font-variant-numeric: tabular-nums; padding: 2px 10px; border-radius: 8px; background: var(--bar); }
+.result-score.veiled { color: var(--muted); }
+.more { display: block; margin: 16px auto; font: inherit; cursor: pointer; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
