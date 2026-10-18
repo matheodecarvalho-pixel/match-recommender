@@ -1,18 +1,16 @@
 {
   "window_days": 7,
-
   "_about": "Proposed V1 defaults. Edit freely: the app reads every number from this file. Each signal is scored 0-1, then weighted into a 0-100 watchability score.",
-
   "weights": {
     "form": 25,
     "stakes": 20,
     "entertainment": 15,
     "rivalry": 15,
-    "closeness": 5,
-    "records": 10,
-    "revenge": 10
+    "big_match": 20,
+    "revenge": 10,
+    "giant_trouble": 10,
+    "closeness": 5
   },
-
   "signals": {
     "form": {
       "_how": "Points per game over each team's last N matches, both teams averaged. Two in-form teams beat one.",
@@ -32,15 +30,39 @@
       "one_team_in_race": 0.5,
       "_zones": "Approximate places per league. europe = all European spots (CL+EL+ECL), relegation = direct + playoff places.",
       "league_zones": {
-        "Premier League": {"europe": 7, "relegation": 3},
-        "La Liga": {"europe": 7, "relegation": 3},
-        "Serie A": {"europe": 7, "relegation": 3},
-        "Bundesliga": {"europe": 7, "relegation": 3},
-        "Ligue 1": {"europe": 6, "relegation": 3},
-        "Eredivisie": {"europe": 5, "relegation": 3},
-        "Primeira Liga": {"europe": 5, "relegation": 3}
+        "Premier League": {
+          "europe": 7,
+          "relegation": 3
+        },
+        "La Liga": {
+          "europe": 7,
+          "relegation": 3
+        },
+        "Serie A": {
+          "europe": 7,
+          "relegation": 3
+        },
+        "Bundesliga": {
+          "europe": 7,
+          "relegation": 3
+        },
+        "Ligue 1": {
+          "europe": 6,
+          "relegation": 3
+        },
+        "Eredivisie": {
+          "europe": 5,
+          "relegation": 3
+        },
+        "Primeira Liga": {
+          "europe": 5,
+          "relegation": 3
+        }
       },
-      "league_phase_cutoffs": [8, 24],
+      "league_phase_cutoffs": [
+        8,
+        24
+      ],
       "league_phase_points_gap": 3,
       "_damping": "Early in the season every team is close to every cutoff. Stakes are scaled by share of season played / full_weight_from_share, never below min_factor.",
       "full_weight_from_share": 0.5,
@@ -85,28 +107,40 @@
       "club_window_months": 12,
       "club_knockout": 1.0,
       "club_loss": 0.5
+    },
+    "big_match": {
+      "_how": "How big both clubs are: UEFA 5-year club coefficient. Stature = sqrt(points / points_for_full), capped at 1; the match value is home stature x away stature.",
+      "points_for_full": 100,
+      "min_value_for_reason": 0.7
+    },
+    "giant_trouble": {
+      "_how": "A big club (stature >= min_stature) sitting below its expected place in its own league, where expected = clubs ordered by UEFA coefficient. Slip of slip_start places scores 0, slip_full or more scores 1. For clubs expected in the top title_contender_places, a points gap to the leader also counts: gap_start points behind scores 0, gap_full or more scores 1.",
+      "min_stature": 0.6,
+      "min_games": 5,
+      "slip_start": 3,
+      "slip_full": 10,
+      "title_contender_places": 2,
+      "gap_start": 6,
+      "gap_full": 12
     }
   },
-
   "competition_bonus": {
     "_how": "Points added to the 0-100 score. Small nudge for Europa and Conference League nights, which you flagged as underrated.",
     "Champions League": 5,
     "Europa League": 5,
     "Conference League": 5
   },
-
   "favourites": {
-    "_how": "Your teams get a boost. A must-watch match still ranks above them.",
-    "boost": 15,
+    "_how": "Your teams are outlined in gold and sorted first within a day; they get no points (boost 0).",
+    "boost": 0,
     "teams": []
   },
-
   "must_watch": {
     "_how": "A match is must-watch if its score reaches the threshold OR it is a tier-1 rivalry. Must-watch matches rank above favourite-team matches.",
-    "score_threshold": 60,
-    "tier_1_rivalry_always": true
+    "score_threshold": 85,
+    "tier_1_rivalry_always": true,
+    "recommended_threshold": 75
   },
-
   "story": {
     "_how": "The 'why watch' line: the top contributing signals, most important first, joined with a dot.",
     "max_reasons": 3,
@@ -126,7 +160,23 @@
       "revenge": "{person} faces his former club",
       "revenge_knockout": "{loser} were knocked out by {winner} in the {competition} {stage} ({when})",
       "revenge_loss": "{loser} lost {score} to {winner} in the {competition} ({when})",
-      "european_classic": "European classic: {n} meetings since {since}"
+      "european_classic": "European classic: {n} meetings since {since}",
+      "big_match": "Heavyweights: #{home_rank} v #{away_rank} in Europe's club ranking",
+      "giant_trouble": "{team} only {pos} in {league}: a giant in trouble",
+      "giant_gap": "{team} {gap} pts off the top of {league}: a giant in trouble"
     }
+  },
+  "_weights": "Relative importance. Records are switched off (too rare); they come back by adding a weight. Scores are rescaled with `scale`.",
+  "knockout_bonus": {
+    "_how": "Raw points added for European knockout rounds (before rescaling). League-phase games get none.",
+    "playoffs": 3,
+    "round_of_16": 6,
+    "quarter_finals": 9,
+    "semi_finals": 12,
+    "final": 15
+  },
+  "scale": {
+    "_how": "Raw points (signals + bonuses) that count as 100. Calibrated so a top fixture lands around 90.",
+    "reference": 92
   }
 }

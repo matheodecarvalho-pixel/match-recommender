@@ -54,6 +54,10 @@ def build(now=None):
     european = euro_results.load(ROOT, registry)
     elims = euro_results.eliminations(european)
     meetings = euro_results.european_meetings(ROOT)
+    stature_path = ROOT / "data" / "club_stature.json"
+    clubs = json.loads(stature_path.read_text(encoding="utf-8"))["clubs"] if stature_path.exists() else {}
+    if not clubs:
+        warnings.append("No club_stature.json: big-match and giant-in-trouble signals score 0")
     ids_path = OUTPUT / "espn_ids.json"
     espn_ids = json.loads(ids_path.read_text(encoding="utf-8")) if ids_path.exists() else {}
     europe_path = OUTPUT / "europe_matches.json"
@@ -68,7 +72,7 @@ def build(now=None):
     for m in matches:
         if m["status"] != "upcoming" or not (now - timedelta(hours=2) <= m["kickoff_utc"] < end):
             continue
-        extras = {"knockout": m["competition"] in knockout,
+        extras = {"knockout": m["competition"] in knockout, "stature": clubs,
                   "record_chases": [c for team in (m["home"], m["away"]) for c in chases.get(team, [])
                                     if c["competition"] == m["competition"]],
                   "revenge": moves.flags(m["home"], m["away"], m["kickoff_utc"]),
@@ -89,7 +93,10 @@ def build(now=None):
     ranked.sort(key=sort_key)
     out = {"generated_at": now.astimezone(PARIS).isoformat(), "window_days": config["window_days"],
            "favourites": config["favourites"]["teams"], "favourite_boost": config["favourites"]["boost"],
-           "must_watch_threshold": config["must_watch"]["score_threshold"], "weights": config["weights"],
+           "must_watch_threshold": config["must_watch"]["score_threshold"],
+           "recommended_threshold": config["must_watch"]["recommended_threshold"],
+           "scale_reference": config["scale"]["reference"],
+           "weights": {k: v for k, v in config["weights"].items() if v},
            "matches": ranked, "warnings": warnings,
            "unmatched_teams": sorted(registry.unmatched)}
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

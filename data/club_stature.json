@@ -1,0 +1,438 @@
+{
+ "clubs": {
+  "1. FC Köln": {
+   "points": 6.0,
+   "rank": 117,
+   "uefa_name": "Köln"
+  },
+  "AC Milan": {
+   "points": 61.0,
+   "rank": 25,
+   "uefa_name": "Milan"
+  },
+  "AFC Bournemouth": {
+   "points": 4.0,
+   "rank": 95,
+   "uefa_name": "Bournemouth"
+  },
+  "AZ": {
+   "points": 51.875,
+   "rank": 38,
+   "uefa_name": "AZ Alkmaar"
+  },
+  "Ajax": {
+   "points": 36.25,
+   "rank": 61,
+   "uefa_name": "Ajax"
+  },
+  "Arouca": {
+   "points": 2.0,
+   "rank": 134,
+   "uefa_name": "Arouca"
+  },
+  "Arsenal": {
+   "points": 129.0,
+   "rank": 2,
+   "uefa_name": "Arsenal"
+  },
+  "Aston Villa": {
+   "points": 93.0,
+   "rank": 12,
+   "uefa_name": "Aston Villa"
+  },
+  "Atalanta": {
+   "points": 70.0,
+   "rank": 22,
+   "uefa_name": "Atalanta"
+  },
+  "Athletic Club": {
+   "points": 38.75,
+   "rank": 54,
+   "uefa_name": "Athletic Club"
+  },
+  "Atlético Madrid": {
+   "points": 93.75,
+   "rank": 11,
+   "uefa_name": "Atleti"
+  },
+  "Barcelona": {
+   "points": 108.25,
+   "rank": 6,
+   "uefa_name": "Barcelona"
+  },
+  "Bayer Leverkusen": {
+   "points": 95.0,
+   "rank": 10,
+   "uefa_name": "Leverkusen"
+  },
+  "Bayern Munich": {
+   "points": 130.5,
+   "rank": 1,
+   "uefa_name": "Bayern München"
+  },
+  "Benfica": {
+   "points": 74.0,
+   "rank": 20,
+   "uefa_name": "Benfica"
+  },
+  "Bodø/Glimt": {
+   "points": 57.0,
+   "rank": 32,
+   "uefa_name": "Bodø/Glimt"
+  },
+  "Bologna": {
+   "points": 30.75,
+   "rank": 66,
+   "uefa_name": "Bologna"
+  },
+  "Borussia Dortmund": {
+   "points": 98.75,
+   "rank": 9,
+   "uefa_name": "B. Dortmund"
+  },
+  "Borussia Mönchengladbach": {
+   "points": 16.0,
+   "rank": 114,
+   "uefa_name": "Mönchengladbach"
+  },
+  "Braga": {
+   "points": 47.75,
+   "rank": 45,
+   "uefa_name": "Braga"
+  },
+  "Brest": {
+   "points": 16.75,
+   "rank": 113,
+   "uefa_name": "Brest"
+  },
+  "Brighton & Hove Albion": {
+   "points": 18.0,
+   "rank": 97,
+   "uefa_name": "Brighton"
+  },
+  "Celta Vigo": {
+   "points": 16.25,
+   "rank": 110,
+   "uefa_name": "Celta"
+  },
+  "Chelsea": {
+   "points": 74.25,
+   "rank": 19,
+   "uefa_name": "Chelsea"
+  },
+  "Club Brugge": {
+   "points": 76.25,
+   "rank": 17,
+   "uefa_name": "Club Brugge"
+  },
+  "Como": {
+   "points": 8.0,
+   "rank": 106,
+   "uefa_name": "Como"
+  },
+  "Crystal Palace": {
+   "points": 23.875,
+   "rank": 84,
+   "uefa_name": "Crystal Palace"
+  },
+  "Eintracht Frankfurt": {
+   "points": 55.0,
+   "rank": 35,
+   "uefa_name": "Frankfurt"
+  },
+  "FC Twente": {
+   "points": 15.5,
+   "rank": 121,
+   "uefa_name": "Twente"
+  },
+  "Fenerbahçe": {
+   "points": 59.75,
+   "rank": 27,
+   "uefa_name": "Fenerbahçe"
+  },
+  "Feyenoord": {
+   "points": 55.0,
+   "rank": 34,
+   "uefa_name": "Feyenoord"
+  },
+  "Fiorentina": {
+   "points": 76.25,
+   "rank": 18,
+   "uefa_name": "Fiorentina"
+  },
+  "Galatasaray": {
+   "points": 44.5,
+   "rank": 46,
+   "uefa_name": "Galatasaray"
+  },
+  "Getafe": {
+   "points": 1.0,
+   "rank": 109,
+   "uefa_name": "Getafe"
+  },
+  "Gil Vicente": {
+   "points": 2.5,
+   "rank": 135,
+   "uefa_name": "Gil Vicente"
+  },
+  "Girona": {
+   "points": 8.0,
+   "rank": 111,
+   "uefa_name": "Girona"
+  },
+  "Go Ahead Eagles": {
+   "points": 6.5,
+   "rank": 160,
+   "uefa_name": "Go Ahead Eagles"
+  },
+  "Hoffenheim": {
+   "points": 7.0,
+   "rank": 116,
+   "uefa_name": "Hoffenheim"
+  },
+  "Inter": {
+   "points": 115.0,
+   "rank": 5,
+   "uefa_name": "Inter"
+  },
+  "Juventus": {
+   "points": 56.25,
+   "rank": 33,
+   "uefa_name": "Juventus"
+  },
+  "LASK": {
+   "points": 12.0,
+   "rank": 144,
+   "uefa_name": "LASK"
+  },
+  "Lazio": {
+   "points": 50.0,
+   "rank": 40,
+   "uefa_name": "Lazio"
+  },
+  "Lens": {
+   "points": 20.5,
+   "rank": 99,
+   "uefa_name": "Lens"
+  },
+  "Lille": {
+   "points": 57.75,
+   "rank": 31,
+   "uefa_name": "Lille"
+  },
+  "Liverpool": {
+   "points": 107.0,
+   "rank": 7,
+   "uefa_name": "Liverpool"
+  },
+  "Lyon": {
+   "points": 48.75,
+   "rank": 42,
+   "uefa_name": "Lyon"
+  },
+  "Mainz": {
+   "points": 17.5,
+   "rank": 108,
+   "uefa_name": "Mainz"
+  },
+  "Manchester City": {
+   "points": 106.5,
+   "rank": 8,
+   "uefa_name": "Man City"
+  },
+  "Manchester United": {
+   "points": 66.5,
+   "rank": 24,
+   "uefa_name": "Man Utd"
+  },
+  "Marseille": {
+   "points": 38.0,
+   "rank": 55,
+   "uefa_name": "Marseille"
+  },
+  "Monaco": {
+   "points": 43.0,
+   "rank": 49,
+   "uefa_name": "Monaco"
+  },
+  "Nantes": {
+   "points": 8.0,
+   "rank": 130,
+   "uefa_name": "Nantes"
+  },
+  "Napoli": {
+   "points": 60.0,
+   "rank": 26,
+   "uefa_name": "Napoli"
+  },
+  "Newcastle United": {
+   "points": 29.75,
+   "rank": 70,
+   "uefa_name": "Newcastle"
+  },
+  "Nice": {
+   "points": 20.0,
+   "rank": 100,
+   "uefa_name": "Nice"
+  },
+  "Nottingham Forest": {
+   "points": 23.0,
+   "rank": 86,
+   "uefa_name": "Nott'm Forest"
+  },
+  "Osasuna": {
+   "points": 2.5,
+   "rank": 112,
+   "uefa_name": "Osasuna"
+  },
+  "PSV": {
+   "points": 68.25,
+   "rank": 23,
+   "uefa_name": "PSV"
+  },
+  "Paris Saint-Germain": {
+   "points": 123.0,
+   "rank": 4,
+   "uefa_name": "Paris"
+  },
+  "Porto": {
+   "points": 76.75,
+   "rank": 16,
+   "uefa_name": "Porto"
+  },
+  "RB Leipzig": {
+   "points": 52.0,
+   "rank": 37,
+   "uefa_name": "Leipzig"
+  },
+  "Rayo Vallecano": {
+   "points": 22.0,
+   "rank": 90,
+   "uefa_name": "Rayo Vallecano"
+  },
+  "Real Betis": {
+   "points": 73.5,
+   "rank": 21,
+   "uefa_name": "Real Betis"
+  },
+  "Real Madrid": {
+   "points": 124.5,
+   "rank": 3,
+   "uefa_name": "Real Madrid"
+  },
+  "Real Sociedad": {
+   "points": 49.0,
+   "rank": 41,
+   "uefa_name": "Real Sociedad"
+  },
+  "Rennes": {
+   "points": 24.0,
+   "rank": 82,
+   "uefa_name": "Rennes"
+  },
+  "Roma": {
+   "points": 81.75,
+   "rank": 13,
+   "uefa_name": "Roma"
+  },
+  "SC Freiburg": {
+   "points": 58.5,
+   "rank": 29,
+   "uefa_name": "Freiburg"
+  },
+  "Sabah FK": {
+   "points": 14.0,
+   "rank": 131,
+   "uefa_name": "Sabah"
+  },
+  "Santa Clara": {
+   "points": 2.5,
+   "rank": 133,
+   "uefa_name": "Santa Clara"
+  },
+  "Sevilla": {
+   "points": 27.0,
+   "rank": 76,
+   "uefa_name": "Sevilla"
+  },
+  "Shaktar": {
+   "points": 59.25,
+   "rank": 28,
+   "uefa_name": "Shakhtar"
+  },
+  "Sl. Bratislava": {
+   "points": 36.0,
+   "rank": 62,
+   "uefa_name": "S. Bratislava"
+  },
+  "Slavia Praha": {
+   "points": 40.0,
+   "rank": 53,
+   "uefa_name": "Slavia Praha"
+  },
+  "Sporting CP": {
+   "points": 78.0,
+   "rank": 14,
+   "uefa_name": "Sporting CP"
+  },
+  "Strasbourg": {
+   "points": 21.5,
+   "rank": 92,
+   "uefa_name": "Strasbourg"
+  },
+  "Sunderland": {
+   "points": 4.0,
+   "rank": 96,
+   "uefa_name": "Sunderland"
+  },
+  "Tottenham Hotspur": {
+   "points": 77.0,
+   "rank": 15,
+   "uefa_name": "Tottenham"
+  },
+  "Toulouse": {
+   "points": 10.0,
+   "rank": 129,
+   "uefa_name": "Toulouse"
+  },
+  "Union Berlin": {
+   "points": 18.0,
+   "rank": 105,
+   "uefa_name": "Union Berlin"
+  },
+  "Utrecht": {
+   "points": 3.0,
+   "rank": 161,
+   "uefa_name": "Utrecht"
+  },
+  "VfB Stuttgart": {
+   "points": 37.5,
+   "rank": 58,
+   "uefa_name": "Stuttgart"
+  },
+  "Viking": {
+   "points": 11.5,
+   "rank": 149,
+   "uefa_name": "Viking"
+  },
+  "Villarreal": {
+   "points": 43.0,
+   "rank": 48,
+   "uefa_name": "Villarreal"
+  },
+  "Vitória SC": {
+   "points": 18.75,
+   "rank": 103,
+   "uefa_name": "Vitória SC"
+  },
+  "West Ham United": {
+   "points": 48.0,
+   "rank": 44,
+   "uefa_name": "West Ham"
+  }
+ },
+ "generated": "2026-10-19",
+ "not_in_our_leagues": 329,
+ "season": 2027,
+ "source": "https://www.uefa.com/nationalassociations/uefarankings/club/"
+}

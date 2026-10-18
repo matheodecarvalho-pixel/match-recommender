@@ -3,10 +3,19 @@
 Every signal returns (value, story) where story is the reason text, or None when the data
 behind it is missing. Missing data scores 0 and never produces a reason.
 """
-from stats import form
+import math
+
+from stats import LEAGUES, form
 
 EUROPE = ("Champions League", "Europa League", "Conference League")
-KNOCKOUT_STAGES = {"PLAYOFFS", "LAST_32", "LAST_16", "QUARTER_FINALS", "SEMI_FINALS", "FINAL"}
+# football-data.org and ESPN stage names -> one name per knockout round.
+ROUNDS = {
+    "PLAYOFFS": "playoffs", "LAST_32": "playoffs", "LAST_16": "round_of_16", "QUARTER_FINALS": "quarter_finals",
+    "SEMI_FINALS": "semi_finals", "FINAL": "final",
+    "knockout-round-playoffs": "playoffs", "round-of-16": "round_of_16", "quarterfinals": "quarter_finals",
+    "semifinals": "semi_finals", "final": "final",
+}
+KNOCKOUT_STAGES = set(ROUNDS)
 
 
 def ordinal(n):
@@ -142,6 +151,60 @@ def signal_records(ctx, cfg):
     return best or (0.0, None)
 
 
+def stature(team, clubs, cfg):
+    """0-1 from the UEFA 5-year club coefficient: sqrt(points / points_for_full), capped at 1."""
+    club = clubs.get(team)
+    return min(1.0, math.sqrt(club["points"] / cfg["points_for_full"])) if club else 0.0
+
+
+def signal_big_match(ctx, cfg):
+    """Two big clubs: the product of both statures, so one giant against a minnow stays low."""
+    clubs = ctx.get("stature") or {}
+    value = stature(ctx["home"], clubs, cfg) * stature(ctx["away"], clubs, cfg)
+    if value < cfg["min_value_for_reason"]:
+        return value, None
+    return value, ("big_match", {"home": ctx["home"], "away": ctx["away"],
+                                 "home_rank": clubs[ctx["home"]]["rank"], "away_rank": clubs[ctx["away"]]["rank"]})
+
+
+def expected_places(table, clubs):
+    """Where each club 'should' be: the league's clubs ordered by UEFA coefficient, then the rest."""
+    order = sorted(table, key=lambda r: -(clubs.get(r["team"], {}).get("points", 0)))
+    return {r["team"]: i + 1 for i, r in enumerate(order)}
+
+
+# How each league reads in a sentence ("in the Premier League", "in La Liga").
+IN_LEAGUE = {"Premier League": "the Premier League", "La Liga": "La Liga", "Serie A": "Serie A",
+             "Bundesliga": "the Bundesliga", "Ligue 1": "Ligue 1", "Eredivisie": "the Eredivisie",
+             "Primeira Liga": "the Primeira Liga"}
+
+
+def signal_giant_trouble(ctx, cfg):
+    """A big club sitting well below where its stature puts it in its own league table."""
+    clubs = ctx.get("stature") or {}
+    best = (0.0, None)
+    for team in (ctx["home"], ctx["away"]):
+        league = (ctx.get("domestic") or {}).get(team)
+        if not league or stature(team, clubs, ctx["big_match_cfg"]) < cfg["min_stature"]:
+            continue
+        name, table = league
+        row = _row(table, team)
+        if not row or row["played"] < cfg["min_games"]:
+            continue
+        expected = expected_places(table, clubs)[team]
+        clamp = lambda x, lo, hi: max(0.0, min(1.0, (x - lo) / (hi - lo)))
+        slip = clamp(row["position"] - expected, cfg["slip_start"], cfg["slip_full"])
+        # Title favourites can be in trouble while still near the top: count the gap to the leader.
+        leader = max(r["points"] for r in table)
+        gap = leader - row["points"]
+        behind = clamp(gap, cfg["gap_start"], cfg["gap_full"]) if expected <= cfg["title_contender_places"] else 0.0
+        if slip >= behind and slip > best[0]:
+            best = (slip, ("giant_trouble", {"team": team, "pos": ordinal(row["position"]), "league": IN_LEAGUE.get(name, name)}))
+        elif behind > slip and behind > best[0]:
+            best = (behind, ("giant_gap", {"team": team, "gap": gap, "league": IN_LEAGUE.get(name, name)}))
+    return best
+
+
 def signal_revenge(ctx, cfg):
     """Player/manager facing a former club, or a club facing the side that beat it.
 
@@ -156,12 +219,15 @@ def signal_revenge(ctx, cfg):
 
 SIGNALS = {"form": signal_form, "stakes": signal_stakes, "entertainment": signal_entertainment,
            "rivalry": signal_rivalry, "closeness": signal_closeness, "records": signal_records,
-           "revenge": signal_revenge}
+           "revenge": signal_revenge, "big_match": signal_big_match, "giant_trouble": signal_giant_trouble}
 
 
 def score_match(ctx, config):
     breakdown, reasons = {}, []
+    ctx = {**ctx, "big_match_cfg": config["signals"]["big_match"]}
     for name, fn in SIGNALS.items():
+        if not config["weights"].get(name):
+            continue  # switched off in scoring.json (records, for now)
         value, story = fn(ctx, config["signals"][name])
         points = config["weights"][name] * value
         breakdown[name] = {"value": round(value, 3), "points": round(points, 1)}
@@ -169,22 +235,27 @@ def score_match(ctx, config):
             key, values = story
             text = config["story"]["templates"][key].format(**values)
             breakdown[name]["reason"] = text
+            breakdown[name]["kind"] = key
             if points > 0:
                 reasons.append((points, text))
 
     base = sum(b["points"] for b in breakdown.values())
     bonus = config["competition_bonus"].get(ctx["competition"], 0)
+    stage = config["knockout_bonus"].get(ROUNDS.get(ctx.get("stage") or ""), 0)
     favourites = set(config["favourites"]["teams"])
     favourite = ctx["home"] in favourites or ctx["away"] in favourites
     boost = config["favourites"]["boost"] if favourite else 0
-    total = min(100, round(base + bonus + boost))
+    # Rescale: `reference` raw points (what a top real-world fixture collects) map to 100.
+    total = min(100, round(100 * (base + bonus + stage) / config["scale"]["reference"]) + boost)
 
     must = config["must_watch"]
     tier1 = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and must["tier_1_rivalry_always"]
     reasons.sort(key=lambda r: -r[0])
     story = config["story"]["separator"].join(t for _, t in reasons[:config["story"]["max_reasons"]])
-    return {"score": total, "base": round(base, 1), "competition_bonus": bonus, "favourite_boost": boost,
-            "favourite": favourite, "must_watch": total >= must["score_threshold"] or tier1,
+    return {"score": total, "base": round(base, 1), "competition_bonus": bonus, "stage_bonus": stage,
+            "favourite_boost": boost, "favourite": favourite,
+            "must_watch": total >= must["score_threshold"] or tier1,
+            "recommended": total >= must["recommended_threshold"],
             "story": story, "breakdown": breakdown}
 
 
@@ -196,6 +267,8 @@ def context(match, results, tables, rivalries, config, extras=None):
     ctx = {**match, "home_form": form(home, before, n), "away_form": form(away, before, n),
            "home_recent": form(home, before, n_goals), "away_recent": form(away, before, n_goals),
            "table": tables.get(match["competition"]),
+           "domestic": {t: (name, tables[name]) for name in LEAGUES if name in tables
+                        for t in (match["home"], match["away"]) if _row(tables[name], t)},
            "rivalry": rivalries.get(frozenset((match["home"], match["away"])))}
     ctx.update(extras or {})
     return ctx

@@ -58,7 +58,7 @@ def load_europe(path, registry):
     for m in data["matches"]:
         status = {"finished": "finished", "scheduled": "upcoming", "live": "upcoming"}.get(m["status"], "other")
         matches.append({
-            "id": f"espn-{m['id']}", "competition": m["competition"], "stage": None,
+            "id": f"espn-{m['id']}", "competition": m["competition"], "stage": m.get("stage"),
             "kickoff_utc": _utc(m["kickoff_utc"]),
             "home": registry.from_espn(m["home_espn_id"], m["home"]),
             "away": registry.from_espn(m["away_espn_id"], m["away"]),
