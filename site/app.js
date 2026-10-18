@@ -4,7 +4,76 @@ const SOURCES = ["matches_ranked.json", "../output/matches_ranked.json"];
 const SIGNAL_LABELS = {
   form: "Form", stakes: "Stakes", entertainment: "Goals", rivalry: "Rivalry",
   closeness: "Closeness", records: "Records", revenge: "Revenge",
+  big_match: "Big match", giant_trouble: "Giant in trouble",
 };
+
+// ---------- My Feed: what each person cares about, kept on this device ----------
+
+// Slider id -> label, hint. Stakes are split by the kind of race.
+const SLIDERS = [
+  ["big_match", "Big matches", "Heavyweight clubs"],
+  ["title", "Title races", "Teams fighting for the top, and knockouts"],
+  ["europe", "Fight for Europe", "European places, top 8 / top 24"],
+  ["relegation", "Relegation battles", "Drama at the bottom"],
+  ["entertainment", "Goals", "Teams scoring and conceding a lot"],
+  ["form", "Form", "Teams on a roll"],
+  ["rivalry", "Rivalries", "Derbies and European classics"],
+  ["revenge", "Revenge", "Old clubs and old scores to settle"],
+  ["giant_trouble", "Giants in trouble", "Big clubs in a crisis"],
+  ["closeness", "Close games", "Evenly matched teams"],
+];
+const LEVELS = ["Don't care", "A little", "Normal", "A lot", "Can't miss it"];  // 0, 0.5, 1, 1.5, 2
+const STAKE_KIND = { stakes_title: "title", stakes_knockout: "title", stakes_europe: "europe", stakes_cutoff: "europe", stakes_relegation: "relegation" };
+
+const PRESETS = {
+  "Balanced": {},
+  "Big games only": { big_match: 2, rivalry: 1.5, title: 1.5, entertainment: 0.5, form: 0.5, europe: 0.5, relegation: 0, closeness: 0.5 },
+  "Goals galore": { entertainment: 2, form: 1.5, closeness: 0.5, big_match: 0.5, europe: 0.5, relegation: 0.5 },
+  "Drama at the bottom": { relegation: 2, giant_trouble: 2, closeness: 1.5, title: 0.5, big_match: 0.5 },
+  "Title races": { title: 2, europe: 1.5, big_match: 1, closeness: 1.5, relegation: 0.5 },
+};
+
+// Six quick questions; each answer sets a few sliders (later answers win).
+const QUIZ = [
+  { q: "Saturday night, one match on TV. You pick…", a: [
+    ["Two giants, whatever's at stake", { big_match: 2, rivalry: 1.5 }],
+    ["A wild 4–3 between two mid-table sides", { entertainment: 2, closeness: 0.5 }],
+    ["The bottom two fighting to stay up", { relegation: 2, closeness: 1.5 }],
+    ["First v second, one point apart", { title: 2, closeness: 1.5 }],
+  ] },
+  { q: "Can a 0–0 be a great game?", a: [
+    ["Yes, give me a tactical battle", { closeness: 2, entertainment: 0.5 }],
+    ["Never. I want goals", { entertainment: 2, closeness: 0.5 }],
+    ["Depends who's playing", { big_match: 1.5 }],
+  ] },
+  { q: "Derbies and rivalries are…", a: [
+    ["The best games of the season", { rivalry: 2 }],
+    ["A nice bonus", { rivalry: 1 }],
+    ["Just another game", { rivalry: 0.5 }],
+  ] },
+  { q: "A player facing his old club, or a team that knocked yours out last year:", a: [
+    ["Spicy. I'm in", { revenge: 2 }],
+    ["Fun detail", { revenge: 1 }],
+    ["Couldn't care less", { revenge: 0 }],
+  ] },
+  { q: "Real Madrid 9 points off the top, Spurs bottom of the table…", a: [
+    ["I love watching a giant sweat", { giant_trouble: 2 }],
+    ["I'd rather watch teams in form", { form: 2, giant_trouble: 0.5 }],
+    ["Doesn't change much for me", { giant_trouble: 1 }],
+  ] },
+  { q: "The race for European spots…", a: [
+    ["Glued to it", { europe: 2 }],
+    ["Only the title matters", { title: 2, europe: 0.5 }],
+    ["Not my thing", { europe: 0.5, title: 1 }],
+  ] },
+];
+const PROFILES = {  // strongest slider -> what we call you
+  big_match: "The Big-Game Hunter", entertainment: "The Goal Junkie", relegation: "The Drama Seeker",
+  title: "The Title Chaser", europe: "The Table Watcher", rivalry: "The Derby Devotee",
+  revenge: "The Grudge Keeper", giant_trouble: "The Crisis Watcher", form: "The Form Reader",
+  closeness: "The Purist",
+};
+const FEED_KEY = "mr.feed";
 const ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer";
 const LIVE_POLL_MS = 30000;
 const STAT_ROWS = [  // ESPN boxscore label -> what we show
@@ -18,6 +87,7 @@ const FAV_KEY = "mr.favourites";
 const COMP_KEY = "mr.competitions";
 
 let data = null;
+let feed = load(FEED_KEY, { mults: {}, profile: null });  // slider multipliers, quiz profile
 let tv = null;        // broadcasters.json: rights per competition and country
 let country = null;   // ISO code: picked by hand, else from the device time zone
 let favourites = new Set(load(FAV_KEY, []));
@@ -117,12 +187,28 @@ function isFavourite(team) {
 }
 
 // Re-score with this device's favourites: the base score and bonus come from the pipeline.
+function mult(signal, b) {
+  const key = signal === "stakes" ? (STAKE_KIND[b.kind] || "title") : signal;
+  return feed.mults[key] ?? 1;
+}
+
+// Re-score with this device's My Feed sliders. Weights are renormalised so the scale stays
+// 0-100: turning everything up doesn't inflate scores, it changes which matches rise.
 function rescore(m) {
+  let raw = 0, w = 0, wm = 0;
+  const parts = {};
+  for (const [name, b] of Object.entries(m.breakdown)) {
+    const weight = data.weights[name] || 0, k = mult(name, b);
+    parts[name] = k;
+    raw += b.points * k; w += weight; wm += weight * k;
+  }
+  const base = wm > 0 ? raw * (w / wm) : 0;
   const fav = isFavourite(m.home) || isFavourite(m.away);
   const boost = fav ? data.favourite_boost : 0;
-  const score = Math.min(100, Math.round(m.base + m.competition_bonus + boost));
-  const must = score >= data.must_watch_threshold || m.tier1_rivalry;
-  return { ...m, score, boost, fav, must };
+  const score = Math.min(100, Math.round(100 * (base + m.competition_bonus + (m.stage_bonus || 0)) / data.scale_reference) + boost);
+  const must = score >= data.must_watch_threshold || (m.tier1_rivalry && (feed.mults.rivalry ?? 1) > 0);
+  const rec = !must && score >= data.recommended_threshold;
+  return { ...m, score, boost, fav, must, rec, parts, personalBase: Math.round(base * 10) / 10 };
 }
 
 const dayFmt = new Intl.DateTimeFormat("en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Paris" });
@@ -249,19 +335,22 @@ function breakdown(m) {
   const rows = Object.entries(m.breakdown).map(([name, b]) => {
     const max = data.weights[name];
     const pct = max ? Math.round((b.points / max) * 100) : 0;
+    const k = m.parts?.[name] ?? 1;
     return el("div", { class: "row" },
       el("span", { class: "name" }, SIGNAL_LABELS[name] || name),
       el("div", { class: "track", role: "img", "aria-label": `${b.points} of ${max}` },
         el("div", { class: "fill", style: `width:${pct}%` })),
-      el("span", { class: "pts" }, `${b.points}/${max}`),
+      el("span", { class: "pts" }, `${b.points}/${max}`, k !== 1 ? el("small", { class: "mult" }, ` ×${k}`) : null),
       b.reason ? el("span", { class: "why" }, b.reason) : null);
   });
   const extras = [];
   if (m.competition_bonus) extras.push(`+${m.competition_bonus} ${m.competition} bonus`);
-  if (m.boost) extras.push(`+${m.boost} favourite team`);
+  if (m.stage_bonus) extras.push(`+${m.stage_bonus} knockout round`);
   if (m.tier1_rivalry) extras.push("Must-watch: tier-1 rivalry");
+  const personal = Object.keys(feed.mults).length ? ` (${m.personalBase} with My Feed)` : "";
   return el("div", { class: "breakdown" }, rows,
-    el("p", { class: "extras" }, `Signals ${m.base} pts`, extras.length ? " · " + extras.join(" · ") : ""));
+    el("p", { class: "extras" }, `Signals ${m.base} pts${personal}`, extras.length ? " · " + extras.join(" · ") : "",
+      ` · ${data.scale_reference} pts = 100`));
 }
 
 function card(m) {
@@ -282,13 +371,14 @@ function card(m) {
     el("div", { class: "meta" },
       el("span", {}, timeFmt.format(new Date(m.kickoff_paris))),
       el("span", {}, m.competition),
-      m.must ? el("span", { class: "badge" }, "Must-watch") : null),
+      m.must ? el("span", { class: "badge" }, "Must-watch") : null,
+      m.rec ? el("span", { class: "badge rec" }, "Recommended") : null),
     el("div", { class: "teams" }, team(m.home), " v ", team(m.away)),
     el("div", { class: "live", hidden: "" }),
     el("div", { class: "score", "aria-label": `Score ${m.score} out of 100` }, String(m.score)),
     m.story ? el("div", { class: "story" }, m.story) : null,
     watchLine(m));
-  node = el("article", { class: "card" + (m.must ? " must" : "") }, button, detail);
+  node = el("article", { class: "card" + (m.must ? " must" : m.rec ? " rec" : "") + (m.fav ? " fav" : "") }, button, detail);
   if (m.espn) {
     node.dataset.espn = m.espn.id;
     paintLive(node);
@@ -360,6 +450,97 @@ function setupFavourites() {
   document.getElementById("open-favs").addEventListener("click", () => { draw(); dialog.showModal(); });
 }
 
+// ---------- My Feed panel ----------
+
+function saveFeed() {
+  save(FEED_KEY, feed);
+  document.getElementById("open-feed").classList.toggle("on", Object.keys(feed.mults).length > 0);
+  document.getElementById("feed-name").textContent = feed.profile || (Object.keys(feed.mults).length ? "Custom" : "");
+  render();
+}
+
+function applyMults(mults, profile) {
+  feed = { mults: Object.fromEntries(Object.entries(mults).filter(([, v]) => v !== 1)), profile };
+  saveFeed();
+}
+
+function drawSliders() {
+  const box = document.getElementById("feed-sliders");
+  box.replaceChildren(...SLIDERS.map(([id, label, hint]) => {
+    const value = feed.mults[id] ?? 1;
+    const out = el("output", {}, LEVELS[value * 2]);
+    const input = el("input", { type: "range", min: "0", max: "2", step: "0.5", "aria-label": label });
+    input.value = String(value);
+    input.addEventListener("input", () => {
+      const v = Number(input.value);
+      out.textContent = LEVELS[v * 2];
+      const mults = { ...feed.mults, [id]: v };
+      applyMults(mults, null);
+      markPreset();
+    });
+    return el("div", { class: "slider" },
+      el("div", { class: "slider-head" }, el("strong", {}, label), out),
+      input, el("span", { class: "hint" }, hint));
+  }));
+}
+
+function markPreset() {
+  const current = JSON.stringify(feed.mults);
+  document.querySelectorAll("#feed-presets .chip").forEach(chip => {
+    const p = Object.fromEntries(Object.entries(PRESETS[chip.textContent]).filter(([, v]) => v !== 1));
+    chip.setAttribute("aria-pressed", String(JSON.stringify(p) === current && !feed.profile));
+  });
+}
+
+function startQuiz() {
+  const view = document.getElementById("quiz");
+  const answers = {};
+  document.getElementById("feed-main").hidden = true;
+  view.hidden = false;
+  const step = i => {
+    if (i === QUIZ.length) return finish();
+    const { q, a } = QUIZ[i];
+    view.replaceChildren(
+      el("p", { class: "quiz-step" }, `Question ${i + 1} of ${QUIZ.length}`),
+      el("div", { class: "quiz-bar" }, el("div", { style: `width:${(i / QUIZ.length) * 100}%` })),
+      el("h3", {}, q),
+      ...a.map(([label, set]) => el("button", { type: "button", class: "answer", onclick: () => { Object.assign(answers, set); step(i + 1); } }, label)),
+      el("button", { type: "button", class: "link", onclick: endQuiz }, "Cancel"));
+  };
+  const finish = () => {
+    const top = Object.entries(answers).sort((x, y) => y[1] - x[1])[0];
+    const profile = top && top[1] > 1 ? PROFILES[top[0]] : "The All-Rounder";
+    applyMults(answers, profile);
+    const picks = data.matches.map(rescore).sort((x, y) => y.score - x.score).slice(0, 3);
+    view.replaceChildren(
+      el("p", { class: "quiz-step" }, "Your football profile"),
+      el("h3", { class: "profile" }, profile),
+      el("p", {}, "Your top picks this week:"),
+      el("ol", { class: "picks" }, picks.map(m => el("li", {}, `${m.home} v ${m.away} `, el("span", { class: "quiet" }, `(${m.score})`)))),
+      el("button", { type: "button", class: "primary", onclick: () => { endQuiz(); document.getElementById("feed").close(); } }, "See my feed"),
+      el("button", { type: "button", class: "link", onclick: endQuiz }, "Fine-tune the sliders"));
+  };
+  step(0);
+}
+
+function endQuiz() {
+  document.getElementById("quiz").hidden = true;
+  document.getElementById("feed-main").hidden = false;
+  drawSliders();
+  markPreset();
+}
+
+function setupFeed() {
+  const dialog = document.getElementById("feed");
+  document.getElementById("feed-presets").replaceChildren(...Object.keys(PRESETS).map(name =>
+    el("button", { type: "button", class: "chip", "aria-pressed": "false",
+      onclick: () => { applyMults({ ...PRESETS[name] }, name === "Balanced" ? null : name); drawSliders(); markPreset(); } }, name)));
+  document.getElementById("start-quiz").addEventListener("click", startQuiz);
+  document.getElementById("open-feed").addEventListener("click", () => { endQuiz(); dialog.showModal(); });
+  document.getElementById("open-feed").classList.toggle("on", Object.keys(feed.mults).length > 0);
+  document.getElementById("feed-name").textContent = feed.profile || (Object.keys(feed.mults).length ? "Custom" : "");
+}
+
 Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   data = d;
   tv = t;
@@ -369,6 +550,7 @@ Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
     `${d.matches.length} matches in the next ${d.window_days} days · updated ${dayFmt.format(when)}, ${timeFmt.format(when)}`;
   renderChips();
   setupFavourites();
+  setupFeed();
   render();
   pollLive();
 }).catch(err => {

@@ -15,6 +15,10 @@
   </div>
 </header>
 
+<div class="wrap feed-bar">
+  <button class="feed-btn" id="open-feed" type="button">✨ My Feed <span id="feed-name"></span></button>
+</div>
+
 <nav class="controls wrap" aria-label="Filters">
   <div class="chips" id="competitions" role="group" aria-label="Competitions"></div>
   <label class="country-pick" title="Where to watch: uses your device's time zone, nothing is sent anywhere">📺
@@ -24,6 +28,27 @@
 </nav>
 
 <main class="wrap" id="days" aria-live="polite"></main>
+
+<dialog id="feed">
+  <form method="dialog" class="fav-panel">
+    <div class="fav-head">
+      <h2>My Feed</h2>
+      <button class="close" value="close" aria-label="Close">×</button>
+    </div>
+    <div id="feed-main">
+      <button type="button" class="quiz-cta" id="start-quiz">
+        <strong>✨ Get personalised recommendations</strong>
+        <span>Answer 6 quick questions and we'll tune the ranking to the football you like.</span>
+      </button>
+      <h3 class="feed-sub">Quick presets</h3>
+      <div class="chips wrap-chips" id="feed-presets"></div>
+      <h3 class="feed-sub">What you care about</h3>
+      <div id="feed-sliders"></div>
+      <p class="hint">Scores update instantly. Saved on this device only, nothing is sent anywhere.</p>
+    </div>
+    <div id="quiz" hidden></div>
+  </form>
+</dialog>
 
 <dialog id="favs">
   <form method="dialog" class="fav-panel">

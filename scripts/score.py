@@ -97,9 +97,10 @@ def signal_stakes(ctx, cfg):
     if best[0] <= 0:
         return 0.0, None
     value = best[0] * _season_factor(table, total, cfg)
-    # "Title race" or "Relegation battle" only reads true when both teams are in it.
-    story = (best[1], best[2]) if best[0] >= cfg["both_teams_in_race"] else None
-    return value, story
+    # "Title race" or "Relegation battle" only reads true when both teams are in it; with one
+    # team in it the kind of race is still recorded (for My Feed) but never shown as a reason.
+    quiet = best[0] < cfg["both_teams_in_race"]
+    return value, (best[1], {**best[2], "_quiet": quiet})
 
 
 def signal_entertainment(ctx, cfg):
@@ -233,9 +234,11 @@ def score_match(ctx, config):
         breakdown[name] = {"value": round(value, 3), "points": round(points, 1)}
         if story:
             key, values = story
+            breakdown[name]["kind"] = key
+            if values.get("_quiet"):
+                continue
             text = config["story"]["templates"][key].format(**values)
             breakdown[name]["reason"] = text
-            breakdown[name]["kind"] = key
             if points > 0:
                 reasons.append((points, text))
 

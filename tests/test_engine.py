@@ -55,7 +55,7 @@ def test_title_race_both_teams(config):
     ctx = {**fixture("T1", "T2"), "table": table(FLAT)}
     value, story = signal_stakes(ctx, cfg)
     assert value == pytest.approx(1.0)  # 19 of 38 games played: past the damping point
-    assert story == ("stakes_title", {"gap": 2})
+    assert story == ("stakes_title", {"gap": 2, "_quiet": False})
 
 
 def test_relegation_battle(config):
