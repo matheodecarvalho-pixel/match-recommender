@@ -4,7 +4,7 @@ const SOURCES = ["matches_ranked.json", "../output/matches_ranked.json"];
 const SIGNAL_LABELS = {
   form: "Form", stakes: "Stakes", entertainment: "Goals", rivalry: "Rivalry",
   closeness: "Closeness", records: "Records", revenge: "Revenge",
-  big_match: "Big match", giant_trouble: "Giant in trouble",
+  big_match: "Big match", par: "Above / under par",
 };
 
 // ---------- My Feed: what each person cares about, kept on this device ----------
@@ -19,7 +19,7 @@ const SLIDERS = [
   ["form", "Form", "Teams on a roll"],
   ["rivalry", "Rivalries", "Derbies and European classics"],
   ["revenge", "Revenge", "Old clubs and old scores to settle"],
-  ["giant_trouble", "Giants in trouble", "Big clubs in a crisis"],
+  ["par", "Surprises & slumps", "Teams far above or below their usual place"],
   ["closeness", "Close games", "Evenly matched teams"],
 ];
 const LEVELS = ["Don't care", "A little", "Normal", "A lot", "Can't miss it"];  // 0, 0.5, 1, 1.5, 2
@@ -29,7 +29,7 @@ const PRESETS = {
   "Balanced": {},
   "Big games only": { big_match: 2, rivalry: 1.5, title: 1.5, entertainment: 0.5, form: 0.5, europe: 0.5, relegation: 0, closeness: 0.5 },
   "Goals galore": { entertainment: 2, form: 1.5, closeness: 0.5, big_match: 0.5, europe: 0.5, relegation: 0.5 },
-  "Drama at the bottom": { relegation: 2, giant_trouble: 2, closeness: 1.5, title: 0.5, big_match: 0.5 },
+  "Drama at the bottom": { relegation: 2, par: 2, closeness: 1.5, title: 0.5, big_match: 0.5 },
   "Title races": { title: 2, europe: 1.5, big_match: 1, closeness: 1.5, relegation: 0.5 },
 };
 
@@ -56,10 +56,10 @@ const QUIZ = [
     ["Fun detail", { revenge: 1 }],
     ["Couldn't care less", { revenge: 0 }],
   ] },
-  { q: "Real Madrid 9 points off the top, Spurs bottom of the table…", a: [
-    ["I love watching a giant sweat", { giant_trouble: 2 }],
-    ["I'd rather watch teams in form", { form: 2, giant_trouble: 0.5 }],
-    ["Doesn't change much for me", { giant_trouble: 1 }],
+  { q: "Spurs bottom of the table, Brighton up in 3rd…", a: [
+    ["I love a giant in crisis or a surprise team", { par: 2 }],
+    ["I'd rather watch teams in form", { form: 2, par: 0.5 }],
+    ["Doesn't change much for me", { par: 1 }],
   ] },
   { q: "The race for European spots…", a: [
     ["Glued to it", { europe: 2 }],
@@ -70,7 +70,7 @@ const QUIZ = [
 const PROFILES = {  // strongest slider -> what we call you
   big_match: "The Big-Game Hunter", entertainment: "The Goal Junkie", relegation: "The Drama Seeker",
   title: "The Title Chaser", europe: "The Table Watcher", rivalry: "The Derby Devotee",
-  revenge: "The Grudge Keeper", giant_trouble: "The Crisis Watcher", form: "The Form Reader",
+  revenge: "The Grudge Keeper", par: "The Crisis Watcher", form: "The Form Reader",
   closeness: "The Purist",
 };
 const FEED_KEY = "mr.feed";

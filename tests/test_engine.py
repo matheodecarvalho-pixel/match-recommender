@@ -169,7 +169,7 @@ def test_espn_kickoff_converted_to_paris_across_dst():
 
 # --- big match and giant in trouble ---
 
-from score import signal_big_match, signal_giant_trouble
+from score import signal_big_match, signal_par
 
 CLUBS = {"Giant": {"points": 100, "rank": 3}, "Big": {"points": 64, "rank": 20}, "Small": {"points": 4, "rank": 300}}
 
@@ -183,29 +183,36 @@ def test_big_match_is_the_product_of_statures(config):
     assert signal_big_match({"home": "X", "away": "Y", "stature": CLUBS}, cfg) == (0.0, None)
 
 
-def giant_ctx(config, position, points, leader=30):
+def par_ctx(position, points, history, leader=30):
     rows = [{"team": f"T{i}", "position": i, "played": 10, "points": leader - i} for i in range(1, 21)]
-    rows = [r for r in rows if r["position"] != position] + [{"team": "Giant", "position": position, "played": 10, "points": points}]
+    rows = [r for r in rows if r["position"] != position] + [{"team": "Club", "position": position, "played": 10, "points": points}]
     rows[0]["points"] = leader
-    return {"home": "Giant", "away": "T5", "stature": CLUBS, "big_match_cfg": config["signals"]["big_match"],
-            "domestic": {"Giant": ("Premier League", rows)}}
+    return {"home": "Club", "away": "T5", "domestic": {"Club": ("Premier League", rows)},
+            "history": {"Premier League": {str(y): {"Club": p} for y, p in zip(range(2021, 2026), history)}}}
 
 
-def test_giant_low_in_the_table(config):
-    cfg = config["signals"]["giant_trouble"]
-    value, story = signal_giant_trouble(giant_ctx(config, 18, 10), cfg)
-    assert value == 1.0 and story[0] == "giant_trouble" and story[1]["pos"] == "18th"
-    assert signal_giant_trouble(giant_ctx(config, 2, 29), cfg) == (0.0, None)
+def test_under_par(config):
+    cfg = config["signals"]["par"]
+    value, story = signal_par(par_ctx(17, 10, [4, 8, 5, 6, 7]), cfg)  # usually 6th, now 17th
+    assert value == 1.0 and story[0] == "par_under"
+    assert story[1]["pos"] == "17th" and story[1]["usual"] == "6th"
 
 
-def test_title_favourite_far_off_the_top(config):
-    cfg = config["signals"]["giant_trouble"]
-    value, story = signal_giant_trouble(giant_ctx(config, 3, 21), cfg)  # expected 1st, 9 pts behind
+def test_punching_above_their_weight(config):
+    cfg = config["signals"]["par"]
+    value, story = signal_par(par_ctx(3, 25, [8, 9, 8, 7, 8]), cfg)  # usually 8th, now 3rd
+    assert value == pytest.approx((5 - cfg["places_start"]) / (cfg["places_full"] - cfg["places_start"]))
+    assert story[0] == "par_over"
+
+
+def test_par_needs_enough_seasons_and_distance(config):
+    cfg = config["signals"]["par"]
+    assert signal_par(par_ctx(17, 10, [6, 6]), cfg) == (0.0, None)  # only 2 seasons
+    assert signal_par(par_ctx(7, 20, [6, 6, 6, 6, 6]), cfg)[0] == 0.0  # one place off: normal
+
+
+def test_title_regular_far_off_the_top(config):
+    cfg = config["signals"]["par"]
+    value, story = signal_par(par_ctx(3, 21, [1, 2, 1, 2, 2]), cfg)  # usually 2nd, 9 pts behind
     assert value == pytest.approx((9 - cfg["gap_start"]) / (cfg["gap_full"] - cfg["gap_start"]))
-    assert story == ("giant_gap", {"team": "Giant", "gap": 9, "league": "the Premier League"})
-
-
-def test_small_clubs_are_never_giants_in_trouble(config):
-    ctx = giant_ctx(config, 18, 10)
-    ctx["stature"] = {"Giant": {"points": 9, "rank": 200}}
-    assert signal_giant_trouble(ctx, config["signals"]["giant_trouble"]) == (0.0, None)
+    assert story[0] == "giant_gap" and story[1]["gap"] == 9

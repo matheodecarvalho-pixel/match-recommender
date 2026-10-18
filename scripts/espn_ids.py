@@ -54,8 +54,9 @@ def link(fixtures, games, registry):
             if hits and (best is None or hits > best[0]):
                 best = (hits, g)
         if best:
-            out[m["id"]] = {"league": LEAGUES[m["competition"]], "id": best[1]["id"],
-                            "us_tv": best[1].get("us_tv", [])}
+            g = best[1]
+            out[m["id"]] = {"league": LEAGUES[m["competition"]], "id": g["id"], "us_tv": g.get("us_tv", []),
+                            "teams": [g.get("home_espn_id"), g.get("away_espn_id")]}
     return out
 
 

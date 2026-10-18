@@ -51,15 +51,19 @@ def main(max_age=None):
     for row in rows:
         member, ranking = row["member"], row["overallRanking"]
         key = key_for(member, registry)
-        if not key:
-            unmatched.append(member["displayName"])
-            continue
-        clubs[key] = {"points": ranking["totalPoints"], "rank": ranking["position"], "uefa_name": member["displayName"]}
+        entry = {"points": ranking["totalPoints"], "rank": ranking["position"], "uefa_name": member["displayName"]}
+        if key:
+            clubs[key] = entry
+        else:
+            # Clubs outside our 7 leagues (they play in Europe): matched later by name.
+            names = {norm(n) for n in (member.get(k) for k in ("displayOfficialName", "displayName",
+                     "internationalName", "displayNameShort")) if n}
+            unmatched.append({**entry, "names": sorted(names)})
     OUT.write_text(json.dumps({"generated": date.today().isoformat(), "season": year,
                                "source": "https://www.uefa.com/nationalassociations/uefarankings/club/",
-                               "clubs": clubs, "not_in_our_leagues": len(unmatched)},
+                               "clubs": clubs, "others": unmatched},
                               ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
-    print(f"{len(clubs)} clubs matched to our teams; {len(unmatched)} other clubs skipped")
+    print(f"{len(clubs)} clubs matched to our teams; {len(unmatched)} other clubs kept by name")
     return 0
 
 

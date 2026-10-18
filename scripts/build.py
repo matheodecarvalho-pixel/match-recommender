@@ -8,6 +8,7 @@ from datetime import datetime, timedelta, timezone
 
 import euro_results, records, revenge, teams
 from fd_client import ROOT
+from match_teams import norm
 from score import context, score_match
 from stats import PARIS, load_europe, load_fd, team_results
 
@@ -57,7 +58,11 @@ def build(now=None):
     stature_path = ROOT / "data" / "club_stature.json"
     clubs = json.loads(stature_path.read_text(encoding="utf-8"))["clubs"] if stature_path.exists() else {}
     if not clubs:
-        warnings.append("No club_stature.json: big-match and giant-in-trouble signals score 0")
+        warnings.append("No club_stature.json: big-match signal scores 0")
+    add_other_clubs(clubs, stature_path, matches)
+    history_path = ROOT / "data" / "league_history.json"
+    history = json.loads(history_path.read_text(encoding="utf-8"))["leagues"] if history_path.exists() else {}
+    add_team_forms(results, registry)
     ids_path = OUTPUT / "espn_ids.json"
     espn_ids = json.loads(ids_path.read_text(encoding="utf-8")) if ids_path.exists() else {}
     europe_path = OUTPUT / "europe_matches.json"
@@ -72,7 +77,7 @@ def build(now=None):
     for m in matches:
         if m["status"] != "upcoming" or not (now - timedelta(hours=2) <= m["kickoff_utc"] < end):
             continue
-        extras = {"knockout": m["competition"] in knockout, "stature": clubs,
+        extras = {"knockout": m["competition"] in knockout, "stature": clubs, "history": history,
                   "record_chases": [c for team in (m["home"], m["away"]) for c in chases.get(team, [])
                                     if c["competition"] == m["competition"]],
                   "revenge": moves.flags(m["home"], m["away"], m["kickoff_utc"]),
@@ -110,6 +115,38 @@ def build(now=None):
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     write_results(matches, espn_ids, us_tv, registry, now)
     return out
+
+
+def add_other_clubs(clubs, path, matches):
+    """Stature for clubs outside our 7 leagues (Bodø/Glimt, Ferencváros…), matched by name."""
+    if not path.exists():
+        return
+    index = {}
+    for other in json.loads(path.read_text(encoding="utf-8")).get("others", []):
+        for name in other["names"]:
+            index.setdefault(name, other)
+    for team in {t for m in matches for t in (m["home"], m["away"])} - set(clubs):
+        hit = index.get(norm(team))
+        if hit:
+            clubs[team] = {k: hit[k] for k in ("points", "rank", "uefa_name")}
+
+
+def add_team_forms(results, registry):
+    """Domestic results of European opponents outside our leagues (fetch_team_forms.py)."""
+    path = OUTPUT / "team_forms.json"
+    if not path.exists():
+        return
+    for tid, club in json.loads(path.read_text(encoding="utf-8")).items():
+        team = registry.from_espn(tid, club["name"])
+        rows = results.setdefault(team, [])
+        days = {r["kickoff_utc"].date() for r in rows}
+        for m in club["matches"]:
+            kickoff = datetime.fromisoformat(m["date"].replace("Z", "+00:00"))
+            if kickoff.date() in days:
+                continue  # a European game we already have
+            rows.append({"competition": m.get("league") or "Domestic", "kickoff_utc": kickoff, "opponent": m["opponent"],
+                         "gf": m["gf"], "ga": m["ga"], "points": 3 if m["gf"] > m["ga"] else 1 if m["gf"] == m["ga"] else 0})
+        rows.sort(key=lambda r: r["kickoff_utc"])
 
 
 def search_aliases(registry):

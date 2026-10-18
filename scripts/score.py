@@ -168,41 +168,49 @@ def signal_big_match(ctx, cfg):
                                  "home_rank": clubs[ctx["home"]]["rank"], "away_rank": clubs[ctx["away"]]["rank"]})
 
 
-def expected_places(table, clubs):
-    """Where each club 'should' be: the league's clubs ordered by UEFA coefficient, then the rest."""
-    order = sorted(table, key=lambda r: -(clubs.get(r["team"], {}).get("points", 0)))
-    return {r["team"]: i + 1 for i, r in enumerate(order)}
-
-
 # How each league reads in a sentence ("in the Premier League", "in La Liga").
 IN_LEAGUE = {"Premier League": "the Premier League", "La Liga": "La Liga", "Serie A": "Serie A",
              "Bundesliga": "the Bundesliga", "Ligue 1": "Ligue 1", "Eredivisie": "the Eredivisie",
              "Primeira Liga": "the Primeira Liga"}
 
 
-def signal_giant_trouble(ctx, cfg):
-    """A big club sitting well below where its stature puts it in its own league table."""
-    clubs = ctx.get("stature") or {}
+def usual_place(history, league, team):
+    """Average final position over the stored seasons the team spent in this league, and how many."""
+    places = [table[team] for table in (history or {}).get(league, {}).values() if team in table]
+    return (sum(places) / len(places), len(places)) if places else (None, 0)
+
+
+def signal_par(ctx, cfg):
+    """A team far from where it usually finishes: under par (lower) or punching above its weight.
+
+    Usual place = average final position over the last seasons (data/league_history.json).
+    Clubs that usually finish in the top title_contender_places also count when they are far
+    off the top in points, even if their position is close to usual.
+    """
+    clamp = lambda x, lo, hi: max(0.0, min(1.0, (x - lo) / (hi - lo)))
     best = (0.0, None)
     for team in (ctx["home"], ctx["away"]):
         league = (ctx.get("domestic") or {}).get(team)
-        if not league or stature(team, clubs, ctx["big_match_cfg"]) < cfg["min_stature"]:
+        if not league:
             continue
         name, table = league
         row = _row(table, team)
-        if not row or row["played"] < cfg["min_games"]:
+        usual, seasons = usual_place(ctx.get("history"), name, team)
+        if not row or row["played"] < cfg["min_games"] or seasons < cfg["min_seasons"]:
             continue
-        expected = expected_places(table, clubs)[team]
-        clamp = lambda x, lo, hi: max(0.0, min(1.0, (x - lo) / (hi - lo)))
-        slip = clamp(row["position"] - expected, cfg["slip_start"], cfg["slip_full"])
-        # Title favourites can be in trouble while still near the top: count the gap to the leader.
-        leader = max(r["points"] for r in table)
-        gap = leader - row["points"]
-        behind = clamp(gap, cfg["gap_start"], cfg["gap_full"]) if expected <= cfg["title_contender_places"] else 0.0
-        if slip >= behind and slip > best[0]:
-            best = (slip, ("giant_trouble", {"team": team, "pos": ordinal(row["position"]), "league": IN_LEAGUE.get(name, name)}))
-        elif behind > slip and behind > best[0]:
-            best = (behind, ("giant_gap", {"team": team, "gap": gap, "league": IN_LEAGUE.get(name, name)}))
+        diff = row["position"] - usual
+        value = clamp(abs(diff), cfg["places_start"], cfg["places_full"])
+        values = {"team": team, "pos": ordinal(row["position"]), "usual": ordinal(round(usual)),
+                  "league": IN_LEAGUE.get(name, name)}
+        candidates = [(value, ("par_under" if diff > 0 else "par_over", values))]
+        if usual <= cfg["title_contender_places"]:
+            gap = max(r["points"] for r in table) - row["points"]
+            candidates.append((clamp(gap, cfg["gap_start"], cfg["gap_full"]), ("giant_gap", {**values, "gap": gap})))
+        top = max(candidates, key=lambda c: c[0])
+        if top[0] > best[0]:
+            best = top
+    if best[0] < cfg["min_value_for_reason"] and best[1]:
+        return best[0], (best[1][0], {**best[1][1], "_quiet": True})
     return best
 
 
@@ -220,7 +228,7 @@ def signal_revenge(ctx, cfg):
 
 SIGNALS = {"form": signal_form, "stakes": signal_stakes, "entertainment": signal_entertainment,
            "rivalry": signal_rivalry, "closeness": signal_closeness, "records": signal_records,
-           "revenge": signal_revenge, "big_match": signal_big_match, "giant_trouble": signal_giant_trouble}
+           "revenge": signal_revenge, "big_match": signal_big_match, "par": signal_par}
 
 
 def score_match(ctx, config):

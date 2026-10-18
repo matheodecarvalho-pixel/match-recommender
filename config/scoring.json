@@ -8,7 +8,7 @@
     "rivalry": 15,
     "big_match": 20,
     "revenge": 10,
-    "giant_trouble": 10,
+    "par": 10,
     "closeness": 5
   },
   "signals": {
@@ -113,15 +113,16 @@
       "points_for_full": 100,
       "min_value_for_reason": 0.7
     },
-    "giant_trouble": {
-      "_how": "A big club (stature >= min_stature) sitting below its expected place in its own league, where expected = clubs ordered by UEFA coefficient. Slip of slip_start places scores 0, slip_full or more scores 1. For clubs expected in the top title_contender_places, a points gap to the leader also counts: gap_start points behind scores 0, gap_full or more scores 1.",
-      "min_stature": 0.6,
+    "par": {
+      "_how": "Current league position against the team's usual place (average final position over the last 5 seasons, data/league_history.json). places_start places away scores 0, places_full or more scores 1, in either direction: under par, or punching above their weight. Teams that usually finish in the top title_contender_places also count by points off the top.",
       "min_games": 5,
-      "slip_start": 3,
-      "slip_full": 10,
-      "title_contender_places": 2,
+      "min_seasons": 3,
+      "places_start": 2,
+      "places_full": 8,
+      "title_contender_places": 2.5,
       "gap_start": 6,
-      "gap_full": 12
+      "gap_full": 12,
+      "min_value_for_reason": 0.3
     }
   },
   "competition_bonus": {
@@ -162,8 +163,9 @@
       "revenge_loss": "{loser} lost {score} to {winner} in the {competition} ({when})",
       "european_classic": "European classic: {n} meetings since {since}",
       "big_match": "Heavyweights: #{home_rank} v #{away_rank} in Europe's club ranking",
-      "giant_trouble": "{team} only {pos} in {league}: a giant in trouble",
-      "giant_gap": "{team} {gap} pts off the top of {league}: a giant in trouble"
+      "giant_gap": "{team} {gap} pts off the top of {league}, usually {usual}: under par",
+      "par_under": "{team} {pos} in {league}, usually {usual}: under par",
+      "par_over": "{team} {pos} in {league}, usually {usual}: punching above their weight"
     }
   },
   "_weights": "Relative importance. Records are switched off (too rare); they come back by adding a weight. Scores are rescaled with `scale`.",

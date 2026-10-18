@@ -52,4 +52,4 @@ def test_espn_link_needs_close_kickoff_and_a_shared_team():
         {"id": "9", "kickoff_utc": "2026-10-18T19:00:00+00:00", "home": "Estrela", "away": "Casa Pia", "us_tv": ["beIN"]},
         {"id": "8", "kickoff_utc": "2026-10-25T19:00:00+00:00", "home": "Estrela", "away": "Casa Pia"},
     ]}
-    assert link([fixture], games, Reg())["fd-1"] == {"league": "por.1", "id": "9", "us_tv": ["beIN"]}
+    assert link([fixture], games, Reg())["fd-1"] == {"league": "por.1", "id": "9", "us_tv": ["beIN"], "teams": [None, None]}
