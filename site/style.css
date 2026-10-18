@@ -10,6 +10,7 @@
   --must-soft: #fdeee4;
   --fav: #b7791f;
   --bar: #d9d6ce;
+  --live: #d92d20;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -25,11 +26,13 @@
     --must-soft: #3a2116;
     --fav: #e3b04b;
     --bar: #343841;
+    --live: #ff6b5e;
     color-scheme: dark;
   }
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   margin: 0;
   background: var(--bg);
@@ -134,3 +137,31 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 .fav-list input { accent-color: var(--fav); width: 18px; height: 18px; }
 
 .foot { color: var(--muted); font-size: 0.78rem; padding-block: 32px; }
+
+/* Live scores */
+.live {
+  grid-column: 1; display: flex; gap: 10px; align-items: center;
+  font-size: 0.85rem; font-variant-numeric: tabular-nums;
+}
+.live-tag {
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em;
+  padding: 2px 7px; border-radius: 6px;
+  background: var(--bar); color: var(--ink);
+}
+.live.on .live-tag { background: var(--live); color: #fff; animation: pulse 2s ease-in-out infinite; }
+.live-score { font-weight: 750; font-size: 1rem; }
+@keyframes pulse { 50% { opacity: 0.6; } }
+@media (prefers-reduced-motion: reduce) { .live.on .live-tag { animation: none; } }
+
+.centre { padding: 12px 14px 4px; border-top: 1px dashed var(--line); }
+.events { list-style: none; margin: 0 0 10px; padding: 0; font-size: 0.86rem; }
+.events li { display: flex; gap: 8px; padding: 3px 0; }
+.events li.away { flex-direction: row-reverse; text-align: right; }
+.events .min { color: var(--muted); min-width: 3.2em; font-variant-numeric: tabular-nums; }
+.stats { width: 100%; border-collapse: collapse; font-size: 0.84rem; font-variant-numeric: tabular-nums; }
+.stats th, .stats td { padding: 4px 6px; border-bottom: 1px solid var(--line); }
+.stats thead th { font-size: 0.75rem; color: var(--muted); font-weight: 600; }
+.stats thead th:first-child, .stats td:first-child { text-align: left; }
+.stats thead th:last-child, .stats td:last-child { text-align: right; }
+.stats tbody th { font-weight: 500; color: var(--muted); text-align: center; }
+.quiet { color: var(--muted); font-size: 0.78rem; margin: 6px 0; }

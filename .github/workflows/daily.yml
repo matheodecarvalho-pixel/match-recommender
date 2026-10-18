@@ -44,6 +44,9 @@ jobs:
       - name: Fetch Europa and Conference League
         run: python scripts/scrape_europe.py
 
+      - name: Link fixtures to ESPN games (live scores on the site)
+        run: python scripts/espn_ids.py
+
       - name: Score matches
         run: python scripts/build.py
 
