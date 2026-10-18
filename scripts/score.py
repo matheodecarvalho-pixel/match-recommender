@@ -26,6 +26,8 @@ def signal_form(ctx, cfg):
     value = min(1.0, (h["ppg"] + a["ppg"]) / 2 / 3 + (cfg["both_in_form_bonus"] if both else 0))
     if both:
         story = ("both_in_form", {})
+    elif value < cfg["min_value_for_reason"]:
+        story = None  # poor form is not a reason to watch
     elif h["games"] == a["games"]:
         story = ("form", {"home": ctx["home"], "away": ctx["away"], "home_wins": h["wins"],
                           "away_wins": a["wins"], "n": h["games"]})

@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-18T20:07:14.695406+02:00",
+ "generated_at": "2026-10-18T20:09:58.470266+02:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 15,
- "must_watch_threshold": 80,
+ "must_watch_threshold": 60,
  "weights": {
   "form": 25,
   "stakes": 20,
@@ -26,7 +26,7 @@
    "competition_bonus": 5,
    "favourite_boost": 0,
    "favourite": false,
-   "must_watch": false,
+   "must_watch": true,
    "story": "Both teams in form · 4.6 goals per game lately · Fight for a top-8 spot",
    "breakdown": {
     "form": {
@@ -76,7 +76,7 @@
    "competition_bonus": 5,
    "favourite_boost": 0,
    "favourite": false,
-   "must_watch": false,
+   "must_watch": true,
    "story": "Both teams in form · 3.9 goals per game lately · Fight for a top-8 spot",
    "breakdown": {
     "form": {
@@ -126,7 +126,7 @@
    "competition_bonus": 5,
    "favourite_boost": 0,
    "favourite": false,
-   "must_watch": false,
+   "must_watch": true,
    "story": "Both teams in form · 4.8 goals per game lately · Fight for a top-8 spot",
    "breakdown": {
     "form": {
@@ -919,12 +919,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "4.5 goals per game lately · Relegation battle · Utrecht won 2 of last 5, PEC Zwolle won 1 of last 5",
+   "story": "4.5 goals per game lately · Relegation battle · 14th vs 15th in the table",
    "breakdown": {
     "form": {
      "value": 0.367,
-     "points": 9.2,
-     "reason": "Utrecht won 2 of last 5, PEC Zwolle won 1 of last 5"
+     "points": 9.2
     },
     "stakes": {
      "value": 0.516,
@@ -1019,12 +1018,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.8 goals per game lately · Ajax won 2 of last 5, Atalanta won 2 of last 5 · Fight for a top-8 spot",
+   "story": "3.8 goals per game lately · Fight for a top-8 spot",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Ajax won 2 of last 5, Atalanta won 2 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.25,
@@ -1168,12 +1166,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "4.0 goals per game lately · Fight for Europe · Fortuna Sittard won 3 of last 5, Excelsior won 0 of last 5",
+   "story": "4.0 goals per game lately · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.4,
-     "points": 10.0,
-     "reason": "Fortuna Sittard won 3 of last 5, Excelsior won 0 of last 5"
+     "points": 10.0
     },
     "stakes": {
      "value": 0.516,
@@ -1269,8 +1266,7 @@
    "breakdown": {
     "form": {
      "value": 0.333,
-     "points": 8.3,
-     "reason": "Como won 2 of last 5, Manchester United won 0 of last 5"
+     "points": 8.3
     },
     "stakes": {
      "value": 0.5,
@@ -1315,12 +1311,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.3 goals per game lately · Rayo Vallecano won 2 of last 5, Elche won 1 of last 5 · Fight for Europe",
+   "story": "3.3 goals per game lately · Fight for Europe · 14th vs 18th in the table",
    "breakdown": {
     "form": {
      "value": 0.433,
-     "points": 10.8,
-     "reason": "Rayo Vallecano won 2 of last 5, Elche won 1 of last 5"
+     "points": 10.8
     },
     "stakes": {
      "value": 0.453,
@@ -1415,12 +1410,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.1 goals per game lately · Getafe won 1 of last 5, Rayo Vallecano won 2 of last 5 · 15th vs 14th in the table",
+   "story": "3.1 goals per game lately · 15th vs 14th in the table · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.4,
-     "points": 10.0,
-     "reason": "Getafe won 1 of last 5, Rayo Vallecano won 2 of last 5"
+     "points": 10.0
     },
     "stakes": {
      "value": 0.453,
@@ -1465,12 +1459,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.3 goals per game lately · Auxerre won 3 of last 5, Le Mans won 1 of last 5 · Relegation battle",
+   "story": "3.3 goals per game lately · Relegation battle · 12th vs 16th in the table",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Auxerre won 3 of last 5, Le Mans won 1 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.405,
@@ -1569,8 +1562,7 @@
    "breakdown": {
     "form": {
      "value": 0.333,
-     "points": 8.3,
-     "reason": "Rio Ave won 1 of last 5, Famalicão won 1 of last 5"
+     "points": 8.3
     },
     "stakes": {
      "value": 0.464,
@@ -1713,12 +1705,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Brest won 2 of last 5, Nice won 2 of last 5 · 2.7 goals per game lately · 10th vs 13th in the table",
+   "story": "2.7 goals per game lately · 10th vs 13th in the table · Title race: 1 pts between them",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Brest won 2 of last 5, Nice won 2 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.405,
@@ -1911,12 +1902,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.4 goals per game lately · Hoffenheim won 1 of last 5, Lyon won 3 of last 5",
+   "story": "3.4 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.433,
-     "points": 10.8,
-     "reason": "Hoffenheim won 1 of last 5, Lyon won 3 of last 5"
+     "points": 10.8
     },
     "stakes": {
      "value": 0.25,
@@ -1963,8 +1953,7 @@
    "breakdown": {
     "form": {
      "value": 0.267,
-     "points": 6.7,
-     "reason": "Racing Santander won 1 of last 5, Espanyol won 1 of last 5"
+     "points": 6.7
     },
     "stakes": {
      "value": 0.453,
@@ -2009,12 +1998,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.6 goals per game lately · Crystal Palace won 2 of last 5, Newcastle United won 1 of last 5 · 14th vs 11th in the table",
+   "story": "3.6 goals per game lately · 14th vs 11th in the table · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.367,
-     "points": 9.2,
-     "reason": "Crystal Palace won 2 of last 5, Newcastle United won 1 of last 5"
+     "points": 9.2
     },
     "stakes": {
      "value": 0.363,
@@ -2156,12 +2144,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.2 goals per game lately · Torino won 2 of last 5, Monza won 1 of last 5 · 13th vs 15th in the table",
+   "story": "3.2 goals per game lately · 13th vs 15th in the table · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.367,
-     "points": 9.2,
-     "reason": "Torino won 2 of last 5, Monza won 1 of last 5"
+     "points": 9.2
     },
     "stakes": {
      "value": 0.353,
@@ -2206,12 +2193,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "4.1 goals per game lately · FC Augsburg won 1 of last 5, Union Berlin won 1 of last 5 · 10th vs 17th in the table",
+   "story": "4.1 goals per game lately · 10th vs 17th in the table · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.3,
-     "points": 7.5,
-     "reason": "FC Augsburg won 1 of last 5, Union Berlin won 1 of last 5"
+     "points": 7.5
     },
     "stakes": {
      "value": 0.353,
@@ -2305,12 +2291,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.2 goals per game lately · Relegation battle · Willem II won 0 of last 5, SC Cambuur won 2 of last 5",
+   "story": "3.2 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.333,
-     "points": 8.3,
-     "reason": "Willem II won 0 of last 5, SC Cambuur won 2 of last 5"
+     "points": 8.3
     },
     "stakes": {
      "value": 0.516,
@@ -2403,12 +2388,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "4.6 goals per game lately · Sparta Rotterdam won 1 of last 5, Ajax won 2 of last 5",
+   "story": "4.6 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.433,
-     "points": 10.8,
-     "reason": "Sparta Rotterdam won 1 of last 5, Ajax won 2 of last 5"
+     "points": 10.8
     },
     "stakes": {
      "value": 0.258,
@@ -2596,12 +2580,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.3 goals per game lately · SC Paderborn won 1 of last 5, Hamburger SV won 3 of last 5 · Relegation battle",
+   "story": "3.3 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.433,
-     "points": 10.8,
-     "reason": "SC Paderborn won 1 of last 5, Hamburger SV won 3 of last 5"
+     "points": 10.8
     },
     "stakes": {
      "value": 0.353,
@@ -2693,12 +2676,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Angers won 1 of last 5, Lorient won 3 of last 5 · 2.8 goals per game lately · Relegation battle",
+   "story": "2.8 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Angers won 1 of last 5, Lorient won 3 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.405,
@@ -2742,12 +2724,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.3 goals per game lately · NEC won 0 of last 5, Fortuna Sittard won 3 of last 5",
+   "story": "3.3 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.433,
-     "points": 10.8,
-     "reason": "NEC won 0 of last 5, Fortuna Sittard won 3 of last 5"
+     "points": 10.8
     },
     "stakes": {
      "value": 0.258,
@@ -2790,12 +2771,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Levante won 0 of last 5, Athletic Club won 2 of last 5 · 2.5 goals per game lately · Fight for Europe",
+   "story": "2.5 goals per game lately · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.4,
-     "points": 10.0,
-     "reason": "Levante won 0 of last 5, Athletic Club won 2 of last 5"
+     "points": 10.0
     },
     "stakes": {
      "value": 0.453,
@@ -2937,12 +2917,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.4 goals per game lately · Relegation battle · Go Ahead Eagles won 0 of last 5, Telstar won 0 of last 5",
+   "story": "3.4 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.2,
-     "points": 5.0,
-     "reason": "Go Ahead Eagles won 0 of last 5, Telstar won 0 of last 5"
+     "points": 5.0
     },
     "stakes": {
      "value": 0.516,
@@ -2986,12 +2965,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "16th vs 17th in the table · Coventry City won 2 of last 5, Fulham won 1 of last 5 · 2.4 goals per game lately",
+   "story": "16th vs 17th in the table · 2.4 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.367,
-     "points": 9.2,
-     "reason": "Coventry City won 2 of last 5, Fulham won 1 of last 5"
+     "points": 9.2
     },
     "stakes": {
      "value": 0.363,
@@ -3036,12 +3014,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.7 goals per game lately · Chelsea-Tottenham rivalry · Chelsea won 2 of last 5, Tottenham Hotspur won 0 of last 5",
+   "story": "2.7 goals per game lately · Chelsea-Tottenham rivalry",
    "breakdown": {
     "form": {
      "value": 0.333,
-     "points": 8.3,
-     "reason": "Chelsea won 2 of last 5, Tottenham Hotspur won 0 of last 5"
+     "points": 8.3
     },
     "stakes": {
      "value": 0.182,
@@ -3085,12 +3062,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.6 goals per game lately · NEC won 0 of last 5, FC Groningen won 2 of last 5",
+   "story": "3.6 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.367,
-     "points": 9.2,
-     "reason": "NEC won 0 of last 5, FC Groningen won 2 of last 5"
+     "points": 9.2
     },
     "stakes": {
      "value": 0.258,
@@ -3133,12 +3109,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.6 goals per game lately · Parma won 1 of last 5, Torino won 2 of last 5 · 16th vs 13th in the table",
+   "story": "2.6 goals per game lately · 16th vs 13th in the table · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.367,
-     "points": 9.2,
-     "reason": "Parma won 1 of last 5, Torino won 2 of last 5"
+     "points": 9.2
     },
     "stakes": {
      "value": 0.353,
@@ -3378,12 +3353,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.4 goals per game lately · Como won 2 of last 5, Sassuolo won 1 of last 5 · 5th vs 12th in the table",
+   "story": "3.4 goals per game lately · 5th vs 12th in the table",
    "breakdown": {
     "form": {
      "value": 0.4,
-     "points": 10.0,
-     "reason": "Como won 2 of last 5, Sassuolo won 1 of last 5"
+     "points": 10.0
     },
     "stakes": {
      "value": 0.176,
@@ -3475,12 +3449,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.5 goals per game lately · Relegation battle · Toulouse won 2 of last 5, Troyes won 0 of last 5",
+   "story": "3.5 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.267,
-     "points": 6.7,
-     "reason": "Toulouse won 2 of last 5, Troyes won 0 of last 5"
+     "points": 6.7
     },
     "stakes": {
      "value": 0.405,
@@ -3572,12 +3545,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Athletic Club won 2 of last 5, Getafe won 1 of last 5 · Fight for Europe · 11th vs 15th in the table",
+   "story": "Fight for Europe · 11th vs 15th in the table · 1.6 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Athletic Club won 2 of last 5, Getafe won 1 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.453,
@@ -3622,12 +3594,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Manchester United won 0 of last 5, AFC Bournemouth won 3 of last 5 · 2.4 goals per game lately · 13th vs 15th in the table",
+   "story": "2.4 goals per game lately · 13th vs 15th in the table · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.4,
-     "points": 10.0,
-     "reason": "Manchester United won 0 of last 5, AFC Bournemouth won 3 of last 5"
+     "points": 10.0
     },
     "stakes": {
      "value": 0.363,
@@ -3672,12 +3643,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.8 goals per game lately · 9th vs 6th in the table · Hull City won 0 of last 5, Brentford won 1 of last 5",
+   "story": "2.8 goals per game lately · 9th vs 6th in the table · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.3,
-     "points": 7.5,
-     "reason": "Hull City won 0 of last 5, Brentford won 1 of last 5"
+     "points": 7.5
     },
     "stakes": {
      "value": 0.363,
@@ -3726,8 +3696,7 @@
    "breakdown": {
     "form": {
      "value": 0.233,
-     "points": 5.8,
-     "reason": "Genoa won 1 of last 5, Venezia won 1 of last 5"
+     "points": 5.8
     },
     "stakes": {
      "value": 0.353,
@@ -3772,12 +3741,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.9 goals per game lately · Rennes won 2 of last 5, Strasbourg won 1 of last 5",
+   "story": "3.9 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.367,
-     "points": 9.2,
-     "reason": "Rennes won 2 of last 5, Strasbourg won 1 of last 5"
+     "points": 9.2
     },
     "stakes": {
      "value": 0.203,
@@ -3820,12 +3788,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "9th vs 8th in the table · Fight for Europe · Braga won 1 of last 5, Gil Vicente won 1 of last 5",
+   "story": "9th vs 8th in the table · Fight for Europe · 1.9 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.3,
-     "points": 7.5,
-     "reason": "Braga won 1 of last 5, Gil Vicente won 1 of last 5"
+     "points": 7.5
     },
     "stakes": {
      "value": 0.464,
@@ -4065,12 +4032,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.1 goals per game lately · ADO Den Haag won 1 of last 5, SC Heerenveen won 2 of last 5",
+   "story": "3.1 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.4,
-     "points": 10.0,
-     "reason": "ADO Den Haag won 1 of last 5, SC Heerenveen won 2 of last 5"
+     "points": 10.0
     },
     "stakes": {
      "value": 0.258,
@@ -4113,12 +4079,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Gil Vicente won 1 of last 5, Porto won 3 of last 5 · 2.7 goals per game lately",
+   "story": "2.7 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Gil Vicente won 1 of last 5, Porto won 3 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.232,
@@ -4161,12 +4126,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "4.4 goals per game lately · Inter won 3 of last 5, Fiorentina won 1 of last 5",
+   "story": "4.4 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Inter won 3 of last 5, Fiorentina won 1 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.176,
@@ -4306,12 +4270,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.5 goals per game lately · Relegation battle · VfB Stuttgart won 2 of last 5, Borussia Mönchengladbach won 0 of last 5",
+   "story": "3.5 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.2,
-     "points": 5.0,
-     "reason": "VfB Stuttgart won 2 of last 5, Borussia Mönchengladbach won 0 of last 5"
+     "points": 5.0
     },
     "stakes": {
      "value": 0.353,
@@ -4355,12 +4318,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.5 goals per game lately · Ipswich Town won 2 of last 5, Nottingham Forest won 1 of last 5 · Relegation battle",
+   "story": "2.5 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.333,
-     "points": 8.3,
-     "reason": "Ipswich Town won 2 of last 5, Nottingham Forest won 1 of last 5"
+     "points": 8.3
     },
     "stakes": {
      "value": 0.363,
@@ -4404,12 +4366,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Monza won 1 of last 5, Cagliari won 3 of last 5 · 2.7 goals per game lately",
+   "story": "2.7 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.467,
-     "points": 11.7,
-     "reason": "Monza won 1 of last 5, Cagliari won 3 of last 5"
+     "points": 11.7
     },
     "stakes": {
      "value": 0.176,
@@ -4452,12 +4413,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.2 goals per game lately · 20th vs 16th in the table · Tottenham Hotspur won 0 of last 5, Coventry City won 2 of last 5",
+   "story": "2.2 goals per game lately · 20th vs 16th in the table · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.3,
-     "points": 7.5,
-     "reason": "Tottenham Hotspur won 0 of last 5, Coventry City won 2 of last 5"
+     "points": 7.5
     },
     "stakes": {
      "value": 0.363,
@@ -4598,12 +4558,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "12th vs 15th in the table · 2.2 goals per game lately · 1. FC Köln won 1 of last 5, Schalke 04 won 1 of last 5",
+   "story": "12th vs 15th in the table · 2.2 goals per game lately · Fight for Europe",
    "breakdown": {
     "form": {
      "value": 0.3,
-     "points": 7.5,
-     "reason": "1. FC Köln won 1 of last 5, Schalke 04 won 1 of last 5"
+     "points": 7.5
     },
     "stakes": {
      "value": 0.353,
@@ -4696,12 +4655,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.1 goals per game lately · Relegation battle · Marseille won 2 of last 5, Le Havre won 0 of last 5",
+   "story": "3.1 goals per game lately · Relegation battle",
    "breakdown": {
     "form": {
      "value": 0.233,
-     "points": 5.8,
-     "reason": "Marseille won 2 of last 5, Le Havre won 0 of last 5"
+     "points": 5.8
     },
     "stakes": {
      "value": 0.405,
@@ -4745,12 +4703,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.6 goals per game lately · Real Sociedad won 2 of last 5, Levante won 0 of last 5",
+   "story": "3.6 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.333,
-     "points": 8.3,
-     "reason": "Real Sociedad won 2 of last 5, Levante won 0 of last 5"
+     "points": 8.3
     },
     "stakes": {
      "value": 0.226,
@@ -4845,8 +4802,7 @@
    "breakdown": {
     "form": {
      "value": 0.167,
-     "points": 4.2,
-     "reason": "Estoril Praia won 0 of last 5, Moreirense won 1 of last 5"
+     "points": 4.2
     },
     "stakes": {
      "value": 0.464,
@@ -4891,12 +4847,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.8 goals per game lately · Sunderland won 2 of last 5, Leeds United won 1 of last 5",
+   "story": "2.8 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.4,
-     "points": 10.0,
-     "reason": "Sunderland won 2 of last 5, Leeds United won 1 of last 5"
+     "points": 10.0
     },
     "stakes": {
      "value": 0.182,
@@ -5086,8 +5041,7 @@
    "breakdown": {
     "form": {
      "value": 0.1,
-     "points": 2.5,
-     "reason": "Vitória SC won 0 of last 5, Marítimo won 0 of last 5"
+     "points": 2.5
     },
     "stakes": {
      "value": 0.464,
@@ -5132,12 +5086,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.6 goals per game lately · Amadora won 1 of last 5, Casa Pia won 1 of last 5 · 10th vs 17th in the table",
+   "story": "2.6 goals per game lately · 10th vs 17th in the table",
    "breakdown": {
     "form": {
      "value": 0.3,
-     "points": 7.5,
-     "reason": "Amadora won 1 of last 5, Casa Pia won 1 of last 5"
+     "points": 7.5
     },
     "stakes": {
      "value": 0.232,
@@ -5277,12 +5230,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "2.7 goals per game lately · Málaga won 0 of last 5, Real Sociedad won 2 of last 5",
+   "story": "2.7 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.333,
-     "points": 8.3,
-     "reason": "Málaga won 0 of last 5, Real Sociedad won 2 of last 5"
+     "points": 8.3
     },
     "stakes": {
      "value": 0.226,
@@ -5659,12 +5611,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "3.1 goals per game lately · Nacional won 0 of last 5, Braga won 1 of last 5",
+   "story": "3.1 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.133,
-     "points": 3.3,
-     "reason": "Nacional won 0 of last 5, Braga won 1 of last 5"
+     "points": 3.3
     },
     "stakes": {
      "value": 0.232,
@@ -5755,12 +5706,11 @@
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
-   "story": "Relegation battle · 1.9 goals per game lately · Alavés won 0 of last 5, Málaga won 0 of last 5",
+   "story": "Relegation battle · 1.9 goals per game lately",
    "breakdown": {
     "form": {
      "value": 0.133,
-     "points": 3.3,
-     "reason": "Alavés won 0 of last 5, Málaga won 0 of last 5"
+     "points": 3.3
     },
     "stakes": {
      "value": 0.453,

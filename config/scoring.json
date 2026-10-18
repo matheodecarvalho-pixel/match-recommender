@@ -19,7 +19,8 @@
       "last_n_matches": 5,
       "both_in_form_bonus": 0.15,
       "in_form_ppg": 2.0,
-      "min_matches": 3
+      "min_matches": 3,
+      "min_value_for_reason": 0.5
     },
     "stakes": {
       "_how": "League: the match matters for the title, Europe spots or relegation. Europe: league-phase cutoffs (top 8, top 24) or a knockout tie.",
@@ -91,7 +92,7 @@
 
   "must_watch": {
     "_how": "A match is must-watch if its score reaches the threshold OR it is a tier-1 rivalry. Must-watch matches rank above favourite-team matches.",
-    "score_threshold": 80,
+    "score_threshold": 60,
     "tier_1_rivalry_always": true
   },
 
