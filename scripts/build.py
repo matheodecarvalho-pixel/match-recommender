@@ -45,16 +45,22 @@ def build(now=None):
         if m["status"] != "upcoming" or not (now - timedelta(hours=2) <= m["kickoff_utc"] < end):
             continue
         extras = {"knockout": m["competition"] in knockout,
-                  "record_chases": chases.get(m["home"], []) + chases.get(m["away"], [])}
-        result = score_match(context(m, results, tables, rivalries, config, extras), config)
+                  "record_chases": [c for team in (m["home"], m["away"]) for c in chases.get(team, [])
+                                    if c["competition"] == m["competition"]]}
+        ctx = context(m, results, tables, rivalries, config, extras)
+        extras["tier1"] = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and \
+            config["must_watch"]["tier_1_rivalry_always"]
+        result = score_match(ctx, config)
         kickoff = m["kickoff_utc"].astimezone(PARIS)
         ranked.append({"id": m["id"], "competition": m["competition"],
                        "kickoff_paris": kickoff.isoformat(), "day": kickoff.date().isoformat(),
-                       "home": m["home"], "away": m["away"], **result})
+                       "home": m["home"], "away": m["away"], **result,
+                       "tier1_rivalry": bool(extras.get("tier1"))})
 
     ranked.sort(key=sort_key)
     out = {"generated_at": now.astimezone(PARIS).isoformat(), "window_days": config["window_days"],
-           "favourites": config["favourites"]["teams"], "weights": config["weights"],
+           "favourites": config["favourites"]["teams"], "favourite_boost": config["favourites"]["boost"],
+           "must_watch_threshold": config["must_watch"]["score_threshold"], "weights": config["weights"],
            "matches": ranked, "warnings": warnings,
            "unmatched_teams": sorted(registry.unmatched)}
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
