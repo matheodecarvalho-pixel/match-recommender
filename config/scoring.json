@@ -169,15 +169,13 @@
       "par_under": "{team} usually finish {usual}: under par",
       "par_over": "{team} usually finish {usual}: punching above their weight"
     },
-    "_side_templates": "The card splits reasons by team: 'pair' facts give each side its own line (home_x/away_x values become x), 'team' facts go to the side named by team_field. Reasons not listed stay in the middle.",
+    "_side_templates": "The card splits reasons by team: 'pair' facts give each side its own line (home_x/away_x values become x), 'team' facts go to the side named by team_field. Reasons not listed stay in the middle. 'hidden' facts show no line: the card's form bar already says it.",
     "side_templates": {
       "form": {
-        "kind": "pair",
-        "text": "Won {wins} of last {n}"
+        "kind": "hidden"
       },
       "both_in_form": {
-        "kind": "pair",
-        "text": "Won {wins} of last {n}"
+        "kind": "hidden"
       },
       "entertainment": {
         "kind": "pair",

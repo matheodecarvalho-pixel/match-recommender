@@ -233,7 +233,7 @@ def test_story_is_split_by_team(config):
     ctx = {"home": "Monza", "away": "Cagliari"}
     form = split_reason("form", {"home": "Monza", "away": "Cagliari", "home_wins": 3, "away_wins": 1, "n": 5},
                         "x", ctx, templates)
-    assert form == [("home", "Won 3 of last 5"), ("away", "Won 1 of last 5")]
+    assert form == []  # the form bar shows it
     par = split_reason("par_over", {"team": "Cagliari", "pos": "7th", "usual": "16th", "league": "Serie A"}, "x", ctx, templates)
     assert par == [("away", "Usually finish 16th: punching above their weight")]
     assert split_reason("closeness", {}, "Evenly matched", ctx, templates) == [("both", "Evenly matched")]

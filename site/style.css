@@ -134,6 +134,11 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px s
 .vs-line::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: var(--line); }
 .vs-line span { position: relative; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--muted); background: var(--card); padding: 4px 0; align-self: start; margin-top: 12px; }
 .versus.compact { margin-top: 10px; }
+.form-bar { display: inline-flex; gap: 4px; }
+.form-bar .dot { width: 10px; height: 10px; border-radius: 50%; }
+.form-bar .W { background: #2FBF71; }
+.form-bar .D { background: #B9C2BB; }
+.form-bar .L { background: #E5534B; }
 .versus.compact .vs-name { font-size: 0.85rem; }
 .centred { text-align: center; }
 .score {

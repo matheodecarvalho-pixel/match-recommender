@@ -269,7 +269,9 @@ def score_match(ctx, config):
     top = reasons[:config["story"]["max_reasons"]]
     story = config["story"]["separator"].join(r[1] for r in top)
     sides = {"home": [], "away": [], "both": []}
-    for _, text, key, values in top:
+    # The split card skips facts it shows another way (the form bar), so it takes the next reasons instead.
+    shown = [r for r in reasons if config["story"]["side_templates"].get(r[2], {}).get("kind") != "hidden"]
+    for _, text, key, values in shown[:config["story"]["max_reasons"]]:
         for side, line in split_reason(key, values, text, ctx, config["story"]["side_templates"]):
             sides[side].append(line)
     return {"score": total, "base": round(base, 1), "competition_bonus": bonus, "stage_bonus": stage,
@@ -288,6 +290,8 @@ def split_reason(key, values, text, ctx, templates):
     t = templates.get(key)
     if not t:
         return [("both", text)]
+    if t["kind"] == "hidden":
+        return []
     if t["kind"] == "pair":
         return [(side, t["text"].format(**{k[len(side) + 1:]: v for k, v in values.items() if k.startswith(side + "_")},
                                          **{k: v for k, v in values.items() if not k.startswith(("home_", "away_"))}))

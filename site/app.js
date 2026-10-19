@@ -420,9 +420,19 @@ function team(name, after = false, m = null) {
 function versus(m, sides, withTeams) {
   const col = (name, facts) => el("div", { class: "vs-side" },
     withTeams ? teamStack(name, m) : el("span", { class: "vs-name" }, name),
+    formBar(m.forms?.[name]),
     facts?.length ? el("ul", { class: "vs-facts" }, facts.map(f => el("li", {}, f))) : null);
   return el("div", { class: "versus" + (withTeams ? "" : " compact") },
     col(m.home, sides?.home), el("div", { class: "vs-line", "aria-hidden": "true" }, el("span", {}, "v")), col(m.away, sides?.away));
+}
+
+// Last 5 results, oldest on the left: green win, grey draw, red loss.
+const RESULT_WORD = { W: "Win", D: "Draw", L: "Loss" };
+function formBar(results) {
+  if (!results?.length) return null;
+  const label = "Form, oldest first: " + results.map(([r, s, opp]) => `${RESULT_WORD[r]} ${s} v ${opp}`).join(", ");
+  return el("span", { class: "form-bar", role: "img", "aria-label": label },
+    results.map(([r, s, opp]) => el("span", { class: "dot " + r, title: `${RESULT_WORD[r]} ${s} v ${opp}` })));
 }
 
 function teamStack(name, m) {
@@ -576,7 +586,7 @@ function resultRow(m) {
         const before = pastScore(m);
         const note = before
           ? el("p", { class: "before" }, el("strong", {}, `Before kickoff: ${before.score}/100`), before.must ? " · Must-watch" : before.rec ? " · Recommended" : "",
-              m.interest.story_sides ? versus(m, m.interest.story_sides, false) : before.story ? el("span", { class: "quiet block" }, before.story) : null,
+              m.interest.story_sides ? versus({ ...m, forms: m.interest.forms }, m.interest.story_sides, false) : before.story ? el("span", { class: "quiet block" }, before.story) : null,
               m.interest.story_sides?.both.length ? el("span", { class: "quiet block centred" }, m.interest.story_sides.both.join(" · ")) : null,
               m.interest.reconstructed ? el("span", { class: "quiet block" }, "Rebuilt afterwards from the form, tables and results as they stood before kickoff.") : null)
           : el("p", { class: "quiet" }, "No pre-match score: played before the site started rating matches.");

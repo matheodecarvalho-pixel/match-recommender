@@ -91,10 +91,20 @@ def score_fixture(m, inp, tables, knockout, chases=True):
     # Each team's place in this competition's table (league, or a cup's league phase), shown next to its name.
     rows = {r["team"]: r for r in (tables.get(m["competition"]) or [])} if in_table(m) else {}
     positions = {t: rows[t]["position"] for t in (m["home"], m["away"]) if t in rows and rows[t]["played"]}
+    n = config["signals"]["form"]["last_n_matches"]
+    forms = {t: last_results(inp["results"].get(t, []), m["kickoff_utc"], n) for t in (m["home"], m["away"])}
     return {"id": m["id"], "competition": m["competition"], "stage": m["stage"],
             "kickoff_paris": kickoff.isoformat(), "day": kickoff.date().isoformat(),
             "home": m["home"], "away": m["away"], **result,
-            "tier1_rivalry": tier1, "positions": positions, "espn": espn_link(m, inp["espn_ids"], inp["us_tv"])}
+            "tier1_rivalry": tier1, "positions": positions, "forms": forms, "espn": espn_link(m, inp["espn_ids"], inp["us_tv"])}
+
+
+def last_results(results, before, n):
+    """A team's last n results before a kickoff, oldest first: [W/D/L, score, opponent] for the form bar."""
+    out = []
+    for r in [r for r in results if r["kickoff_utc"] < before][-n:]:
+        out.append(["W" if r["gf"] > r["ga"] else "D" if r["gf"] == r["ga"] else "L", f"{r['gf']}-{r['ga']}", r["opponent"]])
+    return out
 
 
 def build(now=None):
@@ -206,7 +216,7 @@ def frozen(m):
     return {"score": m["score"], "must_watch": m["must_watch"], "recommended": m.get("recommended", False),
             "story": m["story"], "story_sides": m.get("story_sides"), "base": m["base"], "competition_bonus": m["competition_bonus"],
             "stage_bonus": m.get("stage_bonus", 0), "tier1_rivalry": m.get("tier1_rivalry", False),
-            "positions": m.get("positions", {}),
+            "positions": m.get("positions", {}), "forms": m.get("forms", {}),
             "breakdown": {k: {"points": b["points"], **({"kind": b["kind"]} if "kind" in b else {})}
                           for k, b in m["breakdown"].items()}}
 
@@ -284,8 +294,8 @@ def reconstruct(archive, inp, now=None):
     added = 0
     for m in matches:
         old = archive.get(m["id"])
-        # Rebuilt entries from before positions and split stories were stored get rebuilt once more.
-        if m["status"] != "finished" or m["home_goals"] is None or (old and not (old.get("reconstructed") and not old.get("story_sides"))):
+        # Rebuilt entries from before the form bar was stored get rebuilt once more.
+        if m["status"] != "finished" or m["home_goals"] is None or (old and not (old.get("reconstructed") and "forms" not in old)):
             continue
         tables = {c: table_before(matches, c, m["kickoff_utc"], adjust[c]) for c in comps}
         if not in_table(m):
