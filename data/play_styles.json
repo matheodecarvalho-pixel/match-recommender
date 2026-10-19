@@ -1,0 +1,2588 @@
+{
+ "clubs": {
+  "1. FC Köln": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 11.17,
+    "games": 6,
+    "goals": 1.33,
+    "goals_against": 1.83,
+    "possession": 48.42,
+    "shots": 16.33,
+    "shots_against": 15.67
+   },
+   "why": "3.2 goals a game (both ends), 16 shots for / 16 against"
+  },
+  "AC Milan": {
+   "basis": "research",
+   "coach": "Rúben Amorim",
+   "confidence": "high",
+   "league": "Serie A",
+   "profile": "possession",
+   "source": "https://www.socios.com/ac-milan-2026-27-season-squad-serie-a-european-path/",
+   "stats": {
+    "fouls": 10.11,
+    "games": 9,
+    "goals": 2.0,
+    "goals_against": 1.0,
+    "possession": 58.4,
+    "shots": 13.11,
+    "shots_against": 10.22
+   },
+   "why": "Wants controlling possession and many players in the box"
+  },
+  "ADO Den Haag": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.11,
+    "games": 9,
+    "goals": 1.22,
+    "goals_against": 2.22,
+    "possession": 47.63,
+    "shots": 11.33,
+    "shots_against": 17.56
+   },
+   "why": "14 fouls a game, 48% possession"
+  },
+  "AFC Bournemouth": {
+   "basis": "research",
+   "coach": "Marco Rose",
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "press",
+   "source": "https://www.boxofficeevents.com/football-news/every-new-premier-league-manager-in-202627-styles-what-to-expect-and-will-they-survive-part-1",
+   "stats": {
+    "fouls": 12.78,
+    "games": 9,
+    "goals": 1.56,
+    "goals_against": 1.56,
+    "possession": 50.36,
+    "shots": 15.56,
+    "shots_against": 9.89
+   },
+   "why": "High-intensity 4-4-2, concedes under 10 shots a game"
+  },
+  "AZ": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 12.18,
+    "games": 11,
+    "goals": 2.0,
+    "goals_against": 1.09,
+    "possession": 59.02,
+    "shots": 16.45,
+    "shots_against": 9.91
+   },
+   "why": "59% possession"
+  },
+  "Acad. Viseu": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.38,
+    "games": 8,
+    "goals": 1.38,
+    "goals_against": 1.25,
+    "possession": 47.46,
+    "shots": 10.0,
+    "shots_against": 17.25
+   },
+   "why": "14 fouls a game, 47% possession"
+  },
+  "Ajax": {
+   "basis": "research",
+   "coach": "Míchel",
+   "confidence": "high",
+   "league": "Eredivisie",
+   "profile": "possession",
+   "source": "https://www.goal.com/en/news/too-ambitious-or-realistic-this-is-how-michel-and-cruyff-want-to-make-ajax-title-contenders-again/bltc9c073cfbf1081a8",
+   "stats": {
+    "fouls": 9.9,
+    "games": 10,
+    "goals": 2.8,
+    "goals_against": 1.4,
+    "possession": 61.77,
+    "shots": 21.8,
+    "shots_against": 10.5
+   },
+   "why": "Positional 4-3-3 built on the ball; 62% possession, 22 shots"
+  },
+  "Alavés": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 13.67,
+    "games": 9,
+    "goals": 1.44,
+    "goals_against": 1.11,
+    "possession": 42.13,
+    "shots": 12.78,
+    "shots_against": 12.56
+   },
+   "why": "42% possession, 13 shots for / 13 against"
+  },
+  "Alverca": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.62,
+    "games": 8,
+    "goals": 1.62,
+    "goals_against": 1.5,
+    "possession": 42.45,
+    "shots": 12.12,
+    "shots_against": 12.25
+   },
+   "why": "15 fouls a game, 42% possession"
+  },
+  "Angers": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.86,
+    "games": 7,
+    "goals": 1.29,
+    "goals_against": 2.14,
+    "possession": 48.99,
+    "shots": 13.57,
+    "shots_against": 17.57
+   },
+   "why": "49% possession, 14 shots for / 18 against"
+  },
+  "Arouca": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.38,
+    "games": 8,
+    "goals": 1.38,
+    "goals_against": 0.88,
+    "possession": 48.91,
+    "shots": 10.38,
+    "shots_against": 14.38
+   },
+   "why": "49% possession, 10 shots for / 14 against"
+  },
+  "Arsenal": {
+   "basis": "research",
+   "coach": "Mikel Arteta",
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "possession",
+   "source": "https://www.martincid.com/sports-en/premier-league-2026-27-tactical-trends-ranked/",
+   "stats": {
+    "fouls": 10.56,
+    "games": 9,
+    "goals": 1.67,
+    "goals_against": 0.56,
+    "possession": 60.54,
+    "shots": 14.33,
+    "shots_against": 9.67
+   },
+   "why": "Controlled possession and the league's set-piece reference; 61% possession, 0.6 goals conceded"
+  },
+  "Aston Villa": {
+   "basis": "research",
+   "coach": "Unai Emery",
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "pragmatic",
+   "source": "https://www.goal.com/en-us/news/a-new-wave-of-managers-could-make-the-2026-27-premier-league-title-race-highly-unpredictable/blt20455e0aa4f86c34",
+   "stats": {
+    "fouls": 11.0,
+    "games": 9,
+    "goals": 1.78,
+    "goals_against": 1.44,
+    "possession": 45.87,
+    "shots": 13.78,
+    "shots_against": 15.56
+   },
+   "why": "Plans for each opponent, alters formations, strong game management"
+  },
+  "Atalanta": {
+   "basis": "research",
+   "coach": "Maurizio Sarri",
+   "confidence": "medium",
+   "league": "Serie A",
+   "profile": "possession",
+   "source": "https://calciodangolo.com/allenatori-serie-a-2026-2027-moduli-squadra-per-squadra/",
+   "stats": {
+    "fouls": 10.62,
+    "games": 8,
+    "goals": 1.62,
+    "goals_against": 1.5,
+    "possession": 48.14,
+    "shots": 14.12,
+    "shots_against": 16.75
+   },
+   "why": "Sarri's possession 4-3-3 replacing a high-press side; not visible in the stats yet"
+  },
+  "Athletic Club": {
+   "basis": "research",
+   "coach": null,
+   "confidence": "medium",
+   "league": "La Liga",
+   "profile": "press",
+   "source": "https://tacticalfootballanalysis.com/barcelona-athletic-club-la-liga-2026-2027-tactical-analysis-tactics/",
+   "stats": {
+    "fouls": 11.43,
+    "games": 7,
+    "goals": 1.0,
+    "goals_against": 0.86,
+    "possession": 54.06,
+    "shots": 14.71,
+    "shots_against": 10.43
+   },
+   "why": "4-2-3-1 that presses in a 4-4-2"
+  },
+  "Atlético Madrid": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 11.82,
+    "games": 11,
+    "goals": 2.0,
+    "goals_against": 0.91,
+    "possession": 59.18,
+    "shots": 16.36,
+    "shots_against": 9.91
+   },
+   "why": "59% possession"
+  },
+  "Auxerre": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 15.14,
+    "games": 7,
+    "goals": 1.57,
+    "goals_against": 2.43,
+    "possession": 45.1,
+    "shots": 12.14,
+    "shots_against": 14.86
+   },
+   "why": "15 fouls a game, 45% possession"
+  },
+  "Barcelona": {
+   "basis": "research",
+   "coach": "Hansi Flick",
+   "confidence": "high",
+   "league": "La Liga",
+   "profile": "possession",
+   "source": "https://tacticalfootballanalysis.com/barcelona-athletic-club-la-liga-2026-2027-tactical-analysis-tactics/",
+   "stats": {
+    "fouls": 9.73,
+    "games": 11,
+    "goals": 4.36,
+    "goals_against": 1.0,
+    "possession": 70.47,
+    "shots": 21.55,
+    "shots_against": 6.36
+   },
+   "why": "Fluid build-up, rotations, aggressive press; 70% possession, 4.4 goals a game"
+  },
+  "Bayer Leverkusen": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 13.25,
+    "games": 8,
+    "goals": 2.75,
+    "goals_against": 1.12,
+    "possession": 57.96,
+    "shots": 19.62,
+    "shots_against": 10.62
+   },
+   "why": "3.9 goals a game (both ends), 20 shots for / 11 against"
+  },
+  "Bayern Munich": {
+   "basis": "research",
+   "coach": "Vincent Kompany",
+   "confidence": "high",
+   "league": "Bundesliga",
+   "profile": "possession",
+   "source": "https://www.getfootballnewsgermany.com/2026/bundesliga-bayern-preview-26/",
+   "stats": {
+    "fouls": 9.5,
+    "games": 8,
+    "goals": 3.75,
+    "goals_against": 1.0,
+    "possession": 67.97,
+    "shots": 24.5,
+    "shots_against": 7.25
+   },
+   "why": "Dominant on the ball and pushes four attackers onto the last line; 68% possession"
+  },
+  "Benfica": {
+   "basis": "research",
+   "coach": "Marco Silva",
+   "confidence": "high",
+   "league": "Primeira Liga",
+   "profile": "possession",
+   "source": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-os-18-treinadores-do-campeonato/EBS9I3wC/",
+   "stats": {
+    "fouls": 11.8,
+    "games": 10,
+    "goals": 3.0,
+    "goals_against": 0.8,
+    "possession": 59.96,
+    "shots": 19.4,
+    "shots_against": 9.2
+   },
+   "why": "Ball-dominant: 60% possession, 9 shots conceded"
+  },
+  "Bodo/Glimt": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 7.5,
+    "games": 2,
+    "goals": 0.5,
+    "goals_against": 2.5,
+    "possession": 41.1,
+    "shots": 7.0,
+    "shots_against": 17.0
+   },
+   "why": "Possession and press at home, their trademark"
+  },
+  "Bologna": {
+   "basis": "research",
+   "coach": "Domenico Tedesco",
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": "https://calciodangolo.com/allenatori-serie-a-2026-2027-moduli-squadra-per-squadra/",
+   "stats": {
+    "fouls": 12.71,
+    "games": 7,
+    "goals": 0.86,
+    "goals_against": 1.43,
+    "possession": 48.56,
+    "shots": 12.57,
+    "shots_against": 13.71
+   },
+   "why": "4-2-3-1, first Serie A season for the coach"
+  },
+  "Borussia Dortmund": {
+   "basis": "research",
+   "coach": "Niko Kovač",
+   "confidence": "high",
+   "league": "Bundesliga",
+   "profile": "press",
+   "source": "https://www.getfootballnewsgermany.com/2026/bundesliga-dortmund-prev-26/",
+   "stats": {
+    "fouls": 11.25,
+    "games": 8,
+    "goals": 1.75,
+    "goals_against": 0.88,
+    "possession": 54.16,
+    "shots": 14.75,
+    "shots_against": 11.75
+   },
+   "why": "3-4-2-1 high press with a high line that invites counters"
+  },
+  "Borussia Mönchengladbach": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.83,
+    "games": 6,
+    "goals": 1.5,
+    "goals_against": 3.33,
+    "possession": 48.32,
+    "shots": 15.17,
+    "shots_against": 18.17
+   },
+   "why": "15 fouls a game, 48% possession"
+  },
+  "Braga": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 13.88,
+    "games": 8,
+    "goals": 1.0,
+    "goals_against": 1.38,
+    "possession": 59.0,
+    "shots": 12.0,
+    "shots_against": 8.75
+   },
+   "why": "59% possession"
+  },
+  "Brentford": {
+   "basis": "research",
+   "coach": null,
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "direct",
+   "source": "https://www.martincid.com/sports-en/premier-league-2026-27-tactical-trends-ranked/",
+   "stats": {
+    "fouls": 14.71,
+    "games": 7,
+    "goals": 1.86,
+    "goals_against": 1.14,
+    "possession": 45.07,
+    "shots": 15.0,
+    "shots_against": 15.43
+   },
+   "why": "Set pieces and directness: more long throws into the box than anyone"
+  },
+  "Brest": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.29,
+    "games": 7,
+    "goals": 1.86,
+    "goals_against": 1.43,
+    "possession": 45.8,
+    "shots": 17.43,
+    "shots_against": 12.0
+   },
+   "why": "14 fouls a game, 46% possession"
+  },
+  "Brighton & Hove Albion": {
+   "basis": "research",
+   "coach": "Fabian Hürzeler",
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "possession",
+   "source": "https://www.martincid.com/sports-en/premier-league-2026-27-tactical-trends-ranked/",
+   "stats": {
+    "fouls": 12.62,
+    "games": 8,
+    "goals": 3.38,
+    "goals_against": 0.62,
+    "possession": 62.05,
+    "shots": 20.0,
+    "shots_against": 9.88
+   },
+   "why": "4-2-2-2 press, but dominates the ball: 62% possession, 20 shots a game"
+  },
+  "C.D. Nacional": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 11.12,
+    "games": 8,
+    "goals": 1.12,
+    "goals_against": 2.25,
+    "possession": 49.96,
+    "shots": 10.88,
+    "shots_against": 14.62
+   },
+   "why": "50% possession, 11 shots for / 15 against"
+  },
+  "Cagliari": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 9.83,
+    "games": 6,
+    "goals": 1.0,
+    "goals_against": 0.5,
+    "possession": 38.62,
+    "shots": 9.67,
+    "shots_against": 20.67
+   },
+   "why": "39% possession, 21 shots conceded a game"
+  },
+  "Casa Pia": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 12.12,
+    "games": 8,
+    "goals": 0.38,
+    "goals_against": 2.12,
+    "possession": 43.73,
+    "shots": 9.62,
+    "shots_against": 15.5
+   },
+   "why": "44% possession, 10 shots for / 16 against"
+  },
+  "Celta Vigo": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 12.45,
+    "games": 11,
+    "goals": 1.0,
+    "goals_against": 0.91,
+    "possession": 49.86,
+    "shots": 10.27,
+    "shots_against": 13.82
+   },
+   "why": "50% possession, 10 shots for / 14 against"
+  },
+  "Celtic": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 12.5,
+    "games": 2,
+    "goals": 1.0,
+    "goals_against": 3.5,
+    "possession": 55.0,
+    "shots": 15.0,
+    "shots_against": 20.0
+   },
+   "why": "Dominates the ball domestically"
+  },
+  "Chelsea": {
+   "basis": "research",
+   "coach": "Xabi Alonso",
+   "confidence": "medium",
+   "league": "Premier League",
+   "profile": "pragmatic",
+   "source": "https://www.goal.com/en-us/news/a-new-wave-of-managers-could-make-the-2026-27-premier-league-title-race-highly-unpredictable/blt20455e0aa4f86c34",
+   "stats": {
+    "fouls": 9.29,
+    "games": 7,
+    "goals": 2.43,
+    "goals_against": 1.86,
+    "possession": 48.49,
+    "shots": 14.29,
+    "shots_against": 12.29
+   },
+   "why": "Changes shape depending on the opponent"
+  },
+  "Como": {
+   "basis": "research",
+   "coach": "Cesc Fàbregas",
+   "confidence": "high",
+   "league": "Serie A",
+   "profile": "possession",
+   "source": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season",
+   "stats": {
+    "fouls": 9.67,
+    "games": 9,
+    "goals": 2.0,
+    "goals_against": 1.22,
+    "possession": 58.87,
+    "shots": 19.56,
+    "shots_against": 14.44
+   },
+   "why": "Attacking 4-2-3-1 on the ball; 59% possession"
+  },
+  "Coventry City": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 10.5,
+    "games": 6,
+    "goals": 0.83,
+    "goals_against": 1.83,
+    "possession": 37.98,
+    "shots": 10.0,
+    "shots_against": 17.67
+   },
+   "why": "38% possession, 18 shots conceded a game"
+  },
+  "Crystal Palace": {
+   "basis": "research",
+   "coach": "Pierre Sage",
+   "confidence": "medium",
+   "league": "Premier League",
+   "profile": "press",
+   "source": "https://www.boxofficeevents.com/football-news/every-new-premier-league-manager-in-202627-styles-what-to-expect-and-will-they-survive-part-1",
+   "stats": {
+    "fouls": 9.89,
+    "games": 9,
+    "goals": 1.67,
+    "goals_against": 2.22,
+    "possession": 45.08,
+    "shots": 11.0,
+    "shots_against": 17.0
+   },
+   "why": "High-intensity back three, like his Lens side"
+  },
+  "Deportivo La Coruña": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 13.0,
+    "games": 9,
+    "goals": 1.44,
+    "goals_against": 1.33,
+    "possession": 48.01,
+    "shots": 11.67,
+    "shots_against": 12.56
+   },
+   "why": "48% possession, 12 shots for / 13 against"
+  },
+  "Eintracht Frankfurt": {
+   "basis": "research",
+   "coach": "Adi Hütter",
+   "confidence": "high",
+   "league": "Bundesliga",
+   "profile": "press",
+   "source": "https://ca.sports.yahoo.com/news/bundesliga-2026-27-tactical-previews-185500946.html",
+   "stats": {
+    "fouls": 10.33,
+    "games": 6,
+    "goals": 1.67,
+    "goals_against": 2.67,
+    "possession": 51.28,
+    "shots": 14.67,
+    "shots_against": 17.5
+   },
+   "why": "Intensity, aggressive pressing, ball forward fast; 4-2-2-2"
+  },
+  "Elche": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 13.44,
+    "games": 9,
+    "goals": 1.22,
+    "goals_against": 1.89,
+    "possession": 50.83,
+    "shots": 11.0,
+    "shots_against": 14.89
+   },
+   "why": "51% possession, 11 shots for / 15 against"
+  },
+  "Elversberg": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 11.83,
+    "games": 6,
+    "goals": 2.0,
+    "goals_against": 1.83,
+    "possession": 44.32,
+    "shots": 11.17,
+    "shots_against": 22.5
+   },
+   "why": "3.8 goals a game (both ends), 11 shots for / 22 against"
+  },
+  "Espanyol": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 16.11,
+    "games": 9,
+    "goals": 1.22,
+    "goals_against": 1.33,
+    "possession": 46.34,
+    "shots": 12.67,
+    "shots_against": 13.11
+   },
+   "why": "16 fouls a game, 46% possession"
+  },
+  "Estoril": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 11.0,
+    "games": 8,
+    "goals": 0.5,
+    "goals_against": 1.5,
+    "possession": 46.45,
+    "shots": 13.0,
+    "shots_against": 14.0
+   },
+   "why": "46% possession, 13 shots for / 14 against"
+  },
+  "Estrela": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 10.75,
+    "games": 8,
+    "goals": 1.75,
+    "goals_against": 1.88,
+    "possession": 51.02,
+    "shots": 12.88,
+    "shots_against": 11.0
+   },
+   "why": "3.6 goals a game (both ends), 13 shots for / 11 against"
+  },
+  "Everton": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 7.43,
+    "games": 7,
+    "goals": 1.14,
+    "goals_against": 1.0,
+    "possession": 47.21,
+    "shots": 14.43,
+    "shots_against": 13.71
+   },
+   "why": "47% possession, 14 shots for / 14 against"
+  },
+  "Excelsior": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 11.56,
+    "games": 9,
+    "goals": 1.78,
+    "goals_against": 2.0,
+    "possession": 42.5,
+    "shots": 11.11,
+    "shots_against": 15.67
+   },
+   "why": "3.8 goals a game (both ends), 11 shots for / 16 against"
+  },
+  "FC Augsburg": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 9.83,
+    "games": 6,
+    "goals": 2.67,
+    "goals_against": 2.0,
+    "possession": 41.45,
+    "shots": 16.17,
+    "shots_against": 22.0
+   },
+   "why": "41% possession, 22 shots conceded a game"
+  },
+  "FC Groningen": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 9.0,
+    "games": 9,
+    "goals": 2.44,
+    "goals_against": 2.11,
+    "possession": 49.71,
+    "shots": 14.89,
+    "shots_against": 15.22
+   },
+   "why": "4.5 goals a game (both ends), 15 shots for / 15 against"
+  },
+  "FC Midtjylland": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.0,
+    "games": 1,
+    "goals": 1.0,
+    "goals_against": 1.0,
+    "possession": 47.6,
+    "shots": 13.0,
+    "shots_against": 12.0
+   },
+   "why": "Set-piece specialists, physical and data-driven"
+  },
+  "FC Twente": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 10.8,
+    "games": 10,
+    "goals": 1.8,
+    "goals_against": 1.0,
+    "possession": 59.85,
+    "shots": 20.9,
+    "shots_against": 10.6
+   },
+   "why": "60% possession"
+  },
+  "Famalicão": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 11.75,
+    "games": 8,
+    "goals": 1.25,
+    "goals_against": 1.38,
+    "possession": 55.21,
+    "shots": 10.0,
+    "shots_against": 12.25
+   },
+   "why": "55% possession, 10 shots for / 12 against"
+  },
+  "Feyenoord": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 10.18,
+    "games": 11,
+    "goals": 3.18,
+    "goals_against": 1.55,
+    "possession": 50.94,
+    "shots": 19.09,
+    "shots_against": 12.45
+   },
+   "why": "4.7 goals a game (both ends), 19 shots for / 12 against"
+  },
+  "Fiorentina": {
+   "basis": "research",
+   "coach": "Fabio Grosso",
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": "https://calciodangolo.com/allenatori-serie-a-2026-2027-moduli-squadra-per-squadra/",
+   "stats": {
+    "fouls": 11.0,
+    "games": 7,
+    "goals": 1.29,
+    "goals_against": 2.43,
+    "possession": 46.79,
+    "shots": 16.57,
+    "shots_against": 12.14
+   },
+   "why": "4-3-3, many shots but 2.4 conceded a game"
+  },
+  "Fortuna Sittard": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 9.22,
+    "games": 9,
+    "goals": 1.78,
+    "goals_against": 1.89,
+    "possession": 35.41,
+    "shots": 10.0,
+    "shots_against": 19.67
+   },
+   "why": "35% possession, 20 shots conceded a game"
+  },
+  "Frosinone": {
+   "basis": "research",
+   "coach": "Massimiliano Alvini",
+   "confidence": "medium",
+   "league": "Serie A",
+   "profile": "chaos",
+   "source": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season",
+   "stats": {
+    "fouls": 16.0,
+    "games": 7,
+    "goals": 1.86,
+    "goals_against": 1.43,
+    "possession": 42.67,
+    "shots": 17.43,
+    "shots_against": 19.57
+   },
+   "why": "Organised and on the front foot, 17 shots for and 20 against a game"
+  },
+  "Fulham": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.43,
+    "games": 7,
+    "goals": 1.0,
+    "goals_against": 1.43,
+    "possession": 57.11,
+    "shots": 14.71,
+    "shots_against": 14.14
+   },
+   "why": "57% possession, 15 shots for / 14 against"
+  },
+  "Genoa": {
+   "basis": "research",
+   "coach": "Daniele De Rossi",
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": "https://calciodangolo.com/allenatori-serie-a-2026-2027-moduli-squadra-per-squadra/",
+   "stats": {
+    "fouls": 9.71,
+    "games": 7,
+    "goals": 0.71,
+    "goals_against": 1.86,
+    "possession": 44.29,
+    "shots": 11.14,
+    "shots_against": 15.29
+   },
+   "why": "3-4-2-1 / 3-4-1-2"
+  },
+  "Getafe": {
+   "basis": "club identity + stats",
+   "coach": null,
+   "confidence": "medium",
+   "league": "La Liga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.11,
+    "games": 9,
+    "goals": 0.67,
+    "goals_against": 1.22,
+    "possession": 39.47,
+    "shots": 11.0,
+    "shots_against": 14.22
+   },
+   "why": "Long-standing physical, duel-heavy identity; 39% possession, 14 fouls a game"
+  },
+  "Gil Vicente": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 13.71,
+    "games": 7,
+    "goals": 0.86,
+    "goals_against": 0.71,
+    "possession": 54.54,
+    "shots": 13.86,
+    "shots_against": 10.14
+   },
+   "why": "55% possession, 14 shots for / 10 against"
+  },
+  "Go Ahead Eagles": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 7.11,
+    "games": 9,
+    "goals": 2.22,
+    "goals_against": 2.33,
+    "possession": 55.01,
+    "shots": 15.67,
+    "shots_against": 17.0
+   },
+   "why": "4.6 goals a game (both ends), 16 shots for / 17 against"
+  },
+  "Hamburger SV": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 14.17,
+    "games": 6,
+    "goals": 1.0,
+    "goals_against": 2.5,
+    "possession": 39.27,
+    "shots": 11.17,
+    "shots_against": 19.17
+   },
+   "why": "39% possession, 19 shots conceded a game"
+  },
+  "Hoffenheim": {
+   "basis": "research",
+   "coach": "Christian Ilzer",
+   "confidence": "medium",
+   "league": "Bundesliga",
+   "profile": "press",
+   "source": "https://ca.sports.yahoo.com/news/bundesliga-2026-27-tactical-previews-185500946.html",
+   "stats": {
+    "fouls": 15.12,
+    "games": 8,
+    "goals": 1.62,
+    "goals_against": 2.38,
+    "possession": 58.15,
+    "shots": 17.62,
+    "shots_against": 13.75
+   },
+   "why": "4-2-2-2 built on pressing and running"
+  },
+  "Hull City": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.86,
+    "games": 7,
+    "goals": 1.14,
+    "goals_against": 1.0,
+    "possession": 31.6,
+    "shots": 10.43,
+    "shots_against": 14.57
+   },
+   "why": "32% possession, 10 shots for / 15 against"
+  },
+  "Inter": {
+   "basis": "research",
+   "coach": "Cristian Chivu",
+   "confidence": "high",
+   "league": "Serie A",
+   "profile": "possession",
+   "source": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season",
+   "stats": {
+    "fouls": 8.11,
+    "games": 9,
+    "goals": 2.78,
+    "goals_against": 1.67,
+    "possession": 61.87,
+    "shots": 22.56,
+    "shots_against": 12.33
+   },
+   "why": "3-5-2 built around midfield control; 62% possession, 22.6 shots"
+  },
+  "Ipswich Town": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 11.71,
+    "games": 7,
+    "goals": 1.57,
+    "goals_against": 2.14,
+    "possession": 43.11,
+    "shots": 11.0,
+    "shots_against": 16.86
+   },
+   "why": "3.7 goals a game (both ends), 11 shots for / 17 against"
+  },
+  "Juventus": {
+   "basis": "research",
+   "coach": "Luciano Spalletti",
+   "confidence": "medium",
+   "league": "Serie A",
+   "profile": "possession",
+   "source": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season",
+   "stats": {
+    "fouls": 13.0,
+    "games": 9,
+    "goals": 1.78,
+    "goals_against": 1.0,
+    "possession": 56.76,
+    "shots": 16.89,
+    "shots_against": 8.0
+   },
+   "why": "Ball-dominant; 57% possession and only 8 shots conceded a game"
+  },
+  "Lazio": {
+   "basis": "research",
+   "coach": "Gennaro Gattuso",
+   "confidence": "high",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": "https://calciodangolo.com/allenatori-serie-a-2026-2027-moduli-squadra-per-squadra/",
+   "stats": {
+    "fouls": 12.29,
+    "games": 7,
+    "goals": 2.0,
+    "goals_against": 0.57,
+    "possession": 48.6,
+    "shots": 12.86,
+    "shots_against": 12.57
+   },
+   "why": "4-3-3 / 4-2-3-1, solid: 0.6 goals conceded a game"
+  },
+  "Le Havre": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.57,
+    "games": 7,
+    "goals": 0.86,
+    "goals_against": 1.57,
+    "possession": 49.46,
+    "shots": 15.71,
+    "shots_against": 12.86
+   },
+   "why": "15 fouls a game, 49% possession"
+  },
+  "Le Mans": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.86,
+    "games": 7,
+    "goals": 1.43,
+    "goals_against": 2.14,
+    "possession": 44.53,
+    "shots": 10.57,
+    "shots_against": 16.57
+   },
+   "why": "15 fouls a game, 45% possession"
+  },
+  "Lecce": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 13.0,
+    "games": 7,
+    "goals": 1.29,
+    "goals_against": 1.86,
+    "possession": 40.4,
+    "shots": 11.14,
+    "shots_against": 15.29
+   },
+   "why": "40% possession, 15 shots conceded a game"
+  },
+  "Leeds United": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 12.71,
+    "games": 7,
+    "goals": 1.29,
+    "goals_against": 0.86,
+    "possession": 46.99,
+    "shots": 12.0,
+    "shots_against": 14.14
+   },
+   "why": "47% possession, 12 shots for / 14 against"
+  },
+  "Lens": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "press",
+   "source": null,
+   "stats": {
+    "fouls": 10.78,
+    "games": 9,
+    "goals": 1.89,
+    "goals_against": 1.67,
+    "possession": 53.6,
+    "shots": 16.56,
+    "shots_against": 12.22
+   },
+   "why": "17 shots a game at 54% possession"
+  },
+  "Levante": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 9.88,
+    "games": 8,
+    "goals": 1.5,
+    "goals_against": 2.0,
+    "possession": 43.86,
+    "shots": 11.88,
+    "shots_against": 15.25
+   },
+   "why": "44% possession, 12 shots for / 15 against"
+  },
+  "Lille": {
+   "basis": "research",
+   "coach": "Davide Ancelotti",
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": "https://www.sportsillustrated.fr/football/ligue-1-2026-2027-ce-qui-change-cette-saison/",
+   "stats": {
+    "fouls": 11.33,
+    "games": 9,
+    "goals": 1.33,
+    "goals_against": 1.22,
+    "possession": 48.91,
+    "shots": 10.67,
+    "shots_against": 15.67
+   },
+   "why": "New coach; 49% possession, solid defensively"
+  },
+  "Liverpool": {
+   "basis": "research",
+   "coach": "Arne Slot",
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "press",
+   "source": "https://www.martincid.com/sports-en/premier-league-2026-27-tactical-trends-ranked/",
+   "stats": {
+    "fouls": 12.44,
+    "games": 9,
+    "goals": 1.89,
+    "goals_against": 1.33,
+    "possession": 55.56,
+    "shots": 16.67,
+    "shots_against": 11.56
+   },
+   "why": "Positional press with 3–4 pressers, quick attacks after regains"
+  },
+  "Lorient": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 9.29,
+    "games": 7,
+    "goals": 1.0,
+    "goals_against": 0.86,
+    "possession": 45.9,
+    "shots": 9.86,
+    "shots_against": 13.86
+   },
+   "why": "46% possession, 10 shots for / 14 against"
+  },
+  "Lyon": {
+   "basis": "research",
+   "coach": "Paulo Fonseca",
+   "confidence": "high",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": "https://www.sportsillustrated.fr/football/ligue-1-2026-2027-ce-qui-change-cette-saison/",
+   "stats": {
+    "fouls": 10.33,
+    "games": 9,
+    "goals": 2.0,
+    "goals_against": 0.89,
+    "possession": 50.37,
+    "shots": 12.44,
+    "shots_against": 12.11
+   },
+   "why": "Proactive coach, but balanced so far: 50% possession, 0.9 conceded"
+  },
+  "Mainz": {
+   "basis": "research",
+   "coach": "Urs Fischer",
+   "confidence": "high",
+   "league": "Bundesliga",
+   "profile": "press",
+   "source": "https://ca.sports.yahoo.com/news/bundesliga-2026-27-tactical-previews-185500946.html",
+   "stats": {
+    "fouls": 13.83,
+    "games": 6,
+    "goals": 2.33,
+    "goals_against": 1.67,
+    "possession": 50.98,
+    "shots": 17.83,
+    "shots_against": 12.5
+   },
+   "why": "Aggressive ball recoveries turned into immediate vertical attacks"
+  },
+  "Manchester City": {
+   "basis": "research",
+   "coach": "Enzo Maresca",
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "possession",
+   "source": "https://www.martincid.com/sports-en/premier-league-2026-27-tactical-trends-ranked/",
+   "stats": {
+    "fouls": 11.22,
+    "games": 9,
+    "goals": 2.56,
+    "goals_against": 1.22,
+    "possession": 63.22,
+    "shots": 16.56,
+    "shots_against": 11.11
+   },
+   "why": "Back-three build-up, patient circulation; 63% possession"
+  },
+  "Manchester United": {
+   "basis": "research",
+   "coach": null,
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "press",
+   "source": "https://www.martincid.com/sports-en/premier-league-2026-27-tactical-trends-ranked/",
+   "stats": {
+    "fouls": 10.22,
+    "games": 9,
+    "goals": 1.56,
+    "goals_against": 1.33,
+    "possession": 54.09,
+    "shots": 18.67,
+    "shots_against": 11.0
+   },
+   "why": "3-4-3 that has bedded in, 18.7 shots a game"
+  },
+  "Marseille": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 11.33,
+    "games": 9,
+    "goals": 1.67,
+    "goals_against": 1.67,
+    "possession": 56.19,
+    "shots": 13.0,
+    "shots_against": 15.33
+   },
+   "why": "56% possession, 13 shots for / 15 against"
+  },
+  "Marítimo": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 15.38,
+    "games": 8,
+    "goals": 1.12,
+    "goals_against": 1.75,
+    "possession": 44.7,
+    "shots": 10.0,
+    "shots_against": 14.12
+   },
+   "why": "15 fouls a game, 45% possession"
+  },
+  "Monaco": {
+   "basis": "research",
+   "coach": "Filipe Luís",
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": "https://www.sportsillustrated.fr/football/ligue-1-2026-2027-ce-qui-change-cette-saison/",
+   "stats": {
+    "fouls": 11.62,
+    "games": 8,
+    "goals": 1.5,
+    "goals_against": 1.0,
+    "possession": 48.66,
+    "shots": 11.5,
+    "shots_against": 14.12
+   },
+   "why": "His Flamengo dominated the ball; not visible yet (49% possession)"
+  },
+  "Monza": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 12.5,
+    "games": 6,
+    "goals": 1.5,
+    "goals_against": 2.5,
+    "possession": 44.1,
+    "shots": 14.33,
+    "shots_against": 12.67
+   },
+   "why": "4.0 goals a game (both ends), 14 shots for / 13 against"
+  },
+  "Moreirense": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 13.75,
+    "games": 8,
+    "goals": 1.0,
+    "goals_against": 1.88,
+    "possession": 36.2,
+    "shots": 7.88,
+    "shots_against": 15.38
+   },
+   "why": "36% possession, 15 shots conceded a game"
+  },
+  "Málaga": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 11.56,
+    "games": 9,
+    "goals": 0.67,
+    "goals_against": 2.0,
+    "possession": 50.96,
+    "shots": 11.33,
+    "shots_against": 14.89
+   },
+   "why": "51% possession, 11 shots for / 15 against"
+  },
+  "NEC": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 12.27,
+    "games": 11,
+    "goals": 1.45,
+    "goals_against": 2.0,
+    "possession": 58.53,
+    "shots": 15.18,
+    "shots_against": 11.18
+   },
+   "why": "59% possession"
+  },
+  "Napoli": {
+   "basis": "research",
+   "coach": "Massimiliano Allegri",
+   "confidence": "high",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": "https://directoroffootball.com/2026-27-serie-a-almanac/",
+   "stats": {
+    "fouls": 9.89,
+    "games": 9,
+    "goals": 1.22,
+    "goals_against": 1.22,
+    "possession": 51.19,
+    "shots": 14.89,
+    "shots_against": 16.89
+   },
+   "why": "Allegri's pragmatism: control the game, not the ball"
+  },
+  "Newcastle United": {
+   "basis": "research",
+   "coach": null,
+   "confidence": "medium",
+   "league": "Premier League",
+   "profile": "press",
+   "source": "https://www.espn.com/soccer/story/_/id/49644584/premier-league-2026-2027-preview-offseason-moves-stats-analysis-predictions-teams",
+   "stats": {
+    "fouls": 12.14,
+    "games": 7,
+    "goals": 1.43,
+    "goals_against": 2.0,
+    "possession": 51.51,
+    "shots": 12.29,
+    "shots_against": 17.29
+   },
+   "why": "Trademark aggression and energy, attacks every game"
+  },
+  "Nice": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 9.43,
+    "games": 7,
+    "goals": 0.86,
+    "goals_against": 1.29,
+    "possession": 54.57,
+    "shots": 11.71,
+    "shots_against": 12.0
+   },
+   "why": "55% possession, 12 shots for / 12 against"
+  },
+  "Nottingham Forest": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.14,
+    "games": 7,
+    "goals": 0.71,
+    "goals_against": 1.29,
+    "possession": 45.59,
+    "shots": 17.14,
+    "shots_against": 10.71
+   },
+   "why": "14 fouls a game, 46% possession"
+  },
+  "Olympiacos": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 10.5,
+    "games": 2,
+    "goals": 1.5,
+    "goals_against": 0.5,
+    "possession": 51.2,
+    "shots": 17.5,
+    "shots_against": 7.5
+   },
+   "why": "Mendilibar-style direct, intense football"
+  },
+  "Osasuna": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.67,
+    "games": 9,
+    "goals": 1.11,
+    "goals_against": 2.11,
+    "possession": 45.74,
+    "shots": 10.67,
+    "shots_against": 13.22
+   },
+   "why": "15 fouls a game, 46% possession"
+  },
+  "PEC Zwolle": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 11.33,
+    "games": 9,
+    "goals": 1.11,
+    "goals_against": 2.44,
+    "possession": 40.72,
+    "shots": 12.0,
+    "shots_against": 19.33
+   },
+   "why": "41% possession, 19 shots conceded a game"
+  },
+  "PSV": {
+   "basis": "research",
+   "coach": "Peter Bosz",
+   "confidence": "medium",
+   "league": "Eredivisie",
+   "profile": "press",
+   "source": "https://www.whoscored.com/matches/1982266/preview/netherlands-eredivisie-2026-2027-ajax-psv-eindhoven",
+   "stats": {
+    "fouls": 10.45,
+    "games": 11,
+    "goals": 2.55,
+    "goals_against": 1.27,
+    "possession": 59.89,
+    "shots": 18.0,
+    "shots_against": 11.45
+   },
+   "why": "Bosz's high-tempo 4-3-3 with an aggressive press; 60% possession"
+  },
+  "Paris FC": {
+   "basis": "research",
+   "coach": "Liam Rosenior",
+   "confidence": "medium",
+   "league": "Ligue 1",
+   "profile": "possession",
+   "source": "https://www.sportsillustrated.fr/football/ligue-1-2026-2027-ce-qui-change-cette-saison/",
+   "stats": {
+    "fouls": 13.57,
+    "games": 7,
+    "goals": 1.71,
+    "goals_against": 1.0,
+    "possession": 52.09,
+    "shots": 14.43,
+    "shots_against": 9.71
+   },
+   "why": "Possession-based build-up, his style at Strasbourg; concedes under 10 shots"
+  },
+  "Paris Saint-Germain": {
+   "basis": "club identity + stats",
+   "coach": "Luis Enrique",
+   "confidence": "high",
+   "league": "Ligue 1",
+   "profile": "possession",
+   "source": null,
+   "stats": {
+    "fouls": 6.67,
+    "games": 9,
+    "goals": 2.67,
+    "goals_against": 1.33,
+    "possession": 66.02,
+    "shots": 21.78,
+    "shots_against": 12.56
+   },
+   "why": "Total control: 66% possession, 22 shots a game"
+  },
+  "Parma": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.67,
+    "games": 6,
+    "goals": 0.67,
+    "goals_against": 1.67,
+    "possession": 42.4,
+    "shots": 8.33,
+    "shots_against": 18.33
+   },
+   "why": "42% possession, 8 shots for / 18 against"
+  },
+  "Porto": {
+   "basis": "research",
+   "coach": "Francesco Farioli",
+   "confidence": "high",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-os-18-treinadores-do-campeonato/EBS9I3wC/",
+   "stats": {
+    "fouls": 13.6,
+    "games": 10,
+    "goals": 2.2,
+    "goals_against": 0.9,
+    "possession": 51.81,
+    "shots": 14.7,
+    "shots_against": 11.9
+   },
+   "why": "Controlled, efficient: 0.9 goals conceded a game"
+  },
+  "RB Leipzig": {
+   "basis": "research",
+   "coach": "Martín Demichelis",
+   "confidence": "high",
+   "league": "Bundesliga",
+   "profile": "press",
+   "source": "https://sports.yahoo.com/articles/bundesliga-2026-27-tactical-previews-120500718.html",
+   "stats": {
+    "fouls": 10.25,
+    "games": 8,
+    "goals": 2.25,
+    "goals_against": 2.0,
+    "possession": 51.1,
+    "shots": 17.5,
+    "shots_against": 15.88
+   },
+   "why": "Intense pressing and quick vertical attacks after turnovers"
+  },
+  "RB Salzburg": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "press",
+   "source": null,
+   "stats": {
+    "fouls": 17.0,
+    "games": 2,
+    "goals": 0.5,
+    "goals_against": 2.0,
+    "possession": 51.25,
+    "shots": 13.0,
+    "shots_against": 14.5
+   },
+   "why": "Red Bull school: gegenpress and vertical attacks"
+  },
+  "Racing Santander": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 13.78,
+    "games": 9,
+    "goals": 1.44,
+    "goals_against": 2.78,
+    "possession": 49.64,
+    "shots": 11.22,
+    "shots_against": 16.33
+   },
+   "why": "4.2 goals a game (both ends), 11 shots for / 16 against"
+  },
+  "Rayo Vallecano": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 13.43,
+    "games": 7,
+    "goals": 1.57,
+    "goals_against": 2.29,
+    "possession": 48.67,
+    "shots": 13.43,
+    "shots_against": 16.43
+   },
+   "why": "3.9 goals a game (both ends), 13 shots for / 16 against"
+  },
+  "Real Betis": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 10.55,
+    "games": 11,
+    "goals": 2.0,
+    "goals_against": 1.64,
+    "possession": 52.05,
+    "shots": 16.82,
+    "shots_against": 14.18
+   },
+   "why": "3.6 goals a game (both ends), 17 shots for / 14 against"
+  },
+  "Real Madrid": {
+   "basis": "research",
+   "coach": "José Mourinho",
+   "confidence": "medium",
+   "league": "La Liga",
+   "profile": "low_block",
+   "source": "https://extratimetalk.com/la-liga-2026-27-preview-spanish-top-flight/",
+   "stats": {
+    "fouls": 8.82,
+    "games": 11,
+    "goals": 2.64,
+    "goals_against": 1.18,
+    "possession": 50.98,
+    "shots": 17.27,
+    "shots_against": 13.64
+   },
+   "why": "Compact deep block against big sides, ruthless in transition"
+  },
+  "Real Sociedad": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 12.45,
+    "games": 11,
+    "goals": 1.73,
+    "goals_against": 1.82,
+    "possession": 50.55,
+    "shots": 13.45,
+    "shots_against": 16.0
+   },
+   "why": "51% possession, 13 shots for / 16 against"
+  },
+  "Rennes": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "press",
+   "source": null,
+   "stats": {
+    "fouls": 12.56,
+    "games": 9,
+    "goals": 1.89,
+    "goals_against": 1.67,
+    "possession": 54.37,
+    "shots": 18.0,
+    "shots_against": 13.56
+   },
+   "why": "18 shots a game at 54% possession"
+  },
+  "Rio Ave": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 8.88,
+    "games": 8,
+    "goals": 1.0,
+    "goals_against": 2.12,
+    "possession": 44.7,
+    "shots": 7.62,
+    "shots_against": 16.25
+   },
+   "why": "45% possession, 8 shots for / 16 against"
+  },
+  "Roma": {
+   "basis": "research",
+   "coach": "Gian Piero Gasperini",
+   "confidence": "high",
+   "league": "Serie A",
+   "profile": "press",
+   "source": "https://directoroffootball.com/2026-27-serie-a-almanac/",
+   "stats": {
+    "fouls": 13.11,
+    "games": 9,
+    "goals": 2.22,
+    "goals_against": 0.89,
+    "possession": 55.6,
+    "shots": 16.56,
+    "shots_against": 11.22
+   },
+   "why": "Man-to-man pressing all over the pitch; 0.9 goals conceded"
+  },
+  "SC Cambuur": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 12.33,
+    "games": 9,
+    "goals": 1.44,
+    "goals_against": 2.33,
+    "possession": 46.12,
+    "shots": 11.89,
+    "shots_against": 14.78
+   },
+   "why": "3.8 goals a game (both ends), 12 shots for / 15 against"
+  },
+  "SC Freiburg": {
+   "basis": "research",
+   "coach": null,
+   "confidence": "medium",
+   "league": "Bundesliga",
+   "profile": "pragmatic",
+   "source": "https://www.getfootballnewsgermany.com/2026/bundesliga-freiburg-preview-26/",
+   "stats": {
+    "fouls": 10.86,
+    "games": 7,
+    "goals": 2.57,
+    "goals_against": 1.14,
+    "possession": 53.61,
+    "shots": 17.14,
+    "shots_against": 9.43
+   },
+   "why": "Defends in a 4-4-2, efficient: 2.6 goals for, 9 shots against"
+  },
+  "SC Heerenveen": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 8.67,
+    "games": 9,
+    "goals": 1.67,
+    "goals_against": 1.22,
+    "possession": 52.82,
+    "shots": 15.33,
+    "shots_against": 14.56
+   },
+   "why": "53% possession, 15 shots for / 15 against"
+  },
+  "SC Paderborn": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.5,
+    "games": 6,
+    "goals": 0.83,
+    "goals_against": 1.5,
+    "possession": 46.27,
+    "shots": 13.67,
+    "shots_against": 18.5
+   },
+   "why": "46% possession, 14 shots for / 18 against"
+  },
+  "SK Sturm Graz": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "press",
+   "source": null,
+   "stats": {
+    "fouls": 15.0,
+    "games": 2,
+    "goals": 0.0,
+    "goals_against": 1.5,
+    "possession": 37.9,
+    "shots": 8.5,
+    "shots_against": 23.0
+   },
+   "why": "High-press, high-intensity Austrian school"
+  },
+  "Santa Clara": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 13.25,
+    "games": 8,
+    "goals": 1.5,
+    "goals_against": 0.5,
+    "possession": 47.26,
+    "shots": 13.25,
+    "shots_against": 7.75
+   },
+   "why": "47% possession, 13 shots for / 8 against"
+  },
+  "Sassuolo": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 9.71,
+    "games": 7,
+    "goals": 1.71,
+    "goals_against": 2.0,
+    "possession": 47.74,
+    "shots": 15.71,
+    "shots_against": 15.86
+   },
+   "why": "3.7 goals a game (both ends), 16 shots for / 16 against"
+  },
+  "Schalke 04": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 9.33,
+    "games": 6,
+    "goals": 0.67,
+    "goals_against": 1.17,
+    "possession": 39.97,
+    "shots": 10.17,
+    "shots_against": 15.0
+   },
+   "why": "40% possession, 15 shots conceded a game"
+  },
+  "Sevilla": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 14.67,
+    "games": 9,
+    "goals": 1.56,
+    "goals_against": 1.78,
+    "possession": 41.31,
+    "shots": 11.78,
+    "shots_against": 12.67
+   },
+   "why": "15 fouls a game, 41% possession"
+  },
+  "Slavia Prague": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 11.0,
+    "games": 2,
+    "goals": 1.0,
+    "goals_against": 2.5,
+    "possession": 46.25,
+    "shots": 18.0,
+    "shots_against": 19.5
+   },
+   "why": "Intense, physical, aerial and set-piece threat"
+  },
+  "Sparta Rotterdam": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 10.11,
+    "games": 9,
+    "goals": 1.78,
+    "goals_against": 2.44,
+    "possession": 45.03,
+    "shots": 14.67,
+    "shots_against": 17.33
+   },
+   "why": "4.2 goals a game (both ends), 15 shots for / 17 against"
+  },
+  "Sporting CP": {
+   "basis": "research",
+   "coach": "Rui Borges",
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "pragmatic",
+   "source": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-os-18-treinadores-do-campeonato/EBS9I3wC/",
+   "stats": {
+    "fouls": 11.8,
+    "games": 10,
+    "goals": 2.5,
+    "goals_against": 1.0,
+    "possession": 55.5,
+    "shots": 12.2,
+    "shots_against": 10.6
+   },
+   "why": "Balanced, 55% possession"
+  },
+  "Strasbourg": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 11.29,
+    "games": 7,
+    "goals": 1.71,
+    "goals_against": 2.14,
+    "possession": 44.84,
+    "shots": 12.14,
+    "shots_against": 16.57
+   },
+   "why": "3.9 goals a game (both ends), 12 shots for / 17 against"
+  },
+  "Sunderland": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Premier League",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 12.56,
+    "games": 9,
+    "goals": 1.0,
+    "goals_against": 1.67,
+    "possession": 49.51,
+    "shots": 13.67,
+    "shots_against": 12.89
+   },
+   "why": "50% possession, 14 shots for / 13 against"
+  },
+  "Telstar": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.67,
+    "games": 9,
+    "goals": 1.11,
+    "goals_against": 2.0,
+    "possession": 45.09,
+    "shots": 12.0,
+    "shots_against": 16.67
+   },
+   "why": "45% possession, 12 shots for / 17 against"
+  },
+  "Torino": {
+   "basis": "research",
+   "coach": "Ignazio Abate",
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": "https://calciodangolo.com/allenatori-serie-a-2026-2027-moduli-squadra-per-squadra/",
+   "stats": {
+    "fouls": 8.5,
+    "games": 6,
+    "goals": 1.17,
+    "goals_against": 1.5,
+    "possession": 51.08,
+    "shots": 9.83,
+    "shots_against": 15.33
+   },
+   "why": "3-5-2 / 3-4-2-1, new coach"
+  },
+  "Tottenham Hotspur": {
+   "basis": "research",
+   "coach": "Roberto De Zerbi",
+   "confidence": "high",
+   "league": "Premier League",
+   "profile": "possession",
+   "source": "https://www.goal.com/en-us/news/a-new-wave-of-managers-could-make-the-2026-27-premier-league-title-race-highly-unpredictable/blt20455e0aa4f86c34",
+   "stats": {
+    "fouls": 13.5,
+    "games": 6,
+    "goals": 0.5,
+    "goals_against": 1.5,
+    "possession": 58.58,
+    "shots": 14.0,
+    "shots_against": 14.67
+   },
+   "why": "Builds from the back to bait the press, then hard pressing; results not there yet"
+  },
+  "Toulouse": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 15.57,
+    "games": 7,
+    "goals": 1.71,
+    "goals_against": 1.57,
+    "possession": 50.21,
+    "shots": 13.57,
+    "shots_against": 14.57
+   },
+   "why": "50% possession, 14 shots for / 15 against"
+  },
+  "Troyes": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Ligue 1",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 12.43,
+    "games": 7,
+    "goals": 0.71,
+    "goals_against": 2.29,
+    "possession": 38.9,
+    "shots": 14.43,
+    "shots_against": 12.43
+   },
+   "why": "39% possession, 14 shots for / 12 against"
+  },
+  "Udinese": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 11.0,
+    "games": 7,
+    "goals": 1.29,
+    "goals_against": 2.29,
+    "possession": 51.11,
+    "shots": 14.29,
+    "shots_against": 16.43
+   },
+   "why": "51% possession, 14 shots for / 16 against"
+  },
+  "Union Berlin": {
+   "basis": "club identity + stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 11.67,
+    "games": 6,
+    "goals": 0.83,
+    "goals_against": 2.83,
+    "possession": 43.93,
+    "shots": 12.83,
+    "shots_against": 15.67
+   },
+   "why": "Long-standing compact, deep identity; 44% possession"
+  },
+  "Union St.-Gilloise": {
+   "basis": "club identity (not checked for 2026-27)",
+   "coach": null,
+   "confidence": "low",
+   "league": "Europe",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 13.0,
+    "games": 2,
+    "goals": 2.0,
+    "goals_against": 0.5,
+    "possession": 47.75,
+    "shots": 19.0,
+    "shots_against": 9.5
+   },
+   "why": "Direct, set pieces and transitions"
+  },
+  "Utrecht": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "direct",
+   "source": null,
+   "stats": {
+    "fouls": 16.33,
+    "games": 9,
+    "goals": 1.78,
+    "goals_against": 2.89,
+    "possession": 44.61,
+    "shots": 12.89,
+    "shots_against": 18.11
+   },
+   "why": "16 fouls a game, 45% possession"
+  },
+  "Valencia": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "La Liga",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.89,
+    "games": 9,
+    "goals": 0.67,
+    "goals_against": 1.67,
+    "possession": 46.21,
+    "shots": 11.11,
+    "shots_against": 15.11
+   },
+   "why": "46% possession, 11 shots for / 15 against"
+  },
+  "Venezia": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Serie A",
+   "profile": "pragmatic",
+   "source": null,
+   "stats": {
+    "fouls": 10.14,
+    "games": 7,
+    "goals": 1.0,
+    "goals_against": 2.29,
+    "possession": 54.16,
+    "shots": 14.0,
+    "shots_against": 17.57
+   },
+   "why": "54% possession, 14 shots for / 18 against"
+  },
+  "VfB Stuttgart": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 10.88,
+    "games": 8,
+    "goals": 1.75,
+    "goals_against": 1.38,
+    "possession": 56.64,
+    "shots": 17.0,
+    "shots_against": 16.75
+   },
+   "why": "3.1 goals a game (both ends), 17 shots for / 17 against"
+  },
+  "Villarreal": {
+   "basis": "research",
+   "coach": "Iñigo Pérez",
+   "confidence": "high",
+   "league": "La Liga",
+   "profile": "possession",
+   "source": "https://cuatropicas.com/2026/08/10/analisis-villarreal-26-27/",
+   "stats": {
+    "fouls": 10.73,
+    "games": 11,
+    "goals": 1.64,
+    "goals_against": 1.55,
+    "possession": 58.46,
+    "shots": 16.09,
+    "shots_against": 12.45
+   },
+   "why": "More presence up front; 58% possession"
+  },
+  "Vitória SC": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Primeira Liga",
+   "profile": "press",
+   "source": null,
+   "stats": {
+    "fouls": 15.75,
+    "games": 8,
+    "goals": 0.62,
+    "goals_against": 1.25,
+    "possession": 53.46,
+    "shots": 17.75,
+    "shots_against": 9.12
+   },
+   "why": "18 shots a game at 53% possession"
+  },
+  "Werder Bremen": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Bundesliga",
+   "profile": "chaos",
+   "source": null,
+   "stats": {
+    "fouls": 12.0,
+    "games": 6,
+    "goals": 2.0,
+    "goals_against": 2.0,
+    "possession": 47.32,
+    "shots": 14.0,
+    "shots_against": 15.33
+   },
+   "why": "4.0 goals a game (both ends), 14 shots for / 15 against"
+  },
+  "Willem II": {
+   "basis": "stats",
+   "coach": null,
+   "confidence": "low",
+   "league": "Eredivisie",
+   "profile": "low_block",
+   "source": null,
+   "stats": {
+    "fouls": 9.78,
+    "games": 9,
+    "goals": 1.0,
+    "goals_against": 2.89,
+    "possession": 40.32,
+    "shots": 11.67,
+    "shots_against": 20.56
+   },
+   "why": "40% possession, 21 shots conceded a game"
+  }
+ },
+ "generated": "2026-10-19",
+ "profiles": {
+  "chaos": "🎢 All-out attack",
+  "direct": "💪 Direct & physical",
+  "low_block": "🧱 Low block & counter",
+  "possession": "🎯 Possession & control",
+  "pragmatic": "♟️ Pragmatic / balanced",
+  "press": "⚡ High press & transition"
+ },
+ "status": "draft for review",
+ "unclassified": [
+  "AEK Athens",
+  "AGF",
+  "Anderlecht",
+  "Ararat-Armenia",
+  "Besiktas",
+  "Borac Banja Luka",
+  "CSKA Sofia",
+  "CSU Craiova",
+  "Club Brugge",
+  "Dinamo Zagreb",
+  "Egnatia",
+  "F.C. København",
+  "FC Lugano",
+  "FC Nordsjælland",
+  "FC Thun",
+  "Fenerbahçe",
+  "Ferencvaros",
+  "Galatasaray",
+  "Hajduk Split",
+  "Hapoel Be'er",
+  "Heart of Midlothian",
+  "Iberia 1999",
+  "Inter D'Escaldes",
+  "Jablonec",
+  "Jagiellonia Bialystok",
+  "KAA Gent",
+  "Kairat Almaty",
+  "Kauno Zalgiris",
+  "KuPS Kuopio",
+  "LASK",
+  "Lech Poznan",
+  "Levski Sofia",
+  "Lillestrom",
+  "Lincoln Red Imps",
+  "Mjällby AIF",
+  "NK Celje",
+  "OFI Crete",
+  "Omonia Nicosia",
+  "Pafos",
+  "Panathinaikos",
+  "Red Star Belgrade",
+  "Riga FC",
+  "SK Brann",
+  "Sabah FK",
+  "Shaktar",
+  "Sint-Truidense",
+  "Slovan Bratislava",
+  "Sparta Prague",
+  "Torreense",
+  "Trabzonspor",
+  "Viking",
+  "Viktoria Plzen"
+ ]
+}
