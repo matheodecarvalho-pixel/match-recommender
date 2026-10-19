@@ -43,6 +43,81 @@ S = {  # sources used below
     "ere_ajax": "https://www.goal.com/en/news/too-ambitious-or-realistic-this-is-how-michel-and-cruyff-want-to-make-ajax-title-contenders-again/bltc9c073cfbf1081a8",
     "ere_psv": "https://www.whoscored.com/matches/1982266/preview/netherlands-eredivisie-2026-2027-ajax-psv-eindhoven",
     "pt_coaches": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-os-18-treinadores-do-campeonato/EBS9I3wC/",
+    "pl_list": "https://thesportscast.net/2026/08/06/premier-league-managers-2026-27-full-list-of-every-head-coach-ahead-of-the-new-season/",
+    "sa_list": "https://www.legaseriea.it/serie-a/news/gli-allenatori-della-serie-a-enilive-2026-27",
+    "liga_list": "https://www.eldesmarque.com/futbol/liga-1a-division/20260618/banquillos-laliga-2026-2027-nuevos-entrenadores_18_019482771.html",
+    "l1_list": "https://www.flashscore.fr/actualites/football-ligue-1-ligue-1-2026-2027-la-liste-complete-des-18-entraineurs-avec-un-record-de-changements/8Ie2nfWh/",
+    "bl_kicker": "https://www.kicker.de/sc-freiburg/team-trainer",
+    "ere_telstar": "https://www.footballtransfers.com/nl/transfernieuws/nl-eredivisie/2026/05/telstar-plukt-nieuwe-hoofdtrainer-weg-bij-sc-heerenveen",
+    "ere_heer": "https://nl.wikipedia.org/wiki/Sc_Heerenveen_in_het_seizoen_2026/27_(mannen)",
+    "malaga": "https://www.merchanendirecto.es/fumata-blanca-funes-sera-el-nuevo-entrenador-del-malaga-cf/",
+    "depor": "https://es.wikipedia.org/wiki/Antonio_Hidalgo_Morilla",
+}
+
+# Coach-led review of the clubs first filed as pragmatic (19 Oct 2026). Coach names come from
+# the season lists above; the approach comes from each coach's track record at previous clubs.
+# Philosophy wins over this season's numbers (a Simeone side with the ball is still Simeone's).
+COACH_PICKS = {
+    # Premier League
+    "Chelsea": ("possession", "medium", "Xabi Alonso", "Leverkusen's unbeaten title side: 3-4-2-1, positional play, long spells on the ball and a hard counter-press", "pl_list"),
+    "Everton": ("low_block", "medium", "David Moyes", "Compact 4-4-2 / 4-2-3-1, defend deep, counters and set pieces (West Ham's Conference League win)", "pl_list"),
+    "Fulham": ("possession", "low", "Álvaro Arbeloa", "Real Madrid academy coach: proactive 4-3-3 on the ball; 57% possession so far", "pl_list"),
+    "Hull City": ("low_block", "medium", "Sergej Jakirović", "Dinamo Zagreb and Hull: solid shape first, direct transitions; 32% possession", "pl_list"),
+    "Leeds United": ("pragmatic", "medium", "Daniel Farke", "Possession sides in the Championship (Norwich, Leeds), noticeably more compact and cautious in the Premier League", "pl_list"),
+    "Sunderland": ("pragmatic", "medium", "Régis Le Bris", "Structured, patient build-up with a young squad at Lorient; compact mid-block since promotion", "pl_list"),
+    "Aston Villa": ("pragmatic", "high", "Unai Emery", "Plans for each opponent: high line and offside trap, baits the press, game management", "pl_list"),
+    "Liverpool": ("press", "high", "Andoni Iraola", "Bournemouth's man-to-man press: relentless, vertical, high energy", "pl_list"),
+    "Manchester United": ("possession", "medium", "Michael Carrick", "Middlesbrough under him: possession-based 4-2-3-1, patient build-up; 18.7 shots a game", "pl_list"),
+    "Nottingham Forest": ("press", "medium", "Oliver Glasner", "Frankfurt and Palace: 3-4-2-1, aggressive press and fast transitions", "pl_list"),
+    "Newcastle United": ("press", "high", "Matthias Jaissle", "Red Bull school (Salzburg): gegenpress and vertical attacks", "pl_list"),
+    "Brentford": ("direct", "high", "Keith Andrews", "Former set-piece coach; long throws, set pieces and directness remain the identity", "pl_list"),
+    # La Liga
+    "Atlético Madrid": ("low_block", "high", "Diego Simeone", "Simeone's philosophy: compact block, intensity, strike on the break, even with more of the ball this season", None),
+    "Alavés": ("low_block", "medium", "Quique Sánchez Flores", "Organised, compact, defend first, counter: his trademark at Getafe, Watford and Sevilla", "liga_list"),
+    "Celta Vigo": ("possession", "medium", "Claudio Giráldez", "Academy-built positional play, back-three build-up, plays out from the back", "liga_list"),
+    "Deportivo La Coruña": ("pragmatic", "low", "Antonio Hidalgo", "Promoted with a compact, balanced side; style little documented", "depor"),
+    "Elche": ("press", "medium", "Martín Anselmi", "Cruz Azul and Porto: 3-4-3, aggressive man-oriented press, high line", "liga_list"),
+    "Levante": ("pragmatic", "low", "Luís Castro", "Possession 4-3-3 at Shakhtar and Botafogo; sits deeper with a survival squad", "liga_list"),
+    "Málaga": ("pragmatic", "low", "Juanfran Funes", "First top-flight job after promotion; style not documented yet", "malaga"),
+    "Real Sociedad": ("press", "medium", "Pellegrino Matarazzo", "Red Bull school (Stuttgart, Hoffenheim): high press, vertical attacks", "liga_list"),
+    "Valencia": ("press", "medium", "Carlos Corberán", "Bielsa disciple: man-oriented pressing, intensity, runners (Huddersfield, West Brom)", "liga_list"),
+    # Ligue 1
+    "Angers": ("pragmatic", "low", "Stéphane Gilli", "New in the job; style not documented yet", "l1_list"),
+    "Lille": ("pragmatic", "medium", "Davide Ancelotti", "Botafogo: balanced, adaptable, game management, like his father", "l1_list"),
+    "Lorient": ("low_block", "medium", "Alexandre Dujeux", "Angers' survival side: compact low block, counters", "l1_list"),
+    "Lyon": ("possession", "medium", "Paulo Fonseca", "Roma, Lille, Milan: proactive 4-2-3-1, keeps the ball, attacks with numbers", "l1_list"),
+    "Marseille": ("pragmatic", "medium", "Bruno Genesio", "Rennes and Lille: adaptable, offensive when he can, pragmatic when he must", "l1_list"),
+    "Monaco": ("possession", "medium", "Filipe Luís", "Flamengo: ball dominance, positional play, high counter-press", "l1_list"),
+    "Nice": ("low_block", "medium", "Olivier Pantaloni", "Ajaccio and Lorient: compact, defend first, strike on the break", "l1_list"),
+    "Toulouse": ("pragmatic", "low", None, "New coach not named in the sources found; 15.6 fouls a game", None),
+    "Troyes": ("pragmatic", "low", None, "Kept their promotion coach; 39% possession", "l1_list"),
+    # Serie A
+    "Bologna": ("pragmatic", "medium", "Domenico Tedesco", "Leipzig and Belgium: flexible shapes, compact, picks his moments to press", "sa_list"),
+    "Fiorentina": ("chaos", "medium", "Fabio Grosso", "Frosinone and Sassuolo: attacking 4-3-3, open games; 16.6 shots for, 2.4 conceded", "sa_list"),
+    "Genoa": ("possession", "low", "Daniele De Rossi", "Roma: positional 4-3-3, plays through the lines; now a back three", "sa_list"),
+    "Lazio": ("pragmatic", "medium", "Gennaro Gattuso", "Napoli's possession 4-3-3, later more pragmatic (Marseille, Hajduk, Italy)", "sa_list"),
+    "Napoli": ("pragmatic", "high", "Massimiliano Allegri", "The archetype: control the game, not the ball; win 1-0", "sa_list"),
+    "Parma": ("low_block", "medium", "Carlos Cuesta", "Arteta's former assistant with possession ideas, but a deep, compact Parma; 42% possession, 18 shots conceded", "sa_list"),
+    "Torino": ("pragmatic", "low", "Ignazio Abate", "Proactive 3-5-2 at Juve Stabia; first Serie A season", "sa_list"),
+    "Udinese": ("direct", "medium", "Kosta Runjaić", "Legia and Udinese: 3-5-2, physical, direct, quick transitions", "sa_list"),
+    "Venezia": ("chaos", "medium", "Giovanni Stroppa", "Attacking 3-5-2 (Crotone, Venezia promotions); 17.6 shots conceded", "sa_list"),
+    # Bundesliga
+    "SC Freiburg": ("pragmatic", "high", "Julian Schuster", "Freiburg's model: compact 4-4-2 out of possession, efficient, strong set pieces", "bl_kicker"),
+    "SC Paderborn": ("pragmatic", "low", "Ralf Kettemann", "Style little documented at this level", None),
+    # Eredivisie
+    "SC Heerenveen": ("pragmatic", "low", "Robin Veldman", "Style little documented", "ere_heer"),
+    "Telstar": ("pragmatic", "low", "Henk Brugge", "First head-coach job; style not documented yet", "ere_telstar"),
+    # Primeira Liga
+    "Arouca": ("possession", "medium", "Vasco Seabra", "Arouca's ball-playing, positional style", "pt_coaches"),
+    "C.D. Nacional": ("possession", "low", "João Gião", "Sporting B: Sporting-school 3-4-3 on the ball", "pt_coaches"),
+    "Casa Pia": ("possession", "low", "Filipe Coelho", "BlueCo staff (Chelsea, Strasbourg): possession-based", "pt_coaches"),
+    "Estoril": ("low_block", "medium", "Vasco Matos", "Santa Clara: compact, very hard to break down, counters", "pt_coaches"),
+    "Famalicão": ("possession", "medium", "Carlos Carvalhal", "Braga, Swansea: build-up and positional play", "pt_coaches"),
+    "Gil Vicente": ("pragmatic", "low", "Luís Pinto", "Style little documented", "pt_coaches"),
+    "Porto": ("pragmatic", "medium", "Francesco Farioli", "Nice and Ajax: control and defensive solidity, adapts to the squad", "pt_coaches"),
+    "Rio Ave": ("pragmatic", "low", "Sotiris Sylaidopoulos", "Style little documented", "pt_coaches"),
+    "Santa Clara": ("direct", "medium", "Petit", "Boavista, Paços: intensity, physical duels, compact", "pt_coaches"),
+    "Sporting CP": ("possession", "medium", "Rui Borges", "Title-winning 3-4-3 on the ball", "pt_coaches"),
 }
 
 # Researched picks: club -> (profile, confidence, coach, why, source key)
@@ -144,8 +219,8 @@ def main():
     for team, s in stats.items():
         league = LEAGUE.get(s.get("league"))
         numbers = {k: s[k] for k in ("games", "possession", "shots", "shots_against", "goals", "goals_against", "fouls")}
-        if team in PICKS:
-            profile, conf, coach, why, src = PICKS[team]
+        if team in PICKS or team in COACH_PICKS:
+            profile, conf, coach, why, src = COACH_PICKS.get(team) or PICKS[team]
             data_profile, _ = from_stats(s)
             if conf == "medium" and data_profile == profile and src:
                 conf = "high"  # the source and the stats agree
