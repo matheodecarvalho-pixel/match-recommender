@@ -265,7 +265,7 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 
 /* Club badges */
 .team { display: inline-flex; align-items: center; gap: 7px; vertical-align: middle; }
-.crest { width: 22px; height: 22px; object-fit: contain; flex: none; background: var(--ink); border-radius: 50%; padding: 2px; }
+.crest { width: 28px; height: 28px; object-fit: contain; flex: none; filter: drop-shadow(0 0 1px rgba(242, 239, 230, 0.55)); }
 .result-line .side.away .team { justify-content: flex-end; }
 .result-line .side { min-width: 0; }
 .teams { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
@@ -274,7 +274,6 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 .style-btn { border-color: var(--rec); background: #2e2512; }
 .style-btn.on { background: var(--rec); color: var(--night); }
 .style-cta { background: var(--rec); }
-.style-chip { font-size: 0.72em; line-height: 1; cursor: help; background: var(--ink); border-radius: 50%; width: 1.7em; height: 1.7em; display: inline-grid; place-items: center; flex: none; }
 .styles-line { font-size: 0.8rem; color: var(--muted); margin: 10px 0 0; }
 .clash { display: flex; gap: 10px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 0.9rem; }
 .clash input { width: 18px; height: 18px; accent-color: var(--rec); margin-top: 2px; }

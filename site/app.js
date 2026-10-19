@@ -253,13 +253,6 @@ function styleBonus(m) {
   return { points, text, clash };
 }
 
-function styleChip(name) {
-  const st = teamStyles[name]?.style;
-  if (!st) return null;
-  const [icon, label] = STYLE_INFO[st];
-  return el("span", { class: "style-chip", title: label, "aria-label": label }, icon);
-}
-
 function mult(signal, b) {
   const key = signal === "stakes" ? (STAKE_KIND[b.kind] || "title") : signal;
   return feed.mults[key] ?? 1;
@@ -407,7 +400,7 @@ const crests = {};  // team -> badge URL, from matches_ranked.json and results.j
 function crest(name) {
   const url = crests[name];
   if (!url) return null;
-  const img = el("img", { class: "crest", src: url, alt: "", width: "20", height: "20", loading: "lazy", decoding: "async" });
+  const img = el("img", { class: "crest", src: url, alt: "", width: "28", height: "28", loading: "lazy", decoding: "async" });
   img.addEventListener("error", () => img.remove());  // a missing badge just disappears
   return img;
 }
@@ -415,7 +408,7 @@ function crest(name) {
 // A team name with its badge; `after` puts the badge on the right (away side of a result).
 function team(name, after = false) {
   const label = isFavourite(name) ? el("span", { class: "fav" }, "★ " + name) : el("span", {}, name);
-  return el("span", { class: "team" }, after ? [styleChip(name), label, crest(name)] : [crest(name), label, styleChip(name)]);
+  return el("span", { class: "team" }, after ? [label, crest(name)] : [crest(name), label]);
 }
 
 function breakdown(m) {
@@ -435,7 +428,7 @@ function breakdown(m) {
   if (m.stage_bonus) extras.push(`+${m.stage_bonus} knockout round`);
   if (m.tier1_rivalry) extras.push("Must-watch: tier-1 rivalry");
   if (m.styleBonus?.text) extras.push(m.styleBonus.text);
-  const personal = Object.keys(feed.mults).length ? ` (${m.personalBase} with My Feed)` : "";
+  if (Object.keys(feed.mults).length) extras.push("Weighted by My Feed");
   const styleLine = [m.home, m.away].filter(t => teamStyles[t]).map(t => {
     const [icon, label] = STYLE_INFO[teamStyles[t].style];
     return `${t}: ${icon} ${label}`;
@@ -443,8 +436,7 @@ function breakdown(m) {
   return el("div", { class: "breakdown" },
     styleLine.length ? el("p", { class: "styles-line" }, styleLine.join(" · ")) : null,
     rows,
-    el("p", { class: "extras" }, `Signals ${m.base} pts${personal}`, extras.length ? " · " + extras.join(" · ") : "",
-      ` · ${data.scale_reference} pts = 100`));
+    extras.length ? el("p", { class: "extras" }, extras.join(" · ")) : null);
 }
 
 function card(m) {
