@@ -88,10 +88,13 @@ def score_fixture(m, inp, tables, knockout, chases=True):
     tier1 = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and config["must_watch"]["tier_1_rivalry_always"]
     result = score_match(ctx, config)
     kickoff = m["kickoff_utc"].astimezone(PARIS)
+    # Each team's place in this competition's table (league, or a cup's league phase), shown next to its name.
+    rows = {r["team"]: r for r in (tables.get(m["competition"]) or [])} if in_table(m) else {}
+    positions = {t: rows[t]["position"] for t in (m["home"], m["away"]) if t in rows and rows[t]["played"]}
     return {"id": m["id"], "competition": m["competition"], "stage": m["stage"],
             "kickoff_paris": kickoff.isoformat(), "day": kickoff.date().isoformat(),
             "home": m["home"], "away": m["away"], **result,
-            "tier1_rivalry": tier1, "espn": espn_link(m, inp["espn_ids"], inp["us_tv"])}
+            "tier1_rivalry": tier1, "positions": positions, "espn": espn_link(m, inp["espn_ids"], inp["us_tv"])}
 
 
 def build(now=None):
@@ -203,6 +206,7 @@ def frozen(m):
     return {"score": m["score"], "must_watch": m["must_watch"], "recommended": m.get("recommended", False),
             "story": m["story"], "base": m["base"], "competition_bonus": m["competition_bonus"],
             "stage_bonus": m.get("stage_bonus", 0), "tier1_rivalry": m.get("tier1_rivalry", False),
+            "positions": m.get("positions", {}),
             "breakdown": {k: {"points": b["points"], **({"kind": b["kind"]} if "kind" in b else {})}
                           for k, b in m["breakdown"].items()}}
 
@@ -279,7 +283,9 @@ def reconstruct(archive, inp, now=None):
     adjust = {c: deductions(matches, inp["tables"], c, now) for c in comps}
     added = 0
     for m in matches:
-        if m["status"] != "finished" or m["home_goals"] is None or m["id"] in archive:
+        old = archive.get(m["id"])
+        # Rebuilt entries from before table positions were stored get rebuilt once more.
+        if m["status"] != "finished" or m["home_goals"] is None or (old and not (old.get("reconstructed") and "positions" not in old)):
             continue
         tables = {c: table_before(matches, c, m["kickoff_utc"], adjust[c]) for c in comps}
         if not in_table(m):

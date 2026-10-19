@@ -69,6 +69,15 @@ def test_mid_table_has_no_stakes(config):
     assert signal_stakes(ctx, config["signals"]["stakes"]) == (0.0, None)
 
 
+def test_compressed_table_needs_places_too(config):
+    # La Liga, October 2026: 7th has 11 pts, Rayo (14th) and Getafe (15th) have 8, the drop starts at 7.
+    # Three points from Europe but seven places away: that is a relegation scrap, not a fight for Europe.
+    pts = [27, 22, 19, 18, 16, 14, 11, 11, 11, 11, 9, 9, 8, 8, 8, 8, 7, 7, 6, 4]
+    ctx = {**fixture("T15", "T14", comp="La Liga"), "table": table(pts, played=9)}
+    _, story = signal_stakes(ctx, config["signals"]["stakes"])
+    assert story[0] == "stakes_relegation"
+
+
 def test_early_season_damping(config):
     cfg = config["signals"]["stakes"]
     ctx = {**fixture("T1", "T2"), "table": table(FLAT, played=4)}

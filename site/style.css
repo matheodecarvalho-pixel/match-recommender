@@ -271,6 +271,7 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 /* Club badges */
 .team { display: inline-flex; align-items: center; gap: 7px; vertical-align: middle; }
 .crest { width: 28px; height: 28px; object-fit: contain; flex: none; filter: drop-shadow(0 0 1px rgba(242, 239, 230, 0.55)); }
+.pos { font-size: 0.7rem; font-weight: 600; font-variant-numeric: tabular-nums; min-width: 1.7em; padding: 1px 4px; text-align: center; border-radius: 4px; border: 1px solid var(--line); background: var(--raised); color: var(--muted); line-height: 1.4; }
 .result-line .side.away .team { justify-content: flex-end; }
 .result-line .side { min-width: 0; }
 .teams { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }

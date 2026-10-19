@@ -66,7 +66,9 @@
       "league_phase_points_gap": 3,
       "_damping": "Early in the season every team is close to every cutoff. Stakes are scaled by share of season played / full_weight_from_share, never below min_factor.",
       "full_weight_from_share": 0.5,
-      "min_factor": 0.25
+      "min_factor": 0.25,
+      "race_places": 3,
+      "_race_places": "A team is in a race only if it is also within race_places places of the line (1st for the title, between the last Europe spot and the next, between safety and the drop)."
     },
     "entertainment": {
       "_how": "Average total goals (scored + conceded) per game across both teams' last N matches.",
@@ -147,7 +149,7 @@
     "max_reasons": 3,
     "separator": " · ",
     "templates": {
-      "form": "{home} won {home_wins} of last {n}, {away} won {away_wins} of last {n}",
+      "form": "Wins in last {n}: {home_wins} v {away_wins}",
       "both_in_form": "Both teams in form",
       "stakes_title": "Title race: {gap} pts between them",
       "stakes_europe": "Fight for Europe",
@@ -156,16 +158,16 @@
       "stakes_knockout": "Knockout: loser goes out",
       "entertainment": "{goals_per_game} goals per game lately",
       "rivalry": "{rivalry_name}",
-      "closeness": "{home_pos} vs {away_pos} in the table",
+      "closeness": "Evenly matched",
       "records": "{player} is {distance} {unit} from the {competition} record ({record})",
       "revenge": "{person} faces his former club",
       "revenge_knockout": "{loser} were knocked out by {winner} in the {competition} {stage} ({when})",
       "revenge_loss": "{loser} lost {score} to {winner} in the {competition} ({when})",
       "european_classic": "European classic: {n} meetings since {since}",
-      "big_match": "Heavyweights: #{home_rank} v #{away_rank} in Europe's club ranking",
-      "giant_gap": "{team} {gap} pts off the top of {league}, usually {usual}: under par",
-      "par_under": "{team} {pos} in {league}, usually {usual}: under par",
-      "par_over": "{team} {pos} in {league}, usually {usual}: punching above their weight"
+      "big_match": "Heavyweights: Europe's #{home_rank} v #{away_rank}",
+      "giant_gap": "{team} {gap} pts off the top: under par",
+      "par_under": "{team} usually finish {usual}: under par",
+      "par_over": "{team} usually finish {usual}: punching above their weight"
     }
   },
   "_weights": "Relative importance. Records are switched off (too rare); they come back by adding a weight. Scores are rescaled with `scale`.",

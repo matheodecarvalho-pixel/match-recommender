@@ -408,10 +408,17 @@ function crest(name) {
   return img;
 }
 
-// A team name with its badge; `after` puts the badge on the right (away side of a result).
-function team(name, after = false) {
+// A team name with its badge and table position; `after` puts the badge on the right (away side of a result).
+function team(name, after = false, m = null) {
   const label = isFavourite(name) ? el("span", { class: "fav" }, "★ " + name) : el("span", {}, name);
-  return el("span", { class: "team" }, after ? [label, crest(name)] : [crest(name), label]);
+  const p = m?.positions?.[name];
+  const pos = p ? el("span", { class: "pos", title: `${ordinal(p)} in the ${m.competition} table` }, String(p)) : null;
+  return el("span", { class: "team" }, after ? [label, pos, crest(name)] : [crest(name), label, pos]);
+}
+
+function ordinal(n) {
+  const s = ["th", "st", "nd", "rd"], v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
 }
 
 function breakdown(m) {
@@ -462,7 +469,7 @@ function card(m) {
       el("span", {}, m.competition),
       m.must ? el("span", { class: "badge" }, "Must-watch") : null,
       m.rec ? el("span", { class: "badge rec" }, "Recommended") : null),
-    el("div", { class: "teams" }, team(m.home), " v ", team(m.away)),
+    el("div", { class: "teams" }, team(m.home, false, m), " v ", team(m.away, false, m)),
     el("div", { class: "live", hidden: "" }),
     el("div", { class: "score", "aria-label": `Score ${m.score} out of 100` }, String(m.score)),
     m.story ? el("div", { class: "story" }, m.story) : null,
@@ -562,9 +569,9 @@ function resultRow(m) {
     el("div", { class: "meta" }, el("span", {}, timeFmt.format(new Date(m.kickoff_paris))), el("span", {}, m.competition),
       interestPill(m)),
     el("div", { class: "result-line" },
-      el("span", { class: "side" + (homeWon && !hideScores ? " won" : "") }, team(m.home)),
+      el("span", { class: "side" + (homeWon && !hideScores ? " won" : "") }, team(m.home, false, m.interest && { ...m.interest, competition: m.competition })),
       score,
-      el("span", { class: "side away" + (awayWon && !hideScores ? " won" : "") }, team(m.away, true))));
+      el("span", { class: "side away" + (awayWon && !hideScores ? " won" : "") }, team(m.away, true, m.interest && { ...m.interest, competition: m.competition }))));
   node = el("article", { class: "card result" }, button, centre);
   if (m.espn) node.dataset.espn = m.espn.id;
   return node;

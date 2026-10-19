@@ -80,17 +80,20 @@ def signal_stakes(ctx, cfg):
         zones = cfg["league_zones"].get(comp)
         if not zones:
             return 0.0, None
-        in_title = lambda r: pts(1) - r["points"] <= cfg["title_race_points_gap"]
+        # A race needs both: close on points and close on places (early on, 3 points can span 8 places).
+        near_line = lambda r, line: abs(r["position"] - line) <= cfg["race_places"]
+        in_title = lambda r: pts(1) - r["points"] <= cfg["title_race_points_gap"] and near_line(r, 1)
         races.append((score(in_title(home), in_title(away)), "stakes_title",
                       {"gap": abs(home["points"] - away["points"])}))
         last_in, first_out = pts(zones["europe"]), pts(zones["europe"] + 1)
         if first_out is not None:
             in_europe = lambda r: (not in_title(r) and min(abs(r["points"] - last_in), abs(r["points"] - first_out))
-                                   <= cfg["europe_race_points_gap"])
+                                   <= cfg["europe_race_points_gap"] and near_line(r, zones["europe"] + 0.5))
             races.append((score(in_europe(home), in_europe(away)), "stakes_europe", {}))
         safe = pts(len(ranked) - zones["relegation"])
         if safe is not None:
-            in_releg = lambda r: r["points"] - safe <= cfg["relegation_points_gap"]
+            in_releg = lambda r: (r["points"] - safe <= cfg["relegation_points_gap"]
+                                  and near_line(r, len(ranked) - zones["relegation"] + 0.5))
             races.append((score(in_releg(home), in_releg(away)), "stakes_relegation", {}))
         total = (len(ranked) - 1) * 2
     best = max(races, key=lambda r: r[0], default=(0.0, None, None))
@@ -137,7 +140,7 @@ def signal_closeness(ctx, cfg):
     value = parts / weights
     story = None
     if home and away and value >= cfg["min_value_for_reason"]:
-        story = ("closeness", {"home_pos": ordinal(home["position"]), "away_pos": ordinal(away["position"])})
+        story = ("closeness", {})
     return value, story
 
 
