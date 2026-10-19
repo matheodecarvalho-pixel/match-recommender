@@ -342,6 +342,82 @@ def from_stats(s):
     return "pragmatic", f"{p:.0f}% possession, {sh:.0f} shots for / {sha:.0f} against"
 
 
+# Cross-check (19 Oct 2026): research against season stats, relative to each league's average.
+# A research pick whose style shows in the stats becomes high confidence. Where the stats
+# show a different style that the research also describes, the club switches to it (high).
+# Otherwise the research pick stays at medium. Clubs with 1-2 games of data, or a coach who
+# arrived this month, are not cross-checked.
+def signatures(x):
+    """Styles a club's league-relative stats are consistent with."""
+    open_game = x["goals"] + x["goals_against"]
+    out = set()
+    if x["possession"] >= 2:
+        out.add("possession")
+    if x["shots"] >= 1 or (x["shots_against"] <= -1.5 and x["possession"] >= -5) \
+            or (x["fouls"] >= 1.5 and x["possession"] >= -6):  # pressing sides foul more
+        out.add("press")
+    if x["possession"] <= -6 or (x["possession"] <= -2.5 and (x["goals_against"] <= 0 or x["shots_against"] >= 1)):
+        out.add("low_block")
+    if x["possession"] <= -2 or x["fouls"] >= 1.5:
+        out.add("direct")
+    if open_game >= 0.5 or (x["shots"] >= 0 and x["shots_against"] >= 1.5):
+        out.add("chaos")
+    if abs(x["possession"]) <= 6 and open_game <= 0.3:
+        out.add("pragmatic")
+    return out
+
+
+# Mismatches where the stats show another style the research also describes.
+SWITCHES = {
+    "1. FC Köln": ("pragmatic", "No settled idea yet: 'not recognisable' in August, then a back-five experiment; numbers sit at league average"),
+    "Auxerre": ("low_block", "Will Still's pressing identity, but he switched to a 5-4-1 to tighten up; 45% possession, 15 fouls a game"),
+    "C.D. Nacional": ("chaos", "'Aggressive and offensive, with vertigem' and open games: 0.9 more goals conceded a game than average"),
+    "Coventry City": ("low_block", "Lampard has gone more compact (5-4-1 out of possession); 38% possession, 17.7 shots conceded"),
+    "Elversberg": ("low_block", "Draws the opponent in and counters fast; 44% possession, 22.5 shots conceded, 2 goals a game"),
+    "FC Groningen": ("chaos", "Promised attacking, intense football; 4.6 goals a game at both ends"),
+    "Hamburger SV": ("low_block", "Polzin tailors the plan to each opponent, which in practice means deep: 39% possession, 19 shots conceded"),
+    "Ipswich Town": ("low_block", "O'Neil's mid-to-low block, organised first, direct second; 43% possession, 16.9 shots conceded"),
+    "Nice": ("pragmatic", "Pantaloni's low-block past, but this Nice keeps the ball (55%) and concedes few shots: he has adapted"),
+    "Racing Santander": ("chaos", "'Relational', attractive football that leaves them exposed: 2.8 goals conceded a game"),
+    "Rayo Vallecano": ("chaos", "'Offensive and brave'; 16.4 shots conceded, 3.9 goals a game at both ends"),
+    "Real Madrid": ("press", "Mourinho's 'vértigo': ruthless in transition, 17 shots and 2.6 goals a game"),
+    "Strasbourg": ("chaos", "High tempo and intense pressing that leaves gaps: 16.6 shots conceded, 3.9 goals a game"),
+    "Troyes": ("low_block", "Dumont adapts to his squad, which means deep and compact: 39% possession, 12 shots conceded"),
+    "Venezia": ("possession", "Stroppa's attacking 3-5-2 keeps the ball: 54% possession"),
+}
+
+
+def cross_check(clubs):
+    by_league = {}
+    for c in clubs.values():
+        by_league.setdefault(c["league"], []).append(c["stats"])
+    fields = ("possession", "shots", "shots_against", "goals", "goals_against", "fouls")
+    avg = {lg: {f: sum(s[f] for s in v) / len(v) for f in fields} for lg, v in by_league.items()}
+    log = {"confirmed": [], "switched": [], "unconfirmed": [], "not_checked": []}
+    for team, c in clubs.items():
+        if c["confidence"] == "high":
+            continue
+        coach = c["coach"] or ""
+        if c["league"] == "Europe" or "from " in coach or "Vacant" in coach or "dismissed" in coach:
+            log["not_checked"].append(team)
+            continue
+        x = {f: c["stats"][f] - avg[c["league"]][f] for f in fields}
+        fits = signatures(x)
+        c["stats_fit"] = sorted(fits)
+        if team in SWITCHES and SWITCHES[team][0] in fits:
+            c["previous"] = c["profile"]
+            c["profile"], c["why"] = SWITCHES[team]
+            c["confidence"], c["basis"] = "high", "research + season stats (switched)"
+            log["switched"].append(team)
+        elif c["profile"] in fits:
+            c["confidence"], c["basis"] = "high", c["basis"] + " + season stats agree"
+            log["confirmed"].append(team)
+        else:
+            c["basis"] += " (season stats don't show it yet)"
+            log["unconfirmed"].append(team)
+    return log
+
+
 LEAGUE = {"eng.1": "Premier League", "esp.1": "La Liga", "ita.1": "Serie A", "ger.1": "Bundesliga",
           "fra.1": "Ligue 1", "ned.1": "Eredivisie", "por.1": "Primeira Liga"}
 
@@ -374,14 +450,17 @@ def main():
             clubs[team] = {"league": "Europe", "profile": profile, "confidence": "low", "coach": None,
                            "why": why, "source": None, "basis": "club identity (not checked for 2026-27)",
                            "stats": numbers}
+    check = cross_check(clubs)
     unclassified = sorted(t for t, s in stats.items() if t not in clubs)
     out = {"generated": date.today().isoformat(), "status": "draft for review", "profiles": PROFILES,
-           "clubs": clubs, "unclassified": unclassified}
+           "clubs": clubs, "unclassified": unclassified, "cross_check": check}
     (ROOT / "data" / "play_styles.json").write_text(json.dumps(out, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     from collections import Counter
     print(len(clubs), "clubs classified;", len(unclassified), "European clubs left for later")
     print(Counter(c["profile"] for c in clubs.values()))
     print(Counter(c["confidence"] for c in clubs.values()))
+    print({k: len(v) for k, v in check.items()})
+    print("unconfirmed:", check["unconfirmed"])
 
 
 if __name__ == "__main__":
