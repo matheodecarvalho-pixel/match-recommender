@@ -38,7 +38,7 @@
   },
   "ADO Den Haag": {
    "basis": "stats",
-   "coach": null,
+   "coach": "Robin Peter",
    "confidence": "low",
    "league": "Eredivisie",
    "profile": "direct",
@@ -433,12 +433,12 @@
    "why": "3-4-2-1 high press with a high line that invites counters"
   },
   "Borussia Mönchengladbach": {
-   "basis": "stats",
-   "coach": null,
-   "confidence": "low",
+   "basis": "research (deeper pass)",
+   "coach": "Alexander Blessin",
+   "confidence": "medium",
    "league": "Bundesliga",
-   "profile": "direct",
-   "source": null,
+   "profile": "press",
+   "source": "https://football-italia.net/blessin-explains-gegenpressing-at-genoa/",
    "stats": {
     "fouls": 14.83,
     "games": 6,
@@ -448,7 +448,7 @@
     "shots": 15.17,
     "shots_against": 18.17
    },
-   "why": "15 fouls a game, 48% possession"
+   "why": "Red Bull school: gegenpress in numbers, extreme high press at Genoa and Union SG"
   },
   "Braga": {
    "basis": "research (deeper pass)",
@@ -1027,12 +1027,12 @@
    "why": "Back-three build-up, all five lanes occupied, organised press; under pressure after a poor start"
   },
   "Genoa": {
-   "basis": "research",
+   "basis": "research (deeper pass)",
    "coach": "Daniele De Rossi",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Serie A",
-   "profile": "possession",
-   "source": "https://www.legaseriea.it/serie-a/news/gli-allenatori-della-serie-a-enilive-2026-27",
+   "profile": "press",
+   "source": "https://www.calciomio.fr/il-incarne-lune-des-evolutions-tactiques-les-plus-significatives-de-la-serie-a-actuelle-les-debuts-reussis-de-daniele-de-rossi-au-genoa-id-170942",
    "stats": {
     "fouls": 9.71,
     "games": 7,
@@ -1042,7 +1042,7 @@
     "shots": 11.14,
     "shots_against": 15.29
    },
-   "why": "Roma: positional 4-3-3, plays through the lines; now a back three"
+   "why": "Vertical, man-marking press 'in the Gasperini lineage', wants to add possession"
   },
   "Getafe": {
    "basis": "research (deeper pass)",
@@ -1766,11 +1766,11 @@
   },
   "Parma": {
    "basis": "research (deeper pass)",
-   "coach": "Carlos Cuesta (reportedly dismissed)",
-   "confidence": "low",
+   "coach": "Alberto Gilardino",
+   "confidence": "medium",
    "league": "Serie A",
    "profile": "low_block",
-   "source": "https://www.pazzidifanta.com/news/parma-genoa-formazioni-ufficiali-quinta-giornata-serie-a-2026-27-459444",
+   "source": "https://www.goal.com/it/liste/come-giochera-il-parma-di-gilardino-modulo-titolari-e-formazione-tipo/blt8c9dbfb357597e62",
    "stats": {
     "fouls": 10.67,
     "games": 6,
@@ -1780,7 +1780,7 @@
     "shots": 8.33,
     "shots_against": 18.33
    },
-   "why": "Deep and compact under Cuesta, who was reportedly dismissed after 5 matchdays; style may change"
+   "why": "New coach: 'very practical, organised, focused on defending'; back three that drops to five"
   },
   "Porto": {
    "basis": "research",
@@ -1982,7 +1982,7 @@
   },
   "SC Cambuur": {
    "basis": "stats",
-   "coach": null,
+   "coach": "Johan Plat",
    "confidence": "low",
    "league": "Eredivisie",
    "profile": "chaos",
@@ -2035,12 +2035,12 @@
    "why": "Style little documented"
   },
   "SC Paderborn": {
-   "basis": "club identity + stats",
+   "basis": "research (deeper pass)",
    "coach": "Ralf Kettemann",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Bundesliga",
-   "profile": "pragmatic",
-   "source": null,
+   "profile": "possession",
+   "source": "https://en.wikipedia.org/wiki/Ralf_Kettemann",
    "stats": {
     "fouls": 10.5,
     "games": 6,
@@ -2050,14 +2050,14 @@
     "shots": 13.67,
     "shots_against": 18.5
    },
-   "why": "Style little documented at this level"
+   "why": "'Entertaining football and controlling matches by keeping the ball' (bundesliga.com)"
   },
   "SK Sturm Graz": {
    "basis": "research (deeper pass)",
    "coach": "Fabio Ingolitsch",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Europe",
-   "profile": "press",
+   "profile": "low_block",
    "source": "https://en.wikipedia.org/wiki/Fabio_Ingolitsch",
    "stats": {
     "fouls": 15.0,
@@ -2068,7 +2068,7 @@
     "shots": 8.5,
     "shots_against": 23.0
    },
-   "why": "Former Red Bull (Liefering) coach; style not documented yet"
+   "why": "His Altach had the league's best defence at the 2025-26 winter break"
   },
   "Santa Clara": {
    "basis": "research",
@@ -2143,12 +2143,12 @@
    "why": "Compact and disciplined; the ball is a tool: direct play, crosses, quick transitions"
   },
   "Slavia Prague": {
-   "basis": "club identity (not checked for 2026-27)",
-   "coach": null,
-   "confidence": "low",
+   "basis": "research (deeper pass)",
+   "coach": "Jindřich Trpišovský",
+   "confidence": "medium",
    "league": "Europe",
-   "profile": "direct",
-   "source": null,
+   "profile": "press",
+   "source": "https://onefootball.com/en/news/matchday-in-focus-the-lowdown-on-slavia-prahaslavia-praha-im-check-40266922",
    "stats": {
     "fouls": 11.0,
     "games": 2,
@@ -2158,7 +2158,7 @@
     "shots": 18.0,
     "shots_against": 19.5
    },
-   "why": "Intense, physical, aerial and set-piece threat"
+   "why": "Full-pitch man-marking pressure, high intensity, goes long more than most"
   },
   "Sparta Rotterdam": {
    "basis": "stats",
@@ -2233,12 +2233,12 @@
    "why": "Structured, patient build-up with a young squad at Lorient; compact mid-block since promotion"
   },
   "Telstar": {
-   "basis": "research",
+   "basis": "research (deeper pass)",
    "coach": "Henk Brugge",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Eredivisie",
-   "profile": "pragmatic",
-   "source": "https://www.footballtransfers.com/nl/transfernieuws/nl-eredivisie/2026/05/telstar-plukt-nieuwe-hoofdtrainer-weg-bij-sc-heerenveen",
+   "profile": "possession",
+   "source": "https://en.wikipedia.org/wiki/Henk_Brugge",
    "stats": {
     "fouls": 10.67,
     "games": 9,
@@ -2248,7 +2248,7 @@
     "shots": 12.0,
     "shots_against": 16.67
    },
-   "why": "First head-coach job; style not documented yet"
+   "why": "Hired for 'attacking, recognisable football'; technical 4-3-3 with an attacking midfielder"
   },
   "Torino": {
    "basis": "research (deeper pass)",
@@ -2359,12 +2359,12 @@
    "why": "'The end of pragmatism': courage, offensive solutions, high press plus an active block"
   },
   "Union St.-Gilloise": {
-   "basis": "club identity (not checked for 2026-27)",
-   "coach": null,
-   "confidence": "low",
+   "basis": "research (deeper pass)",
+   "coach": "David Hubert",
+   "confidence": "medium",
    "league": "Europe",
    "profile": "direct",
-   "source": null,
+   "source": "https://totalfootballanalysis.com/set-piece-analysis/royale-union-saint-gilloise-tactics-corners-set-piece-analysis",
    "stats": {
     "fouls": 13.0,
     "games": 2,
@@ -2374,7 +2374,7 @@
     "shots": 19.0,
     "shots_against": 9.5
    },
-   "why": "Direct, set pieces and transitions"
+   "why": "Best attack and fewest goals conceded in Belgium, built on rehearsed set pieces"
   },
   "Utrecht": {
    "basis": "research (deeper pass)",

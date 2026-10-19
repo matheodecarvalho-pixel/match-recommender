@@ -264,6 +264,21 @@ DEEP_PICKS.update({
     "C.D. Nacional": ("press", "medium", "João Gião", "'Aggressive and offensive, with vertigem': verticality, Sporting B principles", "https://www.abola.pt/noticias/nacional-joao-giao-quer-vertigem-no-jogo-e-elogia-chucho-2026071617443096182"),
 })
 
+# Fourth pass, 19 Oct 2026: coaches' Wikipedia pages (English and their own language), plus
+# one check each where Wikipedia had no coaching-style section.
+DEEP_PICKS.update({
+    "Telstar": ("possession", "medium", "Henk Brugge", "Hired for 'attacking, recognisable football'; technical 4-3-3 with an attacking midfielder", "https://en.wikipedia.org/wiki/Henk_Brugge"),
+    "SC Paderborn": ("possession", "medium", "Ralf Kettemann", "'Entertaining football and controlling matches by keeping the ball' (bundesliga.com)", "https://en.wikipedia.org/wiki/Ralf_Kettemann"),
+    "SK Sturm Graz": ("low_block", "medium", "Fabio Ingolitsch", "His Altach had the league's best defence at the 2025-26 winter break", "https://en.wikipedia.org/wiki/Fabio_Ingolitsch"),
+    "Borussia Mönchengladbach": ("press", "medium", "Alexander Blessin", "Red Bull school: gegenpress in numbers, extreme high press at Genoa and Union SG", "https://football-italia.net/blessin-explains-gegenpressing-at-genoa/"),
+    "Slavia Prague": ("press", "medium", "Jindřich Trpišovský", "Full-pitch man-marking pressure, high intensity, goes long more than most", "https://onefootball.com/en/news/matchday-in-focus-the-lowdown-on-slavia-prahaslavia-praha-im-check-40266922"),
+    "Genoa": ("press", "medium", "Daniele De Rossi", "Vertical, man-marking press 'in the Gasperini lineage', wants to add possession", "https://www.calciomio.fr/il-incarne-lune-des-evolutions-tactiques-les-plus-significatives-de-la-serie-a-actuelle-les-debuts-reussis-de-daniele-de-rossi-au-genoa-id-170942"),
+    "Parma": ("low_block", "medium", "Alberto Gilardino", "New coach: 'very practical, organised, focused on defending'; back three that drops to five", "https://www.goal.com/it/liste/come-giochera-il-parma-di-gilardino-modulo-titolari-e-formazione-tipo/blt8c9dbfb357597e62"),
+    "Union St.-Gilloise": ("direct", "medium", "David Hubert", "Best attack and fewest goals conceded in Belgium, built on rehearsed set pieces", "https://totalfootballanalysis.com/set-piece-analysis/royale-union-saint-gilloise-tactics-corners-set-piece-analysis"),
+})
+COACHES_EXTRA = {"SC Cambuur": "Johan Plat", "ADO Den Haag": "Robin Peter", "FC Midtjylland": "Mike Tullberg",
+                 "SC Heerenveen": "Robin Veldman", "Sparta Rotterdam": "Rogier Meijer", "Willem II": "John Stegeman"}
+
 # Coaches named in the season lists, for clubs whose style still rests on stats.
 COACHES = {
     "AZ": "Leeroy Echteld", "FC Twente": "John van den Brom", "FC Groningen": "Dick Lukkien",
@@ -328,7 +343,8 @@ def main():
                            "stats": numbers}
         elif league:
             profile, why = from_stats(s)
-            clubs[team] = {"league": league, "profile": profile, "confidence": "low", "coach": COACHES.get(team),
+            clubs[team] = {"league": league, "profile": profile, "confidence": "low",
+                           "coach": COACHES.get(team) or COACHES_EXTRA.get(team),
                            "why": why, "source": None, "basis": "stats", "stats": numbers}
         elif team in IDENTITIES:
             profile, why = IDENTITIES[team]
