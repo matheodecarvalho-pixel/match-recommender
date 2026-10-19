@@ -88,7 +88,7 @@ def score_fixture(m, inp, tables, knockout, chases=True):
     tier1 = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and config["must_watch"]["tier_1_rivalry_always"]
     result = score_match(ctx, config)
     kickoff = m["kickoff_utc"].astimezone(PARIS)
-    return {"id": m["id"], "competition": m["competition"],
+    return {"id": m["id"], "competition": m["competition"], "stage": m["stage"],
             "kickoff_paris": kickoff.isoformat(), "day": kickoff.date().isoformat(),
             "home": m["home"], "away": m["away"], **result,
             "tier1_rivalry": tier1, "espn": espn_link(m, inp["espn_ids"], inp["us_tv"])}

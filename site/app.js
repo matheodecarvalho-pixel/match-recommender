@@ -189,7 +189,10 @@ function watchInfo(m) {
   // ESPN lists US channels per match, which beats the competition-wide table.
   if (country === "US" && m.espn?.us_tv?.length) return { channels: m.espn.us_tv, source: "ESPN", perMatch: true };
   const entry = tv.rights?.[m.competition]?.[country];
-  return entry ? { ...entry, perMatch: false } : null;
+  if (!entry) return null;
+  // Some channels only show the final (M6 has the Champions League final in France).
+  const channels = m.stage === "FINAL" && entry.final ? [...entry.channels, ...entry.final] : entry.channels;
+  return { ...entry, channels, perMatch: false };
 }
 
 function watchLine(m) {
@@ -205,7 +208,7 @@ function watchDetail(m) {
   const src = w.source === "ESPN" ? "ESPN" : el("a", { href: w.source, target: "_blank", rel: "noopener" }, "source");
   return el("p", { class: "watch-detail" },
     `${w.perMatch ? "On" : "Usually on"} in ${name}: `, el("strong", {}, w.channels.join(", ")),
-    w.note ? ` (${w.note})` : "", " · ", src);
+    " · ", src);
 }
 
 function setupCountry() {
@@ -490,9 +493,10 @@ function render() {
     return;
   }
   for (const day of [...byDay.keys()].sort()) {
-    // Must-watch first, then favourites, then score.
-    const list = byDay.get(day).sort((a, b) =>
-      (b.must - a.must) || (b.fav - a.fav) || (b.score - a.score) || a.kickoff_paris.localeCompare(b.kickoff_paris));
+    // Best first: must-watch, then favourites, then score. By kickoff: the day in time order.
+    const list = byDay.get(day).sort(sortBy === "time"
+      ? (a, b) => a.kickoff_paris.localeCompare(b.kickoff_paris) || (b.score - a.score)
+      : (a, b) => (b.must - a.must) || (b.fav - a.fav) || (b.score - a.score) || a.kickoff_paris.localeCompare(b.kickoff_paris));
     root.append(el("section", { class: "day" }, el("h2", {}, dayLabel(day)), list.map(card)));
   }
   const n = favourites.size + data.favourites.length;
@@ -506,6 +510,8 @@ const VIEW_KEY = "mr.view";
 const SPOILER_KEY = "mr.hideScores";
 const PAGE = 60;
 let view = load(VIEW_KEY, "week");
+const SORT_KEY = "mr.sort";
+let sortBy = load(SORT_KEY, "score");  // "score" (best first) or "time" (kickoff order)
 let results = null;
 let shown = PAGE;
 let hideScores = load(SPOILER_KEY, false);
@@ -596,7 +602,8 @@ async function renderResults() {
   list.replaceChildren(
     found.length ? el("p", { class: "quiet" }, `${found.length} match${found.length === 1 ? "" : "es"}${q ? ` for “${document.getElementById("search").value.trim()}”` : " this season"}`)
       : el("p", { class: "empty" }, "No results for this search."),
-    ...[...byDay.entries()].map(([day, ms]) => el("section", { class: "day" }, el("h2", {}, dayLabel(day)), ms.map(resultRow))),
+    ...[...byDay.entries()].map(([day, ms]) => el("section", { class: "day" }, el("h2", {}, dayLabel(day)),
+      (sortBy === "time" ? ms : [...ms].sort((a, b) => (pastScore(b)?.score ?? -1) - (pastScore(a)?.score ?? -1))).map(resultRow))),
     found.length > shown ? el("button", { type: "button", class: "more", onclick: () => { shown += PAGE; renderResults(); } }, `Show more (${found.length - shown} left)`) : null);
 }
 
@@ -606,6 +613,10 @@ function setupTabs() {
     save(VIEW_KEY, view);
     render();
   }));
+  const sorts = document.querySelectorAll(".sort button");
+  const paintSort = () => sorts.forEach(b => b.setAttribute("aria-pressed", String(b.dataset.sort === sortBy)));
+  paintSort();
+  sorts.forEach(b => b.addEventListener("click", () => { sortBy = b.dataset.sort; save(SORT_KEY, sortBy); paintSort(); render(); }));
   const search = document.getElementById("search");
   search.addEventListener("input", () => { shown = PAGE; renderResults(); });
   const spoiler = document.getElementById("hide-scores");
