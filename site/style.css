@@ -275,3 +275,12 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 .clash input { width: 18px; height: 18px; accent-color: var(--rec); margin-top: 2px; }
 .link.inline { display: inline; margin: 0; }
 #style-main, #style-quiz { overflow-y: auto; padding-right: 6px; }
+
+/* Frozen pre-match score on results */
+.interest { margin-left: auto; font-weight: 750; font-variant-numeric: tabular-nums; font-size: 0.8rem;
+  padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.interest.must { background: var(--must-soft); color: var(--must); }
+.interest.rec { background: var(--must-soft); color: var(--rec); }
+.before { margin: 0 0 10px; font-size: 0.86rem; }
+.quiet.block { display: block; margin-top: 2px; }
+.card.result .meta { width: 100%; }

@@ -551,11 +551,17 @@ function resultRow(m) {
       if (open) {
         score.textContent = `${m.home_goals} – ${m.away_goals}`;  // opening a game reveals its score
         score.classList.remove("veiled");
-        if (m.espn) { centre.replaceChildren(el("p", { class: "quiet" }, "Loading…")); await ensureEvent(m); paintCentre(node); }
-        else centre.replaceChildren(el("p", { class: "quiet" }, "No match details for this game."));
+        const before = pastScore(m);
+        const note = before
+          ? el("p", { class: "before" }, el("strong", {}, `Before kickoff: ${before.score}/100`), before.must ? " · Must-watch" : before.rec ? " · Recommended" : "",
+              before.story ? el("span", { class: "quiet block" }, before.story) : null)
+          : el("p", { class: "quiet" }, "No pre-match score: played before the site started rating matches.");
+        if (m.espn) { centre.replaceChildren(el("p", { class: "quiet" }, "Loading…")); await ensureEvent(m); await paintCentre(node); centre.prepend(note); }
+        else centre.replaceChildren(note, el("p", { class: "quiet" }, "No match details for this game."));
       }
     } },
-    el("div", { class: "meta" }, el("span", {}, timeFmt.format(new Date(m.kickoff_paris))), el("span", {}, m.competition)),
+    el("div", { class: "meta" }, el("span", {}, timeFmt.format(new Date(m.kickoff_paris))), el("span", {}, m.competition),
+      interestPill(m)),
     el("div", { class: "result-line" },
       el("span", { class: "side" + (homeWon && !hideScores ? " won" : "") }, team(m.home)),
       score,
@@ -563,6 +569,19 @@ function resultRow(m) {
   node = el("article", { class: "card result" }, button, centre);
   if (m.espn) node.dataset.espn = m.espn.id;
   return node;
+}
+
+// The score a match had before kickoff (frozen in score_archive.json), re-scored with My Feed.
+function pastScore(m) {
+  if (!m.interest) return null;
+  return rescore({ ...m, ...m.interest, breakdown: m.interest.breakdown });
+}
+
+function interestPill(m) {
+  const p = pastScore(m);
+  if (!p) return null;
+  const cls = p.must ? "interest must" : p.rec ? "interest rec" : "interest";
+  return el("span", { class: cls, title: "Worth-watching score before kickoff" }, `${p.score}`);
 }
 
 async function renderResults() {

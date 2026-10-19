@@ -116,7 +116,8 @@ def build(now=None):
            "styles": {t: v for t, v in STYLES.items() if t in {x for m in ranked for x in (m["home"], m["away"])}},
            "unmatched_teams": sorted(registry.unmatched)}
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    write_results(matches, espn_ids, us_tv, registry, now)
+    archive = update_archive(ranked, now)
+    write_results(matches, espn_ids, us_tv, registry, now, archive)
     return out
 
 
@@ -179,7 +180,29 @@ def search_aliases(registry):
     return {k: " ".join(sorted(v)) for k, v in names.items()}
 
 
-def write_results(matches, espn_ids, us_tv, registry, now):
+ARCHIVE = OUTPUT / "score_archive.json"
+
+
+def frozen(m):
+    """What the Results tab keeps of a match's pre-match score (enough to re-score with My Feed)."""
+    return {"score": m["score"], "must_watch": m["must_watch"], "recommended": m.get("recommended", False),
+            "story": m["story"], "base": m["base"], "competition_bonus": m["competition_bonus"],
+            "stage_bonus": m.get("stage_bonus", 0), "tier1_rivalry": m.get("tier1_rivalry", False),
+            "breakdown": {k: {"points": b["points"], **({"kind": b["kind"]} if "kind" in b else {})}
+                          for k, b in m["breakdown"].items()}}
+
+
+def update_archive(ranked, now):
+    """Keep each match's latest pre-match score; once it has kicked off, the entry never changes."""
+    archive = json.loads(ARCHIVE.read_text(encoding="utf-8")) if ARCHIVE.exists() else {}
+    for m in ranked:
+        if datetime.fromisoformat(m["kickoff_paris"]) > now:
+            archive[m["id"]] = {**frozen(m), "frozen_at": now.astimezone(PARIS).isoformat()}
+    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, separators=(",", ":"), sort_keys=True), encoding="utf-8")
+    return archive
+
+
+def write_results(matches, espn_ids, us_tv, registry, now, archive=None):
     """Finished matches this season, newest first, for the Results tab."""
     rows = []
     for m in matches:
@@ -189,7 +212,8 @@ def write_results(matches, espn_ids, us_tv, registry, now):
         rows.append({"id": m["id"], "competition": m["competition"], "kickoff_paris": kickoff.isoformat(),
                      "day": kickoff.date().isoformat(), "home": m["home"], "away": m["away"],
                      "home_goals": m["home_goals"], "away_goals": m["away_goals"],
-                     "espn": espn_link(m, espn_ids, us_tv)})
+                     "espn": espn_link(m, espn_ids, us_tv),
+                     "interest": (archive or {}).get(m["id"])})
     rows.sort(key=lambda r: r["kickoff_paris"], reverse=True)
     teams_seen = {t for r in rows for t in (r["home"], r["away"])}
     aliases = {k: v for k, v in search_aliases(registry).items() if k in teams_seen}
