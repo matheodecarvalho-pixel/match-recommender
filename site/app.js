@@ -416,6 +416,22 @@ function team(name, after = false, m = null) {
   return el("span", { class: "team" }, after ? [label, pos, crest(name)] : [crest(name), label, pos]);
 }
 
+// Two columns split by a line: each team (badge, name, table place) over the facts about it.
+function versus(m, sides, withTeams) {
+  const col = (name, facts) => el("div", { class: "vs-side" },
+    withTeams ? teamStack(name, m) : el("span", { class: "vs-name" }, name),
+    facts?.length ? el("ul", { class: "vs-facts" }, facts.map(f => el("li", {}, f))) : null);
+  return el("div", { class: "versus" + (withTeams ? "" : " compact") },
+    col(m.home, sides?.home), el("div", { class: "vs-line", "aria-hidden": "true" }, el("span", {}, "v")), col(m.away, sides?.away));
+}
+
+function teamStack(name, m) {
+  const p = m?.positions?.[name];
+  return el("div", { class: "vs-team" }, crest(name) || el("span", { class: "crest-gap" }),
+    el("span", { class: "vs-name" + (isFavourite(name) ? " fav" : "") }, (isFavourite(name) ? "★ " : "") + name,
+      p ? el("span", { class: "pos", title: `${ordinal(p)} in the ${m.competition} table` }, String(p)) : null));
+}
+
 function ordinal(n) {
   const s = ["th", "st", "nd", "rd"], v = n % 100;
   return n + (s[(v - 20) % 10] || s[v] || s[0]);
@@ -469,10 +485,11 @@ function card(m) {
       el("span", {}, m.competition),
       m.must ? el("span", { class: "badge" }, "Must-watch") : null,
       m.rec ? el("span", { class: "badge rec" }, "Recommended") : null),
-    el("div", { class: "teams" }, team(m.home, false, m), " v ", team(m.away, false, m)),
-    el("div", { class: "live", hidden: "" }),
     el("div", { class: "score", "aria-label": `Score ${m.score} out of 100` }, String(m.score)),
-    m.story ? el("div", { class: "story" }, m.story) : null,
+    versus(m, m.story_sides, true),
+    el("div", { class: "live", hidden: "" }),
+    m.story_sides ? (m.story_sides.both.length ? el("div", { class: "story both" }, m.story_sides.both.join(" · ")) : null)
+      : m.story ? el("div", { class: "story" }, m.story) : null,
     watchLine(m));
   node = el("article", { class: "card" + (m.must ? " must" : m.rec ? " rec" : "") + (m.fav ? " fav" : "") }, button, detail);
   if (m.espn) {
@@ -559,7 +576,8 @@ function resultRow(m) {
         const before = pastScore(m);
         const note = before
           ? el("p", { class: "before" }, el("strong", {}, `Before kickoff: ${before.score}/100`), before.must ? " · Must-watch" : before.rec ? " · Recommended" : "",
-              before.story ? el("span", { class: "quiet block" }, before.story) : null,
+              m.interest.story_sides ? versus(m, m.interest.story_sides, false) : before.story ? el("span", { class: "quiet block" }, before.story) : null,
+              m.interest.story_sides?.both.length ? el("span", { class: "quiet block centred" }, m.interest.story_sides.both.join(" · ")) : null,
               m.interest.reconstructed ? el("span", { class: "quiet block" }, "Rebuilt afterwards from the form, tables and results as they stood before kickoff.") : null)
           : el("p", { class: "quiet" }, "No pre-match score: played before the site started rating matches.");
         if (m.espn) { centre.replaceChildren(el("p", { class: "quiet" }, "Loading…")); await ensureEvent(m); await paintCentre(node); centre.prepend(note); }

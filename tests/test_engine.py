@@ -225,3 +225,15 @@ def test_title_regular_far_off_the_top(config):
     value, story = signal_par(par_ctx(3, 21, [1, 2, 1, 2, 2]), cfg)  # usually 2nd, 9 pts behind
     assert value == pytest.approx((9 - cfg["gap_start"]) / (cfg["gap_full"] - cfg["gap_start"]))
     assert story[0] == "giant_gap" and story[1]["gap"] == 9
+
+
+def test_story_is_split_by_team(config):
+    from score import split_reason
+    templates = config["story"]["side_templates"]
+    ctx = {"home": "Monza", "away": "Cagliari"}
+    form = split_reason("form", {"home": "Monza", "away": "Cagliari", "home_wins": 3, "away_wins": 1, "n": 5},
+                        "x", ctx, templates)
+    assert form == [("home", "Won 3 of last 5"), ("away", "Won 1 of last 5")]
+    par = split_reason("par_over", {"team": "Cagliari", "pos": "7th", "usual": "16th", "league": "Serie A"}, "x", ctx, templates)
+    assert par == [("away", "Usually finish 16th: punching above their weight")]
+    assert split_reason("closeness", {}, "Evenly matched", ctx, templates) == [("both", "Evenly matched")]

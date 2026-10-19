@@ -163,4 +163,4 @@ def test_signal_prefers_player_over_manager(config):
     cfg = config["signals"]["revenge"]
     value, (key, values) = signal_revenge({"revenge": [{"person": "M", "role": "manager"},
                                                        {"person": "P", "role": "player"}]}, cfg)
-    assert value == cfg["player"] and values == {"person": "P"}
+    assert value == cfg["player"] and values == {"person": "P", "team": None}

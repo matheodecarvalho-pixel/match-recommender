@@ -168,6 +168,55 @@
       "giant_gap": "{team} {gap} pts off the top: under par",
       "par_under": "{team} usually finish {usual}: under par",
       "par_over": "{team} usually finish {usual}: punching above their weight"
+    },
+    "_side_templates": "The card splits reasons by team: 'pair' facts give each side its own line (home_x/away_x values become x), 'team' facts go to the side named by team_field. Reasons not listed stay in the middle.",
+    "side_templates": {
+      "form": {
+        "kind": "pair",
+        "text": "Won {wins} of last {n}"
+      },
+      "both_in_form": {
+        "kind": "pair",
+        "text": "Won {wins} of last {n}"
+      },
+      "entertainment": {
+        "kind": "pair",
+        "text": "{gpg} goals per game lately"
+      },
+      "big_match": {
+        "kind": "pair",
+        "text": "Europe's #{rank} club"
+      },
+      "par_under": {
+        "kind": "team",
+        "team_field": "team",
+        "text": "Usually finish {usual}: under par"
+      },
+      "par_over": {
+        "kind": "team",
+        "team_field": "team",
+        "text": "Usually finish {usual}: punching above their weight"
+      },
+      "giant_gap": {
+        "kind": "team",
+        "team_field": "team",
+        "text": "{gap} pts off the top: under par"
+      },
+      "revenge": {
+        "kind": "team",
+        "team_field": "team",
+        "text": "{person} faces his former club"
+      },
+      "revenge_knockout": {
+        "kind": "team",
+        "team_field": "loser",
+        "text": "Knocked out by them in the {competition} {stage} ({when})"
+      },
+      "revenge_loss": {
+        "kind": "team",
+        "team_field": "loser",
+        "text": "Lost {score} to them in the {competition} ({when})"
+      }
     }
   },
   "_weights": "Relative importance. Records are switched off (too rare); they come back by adding a weight. Scores are rescaled with `scale`.",

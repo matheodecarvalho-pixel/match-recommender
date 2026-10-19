@@ -118,9 +118,27 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px s
 .teams { font-weight: 650; font-size: 1.02rem; grid-column: 1; }
 .teams .fav { color: var(--fav); }
 .story { grid-column: 1 / -1; color: var(--muted); font-size: 0.88rem; }
+.story.both { text-align: center; color: var(--ink); font-weight: 500; }
+
+/* Home | away: each team over the facts about it, a line between */
+.versus { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto 1fr; gap: 0 12px; align-items: start; }
+.vs-side { display: grid; gap: 8px; justify-items: center; text-align: center; min-width: 0; }
+.vs-team { display: grid; gap: 6px; justify-items: center; }
+.vs-team .crest { width: 40px; height: 40px; }
+.crest-gap { height: 40px; }
+.vs-name { font-weight: 650; font-size: 1rem; display: block; text-wrap: balance; overflow-wrap: anywhere; }
+.vs-name .pos { display: inline-block; margin-left: 6px; vertical-align: 2px; }
+.vs-name.fav { color: var(--fav); }
+.vs-facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 0.82rem; line-height: 1.35; color: var(--muted); }
+.vs-line { align-self: stretch; display: grid; place-items: center; position: relative; min-height: 100%; }
+.vs-line::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: var(--line); }
+.vs-line span { position: relative; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--muted); background: var(--card); padding: 4px 0; align-self: start; margin-top: 12px; }
+.versus.compact { margin-top: 10px; }
+.versus.compact .vs-name { font-size: 0.85rem; }
+.centred { text-align: center; }
 .score {
-  grid-row: 1 / span 2; grid-column: 2;
-  align-self: center;
+  grid-row: 1; grid-column: 2;
+  align-self: start;
   min-width: 48px; height: 48px; border-radius: 12px;
   display: grid; place-items: center;
   font-weight: 750; font-size: 1.25rem; font-variant-numeric: tabular-nums;

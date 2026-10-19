@@ -204,7 +204,7 @@ ARCHIVE = OUTPUT / "score_archive.json"
 def frozen(m):
     """What the Results tab keeps of a match's pre-match score (enough to re-score with My Feed)."""
     return {"score": m["score"], "must_watch": m["must_watch"], "recommended": m.get("recommended", False),
-            "story": m["story"], "base": m["base"], "competition_bonus": m["competition_bonus"],
+            "story": m["story"], "story_sides": m.get("story_sides"), "base": m["base"], "competition_bonus": m["competition_bonus"],
             "stage_bonus": m.get("stage_bonus", 0), "tier1_rivalry": m.get("tier1_rivalry", False),
             "positions": m.get("positions", {}),
             "breakdown": {k: {"points": b["points"], **({"kind": b["kind"]} if "kind" in b else {})}
@@ -284,8 +284,8 @@ def reconstruct(archive, inp, now=None):
     added = 0
     for m in matches:
         old = archive.get(m["id"])
-        # Rebuilt entries from before table positions were stored get rebuilt once more.
-        if m["status"] != "finished" or m["home_goals"] is None or (old and not (old.get("reconstructed") and "positions" not in old)):
+        # Rebuilt entries from before positions and split stories were stored get rebuilt once more.
+        if m["status"] != "finished" or m["home_goals"] is None or (old and not (old.get("reconstructed") and not old.get("story_sides"))):
             continue
         tables = {c: table_before(matches, c, m["kickoff_utc"], adjust[c]) for c in comps}
         if not in_table(m):

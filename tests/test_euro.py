@@ -69,7 +69,7 @@ def test_revenge_signal_prefers_club_story_on_a_tie():
            "club_revenge": [{"value": 1.0, "story": ("revenge_knockout", {"a": 1})}]}
     assert signal_revenge(ctx, cfg()) == (1.0, ("revenge_knockout", {"a": 1}))
     ctx["club_revenge"][0]["value"] = 0.5
-    assert signal_revenge(ctx, cfg()) == (1.0, ("revenge", {"person": "X"}))
+    assert signal_revenge(ctx, cfg()) == (1.0, ("revenge", {"person": "X", "team": None}))
 
 
 def test_european_classic_needs_enough_meetings(config):

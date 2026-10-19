@@ -34,7 +34,7 @@ def signal_form(ctx, cfg):
     both = h["ppg"] >= cfg["in_form_ppg"] and a["ppg"] >= cfg["in_form_ppg"]
     value = min(1.0, (h["ppg"] + a["ppg"]) / 2 / 3 + (cfg["both_in_form_bonus"] if both else 0))
     if both:
-        story = ("both_in_form", {})
+        story = ("both_in_form", {"home_wins": h["wins"], "away_wins": a["wins"], "n": h["games"]})
     elif value < cfg["min_value_for_reason"]:
         story = None  # poor form is not a reason to watch
     elif h["games"] == a["games"]:
@@ -111,7 +111,8 @@ def signal_entertainment(ctx, cfg):
     if not h or not a:
         return 0.0, None
     gpg = (h["goals_per_game"] + a["goals_per_game"]) / 2
-    return min(1.0, gpg / cfg["goals_per_game_for_max"]), ("entertainment", {"goals_per_game": f"{gpg:.1f}"})
+    return min(1.0, gpg / cfg["goals_per_game_for_max"]), ("entertainment", {
+        "goals_per_game": f"{gpg:.1f}", "home_gpg": f"{h['goals_per_game']:.1f}", "away_gpg": f"{a['goals_per_game']:.1f}"})
 
 
 def signal_rivalry(ctx, cfg):
@@ -223,7 +224,7 @@ def signal_revenge(ctx, cfg):
     Club flags come first, so on a tie the club story wins.
     """
     options = [(f["value"], f["story"]) for f in ctx.get("club_revenge", [])]
-    options += [(cfg[f["role"]], ("revenge", {"person": f["person"]})) for f in ctx.get("revenge", [])]
+    options += [(cfg[f["role"]], ("revenge", {"person": f["person"], "team": f.get("team")})) for f in ctx.get("revenge", [])]
     if not options:
         return 0.0, None
     return max(options, key=lambda o: o[0])
@@ -251,7 +252,7 @@ def score_match(ctx, config):
             text = config["story"]["templates"][key].format(**values)
             breakdown[name]["reason"] = text
             if points > 0:
-                reasons.append((points, text))
+                reasons.append((points, text, key, values))
 
     base = sum(b["points"] for b in breakdown.values())
     bonus = config["competition_bonus"].get(ctx["competition"], 0)
@@ -265,12 +266,35 @@ def score_match(ctx, config):
     must = config["must_watch"]
     tier1 = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and must["tier_1_rivalry_always"]
     reasons.sort(key=lambda r: -r[0])
-    story = config["story"]["separator"].join(t for _, t in reasons[:config["story"]["max_reasons"]])
+    top = reasons[:config["story"]["max_reasons"]]
+    story = config["story"]["separator"].join(r[1] for r in top)
+    sides = {"home": [], "away": [], "both": []}
+    for _, text, key, values in top:
+        for side, line in split_reason(key, values, text, ctx, config["story"]["side_templates"]):
+            sides[side].append(line)
     return {"score": total, "base": round(base, 1), "competition_bonus": bonus, "stage_bonus": stage,
             "favourite_boost": boost, "favourite": favourite,
             "must_watch": total >= must["score_threshold"] or tier1,
             "recommended": total >= must["recommended_threshold"],
-            "story": story, "breakdown": breakdown}
+            "story": story, "story_sides": sides, "breakdown": breakdown}
+
+
+def split_reason(key, values, text, ctx, templates):
+    """Which team a reason is about: [(side, line)], side "home", "away" or "both" (a fact about the match).
+
+    Pair facts (form, goals, stature) give each team its own line from the `home_*`/`away_*` values;
+    one-team facts (par, revenge) go to that team's side; the rest stay in the middle as written.
+    """
+    t = templates.get(key)
+    if not t:
+        return [("both", text)]
+    if t["kind"] == "pair":
+        return [(side, t["text"].format(**{k[len(side) + 1:]: v for k, v in values.items() if k.startswith(side + "_")},
+                                         **{k: v for k, v in values.items() if not k.startswith(("home_", "away_"))}))
+                for side in ("home", "away")]
+    team = values.get(t["team_field"])
+    side = "home" if team == ctx["home"] else "away" if team == ctx["away"] else None
+    return [(side, t["text"].format(**values))] if side else [("both", text)]
 
 
 def context(match, results, tables, rivalries, config, extras=None):
