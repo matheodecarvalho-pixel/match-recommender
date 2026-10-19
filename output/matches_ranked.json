@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T20:21:12.486194+02:00",
+ "generated_at": "2026-10-19T20:37:52.396673+02:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 0,
@@ -34,6 +34,19 @@
    "must_watch": true,
    "recommended": true,
    "story": "Both teams in form · Heavyweights: Europe's #4 v #6 · 4.6 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 5 of last 5",
+     "Europe's #4 club",
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "Europe's #6 club",
+     "5.6 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 1.0,
@@ -116,6 +129,19 @@
    "must_watch": true,
    "recommended": true,
    "story": "Both teams in form · Heavyweights: Europe's #6 v #3 · 4.9 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 5 of last 5",
+     "Europe's #6 club",
+     "5.6 goals per game lately"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "Europe's #3 club",
+     "4.2 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 1.0,
@@ -198,6 +224,19 @@
    "must_watch": true,
    "recommended": true,
    "story": "Both teams in form · Heavyweights: Europe's #1 v #2 · 3.9 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "Europe's #1 club",
+     "5.4 goals per game lately"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "Europe's #2 club",
+     "2.4 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.917,
@@ -278,6 +317,18 @@
    "must_watch": true,
    "recommended": true,
    "story": "Both teams in form · 3.6 goals per game lately · Noham Kamara faces his former club",
+   "story_sides": {
+    "home": [
+     "Won 5 of last 5",
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "3.6 goals per game lately",
+     "Noham Kamara faces his former club"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 1.0,
@@ -356,6 +407,19 @@
    "must_watch": false,
    "recommended": true,
    "story": "Wins in last 5: 4 v 3 · 4.2 goals per game lately · Heavyweights: Europe's #3 v #37",
+   "story_sides": {
+    "home": [
+     "Won 4 of last 5",
+     "4.2 goals per game lately",
+     "Europe's #3 club"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "4.2 goals per game lately",
+     "Europe's #37 club"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.7,
@@ -435,6 +499,19 @@
    "must_watch": false,
    "recommended": true,
    "story": "Both teams in form · 4.8 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "4.4 goals per game lately"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "5.2 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.983,
@@ -511,6 +588,19 @@
    "must_watch": false,
    "recommended": true,
    "story": "Both teams in form · 2.9 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.817,
@@ -589,6 +679,19 @@
    "must_watch": false,
    "recommended": true,
    "story": "Both teams in form · Heavyweights: Europe's #5 v #28 · 4.1 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "Europe's #5 club",
+     "5.2 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "Europe's #28 club",
+     "3.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.872,
@@ -666,6 +769,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Both teams in form · Heavyweights: Europe's #12 v #8 · 4.2 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "Europe's #12 club",
+     "3.8 goals per game lately"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "Europe's #8 club",
+     "4.6 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.883,
@@ -741,6 +857,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Heavyweights: Europe's #19 v #15 · 2.7 goals per game lately · Tosin Adarabioyo faces his former club",
+   "story_sides": {
+    "home": [
+     "Europe's #19 club",
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "Europe's #15 club",
+     "1.8 goals per game lately",
+     "Tosin Adarabioyo faces his former club"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -818,6 +946,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 5 · 4.2 goals per game lately · Title race: 4 pts between them",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "5.2 goals per game lately"
+    ],
+    "both": [
+     "Title race: 4 pts between them"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.7,
@@ -894,6 +1035,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Both teams in form · Heavyweights: Europe's #29 v #1 · 4.7 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "Europe's #29 club",
+     "4.0 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "Europe's #1 club",
+     "5.4 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.85,
@@ -973,6 +1127,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Both teams in form · 4.4 goals per game lately · Aston Villa usually finish 7th: under par",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.8 goals per game lately",
+     "Usually finish 7th: under par"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "5.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.917,
@@ -1048,6 +1214,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Heavyweights: Europe's #16 v #23 · 3.5 goals per game lately · Wins in last 5: 3 v 2",
+   "story_sides": {
+    "home": [
+     "Europe's #16 club",
+     "3.8 goals per game lately",
+     "Won 3 of last 5"
+    ],
+    "away": [
+     "Europe's #23 club",
+     "3.2 goals per game lately",
+     "Won 2 of last 5"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -1127,6 +1306,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Both teams in form · 3.5 goals per game lately · Brighton & Hove Albion usually finish 8th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "3.8 goals per game lately",
+     "Usually finish 8th: punching above their weight"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.983,
@@ -1202,6 +1393,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 5 · Fight for a top-8 spot · 2.3 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "2.0 goals per game lately"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.7,
@@ -1278,6 +1482,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 4 v 2 · 4.0 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 4 of last 5",
+     "4.8 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.633,
@@ -1355,6 +1572,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Heavyweights: Europe's #26 v #13 · Wins in last 5: 2 v 2 · 2.6 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Europe's #26 club",
+     "Won 2 of last 5",
+     "2.2 goals per game lately"
+    ],
+    "away": [
+     "Europe's #13 club",
+     "Won 2 of last 5",
+     "3.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -1436,6 +1666,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Heavyweights: Europe's #5 v #18 · 4.4 goals per game lately · Fiorentina usually finish 9th: under par",
+   "story_sides": {
+    "home": [
+     "Europe's #5 club",
+     "5.2 goals per game lately"
+    ],
+    "away": [
+     "Europe's #18 club",
+     "3.6 goals per game lately",
+     "Usually finish 9th: under par"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -1511,6 +1753,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.7 goals per game lately · Wins in last 5: 3 v 2 · Fight for a top-24 spot",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately",
+     "Won 3 of last 5"
+    ],
+    "away": [
+     "3.6 goals per game lately",
+     "Won 2 of last 5"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -1585,6 +1840,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 2 · 3.4 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "3.8 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -1658,6 +1926,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 3 · 3.3 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "4.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -1731,6 +2012,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.0 goals per game lately · Fight for a top-8 spot · Atalanta usually finish 5th: under par",
+   "story_sides": {
+    "home": [
+     "4.4 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately",
+     "Usually finish 5th: under par"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -1801,6 +2094,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Both teams in form · 2.9 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 5 of last 5",
+     "1.6 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "4.2 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.983,
@@ -1873,6 +2179,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Both teams in form · 2.9 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 4 of last 5",
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "3.4 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.95,
@@ -1945,6 +2264,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.1 goals per game lately · Fight for a top-24 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.2 goals per game lately"
+    ],
+    "away": [
+     "4.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -2019,6 +2350,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 3 · 3.1 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.633,
@@ -2093,6 +2437,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 1 v 3 · Arnaut Danjuma faces his former club · Valencia usually finish 11th: under par",
+   "story_sides": {
+    "home": [
+     "Won 1 of last 5",
+     "Arnaut Danjuma faces his former club",
+     "Usually finish 11th: under par"
+    ],
+    "away": [
+     "Won 3 of last 5"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -2173,6 +2528,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 2 · 2.9 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "4.0 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "1.8 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -2249,6 +2617,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 4 v 2 · 3.9 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 4 of last 5",
+     "4.2 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "3.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.633,
@@ -2319,6 +2700,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 3 · 3.4 goals per game lately · Borja Iglesias faces his former club",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "2.4 goals per game lately",
+     "Borja Iglesias faces his former club"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "4.4 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -2397,6 +2790,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.1 goals per game lately · Davy van den Berg faces his former club · Utrecht usually finish 6th: under par",
+   "story_sides": {
+    "home": [
+     "4.2 goals per game lately",
+     "Davy van den Berg faces his former club",
+     "Usually finish 6th: under par"
+    ],
+    "away": [
+     "4.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -2470,6 +2874,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 5 · 3.1 goals per game lately · Brighton & Hove Albion usually finish 8th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "3.8 goals per game lately",
+     "Usually finish 8th: punching above their weight"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.8,
@@ -2542,6 +2958,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 1 v 5 · 3.7 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 1 of last 5",
+     "3.8 goals per game lately"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "3.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.633,
@@ -2612,6 +3041,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.7 goals per game lately · Rijk Janse faces his former club · FC Groningen usually finish 13th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "4.4 goals per game lately",
+     "Rijk Janse faces his former club",
+     "Usually finish 13th: punching above their weight"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -2673,6 +3113,94 @@
    }
   },
   {
+   "id": "fd-558560",
+   "competition": "Serie A",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-10-24T15:00:00+02:00",
+   "day": "2026-10-24",
+   "home": "Cagliari",
+   "away": "Bologna",
+   "score": 53,
+   "base": 48.6,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 3 v 1 · Nadir Zortea faces his former club · Cagliari usually finish 16th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "Usually finish 16th: punching above their weight"
+    ],
+    "away": [
+     "Won 1 of last 5",
+     "Nadir Zortea faces his former club"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.5,
+     "points": 12.5,
+     "kind": "form",
+     "reason": "Wins in last 5: 3 v 1"
+    },
+    "stakes": {
+     "value": 0.182,
+     "points": 3.6,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.625,
+     "points": 9.4,
+     "kind": "entertainment",
+     "reason": "2.5 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.614,
+     "points": 3.1
+    },
+    "revenge": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "revenge",
+     "reason": "Nadir Zortea faces his former club"
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "par_over",
+     "reason": "Cagliari usually finish 16th: punching above their weight"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Cagliari": 7,
+    "Bologna": 15
+   },
+   "espn": {
+    "id": "401874958",
+    "league": "ita.1",
+    "teams": [
+     "2925",
+     "107"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-560616",
    "competition": "Premier League",
    "stage": "REGULAR_SEASON",
@@ -2689,6 +3217,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 4 v 1 · Christian Nørgaard faces his former club · 2.3 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 4 of last 5",
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "Won 1 of last 5",
+     "Christian Nørgaard faces his former club",
+     "2.2 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -2764,6 +3304,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Fight for a top-8 spot · 2.3 goals per game lately · Manchester United usually finish 7th: under par",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "1.8 goals per game lately",
+     "Usually finish 7th: under par"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -2840,6 +3392,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 2 · 4.0 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "4.8 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -2897,83 +3460,6 @@
    }
   },
   {
-   "id": "fd-558560",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-10-24T15:00:00+02:00",
-   "day": "2026-10-24",
-   "home": "Cagliari",
-   "away": "Bologna",
-   "score": 52,
-   "base": 47.4,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 3 v 1 · Nadir Zortea faces his former club · Cagliari usually finish 16th: punching above their weight",
-   "breakdown": {
-    "form": {
-     "value": 0.5,
-     "points": 12.5,
-     "kind": "form",
-     "reason": "Wins in last 5: 3 v 1"
-    },
-    "stakes": {
-     "value": 0.182,
-     "points": 3.6,
-     "kind": "stakes_europe"
-    },
-    "entertainment": {
-     "value": 0.55,
-     "points": 8.2,
-     "kind": "entertainment",
-     "reason": "2.2 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.614,
-     "points": 3.1
-    },
-    "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "revenge",
-     "reason": "Nadir Zortea faces his former club"
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "par_over",
-     "reason": "Cagliari usually finish 16th: punching above their weight"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Cagliari": 7,
-    "Bologna": 15
-   },
-   "espn": {
-    "id": "401874958",
-    "league": "ita.1",
-    "teams": [
-     "2925",
-     "107"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
    "id": "fd-565837",
    "competition": "Bundesliga",
    "stage": "REGULAR_SEASON",
@@ -2990,6 +3476,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Heavyweights: Europe's #9 v #35 · Wins in last 5: 2 v 2 · 2.9 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Europe's #9 club",
+     "Won 2 of last 5",
+     "1.8 goals per game lately"
+    ],
+    "away": [
+     "Europe's #35 club",
+     "Won 2 of last 5",
+     "4.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -3067,6 +3566,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Fight for a top-24 spot · 2.6 goals per game lately · Napoli usually finish 3rd: under par",
+   "story_sides": {
+    "home": [
+     "2.2 goals per game lately",
+     "Usually finish 3rd: under par"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.0,
@@ -3143,6 +3654,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 1 v 4 · 2.2 goals per game lately · Braga usually finish 4th: under par",
+   "story_sides": {
+    "home": [
+     "Won 1 of last 5",
+     "2.2 goals per game lately",
+     "Usually finish 4th: under par"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "2.2 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -3215,6 +3738,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.2 goals per game lately · Fight for a top-24 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "4.0 goals per game lately"
+    ],
+    "away": [
+     "2.4 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -3285,6 +3820,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.7 goals per game lately · Wins in last 5: 1 v 4 · Lyon usually finish 6th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately",
+     "Won 1 of last 5"
+    ],
+    "away": [
+     "3.6 goals per game lately",
+     "Won 4 of last 5",
+     "Usually finish 6th: punching above their weight"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -3356,6 +3903,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.7 goals per game lately · Fight for a top-24 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "2.2 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -3427,6 +3986,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 3 · 3.1 goals per game lately · Fight for a top-24 spot",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -3499,6 +4071,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.6 goals per game lately · Wins in last 5: 1 v 3 · Fight for a top-24 spot",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately",
+     "Won 1 of last 5"
+    ],
+    "away": [
+     "4.4 goals per game lately",
+     "Won 3 of last 5"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -3572,6 +4157,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 2 · 4.3 goals per game lately · Fight for Europe",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "4.8 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "3.8 goals per game lately"
+    ],
+    "both": [
+     "Fight for Europe"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -3650,6 +4248,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.0 goals per game lately · Fight for a top-24 spot",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "5.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.0,
@@ -3723,6 +4332,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 2 · 2.9 goals per game lately · Fight for a top-24 spot",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -3793,6 +4415,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.8 goals per game lately · Alexandre Dujeux faces his former club · Lorient usually finish 13th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "2.0 goals per game lately",
+     "Alexandre Dujeux faces his former club",
+     "Usually finish 13th: punching above their weight"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -3866,6 +4499,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 1 v 5 · 3.7 goals per game lately · Hoffenheim usually finish 10th: under par",
+   "story_sides": {
+    "home": [
+     "Won 1 of last 5",
+     "3.8 goals per game lately",
+     "Usually finish 10th: under par"
+    ],
+    "away": [
+     "Won 5 of last 5",
+     "3.6 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -3941,6 +4586,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.0 goals per game lately · Jon Ander Olasagasti faces his former club",
+   "story_sides": {
+    "home": [
+     "4.4 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately",
+     "Jon Ander Olasagasti faces his former club"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -4016,6 +4671,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.0 goals per game lately · Fight for a top-24 spot",
+   "story_sides": {
+    "home": [
+     "4.4 goals per game lately"
+    ],
+    "away": [
+     "3.5 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.0,
@@ -4088,6 +4754,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 3 v 2 · 2.6 goals per game lately · Fight for Europe",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "2.2 goals per game lately"
+    ],
+    "both": [
+     "Fight for Europe"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -4164,6 +4843,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.7 goals per game lately · Samuel Portugal faces his former club",
+   "story_sides": {
+    "home": [
+     "1.6 goals per game lately",
+     "Samuel Portugal faces his former club"
+    ],
+    "away": [
+     "3.8 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -4235,6 +4924,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.6 goals per game lately · Wins in last 5: 2 v 3 · Fight for Europe",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately",
+     "Won 2 of last 5"
+    ],
+    "away": [
+     "3.6 goals per game lately",
+     "Won 3 of last 5"
+    ],
+    "both": [
+     "Fight for Europe"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.533,
@@ -4313,6 +5015,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Both teams in form · 2.8 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "Won 3 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "Won 4 of last 5",
+     "2.4 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.917,
@@ -4386,6 +5101,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.7 goals per game lately · Fight for a top-24 spot · NEC usually finish 8th: under par",
+   "story_sides": {
+    "home": [
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately",
+     "Usually finish 8th: under par"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -4456,6 +5183,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.2 goals per game lately · Wins in last 5: 1 v 4 · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately",
+     "Won 1 of last 5"
+    ],
+    "away": [
+     "4.6 goals per game lately",
+     "Won 4 of last 5"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -4526,6 +5266,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.5 goals per game lately · Borussia Mönchengladbach usually finish 11th: under par · Relegation battle",
+   "story_sides": {
+    "home": [
+     "2.0 goals per game lately"
+    ],
+    "away": [
+     "5.0 goals per game lately",
+     "Usually finish 11th: under par"
+    ],
+    "both": [
+     "Relegation battle"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.2,
@@ -4600,6 +5352,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.5 goals per game lately · Relegation battle · Famalicão usually finish 7th: under par",
+   "story_sides": {
+    "home": [
+     "4.0 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately",
+     "Usually finish 7th: under par"
+    ],
+    "both": [
+     "Relegation battle"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -4674,6 +5438,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.5 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "4.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -4742,6 +5517,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 2 · 3.3 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "3.4 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -4814,6 +5602,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.7 goals per game lately · Fight for a top-24 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately"
+    ],
+    "away": [
+     "1.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.292,
@@ -4884,6 +5684,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.9 goals per game lately · Wins in last 5: 3 v 2 · Fight for Europe",
+   "story_sides": {
+    "home": [
+     "4.2 goals per game lately",
+     "Won 3 of last 5"
+    ],
+    "away": [
+     "3.6 goals per game lately",
+     "Won 2 of last 5"
+    ],
+    "both": [
+     "Fight for Europe"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.533,
@@ -4961,6 +5774,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 2 · 2.4 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "Won 2 of last 5",
+     "2.2 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.5,
@@ -5034,6 +5860,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.7 goals per game lately · Nice usually finish 8th: under par · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "2.4 goals per game lately",
+     "Usually finish 8th: under par"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -5107,6 +5945,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "Fabio Blanco faces his former club · Vitória SC usually finish 6th: under par · 2.3 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Fabio Blanco faces his former club",
+     "Usually finish 6th: under par",
+     "1.6 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.1,
@@ -5182,6 +6031,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.9 goals per game lately · Strasbourg usually finish 10th: under par",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately"
+    ],
+    "away": [
+     "4.0 goals per game lately",
+     "Usually finish 10th: under par"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.367,
@@ -5253,6 +6112,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 3 · 2.4 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "2.2 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -5313,79 +6185,6 @@
    }
   },
   {
-   "id": "fd-558576",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-10-19T18:30:00+02:00",
-   "day": "2026-10-19",
-   "home": "Monza",
-   "away": "Cagliari",
-   "score": 42,
-   "base": 38.7,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.7 goals per game lately · Cagliari usually finish 16th: punching above their weight",
-   "breakdown": {
-    "form": {
-     "value": 0.467,
-     "points": 11.7
-    },
-    "stakes": {
-     "value": 0.182,
-     "points": 3.6,
-     "kind": "stakes_europe"
-    },
-    "entertainment": {
-     "value": 0.675,
-     "points": 10.1,
-     "kind": "entertainment",
-     "reason": "2.7 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.651,
-     "points": 3.3
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "par_over",
-     "reason": "Cagliari usually finish 16th: punching above their weight"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Monza": 13,
-    "Cagliari": 7
-   },
-   "espn": {
-    "id": "401874762",
-    "league": "ita.1",
-    "teams": [
-     "4007",
-     "2925"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
    "id": "espn-401915838",
    "competition": "Conference League",
    "stage": "league-phase",
@@ -5402,6 +6201,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.9 goals per game lately · Fight for a top-8 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately"
+    ],
+    "away": [
+     "2.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -5472,6 +6283,15 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.9 goals per game lately",
+   "story_sides": {
+    "home": [
+     "4.6 goals per game lately"
+    ],
+    "away": [
+     "3.2 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.367,
@@ -5539,6 +6359,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.1 goals per game lately · Union Berlin usually finish 10th: under par · Evenly matched",
+   "story_sides": {
+    "home": [
+     "5.0 goals per game lately"
+    ],
+    "away": [
+     "3.2 goals per game lately",
+     "Usually finish 10th: under par"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -5614,6 +6446,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.5 goals per game lately · Pablo Ramón faces his former club · Evenly matched",
+   "story_sides": {
+    "home": [
+     "4.6 goals per game lately",
+     "Pablo Ramón faces his former club"
+    ],
+    "away": [
+     "2.4 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.267,
@@ -5690,6 +6534,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.9 goals per game lately · Fortuna Sittard usually finish 12th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately",
+     "Usually finish 12th: punching above their weight"
+    ],
+    "away": [
+     "4.2 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -5761,6 +6615,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Tottenham Hotspur usually finish 10th: under par · 2.2 goals per game lately · Relegation battle",
+   "story_sides": {
+    "home": [
+     "Usually finish 10th: under par",
+     "1.8 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Relegation battle"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -5838,6 +6704,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.4 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "2.0 goals per game lately"
+    ],
+    "away": [
+     "2.8 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -5906,6 +6783,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.7 goals per game lately · Fight for a top-8 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "1.8 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -5977,6 +6866,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.4 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "2.2 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -6045,6 +6945,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "Fight for a top-24 spot · 2.5 goals per game lately",
+   "story_sides": {
+    "home": [
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.367,
@@ -6113,6 +7024,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.4 goals per game lately · Relegation battle · Fulham usually finish 11th: under par",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "2.2 goals per game lately",
+     "Usually finish 11th: under par"
+    ],
+    "both": [
+     "Relegation battle"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.367,
@@ -6187,6 +7110,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.4 goals per game lately · Manchester United usually finish 7th: under par · Evenly matched",
+   "story_sides": {
+    "home": [
+     "1.8 goals per game lately",
+     "Usually finish 7th: under par"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -6260,6 +7195,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.8 goals per game lately · Leeds United usually finish 17th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "2.4 goals per game lately",
+     "Usually finish 17th: punching above their weight"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -6331,6 +7276,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 3 · 3.0 goals per game lately · Lecce usually finish 16th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "3.0 goals per game lately",
+     "Usually finish 16th: punching above their weight"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "3.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.533,
@@ -6408,6 +7365,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.0 goals per game lately · Fight for a top-8 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "2.8 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -6478,6 +7447,15 @@
    "must_watch": false,
    "recommended": false,
    "story": "4.6 goals per game lately",
+   "story_sides": {
+    "home": [
+     "4.8 goals per game lately"
+    ],
+    "away": [
+     "4.4 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -6550,6 +7528,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.8 goals per game lately · Fight for a top-8 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -6620,6 +7610,19 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 2 v 3 · 3.2 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "Won 2 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "Won 3 of last 5",
+     "3.2 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -6694,6 +7697,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.8 goals per game lately · Fight for Europe · Brentford usually finish 11th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "3.2 goals per game lately",
+     "Usually finish 11th: punching above their weight"
+    ],
+    "both": [
+     "Fight for Europe"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -6768,6 +7783,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.2 goals per game lately · Relegation battle",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "2.8 goals per game lately"
+    ],
+    "both": [
+     "Relegation battle"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -6838,6 +7864,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 4 v 1 · 2.9 goals per game lately · Lazio usually finish 6th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "Won 4 of last 5",
+     "3.2 goals per game lately",
+     "Usually finish 6th: punching above their weight"
+    ],
+    "away": [
+     "Won 1 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.567,
@@ -6913,6 +7951,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.6 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.367,
@@ -6984,6 +8033,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.1 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "1.8 goals per game lately"
+    ],
+    "away": [
+     "4.4 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -7059,6 +8119,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.4 goals per game lately · Fight for a top-8 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "2.4 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -7129,6 +8201,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.1 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -7197,6 +8280,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.3 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "4.4 goals per game lately"
+    ],
+    "away": [
+     "2.2 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -7272,6 +8366,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.5 goals per game lately · Fight for a top-8 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "4.6 goals per game lately"
+    ],
+    "away": [
+     "2.5 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.0,
@@ -7346,6 +8452,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.1 goals per game lately · Fight for a top-8 spot · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.2,
@@ -7416,6 +8534,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.6 goals per game lately · Casa Pia usually finish 11th: under par · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "2.0 goals per game lately",
+     "Usually finish 11th: under par"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -7489,6 +8619,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.3 goals per game lately · Relegation battle · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately"
+    ],
+    "both": [
+     "Relegation battle",
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.233,
@@ -7564,6 +8706,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.3 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.4 goals per game lately"
+    ],
+    "away": [
+     "3.2 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -7636,6 +8789,18 @@
    "must_watch": false,
    "recommended": false,
    "story": "1.9 goals per game lately · Braga usually finish 4th: under par · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.2 goals per game lately",
+     "Usually finish 4th: under par"
+    ],
+    "away": [
+     "1.6 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -7709,6 +8874,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.8 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "3.4 goals per game lately"
+    ],
+    "away": [
+     "2.2 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -7777,6 +8953,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.9 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.0,
@@ -7845,6 +9032,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "Wins in last 5: 5 v 0 · 2.5 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Won 5 of last 5",
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "Won 0 of last 5",
+     "2.4 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.6,
@@ -7919,6 +9117,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.4 goals per game lately · Udinese usually finish 12th: under par",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately",
+     "Usually finish 12th: under par"
+    ],
+    "away": [
+     "3.2 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -7992,6 +9200,15 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.5 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately"
+    ],
+    "away": [
+     "1.4 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -8049,6 +9266,90 @@
    }
   },
   {
+   "id": "fd-558567",
+   "competition": "Serie A",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-10-23T20:45:00+02:00",
+   "day": "2026-10-23",
+   "home": "Torino",
+   "away": "Monza",
+   "score": 33,
+   "base": 30.8,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.1 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.467,
+     "points": 11.7
+    },
+    "stakes": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "entertainment": {
+     "value": 0.775,
+     "points": 11.6,
+     "kind": "entertainment",
+     "reason": "3.1 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.968,
+     "points": 4.8,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.267,
+     "points": 2.7,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Torino": 14,
+    "Monza": 13
+   },
+   "espn": {
+    "id": "401874957",
+    "league": "ita.1",
+    "teams": [
+     "239",
+     "4007"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-558561",
    "competition": "Serie A",
    "stage": "REGULAR_SEASON",
@@ -8065,6 +9366,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.4 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "4.0 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -8138,6 +9450,15 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.1 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.4,
@@ -8207,6 +9528,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "1.6 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "1.4 goals per game lately"
+    ],
+    "away": [
+     "1.8 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.467,
@@ -8281,6 +9613,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.6 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.367,
@@ -8355,6 +9698,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.6 goals per game lately · Alavés usually finish 15th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "2.0 goals per game lately",
+     "Usually finish 15th: punching above their weight"
+    ],
+    "away": [
+     "3.2 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.1,
@@ -8429,6 +9782,15 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.3 goals per game lately",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "3.8 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.433,
@@ -8500,6 +9862,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.1 goals per game lately · Marseille usually finish 4th: under par",
+   "story_sides": {
+    "home": [
+     "3.6 goals per game lately",
+     "Usually finish 4th: under par"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.233,
@@ -8571,6 +9943,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.2 goals per game lately · Fight for a top-8 spot",
+   "story_sides": {
+    "home": [
+     "2.4 goals per game lately"
+    ],
+    "away": [
+     "2.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -8623,79 +10006,6 @@
    }
   },
   {
-   "id": "fd-558567",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-10-23T20:45:00+02:00",
-   "day": "2026-10-23",
-   "home": "Torino",
-   "away": "Monza",
-   "score": 31,
-   "base": 28.3,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "3.2 goals per game lately · Evenly matched",
-   "breakdown": {
-    "form": {
-     "value": 0.367,
-     "points": 9.2
-    },
-    "stakes": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "entertainment": {
-     "value": 0.8,
-     "points": 12.0,
-     "kind": "entertainment",
-     "reason": "3.2 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.888,
-     "points": 4.4,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.267,
-     "points": 2.7,
-     "kind": "par_under"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Torino": 14,
-    "Monza": 13
-   },
-   "espn": {
-    "id": "401874957",
-    "league": "ita.1",
-    "teams": [
-     "239",
-     "4007"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
    "id": "fd-560620",
    "competition": "Premier League",
    "stage": "REGULAR_SEASON",
@@ -8712,6 +10022,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.5 goals per game lately · Nottingham Forest usually finish 14th: under par",
+   "story_sides": {
+    "home": [
+     "3.2 goals per game lately"
+    ],
+    "away": [
+     "1.8 goals per game lately",
+     "Usually finish 14th: under par"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.333,
@@ -8783,6 +10103,16 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.1 goals per game lately · Braga usually finish 4th: under par",
+   "story_sides": {
+    "home": [
+     "4.0 goals per game lately"
+    ],
+    "away": [
+     "2.2 goals per game lately",
+     "Usually finish 4th: under par"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.133,
@@ -8854,6 +10184,15 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.4 goals per game lately",
+   "story_sides": {
+    "home": [
+     "4.2 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.2,
@@ -8923,6 +10262,15 @@
    "must_watch": false,
    "recommended": false,
    "story": "3.5 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.4 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately"
+    ],
+    "both": []
+   },
    "breakdown": {
     "form": {
      "value": 0.267,
@@ -8992,6 +10340,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.2 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "1.6 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.3,
@@ -9065,6 +10424,17 @@
    "must_watch": false,
    "recommended": false,
    "story": "2.4 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.0 goals per game lately"
+    ],
+    "away": [
+     "2.8 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
    "breakdown": {
     "form": {
      "value": 0.167,
@@ -9123,195 +10493,195 @@
  ],
  "warnings": [],
  "crests": {
-  "Fortuna Sittard": "https://crests.football-data.org/1920.png",
-  "SK Sturm Graz": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
-  "Troyes": "https://crests.football-data.org/531.png",
-  "Fenerbahçe": "https://crests.football-data.org/613.png",
-  "FC Twente": "https://crests.football-data.org/666.png",
-  "Arsenal": "https://crests.football-data.org/57.png",
-  "Racing Santander": "https://crests.football-data.org/5335.png",
-  "Omonia Nicosia": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
-  "AZ": "https://crests.football-data.org/682.png",
-  "Sparta Rotterdam": "https://crests.football-data.org/6806.png",
-  "Napoli": "https://crests.football-data.org/113.png",
-  "Riga FC": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
-  "Hapoel Be'er": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
-  "Hull City": "https://crests.football-data.org/322.png",
-  "Monaco": "https://crests.football-data.org/548.png",
-  "Hamburger SV": "https://crests.football-data.org/7.png",
-  "Amadora": "https://crests.football-data.org/9136.png",
-  "Red Star Belgrade": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
-  "Celta Vigo": "https://crests.football-data.org/558.png",
-  "FC Groningen": "https://crests.football-data.org/677.png",
-  "Hajduk Split": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
-  "Ferencvaros": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
-  "Telstar": "https://crests.football-data.org/1912.png",
-  "Acad. Viseu": "https://crests.football-data.org/5527.png",
-  "Atlético Madrid": "https://crests.football-data.org/78.png",
-  "Levski Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
-  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
-  "Iberia 1999": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
-  "Rennes": "https://crests.football-data.org/529.png",
-  "Athletic Club": "https://crests.football-data.org/77.png",
-  "Angers": "https://crests.football-data.org/532.png",
-  "Jablonec": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
-  "Real Madrid": "https://crests.football-data.org/86.png",
-  "Parma": "https://crests.football-data.org/112.png",
-  "RB Salzburg": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
-  "ADO Den Haag": "https://crests.football-data.org/680.png",
-  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
-  "Union Berlin": "https://crests.football-data.org/28.png",
-  "Brighton & Hove Albion": "https://crests.football-data.org/397.png",
-  "Sporting CP": "https://crests.football-data.org/498.png",
-  "Shaktar": "https://crests.football-data.org/1887.png",
-  "Braga": "https://crests.football-data.org/5613.png",
-  "Borac Banja Luka": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
-  "Ararat-Armenia": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
-  "Getafe": "https://crests.football-data.org/82.png",
-  "Vitória SC": "https://crests.football-data.org/5543.png",
-  "Monza": "https://crests.football-data.org/5911.png",
-  "Ipswich Town": "https://crests.football-data.org/349.png",
-  "Toulouse": "https://crests.football-data.org/511.png",
-  "Lech Poznan": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
-  "VfB Stuttgart": "https://crests.football-data.org/10.png",
-  "Borussia Dortmund": "https://crests.football-data.org/4.png",
-  "FC Midtjylland": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
-  "Gil Vicente": "https://crests.football-data.org/5533.png",
-  "Viktoria Plzen": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
-  "Cagliari": "https://crests.football-data.org/104.png",
-  "Roma": "https://crests.football-data.org/100.png",
-  "Crystal Palace": "https://crests.football-data.org/354.png",
-  "FC Nordsjælland": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
-  "Real Sociedad": "https://crests.football-data.org/92.png",
-  "1. FC Köln": "https://crests.football-data.org/1.png",
-  "Anderlecht": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
-  "Porto": "https://crests.football-data.org/503.png",
-  "Bayern Munich": "https://crests.football-data.org/5.png",
-  "Sabah FK": "https://crests.football-data.org/10233.png",
-  "Elversberg": "https://crests.football-data.org/719.png",
-  "SC Heerenveen": "https://crests.football-data.org/673.png",
-  "Kauno Zalgiris": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
-  "Venezia": "https://crests.football-data.org/454.png",
-  "Sunderland": "https://crests.football-data.org/71.png",
-  "Jagiellonia Bialystok": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
-  "Aston Villa": "https://crests.football-data.org/58.png",
-  "PEC Zwolle": "https://crests.football-data.org/684.png",
-  "SC Cambuur": "https://crests.football-data.org/1909.png",
-  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
-  "Everton": "https://crests.football-data.org/62.png",
-  "Dinamo Zagreb": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
-  "Slavia Praha": "https://crests.football-data.org/930.png",
-  "AGF": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
-  "Sassuolo": "https://crests.football-data.org/471.png",
-  "Le Mans": "https://crests.football-data.org/535.png",
-  "Egnatia": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
-  "Genoa": "https://crests.football-data.org/107.png",
-  "Go Ahead Eagles": "https://crests.football-data.org/718.png",
-  "Frosinone": "https://crests.football-data.org/470.png",
-  "SC Paderborn": "https://crests.football-data.org/29.png",
-  "Estoril Praia": "https://crests.football-data.org/582.png",
-  "Barcelona": "https://crests.football-data.org/81.png",
-  "Auxerre": "https://crests.football-data.org/519.png",
-  "SK Brann": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
-  "Feyenoord": "https://crests.football-data.org/675.png",
-  "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-  "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-  "Schalke 04": "https://crests.football-data.org/6.png",
-  "Real Betis": "https://crests.football-data.org/90.png",
-  "Manchester City": "https://crests.football-data.org/65.png",
-  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
-  "Panathinaikos": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
-  "KuPS Kuopio": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
-  "Hoffenheim": "https://crests.football-data.org/2.png",
-  "Fiorentina": "https://crests.football-data.org/99.png",
-  "KAA Gent": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
-  "Udinese": "https://crests.football-data.org/115.png",
-  "Inter": "https://crests.football-data.org/108.png",
-  "Elche": "https://crests.football-data.org/285.png",
-  "Lazio": "https://crests.football-data.org/110.png",
-  "Rayo Vallecano": "https://crests.football-data.org/87.png",
-  "Lecce": "https://crests.football-data.org/5890.png",
-  "Sl. Bratislava": "https://crests.football-data.org/7509.png",
-  "Chelsea": "https://crests.football-data.org/61.png",
-  "Casa Pia": "https://crests.football-data.org/6618.png",
-  "Paris FC": "https://crests.football-data.org/1045.png",
-  "Fulham": "https://crests.football-data.org/63.png",
-  "Coventry City": "https://crests.football-data.org/1076.png",
-  "NK Celje": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
-  "Espanyol": "https://crests.football-data.org/80.png",
-  "Sparta Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
-  "AC Milan": "https://crests.football-data.org/98.png",
-  "Alavés": "https://crests.football-data.org/263.png",
-  "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
-  "SC Freiburg": "https://crests.football-data.org/17.png",
-  "Lorient": "https://crests.football-data.org/525.png",
-  "Werder Bremen": "https://crests.football-data.org/12.png",
-  "Sint-Truidense": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
-  "Nice": "https://crests.football-data.org/522.png",
-  "Villarreal": "https://crests.football-data.org/94.png",
-  "Galatasaray": "https://crests.football-data.org/610.png",
-  "Rio Ave": "https://crests.football-data.org/496.png",
-  "Ajax": "https://crests.football-data.org/678.png",
-  "Benfica": "https://crests.football-data.org/1903.png",
-  "Moreirense": "https://crests.football-data.org/583.png",
-  "LASK": "https://crests.football-data.org/2016.png",
-  "CSKA Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
-  "Brentford": "https://crests.football-data.org/402.png",
-  "Arouca": "https://crests.football-data.org/712.png",
-  "Manchester United": "https://crests.football-data.org/66.png",
-  "Mainz": "https://crests.football-data.org/15.png",
   "PAE AEK": "https://crests.football-data.org/1899.png",
-  "Marseille": "https://crests.football-data.org/516.png",
-  "Bodø/Glimt": "https://crests.football-data.org/5721.png",
-  "Famalicão": "https://crests.football-data.org/5531.png",
-  "Inter D'Escaldes": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png",
-  "Celtic": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
-  "PSV": "https://crests.football-data.org/674.png",
-  "Le Havre": "https://crests.football-data.org/533.png",
-  "Bayer Leverkusen": "https://crests.football-data.org/3.png",
-  "Málaga": "https://crests.football-data.org/84.png",
-  "Levante": "https://crests.football-data.org/88.png",
-  "Marítimo": "https://crests.football-data.org/5575.png",
-  "RB Leipzig": "https://crests.football-data.org/721.png",
-  "Mjällby AIF": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
-  "Brest": "https://crests.football-data.org/512.png",
-  "Lyon": "https://crests.football-data.org/523.png",
-  "Valencia": "https://crests.football-data.org/95.png",
-  "Club Brugge": "https://crests.football-data.org/851.png",
-  "Excelsior": "https://crests.football-data.org/670.png",
-  "Nacional": "https://crests.football-data.org/5529.png",
-  "FC Augsburg": "https://crests.football-data.org/16.png",
-  "Lille": "https://crests.football-data.org/521.png",
-  "Leeds United": "https://crests.football-data.org/341.png",
-  "Nottingham Forest": "https://crests.football-data.org/351.png",
-  "Torreense": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
-  "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
-  "Torino": "https://crests.football-data.org/586.png",
-  "Tottenham Hotspur": "https://crests.football-data.org/73.png",
-  "Alverca": "https://crests.football-data.org/7822.png",
-  "Atalanta": "https://crests.football-data.org/102.png",
-  "Newcastle United": "https://crests.football-data.org/67.png",
-  "Viking": "https://crests.football-data.org/5720.png",
-  "Heart of Midlothian": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
-  "Lillestrom": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
-  "Union St.-Gilloise": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
-  "NEC": "https://crests.football-data.org/1915.png",
-  "FC Lugano": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
-  "OFI Crete": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
-  "Juventus": "https://crests.football-data.org/109.png",
-  "Olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
-  "Willem II": "https://crests.football-data.org/672.png",
-  "Liverpool": "https://crests.football-data.org/64.png",
-  "Bologna": "https://crests.football-data.org/103.png",
-  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
+  "Real Sociedad": "https://crests.football-data.org/92.png",
+  "Sl. Bratislava": "https://crests.football-data.org/7509.png",
   "Pafos": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
-  "Como": "https://crests.football-data.org/7397.png",
-  "Strasbourg": "https://crests.football-data.org/576.png",
-  "FC Thun": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
-  "Lens": "https://crests.football-data.org/546.png",
-  "F.C. København": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+  "Barcelona": "https://crests.football-data.org/81.png",
+  "Dinamo Zagreb": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+  "Tottenham Hotspur": "https://crests.football-data.org/73.png",
+  "Celta Vigo": "https://crests.football-data.org/558.png",
+  "Lillestrom": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
+  "Angers": "https://crests.football-data.org/532.png",
+  "Olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+  "Crystal Palace": "https://crests.football-data.org/354.png",
+  "Manchester United": "https://crests.football-data.org/66.png",
+  "Getafe": "https://crests.football-data.org/82.png",
+  "Newcastle United": "https://crests.football-data.org/67.png",
+  "Udinese": "https://crests.football-data.org/115.png",
+  "Marítimo": "https://crests.football-data.org/5575.png",
+  "Heart of Midlothian": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+  "Feyenoord": "https://crests.football-data.org/675.png",
+  "Parma": "https://crests.football-data.org/112.png",
+  "Torreense": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+  "Hajduk Split": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
+  "SC Heerenveen": "https://crests.football-data.org/673.png",
+  "SK Brann": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
+  "Levski Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+  "Riga FC": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
+  "Bayern Munich": "https://crests.football-data.org/5.png",
+  "Leeds United": "https://crests.football-data.org/341.png",
+  "Nice": "https://crests.football-data.org/522.png",
+  "Lille": "https://crests.football-data.org/521.png",
+  "Mainz": "https://crests.football-data.org/15.png",
+  "Manchester City": "https://crests.football-data.org/65.png",
+  "Jablonec": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
+  "Brentford": "https://crests.football-data.org/402.png",
+  "CSKA Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
+  "Red Star Belgrade": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
+  "Sparta Rotterdam": "https://crests.football-data.org/6806.png",
+  "Venezia": "https://crests.football-data.org/454.png",
+  "Espanyol": "https://crests.football-data.org/80.png",
+  "Gil Vicente": "https://crests.football-data.org/5533.png",
+  "Benfica": "https://crests.football-data.org/1903.png",
+  "AZ": "https://crests.football-data.org/682.png",
+  "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
+  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
+  "Famalicão": "https://crests.football-data.org/5531.png",
   "Lincoln Red Imps": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
-  "Utrecht": "https://crests.football-data.org/676.png"
+  "Viking": "https://crests.football-data.org/5720.png",
+  "Borussia Dortmund": "https://crests.football-data.org/4.png",
+  "Lazio": "https://crests.football-data.org/110.png",
+  "Sint-Truidense": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
+  "Monza": "https://crests.football-data.org/5911.png",
+  "Everton": "https://crests.football-data.org/62.png",
+  "Fiorentina": "https://crests.football-data.org/99.png",
+  "Iberia 1999": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
+  "Rio Ave": "https://crests.football-data.org/496.png",
+  "Liverpool": "https://crests.football-data.org/64.png",
+  "NK Celje": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+  "Real Madrid": "https://crests.football-data.org/86.png",
+  "FC Midtjylland": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
+  "Bologna": "https://crests.football-data.org/103.png",
+  "Le Mans": "https://crests.football-data.org/535.png",
+  "Lens": "https://crests.football-data.org/546.png",
+  "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+  "Valencia": "https://crests.football-data.org/95.png",
+  "SC Freiburg": "https://crests.football-data.org/17.png",
+  "FC Twente": "https://crests.football-data.org/666.png",
+  "Genoa": "https://crests.football-data.org/107.png",
+  "Omonia Nicosia": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+  "Racing Santander": "https://crests.football-data.org/5335.png",
+  "RB Leipzig": "https://crests.football-data.org/721.png",
+  "SC Paderborn": "https://crests.football-data.org/29.png",
+  "Arouca": "https://crests.football-data.org/712.png",
+  "Napoli": "https://crests.football-data.org/113.png",
+  "Union St.-Gilloise": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+  "Amadora": "https://crests.football-data.org/9136.png",
+  "Inter": "https://crests.football-data.org/108.png",
+  "FC Thun": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
+  "Lech Poznan": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
+  "Lyon": "https://crests.football-data.org/523.png",
+  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
+  "Strasbourg": "https://crests.football-data.org/576.png",
+  "Galatasaray": "https://crests.football-data.org/610.png",
+  "Alverca": "https://crests.football-data.org/7822.png",
+  "Málaga": "https://crests.football-data.org/84.png",
+  "VfB Stuttgart": "https://crests.football-data.org/10.png",
+  "Hapoel Be'er": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+  "Ajax": "https://crests.football-data.org/678.png",
+  "Paris FC": "https://crests.football-data.org/1045.png",
+  "LASK": "https://crests.football-data.org/2016.png",
+  "Marseille": "https://crests.football-data.org/516.png",
+  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
+  "Coventry City": "https://crests.football-data.org/1076.png",
+  "Cagliari": "https://crests.football-data.org/104.png",
+  "Moreirense": "https://crests.football-data.org/583.png",
+  "Acad. Viseu": "https://crests.football-data.org/5527.png",
+  "Estoril Praia": "https://crests.football-data.org/582.png",
+  "Casa Pia": "https://crests.football-data.org/6618.png",
+  "Ipswich Town": "https://crests.football-data.org/349.png",
+  "ADO Den Haag": "https://crests.football-data.org/680.png",
+  "FC Groningen": "https://crests.football-data.org/677.png",
+  "Monaco": "https://crests.football-data.org/548.png",
+  "Rennes": "https://crests.football-data.org/529.png",
+  "Nottingham Forest": "https://crests.football-data.org/351.png",
+  "Lecce": "https://crests.football-data.org/5890.png",
+  "Telstar": "https://crests.football-data.org/1912.png",
+  "Atlético Madrid": "https://crests.football-data.org/78.png",
+  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
+  "PSV": "https://crests.football-data.org/674.png",
+  "Fulham": "https://crests.football-data.org/63.png",
+  "SC Cambuur": "https://crests.football-data.org/1909.png",
+  "Vitória SC": "https://crests.football-data.org/5543.png",
+  "Juventus": "https://crests.football-data.org/109.png",
+  "FC Augsburg": "https://crests.football-data.org/16.png",
+  "Anderlecht": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
+  "Roma": "https://crests.football-data.org/100.png",
+  "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+  "Villarreal": "https://crests.football-data.org/94.png",
+  "Werder Bremen": "https://crests.football-data.org/12.png",
+  "Athletic Club": "https://crests.football-data.org/77.png",
+  "RB Salzburg": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+  "F.C. København": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+  "Kauno Zalgiris": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
+  "Lorient": "https://crests.football-data.org/525.png",
+  "Celtic": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+  "Frosinone": "https://crests.football-data.org/470.png",
+  "Elche": "https://crests.football-data.org/285.png",
+  "FC Lugano": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
+  "Como": "https://crests.football-data.org/7397.png",
+  "Rayo Vallecano": "https://crests.football-data.org/87.png",
+  "AGF": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
+  "Slavia Praha": "https://crests.football-data.org/930.png",
+  "Chelsea": "https://crests.football-data.org/61.png",
+  "Sassuolo": "https://crests.football-data.org/471.png",
+  "Toulouse": "https://crests.football-data.org/511.png",
+  "NEC": "https://crests.football-data.org/1915.png",
+  "Union Berlin": "https://crests.football-data.org/28.png",
+  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
+  "Auxerre": "https://crests.football-data.org/519.png",
+  "KAA Gent": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
+  "Bayer Leverkusen": "https://crests.football-data.org/3.png",
+  "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+  "Fenerbahçe": "https://crests.football-data.org/613.png",
+  "Sparta Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+  "Torino": "https://crests.football-data.org/586.png",
+  "Sporting CP": "https://crests.football-data.org/498.png",
+  "Alavés": "https://crests.football-data.org/263.png",
+  "Braga": "https://crests.football-data.org/5613.png",
+  "PEC Zwolle": "https://crests.football-data.org/684.png",
+  "Levante": "https://crests.football-data.org/88.png",
+  "Panathinaikos": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+  "Jagiellonia Bialystok": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+  "Sunderland": "https://crests.football-data.org/71.png",
+  "Inter D'Escaldes": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png",
+  "Ferencvaros": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+  "Hamburger SV": "https://crests.football-data.org/7.png",
+  "Mjällby AIF": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
+  "Nacional": "https://crests.football-data.org/5529.png",
+  "KuPS Kuopio": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
+  "Egnatia": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
+  "Brighton & Hove Albion": "https://crests.football-data.org/397.png",
+  "Club Brugge": "https://crests.football-data.org/851.png",
+  "Hull City": "https://crests.football-data.org/322.png",
+  "Bodø/Glimt": "https://crests.football-data.org/5721.png",
+  "Willem II": "https://crests.football-data.org/672.png",
+  "Excelsior": "https://crests.football-data.org/670.png",
+  "Go Ahead Eagles": "https://crests.football-data.org/718.png",
+  "Porto": "https://crests.football-data.org/503.png",
+  "SK Sturm Graz": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+  "Atalanta": "https://crests.football-data.org/102.png",
+  "Troyes": "https://crests.football-data.org/531.png",
+  "Viktoria Plzen": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+  "AC Milan": "https://crests.football-data.org/98.png",
+  "FC Nordsjælland": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
+  "Shaktar": "https://crests.football-data.org/1887.png",
+  "Sabah FK": "https://crests.football-data.org/10233.png",
+  "Fortuna Sittard": "https://crests.football-data.org/1920.png",
+  "Real Betis": "https://crests.football-data.org/90.png",
+  "Hoffenheim": "https://crests.football-data.org/2.png",
+  "Ararat-Armenia": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+  "OFI Crete": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+  "Borac Banja Luka": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
+  "Le Havre": "https://crests.football-data.org/533.png",
+  "Arsenal": "https://crests.football-data.org/57.png",
+  "Schalke 04": "https://crests.football-data.org/6.png",
+  "Brest": "https://crests.football-data.org/512.png",
+  "Utrecht": "https://crests.football-data.org/676.png",
+  "Aston Villa": "https://crests.football-data.org/58.png",
+  "Elversberg": "https://crests.football-data.org/719.png",
+  "1. FC Köln": "https://crests.football-data.org/1.png"
  },
  "styles": {
   "1. FC Köln": {
