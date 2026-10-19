@@ -10,7 +10,7 @@ import euro_results, records, revenge, teams
 from fd_client import ROOT
 from match_teams import norm
 from score import context, score_match
-from stats import PARIS, load_europe, load_fd, team_results
+from stats import CRESTS, PARIS, load_europe, load_fd, team_results
 
 OUTPUT = ROOT / "output"
 
@@ -111,6 +111,7 @@ def build(now=None):
            "scale_reference": config["scale"]["reference"],
            "weights": {k: v for k, v in config["weights"].items() if v},
            "matches": ranked, "warnings": warnings,
+           "crests": {t: CRESTS[t] for t in {x for m in ranked for x in (m["home"], m["away"])} if t in CRESTS},
            "unmatched_teams": sorted(registry.unmatched)}
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     write_results(matches, espn_ids, us_tv, registry, now)
@@ -171,7 +172,8 @@ def write_results(matches, espn_ids, us_tv, registry, now):
     rows.sort(key=lambda r: r["kickoff_paris"], reverse=True)
     teams_seen = {t for r in rows for t in (r["home"], r["away"])}
     aliases = {k: v for k, v in search_aliases(registry).items() if k in teams_seen}
-    out = {"generated_at": now.astimezone(PARIS).isoformat(), "matches": rows, "aliases": aliases}
+    out = {"generated_at": now.astimezone(PARIS).isoformat(), "matches": rows, "aliases": aliases,
+           "crests": {t: CRESTS[t] for t in teams_seen if t in CRESTS}}
     (OUTPUT / "results.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 

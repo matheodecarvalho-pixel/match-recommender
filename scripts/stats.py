@@ -18,6 +18,11 @@ def _utc(s):
     return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc)
 
 
+# Team key -> badge URL, filled while loading (football-data.org crests, ESPN logos).
+CRESTS = {}
+ESPN_LOGO = "https://a.espncdn.com/i/teamlogos/soccer/500/{}.png"
+
+
 def load_fd(raw_dir, registry):
     """Matches and tables from football-data.org raw files."""
     matches, tables = [], {}
@@ -28,6 +33,9 @@ def load_fd(raw_dir, registry):
         for m in json.loads(path.read_text(encoding="utf-8"))["matches"]:
             if not m["homeTeam"].get("id") or not m["awayTeam"].get("id"):
                 continue  # knockout slot not decided yet
+            for side in ("homeTeam", "awayTeam"):
+                if m[side].get("crest"):
+                    CRESTS.setdefault(registry.from_fd(m[side]), m[side]["crest"])
             status = ("finished" if m["status"] == "FINISHED"
                       else "upcoming" if m["status"] in FD_UPCOMING else "other")
             full = m["score"]["fullTime"]
@@ -56,6 +64,8 @@ def load_europe(path, registry):
               for comp, rows in data.get("standings", {}).items() if rows}
     matches = []
     for m in data["matches"]:
+        for side in ("home", "away"):
+            CRESTS.setdefault(registry.from_espn(m[f"{side}_espn_id"], m[side]), ESPN_LOGO.format(m[f"{side}_espn_id"]))
         status = {"finished": "finished", "scheduled": "upcoming", "live": "upcoming"}.get(m["status"], "other")
         matches.append({
             "id": f"espn-{m['id']}", "competition": m["competition"], "stage": m.get("stage"),

@@ -328,8 +328,20 @@ async function paintCentre(node) {
     el("p", { class: "quiet" }, "Data: ESPN"));
 }
 
-function team(name) {
-  return isFavourite(name) ? el("span", { class: "fav" }, "★ " + name) : name;
+const crests = {};  // team -> badge URL, from matches_ranked.json and results.json
+
+function crest(name) {
+  const url = crests[name];
+  if (!url) return null;
+  const img = el("img", { class: "crest", src: url, alt: "", width: "20", height: "20", loading: "lazy", decoding: "async" });
+  img.addEventListener("error", () => img.remove());  // a missing badge just disappears
+  return img;
+}
+
+// A team name with its badge; `after` puts the badge on the right (away side of a result).
+function team(name, after = false) {
+  const label = isFavourite(name) ? el("span", { class: "fav" }, "★ " + name) : el("span", {}, name);
+  return el("span", { class: "team" }, after ? [label, crest(name)] : [crest(name), label]);
 }
 
 function breakdown(m) {
@@ -466,7 +478,7 @@ function resultRow(m) {
     el("div", { class: "result-line" },
       el("span", { class: "side" + (homeWon && !hideScores ? " won" : "") }, team(m.home)),
       score,
-      el("span", { class: "side away" + (awayWon && !hideScores ? " won" : "") }, team(m.away))));
+      el("span", { class: "side away" + (awayWon && !hideScores ? " won" : "") }, team(m.away, true))));
   node = el("article", { class: "card result" }, button, centre);
   if (m.espn) node.dataset.espn = m.espn.id;
   return node;
@@ -478,6 +490,7 @@ async function renderResults() {
     list.replaceChildren(el("p", { class: "empty" }, "Loading results…"));
     results = await fetchJson(RESULTS_SOURCES);
     if (!results) { list.replaceChildren(el("p", { class: "empty" }, "Couldn't load results.")); return; }
+    for (const [k, v] of Object.entries(results.crests || {})) crests[k] ??= v;
   }
   const q = fold(document.getElementById("search").value || "");
   const found = results.matches.filter(m => !hidden.has(m.competition) && matchesQuery(m, q));
@@ -641,6 +654,7 @@ function setupFeed() {
 Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   data = d;
   tv = t;
+  Object.assign(crests, d.crests || {});
   setupCountry();
   const when = new Date(d.generated_at);
   document.getElementById("updated").textContent =
