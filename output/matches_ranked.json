@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T20:37:52.396673+02:00",
+ "generated_at": "2026-10-19T20:54:45.351484+02:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 0,
@@ -36,16 +36,16 @@
    "story": "Both teams in form · Heavyweights: Europe's #4 v #6 · 4.6 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 5 of last 5",
      "Europe's #4 club",
      "3.6 goals per game lately"
     ],
     "away": [
-     "Won 5 of last 5",
      "Europe's #6 club",
      "5.6 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-8 spot"
+    ]
    },
    "breakdown": {
     "form": {
@@ -100,6 +100,62 @@
     "Paris Saint-Germain": 1,
     "Barcelona": 2
    },
+   "forms": {
+    "Paris Saint-Germain": [
+     [
+      "W",
+      "1-0",
+      "Brest"
+     ],
+     [
+      "W",
+      "2-1",
+      "Marseille"
+     ],
+     [
+      "W",
+      "3-1",
+      "Le Mans"
+     ],
+     [
+      "W",
+      "4-2",
+      "Manchester City"
+     ],
+     [
+      "W",
+      "3-1",
+      "Strasbourg"
+     ]
+    ],
+    "Barcelona": [
+     [
+      "W",
+      "7-2",
+      "Racing Santander"
+     ],
+     [
+      "W",
+      "3-1",
+      "Sevilla"
+     ],
+     [
+      "W",
+      "3-0",
+      "Getafe"
+     ],
+     [
+      "W",
+      "4-1",
+      "Galatasaray"
+     ],
+     [
+      "W",
+      "5-2",
+      "Real Betis"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915399",
     "league": "uefa.champions",
@@ -131,16 +187,16 @@
    "story": "Both teams in form · Heavyweights: Europe's #6 v #3 · 4.9 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 5 of last 5",
      "Europe's #6 club",
      "5.6 goals per game lately"
     ],
     "away": [
-     "Won 4 of last 5",
      "Europe's #3 club",
      "4.2 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "El Clásico"
+    ]
    },
    "breakdown": {
     "form": {
@@ -193,6 +249,62 @@
     "Barcelona": 1,
     "Real Madrid": 3
    },
+   "forms": {
+    "Barcelona": [
+     [
+      "W",
+      "7-2",
+      "Racing Santander"
+     ],
+     [
+      "W",
+      "3-1",
+      "Sevilla"
+     ],
+     [
+      "W",
+      "3-0",
+      "Getafe"
+     ],
+     [
+      "W",
+      "4-1",
+      "Galatasaray"
+     ],
+     [
+      "W",
+      "5-2",
+      "Real Betis"
+     ]
+    ],
+    "Real Madrid": [
+     [
+      "W",
+      "3-2",
+      "Elche"
+     ],
+     [
+      "L",
+      "1-2",
+      "Atlético Madrid"
+     ],
+     [
+      "W",
+      "1-0",
+      "Villarreal"
+     ],
+     [
+      "W",
+      "4-3",
+      "Roma"
+     ],
+     [
+      "W",
+      "4-1",
+      "Sevilla"
+     ]
+    ]
+   },
    "espn": {
     "id": "401882832",
     "league": "esp.1",
@@ -226,16 +338,16 @@
    "story": "Both teams in form · Heavyweights: Europe's #1 v #2 · 3.9 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "Europe's #1 club",
      "5.4 goals per game lately"
     ],
     "away": [
-     "Won 4 of last 5",
      "Europe's #2 club",
      "2.4 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-8 spot"
+    ]
    },
    "breakdown": {
     "form": {
@@ -288,6 +400,62 @@
     "Bayern Munich": 10,
     "Arsenal": 7
    },
+   "forms": {
+    "Bayern Munich": [
+     [
+      "W",
+      "2-1",
+      "Elversberg"
+     ],
+     [
+      "W",
+      "7-0",
+      "Union Berlin"
+     ],
+     [
+      "D",
+      "2-2",
+      "FC Augsburg"
+     ],
+     [
+      "D",
+      "3-3",
+      "Viking"
+     ],
+     [
+      "W",
+      "6-1",
+      "RB Leipzig"
+     ]
+    ],
+    "Arsenal": [
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ],
+     [
+      "L",
+      "0-3",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "2-1",
+      "Leeds United"
+     ],
+     [
+      "W",
+      "3-0",
+      "Lille"
+     ],
+     [
+      "W",
+      "1-0",
+      "Nottingham Forest"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915312",
     "league": "uefa.champions",
@@ -319,15 +487,15 @@
    "story": "Both teams in form · 3.6 goals per game lately · Noham Kamara faces his former club",
    "story_sides": {
     "home": [
-     "Won 5 of last 5",
      "3.6 goals per game lately"
     ],
     "away": [
-     "Won 4 of last 5",
      "3.6 goals per game lately",
      "Noham Kamara faces his former club"
     ],
-    "both": []
+    "both": [
+     "Title race: 0 pts between them"
+    ]
    },
    "breakdown": {
     "form": {
@@ -380,6 +548,62 @@
     "Paris Saint-Germain": 2,
     "Lyon": 1
    },
+   "forms": {
+    "Paris Saint-Germain": [
+     [
+      "W",
+      "1-0",
+      "Brest"
+     ],
+     [
+      "W",
+      "2-1",
+      "Marseille"
+     ],
+     [
+      "W",
+      "3-1",
+      "Le Mans"
+     ],
+     [
+      "W",
+      "4-2",
+      "Manchester City"
+     ],
+     [
+      "W",
+      "3-1",
+      "Strasbourg"
+     ]
+    ],
+    "Lyon": [
+     [
+      "W",
+      "2-1",
+      "Anderlecht"
+     ],
+     [
+      "W",
+      "4-0",
+      "Rennes"
+     ],
+     [
+      "L",
+      "1-2",
+      "Lens"
+     ],
+     [
+      "W",
+      "3-2",
+      "Crystal Palace"
+     ],
+     [
+      "W",
+      "2-1",
+      "Nice"
+     ]
+    ]
+   },
    "espn": {
     "id": "401876422",
     "league": "fra.1",
@@ -409,16 +633,16 @@
    "story": "Wins in last 5: 4 v 3 · 4.2 goals per game lately · Heavyweights: Europe's #3 v #37",
    "story_sides": {
     "home": [
-     "Won 4 of last 5",
      "4.2 goals per game lately",
      "Europe's #3 club"
     ],
     "away": [
-     "Won 3 of last 5",
      "4.2 goals per game lately",
      "Europe's #37 club"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-8 spot"
+    ]
    },
    "breakdown": {
     "form": {
@@ -470,6 +694,62 @@
     "Real Madrid": 8,
     "RB Leipzig": 21
    },
+   "forms": {
+    "Real Madrid": [
+     [
+      "W",
+      "3-2",
+      "Elche"
+     ],
+     [
+      "L",
+      "1-2",
+      "Atlético Madrid"
+     ],
+     [
+      "W",
+      "1-0",
+      "Villarreal"
+     ],
+     [
+      "W",
+      "4-3",
+      "Roma"
+     ],
+     [
+      "W",
+      "4-1",
+      "Sevilla"
+     ]
+    ],
+    "RB Leipzig": [
+     [
+      "W",
+      "5-0",
+      "Hamburger SV"
+     ],
+     [
+      "L",
+      "0-2",
+      "Bayer Leverkusen"
+     ],
+     [
+      "W",
+      "6-0",
+      "Eintracht Frankfurt"
+     ],
+     [
+      "W",
+      "1-0",
+      "PSV"
+     ],
+     [
+      "L",
+      "1-6",
+      "Bayern Munich"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915313",
     "league": "uefa.champions",
@@ -501,12 +781,11 @@
    "story": "Both teams in form · 4.8 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "4.4 goals per game lately"
     ],
     "away": [
-     "Won 5 of last 5",
-     "5.2 goals per game lately"
+     "5.2 goals per game lately",
+     "Lost 2-1 to them in the Europa League (January 2026)"
     ],
     "both": [
      "Fight for a top-8 spot"
@@ -559,6 +838,62 @@
     "Real Betis": 9,
     "Feyenoord": 23
    },
+   "forms": {
+    "Real Betis": [
+     [
+      "W",
+      "1-0",
+      "Getafe"
+     ],
+     [
+      "D",
+      "1-1",
+      "Deportivo La Coruña"
+     ],
+     [
+      "W",
+      "5-2",
+      "Osasuna"
+     ],
+     [
+      "W",
+      "3-2",
+      "Porto"
+     ],
+     [
+      "L",
+      "2-5",
+      "Barcelona"
+     ]
+    ],
+    "Feyenoord": [
+     [
+      "W",
+      "7-0",
+      "PEC Zwolle"
+     ],
+     [
+      "W",
+      "5-0",
+      "Utrecht"
+     ],
+     [
+      "W",
+      "2-0",
+      "AZ"
+     ],
+     [
+      "W",
+      "3-2",
+      "Como"
+     ],
+     [
+      "W",
+      "4-3",
+      "Telstar"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915389",
     "league": "uefa.champions",
@@ -590,12 +925,11 @@
    "story": "Both teams in form · 2.9 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.2 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5",
-     "2.6 goals per game lately"
+     "2.6 goals per game lately",
+     "Usually finish 6th: under par"
     ],
     "both": [
      "Fight for a top-8 spot"
@@ -650,6 +984,62 @@
     "Liverpool": 5,
     "Villarreal": 14
    },
+   "forms": {
+    "Liverpool": [
+     [
+      "D",
+      "0-0",
+      "Fulham"
+     ],
+     [
+      "W",
+      "1-0",
+      "AFC Bournemouth"
+     ],
+     [
+      "L",
+      "0-3",
+      "Manchester City"
+     ],
+     [
+      "W",
+      "6-3",
+      "LASK"
+     ],
+     [
+      "W",
+      "2-1",
+      "Brentford"
+     ]
+    ],
+    "Villarreal": [
+     [
+      "W",
+      "3-1",
+      "Málaga"
+     ],
+     [
+      "W",
+      "3-1",
+      "Levante"
+     ],
+     [
+      "L",
+      "0-1",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "3-1",
+      "Napoli"
+     ],
+     [
+      "D",
+      "0-0",
+      "Elche"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915397",
     "league": "uefa.champions",
@@ -681,16 +1071,16 @@
    "story": "Both teams in form · Heavyweights: Europe's #5 v #28 · 4.1 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "Europe's #5 club",
      "5.2 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "Europe's #28 club",
      "3.0 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-24 spot"
+    ]
    },
    "breakdown": {
     "form": {
@@ -739,6 +1129,52 @@
     "Inter": 29,
     "Shaktar": 11
    },
+   "forms": {
+    "Inter": [
+     [
+      "W",
+      "5-3",
+      "Udinese"
+     ],
+     [
+      "D",
+      "2-2",
+      "Roma"
+     ],
+     [
+      "W",
+      "3-0",
+      "Parma"
+     ],
+     [
+      "L",
+      "3-4",
+      "Club Brugge"
+     ],
+     [
+      "W",
+      "3-1",
+      "Bologna"
+     ]
+    ],
+    "Shaktar": [
+     [
+      "D",
+      "1-1",
+      "PSV"
+     ],
+     [
+      "W",
+      "3-0",
+      "Kryvbas KR"
+     ],
+     [
+      "W",
+      "3-1",
+      "PAE AEK"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915390",
     "league": "uefa.champions",
@@ -771,12 +1207,11 @@
    "story": "Both teams in form · Heavyweights: Europe's #12 v #8 · 4.2 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "Europe's #12 club",
-     "3.8 goals per game lately"
+     "3.8 goals per game lately",
+     "Usually finish 7th: under par"
     ],
     "away": [
-     "Won 4 of last 5",
      "Europe's #8 club",
      "4.6 goals per game lately"
     ],
@@ -829,6 +1264,62 @@
    "positions": {
     "Aston Villa": 12,
     "Manchester City": 1
+   },
+   "forms": {
+    "Aston Villa": [
+     [
+      "L",
+      "1-2",
+      "Nottingham Forest"
+     ],
+     [
+      "W",
+      "3-2",
+      "Tottenham Hotspur"
+     ],
+     [
+      "D",
+      "2-2",
+      "Brentford"
+     ],
+     [
+      "W",
+      "6-0",
+      "Fenerbahçe"
+     ],
+     [
+      "W",
+      "1-0",
+      "Newcastle United"
+     ]
+    ],
+    "Manchester City": [
+     [
+      "W",
+      "1-0",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "5-3",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "3-0",
+      "Liverpool"
+     ],
+     [
+      "L",
+      "2-4",
+      "Paris Saint-Germain"
+     ],
+     [
+      "W",
+      "3-2",
+      "Ipswich Town"
+     ]
+    ]
    },
    "espn": {
     "id": "401879256",
@@ -919,6 +1410,62 @@
     "Chelsea": 4,
     "Tottenham Hotspur": 20
    },
+   "forms": {
+    "Chelsea": [
+     [
+      "L",
+      "1-2",
+      "Arsenal"
+     ],
+     [
+      "D",
+      "2-2",
+      "Hull City"
+     ],
+     [
+      "L",
+      "0-3",
+      "Brentford"
+     ],
+     [
+      "W",
+      "5-1",
+      "AFC Bournemouth"
+     ],
+     [
+      "W",
+      "2-0",
+      "Everton"
+     ]
+    ],
+    "Tottenham Hotspur": [
+     [
+      "L",
+      "0-2",
+      "Newcastle United"
+     ],
+     [
+      "D",
+      "0-0",
+      "Nottingham Forest"
+     ],
+     [
+      "D",
+      "0-0",
+      "Everton"
+     ],
+     [
+      "L",
+      "2-3",
+      "Aston Villa"
+     ],
+     [
+      "D",
+      "1-1",
+      "Manchester United"
+     ]
+    ]
+   },
    "espn": {
     "id": "401878767",
     "league": "eng.1",
@@ -948,15 +1495,14 @@
    "story": "Wins in last 5: 2 v 5 · 4.2 goals per game lately · Title race: 4 pts between them",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "3.2 goals per game lately"
     ],
     "away": [
-     "Won 5 of last 5",
      "5.2 goals per game lately"
     ],
     "both": [
-     "Title race: 4 pts between them"
+     "Title race: 4 pts between them",
+     "Big Three rivalry"
     ]
    },
    "breakdown": {
@@ -1006,6 +1552,62 @@
     "PSV": 3,
     "Feyenoord": 1
    },
+   "forms": {
+    "PSV": [
+     [
+      "W",
+      "4-1",
+      "Sparta Rotterdam"
+     ],
+     [
+      "L",
+      "2-3",
+      "FC Twente"
+     ],
+     [
+      "W",
+      "2-0",
+      "SC Heerenveen"
+     ],
+     [
+      "L",
+      "0-1",
+      "RB Leipzig"
+     ],
+     [
+      "L",
+      "1-2",
+      "ADO Den Haag"
+     ]
+    ],
+    "Feyenoord": [
+     [
+      "W",
+      "7-0",
+      "PEC Zwolle"
+     ],
+     [
+      "W",
+      "5-0",
+      "Utrecht"
+     ],
+     [
+      "W",
+      "2-0",
+      "AZ"
+     ],
+     [
+      "W",
+      "3-2",
+      "Como"
+     ],
+     [
+      "W",
+      "4-3",
+      "Telstar"
+     ]
+    ]
+   },
    "espn": {
     "id": "401875568",
     "league": "ned.1",
@@ -1037,16 +1639,16 @@
    "story": "Both teams in form · Heavyweights: Europe's #29 v #1 · 4.7 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "Europe's #29 club",
      "4.0 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5",
      "Europe's #1 club",
      "5.4 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Title race: 1 pts between them"
+    ]
    },
    "breakdown": {
     "form": {
@@ -1098,6 +1700,62 @@
     "SC Freiburg": 3,
     "Bayern Munich": 1
    },
+   "forms": {
+    "SC Freiburg": [
+     [
+      "W",
+      "5-0",
+      "Borussia Mönchengladbach"
+     ],
+     [
+      "D",
+      "2-2",
+      "Eintracht Frankfurt"
+     ],
+     [
+      "W",
+      "2-1",
+      "Schalke 04"
+     ],
+     [
+      "W",
+      "3-2",
+      "Jablonec"
+     ],
+     [
+      "L",
+      "1-2",
+      "Bayer Leverkusen"
+     ]
+    ],
+    "Bayern Munich": [
+     [
+      "W",
+      "2-1",
+      "Elversberg"
+     ],
+     [
+      "W",
+      "7-0",
+      "Union Berlin"
+     ],
+     [
+      "D",
+      "2-2",
+      "FC Augsburg"
+     ],
+     [
+      "D",
+      "3-3",
+      "Viking"
+     ],
+     [
+      "W",
+      "6-1",
+      "RB Leipzig"
+     ]
+    ]
+   },
    "espn": {
     "id": "401884759",
     "league": "ger.1",
@@ -1129,12 +1787,10 @@
    "story": "Both teams in form · 4.4 goals per game lately · Aston Villa usually finish 7th: under par",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.8 goals per game lately",
      "Usually finish 7th: under par"
     ],
     "away": [
-     "Won 4 of last 5",
      "5.0 goals per game lately"
     ],
     "both": []
@@ -1185,6 +1841,62 @@
     "Aston Villa": 3,
     "Viking": 27
    },
+   "forms": {
+    "Aston Villa": [
+     [
+      "L",
+      "1-2",
+      "Nottingham Forest"
+     ],
+     [
+      "W",
+      "3-2",
+      "Tottenham Hotspur"
+     ],
+     [
+      "D",
+      "2-2",
+      "Brentford"
+     ],
+     [
+      "W",
+      "6-0",
+      "Fenerbahçe"
+     ],
+     [
+      "W",
+      "1-0",
+      "Newcastle United"
+     ]
+    ],
+    "Viking": [
+     [
+      "W",
+      "8-1",
+      "Kristiansund BK"
+     ],
+     [
+      "W",
+      "3-0",
+      "Lillestrom"
+     ],
+     [
+      "W",
+      "2-0",
+      "SK Brann"
+     ],
+     [
+      "D",
+      "3-3",
+      "Bayern Munich"
+     ],
+     [
+      "W",
+      "3-2",
+      "Fredrikstad"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915394",
     "league": "uefa.champions",
@@ -1217,15 +1929,15 @@
    "story_sides": {
     "home": [
      "Europe's #16 club",
-     "3.8 goals per game lately",
-     "Won 3 of last 5"
+     "3.8 goals per game lately"
     ],
     "away": [
      "Europe's #23 club",
-     "3.2 goals per game lately",
-     "Won 2 of last 5"
+     "3.2 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-24 spot"
+    ]
    },
    "breakdown": {
     "form": {
@@ -1276,6 +1988,62 @@
     "Porto": 30,
     "PSV": 26
    },
+   "forms": {
+    "Porto": [
+     [
+      "L",
+      "0-2",
+      "Manchester City"
+     ],
+     [
+      "W",
+      "4-1",
+      "Casa Pia"
+     ],
+     [
+      "W",
+      "3-1",
+      "Benfica"
+     ],
+     [
+      "W",
+      "2-1",
+      "Marítimo"
+     ],
+     [
+      "L",
+      "2-3",
+      "Real Betis"
+     ]
+    ],
+    "PSV": [
+     [
+      "W",
+      "4-1",
+      "Sparta Rotterdam"
+     ],
+     [
+      "L",
+      "2-3",
+      "FC Twente"
+     ],
+     [
+      "W",
+      "2-0",
+      "SC Heerenveen"
+     ],
+     [
+      "L",
+      "0-1",
+      "RB Leipzig"
+     ],
+     [
+      "L",
+      "1-2",
+      "ADO Den Haag"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915398",
     "league": "uefa.champions",
@@ -1308,15 +2076,15 @@
    "story": "Both teams in form · 3.5 goals per game lately · Brighton & Hove Albion usually finish 8th: punching above their weight",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.2 goals per game lately"
     ],
     "away": [
-     "Won 5 of last 5",
      "3.8 goals per game lately",
      "Usually finish 8th: punching above their weight"
     ],
-    "both": []
+    "both": [
+     "Evenly matched"
+    ]
    },
    "breakdown": {
     "form": {
@@ -1366,6 +2134,62 @@
     "Liverpool": 5,
     "Brighton & Hove Albion": 3
    },
+   "forms": {
+    "Liverpool": [
+     [
+      "D",
+      "0-0",
+      "Fulham"
+     ],
+     [
+      "W",
+      "1-0",
+      "AFC Bournemouth"
+     ],
+     [
+      "L",
+      "0-3",
+      "Manchester City"
+     ],
+     [
+      "W",
+      "6-3",
+      "LASK"
+     ],
+     [
+      "W",
+      "2-1",
+      "Brentford"
+     ]
+    ],
+    "Brighton & Hove Albion": [
+     [
+      "W",
+      "5-0",
+      "Coventry City"
+     ],
+     [
+      "W",
+      "3-0",
+      "Arsenal"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "4-0",
+      "Kauno Zalgiris"
+     ],
+     [
+      "W",
+      "5-0",
+      "Crystal Palace"
+     ]
+    ]
+   },
    "espn": {
     "id": "401878765",
     "league": "eng.1",
@@ -1395,11 +2219,10 @@
    "story": "Wins in last 5: 2 v 5 · Fight for a top-8 spot · 2.3 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
-     "2.0 goals per game lately"
+     "2.0 goals per game lately",
+     "Usually finish 9th: under par"
     ],
     "away": [
-     "Won 5 of last 5",
      "2.6 goals per game lately"
     ],
     "both": [
@@ -1453,6 +2276,62 @@
     "VfB Stuttgart": 4,
     "Atlético Madrid": 15
    },
+   "forms": {
+    "VfB Stuttgart": [
+     [
+      "L",
+      "1-2",
+      "Hoffenheim"
+     ],
+     [
+      "L",
+      "0-1",
+      "Borussia Dortmund"
+     ],
+     [
+      "W",
+      "2-0",
+      "SC Paderborn"
+     ],
+     [
+      "W",
+      "3-0",
+      "Sl. Bratislava"
+     ],
+     [
+      "L",
+      "0-1",
+      "Hamburger SV"
+     ]
+    ],
+    "Atlético Madrid": [
+     [
+      "W",
+      "4-0",
+      "Osasuna"
+     ],
+     [
+      "W",
+      "2-1",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "2-1",
+      "Alavés"
+     ],
+     [
+      "W",
+      "2-0",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "1-0",
+      "Espanyol"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915392",
     "league": "uefa.champions",
@@ -1484,15 +2363,14 @@
    "story": "Wins in last 5: 4 v 2 · 4.0 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 4 of last 5",
      "4.8 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "3.2 goals per game lately"
     ],
     "both": [
-     "Fight for a top-8 spot"
+     "Fight for a top-8 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -1543,6 +2421,62 @@
     "Club Brugge": 16,
     "Lens": 19
    },
+   "forms": {
+    "Club Brugge": [
+     [
+      "L",
+      "2-3",
+      "Aston Villa"
+     ],
+     [
+      "W",
+      "3-1",
+      "Antwerp"
+     ],
+     [
+      "W",
+      "3-0",
+      "Racing Genk"
+     ],
+     [
+      "W",
+      "4-1",
+      "RAAL La Louvière"
+     ],
+     [
+      "W",
+      "4-3",
+      "Inter"
+     ]
+    ],
+    "Lens": [
+     [
+      "D",
+      "2-2",
+      "Le Mans"
+     ],
+     [
+      "L",
+      "1-2",
+      "Monaco"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lyon"
+     ],
+     [
+      "L",
+      "0-2",
+      "Sporting CP"
+     ],
+     [
+      "W",
+      "3-1",
+      "Troyes"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915388",
     "league": "uefa.champions",
@@ -1564,7 +2498,7 @@
    "home": "Napoli",
    "away": "Roma",
    "score": 64,
-   "base": 58.8,
+   "base": 58.9,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -1575,15 +2509,15 @@
    "story_sides": {
     "home": [
      "Europe's #26 club",
-     "Won 2 of last 5",
      "2.2 goals per game lately"
     ],
     "away": [
      "Europe's #13 club",
-     "Won 2 of last 5",
      "3.0 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Derby del Sole"
+    ]
    },
    "breakdown": {
     "form": {
@@ -1593,8 +2527,8 @@
      "reason": "Wins in last 5: 2 v 2"
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
+     "value": 0.184,
+     "points": 3.7,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -1637,6 +2571,62 @@
     "Napoli": 9,
     "Roma": 3
    },
+   "forms": {
+    "Napoli": [
+     [
+      "W",
+      "1-0",
+      "Bologna"
+     ],
+     [
+      "D",
+      "1-1",
+      "Fiorentina"
+     ],
+     [
+      "W",
+      "3-0",
+      "Frosinone"
+     ],
+     [
+      "L",
+      "1-3",
+      "Villarreal"
+     ],
+     [
+      "L",
+      "0-1",
+      "Venezia"
+     ]
+    ],
+    "Roma": [
+     [
+      "W",
+      "2-0",
+      "Torino"
+     ],
+     [
+      "D",
+      "2-2",
+      "Inter"
+     ],
+     [
+      "D",
+      "0-0",
+      "Como"
+     ],
+     [
+      "L",
+      "3-4",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "2-0",
+      "Genoa"
+     ]
+    ]
+   },
    "espn": {
     "id": "401874948",
     "league": "ita.1",
@@ -1658,7 +2648,7 @@
    "home": "Inter",
    "away": "Fiorentina",
    "score": 64,
-   "base": 59.2,
+   "base": 59.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -1684,8 +2674,8 @@
      "points": 11.7
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
+     "value": 0.184,
+     "points": 3.7,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -1724,6 +2714,62 @@
     "Inter": 1,
     "Fiorentina": 19
    },
+   "forms": {
+    "Inter": [
+     [
+      "W",
+      "5-3",
+      "Udinese"
+     ],
+     [
+      "D",
+      "2-2",
+      "Roma"
+     ],
+     [
+      "W",
+      "3-0",
+      "Parma"
+     ],
+     [
+      "L",
+      "3-4",
+      "Club Brugge"
+     ],
+     [
+      "W",
+      "3-1",
+      "Bologna"
+     ]
+    ],
+    "Fiorentina": [
+     [
+      "L",
+      "1-2",
+      "Torino"
+     ],
+     [
+      "W",
+      "4-2",
+      "Venezia"
+     ],
+     [
+      "D",
+      "1-1",
+      "Napoli"
+     ],
+     [
+      "L",
+      "1-2",
+      "Genoa"
+     ],
+     [
+      "L",
+      "1-3",
+      "Como"
+     ]
+    ]
+   },
    "espn": {
     "id": "401875036",
     "league": "ita.1",
@@ -1755,12 +2801,11 @@
    "story": "3.7 goals per game lately · Wins in last 5: 3 v 2 · Fight for a top-24 spot",
    "story_sides": {
     "home": [
-     "3.8 goals per game lately",
-     "Won 3 of last 5"
+     "3.8 goals per game lately"
     ],
     "away": [
      "3.6 goals per game lately",
-     "Won 2 of last 5"
+     "Usually finish 4th: under par"
     ],
     "both": [
      "Fight for a top-24 spot"
@@ -1815,12 +2860,212 @@
     "SK Sturm Graz": 26,
     "Marseille": 31
    },
+   "forms": {
+    "SK Sturm Graz": [
+     [
+      "L",
+      "0-3",
+      "RB Salzburg"
+     ],
+     [
+      "W",
+      "3-1",
+      "Floridsdorfer AC"
+     ],
+     [
+      "W",
+      "2-0",
+      "Austria Vienna"
+     ],
+     [
+      "L",
+      "0-3",
+      "AFC Bournemouth"
+     ],
+     [
+      "W",
+      "6-1",
+      "Grazer AK"
+     ]
+    ],
+    "Marseille": [
+     [
+      "L",
+      "1-4",
+      "Besiktas"
+     ],
+     [
+      "L",
+      "1-2",
+      "Paris Saint-Germain"
+     ],
+     [
+      "W",
+      "2-0",
+      "Troyes"
+     ],
+     [
+      "L",
+      "0-1",
+      "Olympiacos"
+     ],
+     [
+      "W",
+      "5-2",
+      "Angers"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915557",
     "us_tv": [
      "Paramount+"
     ]
+   }
+  },
+  {
+   "id": "fd-567331",
+   "competition": "Primeira Liga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-10-26T19:45:00+01:00",
+   "day": "2026-10-26",
+   "home": "Santa Clara",
+   "away": "Benfica",
+   "score": 62,
+   "base": 57.4,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Both teams in form · 2.7 goals per game lately · Title race: 1 pts between them",
+   "story_sides": {
+    "home": [
+     "2.0 goals per game lately",
+     "Usually finish 11th: punching above their weight"
+    ],
+    "away": [
+     "3.4 goals per game lately"
+    ],
+    "both": [
+     "Title race: 1 pts between them"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.917,
+     "points": 22.9,
+     "kind": "both_in_form",
+     "reason": "Both teams in form"
+    },
+    "stakes": {
+     "value": 0.464,
+     "points": 9.3,
+     "kind": "stakes_title",
+     "reason": "Title race: 1 pts between them"
+    },
+    "entertainment": {
+     "value": 0.675,
+     "points": 10.1,
+     "kind": "entertainment",
+     "reason": "2.7 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.903,
+     "points": 4.5,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.136,
+     "points": 2.7
+    },
+    "par": {
+     "value": 0.792,
+     "points": 7.9,
+     "kind": "par_over",
+     "reason": "Santa Clara usually finish 11th: punching above their weight"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Santa Clara": 4,
+    "Benfica": 2
+   },
+   "forms": {
+    "Santa Clara": [
+     [
+      "D",
+      "1-1",
+      "Alverca"
+     ],
+     [
+      "W",
+      "4-0",
+      "Rio Ave"
+     ],
+     [
+      "W",
+      "2-1",
+      "Arouca"
+     ],
+     [
+      "D",
+      "0-0",
+      "Braga"
+     ],
+     [
+      "W",
+      "1-0",
+      "Casa Pia"
+     ]
+    ],
+    "Benfica": [
+     [
+      "W",
+      "3-1",
+      "Gil Vicente"
+     ],
+     [
+      "W",
+      "2-0",
+      "AC Milan"
+     ],
+     [
+      "L",
+      "1-3",
+      "Porto"
+     ],
+     [
+      "W",
+      "2-0",
+      "Vitória SC"
+     ],
+     [
+      "W",
+      "4-1",
+      "Celtic"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401885414",
+    "league": "por.1",
+    "teams": [
+     "12215",
+     "1929"
+    ],
+    "us_tv": []
    }
   },
   {
@@ -1842,15 +3087,14 @@
    "story": "Wins in last 5: 3 v 2 · 3.4 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.0 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "3.8 goals per game lately"
     ],
     "both": [
-     "Fight for a top-8 spot"
+     "Fight for a top-8 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -1901,6 +3145,62 @@
     "Juventus": 1,
     "Rennes": 13
    },
+   "forms": {
+    "Juventus": [
+     [
+      "W",
+      "5-0",
+      "NEC"
+     ],
+     [
+      "W",
+      "2-0",
+      "Atalanta"
+     ],
+     [
+      "D",
+      "1-1",
+      "Cagliari"
+     ],
+     [
+      "W",
+      "2-1",
+      "Celta Vigo"
+     ],
+     [
+      "L",
+      "0-3",
+      "Lazio"
+     ]
+    ],
+    "Rennes": [
+     [
+      "D",
+      "0-0",
+      "SK Sturm Graz"
+     ],
+     [
+      "L",
+      "0-4",
+      "Lyon"
+     ],
+     [
+      "W",
+      "4-1",
+      "Auxerre"
+     ],
+     [
+      "W",
+      "2-1",
+      "OFI Crete"
+     ],
+     [
+      "L",
+      "3-4",
+      "Paris FC"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915547",
@@ -1928,15 +3228,14 @@
    "story": "Wins in last 5: 2 v 3 · 3.3 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "2.6 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5",
      "4.0 goals per game lately"
     ],
     "both": [
-     "Fight for a top-8 spot"
+     "Fight for a top-8 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -1986,6 +3285,62 @@
    "positions": {
     "Monaco": 9,
     "SC Freiburg": 7
+   },
+   "forms": {
+    "Monaco": [
+     [
+      "D",
+      "1-1",
+      "Strasbourg"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lens"
+     ],
+     [
+      "D",
+      "2-2",
+      "Toulouse"
+     ],
+     [
+      "W",
+      "2-1",
+      "CSKA Sofia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Lorient"
+     ]
+    ],
+    "SC Freiburg": [
+     [
+      "W",
+      "5-0",
+      "Borussia Mönchengladbach"
+     ],
+     [
+      "D",
+      "2-2",
+      "Eintracht Frankfurt"
+     ],
+     [
+      "W",
+      "2-1",
+      "Schalke 04"
+     ],
+     [
+      "W",
+      "3-2",
+      "Jablonec"
+     ],
+     [
+      "L",
+      "1-2",
+      "Bayer Leverkusen"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa.conf",
@@ -2069,6 +3424,62 @@
     "Ajax": 25,
     "Atalanta": 4
    },
+   "forms": {
+    "Ajax": [
+     [
+      "W",
+      "5-1",
+      "Willem II"
+     ],
+     [
+      "D",
+      "2-2",
+      "Excelsior"
+     ],
+     [
+      "D",
+      "1-1",
+      "NEC"
+     ],
+     [
+      "L",
+      "1-2",
+      "Hajduk Split"
+     ],
+     [
+      "W",
+      "5-2",
+      "FC Groningen"
+     ]
+    ],
+    "Atalanta": [
+     [
+      "L",
+      "1-2",
+      "Cagliari"
+     ],
+     [
+      "L",
+      "0-2",
+      "Juventus"
+     ],
+     [
+      "W",
+      "3-1",
+      "Venezia"
+     ],
+     [
+      "W",
+      "3-1",
+      "Pafos"
+     ],
+     [
+      "L",
+      "2-3",
+      "AC Milan"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915837",
@@ -2096,15 +3507,14 @@
    "story": "Both teams in form · 2.9 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 5 of last 5",
      "1.6 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5",
      "4.2 goals per game lately"
     ],
     "both": [
-     "Fight for a top-8 spot"
+     "Fight for a top-8 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -2154,6 +3564,62 @@
     "Olympiacos": 10,
     "Sparta Prague": 11
    },
+   "forms": {
+    "Olympiacos": [
+     [
+      "W",
+      "2-1",
+      "Jagiellonia Bialystok"
+     ],
+     [
+      "W",
+      "1-0",
+      "Levadiakos"
+     ],
+     [
+      "W",
+      "1-0",
+      "Panathinaikos"
+     ],
+     [
+      "W",
+      "1-0",
+      "Marseille"
+     ],
+     [
+      "W",
+      "2-0",
+      "Panetolikos"
+     ]
+    ],
+    "Sparta Prague": [
+     [
+      "W",
+      "2-1",
+      "Lyon"
+     ],
+     [
+      "L",
+      "0-3",
+      "Lyon"
+     ],
+     [
+      "W",
+      "4-1",
+      "Ararat-Armenia"
+     ],
+     [
+      "W",
+      "5-3",
+      "Vysocina Jihlava"
+     ],
+     [
+      "D",
+      "1-1",
+      "Lillestrom"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915554",
@@ -2181,15 +3647,14 @@
    "story": "Both teams in form · 2.9 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 4 of last 5",
      "2.4 goals per game lately"
     ],
     "away": [
-     "Won 4 of last 5",
      "3.4 goals per game lately"
     ],
     "both": [
-     "Fight for a top-8 spot"
+     "Fight for a top-8 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -2238,6 +3703,62 @@
    "positions": {
     "Omonia Nicosia": 6,
     "Benfica": 3
+   },
+   "forms": {
+    "Omonia Nicosia": [
+     [
+      "W",
+      "1-0",
+      "Lincoln Red Imps"
+     ],
+     [
+      "L",
+      "0-1",
+      "Sint-Truidense"
+     ],
+     [
+      "W",
+      "4-2",
+      "Sint-Truidense"
+     ],
+     [
+      "W",
+      "1-0",
+      "Celta Vigo"
+     ],
+     [
+      "W",
+      "3-0",
+      "NK Celje"
+     ]
+    ],
+    "Benfica": [
+     [
+      "W",
+      "3-1",
+      "Gil Vicente"
+     ],
+     [
+      "W",
+      "2-0",
+      "AC Milan"
+     ],
+     [
+      "L",
+      "1-3",
+      "Porto"
+     ],
+     [
+      "W",
+      "2-0",
+      "Vitória SC"
+     ],
+     [
+      "W",
+      "4-1",
+      "Celtic"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa",
@@ -2321,6 +3842,62 @@
     "Lille": 34,
     "Galatasaray": 35
    },
+   "forms": {
+    "Lille": [
+     [
+      "W",
+      "2-0",
+      "Troyes"
+     ],
+     [
+      "L",
+      "1-2",
+      "Nice"
+     ],
+     [
+      "W",
+      "1-0",
+      "Le Havre"
+     ],
+     [
+      "L",
+      "0-3",
+      "Arsenal"
+     ],
+     [
+      "D",
+      "1-1",
+      "Brest"
+     ]
+    ],
+    "Galatasaray": [
+     [
+      "L",
+      "0-4",
+      "Trabzonspor"
+     ],
+     [
+      "D",
+      "3-3",
+      "Pendikspor"
+     ],
+     [
+      "W",
+      "3-1",
+      "Kasimpasa"
+     ],
+     [
+      "L",
+      "1-4",
+      "Barcelona"
+     ],
+     [
+      "W",
+      "1-0",
+      "Genclerbirligi"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915396",
     "league": "uefa.champions",
@@ -2352,11 +3929,10 @@
    "story": "Wins in last 5: 3 v 3 · 3.1 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
-     "3.0 goals per game lately"
+     "3.0 goals per game lately",
+     "Usually finish 10th: under par"
     ],
     "away": [
-     "Won 3 of last 5",
      "3.2 goals per game lately"
     ],
     "both": [
@@ -2412,6 +3988,62 @@
     "AFC Bournemouth": 5,
     "AC Milan": 16
    },
+   "forms": {
+    "AFC Bournemouth": [
+     [
+      "W",
+      "2-1",
+      "Real Sociedad"
+     ],
+     [
+      "L",
+      "0-1",
+      "Liverpool"
+     ],
+     [
+      "L",
+      "1-5",
+      "Chelsea"
+     ],
+     [
+      "W",
+      "3-0",
+      "SK Sturm Graz"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ]
+    ],
+    "AC Milan": [
+     [
+      "L",
+      "0-2",
+      "Benfica"
+     ],
+     [
+      "W",
+      "3-0",
+      "Lecce"
+     ],
+     [
+      "D",
+      "1-1",
+      "Sassuolo"
+     ],
+     [
+      "W",
+      "4-0",
+      "RB Salzburg"
+     ],
+     [
+      "W",
+      "3-2",
+      "Atalanta"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915552",
@@ -2439,12 +4071,12 @@
    "story": "Wins in last 5: 1 v 3 · Arnaut Danjuma faces his former club · Valencia usually finish 11th: under par",
    "story_sides": {
     "home": [
-     "Won 1 of last 5",
      "Arnaut Danjuma faces his former club",
-     "Usually finish 11th: under par"
+     "Usually finish 11th: under par",
+     "2.2 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5"
+     "2.6 goals per game lately"
     ],
     "both": []
    },
@@ -2498,6 +4130,62 @@
     "Valencia": 19,
     "Villarreal": 12
    },
+   "forms": {
+    "Valencia": [
+     [
+      "L",
+      "0-1",
+      "Sevilla"
+     ],
+     [
+      "W",
+      "1-0",
+      "Alavés"
+     ],
+     [
+      "L",
+      "2-3",
+      "Real Sociedad"
+     ],
+     [
+      "D",
+      "2-2",
+      "Racing Santander"
+     ],
+     [
+      "D",
+      "0-0",
+      "Athletic Club"
+     ]
+    ],
+    "Villarreal": [
+     [
+      "W",
+      "3-1",
+      "Málaga"
+     ],
+     [
+      "W",
+      "3-1",
+      "Levante"
+     ],
+     [
+      "L",
+      "0-1",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "3-1",
+      "Napoli"
+     ],
+     [
+      "D",
+      "0-0",
+      "Elche"
+     ]
+    ]
+   },
    "espn": {
     "id": "401882827",
     "league": "esp.1",
@@ -2530,15 +4218,14 @@
    "story": "Wins in last 5: 3 v 2 · 2.9 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "4.0 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "1.8 goals per game lately"
     ],
     "both": [
-     "Fight for a top-8 spot"
+     "Fight for a top-8 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -2588,6 +4275,62 @@
     "Sabah FK": 22,
     "Borussia Dortmund": 18
    },
+   "forms": {
+    "Sabah FK": [
+     [
+      "W",
+      "4-0",
+      "AGF"
+     ],
+     [
+      "L",
+      "1-2",
+      "Hapoel Be'er"
+     ],
+     [
+      "W",
+      "5-2",
+      "Hapoel Be'er"
+     ],
+     [
+      "L",
+      "0-4",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "2-0",
+      "Slavia Praha"
+     ]
+    ],
+    "Borussia Dortmund": [
+     [
+      "W",
+      "3-0",
+      "SC Paderborn"
+     ],
+     [
+      "W",
+      "1-0",
+      "VfB Stuttgart"
+     ],
+     [
+      "D",
+      "2-2",
+      "Werder Bremen"
+     ],
+     [
+      "L",
+      "0-1",
+      "Bodø/Glimt"
+     ],
+     [
+      "D",
+      "0-0",
+      "Union Berlin"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915404",
     "league": "uefa.champions",
@@ -2619,11 +4362,9 @@
    "story": "Wins in last 5: 4 v 2 · 3.9 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 4 of last 5",
      "4.2 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "3.6 goals per game lately"
     ],
     "both": [
@@ -2675,6 +4416,62 @@
     "Besiktas": 4,
     "Crystal Palace": 15
    },
+   "forms": {
+    "Besiktas": [
+     [
+      "W",
+      "3-0",
+      "Erzurum BB"
+     ],
+     [
+      "W",
+      "4-1",
+      "Marseille"
+     ],
+     [
+      "L",
+      "2-3",
+      "Amed SFK"
+     ],
+     [
+      "W",
+      "2-1",
+      "Kocaelispor"
+     ],
+     [
+      "W",
+      "3-2",
+      "Hoffenheim"
+     ]
+    ],
+    "Crystal Palace": [
+     [
+      "W",
+      "4-0",
+      "Lech Poznan"
+     ],
+     [
+      "D",
+      "0-0",
+      "Leeds United"
+     ],
+     [
+      "W",
+      "3-1",
+      "Nottingham Forest"
+     ],
+     [
+      "L",
+      "2-3",
+      "Lyon"
+     ],
+     [
+      "L",
+      "0-5",
+      "Brighton & Hove Albion"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915553",
@@ -2702,15 +4499,15 @@
    "story": "Wins in last 5: 2 v 3 · 3.4 goals per game lately · Borja Iglesias faces his former club",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "2.4 goals per game lately",
      "Borja Iglesias faces his former club"
     ],
     "away": [
-     "Won 3 of last 5",
      "4.4 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Evenly matched"
+    ]
    },
    "breakdown": {
     "form": {
@@ -2759,6 +4556,62 @@
    "positions": {
     "Celta Vigo": 8,
     "Real Betis": 4
+   },
+   "forms": {
+    "Celta Vigo": [
+     [
+      "L",
+      "0-1",
+      "Omonia Nicosia"
+     ],
+     [
+      "W",
+      "5-0",
+      "Racing Santander"
+     ],
+     [
+      "D",
+      "0-0",
+      "Elche"
+     ],
+     [
+      "L",
+      "1-2",
+      "Juventus"
+     ],
+     [
+      "W",
+      "2-1",
+      "Alavés"
+     ]
+    ],
+    "Real Betis": [
+     [
+      "W",
+      "1-0",
+      "Getafe"
+     ],
+     [
+      "D",
+      "1-1",
+      "Deportivo La Coruña"
+     ],
+     [
+      "W",
+      "5-2",
+      "Osasuna"
+     ],
+     [
+      "W",
+      "3-2",
+      "Porto"
+     ],
+     [
+      "L",
+      "2-5",
+      "Barcelona"
+     ]
+    ]
    },
    "espn": {
     "id": "401882833",
@@ -2847,6 +4700,62 @@
     "Utrecht": 11,
     "PEC Zwolle": 15
    },
+   "forms": {
+    "Utrecht": [
+     [
+      "D",
+      "3-3",
+      "Go Ahead Eagles"
+     ],
+     [
+      "W",
+      "2-1",
+      "Excelsior"
+     ],
+     [
+      "L",
+      "0-5",
+      "Feyenoord"
+     ],
+     [
+      "W",
+      "3-1",
+      "Willem II"
+     ],
+     [
+      "W",
+      "2-1",
+      "FC Twente"
+     ]
+    ],
+    "PEC Zwolle": [
+     [
+      "D",
+      "2-2",
+      "Sparta Rotterdam"
+     ],
+     [
+      "L",
+      "0-7",
+      "Feyenoord"
+     ],
+     [
+      "L",
+      "0-3",
+      "FC Groningen"
+     ],
+     [
+      "L",
+      "0-1",
+      "SC Cambuur"
+     ],
+     [
+      "W",
+      "4-1",
+      "Go Ahead Eagles"
+     ]
+    ]
+   },
    "espn": {
     "id": "401875573",
     "league": "ned.1",
@@ -2876,15 +4785,15 @@
    "story": "Wins in last 5: 3 v 5 · 3.1 goals per game lately · Brighton & Hove Albion usually finish 8th: punching above their weight",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "2.4 goals per game lately"
     ],
     "away": [
-     "Won 5 of last 5",
      "3.8 goals per game lately",
      "Usually finish 8th: punching above their weight"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-8 spot"
+    ]
    },
    "breakdown": {
     "form": {
@@ -2933,6 +4842,62 @@
     "Jablonec": 23,
     "Brighton & Hove Albion": 1
    },
+   "forms": {
+    "Jablonec": [
+     [
+      "W",
+      "2-0",
+      "Rigas Futbola Skola"
+     ],
+     [
+      "W",
+      "2-1",
+      "Rigas Futbola Skola"
+     ],
+     [
+      "L",
+      "0-1",
+      "Rangers"
+     ],
+     [
+      "W",
+      "1-0",
+      "Rangers"
+     ],
+     [
+      "L",
+      "2-3",
+      "SC Freiburg"
+     ]
+    ],
+    "Brighton & Hove Albion": [
+     [
+      "W",
+      "5-0",
+      "Coventry City"
+     ],
+     [
+      "W",
+      "3-0",
+      "Arsenal"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "4-0",
+      "Kauno Zalgiris"
+     ],
+     [
+      "W",
+      "5-0",
+      "Crystal Palace"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915842",
@@ -2960,11 +4925,9 @@
    "story": "Wins in last 5: 1 v 5 · 3.7 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 1 of last 5",
      "3.8 goals per game lately"
     ],
     "away": [
-     "Won 5 of last 5",
      "3.6 goals per game lately"
     ],
     "both": [
@@ -3015,6 +4978,62 @@
    "positions": {
     "OFI Crete": 18,
     "Bayer Leverkusen": 2
+   },
+   "forms": {
+    "OFI Crete": [
+     [
+      "W",
+      "2-0",
+      "Hoffenheim"
+     ],
+     [
+      "D",
+      "2-2",
+      "Asteras Tripoli"
+     ],
+     [
+      "L",
+      "0-3",
+      "AEK Athens"
+     ],
+     [
+      "L",
+      "1-2",
+      "Rennes"
+     ],
+     [
+      "L",
+      "3-4",
+      "Kalamata"
+     ]
+    ],
+    "Bayer Leverkusen": [
+     [
+      "W",
+      "2-0",
+      "NK Celje"
+     ],
+     [
+      "W",
+      "2-0",
+      "RB Leipzig"
+     ],
+     [
+      "W",
+      "4-3",
+      "Mainz"
+     ],
+     [
+      "W",
+      "4-0",
+      "Lech Poznan"
+     ],
+     [
+      "W",
+      "2-1",
+      "SC Freiburg"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa",
@@ -3100,6 +5119,62 @@
     "NEC": 12,
     "FC Groningen": 7
    },
+   "forms": {
+    "NEC": [
+     [
+      "L",
+      "0-5",
+      "Juventus"
+     ],
+     [
+      "D",
+      "1-1",
+      "Go Ahead Eagles"
+     ],
+     [
+      "D",
+      "1-1",
+      "Ajax"
+     ],
+     [
+      "D",
+      "1-1",
+      "Levski Sofia"
+     ],
+     [
+      "D",
+      "2-2",
+      "Fortuna Sittard"
+     ]
+    ],
+    "FC Groningen": [
+     [
+      "D",
+      "2-2",
+      "FC Twente"
+     ],
+     [
+      "D",
+      "1-1",
+      "Go Ahead Eagles"
+     ],
+     [
+      "W",
+      "3-0",
+      "PEC Zwolle"
+     ],
+     [
+      "W",
+      "5-1",
+      "Excelsior"
+     ],
+     [
+      "L",
+      "2-5",
+      "Ajax"
+     ]
+    ]
+   },
    "espn": {
     "id": "401875569",
     "league": "ned.1",
@@ -3121,7 +5196,7 @@
    "home": "Cagliari",
    "away": "Bologna",
    "score": 53,
-   "base": 48.6,
+   "base": 48.7,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -3131,12 +5206,12 @@
    "story": "Wins in last 5: 3 v 1 · Nadir Zortea faces his former club · Cagliari usually finish 16th: punching above their weight",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
-     "Usually finish 16th: punching above their weight"
+     "Usually finish 16th: punching above their weight",
+     "2.2 goals per game lately"
     ],
     "away": [
-     "Won 1 of last 5",
-     "Nadir Zortea faces his former club"
+     "Nadir Zortea faces his former club",
+     "2.8 goals per game lately"
     ],
     "both": []
    },
@@ -3148,8 +5223,8 @@
      "reason": "Wins in last 5: 3 v 1"
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
+     "value": 0.184,
+     "points": 3.7,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -3188,6 +5263,62 @@
     "Cagliari": 7,
     "Bologna": 15
    },
+   "forms": {
+    "Cagliari": [
+     [
+      "W",
+      "1-0",
+      "Lecce"
+     ],
+     [
+      "W",
+      "2-1",
+      "Atalanta"
+     ],
+     [
+      "W",
+      "1-0",
+      "Udinese"
+     ],
+     [
+      "D",
+      "1-1",
+      "Juventus"
+     ],
+     [
+      "L",
+      "0-4",
+      "Monza"
+     ]
+    ],
+    "Bologna": [
+     [
+      "D",
+      "2-2",
+      "Sassuolo"
+     ],
+     [
+      "L",
+      "0-1",
+      "Napoli"
+     ],
+     [
+      "D",
+      "1-1",
+      "Torino"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lecce"
+     ],
+     [
+      "L",
+      "1-3",
+      "Inter"
+     ]
+    ]
+   },
    "espn": {
     "id": "401874958",
     "league": "ita.1",
@@ -3219,13 +5350,12 @@
    "story": "Wins in last 5: 4 v 1 · Christian Nørgaard faces his former club · 2.3 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 4 of last 5",
      "2.4 goals per game lately"
     ],
     "away": [
-     "Won 1 of last 5",
      "Christian Nørgaard faces his former club",
-     "2.2 goals per game lately"
+     "2.2 goals per game lately",
+     "Usually finish 15th: punching above their weight"
     ],
     "both": []
    },
@@ -3276,6 +5406,62 @@
    "positions": {
     "Arsenal": 2,
     "Everton": 8
+   },
+   "forms": {
+    "Arsenal": [
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ],
+     [
+      "L",
+      "0-3",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "2-1",
+      "Leeds United"
+     ],
+     [
+      "W",
+      "3-0",
+      "Lille"
+     ],
+     [
+      "W",
+      "1-0",
+      "Nottingham Forest"
+     ]
+    ],
+    "Everton": [
+     [
+      "D",
+      "2-2",
+      "Manchester United"
+     ],
+     [
+      "D",
+      "0-0",
+      "Tottenham Hotspur"
+     ],
+     [
+      "W",
+      "1-0",
+      "Ipswich Town"
+     ],
+     [
+      "D",
+      "2-2",
+      "Hull City"
+     ],
+     [
+      "L",
+      "0-2",
+      "Chelsea"
+     ]
+    ]
    },
    "espn": {
     "id": "401878768",
@@ -3363,6 +5549,62 @@
     "Como": 12,
     "Manchester United": 13
    },
+   "forms": {
+    "Como": [
+     [
+      "W",
+      "2-1",
+      "Parma"
+     ],
+     [
+      "L",
+      "0-2",
+      "Frosinone"
+     ],
+     [
+      "D",
+      "0-0",
+      "Roma"
+     ],
+     [
+      "L",
+      "2-3",
+      "Feyenoord"
+     ],
+     [
+      "W",
+      "3-1",
+      "Fiorentina"
+     ]
+    ],
+    "Manchester United": [
+     [
+      "L",
+      "0-1",
+      "Manchester City"
+     ],
+     [
+      "D",
+      "1-1",
+      "Fulham"
+     ],
+     [
+      "D",
+      "1-1",
+      "Tottenham Hotspur"
+     ],
+     [
+      "L",
+      "0-2",
+      "Atlético Madrid"
+     ],
+     [
+      "D",
+      "1-1",
+      "Leeds United"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915395",
     "league": "uefa.champions",
@@ -3394,11 +5636,9 @@
    "story": "Wins in last 5: 3 v 2 · 4.0 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.2 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "4.8 goals per game lately"
     ],
     "both": []
@@ -3447,6 +5687,62 @@
     "Sporting CP": 6,
     "LASK": 33
    },
+   "forms": {
+    "Sporting CP": [
+     [
+      "W",
+      "3-1",
+      "Galatasaray"
+     ],
+     [
+      "D",
+      "1-1",
+      "Famalicão"
+     ],
+     [
+      "D",
+      "2-2",
+      "Arouca"
+     ],
+     [
+      "W",
+      "3-1",
+      "Braga"
+     ],
+     [
+      "W",
+      "2-0",
+      "Lens"
+     ]
+    ],
+    "LASK": [
+     [
+      "D",
+      "3-3",
+      "TSV Hartberg"
+     ],
+     [
+      "W",
+      "2-1",
+      "First Vienna FC 1894"
+     ],
+     [
+      "L",
+      "0-2",
+      "Rapid Vienna"
+     ],
+     [
+      "L",
+      "3-6",
+      "Liverpool"
+     ],
+     [
+      "W",
+      "4-0",
+      "Austria Lustenau"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915391",
     "league": "uefa.champions",
@@ -3479,13 +5775,12 @@
    "story_sides": {
     "home": [
      "Europe's #9 club",
-     "Won 2 of last 5",
      "1.8 goals per game lately"
     ],
     "away": [
      "Europe's #35 club",
-     "Won 2 of last 5",
-     "4.0 goals per game lately"
+     "4.0 goals per game lately",
+     "Usually finish 7th: under par"
     ],
     "both": []
    },
@@ -3536,6 +5831,62 @@
    "positions": {
     "Borussia Dortmund": 2,
     "Eintracht Frankfurt": 11
+   },
+   "forms": {
+    "Borussia Dortmund": [
+     [
+      "W",
+      "3-0",
+      "SC Paderborn"
+     ],
+     [
+      "W",
+      "1-0",
+      "VfB Stuttgart"
+     ],
+     [
+      "D",
+      "2-2",
+      "Werder Bremen"
+     ],
+     [
+      "L",
+      "0-1",
+      "Bodø/Glimt"
+     ],
+     [
+      "D",
+      "0-0",
+      "Union Berlin"
+     ]
+    ],
+    "Eintracht Frankfurt": [
+     [
+      "L",
+      "1-4",
+      "FC Augsburg"
+     ],
+     [
+      "W",
+      "3-1",
+      "Mainz"
+     ],
+     [
+      "D",
+      "2-2",
+      "SC Freiburg"
+     ],
+     [
+      "L",
+      "0-6",
+      "RB Leipzig"
+     ],
+     [
+      "W",
+      "1-0",
+      "1. FC Köln"
+     ]
+    ]
    },
    "espn": {
     "id": "401884763",
@@ -3625,6 +5976,47 @@
     "Napoli": 32,
     "Bodø/Glimt": 24
    },
+   "forms": {
+    "Napoli": [
+     [
+      "W",
+      "1-0",
+      "Bologna"
+     ],
+     [
+      "D",
+      "1-1",
+      "Fiorentina"
+     ],
+     [
+      "W",
+      "3-0",
+      "Frosinone"
+     ],
+     [
+      "L",
+      "1-3",
+      "Villarreal"
+     ],
+     [
+      "L",
+      "0-1",
+      "Venezia"
+     ]
+    ],
+    "Bodø/Glimt": [
+     [
+      "L",
+      "0-5",
+      "Bayern Munich"
+     ],
+     [
+      "W",
+      "1-0",
+      "Borussia Dortmund"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915400",
     "league": "uefa.champions",
@@ -3656,15 +6048,15 @@
    "story": "Wins in last 5: 1 v 4 · 2.2 goals per game lately · Braga usually finish 4th: under par",
    "story_sides": {
     "home": [
-     "Won 1 of last 5",
      "2.2 goals per game lately",
      "Usually finish 4th: under par"
     ],
     "away": [
-     "Won 4 of last 5",
      "2.2 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-8 spot"
+    ]
    },
    "breakdown": {
     "form": {
@@ -3712,6 +6104,62 @@
    "positions": {
     "Braga": 35,
     "KAA Gent": 13
+   },
+   "forms": {
+    "Braga": [
+     [
+      "L",
+      "1-2",
+      "Amadora"
+     ],
+     [
+      "W",
+      "1-0",
+      "Estoril Praia"
+     ],
+     [
+      "D",
+      "0-0",
+      "Santa Clara"
+     ],
+     [
+      "L",
+      "1-3",
+      "Sporting CP"
+     ],
+     [
+      "L",
+      "0-3",
+      "F.C. København"
+     ]
+    ],
+    "KAA Gent": [
+     [
+      "W",
+      "3-0",
+      "Cercle Brugge KSV"
+     ],
+     [
+      "D",
+      "1-1",
+      "Racing Genk"
+     ],
+     [
+      "W",
+      "2-1",
+      "Standard Liege"
+     ],
+     [
+      "W",
+      "2-0",
+      "Zulte-Waregem"
+     ],
+     [
+      "W",
+      "1-0",
+      "AGF"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa.conf",
@@ -3795,6 +6243,62 @@
     "Celtic": 34,
     "Celta Vigo": 29
    },
+   "forms": {
+    "Celtic": [
+     [
+      "L",
+      "1-3",
+      "Ferencvaros"
+     ],
+     [
+      "L",
+      "0-1",
+      "Rangers"
+     ],
+     [
+      "W",
+      "2-0",
+      "Motherwell"
+     ],
+     [
+      "L",
+      "1-4",
+      "Benfica"
+     ],
+     [
+      "W",
+      "7-1",
+      "Heart of Midlothian"
+     ]
+    ],
+    "Celta Vigo": [
+     [
+      "L",
+      "0-1",
+      "Omonia Nicosia"
+     ],
+     [
+      "W",
+      "5-0",
+      "Racing Santander"
+     ],
+     [
+      "D",
+      "0-0",
+      "Elche"
+     ],
+     [
+      "L",
+      "1-2",
+      "Juventus"
+     ],
+     [
+      "W",
+      "2-1",
+      "Alavés"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915555",
@@ -3822,12 +6326,10 @@
    "story": "3.7 goals per game lately · Wins in last 5: 1 v 4 · Lyon usually finish 6th: punching above their weight",
    "story_sides": {
     "home": [
-     "3.8 goals per game lately",
-     "Won 1 of last 5"
+     "3.8 goals per game lately"
     ],
     "away": [
      "3.6 goals per game lately",
-     "Won 4 of last 5",
      "Usually finish 6th: punching above their weight"
     ],
     "both": []
@@ -3877,6 +6379,62 @@
    "positions": {
     "Hoffenheim": 30,
     "Lyon": 8
+   },
+   "forms": {
+    "Hoffenheim": [
+     [
+      "L",
+      "0-2",
+      "OFI Crete"
+     ],
+     [
+      "L",
+      "1-3",
+      "SC Paderborn"
+     ],
+     [
+      "L",
+      "2-3",
+      "Hamburger SV"
+     ],
+     [
+      "L",
+      "2-3",
+      "Besiktas"
+     ],
+     [
+      "W",
+      "2-1",
+      "Borussia Mönchengladbach"
+     ]
+    ],
+    "Lyon": [
+     [
+      "W",
+      "2-1",
+      "Anderlecht"
+     ],
+     [
+      "W",
+      "4-0",
+      "Rennes"
+     ],
+     [
+      "L",
+      "1-2",
+      "Lens"
+     ],
+     [
+      "W",
+      "3-2",
+      "Crystal Palace"
+     ],
+     [
+      "W",
+      "2-1",
+      "Nice"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa",
@@ -3961,6 +6519,62 @@
     "Ararat-Armenia": 33,
     "AZ": 20
    },
+   "forms": {
+    "Ararat-Armenia": [
+     [
+      "D",
+      "1-1",
+      "CSU Craiova"
+     ],
+     [
+      "W",
+      "1-0",
+      "CSU Craiova"
+     ],
+     [
+      "L",
+      "1-4",
+      "Sparta Prague"
+     ],
+     [
+      "W",
+      "4-0",
+      "Ararat Yerevan"
+     ],
+     [
+      "L",
+      "1-3",
+      "Jagiellonia Bialystok"
+     ]
+    ],
+    "AZ": [
+     [
+      "L",
+      "0-1",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "1-0",
+      "Telstar"
+     ],
+     [
+      "L",
+      "0-2",
+      "Feyenoord"
+     ],
+     [
+      "W",
+      "2-1",
+      "Hapoel Be'er"
+     ],
+     [
+      "D",
+      "2-2",
+      "SC Cambuur"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915548",
@@ -3988,15 +6602,14 @@
    "story": "Wins in last 5: 3 v 3 · 3.1 goals per game lately · Fight for a top-24 spot",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.6 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5",
      "2.6 goals per game lately"
     ],
     "both": [
-     "Fight for a top-24 spot"
+     "Fight for a top-24 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -4046,6 +6659,62 @@
     "Jagiellonia Bialystok": 17,
     "Anderlecht": 28
    },
+   "forms": {
+    "Jagiellonia Bialystok": [
+     [
+      "W",
+      "2-1",
+      "Iberia 1999"
+     ],
+     [
+      "L",
+      "1-2",
+      "Olympiacos"
+     ],
+     [
+      "W",
+      "5-0",
+      "FK Suduva"
+     ],
+     [
+      "L",
+      "1-2",
+      "Polonia Warsaw"
+     ],
+     [
+      "W",
+      "3-1",
+      "Ararat-Armenia"
+     ]
+    ],
+    "Anderlecht": [
+     [
+      "L",
+      "1-2",
+      "Lyon"
+     ],
+     [
+      "W",
+      "3-0",
+      "Zulte-Waregem"
+     ],
+     [
+      "W",
+      "3-0",
+      "Stade de Reims"
+     ],
+     [
+      "W",
+      "2-1",
+      "Cercle Brugge KSV"
+     ],
+     [
+      "L",
+      "0-1",
+      "Dinamo Zagreb"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915542",
@@ -4073,15 +6742,14 @@
    "story": "3.6 goals per game lately · Wins in last 5: 1 v 3 · Fight for a top-24 spot",
    "story_sides": {
     "home": [
-     "2.8 goals per game lately",
-     "Won 1 of last 5"
+     "2.8 goals per game lately"
     ],
     "away": [
-     "4.4 goals per game lately",
-     "Won 3 of last 5"
+     "4.4 goals per game lately"
     ],
     "both": [
-     "Fight for a top-24 spot"
+     "Fight for a top-24 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -4132,6 +6800,62 @@
     "Lillestrom": 22,
     "Real Sociedad": 23
    },
+   "forms": {
+    "Lillestrom": [
+     [
+      "L",
+      "1-2",
+      "Torreense"
+     ],
+     [
+      "L",
+      "0-3",
+      "Viking FK"
+     ],
+     [
+      "D",
+      "2-2",
+      "Molde"
+     ],
+     [
+      "D",
+      "1-1",
+      "Sparta Prague"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sandefjord"
+     ]
+    ],
+    "Real Sociedad": [
+     [
+      "L",
+      "1-2",
+      "AFC Bournemouth"
+     ],
+     [
+      "W",
+      "3-2",
+      "Valencia"
+     ],
+     [
+      "W",
+      "3-2",
+      "Deportivo La Coruña"
+     ],
+     [
+      "D",
+      "1-1",
+      "Union St.-Gilloise"
+     ],
+     [
+      "W",
+      "5-2",
+      "Málaga"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915540",
@@ -4159,15 +6883,14 @@
    "story": "Wins in last 5: 3 v 2 · 4.3 goals per game lately · Fight for Europe",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "4.8 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "3.8 goals per game lately"
     ],
     "both": [
-     "Fight for Europe"
+     "Fight for Europe",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -4218,6 +6941,62 @@
    "positions": {
     "Mainz": 5,
     "Werder Bremen": 8
+   },
+   "forms": {
+    "Mainz": [
+     [
+      "W",
+      "5-0",
+      "Hamburger SV"
+     ],
+     [
+      "L",
+      "1-3",
+      "Eintracht Frankfurt"
+     ],
+     [
+      "W",
+      "4-3",
+      "Borussia Mönchengladbach"
+     ],
+     [
+      "L",
+      "3-4",
+      "Bayer Leverkusen"
+     ],
+     [
+      "W",
+      "1-0",
+      "Schalke 04"
+     ]
+    ],
+    "Werder Bremen": [
+     [
+      "W",
+      "3-1",
+      "RB Leipzig"
+     ],
+     [
+      "D",
+      "1-1",
+      "1. FC Köln"
+     ],
+     [
+      "W",
+      "3-2",
+      "FC Augsburg"
+     ],
+     [
+      "D",
+      "2-2",
+      "Borussia Dortmund"
+     ],
+     [
+      "D",
+      "2-2",
+      "SC Paderborn"
+     ]
+    ]
    },
    "espn": {
     "id": "401884757",
@@ -4303,6 +7082,47 @@
     "Roma": 25,
     "Sl. Bratislava": 36
    },
+   "forms": {
+    "Roma": [
+     [
+      "W",
+      "2-0",
+      "Torino"
+     ],
+     [
+      "D",
+      "2-2",
+      "Inter"
+     ],
+     [
+      "D",
+      "0-0",
+      "Como"
+     ],
+     [
+      "L",
+      "3-4",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "2-0",
+      "Genoa"
+     ]
+    ],
+    "Sl. Bratislava": [
+     [
+      "L",
+      "1-6",
+      "Paris Saint-Germain"
+     ],
+     [
+      "L",
+      "0-3",
+      "VfB Stuttgart"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915402",
     "league": "uefa.champions",
@@ -4334,11 +7154,9 @@
    "story": "Wins in last 5: 3 v 2 · 2.9 goals per game lately · Fight for a top-24 spot",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "2.8 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "3.0 goals per game lately"
     ],
     "both": [
@@ -4389,6 +7207,62 @@
    "positions": {
     "Union St.-Gilloise": 12,
     "Hapoel Be'er": 24
+   },
+   "forms": {
+    "Union St.-Gilloise": [
+     [
+      "W",
+      "5-0",
+      "Lommel SK"
+     ],
+     [
+      "W",
+      "3-0",
+      "Viktoria Plzen"
+     ],
+     [
+      "W",
+      "2-0",
+      "Antwerp"
+     ],
+     [
+      "D",
+      "1-1",
+      "Oud-Heverlee Leuven"
+     ],
+     [
+      "D",
+      "1-1",
+      "Real Sociedad"
+     ]
+    ],
+    "Hapoel Be'er": [
+     [
+      "W",
+      "2-0",
+      "Red Star Belgrade"
+     ],
+     [
+      "W",
+      "2-1",
+      "Sabah FK"
+     ],
+     [
+      "L",
+      "2-5",
+      "Sabah FK"
+     ],
+     [
+      "D",
+      "0-0",
+      "Dinamo Zagreb"
+     ],
+     [
+      "L",
+      "1-2",
+      "AZ"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa",
@@ -4472,6 +7346,62 @@
     "Angers": 15,
     "Lorient": 7
    },
+   "forms": {
+    "Angers": [
+     [
+      "L",
+      "1-2",
+      "Rennes"
+     ],
+     [
+      "D",
+      "0-0",
+      "Le Havre"
+     ],
+     [
+      "W",
+      "2-0",
+      "Troyes"
+     ],
+     [
+      "L",
+      "1-5",
+      "Brest"
+     ],
+     [
+      "L",
+      "2-5",
+      "Marseille"
+     ]
+    ],
+    "Lorient": [
+     [
+      "W",
+      "1-0",
+      "Lens"
+     ],
+     [
+      "D",
+      "2-2",
+      "Toulouse"
+     ],
+     [
+      "L",
+      "1-2",
+      "Le Mans"
+     ],
+     [
+      "W",
+      "1-0",
+      "Paris FC"
+     ],
+     [
+      "W",
+      "1-0",
+      "Monaco"
+     ]
+    ]
+   },
    "espn": {
     "id": "401876430",
     "league": "fra.1",
@@ -4501,12 +7431,10 @@
    "story": "Wins in last 5: 1 v 5 · 3.7 goals per game lately · Hoffenheim usually finish 10th: under par",
    "story_sides": {
     "home": [
-     "Won 1 of last 5",
      "3.8 goals per game lately",
      "Usually finish 10th: under par"
     ],
     "away": [
-     "Won 5 of last 5",
      "3.6 goals per game lately"
     ],
     "both": []
@@ -4556,6 +7484,62 @@
    "positions": {
     "Hoffenheim": 14,
     "Bayer Leverkusen": 4
+   },
+   "forms": {
+    "Hoffenheim": [
+     [
+      "L",
+      "0-2",
+      "OFI Crete"
+     ],
+     [
+      "L",
+      "1-3",
+      "SC Paderborn"
+     ],
+     [
+      "L",
+      "2-3",
+      "Hamburger SV"
+     ],
+     [
+      "L",
+      "2-3",
+      "Besiktas"
+     ],
+     [
+      "W",
+      "2-1",
+      "Borussia Mönchengladbach"
+     ]
+    ],
+    "Bayer Leverkusen": [
+     [
+      "W",
+      "2-0",
+      "NK Celje"
+     ],
+     [
+      "W",
+      "2-0",
+      "RB Leipzig"
+     ],
+     [
+      "W",
+      "4-3",
+      "Mainz"
+     ],
+     [
+      "W",
+      "4-0",
+      "Lech Poznan"
+     ],
+     [
+      "W",
+      "2-1",
+      "SC Freiburg"
+     ]
+    ]
    },
    "espn": {
     "id": "401884760",
@@ -4641,6 +7625,62 @@
     "Real Sociedad": 5,
     "Levante": 17
    },
+   "forms": {
+    "Real Sociedad": [
+     [
+      "L",
+      "1-2",
+      "AFC Bournemouth"
+     ],
+     [
+      "W",
+      "3-2",
+      "Valencia"
+     ],
+     [
+      "W",
+      "3-2",
+      "Deportivo La Coruña"
+     ],
+     [
+      "D",
+      "1-1",
+      "Union St.-Gilloise"
+     ],
+     [
+      "W",
+      "5-2",
+      "Málaga"
+     ]
+    ],
+    "Levante": [
+     [
+      "D",
+      "0-0",
+      "Málaga"
+     ],
+     [
+      "L",
+      "2-4",
+      "Barcelona"
+     ],
+     [
+      "L",
+      "1-3",
+      "Villarreal"
+     ],
+     [
+      "D",
+      "3-3",
+      "Sevilla"
+     ],
+     [
+      "D",
+      "1-1",
+      "Deportivo La Coruña"
+     ]
+    ]
+   },
    "espn": {
     "id": "401882829",
     "league": "esp.1",
@@ -4725,6 +7765,47 @@
     "Fenerbahçe": 28,
     "Slavia Praha": 31
    },
+   "forms": {
+    "Fenerbahçe": [
+     [
+      "W",
+      "8-0",
+      "Eyupspor"
+     ],
+     [
+      "W",
+      "2-0",
+      "PFC Turan Tovuz"
+     ],
+     [
+      "W",
+      "3-0",
+      "Caykur Rizespor"
+     ],
+     [
+      "L",
+      "0-6",
+      "Aston Villa"
+     ],
+     [
+      "W",
+      "3-0",
+      "Alanyaspor"
+     ]
+    ],
+    "Slavia Praha": [
+     [
+      "L",
+      "2-3",
+      "Lens"
+     ],
+     [
+      "L",
+      "0-2",
+      "Sabah FK"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915403",
     "league": "uefa.champions",
@@ -4756,15 +7837,14 @@
    "story": "Wins in last 5: 3 v 2 · 2.6 goals per game lately · Fight for Europe",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.0 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "2.2 goals per game lately"
     ],
     "both": [
-     "Fight for Europe"
+     "Fight for Europe",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -4815,6 +7895,62 @@
    "positions": {
     "Alverca": 7,
     "Arouca": 5
+   },
+   "forms": {
+    "Alverca": [
+     [
+      "D",
+      "1-1",
+      "Santa Clara"
+     ],
+     [
+      "L",
+      "1-2",
+      "Braga"
+     ],
+     [
+      "W",
+      "3-1",
+      "Nacional"
+     ],
+     [
+      "W",
+      "1-0",
+      "Rio Ave"
+     ],
+     [
+      "W",
+      "4-1",
+      "Famalicão"
+     ]
+    ],
+    "Arouca": [
+     [
+      "W",
+      "2-1",
+      "Marítimo"
+     ],
+     [
+      "D",
+      "0-0",
+      "Estoril Praia"
+     ],
+     [
+      "L",
+      "1-2",
+      "Santa Clara"
+     ],
+     [
+      "D",
+      "2-2",
+      "Sporting CP"
+     ],
+     [
+      "W",
+      "1-0",
+      "Amadora"
+     ]
+    ]
    },
    "espn": {
     "id": "401885420",
@@ -4897,6 +8033,62 @@
     "Gil Vicente": 8,
     "Porto": 1
    },
+   "forms": {
+    "Gil Vicente": [
+     [
+      "D",
+      "0-0",
+      "Famalicão"
+     ],
+     [
+      "L",
+      "0-1",
+      "Acad. Viseu"
+     ],
+     [
+      "L",
+      "1-3",
+      "Benfica"
+     ],
+     [
+      "D",
+      "1-1",
+      "Marítimo"
+     ],
+     [
+      "W",
+      "1-0",
+      "Moreirense"
+     ]
+    ],
+    "Porto": [
+     [
+      "L",
+      "0-2",
+      "Manchester City"
+     ],
+     [
+      "W",
+      "4-1",
+      "Casa Pia"
+     ],
+     [
+      "W",
+      "3-1",
+      "Benfica"
+     ],
+     [
+      "W",
+      "2-1",
+      "Marítimo"
+     ],
+     [
+      "L",
+      "2-3",
+      "Real Betis"
+     ]
+    ]
+   },
    "espn": {
     "id": "401885417",
     "league": "por.1",
@@ -4916,7 +8108,7 @@
    "home": "Atalanta",
    "away": "Frosinone",
    "score": 46,
-   "base": 42.2,
+   "base": 42.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -4927,11 +8119,10 @@
    "story_sides": {
     "home": [
      "3.6 goals per game lately",
-     "Won 2 of last 5"
+     "Usually finish 5th: under par"
     ],
     "away": [
-     "3.6 goals per game lately",
-     "Won 3 of last 5"
+     "3.6 goals per game lately"
     ],
     "both": [
      "Fight for Europe"
@@ -4945,8 +8136,8 @@
      "reason": "Wins in last 5: 2 v 3"
     },
     "stakes": {
-     "value": 0.363,
-     "points": 7.3,
+     "value": 0.368,
+     "points": 7.4,
      "kind": "stakes_europe",
      "reason": "Fight for Europe"
     },
@@ -4986,6 +8177,62 @@
     "Atalanta": 10,
     "Frosinone": 6
    },
+   "forms": {
+    "Atalanta": [
+     [
+      "L",
+      "1-2",
+      "Cagliari"
+     ],
+     [
+      "L",
+      "0-2",
+      "Juventus"
+     ],
+     [
+      "W",
+      "3-1",
+      "Venezia"
+     ],
+     [
+      "W",
+      "3-1",
+      "Pafos"
+     ],
+     [
+      "L",
+      "2-3",
+      "AC Milan"
+     ]
+    ],
+    "Frosinone": [
+     [
+      "W",
+      "3-2",
+      "Venezia"
+     ],
+     [
+      "D",
+      "1-1",
+      "Genoa"
+     ],
+     [
+      "W",
+      "2-0",
+      "Como"
+     ],
+     [
+      "L",
+      "0-3",
+      "Napoli"
+     ],
+     [
+      "W",
+      "4-2",
+      "Sassuolo"
+     ]
+    ]
+   },
    "espn": {
     "id": "401874972",
     "league": "ita.1",
@@ -5017,11 +8264,9 @@
    "story": "Both teams in form · 2.8 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
-     "Won 3 of last 5",
      "3.2 goals per game lately"
     ],
     "away": [
-     "Won 4 of last 5",
      "2.4 goals per game lately"
     ],
     "both": [
@@ -5073,6 +8318,62 @@
    "positions": {
     "Sporting CP": 3,
     "Acad. Viseu": 6
+   },
+   "forms": {
+    "Sporting CP": [
+     [
+      "W",
+      "3-1",
+      "Galatasaray"
+     ],
+     [
+      "D",
+      "1-1",
+      "Famalicão"
+     ],
+     [
+      "D",
+      "2-2",
+      "Arouca"
+     ],
+     [
+      "W",
+      "3-1",
+      "Braga"
+     ],
+     [
+      "W",
+      "2-0",
+      "Lens"
+     ]
+    ],
+    "Acad. Viseu": [
+     [
+      "L",
+      "0-3",
+      "Porto"
+     ],
+     [
+      "W",
+      "1-0",
+      "Gil Vicente"
+     ],
+     [
+      "W",
+      "2-1",
+      "Vitória SC"
+     ],
+     [
+      "W",
+      "2-0",
+      "Amadora"
+     ],
+     [
+      "W",
+      "2-1",
+      "Estoril Praia"
+     ]
+    ]
    },
    "espn": {
     "id": "401885413",
@@ -5158,6 +8459,62 @@
     "Dinamo Zagreb": 14,
     "NEC": 27
    },
+   "forms": {
+    "Dinamo Zagreb": [
+     [
+      "W",
+      "2-1",
+      "Kauno Zalgiris"
+     ],
+     [
+      "D",
+      "2-2",
+      "Viking FK"
+     ],
+     [
+      "L",
+      "1-3",
+      "Viking FK"
+     ],
+     [
+      "D",
+      "0-0",
+      "Hapoel Be'er"
+     ],
+     [
+      "W",
+      "1-0",
+      "Anderlecht"
+     ]
+    ],
+    "NEC": [
+     [
+      "L",
+      "0-5",
+      "Juventus"
+     ],
+     [
+      "D",
+      "1-1",
+      "Go Ahead Eagles"
+     ],
+     [
+      "D",
+      "1-1",
+      "Ajax"
+     ],
+     [
+      "D",
+      "1-1",
+      "Levski Sofia"
+     ],
+     [
+      "D",
+      "2-2",
+      "Fortuna Sittard"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915556",
@@ -5185,12 +8542,10 @@
    "story": "4.2 goals per game lately · Wins in last 5: 1 v 4 · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "3.8 goals per game lately",
-     "Won 1 of last 5"
+     "3.8 goals per game lately"
     ],
     "away": [
-     "4.6 goals per game lately",
-     "Won 4 of last 5"
+     "4.6 goals per game lately"
     ],
     "both": [
      "Fight for a top-8 spot"
@@ -5240,6 +8595,62 @@
    "positions": {
     "FC Thun": 30,
     "Hajduk Split": 11
+   },
+   "forms": {
+    "FC Thun": [
+     [
+      "L",
+      "2-3",
+      "Vikingur Reykjavik"
+     ],
+     [
+      "L",
+      "0-7",
+      "Lech Poznan"
+     ],
+     [
+      "D",
+      "2-2",
+      "Lech Poznan"
+     ],
+     [
+      "W",
+      "2-0",
+      "Kriens"
+     ],
+     [
+      "L",
+      "0-1",
+      "FC Twente"
+     ]
+    ],
+    "Hajduk Split": [
+     [
+      "W",
+      "5-2",
+      "Zalgiris Vilnius"
+     ],
+     [
+      "W",
+      "4-0",
+      "Zalgiris Vilnius"
+     ],
+     [
+      "D",
+      "2-2",
+      "Raków Czestochowa"
+     ],
+     [
+      "W",
+      "3-2",
+      "Raków Czestochowa"
+     ],
+     [
+      "W",
+      "2-1",
+      "Ajax"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa.conf",
@@ -5322,6 +8733,62 @@
    "positions": {
     "VfB Stuttgart": 13,
     "Borussia Mönchengladbach": 18
+   },
+   "forms": {
+    "VfB Stuttgart": [
+     [
+      "L",
+      "1-2",
+      "Hoffenheim"
+     ],
+     [
+      "L",
+      "0-1",
+      "Borussia Dortmund"
+     ],
+     [
+      "W",
+      "2-0",
+      "SC Paderborn"
+     ],
+     [
+      "W",
+      "3-0",
+      "Sl. Bratislava"
+     ],
+     [
+      "L",
+      "0-1",
+      "Hamburger SV"
+     ]
+    ],
+    "Borussia Mönchengladbach": [
+     [
+      "L",
+      "3-4",
+      "Elversberg"
+     ],
+     [
+      "L",
+      "0-5",
+      "SC Freiburg"
+     ],
+     [
+      "L",
+      "3-4",
+      "Mainz"
+     ],
+     [
+      "L",
+      "1-2",
+      "1. FC Köln"
+     ],
+     [
+      "L",
+      "1-2",
+      "Hoffenheim"
+     ]
+    ]
    },
    "espn": {
     "id": "401884761",
@@ -5411,6 +8878,62 @@
     "Rio Ave": 14,
     "Famalicão": 13
    },
+   "forms": {
+    "Rio Ave": [
+     [
+      "L",
+      "0-4",
+      "Sporting CP"
+     ],
+     [
+      "L",
+      "0-4",
+      "Santa Clara"
+     ],
+     [
+      "D",
+      "3-3",
+      "Amadora"
+     ],
+     [
+      "L",
+      "0-1",
+      "Alverca"
+     ],
+     [
+      "W",
+      "3-2",
+      "Nacional"
+     ]
+    ],
+    "Famalicão": [
+     [
+      "D",
+      "0-0",
+      "Gil Vicente"
+     ],
+     [
+      "D",
+      "2-2",
+      "Amadora"
+     ],
+     [
+      "D",
+      "1-1",
+      "Sporting CP"
+     ],
+     [
+      "W",
+      "4-0",
+      "Nacional"
+     ],
+     [
+      "L",
+      "1-4",
+      "Alverca"
+     ]
+    ]
+   },
    "espn": {
     "id": "401885415",
     "league": "por.1",
@@ -5492,6 +9015,62 @@
     "Trabzonspor": 3,
     "Heart of Midlothian": 20
    },
+   "forms": {
+    "Trabzonspor": [
+     [
+      "L",
+      "0-1",
+      "Konyaspor"
+     ],
+     [
+      "W",
+      "4-0",
+      "Galatasaray"
+     ],
+     [
+      "L",
+      "0-1",
+      "Drogheda United"
+     ],
+     [
+      "W",
+      "3-0",
+      "Samsunspor"
+     ],
+     [
+      "W",
+      "4-2",
+      "KuPS Kuopio"
+     ]
+    ],
+    "Heart of Midlothian": [
+     [
+      "L",
+      "1-2",
+      "Falkirk"
+     ],
+     [
+      "D",
+      "1-1",
+      "Kilmarnock"
+     ],
+     [
+      "W",
+      "5-0",
+      "St Mirren"
+     ],
+     [
+      "D",
+      "1-1",
+      "FC Nordsjælland"
+     ],
+     [
+      "L",
+      "1-7",
+      "Celtic"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915745",
@@ -5519,15 +9098,14 @@
    "story": "Wins in last 5: 2 v 2 · 3.3 goals per game lately · Fight for a top-8 spot",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "3.2 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "3.4 goals per game lately"
     ],
     "both": [
-     "Fight for a top-8 spot"
+     "Fight for a top-8 spot",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -5576,6 +9154,62 @@
    "positions": {
     "FC Midtjylland": 17,
     "Sint-Truidense": 6
+   },
+   "forms": {
+    "FC Midtjylland": [
+     [
+      "D",
+      "2-2",
+      "FC Nordsjælland"
+     ],
+     [
+      "W",
+      "4-1",
+      "Brøndby IF"
+     ],
+     [
+      "D",
+      "1-1",
+      "Odense Boldklub"
+     ],
+     [
+      "W",
+      "2-1",
+      "F.C. København"
+     ],
+     [
+      "D",
+      "1-1",
+      "Egnatia"
+     ]
+    ],
+    "Sint-Truidense": [
+     [
+      "W",
+      "4-0",
+      "RAAL La Louvière"
+     ],
+     [
+      "L",
+      "0-2",
+      "Waasland-Beveren"
+     ],
+     [
+      "L",
+      "0-2",
+      "KVC Westerlo"
+     ],
+     [
+      "L",
+      "3-4",
+      "KV Mechelen"
+     ],
+     [
+      "W",
+      "2-0",
+      "Iberia 1999"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa.conf",
@@ -5659,6 +9293,57 @@
     "Viktoria Plzen": 32,
     "Levski Sofia": 25
    },
+   "forms": {
+    "Viktoria Plzen": [
+     [
+      "L",
+      "0-3",
+      "Red Star Belgrade"
+     ],
+     [
+      "W",
+      "5-1",
+      "Red Star Belgrade"
+     ],
+     [
+      "L",
+      "0-3",
+      "Union St.-Gilloise"
+     ],
+     [
+      "L",
+      "1-2",
+      "Ferencvaros"
+     ]
+    ],
+    "Levski Sofia": [
+     [
+      "W",
+      "1-0",
+      "Kairat Almaty"
+     ],
+     [
+      "D",
+      "0-0",
+      "AEK Athens"
+     ],
+     [
+      "L",
+      "0-4",
+      "AEK Athens"
+     ],
+     [
+      "L",
+      "0-1",
+      "RB Salzburg"
+     ],
+     [
+      "D",
+      "1-1",
+      "NEC"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915539",
@@ -5686,15 +9371,14 @@
    "story": "3.9 goals per game lately · Wins in last 5: 3 v 2 · Fight for Europe",
    "story_sides": {
     "home": [
-     "4.2 goals per game lately",
-     "Won 3 of last 5"
+     "4.2 goals per game lately"
     ],
     "away": [
-     "3.6 goals per game lately",
-     "Won 2 of last 5"
+     "3.6 goals per game lately"
     ],
     "both": [
-     "Fight for Europe"
+     "Fight for Europe",
+     "Evenly matched"
     ]
    },
    "breakdown": {
@@ -5745,6 +9429,62 @@
     "RB Leipzig": 7,
     "Elversberg": 6
    },
+   "forms": {
+    "RB Leipzig": [
+     [
+      "W",
+      "5-0",
+      "Hamburger SV"
+     ],
+     [
+      "L",
+      "0-2",
+      "Bayer Leverkusen"
+     ],
+     [
+      "W",
+      "6-0",
+      "Eintracht Frankfurt"
+     ],
+     [
+      "W",
+      "1-0",
+      "PSV"
+     ],
+     [
+      "L",
+      "1-6",
+      "Bayern Munich"
+     ]
+    ],
+    "Elversberg": [
+     [
+      "W",
+      "4-3",
+      "Borussia Mönchengladbach"
+     ],
+     [
+      "L",
+      "1-2",
+      "Bayern Munich"
+     ],
+     [
+      "D",
+      "0-0",
+      "Schalke 04"
+     ],
+     [
+      "L",
+      "0-1",
+      "Union Berlin"
+     ],
+     [
+      "W",
+      "4-3",
+      "FC Augsburg"
+     ]
+    ]
+   },
    "espn": {
     "id": "401884762",
     "league": "ger.1",
@@ -5776,11 +9516,9 @@
    "story": "Wins in last 5: 2 v 2 · 2.4 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "2.6 goals per game lately"
     ],
     "away": [
-     "Won 2 of last 5",
      "2.2 goals per game lately"
     ],
     "both": [
@@ -5832,6 +9570,62 @@
    "positions": {
     "Monaco": 5,
     "Lille": 4
+   },
+   "forms": {
+    "Monaco": [
+     [
+      "D",
+      "1-1",
+      "Strasbourg"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lens"
+     ],
+     [
+      "D",
+      "2-2",
+      "Toulouse"
+     ],
+     [
+      "W",
+      "2-1",
+      "CSKA Sofia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Lorient"
+     ]
+    ],
+    "Lille": [
+     [
+      "W",
+      "2-0",
+      "Troyes"
+     ],
+     [
+      "L",
+      "1-2",
+      "Nice"
+     ],
+     [
+      "W",
+      "1-0",
+      "Le Havre"
+     ],
+     [
+      "L",
+      "0-3",
+      "Arsenal"
+     ],
+     [
+      "D",
+      "1-1",
+      "Brest"
+     ]
+    ]
    },
    "espn": {
     "id": "401876425",
@@ -5917,6 +9711,62 @@
    "positions": {
     "Brest": 10,
     "Nice": 13
+   },
+   "forms": {
+    "Brest": [
+     [
+      "W",
+      "2-1",
+      "Le Havre"
+     ],
+     [
+      "L",
+      "0-1",
+      "Paris Saint-Germain"
+     ],
+     [
+      "L",
+      "1-2",
+      "Auxerre"
+     ],
+     [
+      "W",
+      "5-1",
+      "Angers"
+     ],
+     [
+      "D",
+      "1-1",
+      "Lille"
+     ]
+    ],
+    "Nice": [
+     [
+      "D",
+      "1-1",
+      "Le Mans"
+     ],
+     [
+      "L",
+      "0-1",
+      "Auxerre"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lille"
+     ],
+     [
+      "W",
+      "2-1",
+      "Strasbourg"
+     ],
+     [
+      "L",
+      "1-2",
+      "Lyon"
+     ]
+    ]
    },
    "espn": {
     "id": "401876428",
@@ -6004,6 +9854,62 @@
     "Vitória SC": 15,
     "Marítimo": 11
    },
+   "forms": {
+    "Vitória SC": [
+     [
+      "L",
+      "0-1",
+      "Braga"
+     ],
+     [
+      "D",
+      "0-0",
+      "Casa Pia"
+     ],
+     [
+      "L",
+      "1-2",
+      "Acad. Viseu"
+     ],
+     [
+      "D",
+      "1-1",
+      "Moreirense"
+     ],
+     [
+      "L",
+      "0-2",
+      "Benfica"
+     ]
+    ],
+    "Marítimo": [
+     [
+      "L",
+      "1-2",
+      "Arouca"
+     ],
+     [
+      "L",
+      "0-3",
+      "Benfica"
+     ],
+     [
+      "L",
+      "1-3",
+      "Moreirense"
+     ],
+     [
+      "D",
+      "1-1",
+      "Gil Vicente"
+     ],
+     [
+      "L",
+      "1-2",
+      "Porto"
+     ]
+    ]
+   },
    "espn": {
     "id": "401885412",
     "league": "por.1",
@@ -6085,6 +9991,62 @@
     "Rennes": 6,
     "Strasbourg": 14
    },
+   "forms": {
+    "Rennes": [
+     [
+      "D",
+      "0-0",
+      "SK Sturm Graz"
+     ],
+     [
+      "L",
+      "0-4",
+      "Lyon"
+     ],
+     [
+      "W",
+      "4-1",
+      "Auxerre"
+     ],
+     [
+      "W",
+      "2-1",
+      "OFI Crete"
+     ],
+     [
+      "L",
+      "3-4",
+      "Paris FC"
+     ]
+    ],
+    "Strasbourg": [
+     [
+      "W",
+      "6-2",
+      "Troyes"
+     ],
+     [
+      "D",
+      "1-1",
+      "Monaco"
+     ],
+     [
+      "L",
+      "1-2",
+      "Paris FC"
+     ],
+     [
+      "L",
+      "1-2",
+      "Nice"
+     ],
+     [
+      "L",
+      "1-3",
+      "Paris Saint-Germain"
+     ]
+    ]
+   },
    "espn": {
     "id": "401876424",
     "league": "fra.1",
@@ -6114,11 +10076,9 @@
    "story": "Wins in last 5: 2 v 3 · 2.4 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "2.2 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5",
      "2.6 goals per game lately"
     ],
     "both": [
@@ -6171,6 +10131,62 @@
    "positions": {
     "AZ": 2,
     "FC Twente": 5
+   },
+   "forms": {
+    "AZ": [
+     [
+      "L",
+      "0-1",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "1-0",
+      "Telstar"
+     ],
+     [
+      "L",
+      "0-2",
+      "Feyenoord"
+     ],
+     [
+      "W",
+      "2-1",
+      "Hapoel Be'er"
+     ],
+     [
+      "D",
+      "2-2",
+      "SC Cambuur"
+     ]
+    ],
+    "FC Twente": [
+     [
+      "W",
+      "2-0",
+      "ADO Den Haag"
+     ],
+     [
+      "W",
+      "3-2",
+      "PSV"
+     ],
+     [
+      "D",
+      "1-1",
+      "Fortuna Sittard"
+     ],
+     [
+      "W",
+      "1-0",
+      "FC Thun"
+     ],
+     [
+      "L",
+      "1-2",
+      "Utrecht"
+     ]
+    ]
    },
    "espn": {
     "id": "401875566",
@@ -6258,6 +10274,62 @@
     "Pafos": 32,
     "Riga FC": 21
    },
+   "forms": {
+    "Pafos": [
+     [
+      "L",
+      "0-1",
+      "RB Salzburg"
+     ],
+     [
+      "D",
+      "3-3",
+      "RB Salzburg"
+     ],
+     [
+      "D",
+      "1-1",
+      "Dinamo City"
+     ],
+     [
+      "W",
+      "4-2",
+      "Dinamo City"
+     ],
+     [
+      "L",
+      "1-3",
+      "Atalanta"
+     ]
+    ],
+    "Riga FC": [
+     [
+      "D",
+      "1-1",
+      "Györi ETO FC"
+     ],
+     [
+      "D",
+      "0-0",
+      "KI Klaksvik"
+     ],
+     [
+      "W",
+      "2-1",
+      "KI Klaksvik"
+     ],
+     [
+      "W",
+      "2-1",
+      "Aris Limassol"
+     ],
+     [
+      "D",
+      "1-1",
+      "Kairat Almaty"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915838",
@@ -6333,6 +10405,62 @@
    "positions": {
     "Lech Poznan": 36,
     "Sunderland": 9
+   },
+   "forms": {
+    "Lech Poznan": [
+     [
+      "W",
+      "7-0",
+      "FC Thun"
+     ],
+     [
+      "D",
+      "2-2",
+      "FC Thun"
+     ],
+     [
+      "L",
+      "0-4",
+      "Crystal Palace"
+     ],
+     [
+      "D",
+      "2-2",
+      "Energie Cottbus"
+     ],
+     [
+      "L",
+      "0-4",
+      "Bayer Leverkusen"
+     ]
+    ],
+    "Sunderland": [
+     [
+      "W",
+      "1-0",
+      "AZ"
+     ],
+     [
+      "L",
+      "3-5",
+      "Manchester City"
+     ],
+     [
+      "L",
+      "0-2",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "2-1",
+      "Torreense"
+     ],
+     [
+      "L",
+      "0-2",
+      "AFC Bournemouth"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa",
@@ -6416,6 +10544,62 @@
    "positions": {
     "FC Augsburg": 10,
     "Union Berlin": 17
+   },
+   "forms": {
+    "FC Augsburg": [
+     [
+      "W",
+      "4-1",
+      "Eintracht Frankfurt"
+     ],
+     [
+      "D",
+      "2-2",
+      "Bayer Leverkusen"
+     ],
+     [
+      "L",
+      "2-3",
+      "Werder Bremen"
+     ],
+     [
+      "D",
+      "2-2",
+      "Bayern Munich"
+     ],
+     [
+      "L",
+      "3-4",
+      "Elversberg"
+     ]
+    ],
+    "Union Berlin": [
+     [
+      "L",
+      "0-4",
+      "Bayer Leverkusen"
+     ],
+     [
+      "L",
+      "1-3",
+      "Schalke 04"
+     ],
+     [
+      "L",
+      "0-7",
+      "Bayern Munich"
+     ],
+     [
+      "W",
+      "1-0",
+      "Elversberg"
+     ],
+     [
+      "D",
+      "0-0",
+      "Borussia Dortmund"
+     ]
+    ]
    },
    "espn": {
     "id": "401884758",
@@ -6504,6 +10688,62 @@
     "Racing Santander": 16,
     "Espanyol": 13
    },
+   "forms": {
+    "Racing Santander": [
+     [
+      "W",
+      "2-1",
+      "Alavés"
+     ],
+     [
+      "L",
+      "2-7",
+      "Barcelona"
+     ],
+     [
+      "L",
+      "0-5",
+      "Celta Vigo"
+     ],
+     [
+      "D",
+      "2-2",
+      "Valencia"
+     ],
+     [
+      "L",
+      "0-2",
+      "Osasuna"
+     ]
+    ],
+    "Espanyol": [
+     [
+      "W",
+      "2-0",
+      "Osasuna"
+     ],
+     [
+      "L",
+      "1-2",
+      "Rayo Vallecano"
+     ],
+     [
+      "L",
+      "1-3",
+      "Elche"
+     ],
+     [
+      "D",
+      "1-1",
+      "Málaga"
+     ],
+     [
+      "L",
+      "0-1",
+      "Atlético Madrid"
+     ]
+    ]
+   },
    "espn": {
     "id": "401882831",
     "league": "esp.1",
@@ -6587,6 +10827,62 @@
    "positions": {
     "Fortuna Sittard": 6,
     "Excelsior": 10
+   },
+   "forms": {
+    "Fortuna Sittard": [
+     [
+      "W",
+      "3-2",
+      "ADO Den Haag"
+     ],
+     [
+      "L",
+      "1-5",
+      "Ajax"
+     ],
+     [
+      "W",
+      "1-0",
+      "Willem II"
+     ],
+     [
+      "D",
+      "1-1",
+      "FC Twente"
+     ],
+     [
+      "D",
+      "2-2",
+      "NEC"
+     ]
+    ],
+    "Excelsior": [
+     [
+      "D",
+      "2-2",
+      "NEC"
+     ],
+     [
+      "L",
+      "1-2",
+      "Utrecht"
+     ],
+     [
+      "D",
+      "2-2",
+      "Ajax"
+     ],
+     [
+      "L",
+      "1-5",
+      "FC Groningen"
+     ],
+     [
+      "L",
+      "0-4",
+      "SC Heerenveen"
+     ]
+    ]
    },
    "espn": {
     "id": "401875570",
@@ -6674,6 +10970,62 @@
     "Tottenham Hotspur": 20,
     "Coventry City": 16
    },
+   "forms": {
+    "Tottenham Hotspur": [
+     [
+      "L",
+      "0-2",
+      "Newcastle United"
+     ],
+     [
+      "D",
+      "0-0",
+      "Nottingham Forest"
+     ],
+     [
+      "D",
+      "0-0",
+      "Everton"
+     ],
+     [
+      "L",
+      "2-3",
+      "Aston Villa"
+     ],
+     [
+      "D",
+      "1-1",
+      "Manchester United"
+     ]
+    ],
+    "Coventry City": [
+     [
+      "L",
+      "0-1",
+      "Hull City"
+     ],
+     [
+      "L",
+      "0-1",
+      "Manchester City"
+     ],
+     [
+      "L",
+      "0-5",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "1-0",
+      "Nottingham Forest"
+     ],
+     [
+      "W",
+      "4-1",
+      "Newcastle United"
+     ]
+    ]
+   },
    "espn": {
     "id": "401879257",
     "league": "eng.1",
@@ -6758,6 +11110,62 @@
     "Kairat Almaty": 16,
     "Panathinaikos": 12
    },
+   "forms": {
+    "Kairat Almaty": [
+     [
+      "L",
+      "0-1",
+      "Levski Sofia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Levski Sofia"
+     ],
+     [
+      "L",
+      "0-3",
+      "Anderlecht"
+     ],
+     [
+      "L",
+      "0-3",
+      "Anderlecht"
+     ],
+     [
+      "D",
+      "1-1",
+      "Riga FC"
+     ]
+    ],
+    "Panathinaikos": [
+     [
+      "W",
+      "3-0",
+      "Panetolikos"
+     ],
+     [
+      "W",
+      "1-0",
+      "Kalamata"
+     ],
+     [
+      "L",
+      "0-1",
+      "Olympiacos"
+     ],
+     [
+      "W",
+      "2-1",
+      "Borac Banja Luka"
+     ],
+     [
+      "W",
+      "5-1",
+      "Asteras Tripoli"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915846",
@@ -6841,6 +11249,62 @@
     "Getafe": 15,
     "FC Lugano": 8
    },
+   "forms": {
+    "Getafe": [
+     [
+      "D",
+      "1-1",
+      "Deportivo La Coruña"
+     ],
+     [
+      "L",
+      "0-1",
+      "Real Betis"
+     ],
+     [
+      "W",
+      "1-0",
+      "Málaga"
+     ],
+     [
+      "L",
+      "0-3",
+      "Barcelona"
+     ],
+     [
+      "D",
+      "1-1",
+      "CSU Craiova"
+     ]
+    ],
+    "FC Lugano": [
+     [
+      "D",
+      "2-2",
+      "NSI Runavik"
+     ],
+     [
+      "W",
+      "2-1",
+      "Maccabi Tel-Aviv"
+     ],
+     [
+      "D",
+      "1-1",
+      "Maccabi Tel-Aviv"
+     ],
+     [
+      "L",
+      "1-3",
+      "Hellas Verona"
+     ],
+     [
+      "W",
+      "3-2",
+      "Red Star Belgrade"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915840",
@@ -6920,6 +11384,62 @@
     "Lincoln Red Imps": 27,
     "FC Twente": 14
    },
+   "forms": {
+    "Lincoln Red Imps": [
+     [
+      "D",
+      "1-1",
+      "Omonia Nicosia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Omonia Nicosia"
+     ],
+     [
+      "L",
+      "0-2",
+      "Larne"
+     ],
+     [
+      "W",
+      "3-0",
+      "Larne"
+     ],
+     [
+      "L",
+      "1-2",
+      "SK Brann"
+     ]
+    ],
+    "FC Twente": [
+     [
+      "W",
+      "2-0",
+      "ADO Den Haag"
+     ],
+     [
+      "W",
+      "3-2",
+      "PSV"
+     ],
+     [
+      "D",
+      "1-1",
+      "Fortuna Sittard"
+     ],
+     [
+      "W",
+      "1-0",
+      "FC Thun"
+     ],
+     [
+      "L",
+      "1-2",
+      "Utrecht"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915833",
@@ -6998,6 +11518,62 @@
    "positions": {
     "NK Celje": 35,
     "RB Salzburg": 21
+   },
+   "forms": {
+    "NK Celje": [
+     [
+      "W",
+      "2-0",
+      "Ararat-Armenia"
+     ],
+     [
+      "D",
+      "1-1",
+      "Slovan Bratislava"
+     ],
+     [
+      "L",
+      "1-2",
+      "Slovan Bratislava"
+     ],
+     [
+      "L",
+      "0-2",
+      "Bayer Leverkusen"
+     ],
+     [
+      "L",
+      "0-3",
+      "Omonia Nicosia"
+     ]
+    ],
+    "RB Salzburg": [
+     [
+      "W",
+      "3-0",
+      "SK Sturm Graz"
+     ],
+     [
+      "L",
+      "1-2",
+      "FC Blau-Weiß Linz"
+     ],
+     [
+      "D",
+      "0-0",
+      "Grazer AK"
+     ],
+     [
+      "L",
+      "0-4",
+      "AC Milan"
+     ],
+     [
+      "W",
+      "3-0",
+      "SC Rheindorf Altach"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa",
@@ -7082,6 +11658,62 @@
    "positions": {
     "Coventry City": 16,
     "Fulham": 17
+   },
+   "forms": {
+    "Coventry City": [
+     [
+      "L",
+      "0-1",
+      "Hull City"
+     ],
+     [
+      "L",
+      "0-1",
+      "Manchester City"
+     ],
+     [
+      "L",
+      "0-5",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "1-0",
+      "Nottingham Forest"
+     ],
+     [
+      "W",
+      "4-1",
+      "Newcastle United"
+     ]
+    ],
+    "Fulham": [
+     [
+      "L",
+      "2-3",
+      "Crystal Palace"
+     ],
+     [
+      "D",
+      "0-0",
+      "Liverpool"
+     ],
+     [
+      "D",
+      "1-1",
+      "Manchester United"
+     ],
+     [
+      "L",
+      "1-2",
+      "Ipswich Town"
+     ],
+     [
+      "W",
+      "1-0",
+      "Hull City"
+     ]
+    ]
    },
    "espn": {
     "id": "401879255",
@@ -7168,6 +11800,62 @@
     "Manchester United": 13,
     "AFC Bournemouth": 15
    },
+   "forms": {
+    "Manchester United": [
+     [
+      "L",
+      "0-1",
+      "Manchester City"
+     ],
+     [
+      "D",
+      "1-1",
+      "Fulham"
+     ],
+     [
+      "D",
+      "1-1",
+      "Tottenham Hotspur"
+     ],
+     [
+      "L",
+      "0-2",
+      "Atlético Madrid"
+     ],
+     [
+      "D",
+      "1-1",
+      "Leeds United"
+     ]
+    ],
+    "AFC Bournemouth": [
+     [
+      "W",
+      "2-1",
+      "Real Sociedad"
+     ],
+     [
+      "L",
+      "0-1",
+      "Liverpool"
+     ],
+     [
+      "L",
+      "1-5",
+      "Chelsea"
+     ],
+     [
+      "W",
+      "3-0",
+      "SK Sturm Graz"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ]
+    ]
+   },
    "espn": {
     "id": "401879252",
     "league": "eng.1",
@@ -7249,6 +11937,62 @@
     "Sunderland": 19,
     "Leeds United": 7
    },
+   "forms": {
+    "Sunderland": [
+     [
+      "W",
+      "1-0",
+      "AZ"
+     ],
+     [
+      "L",
+      "3-5",
+      "Manchester City"
+     ],
+     [
+      "L",
+      "0-2",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "2-1",
+      "Torreense"
+     ],
+     [
+      "L",
+      "0-2",
+      "AFC Bournemouth"
+     ]
+    ],
+    "Leeds United": [
+     [
+      "D",
+      "1-1",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "4-1",
+      "Newcastle United"
+     ],
+     [
+      "D",
+      "0-0",
+      "Crystal Palace"
+     ],
+     [
+      "L",
+      "1-2",
+      "Arsenal"
+     ],
+     [
+      "D",
+      "1-1",
+      "Manchester United"
+     ]
+    ]
+   },
    "espn": {
     "id": "401878764",
     "league": "eng.1",
@@ -7268,7 +12012,7 @@
    "home": "Lecce",
    "away": "Juventus",
    "score": 40,
-   "base": 37.1,
+   "base": 37.2,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -7278,15 +12022,15 @@
    "story": "Wins in last 5: 2 v 3 · 3.0 goals per game lately · Lecce usually finish 16th: punching above their weight",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "3.0 goals per game lately",
      "Usually finish 16th: punching above their weight"
     ],
     "away": [
-     "Won 3 of last 5",
      "3.0 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Evenly matched"
+    ]
    },
    "breakdown": {
     "form": {
@@ -7296,8 +12040,8 @@
      "reason": "Wins in last 5: 2 v 3"
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
+     "value": 0.184,
+     "points": 3.7,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -7335,6 +12079,62 @@
    "positions": {
     "Lecce": 11,
     "Juventus": 8
+   },
+   "forms": {
+    "Lecce": [
+     [
+      "L",
+      "0-1",
+      "Cagliari"
+     ],
+     [
+      "W",
+      "3-2",
+      "Monza"
+     ],
+     [
+      "L",
+      "0-3",
+      "AC Milan"
+     ],
+     [
+      "L",
+      "1-2",
+      "Bologna"
+     ],
+     [
+      "W",
+      "3-0",
+      "Udinese"
+     ]
+    ],
+    "Juventus": [
+     [
+      "W",
+      "5-0",
+      "NEC"
+     ],
+     [
+      "W",
+      "2-0",
+      "Atalanta"
+     ],
+     [
+      "D",
+      "1-1",
+      "Cagliari"
+     ],
+     [
+      "W",
+      "2-1",
+      "Celta Vigo"
+     ],
+     [
+      "L",
+      "0-3",
+      "Lazio"
+     ]
+    ]
    },
    "espn": {
     "id": "401874772",
@@ -7422,6 +12222,62 @@
     "Borac Banja Luka": 26,
     "KuPS Kuopio": 31
    },
+   "forms": {
+    "Borac Banja Luka": [
+     [
+      "W",
+      "3-1",
+      "Vikingur Reykjavik"
+     ],
+     [
+      "W",
+      "3-1",
+      "Vikingur Reykjavik"
+     ],
+     [
+      "L",
+      "0-3",
+      "Radnik Bijeljina"
+     ],
+     [
+      "D",
+      "1-1",
+      "Vojvodina"
+     ],
+     [
+      "L",
+      "1-2",
+      "Panathinaikos"
+     ]
+    ],
+    "KuPS Kuopio": [
+     [
+      "D",
+      "1-1",
+      "CSU Craiova"
+     ],
+     [
+      "L",
+      "1-2",
+      "CSU Craiova"
+     ],
+     [
+      "D",
+      "1-1",
+      "Shamrock Rovers"
+     ],
+     [
+      "W",
+      "1-0",
+      "Shamrock Rovers"
+     ],
+     [
+      "L",
+      "2-4",
+      "Trabzonspor"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915743",
@@ -7498,6 +12354,62 @@
    "positions": {
     "Sparta Rotterdam": 13,
     "Ajax": 4
+   },
+   "forms": {
+    "Sparta Rotterdam": [
+     [
+      "D",
+      "2-2",
+      "PEC Zwolle"
+     ],
+     [
+      "L",
+      "1-4",
+      "PSV"
+     ],
+     [
+      "L",
+      "0-4",
+      "SC Heerenveen"
+     ],
+     [
+      "D",
+      "3-3",
+      "Go Ahead Eagles"
+     ],
+     [
+      "W",
+      "3-2",
+      "Willem II"
+     ]
+    ],
+    "Ajax": [
+     [
+      "W",
+      "5-1",
+      "Willem II"
+     ],
+     [
+      "D",
+      "2-2",
+      "Excelsior"
+     ],
+     [
+      "D",
+      "1-1",
+      "NEC"
+     ],
+     [
+      "L",
+      "1-2",
+      "Hajduk Split"
+     ],
+     [
+      "W",
+      "5-2",
+      "FC Groningen"
+     ]
+    ]
    },
    "espn": {
     "id": "401875567",
@@ -7585,6 +12497,62 @@
     "AGF": 29,
     "Egnatia": 19
    },
+   "forms": {
+    "AGF": [
+     [
+      "D",
+      "2-2",
+      "AC Horsens"
+     ],
+     [
+      "W",
+      "2-1",
+      "Vendsyssel"
+     ],
+     [
+      "W",
+      "3-0",
+      "Sønderjyske Fodbold"
+     ],
+     [
+      "L",
+      "0-1",
+      "KAA Gent"
+     ],
+     [
+      "D",
+      "1-1",
+      "F.C. København"
+     ]
+    ],
+    "Egnatia": [
+     [
+      "L",
+      "1-3",
+      "Shamrock Rovers"
+     ],
+     [
+      "W",
+      "5-1",
+      "Shamrock Rovers"
+     ],
+     [
+      "D",
+      "0-0",
+      "Lillestrom"
+     ],
+     [
+      "L",
+      "1-2",
+      "Lillestrom"
+     ],
+     [
+      "D",
+      "1-1",
+      "FC Midtjylland"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915744",
@@ -7612,11 +12580,9 @@
    "story": "Wins in last 5: 2 v 3 · 3.2 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
-     "Won 2 of last 5",
      "3.2 goals per game lately"
     ],
     "away": [
-     "Won 3 of last 5",
      "3.2 goals per game lately"
     ],
     "both": [
@@ -7669,6 +12635,62 @@
    "positions": {
     "Lens": 8,
     "Paris FC": 3
+   },
+   "forms": {
+    "Lens": [
+     [
+      "D",
+      "2-2",
+      "Le Mans"
+     ],
+     [
+      "L",
+      "1-2",
+      "Monaco"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lyon"
+     ],
+     [
+      "L",
+      "0-2",
+      "Sporting CP"
+     ],
+     [
+      "W",
+      "3-1",
+      "Troyes"
+     ]
+    ],
+    "Paris FC": [
+     [
+      "W",
+      "3-2",
+      "Marseille"
+     ],
+     [
+      "D",
+      "0-0",
+      "Lyon"
+     ],
+     [
+      "W",
+      "2-1",
+      "Strasbourg"
+     ],
+     [
+      "L",
+      "0-1",
+      "Lorient"
+     ],
+     [
+      "W",
+      "4-3",
+      "Rennes"
+     ]
+    ]
    },
    "espn": {
     "id": "401876427",
@@ -7756,6 +12778,62 @@
     "Hull City": 9,
     "Brentford": 6
    },
+   "forms": {
+    "Hull City": [
+     [
+      "D",
+      "0-0",
+      "Aston Villa"
+     ],
+     [
+      "D",
+      "2-2",
+      "Chelsea"
+     ],
+     [
+      "L",
+      "1-2",
+      "Newcastle United"
+     ],
+     [
+      "D",
+      "2-2",
+      "Everton"
+     ],
+     [
+      "L",
+      "0-1",
+      "Fulham"
+     ]
+    ],
+    "Brentford": [
+     [
+      "D",
+      "1-1",
+      "Sunderland"
+     ],
+     [
+      "D",
+      "2-2",
+      "AFC Bournemouth"
+     ],
+     [
+      "W",
+      "3-0",
+      "Chelsea"
+     ],
+     [
+      "D",
+      "2-2",
+      "Aston Villa"
+     ],
+     [
+      "L",
+      "1-2",
+      "Liverpool"
+     ]
+    ]
+   },
    "espn": {
     "id": "401878766",
     "league": "eng.1",
@@ -7837,6 +12915,62 @@
     "Willem II": 18,
     "SC Cambuur": 14
    },
+   "forms": {
+    "Willem II": [
+     [
+      "D",
+      "1-1",
+      "AZ"
+     ],
+     [
+      "L",
+      "1-5",
+      "Ajax"
+     ],
+     [
+      "L",
+      "0-1",
+      "Fortuna Sittard"
+     ],
+     [
+      "L",
+      "1-3",
+      "Utrecht"
+     ],
+     [
+      "L",
+      "2-3",
+      "Sparta Rotterdam"
+     ]
+    ],
+    "SC Cambuur": [
+     [
+      "D",
+      "2-2",
+      "Telstar"
+     ],
+     [
+      "W",
+      "3-0",
+      "NEC"
+     ],
+     [
+      "D",
+      "1-1",
+      "ADO Den Haag"
+     ],
+     [
+      "W",
+      "1-0",
+      "PEC Zwolle"
+     ],
+     [
+      "D",
+      "2-2",
+      "AZ"
+     ]
+    ]
+   },
    "espn": {
     "id": "401875572",
     "league": "ned.1",
@@ -7856,7 +12990,7 @@
    "home": "Lazio",
    "away": "Parma",
    "score": 37,
-   "base": 33.6,
+   "base": 33.7,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -7866,12 +13000,10 @@
    "story": "Wins in last 5: 4 v 1 · 2.9 goals per game lately · Lazio usually finish 6th: punching above their weight",
    "story_sides": {
     "home": [
-     "Won 4 of last 5",
      "3.2 goals per game lately",
      "Usually finish 6th: punching above their weight"
     ],
     "away": [
-     "Won 1 of last 5",
      "2.6 goals per game lately"
     ],
     "both": []
@@ -7884,8 +13016,8 @@
      "reason": "Wins in last 5: 4 v 1"
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
+     "value": 0.184,
+     "points": 3.7,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -7921,6 +13053,62 @@
    "positions": {
     "Lazio": 2,
     "Parma": 16
+   },
+   "forms": {
+    "Lazio": [
+     [
+      "W",
+      "2-1",
+      "Udinese"
+     ],
+     [
+      "D",
+      "2-2",
+      "AC Milan"
+     ],
+     [
+      "W",
+      "2-0",
+      "Venezia"
+     ],
+     [
+      "W",
+      "3-1",
+      "Monza"
+     ],
+     [
+      "W",
+      "3-0",
+      "Juventus"
+     ]
+    ],
+    "Parma": [
+     [
+      "L",
+      "0-2",
+      "Juventus"
+     ],
+     [
+      "D",
+      "1-1",
+      "Monza"
+     ],
+     [
+      "L",
+      "1-2",
+      "Como"
+     ],
+     [
+      "W",
+      "2-1",
+      "Genoa"
+     ],
+     [
+      "L",
+      "0-3",
+      "Inter"
+     ]
+    ]
    },
    "espn": {
     "id": "401874955",
@@ -8006,6 +13194,62 @@
     "Crystal Palace": 14,
     "Newcastle United": 11
    },
+   "forms": {
+    "Crystal Palace": [
+     [
+      "W",
+      "4-0",
+      "Lech Poznan"
+     ],
+     [
+      "D",
+      "0-0",
+      "Leeds United"
+     ],
+     [
+      "W",
+      "3-1",
+      "Nottingham Forest"
+     ],
+     [
+      "L",
+      "2-3",
+      "Lyon"
+     ],
+     [
+      "L",
+      "0-5",
+      "Brighton & Hove Albion"
+     ]
+    ],
+    "Newcastle United": [
+     [
+      "D",
+      "2-2",
+      "AFC Bournemouth"
+     ],
+     [
+      "L",
+      "1-4",
+      "Leeds United"
+     ],
+     [
+      "W",
+      "2-1",
+      "Hull City"
+     ],
+     [
+      "L",
+      "1-4",
+      "Coventry City"
+     ],
+     [
+      "L",
+      "0-1",
+      "Aston Villa"
+     ]
+    ]
+   },
    "espn": {
     "id": "401879254",
     "league": "eng.1",
@@ -8088,6 +13332,62 @@
    "positions": {
     "Getafe": 15,
     "Rayo Vallecano": 14
+   },
+   "forms": {
+    "Getafe": [
+     [
+      "D",
+      "1-1",
+      "Deportivo La Coruña"
+     ],
+     [
+      "L",
+      "0-1",
+      "Real Betis"
+     ],
+     [
+      "W",
+      "1-0",
+      "Málaga"
+     ],
+     [
+      "L",
+      "0-3",
+      "Barcelona"
+     ],
+     [
+      "D",
+      "1-1",
+      "CSU Craiova"
+     ]
+    ],
+    "Rayo Vallecano": [
+     [
+      "L",
+      "2-5",
+      "Barcelona"
+     ],
+     [
+      "W",
+      "3-2",
+      "Racing Santander"
+     ],
+     [
+      "L",
+      "1-4",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "2-1",
+      "Espanyol"
+     ],
+     [
+      "D",
+      "1-1",
+      "Osasuna"
+     ]
+    ]
    },
    "espn": {
     "id": "401882842",
@@ -8176,6 +13476,62 @@
     "Inter D'Escaldes": 34,
     "CSU Craiova": 22
    },
+   "forms": {
+    "Inter D'Escaldes": [
+     [
+      "W",
+      "4-0",
+      "Flora"
+     ],
+     [
+      "D",
+      "2-2",
+      "Drita Gjilan"
+     ],
+     [
+      "D",
+      "0-0",
+      "Drita Gjilan"
+     ],
+     [
+      "L",
+      "0-2",
+      "Rodez Aveyron"
+     ],
+     [
+      "L",
+      "0-2",
+      "Mjällby AIF"
+     ]
+    ],
+    "CSU Craiova": [
+     [
+      "W",
+      "2-1",
+      "KuPS Kuopio"
+     ],
+     [
+      "D",
+      "1-1",
+      "Ararat-Armenia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Ararat-Armenia"
+     ],
+     [
+      "W",
+      "4-0",
+      "CSM Slatina"
+     ],
+     [
+      "D",
+      "1-1",
+      "Getafe"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915839",
@@ -8254,6 +13610,62 @@
    "positions": {
     "Kauno Zalgiris": 36,
     "SK Brann": 10
+   },
+   "forms": {
+    "Kauno Zalgiris": [
+     [
+      "L",
+      "0-5",
+      "Dinamo Zagreb"
+     ],
+     [
+      "L",
+      "1-2",
+      "Dinamo Zagreb"
+     ],
+     [
+      "L",
+      "0-3",
+      "Besiktas"
+     ],
+     [
+      "W",
+      "1-0",
+      "Besiktas"
+     ],
+     [
+      "L",
+      "0-4",
+      "Brighton & Hove Albion"
+     ]
+    ],
+    "SK Brann": [
+     [
+      "W",
+      "2-1",
+      "Bodo/Glimt"
+     ],
+     [
+      "L",
+      "1-2",
+      "IK Start"
+     ],
+     [
+      "L",
+      "0-2",
+      "Viking FK"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lincoln Red Imps"
+     ],
+     [
+      "L",
+      "1-3",
+      "Vålerenga"
+     ]
+    ]
    },
    "espn": {
     "league": "uefa.europa.conf",
@@ -8335,6 +13747,62 @@
    "positions": {
     "Rayo Vallecano": 14,
     "Elche": 18
+   },
+   "forms": {
+    "Rayo Vallecano": [
+     [
+      "L",
+      "2-5",
+      "Barcelona"
+     ],
+     [
+      "W",
+      "3-2",
+      "Racing Santander"
+     ],
+     [
+      "L",
+      "1-4",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "2-1",
+      "Espanyol"
+     ],
+     [
+      "D",
+      "1-1",
+      "Osasuna"
+     ]
+    ],
+    "Elche": [
+     [
+      "D",
+      "1-1",
+      "Athletic Club"
+     ],
+     [
+      "L",
+      "2-3",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "3-1",
+      "Espanyol"
+     ],
+     [
+      "D",
+      "0-0",
+      "Celta Vigo"
+     ],
+     [
+      "D",
+      "0-0",
+      "Villarreal"
+     ]
+    ]
    },
    "espn": {
     "id": "401882830",
@@ -8423,6 +13891,47 @@
     "Manchester City": 17,
     "PAE AEK": 20
    },
+   "forms": {
+    "Manchester City": [
+     [
+      "W",
+      "1-0",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "5-3",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "3-0",
+      "Liverpool"
+     ],
+     [
+      "L",
+      "2-4",
+      "Paris Saint-Germain"
+     ],
+     [
+      "W",
+      "3-2",
+      "Ipswich Town"
+     ]
+    ],
+    "PAE AEK": [
+     [
+      "W",
+      "1-0",
+      "LASK"
+     ],
+     [
+      "L",
+      "1-3",
+      "Shaktar"
+     ]
+    ]
+   },
    "espn": {
     "id": "401915401",
     "league": "uefa.champions",
@@ -8509,6 +14018,62 @@
     "FC Nordsjælland": 18,
     "CSKA Sofia": 28
    },
+   "forms": {
+    "FC Nordsjælland": [
+     [
+      "L",
+      "1-4",
+      "Viborg FF"
+     ],
+     [
+      "L",
+      "0-3",
+      "Malmö FF"
+     ],
+     [
+      "D",
+      "0-0",
+      "Odense Boldklub"
+     ],
+     [
+      "D",
+      "1-1",
+      "Heart of Midlothian"
+     ],
+     [
+      "D",
+      "3-3",
+      "Lyngby Boldklub"
+     ]
+    ],
+    "CSKA Sofia": [
+     [
+      "W",
+      "3-0",
+      "Maccabi Tel-Aviv"
+     ],
+     [
+      "L",
+      "1-3",
+      "Maccabi Tel-Aviv"
+     ],
+     [
+      "L",
+      "0-3",
+      "OFI Crete"
+     ],
+     [
+      "L",
+      "0-2",
+      "OFI Crete"
+     ],
+     [
+      "L",
+      "1-2",
+      "Monaco"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915844",
@@ -8592,6 +14157,62 @@
     "Amadora": 10,
     "Casa Pia": 17
    },
+   "forms": {
+    "Amadora": [
+     [
+      "D",
+      "2-2",
+      "Famalicão"
+     ],
+     [
+      "W",
+      "2-1",
+      "Braga"
+     ],
+     [
+      "D",
+      "3-3",
+      "Rio Ave"
+     ],
+     [
+      "L",
+      "0-2",
+      "Acad. Viseu"
+     ],
+     [
+      "L",
+      "0-1",
+      "Arouca"
+     ]
+    ],
+    "Casa Pia": [
+     [
+      "L",
+      "0-1",
+      "Moreirense"
+     ],
+     [
+      "D",
+      "0-0",
+      "Vitória SC"
+     ],
+     [
+      "L",
+      "1-4",
+      "Porto"
+     ],
+     [
+      "W",
+      "2-1",
+      "Estoril Praia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Santa Clara"
+     ]
+    ]
+   },
    "espn": {
     "id": "401885419",
     "league": "por.1",
@@ -8611,7 +14232,7 @@
    "home": "Genoa",
    "away": "Venezia",
    "score": 35,
-   "base": 32.2,
+   "base": 32.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -8637,8 +14258,8 @@
      "points": 5.8
     },
     "stakes": {
-     "value": 0.363,
-     "points": 7.3,
+     "value": 0.368,
+     "points": 7.4,
      "kind": "stakes_relegation",
      "reason": "Relegation battle"
     },
@@ -8676,6 +14297,62 @@
    "positions": {
     "Genoa": 18,
     "Venezia": 20
+   },
+   "forms": {
+    "Genoa": [
+     [
+      "L",
+      "1-4",
+      "Como"
+     ],
+     [
+      "D",
+      "1-1",
+      "Frosinone"
+     ],
+     [
+      "L",
+      "1-2",
+      "Parma"
+     ],
+     [
+      "W",
+      "2-1",
+      "Fiorentina"
+     ],
+     [
+      "L",
+      "0-2",
+      "Roma"
+     ]
+    ],
+    "Venezia": [
+     [
+      "L",
+      "2-3",
+      "Frosinone"
+     ],
+     [
+      "L",
+      "2-4",
+      "Fiorentina"
+     ],
+     [
+      "L",
+      "0-2",
+      "Lazio"
+     ],
+     [
+      "L",
+      "1-3",
+      "Atalanta"
+     ],
+     [
+      "W",
+      "1-0",
+      "Napoli"
+     ]
+    ]
    },
    "espn": {
     "id": "401874952",
@@ -8762,6 +14439,62 @@
     "Auxerre": 12,
     "Le Mans": 16
    },
+   "forms": {
+    "Auxerre": [
+     [
+      "L",
+      "1-3",
+      "Lyon"
+     ],
+     [
+      "W",
+      "1-0",
+      "Nice"
+     ],
+     [
+      "W",
+      "2-1",
+      "Brest"
+     ],
+     [
+      "L",
+      "1-4",
+      "Rennes"
+     ],
+     [
+      "W",
+      "3-1",
+      "Le Havre"
+     ]
+    ],
+    "Le Mans": [
+     [
+      "D",
+      "1-1",
+      "Nice"
+     ],
+     [
+      "D",
+      "2-2",
+      "Lens"
+     ],
+     [
+      "W",
+      "2-1",
+      "Lorient"
+     ],
+     [
+      "L",
+      "1-3",
+      "Paris Saint-Germain"
+     ],
+     [
+      "L",
+      "0-3",
+      "Toulouse"
+     ]
+    ]
+   },
    "espn": {
     "id": "401876429",
     "league": "fra.1",
@@ -8847,6 +14580,62 @@
     "Braga": 9,
     "Gil Vicente": 8
    },
+   "forms": {
+    "Braga": [
+     [
+      "L",
+      "1-2",
+      "Amadora"
+     ],
+     [
+      "W",
+      "1-0",
+      "Estoril Praia"
+     ],
+     [
+      "D",
+      "0-0",
+      "Santa Clara"
+     ],
+     [
+      "L",
+      "1-3",
+      "Sporting CP"
+     ],
+     [
+      "L",
+      "0-3",
+      "F.C. København"
+     ]
+    ],
+    "Gil Vicente": [
+     [
+      "D",
+      "0-0",
+      "Famalicão"
+     ],
+     [
+      "L",
+      "0-1",
+      "Acad. Viseu"
+     ],
+     [
+      "L",
+      "1-3",
+      "Benfica"
+     ],
+     [
+      "D",
+      "1-1",
+      "Marítimo"
+     ],
+     [
+      "W",
+      "1-0",
+      "Moreirense"
+     ]
+    ]
+   },
    "espn": {
     "id": "401885480",
     "league": "por.1",
@@ -8928,6 +14717,62 @@
     "Red Star Belgrade": 24,
     "F.C. København": 2
    },
+   "forms": {
+    "Red Star Belgrade": [
+     [
+      "L",
+      "0-1",
+      "Hapoel Be'er"
+     ],
+     [
+      "L",
+      "0-2",
+      "Hapoel Be'er"
+     ],
+     [
+      "W",
+      "3-0",
+      "Viktoria Plzen"
+     ],
+     [
+      "L",
+      "1-5",
+      "Viktoria Plzen"
+     ],
+     [
+      "L",
+      "2-3",
+      "FC Lugano"
+     ]
+    ],
+    "F.C. København": [
+     [
+      "W",
+      "1-0",
+      "Brøndby IF"
+     ],
+     [
+      "L",
+      "0-2",
+      "Hamburg SV"
+     ],
+     [
+      "L",
+      "1-2",
+      "FC Midtjylland"
+     ],
+     [
+      "W",
+      "3-0",
+      "Braga"
+     ],
+     [
+      "D",
+      "1-1",
+      "AGF"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915843",
@@ -9007,6 +14852,47 @@
     "Ferencvaros": 7,
     "Torreense": 19
    },
+   "forms": {
+    "Ferencvaros": [
+     [
+      "D",
+      "1-1",
+      "Gornik Zabrze"
+     ],
+     [
+      "W",
+      "1-0",
+      "Trabzonspor"
+     ],
+     [
+      "W",
+      "4-0",
+      "Trabzonspor"
+     ],
+     [
+      "W",
+      "3-1",
+      "Celtic"
+     ],
+     [
+      "W",
+      "2-1",
+      "Viktoria Plzen"
+     ]
+    ],
+    "Torreense": [
+     [
+      "W",
+      "2-1",
+      "Lillestrom"
+     ],
+     [
+      "L",
+      "1-2",
+      "Sunderland"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa",
     "id": "401915558",
@@ -9034,11 +14920,9 @@
    "story": "Wins in last 5: 5 v 0 · 2.5 goals per game lately",
    "story_sides": {
     "home": [
-     "Won 5 of last 5",
      "2.6 goals per game lately"
     ],
     "away": [
-     "Won 0 of last 5",
      "2.4 goals per game lately"
     ],
     "both": []
@@ -9087,6 +14971,62 @@
     "Atlético Madrid": 2,
     "Deportivo La Coruña": 9
    },
+   "forms": {
+    "Atlético Madrid": [
+     [
+      "W",
+      "4-0",
+      "Osasuna"
+     ],
+     [
+      "W",
+      "2-1",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "2-1",
+      "Alavés"
+     ],
+     [
+      "W",
+      "2-0",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "1-0",
+      "Espanyol"
+     ]
+    ],
+    "Deportivo La Coruña": [
+     [
+      "D",
+      "1-1",
+      "Getafe"
+     ],
+     [
+      "L",
+      "0-1",
+      "Sevilla"
+     ],
+     [
+      "D",
+      "1-1",
+      "Real Betis"
+     ],
+     [
+      "L",
+      "2-3",
+      "Real Sociedad"
+     ],
+     [
+      "D",
+      "1-1",
+      "Levante"
+     ]
+    ]
+   },
    "espn": {
     "id": "401882834",
     "league": "esp.1",
@@ -9109,7 +15049,7 @@
    "home": "Udinese",
    "away": "AC Milan",
    "score": 34,
-   "base": 31.0,
+   "base": 31.1,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -9133,8 +15073,8 @@
      "points": 8.3
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
+     "value": 0.184,
+     "points": 3.7,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -9170,6 +15110,62 @@
    "positions": {
     "Udinese": 17,
     "AC Milan": 4
+   },
+   "forms": {
+    "Udinese": [
+     [
+      "L",
+      "1-2",
+      "Lazio"
+     ],
+     [
+      "L",
+      "3-5",
+      "Inter"
+     ],
+     [
+      "L",
+      "0-1",
+      "Cagliari"
+     ],
+     [
+      "L",
+      "1-2",
+      "Torino"
+     ],
+     [
+      "L",
+      "0-3",
+      "Lecce"
+     ]
+    ],
+    "AC Milan": [
+     [
+      "L",
+      "0-2",
+      "Benfica"
+     ],
+     [
+      "W",
+      "3-0",
+      "Lecce"
+     ],
+     [
+      "D",
+      "1-1",
+      "Sassuolo"
+     ],
+     [
+      "W",
+      "4-0",
+      "RB Salzburg"
+     ],
+     [
+      "W",
+      "3-2",
+      "Atalanta"
+     ]
+    ]
    },
    "espn": {
     "id": "401874779",
@@ -9252,6 +15248,62 @@
     "Levante": 17,
     "Athletic Club": 11
    },
+   "forms": {
+    "Levante": [
+     [
+      "D",
+      "0-0",
+      "Málaga"
+     ],
+     [
+      "L",
+      "2-4",
+      "Barcelona"
+     ],
+     [
+      "L",
+      "1-3",
+      "Villarreal"
+     ],
+     [
+      "D",
+      "3-3",
+      "Sevilla"
+     ],
+     [
+      "D",
+      "1-1",
+      "Deportivo La Coruña"
+     ]
+    ],
+    "Athletic Club": [
+     [
+      "W",
+      "2-0",
+      "Celta Vigo"
+     ],
+     [
+      "W",
+      "3-0",
+      "Atlético Madrid"
+     ],
+     [
+      "D",
+      "1-1",
+      "Elche"
+     ],
+     [
+      "D",
+      "0-0",
+      "Alavés"
+     ],
+     [
+      "D",
+      "0-0",
+      "Valencia"
+     ]
+    ]
+   },
    "espn": {
     "id": "401882870",
     "league": "esp.1",
@@ -9266,90 +15318,6 @@
    }
   },
   {
-   "id": "fd-558567",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-10-23T20:45:00+02:00",
-   "day": "2026-10-23",
-   "home": "Torino",
-   "away": "Monza",
-   "score": 33,
-   "base": 30.8,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "3.1 goals per game lately · Evenly matched",
-   "story_sides": {
-    "home": [
-     "2.6 goals per game lately"
-    ],
-    "away": [
-     "3.6 goals per game lately"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.467,
-     "points": 11.7
-    },
-    "stakes": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "entertainment": {
-     "value": 0.775,
-     "points": 11.6,
-     "kind": "entertainment",
-     "reason": "3.1 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.968,
-     "points": 4.8,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.267,
-     "points": 2.7,
-     "kind": "par_under"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Torino": 14,
-    "Monza": 13
-   },
-   "espn": {
-    "id": "401874957",
-    "league": "ita.1",
-    "teams": [
-     "239",
-     "4007"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
    "id": "fd-558561",
    "competition": "Serie A",
    "stage": "REGULAR_SEASON",
@@ -9358,7 +15326,7 @@
    "home": "Como",
    "away": "Sassuolo",
    "score": 33,
-   "base": 30.0,
+   "base": 30.1,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -9383,8 +15351,8 @@
      "points": 10.0
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
+     "value": 0.184,
+     "points": 3.7,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -9420,6 +15388,62 @@
    "positions": {
     "Como": 5,
     "Sassuolo": 12
+   },
+   "forms": {
+    "Como": [
+     [
+      "W",
+      "2-1",
+      "Parma"
+     ],
+     [
+      "L",
+      "0-2",
+      "Frosinone"
+     ],
+     [
+      "D",
+      "0-0",
+      "Roma"
+     ],
+     [
+      "L",
+      "2-3",
+      "Feyenoord"
+     ],
+     [
+      "W",
+      "3-1",
+      "Fiorentina"
+     ]
+    ],
+    "Sassuolo": [
+     [
+      "D",
+      "2-2",
+      "Bologna"
+     ],
+     [
+      "W",
+      "3-2",
+      "Juventus"
+     ],
+     [
+      "L",
+      "1-2",
+      "Monza"
+     ],
+     [
+      "D",
+      "1-1",
+      "AC Milan"
+     ],
+     [
+      "L",
+      "2-4",
+      "Frosinone"
+     ]
+    ]
    },
    "espn": {
     "id": "401874961",
@@ -9500,6 +15524,62 @@
    "positions": {
     "ADO Den Haag": 17,
     "SC Heerenveen": 8
+   },
+   "forms": {
+    "ADO Den Haag": [
+     [
+      "L",
+      "2-3",
+      "Fortuna Sittard"
+     ],
+     [
+      "L",
+      "0-2",
+      "FC Twente"
+     ],
+     [
+      "D",
+      "1-1",
+      "SC Cambuur"
+     ],
+     [
+      "D",
+      "2-2",
+      "Telstar"
+     ],
+     [
+      "W",
+      "2-1",
+      "PSV"
+     ]
+    ],
+    "SC Heerenveen": [
+     [
+      "L",
+      "2-3",
+      "AZ"
+     ],
+     [
+      "D",
+      "0-0",
+      "Telstar"
+     ],
+     [
+      "W",
+      "4-0",
+      "Sparta Rotterdam"
+     ],
+     [
+      "L",
+      "0-2",
+      "PSV"
+     ],
+     [
+      "W",
+      "4-0",
+      "Excelsior"
+     ]
+    ]
    },
    "espn": {
     "id": "401875571",
@@ -9584,6 +15664,62 @@
     "Athletic Club": 11,
     "Getafe": 15
    },
+   "forms": {
+    "Athletic Club": [
+     [
+      "W",
+      "2-0",
+      "Celta Vigo"
+     ],
+     [
+      "W",
+      "3-0",
+      "Atlético Madrid"
+     ],
+     [
+      "D",
+      "1-1",
+      "Elche"
+     ],
+     [
+      "D",
+      "0-0",
+      "Alavés"
+     ],
+     [
+      "D",
+      "0-0",
+      "Valencia"
+     ]
+    ],
+    "Getafe": [
+     [
+      "D",
+      "1-1",
+      "Deportivo La Coruña"
+     ],
+     [
+      "L",
+      "0-1",
+      "Real Betis"
+     ],
+     [
+      "W",
+      "1-0",
+      "Málaga"
+     ],
+     [
+      "L",
+      "0-3",
+      "Barcelona"
+     ],
+     [
+      "D",
+      "1-1",
+      "CSU Craiova"
+     ]
+    ]
+   },
    "espn": {
     "id": "401882835",
     "league": "esp.1",
@@ -9597,28 +15733,28 @@
    }
   },
   {
-   "id": "fd-558578",
+   "id": "fd-558567",
    "competition": "Serie A",
    "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-10-19T20:45:00+02:00",
-   "day": "2026-10-19",
-   "home": "Parma",
-   "away": "Torino",
+   "kickoff_paris": "2026-10-23T20:45:00+02:00",
+   "day": "2026-10-23",
+   "home": "Torino",
+   "away": "Monza",
    "score": 32,
-   "base": 29.6,
+   "base": 29.1,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "2.6 goals per game lately · Evenly matched",
+   "story": "3.1 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
      "2.6 goals per game lately"
     ],
     "away": [
-     "2.6 goals per game lately"
+     "3.6 goals per game lately"
     ],
     "both": [
      "Evenly matched"
@@ -9626,27 +15762,26 @@
    },
    "breakdown": {
     "form": {
-     "value": 0.367,
-     "points": 9.2
+     "value": 0.467,
+     "points": 11.7
     },
     "stakes": {
-     "value": 0.182,
-     "points": 3.6,
-     "kind": "stakes_relegation"
+     "value": 0.0,
+     "points": 0.0
     },
     "entertainment": {
-     "value": 0.65,
-     "points": 9.8,
+     "value": 0.775,
+     "points": 11.6,
      "kind": "entertainment",
-     "reason": "2.6 goals per game lately"
+     "reason": "3.1 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.857,
-     "points": 4.3,
+     "value": 0.968,
+     "points": 4.8,
      "kind": "closeness",
      "reason": "Evenly matched"
     },
@@ -9659,22 +15794,78 @@
      "points": 0.0
     },
     "par": {
-     "value": 0.267,
-     "points": 2.7,
+     "value": 0.1,
+     "points": 1.0,
      "kind": "par_under"
     }
    },
    "tier1_rivalry": false,
    "positions": {
-    "Parma": 16,
-    "Torino": 14
+    "Torino": 13,
+    "Monza": 14
+   },
+   "forms": {
+    "Torino": [
+     [
+      "L",
+      "1-2",
+      "Sassuolo"
+     ],
+     [
+      "W",
+      "2-1",
+      "Fiorentina"
+     ],
+     [
+      "L",
+      "0-2",
+      "Roma"
+     ],
+     [
+      "D",
+      "1-1",
+      "Bologna"
+     ],
+     [
+      "W",
+      "2-1",
+      "Udinese"
+     ]
+    ],
+    "Monza": [
+     [
+      "D",
+      "1-1",
+      "Parma"
+     ],
+     [
+      "L",
+      "2-3",
+      "Lecce"
+     ],
+     [
+      "W",
+      "2-1",
+      "Sassuolo"
+     ],
+     [
+      "L",
+      "1-3",
+      "Lazio"
+     ],
+     [
+      "W",
+      "4-0",
+      "Cagliari"
+     ]
+    ]
    },
    "espn": {
-    "id": "401874784",
+    "id": "401874957",
     "league": "ita.1",
     "teams": [
-     "115",
-     "239"
+     "239",
+     "4007"
     ],
     "us_tv": [
      "Paramount+"
@@ -9751,6 +15942,62 @@
    "positions": {
     "Alavés": 7,
     "Málaga": 20
+   },
+   "forms": {
+    "Alavés": [
+     [
+      "L",
+      "1-2",
+      "Racing Santander"
+     ],
+     [
+      "L",
+      "0-1",
+      "Valencia"
+     ],
+     [
+      "D",
+      "0-0",
+      "Athletic Club"
+     ],
+     [
+      "L",
+      "1-2",
+      "Atlético Madrid"
+     ],
+     [
+      "L",
+      "1-2",
+      "Celta Vigo"
+     ]
+    ],
+    "Málaga": [
+     [
+      "D",
+      "1-1",
+      "Celta Vigo"
+     ],
+     [
+      "L",
+      "1-3",
+      "Villarreal"
+     ],
+     [
+      "L",
+      "0-1",
+      "Getafe"
+     ],
+     [
+      "D",
+      "1-1",
+      "Espanyol"
+     ],
+     [
+      "L",
+      "2-5",
+      "Real Sociedad"
+     ]
+    ]
    },
    "espn": {
     "id": "401882836",
@@ -9832,6 +16079,62 @@
    "positions": {
     "SC Paderborn": 16,
     "Hamburger SV": 9
+   },
+   "forms": {
+    "SC Paderborn": [
+     [
+      "L",
+      "0-1",
+      "SC Freiburg"
+     ],
+     [
+      "L",
+      "0-3",
+      "Borussia Dortmund"
+     ],
+     [
+      "W",
+      "3-1",
+      "Hoffenheim"
+     ],
+     [
+      "L",
+      "0-2",
+      "VfB Stuttgart"
+     ],
+     [
+      "D",
+      "2-2",
+      "Werder Bremen"
+     ]
+    ],
+    "Hamburger SV": [
+     [
+      "L",
+      "0-5",
+      "Mainz"
+     ],
+     [
+      "L",
+      "0-5",
+      "RB Leipzig"
+     ],
+     [
+      "W",
+      "2-1",
+      "1. FC Köln"
+     ],
+     [
+      "W",
+      "3-2",
+      "Hoffenheim"
+     ],
+     [
+      "W",
+      "1-0",
+      "VfB Stuttgart"
+     ]
+    ]
    },
    "espn": {
     "id": "401884755",
@@ -9916,6 +16219,62 @@
     "Marseille": 9,
     "Le Havre": 18
    },
+   "forms": {
+    "Marseille": [
+     [
+      "L",
+      "1-4",
+      "Besiktas"
+     ],
+     [
+      "L",
+      "1-2",
+      "Paris Saint-Germain"
+     ],
+     [
+      "W",
+      "2-0",
+      "Troyes"
+     ],
+     [
+      "L",
+      "0-1",
+      "Olympiacos"
+     ],
+     [
+      "W",
+      "5-2",
+      "Angers"
+     ]
+    ],
+    "Le Havre": [
+     [
+      "L",
+      "1-2",
+      "Brest"
+     ],
+     [
+      "D",
+      "0-0",
+      "Angers"
+     ],
+     [
+      "L",
+      "2-3",
+      "Toulouse"
+     ],
+     [
+      "L",
+      "0-1",
+      "Lille"
+     ],
+     [
+      "L",
+      "1-3",
+      "Auxerre"
+     ]
+    ]
+   },
    "espn": {
     "id": "401876426",
     "league": "fra.1",
@@ -9997,6 +16356,62 @@
     "Iberia 1999": 33,
     "Mjällby AIF": 5
    },
+   "forms": {
+    "Iberia 1999": [
+     [
+      "D",
+      "0-0",
+      "Larne"
+     ],
+     [
+      "W",
+      "2-1",
+      "Larne"
+     ],
+     [
+      "L",
+      "0-4",
+      "Jagiellonia Bialystok"
+     ],
+     [
+      "L",
+      "1-2",
+      "Jagiellonia Bialystok"
+     ],
+     [
+      "L",
+      "0-2",
+      "Sint-Truidense"
+     ]
+    ],
+    "Mjällby AIF": [
+     [
+      "D",
+      "1-1",
+      "AIK"
+     ],
+     [
+      "L",
+      "0-3",
+      "GAIS"
+     ],
+     [
+      "D",
+      "1-1",
+      "Degerfors IF"
+     ],
+     [
+      "W",
+      "2-0",
+      "Inter D'Escaldes"
+     ],
+     [
+      "L",
+      "0-1",
+      "Västerås SK"
+     ]
+    ]
+   },
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915845",
@@ -10076,6 +16491,62 @@
     "Ipswich Town": 10,
     "Nottingham Forest": 18
    },
+   "forms": {
+    "Ipswich Town": [
+     [
+      "L",
+      "0-2",
+      "Liverpool"
+     ],
+     [
+      "W",
+      "3-2",
+      "Crystal Palace"
+     ],
+     [
+      "L",
+      "0-1",
+      "Everton"
+     ],
+     [
+      "W",
+      "2-1",
+      "Fulham"
+     ],
+     [
+      "L",
+      "2-3",
+      "Manchester City"
+     ]
+    ],
+    "Nottingham Forest": [
+     [
+      "D",
+      "0-0",
+      "Tottenham Hotspur"
+     ],
+     [
+      "W",
+      "2-1",
+      "Aston Villa"
+     ],
+     [
+      "L",
+      "0-1",
+      "Coventry City"
+     ],
+     [
+      "L",
+      "1-3",
+      "Crystal Palace"
+     ],
+     [
+      "L",
+      "0-1",
+      "Arsenal"
+     ]
+    ]
+   },
    "espn": {
     "id": "401879253",
     "league": "eng.1",
@@ -10084,6 +16555,147 @@
      "393"
     ],
     "us_tv": []
+   }
+  },
+  {
+   "id": "fd-558578",
+   "competition": "Serie A",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-10-19T20:45:00+02:00",
+   "day": "2026-10-19",
+   "home": "Parma",
+   "away": "Torino",
+   "score": 30,
+   "base": 27.8,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "2.6 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.367,
+     "points": 9.2
+    },
+    "stakes": {
+     "value": 0.184,
+     "points": 3.7,
+     "kind": "stakes_relegation"
+    },
+    "entertainment": {
+     "value": 0.65,
+     "points": 9.8,
+     "kind": "entertainment",
+     "reason": "2.6 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.825,
+     "points": 4.1,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.1,
+     "points": 1.0,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Parma": 16,
+    "Torino": 13
+   },
+   "forms": {
+    "Parma": [
+     [
+      "L",
+      "0-2",
+      "Juventus"
+     ],
+     [
+      "D",
+      "1-1",
+      "Monza"
+     ],
+     [
+      "L",
+      "1-2",
+      "Como"
+     ],
+     [
+      "W",
+      "2-1",
+      "Genoa"
+     ],
+     [
+      "L",
+      "0-3",
+      "Inter"
+     ]
+    ],
+    "Torino": [
+     [
+      "L",
+      "1-2",
+      "Sassuolo"
+     ],
+     [
+      "W",
+      "2-1",
+      "Fiorentina"
+     ],
+     [
+      "L",
+      "0-2",
+      "Roma"
+     ],
+     [
+      "D",
+      "1-1",
+      "Bologna"
+     ],
+     [
+      "W",
+      "2-1",
+      "Udinese"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401874784",
+    "league": "ita.1",
+    "teams": [
+     "115",
+     "239"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
    }
   },
   {
@@ -10156,6 +16768,62 @@
    "positions": {
     "Nacional": 16,
     "Braga": 9
+   },
+   "forms": {
+    "Nacional": [
+     [
+      "L",
+      "2-3",
+      "Amadora"
+     ],
+     [
+      "L",
+      "0-2",
+      "Sporting CP"
+     ],
+     [
+      "L",
+      "1-3",
+      "Alverca"
+     ],
+     [
+      "L",
+      "0-4",
+      "Famalicão"
+     ],
+     [
+      "L",
+      "2-3",
+      "Rio Ave"
+     ]
+    ],
+    "Braga": [
+     [
+      "L",
+      "1-2",
+      "Amadora"
+     ],
+     [
+      "W",
+      "1-0",
+      "Estoril Praia"
+     ],
+     [
+      "D",
+      "0-0",
+      "Santa Clara"
+     ],
+     [
+      "L",
+      "1-3",
+      "Sporting CP"
+     ],
+     [
+      "L",
+      "0-3",
+      "F.C. København"
+     ]
+    ]
    },
    "espn": {
     "id": "401885416",
@@ -10235,6 +16903,62 @@
     "Go Ahead Eagles": 9,
     "Telstar": 16
    },
+   "forms": {
+    "Go Ahead Eagles": [
+     [
+      "D",
+      "3-3",
+      "Utrecht"
+     ],
+     [
+      "D",
+      "1-1",
+      "FC Groningen"
+     ],
+     [
+      "D",
+      "1-1",
+      "NEC"
+     ],
+     [
+      "D",
+      "3-3",
+      "Sparta Rotterdam"
+     ],
+     [
+      "L",
+      "1-4",
+      "PEC Zwolle"
+     ]
+    ],
+    "Telstar": [
+     [
+      "L",
+      "0-1",
+      "FC Twente"
+     ],
+     [
+      "D",
+      "0-0",
+      "SC Heerenveen"
+     ],
+     [
+      "L",
+      "0-1",
+      "AZ"
+     ],
+     [
+      "D",
+      "2-2",
+      "ADO Den Haag"
+     ],
+     [
+      "L",
+      "3-4",
+      "Feyenoord"
+     ]
+    ]
+   },
    "espn": {
     "id": "401875574",
     "league": "ned.1",
@@ -10312,6 +17036,62 @@
    "positions": {
     "Toulouse": 11,
     "Troyes": 17
+   },
+   "forms": {
+    "Toulouse": [
+     [
+      "L",
+      "0-1",
+      "Lille"
+     ],
+     [
+      "D",
+      "2-2",
+      "Lorient"
+     ],
+     [
+      "W",
+      "3-2",
+      "Le Havre"
+     ],
+     [
+      "D",
+      "2-2",
+      "Monaco"
+     ],
+     [
+      "W",
+      "3-0",
+      "Le Mans"
+     ]
+    ],
+    "Troyes": [
+     [
+      "L",
+      "2-6",
+      "Strasbourg"
+     ],
+     [
+      "L",
+      "0-2",
+      "Lille"
+     ],
+     [
+      "L",
+      "0-2",
+      "Angers"
+     ],
+     [
+      "L",
+      "0-2",
+      "Marseille"
+     ],
+     [
+      "L",
+      "1-3",
+      "Lens"
+     ]
+    ]
    },
    "espn": {
     "id": "401876423",
@@ -10394,6 +17174,62 @@
    "positions": {
     "1. FC Köln": 12,
     "Schalke 04": 15
+   },
+   "forms": {
+    "1. FC Köln": [
+     [
+      "L",
+      "1-4",
+      "VfB Stuttgart"
+     ],
+     [
+      "D",
+      "1-1",
+      "Werder Bremen"
+     ],
+     [
+      "L",
+      "1-2",
+      "Hamburger SV"
+     ],
+     [
+      "W",
+      "2-1",
+      "Borussia Mönchengladbach"
+     ],
+     [
+      "L",
+      "0-1",
+      "Eintracht Frankfurt"
+     ]
+    ],
+    "Schalke 04": [
+     [
+      "D",
+      "0-0",
+      "Bayern Munich"
+     ],
+     [
+      "W",
+      "3-1",
+      "Union Berlin"
+     ],
+     [
+      "D",
+      "0-0",
+      "Elversberg"
+     ],
+     [
+      "L",
+      "1-2",
+      "SC Freiburg"
+     ],
+     [
+      "L",
+      "0-1",
+      "Mainz"
+     ]
+    ]
    },
    "espn": {
     "id": "401884756",
@@ -10480,6 +17316,62 @@
     "Estoril Praia": 18,
     "Moreirense": 12
    },
+   "forms": {
+    "Estoril Praia": [
+     [
+      "L",
+      "1-2",
+      "Benfica"
+     ],
+     [
+      "D",
+      "0-0",
+      "Arouca"
+     ],
+     [
+      "L",
+      "0-1",
+      "Braga"
+     ],
+     [
+      "L",
+      "1-2",
+      "Casa Pia"
+     ],
+     [
+      "L",
+      "1-2",
+      "Acad. Viseu"
+     ]
+    ],
+    "Moreirense": [
+     [
+      "L",
+      "1-2",
+      "Porto"
+     ],
+     [
+      "L",
+      "0-4",
+      "Benfica"
+     ],
+     [
+      "W",
+      "3-1",
+      "Marítimo"
+     ],
+     [
+      "D",
+      "1-1",
+      "Vitória SC"
+     ],
+     [
+      "L",
+      "0-1",
+      "Gil Vicente"
+     ]
+    ]
+   },
    "espn": {
     "id": "401885418",
     "league": "por.1",
@@ -10493,195 +17385,196 @@
  ],
  "warnings": [],
  "crests": {
-  "PAE AEK": "https://crests.football-data.org/1899.png",
-  "Real Sociedad": "https://crests.football-data.org/92.png",
-  "Sl. Bratislava": "https://crests.football-data.org/7509.png",
-  "Pafos": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
-  "Barcelona": "https://crests.football-data.org/81.png",
-  "Dinamo Zagreb": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
-  "Tottenham Hotspur": "https://crests.football-data.org/73.png",
-  "Celta Vigo": "https://crests.football-data.org/558.png",
-  "Lillestrom": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
-  "Angers": "https://crests.football-data.org/532.png",
-  "Olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
-  "Crystal Palace": "https://crests.football-data.org/354.png",
-  "Manchester United": "https://crests.football-data.org/66.png",
-  "Getafe": "https://crests.football-data.org/82.png",
-  "Newcastle United": "https://crests.football-data.org/67.png",
-  "Udinese": "https://crests.football-data.org/115.png",
-  "Marítimo": "https://crests.football-data.org/5575.png",
-  "Heart of Midlothian": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
-  "Feyenoord": "https://crests.football-data.org/675.png",
-  "Parma": "https://crests.football-data.org/112.png",
-  "Torreense": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
-  "Hajduk Split": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
-  "SC Heerenveen": "https://crests.football-data.org/673.png",
-  "SK Brann": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
-  "Levski Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
-  "Riga FC": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
-  "Bayern Munich": "https://crests.football-data.org/5.png",
-  "Leeds United": "https://crests.football-data.org/341.png",
-  "Nice": "https://crests.football-data.org/522.png",
-  "Lille": "https://crests.football-data.org/521.png",
-  "Mainz": "https://crests.football-data.org/15.png",
-  "Manchester City": "https://crests.football-data.org/65.png",
-  "Jablonec": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
-  "Brentford": "https://crests.football-data.org/402.png",
+  "FC Lugano": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
+  "Galatasaray": "https://crests.football-data.org/610.png",
+  "Union Berlin": "https://crests.football-data.org/28.png",
   "CSKA Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
-  "Red Star Belgrade": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
+  "Sassuolo": "https://crests.football-data.org/471.png",
+  "Sporting CP": "https://crests.football-data.org/498.png",
+  "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+  "Lyon": "https://crests.football-data.org/523.png",
+  "ADO Den Haag": "https://crests.football-data.org/680.png",
+  "Ajax": "https://crests.football-data.org/678.png",
+  "Torreense": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
+  "Olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+  "FC Twente": "https://crests.football-data.org/666.png",
+  "Espanyol": "https://crests.football-data.org/80.png",
+  "Monaco": "https://crests.football-data.org/548.png",
+  "Genoa": "https://crests.football-data.org/107.png",
+  "Brighton & Hove Albion": "https://crests.football-data.org/397.png",
+  "Pafos": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+  "RB Salzburg": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+  "SK Sturm Graz": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+  "Borac Banja Luka": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
+  "Elche": "https://crests.football-data.org/285.png",
+  "Chelsea": "https://crests.football-data.org/61.png",
+  "Rennes": "https://crests.football-data.org/529.png",
+  "Crystal Palace": "https://crests.football-data.org/354.png",
+  "Lens": "https://crests.football-data.org/546.png",
+  "SC Heerenveen": "https://crests.football-data.org/673.png",
+  "Famalicão": "https://crests.football-data.org/5531.png",
+  "SC Cambuur": "https://crests.football-data.org/1909.png",
+  "Leeds United": "https://crests.football-data.org/341.png",
+  "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
+  "Angers": "https://crests.football-data.org/532.png",
+  "Villarreal": "https://crests.football-data.org/94.png",
+  "Nacional": "https://crests.football-data.org/5529.png",
+  "Barcelona": "https://crests.football-data.org/81.png",
+  "Willem II": "https://crests.football-data.org/672.png",
+  "Como": "https://crests.football-data.org/7397.png",
+  "Rio Ave": "https://crests.football-data.org/496.png",
+  "Strasbourg": "https://crests.football-data.org/576.png",
+  "Napoli": "https://crests.football-data.org/113.png",
+  "Omonia Nicosia": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+  "Everton": "https://crests.football-data.org/62.png",
+  "Valencia": "https://crests.football-data.org/95.png",
+  "Celta Vigo": "https://crests.football-data.org/558.png",
+  "Casa Pia": "https://crests.football-data.org/6618.png",
+  "Marítimo": "https://crests.football-data.org/5575.png",
+  "Cagliari": "https://crests.football-data.org/104.png",
+  "Real Betis": "https://crests.football-data.org/90.png",
+  "Dinamo Zagreb": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+  "Lazio": "https://crests.football-data.org/110.png",
+  "Levski Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+  "Atalanta": "https://crests.football-data.org/102.png",
+  "Elversberg": "https://crests.football-data.org/719.png",
+  "Ferencvaros": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+  "Lillestrom": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
+  "Liverpool": "https://crests.football-data.org/64.png",
+  "AGF": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
+  "Bayer Leverkusen": "https://crests.football-data.org/3.png",
+  "Lecce": "https://crests.football-data.org/5890.png",
+  "Acad. Viseu": "https://crests.football-data.org/5527.png",
+  "Benfica": "https://crests.football-data.org/1903.png",
+  "Frosinone": "https://crests.football-data.org/470.png",
+  "FC Thun": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
   "Sparta Rotterdam": "https://crests.football-data.org/6806.png",
   "Venezia": "https://crests.football-data.org/454.png",
-  "Espanyol": "https://crests.football-data.org/80.png",
-  "Gil Vicente": "https://crests.football-data.org/5533.png",
-  "Benfica": "https://crests.football-data.org/1903.png",
-  "AZ": "https://crests.football-data.org/682.png",
+  "Santa Clara": "https://crests.football-data.org/5530.png",
+  "Inter D'Escaldes": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png",
+  "Anderlecht": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
   "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
-  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
-  "Famalicão": "https://crests.football-data.org/5531.png",
-  "Lincoln Red Imps": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
-  "Viking": "https://crests.football-data.org/5720.png",
-  "Borussia Dortmund": "https://crests.football-data.org/4.png",
-  "Lazio": "https://crests.football-data.org/110.png",
-  "Sint-Truidense": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
-  "Monza": "https://crests.football-data.org/5911.png",
-  "Everton": "https://crests.football-data.org/62.png",
-  "Fiorentina": "https://crests.football-data.org/99.png",
-  "Iberia 1999": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
-  "Rio Ave": "https://crests.football-data.org/496.png",
-  "Liverpool": "https://crests.football-data.org/64.png",
-  "NK Celje": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
-  "Real Madrid": "https://crests.football-data.org/86.png",
-  "FC Midtjylland": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
-  "Bologna": "https://crests.football-data.org/103.png",
-  "Le Mans": "https://crests.football-data.org/535.png",
-  "Lens": "https://crests.football-data.org/546.png",
-  "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
-  "Valencia": "https://crests.football-data.org/95.png",
-  "SC Freiburg": "https://crests.football-data.org/17.png",
-  "FC Twente": "https://crests.football-data.org/666.png",
-  "Genoa": "https://crests.football-data.org/107.png",
-  "Omonia Nicosia": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+  "Hamburger SV": "https://crests.football-data.org/7.png",
   "Racing Santander": "https://crests.football-data.org/5335.png",
-  "RB Leipzig": "https://crests.football-data.org/721.png",
-  "SC Paderborn": "https://crests.football-data.org/29.png",
-  "Arouca": "https://crests.football-data.org/712.png",
-  "Napoli": "https://crests.football-data.org/113.png",
-  "Union St.-Gilloise": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
-  "Amadora": "https://crests.football-data.org/9136.png",
-  "Inter": "https://crests.football-data.org/108.png",
-  "FC Thun": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
-  "Lech Poznan": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
-  "Lyon": "https://crests.football-data.org/523.png",
-  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
-  "Strasbourg": "https://crests.football-data.org/576.png",
-  "Galatasaray": "https://crests.football-data.org/610.png",
+  "Riga FC": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
+  "Ararat-Armenia": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+  "Manchester United": "https://crests.football-data.org/66.png",
+  "Fiorentina": "https://crests.football-data.org/99.png",
+  "Hoffenheim": "https://crests.football-data.org/2.png",
+  "Porto": "https://crests.football-data.org/503.png",
   "Alverca": "https://crests.football-data.org/7822.png",
-  "Málaga": "https://crests.football-data.org/84.png",
+  "SC Paderborn": "https://crests.football-data.org/29.png",
+  "Heart of Midlothian": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+  "Kauno Zalgiris": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
+  "Auxerre": "https://crests.football-data.org/519.png",
   "VfB Stuttgart": "https://crests.football-data.org/10.png",
-  "Hapoel Be'er": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
-  "Ajax": "https://crests.football-data.org/678.png",
-  "Paris FC": "https://crests.football-data.org/1045.png",
-  "LASK": "https://crests.football-data.org/2016.png",
+  "PAE AEK": "https://crests.football-data.org/1899.png",
+  "Gil Vicente": "https://crests.football-data.org/5533.png",
+  "Parma": "https://crests.football-data.org/112.png",
+  "Bayern Munich": "https://crests.football-data.org/5.png",
   "Marseille": "https://crests.football-data.org/516.png",
-  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
-  "Coventry City": "https://crests.football-data.org/1076.png",
-  "Cagliari": "https://crests.football-data.org/104.png",
-  "Moreirense": "https://crests.football-data.org/583.png",
-  "Acad. Viseu": "https://crests.football-data.org/5527.png",
-  "Estoril Praia": "https://crests.football-data.org/582.png",
-  "Casa Pia": "https://crests.football-data.org/6618.png",
-  "Ipswich Town": "https://crests.football-data.org/349.png",
-  "ADO Den Haag": "https://crests.football-data.org/680.png",
-  "FC Groningen": "https://crests.football-data.org/677.png",
-  "Monaco": "https://crests.football-data.org/548.png",
-  "Rennes": "https://crests.football-data.org/529.png",
-  "Nottingham Forest": "https://crests.football-data.org/351.png",
-  "Lecce": "https://crests.football-data.org/5890.png",
-  "Telstar": "https://crests.football-data.org/1912.png",
+  "Schalke 04": "https://crests.football-data.org/6.png",
+  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
+  "Viktoria Plzen": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+  "Tottenham Hotspur": "https://crests.football-data.org/73.png",
+  "Sparta Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+  "Lech Poznan": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
+  "NK Celje": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+  "FC Midtjylland": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
   "Atlético Madrid": "https://crests.football-data.org/78.png",
-  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
-  "PSV": "https://crests.football-data.org/674.png",
-  "Fulham": "https://crests.football-data.org/63.png",
-  "SC Cambuur": "https://crests.football-data.org/1909.png",
+  "Bologna": "https://crests.football-data.org/103.png",
+  "Roma": "https://crests.football-data.org/100.png",
+  "Getafe": "https://crests.football-data.org/82.png",
+  "OFI Crete": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+  "Málaga": "https://crests.football-data.org/84.png",
   "Vitória SC": "https://crests.football-data.org/5543.png",
   "Juventus": "https://crests.football-data.org/109.png",
-  "FC Augsburg": "https://crests.football-data.org/16.png",
-  "Anderlecht": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
-  "Roma": "https://crests.football-data.org/100.png",
-  "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-  "Villarreal": "https://crests.football-data.org/94.png",
-  "Werder Bremen": "https://crests.football-data.org/12.png",
-  "Athletic Club": "https://crests.football-data.org/77.png",
-  "RB Salzburg": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
-  "F.C. København": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
-  "Kauno Zalgiris": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
-  "Lorient": "https://crests.football-data.org/525.png",
-  "Celtic": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
-  "Frosinone": "https://crests.football-data.org/470.png",
-  "Elche": "https://crests.football-data.org/285.png",
-  "FC Lugano": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
-  "Como": "https://crests.football-data.org/7397.png",
-  "Rayo Vallecano": "https://crests.football-data.org/87.png",
-  "AGF": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
-  "Slavia Praha": "https://crests.football-data.org/930.png",
-  "Chelsea": "https://crests.football-data.org/61.png",
-  "Sassuolo": "https://crests.football-data.org/471.png",
-  "Toulouse": "https://crests.football-data.org/511.png",
-  "NEC": "https://crests.football-data.org/1915.png",
-  "Union Berlin": "https://crests.football-data.org/28.png",
-  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
-  "Auxerre": "https://crests.football-data.org/519.png",
-  "KAA Gent": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
-  "Bayer Leverkusen": "https://crests.football-data.org/3.png",
-  "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+  "Viking": "https://crests.football-data.org/5720.png",
   "Fenerbahçe": "https://crests.football-data.org/613.png",
-  "Sparta Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
-  "Torino": "https://crests.football-data.org/586.png",
-  "Sporting CP": "https://crests.football-data.org/498.png",
-  "Alavés": "https://crests.football-data.org/263.png",
-  "Braga": "https://crests.football-data.org/5613.png",
+  "Lincoln Red Imps": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
+  "Rayo Vallecano": "https://crests.football-data.org/87.png",
+  "Sabah FK": "https://crests.football-data.org/10233.png",
+  "Fulham": "https://crests.football-data.org/63.png",
+  "Red Star Belgrade": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
+  "Udinese": "https://crests.football-data.org/115.png",
+  "SC Freiburg": "https://crests.football-data.org/17.png",
   "PEC Zwolle": "https://crests.football-data.org/684.png",
   "Levante": "https://crests.football-data.org/88.png",
-  "Panathinaikos": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+  "Brentford": "https://crests.football-data.org/402.png",
   "Jagiellonia Bialystok": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
-  "Sunderland": "https://crests.football-data.org/71.png",
-  "Inter D'Escaldes": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png",
-  "Ferencvaros": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
-  "Hamburger SV": "https://crests.football-data.org/7.png",
-  "Mjällby AIF": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
-  "Nacional": "https://crests.football-data.org/5529.png",
-  "KuPS Kuopio": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
-  "Egnatia": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
-  "Brighton & Hove Albion": "https://crests.football-data.org/397.png",
-  "Club Brugge": "https://crests.football-data.org/851.png",
-  "Hull City": "https://crests.football-data.org/322.png",
-  "Bodø/Glimt": "https://crests.football-data.org/5721.png",
-  "Willem II": "https://crests.football-data.org/672.png",
-  "Excelsior": "https://crests.football-data.org/670.png",
-  "Go Ahead Eagles": "https://crests.football-data.org/718.png",
-  "Porto": "https://crests.football-data.org/503.png",
-  "SK Sturm Graz": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
-  "Atalanta": "https://crests.football-data.org/102.png",
-  "Troyes": "https://crests.football-data.org/531.png",
-  "Viktoria Plzen": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
-  "AC Milan": "https://crests.football-data.org/98.png",
-  "FC Nordsjælland": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
-  "Shaktar": "https://crests.football-data.org/1887.png",
-  "Sabah FK": "https://crests.football-data.org/10233.png",
-  "Fortuna Sittard": "https://crests.football-data.org/1920.png",
-  "Real Betis": "https://crests.football-data.org/90.png",
-  "Hoffenheim": "https://crests.football-data.org/2.png",
-  "Ararat-Armenia": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
-  "OFI Crete": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
-  "Borac Banja Luka": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
-  "Le Havre": "https://crests.football-data.org/533.png",
-  "Arsenal": "https://crests.football-data.org/57.png",
-  "Schalke 04": "https://crests.football-data.org/6.png",
-  "Brest": "https://crests.football-data.org/512.png",
+  "Celtic": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
   "Utrecht": "https://crests.football-data.org/676.png",
+  "Sunderland": "https://crests.football-data.org/71.png",
+  "Coventry City": "https://crests.football-data.org/1076.png",
+  "Club Brugge": "https://crests.football-data.org/851.png",
+  "Hapoel Be'er": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+  "Arsenal": "https://crests.football-data.org/57.png",
+  "1. FC Köln": "https://crests.football-data.org/1.png",
+  "F.C. København": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+  "KAA Gent": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
+  "Mainz": "https://crests.football-data.org/15.png",
+  "Lille": "https://crests.football-data.org/521.png",
+  "Nottingham Forest": "https://crests.football-data.org/351.png",
+  "Shaktar": "https://crests.football-data.org/1887.png",
+  "Excelsior": "https://crests.football-data.org/670.png",
+  "Panathinaikos": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
+  "Inter": "https://crests.football-data.org/108.png",
+  "Arouca": "https://crests.football-data.org/712.png",
+  "SK Brann": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
+  "Athletic Club": "https://crests.football-data.org/77.png",
+  "Union St.-Gilloise": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+  "Real Sociedad": "https://crests.football-data.org/92.png",
+  "Ipswich Town": "https://crests.football-data.org/349.png",
+  "Toulouse": "https://crests.football-data.org/511.png",
+  "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+  "Fortuna Sittard": "https://crests.football-data.org/1920.png",
+  "Le Mans": "https://crests.football-data.org/535.png",
+  "Borussia Dortmund": "https://crests.football-data.org/4.png",
+  "Braga": "https://crests.football-data.org/5613.png",
+  "Sl. Bratislava": "https://crests.football-data.org/7509.png",
+  "Estoril Praia": "https://crests.football-data.org/582.png",
+  "Nice": "https://crests.football-data.org/522.png",
+  "Mjällby AIF": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
+  "Monza": "https://crests.football-data.org/5911.png",
   "Aston Villa": "https://crests.football-data.org/58.png",
-  "Elversberg": "https://crests.football-data.org/719.png",
-  "1. FC Köln": "https://crests.football-data.org/1.png"
+  "Amadora": "https://crests.football-data.org/9136.png",
+  "Slavia Praha": "https://crests.football-data.org/930.png",
+  "RB Leipzig": "https://crests.football-data.org/721.png",
+  "NEC": "https://crests.football-data.org/1915.png",
+  "Paris FC": "https://crests.football-data.org/1045.png",
+  "Jablonec": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
+  "FC Nordsjælland": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
+  "FC Augsburg": "https://crests.football-data.org/16.png",
+  "Real Madrid": "https://crests.football-data.org/86.png",
+  "Troyes": "https://crests.football-data.org/531.png",
+  "Moreirense": "https://crests.football-data.org/583.png",
+  "PSV": "https://crests.football-data.org/674.png",
+  "Egnatia": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
+  "Hajduk Split": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
+  "KuPS Kuopio": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
+  "AZ": "https://crests.football-data.org/682.png",
+  "LASK": "https://crests.football-data.org/2016.png",
+  "Sint-Truidense": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
+  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
+  "Torino": "https://crests.football-data.org/586.png",
+  "Le Havre": "https://crests.football-data.org/533.png",
+  "AC Milan": "https://crests.football-data.org/98.png",
+  "Lorient": "https://crests.football-data.org/525.png",
+  "Telstar": "https://crests.football-data.org/1912.png",
+  "Feyenoord": "https://crests.football-data.org/675.png",
+  "Hull City": "https://crests.football-data.org/322.png",
+  "Alavés": "https://crests.football-data.org/263.png",
+  "Go Ahead Eagles": "https://crests.football-data.org/718.png",
+  "Iberia 1999": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
+  "FC Groningen": "https://crests.football-data.org/677.png",
+  "Manchester City": "https://crests.football-data.org/65.png",
+  "Newcastle United": "https://crests.football-data.org/67.png",
+  "Bodø/Glimt": "https://crests.football-data.org/5721.png",
+  "Brest": "https://crests.football-data.org/512.png",
+  "Werder Bremen": "https://crests.football-data.org/12.png"
  },
  "styles": {
   "1. FC Köln": {
@@ -11127,6 +18020,10 @@
   "SK Sturm Graz": {
    "style": "low_block",
    "confidence": "medium"
+  },
+  "Santa Clara": {
+   "style": "direct",
+   "confidence": "high"
   },
   "Sassuolo": {
    "style": "possession",
