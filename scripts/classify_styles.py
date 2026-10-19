@@ -276,6 +276,29 @@ DEEP_PICKS.update({
     "Parma": ("low_block", "medium", "Alberto Gilardino", "New coach: 'very practical, organised, focused on defending'; back three that drops to five", "https://www.goal.com/it/liste/come-giochera-il-parma-di-gilardino-modulo-titolari-e-formazione-tipo/blt8c9dbfb357597e62"),
     "Union St.-Gilloise": ("direct", "medium", "David Hubert", "Best attack and fewest goals conceded in Belgium, built on rehearsed set pieces", "https://totalfootballanalysis.com/set-piece-analysis/royale-union-saint-gilloise-tactics-corners-set-piece-analysis"),
 })
+# Fifth pass, 19 Oct 2026: coaches' presentation interviews, local radio and supporter sites
+# for the last 17. Also catches the coach changes of early October.
+DEEP_PICKS.update({
+    "SC Heerenveen": ("possession", "medium", "Robin Veldman", "'Neat and aggressive, possession and attacking initiative', controlled build-up", "https://www.voetbaltrainer.nl/robin-veldman-aanvallend-en-attractief-voetbal-met-behulp-van-vijf-kernwaarden/"),
+    "SC Cambuur": ("possession", "medium", "Johan Plat", "Cruyff disciple: 'football must be fun', attacking even as a promoted side", "https://www.vi.nl/pro/johan-plat-kiest-voor-de-aanval-bij-sc-cambuur-voetbal-moet-leuk-zijn"),
+    "ADO Den Haag": ("press", "medium", "Robin Peter", "RB Leipzig academy coach: very aggressive pressing, dominant possession, positional play", "https://www.omroepwest.nl/sport/5024455/geen-geheim-wel-een-plan-de-stille-revolutie-van-robin-peter-bij-ado-den-haag"),
+    "Sparta Rotterdam": ("press", "medium", "Rogier Meijer", "Ex-Leverkusen assistant; mid-height line with aggressive pressure on the ball (NEC)", "https://www.voetbaltrainer.nl/2021/12/17/rogier-meijer-vrijheid-binnen-structuur/"),
+    "Willem II": ("low_block", "medium", "John Stegeman", "Compact organisation, quick counters after winning the ball", "https://www.soccernews.nl/news/paniek-bij-eredivisionist-zoveel-tijd-hebben-we-niet/"),
+    "FC Augsburg": ("low_block", "medium", "Manuel Baum", "Stable defending and fast counters; presses in midfield, varies by opponent", "https://www.sportschau.de/fussball/bundesliga/trainerwechsel-greift-augsburg-kontert-leverkusen-aus,spielbericht-fc-augsburg-bayer-leverkusen-116.html"),
+    "1. FC Köln": ("press", "medium", "René Wagner", "Steffen Baumgart's long-time assistant ('tactical expert'); Baumgart school: intense, pressing (inferred)", "https://www.sportschau.de/fussball/bundesliga/rene-wagner-koelns-ueberraschende-loesung-der-trainerfrage,koeln-rene-wagner-100.html"),
+    "Deportivo La Coruña": ("press", "medium", "Antonio Hidalgo", "Wide and vertical, intense coordinated high press, set pieces as a weapon", "https://www.mundiario.com/articulo/deportes/diario-hace-eco-antonio-hidalgo-transforma-deportivo-ajustes-clave-devuelve-equipo-elite/20260325221032380097.html"),
+    "Málaga": ("possession", "medium", "Juanfran Funes", "Bold, attacking, possession-based; best side in Segunda after he took over", "https://www.infobae.com/espana/agencias/2026/06/21/juanfran-funes-el-profesor-en-excedencia-que-ascendio-al-malaga/"),
+    "Espanyol": ("direct", "medium", "Manolo González", "Europe's joint-best for counter-attack goals and La Liga's best at set pieces", "https://lagrada.org/espanyol-lider-europa-goles-contraataque-manolo-roberto-bryan-dolan/"),
+    "Gil Vicente": ("press", "medium", "Luís Pinto", "Play close to the opponent's goal, win it back high, aggressive with and without the ball", "https://pressnet.pt/2026/10/14/luis-pinto-quer-levar-gil-vicente-o-mais-longe-possivel-na-taca-de-portugal/"),
+    "Casa Pia": ("possession", "medium", "Filipe Coelho", "'Control of the game, more stability in possession', more time in the opponent's half", "https://sapo.pt/artigo/filipe-coelho-e-o-casa-pia-muito-satisfeito-pela-ideia-que-esta-a-ser-construida-6a69e13ef7d5ac96a6eafc23"),
+    "Acad. Viseu": ("possession", "medium", "Bruno Pinheiro", "Builds from the back, control through possession, high press and quick counter-press", "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-bruno-pinheiro-no-academico-o-percurso-que-ajuda-a-explicar-a-escolha-em-viseu/WlCpHQze/"),
+    "Rio Ave": ("possession", "medium", "Vasco Seabra (from 4 Oct)", "New coach from Arouca: 'dominant with the ball, selective with the press'", "https://www.abola.pt/noticias/oficial-vasco-seabra-e-o-novo-treinador-do-rio-ave-2026100412434589306"),
+    "Arouca": ("possession", "low", "Vítor Severino (from 4 Oct)", "First head-coach job; Luís Castro's former assistant (possession school, inferred)", "https://www.abola.pt/noticias/mercado-oficial-vitor-severino-e-o-novo-treinador-do-arouca-2026100413150519068"),
+    "FC Midtjylland": ("press", "medium", "Mike Tullberg", "'Must stay an aggressive unit'; criticised for pressing man-to-man for 90 minutes", "https://bold.dk/fodbold/klubber/fc-midtjylland/nyheder/tullberg-forklarer-plan-mod-fcn-vi-fik-meget-kritik-sidst"),
+    "Olympiacos": ("possession", "medium", "Imanol Alguacil (from 10 Sep)", "Ex-Real Sociedad: possession, tactical flexibility, high-intensity pressing", "https://www.olympiacos.org/en/2026/09/10/imanol-alguacil-appointed-new-olympiacos-head-coach/"),
+    "PEC Zwolle": ("low_block", "low", "Vacant (interim)", "Coach dismissed 13 Oct; no permanent successor named; 41% possession", "https://nos.nl/artikel/2634777-eerste-eredivisietrainer-ontslagen-pec-zwolle-stuurt-van-der-vegt-de-laan-uit"),
+})
+
 COACHES_EXTRA = {"SC Cambuur": "Johan Plat", "ADO Den Haag": "Robin Peter", "FC Midtjylland": "Mike Tullberg",
                  "SC Heerenveen": "Robin Veldman", "Sparta Rotterdam": "Rogier Meijer", "Willem II": "John Stegeman"}
 

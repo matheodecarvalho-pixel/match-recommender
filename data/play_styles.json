@@ -3,10 +3,10 @@
   "1. FC Köln": {
    "basis": "research (deeper pass)",
    "coach": "René Wagner",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Bundesliga",
-   "profile": "possession",
-   "source": "https://www.getfootballnewsgermany.com/2026/bundesliga-koln-preview-26/",
+   "profile": "press",
+   "source": "https://www.sportschau.de/fussball/bundesliga/rene-wagner-koelns-ueberraschende-loesung-der-trainerfrage,koeln-rene-wagner-100.html",
    "stats": {
     "fouls": 11.17,
     "games": 6,
@@ -16,7 +16,7 @@
     "shots": 16.33,
     "shots_against": 15.67
    },
-   "why": "4-2-3-1 that is active on the ball, data-driven"
+   "why": "Steffen Baumgart's long-time assistant ('tactical expert'); Baumgart school: intense, pressing (inferred)"
   },
   "AC Milan": {
    "basis": "research",
@@ -37,12 +37,12 @@
    "why": "Wants controlling possession and many players in the box"
   },
   "ADO Den Haag": {
-   "basis": "stats",
+   "basis": "research (deeper pass)",
    "coach": "Robin Peter",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Eredivisie",
-   "profile": "direct",
-   "source": null,
+   "profile": "press",
+   "source": "https://www.omroepwest.nl/sport/5024455/geen-geheim-wel-een-plan-de-stille-revolutie-van-robin-peter-bij-ado-den-haag",
    "stats": {
     "fouls": 14.11,
     "games": 9,
@@ -52,7 +52,7 @@
     "shots": 11.33,
     "shots_against": 17.56
    },
-   "why": "14 fouls a game, 48% possession"
+   "why": "RB Leipzig academy coach: very aggressive pressing, dominant possession, positional play"
   },
   "AFC Bournemouth": {
    "basis": "research",
@@ -91,12 +91,12 @@
    "why": "Lots of the ball, often in the opponent's half; 59% possession"
   },
   "Acad. Viseu": {
-   "basis": "stats",
+   "basis": "research (deeper pass)",
    "coach": "Bruno Pinheiro",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Primeira Liga",
-   "profile": "direct",
-   "source": null,
+   "profile": "possession",
+   "source": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-bruno-pinheiro-no-academico-o-percurso-que-ajuda-a-explicar-a-escolha-em-viseu/WlCpHQze/",
    "stats": {
     "fouls": 14.38,
     "games": 8,
@@ -106,7 +106,7 @@
     "shots": 10.0,
     "shots_against": 17.25
    },
-   "why": "14 fouls a game, 47% possession"
+   "why": "Builds from the back, control through possession, high press and quick counter-press"
   },
   "Ajax": {
    "basis": "research",
@@ -182,11 +182,11 @@
   },
   "Arouca": {
    "basis": "research (deeper pass)",
-   "coach": "Vasco Seabra",
-   "confidence": "medium",
+   "coach": "Vítor Severino (from 4 Oct)",
+   "confidence": "low",
    "league": "Primeira Liga",
    "profile": "possession",
-   "source": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/arouca/detalhe/vasco-seabra-e-o-estoril-arouca-o-jogo-comeca-num-quadro-em-branco-e-temos-de-ser-nos-a-escrever-nele",
+   "source": "https://www.abola.pt/noticias/mercado-oficial-vitor-severino-e-o-novo-treinador-do-arouca-2026100413150519068",
    "stats": {
     "fouls": 10.38,
     "games": 8,
@@ -196,7 +196,7 @@
     "shots": 10.38,
     "shots_against": 14.38
    },
-   "why": "'Dominant with the ball, selective with the press, jumping at the right moments'"
+   "why": "First head-coach job; Luís Castro's former assistant (possession school, inferred)"
   },
   "Arsenal": {
    "basis": "research",
@@ -561,10 +561,10 @@
   "Casa Pia": {
    "basis": "research (deeper pass)",
    "coach": "Filipe Coelho",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Primeira Liga",
-   "profile": "pragmatic",
-   "source": "https://www.abola.pt/noticias/casa-pia-em-alpendorada-nao-vamos-olhar-para-este-jogo-de-forma-diferente-2026101714334966270",
+   "profile": "possession",
+   "source": "https://sapo.pt/artigo/filipe-coelho-e-o-casa-pia-muito-satisfeito-pela-ideia-que-esta-a-ser-construida-6a69e13ef7d5ac96a6eafc23",
    "stats": {
     "fouls": 12.12,
     "games": 8,
@@ -574,7 +574,7 @@
     "shots": 9.62,
     "shots_against": 15.5
    },
-   "why": "No documented approach yet; the side defended in a back five last season"
+   "why": "'Control of the game, more stability in possession', more time in the opponent's half"
   },
   "Celta Vigo": {
    "basis": "research",
@@ -685,12 +685,12 @@
    "why": "High-intensity back three, like his Lens side"
   },
   "Deportivo La Coruña": {
-   "basis": "research",
+   "basis": "research (deeper pass)",
    "coach": "Antonio Hidalgo",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "La Liga",
-   "profile": "pragmatic",
-   "source": "https://es.wikipedia.org/wiki/Antonio_Hidalgo_Morilla",
+   "profile": "press",
+   "source": "https://www.mundiario.com/articulo/deportes/diario-hace-eco-antonio-hidalgo-transforma-deportivo-ajustes-clave-devuelve-equipo-elite/20260325221032380097.html",
    "stats": {
     "fouls": 13.0,
     "games": 9,
@@ -700,7 +700,7 @@
     "shots": 11.67,
     "shots_against": 12.56
    },
-   "why": "Promoted with a compact, balanced side; style little documented"
+   "why": "Wide and vertical, intense coordinated high press, set pieces as a weapon"
   },
   "Eintracht Frankfurt": {
    "basis": "research",
@@ -759,10 +759,10 @@
   "Espanyol": {
    "basis": "research (deeper pass)",
    "coach": "Manolo González",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "La Liga",
    "profile": "direct",
-   "source": "https://el1900.com/como-jugara-espanyol-manolo-gonzalez/",
+   "source": "https://lagrada.org/espanyol-lider-europa-goles-contraataque-manolo-roberto-bryan-dolan/",
    "stats": {
     "fouls": 16.11,
     "games": 9,
@@ -772,7 +772,7 @@
     "shots": 12.67,
     "shots_against": 13.11
    },
-   "why": "Sources conflict (proactive model v intense and balanced); 16 fouls a game"
+   "why": "Europe's joint-best for counter-attack goals and La Liga's best at set pieces"
   },
   "Estoril": {
    "basis": "research",
@@ -849,10 +849,10 @@
   "FC Augsburg": {
    "basis": "research (deeper pass)",
    "coach": "Manuel Baum",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Bundesliga",
    "profile": "low_block",
-   "source": "https://www.getfootballnewsgermany.com/2026/bundesliga-augsburg-preview-26/",
+   "source": "https://www.sportschau.de/fussball/bundesliga/trainerwechsel-greift-augsburg-kontert-leverkusen-aus,spielbericht-fc-augsburg-bayer-leverkusen-116.html",
    "stats": {
     "fouls": 9.83,
     "games": 6,
@@ -862,7 +862,7 @@
     "shots": 16.17,
     "shots_against": 22.0
    },
-   "why": "Defensive organisation first; tried a 3-4-3 in pre-season"
+   "why": "Stable defending and fast counters; presses in midfield, varies by opponent"
   },
   "FC Groningen": {
    "basis": "research (deeper pass)",
@@ -883,12 +883,12 @@
    "why": "Built on intensity, promised attacking and dominant football, wants defenders to press hard"
   },
   "FC Midtjylland": {
-   "basis": "club identity (not checked for 2026-27)",
-   "coach": null,
-   "confidence": "low",
+   "basis": "research (deeper pass)",
+   "coach": "Mike Tullberg",
+   "confidence": "medium",
    "league": "Europe",
-   "profile": "direct",
-   "source": null,
+   "profile": "press",
+   "source": "https://bold.dk/fodbold/klubber/fc-midtjylland/nyheder/tullberg-forklarer-plan-mod-fcn-vi-fik-meget-kritik-sidst",
    "stats": {
     "fouls": 14.0,
     "games": 1,
@@ -898,7 +898,7 @@
     "shots": 13.0,
     "shots_against": 12.0
    },
-   "why": "Set-piece specialists, physical and data-driven"
+   "why": "'Must stay an aggressive unit'; criticised for pressing man-to-man for 90 minutes"
   },
   "FC Twente": {
    "basis": "research (deeper pass)",
@@ -1063,12 +1063,12 @@
    "why": "Bordalás: duels, intensity, direct play and set pieces; 39% possession, 14 fouls a game"
   },
   "Gil Vicente": {
-   "basis": "research",
+   "basis": "research (deeper pass)",
    "coach": "Luís Pinto",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Primeira Liga",
-   "profile": "pragmatic",
-   "source": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-os-18-treinadores-do-campeonato/EBS9I3wC/",
+   "profile": "press",
+   "source": "https://pressnet.pt/2026/10/14/luis-pinto-quer-levar-gil-vicente-o-mais-longe-possivel-na-taca-de-portugal/",
    "stats": {
     "fouls": 13.71,
     "games": 7,
@@ -1078,7 +1078,7 @@
     "shots": 13.86,
     "shots_against": 10.14
    },
-   "why": "Style little documented"
+   "why": "Play close to the opponent's goal, win it back high, aggressive with and without the ball"
   },
   "Go Ahead Eagles": {
    "basis": "research (deeper pass)",
@@ -1549,12 +1549,12 @@
    "why": "Wants more of the ball, but defends lower against stronger sides; 36% possession"
   },
   "Málaga": {
-   "basis": "research",
+   "basis": "research (deeper pass)",
    "coach": "Juanfran Funes",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "La Liga",
-   "profile": "pragmatic",
-   "source": "https://www.merchanendirecto.es/fumata-blanca-funes-sera-el-nuevo-entrenador-del-malaga-cf/",
+   "profile": "possession",
+   "source": "https://www.infobae.com/espana/agencias/2026/06/21/juanfran-funes-el-profesor-en-excedencia-que-ascendio-al-malaga/",
    "stats": {
     "fouls": 11.56,
     "games": 9,
@@ -1564,7 +1564,7 @@
     "shots": 11.33,
     "shots_against": 14.89
    },
-   "why": "First top-flight job after promotion; style not documented yet"
+   "why": "Bold, attacking, possession-based; best side in Segunda after he took over"
   },
   "NEC": {
    "basis": "research (deeper pass)",
@@ -1658,11 +1658,11 @@
   },
   "Olympiacos": {
    "basis": "research (deeper pass)",
-   "coach": null,
-   "confidence": "low",
+   "coach": "Imanol Alguacil (from 10 Sep)",
+   "confidence": "medium",
    "league": "Europe",
-   "profile": "press",
-   "source": "https://www.olympiacos.org/en/2025/01/24/mendilibar-quot-our-plan-is-to-never-change-our-style-quot/",
+   "profile": "possession",
+   "source": "https://www.olympiacos.org/en/2026/09/10/imanol-alguacil-appointed-new-olympiacos-head-coach/",
    "stats": {
     "fouls": 10.5,
     "games": 2,
@@ -1672,7 +1672,7 @@
     "shots": 17.5,
     "shots_against": 7.5
    },
-   "why": "Mendilibar's direct, high-pressure side; he reportedly left in September (Alguacil, a high-press coach, linked)"
+   "why": "Ex-Real Sociedad: possession, tactical flexibility, high-intensity pressing"
   },
   "Osasuna": {
    "basis": "research (deeper pass)",
@@ -1694,11 +1694,11 @@
   },
   "PEC Zwolle": {
    "basis": "research (deeper pass)",
-   "coach": "Henry van der Vegt (dismissed 13 Oct)",
+   "coach": "Vacant (interim)",
    "confidence": "low",
    "league": "Eredivisie",
    "profile": "low_block",
-   "source": "https://www.vi.nl/pro/waarom-pec-zwolle-breekt-met-henry-van-der-vegt",
+   "source": "https://nos.nl/artikel/2634777-eerste-eredivisietrainer-ontslagen-pec-zwolle-stuurt-van-der-vegt-de-laan-uit",
    "stats": {
     "fouls": 11.33,
     "games": 9,
@@ -1708,7 +1708,7 @@
     "shots": 12.0,
     "shots_against": 19.33
    },
-   "why": "Coach dismissed after a weak start (0-7 at Feyenoord); 41% possession"
+   "why": "Coach dismissed 13 Oct; no permanent successor named; 41% possession"
   },
   "PSV": {
    "basis": "research",
@@ -1946,11 +1946,11 @@
   },
   "Rio Ave": {
    "basis": "research (deeper pass)",
-   "coach": "Sotiris Silaidopoulos",
-   "confidence": "low",
+   "coach": "Vasco Seabra (from 4 Oct)",
+   "confidence": "medium",
    "league": "Primeira Liga",
-   "profile": "pragmatic",
-   "source": "https://observador.pt/2026/05/15/silaidopoulos-promete-rio-ave-com-agressividade-e-paixao-frente-ao-casa-pia-e-ja-planeia-a-proxima-temporada/",
+   "profile": "possession",
+   "source": "https://www.abola.pt/noticias/oficial-vasco-seabra-e-o-novo-treinador-do-rio-ave-2026100412434589306",
    "stats": {
     "fouls": 8.88,
     "games": 8,
@@ -1960,7 +1960,7 @@
     "shots": 7.62,
     "shots_against": 16.25
    },
-   "why": "Promises 'aggression and passion'; moved from a 3-4-3 to a 4-2-3-1"
+   "why": "New coach from Arouca: 'dominant with the ball, selective with the press'"
   },
   "Roma": {
    "basis": "research",
@@ -1981,12 +1981,12 @@
    "why": "Man-to-man pressing all over the pitch; 0.9 goals conceded"
   },
   "SC Cambuur": {
-   "basis": "stats",
+   "basis": "research (deeper pass)",
    "coach": "Johan Plat",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Eredivisie",
-   "profile": "chaos",
-   "source": null,
+   "profile": "possession",
+   "source": "https://www.vi.nl/pro/johan-plat-kiest-voor-de-aanval-bij-sc-cambuur-voetbal-moet-leuk-zijn",
    "stats": {
     "fouls": 12.33,
     "games": 9,
@@ -1996,7 +1996,7 @@
     "shots": 11.89,
     "shots_against": 14.78
    },
-   "why": "3.8 goals a game (both ends), 12 shots for / 15 against"
+   "why": "Cruyff disciple: 'football must be fun', attacking even as a promoted side"
   },
   "SC Freiburg": {
    "basis": "research",
@@ -2017,12 +2017,12 @@
    "why": "Freiburg's model: compact 4-4-2 out of possession, efficient, strong set pieces"
   },
   "SC Heerenveen": {
-   "basis": "research",
+   "basis": "research (deeper pass)",
    "coach": "Robin Veldman",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Eredivisie",
-   "profile": "pragmatic",
-   "source": "https://nl.wikipedia.org/wiki/Sc_Heerenveen_in_het_seizoen_2026/27_(mannen)",
+   "profile": "possession",
+   "source": "https://www.voetbaltrainer.nl/robin-veldman-aanvallend-en-attractief-voetbal-met-behulp-van-vijf-kernwaarden/",
    "stats": {
     "fouls": 8.67,
     "games": 9,
@@ -2032,7 +2032,7 @@
     "shots": 15.33,
     "shots_against": 14.56
    },
-   "why": "Style little documented"
+   "why": "'Neat and aggressive, possession and attacking initiative', controlled build-up"
   },
   "SC Paderborn": {
    "basis": "research (deeper pass)",
@@ -2161,12 +2161,12 @@
    "why": "Full-pitch man-marking pressure, high intensity, goes long more than most"
   },
   "Sparta Rotterdam": {
-   "basis": "stats",
+   "basis": "research (deeper pass)",
    "coach": "Rogier Meijer",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Eredivisie",
-   "profile": "chaos",
-   "source": null,
+   "profile": "press",
+   "source": "https://www.voetbaltrainer.nl/2021/12/17/rogier-meijer-vrijheid-binnen-structuur/",
    "stats": {
     "fouls": 10.11,
     "games": 9,
@@ -2176,7 +2176,7 @@
     "shots": 14.67,
     "shots_against": 17.33
    },
-   "why": "4.2 goals a game (both ends), 15 shots for / 17 against"
+   "why": "Ex-Leverkusen assistant; mid-height line with aggressive pressure on the ball (NEC)"
   },
   "Sporting CP": {
    "basis": "research (deeper pass)",
@@ -2503,12 +2503,12 @@
    "why": "Fast, aggressive transition football: win it early, 'depth before width'"
   },
   "Willem II": {
-   "basis": "stats",
+   "basis": "research (deeper pass)",
    "coach": "John Stegeman",
-   "confidence": "low",
+   "confidence": "medium",
    "league": "Eredivisie",
    "profile": "low_block",
-   "source": null,
+   "source": "https://www.soccernews.nl/news/paniek-bij-eredivisionist-zoveel-tijd-hebben-we-niet/",
    "stats": {
     "fouls": 9.78,
     "games": 9,
@@ -2518,7 +2518,7 @@
     "shots": 11.67,
     "shots_against": 20.56
    },
-   "why": "40% possession, 21 shots conceded a game"
+   "why": "Compact organisation, quick counters after winning the ball"
   }
  },
  "generated": "2026-10-19",
