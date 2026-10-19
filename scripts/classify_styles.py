@@ -238,6 +238,32 @@ DEEP_PICKS = {
     "Coventry City": ("pragmatic", "medium", "Frank Lampard", "Back-three build-up, short and direct mixed, wide press; more compact lately", "https://www.squawka.com/en/features/tactical-analysis-coventry-finding-their-feet/"),
 }
 
+# Third pass, 19 Oct 2026: fan sites, local papers, coach bios and press conferences for the
+# clubs still at low confidence. (Reddit blocks automated access.)
+DEEP_PICKS.update({
+    "AZ": ("possession", "medium", "Leeroy Echteld", "Lots of the ball, often in the opponent's half; 59% possession", "https://nos.nl/liveblog/2635103-ajax-kort-na-gelijkmaker-weer-op-achterstand-in-split-2-1-az-op-1-1-tegen-beer-sheva"),
+    "FC Twente": ("possession", "medium", "John van den Brom", "'Thinks attacking and wants to dominate'; builds from the back, uses the width", "https://www.voetbalprimeur.nl/nieuws/2071400/fc-twente-langer-door-met-john-van-den-brom.html"),
+    "Utrecht": ("press", "medium", "Anthony Correia", "Telstar's fearless side: back three, attacking wing-backs, pressing and risk-taking", "https://www.elfvoetbal.nl/binnenland/287142/hoe-verloopt-de-voorbereiding-van-fc-utrecht-onder-anthony-correia"),
+    "FC Groningen": ("press", "medium", "Dick Lukkien", "Built on intensity, promised attacking and dominant football, wants defenders to press hard", "https://www.dekrantnieuws.nl/sport/sport/71537/is-lukkien-de-juiste-man-op-de-juiste-plaats-"),
+    "Fortuna Sittard": ("low_block", "medium", "Danny Buijs", "Solid, compact defending is his trademark; 'can't play beautiful football every week'", "https://www.vi.nl/pro/analyse/waarom-het-fortuna-sittard-van-buijs-verdedigend-even-niet-meer-top-is"),
+    "Excelsior": ("press", "medium", "Ruben den Uil", "'Aggressive in pressing, dynamic, wants the ball'", "https://www.feanonline.nl/den-uil-wil-met-excelsior-revanche-vrijdag-tegen-sc-heerenveen/"),
+    "PEC Zwolle": ("low_block", "low", "Henry van der Vegt (dismissed 13 Oct)", "Coach dismissed after a weak start (0-7 at Feyenoord); 41% possession", "https://www.vi.nl/pro/waarom-pec-zwolle-breekt-met-henry-van-der-vegt"),
+    "Bodo/Glimt": ("possession", "medium", "Kjetil Knutsen", "Fluid possession play and a high press, over 60% possession domestically", "https://totalfootballanalysis.com/head-coach-analysis/kjetil-knutsen-tactics-bodo-glimt-2025-2026-tactical-analysis"),
+    "Celtic": ("pragmatic", "medium", "Martin O'Neill", "'Defend first', no possession for possession's sake, more front-footed", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Celtic_F.C._season"),
+    "Olympiacos": ("press", "low", None, "Mendilibar's direct, high-pressure side; he reportedly left in September (Alguacil, a high-press coach, linked)", "https://www.olympiacos.org/en/2025/01/24/mendilibar-quot-our-plan-is-to-never-change-our-style-quot/"),
+    "RB Salzburg": ("press", "medium", "Danny Röhl", "Red Bull school pressing club, new coach from June 2026", "https://www.bundesliga.at/de/team/fc-red-bull-salzburg/6428/trainer"),
+    "SK Sturm Graz": ("press", "low", "Fabio Ingolitsch", "Former Red Bull (Liefering) coach; style not documented yet", "https://en.wikipedia.org/wiki/Fabio_Ingolitsch"),
+    "Rayo Vallecano": ("possession", "medium", "Beñat San José", "'Offensive, brave and built on dominating the ball', presses to win it back fast", "https://www.futbolfantasy.com/laliga/noticias/145940-benat-san-jose-se-presenta-como-tecnico-del-rayo-y-habla-de-identidad-estilo-reto-y-objetivos"),
+    "Racing Santander": ("possession", "medium", "José Alberto López", "'Relational' football: short passes, players close together; attractive but exposed", "https://es.coachesvoice.com/cv/clase-magistral-jose-alberto-lopez-el-juego-de-relacion-del-racing-de-santander/"),
+    "Fulham": ("possession", "medium", "Álvaro Arbeloa", "Back-three build-up, all five lanes occupied, organised press; under pressure after a poor start", "https://tacticalfootballanalysis.com/alvaro-arbeloa-tactics-fulham-2026-2027-tactical-analysis/"),
+    "Ipswich Town": ("pragmatic", "medium", "Gary O'Neil", "Adaptable: mid-to-low block, organised first, direct second", "https://www.suffolknews.co.uk/ipswich/sport/we-will-find-ways-to-be-more-adaptable-9471303/"),
+    "Torino": ("possession", "medium", "Ignazio Abate", "Juve Stabia: intensity, high press, control through possession, builds from the back", "https://www.metropolisweb.it/2025/07/26/ordine-lavagna-controllo-del-gioco-la-juve-stabia-ignazio-abate"),
+    "Elversberg": ("chaos", "medium", "Vincent Wagner", "Offensive: draws the opponent in, attacks the space behind, quick counters; 22 shots conceded", "https://www.kicker.de/elversberg-und-das-draufgaengertum-gluecksgriffe-nicht-nur-bei-transfers-1250248/artikel"),
+    "Estrela": ("chaos", "medium", "Pepa", "'An aggressive, intense side, not afraid to have the ball, looking for goals'", "https://bolanarede.pt/especial-bola-na-rede/atualidade/pepa-quer-um-estrela-da-amadora-agressivo-e-irreverente-apesar-das-ausencias-dos-internacionais-durante-a-paragem-e-uma-novidade-para-nos-ter-tantos-jogadores-na-selecao/"),
+    "Alverca": ("direct", "medium", "Sérgio Ferreira", "Bold with and without the ball, 'defend the goal to the death'; 14.6 fouls a game", "https://www.record.pt/futebol/futebol-nacional/liga-betclic/alverca/detalhe/sergio-ferreira-da-receita-para-bater-o-sp-braga-defender-a-baliza-ate-a-morte-e-atacar-mais"),
+    "C.D. Nacional": ("press", "medium", "João Gião", "'Aggressive and offensive, with vertigem': verticality, Sporting B principles", "https://www.abola.pt/noticias/nacional-joao-giao-quer-vertigem-no-jogo-e-elogia-chucho-2026071617443096182"),
+})
+
 # Coaches named in the season lists, for clubs whose style still rests on stats.
 COACHES = {
     "AZ": "Leeroy Echteld", "FC Twente": "John van den Brom", "FC Groningen": "Dick Lukkien",
@@ -290,7 +316,7 @@ def main():
         numbers = {k: s[k] for k in ("games", "possession", "shots", "shots_against", "goals", "goals_against", "fouls")}
         if team in DEEP_PICKS:
             profile, conf, coach, why, url = DEEP_PICKS[team]
-            clubs[team] = {"league": league, "profile": profile, "confidence": conf, "coach": coach,
+            clubs[team] = {"league": league or "Europe", "profile": profile, "confidence": conf, "coach": coach,
                            "why": why, "source": url, "basis": "research (deeper pass)", "stats": numbers}
         elif team in PICKS or team in COACH_PICKS:
             profile, conf, coach, why, src = COACH_PICKS.get(team) or PICKS[team]
