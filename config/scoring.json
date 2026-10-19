@@ -164,7 +164,7 @@
       "revenge_knockout": "{loser} were knocked out by {winner} in the {competition} {stage} ({when})",
       "revenge_loss": "{loser} lost {score} to {winner} in the {competition} ({when})",
       "european_classic": "European classic: {n} meetings since {since}",
-      "big_match": "Heavyweights: Europe's #{home_rank} v #{away_rank}",
+      "big_match": "Heavyweights: #{home_rank} v #{away_rank} in the UEFA rankings",
       "giant_gap": "{team} {gap} pts off the top: under par",
       "par_under": "{team} usually finish {usual}: under par",
       "par_over": "{team} usually finish {usual}: punching above their weight"
@@ -183,7 +183,7 @@
       },
       "big_match": {
         "kind": "pair",
-        "text": "Europe's #{rank} club"
+        "text": "#{rank} in the UEFA rankings"
       },
       "par_under": {
         "kind": "team",
