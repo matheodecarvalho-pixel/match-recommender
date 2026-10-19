@@ -179,6 +179,75 @@ PICKS = {
     "Sporting CP": ("pragmatic", "low", "Rui Borges", "Balanced, 55% possession", "pt_coaches"),
 }
 
+# Deeper research, 19 Oct 2026: national press, club announcements, coach bios and local
+# outlets for every club below high confidence. (L'Équipe, France Football, So Foot and
+# Ouest-France block automated access, so French clubs rely on other outlets quoting them.)
+DEEP_PICKS = {
+    # Ligue 1
+    "Auxerre": ("press", "medium", "Will Still", "Pressing, vertical 4-3-3 identity from Reims; switched to a 5-4-1 early on to tighten up", "https://ligue1.com/en/articles/l1_article_5488-will-still-hungry-as-new-auxerre-era-begins"),
+    "Strasbourg": ("press", "medium", "Hugo Oliveira", "Takes the initiative: possession, high tempo, intense press, direct down the wings; weak when forced into a low block", "https://www.rcstrasbourgalsace.fr/en/hugo-oliveira-appointed-head-coach-of-racing-club-de-strasbourg-alsace/"),
+    "Lens": ("press", "high", "Dino Toppmöller", "Intense, offensive football and a high press; wants to keep the ball to save energy for pressing", "https://www.rclens.fr/fr/rclens-conference-de-presse-presentation-dino-toppmoller-20260616"),
+    "Toulouse": ("possession", "medium", "Jens Berthel Askou", "Expansive, attacking football at Motherwell, with a club record for clean sheets", "https://www.skysports.com/football/news/36621/13546645/jens-berthel-askou-motherwell-boss-leaves-to-take-charge-at-toulouse-following-successful-debut-season-in-premiership"),
+    "Le Havre": ("press", "medium", "Didier Digard", "'My style is offensive': pressing, courage, risk-taking; fragile when the team pushes up", "https://ligue1.com/en/articles/l1_article_560-le-havre-manager-didier-digard-my-style-is-offensive-it-reflects-my-personality"),
+    "Brest": ("direct", "medium", "Julien Lachuer", "Stable shape, simple pressing triggers, less risky build-up, a target man up front", "https://www.coeur-de-gone.fr/2026/06/stade-brestois-julien-lachuer-va-devenir-le-nouvel-entraineur-un-choix-fort-pour-lancer-un-nouveau-cycle/"),
+    "Le Mans": ("press", "medium", "Patrick Videira", "Fluid rotations over fixed systems ('football is chess'), an efficient press, compact", "https://ligue1.com/en/articles/l1_article_5592-who-is-patrick-videira-le-mans-fast-rising-coach"),
+    "Troyes": ("pragmatic", "medium", "Stéphane Dumont", "'Not dogmatic, adapts to the players he has'; rigour and Premier League-style intensity", "https://www.footmercato.net/a8736963809579446176-stephane-dumont-lhomme-derriere-lincroyable-renouveau-de-troyes"),
+    "Angers": ("chaos", "medium", "Stéphane Gilli", "Openly attacking and forward-looking, accepts mistakes as part of the plan (Paris FC before)", "https://antichambre.eu/stephane-gilli-angers-sco-on-manque-defficacite-dans-les-deux-surfaces/"),
+    "Nice": ("low_block", "medium", "Olivier Pantaloni", "His Lorient sat in a very marked low block and played direct", "https://morning-foot.com/ligue-1/nice/pantaloni-ogc-nice-entraineur-analyse-tactique-data-scout/"),
+    "Lorient": ("direct", "medium", "Alexandre Dujeux", "Angers' survival sides: intense, combative, duel-heavy on a small budget", "https://morning-foot.com/ligue-1/lorient/dujeux-lorient-angers-comparaison-style-jeu-data-scout/"),
+    "Monaco": ("possession", "high", "Filipe Luís", "'My game model is offensive, dominant and based on a high press'; 62% possession at Flamengo", "https://www.asmonaco.com/fr/news/pressing-haut-possession-59-3-les-chiffres-cles-du-coach-filipe-luis"),
+    "Rennes": ("press", "medium", "Franck Haise", "His Lens: intense 3-4-2-1, aggressive wing-backs; 18 shots a game at Rennes", "https://en.wikipedia.org/wiki/Franck_Haise"),
+    # Primeira Liga
+    "Braga": ("possession", "high", "Carlos Vicens", "Former Guardiola assistant: associative play, mobility, many players around the ball", "https://tvi.iol.pt/noticias/sp-braga/carlos-vicens/carlos-vicens-e-a-epoca-do-sp-braga-temos-de-estar-satisfeitos"),
+    "Famalicão": ("possession", "high", "Carlos Carvalhal", "Rival coach Rui Borges: 'one of the teams with the most possession, they like to dominate'", "https://www.dn.pt/desporto/rui-borges-exige-sporting-ligado-em-famalico-o-nosso-grande-objetivo-o-campeonato"),
+    "Arouca": ("possession", "medium", "Vasco Seabra", "'Dominant with the ball, selective with the press, jumping at the right moments'", "https://www.record.pt/futebol/futebol-nacional/liga-betclic/arouca/detalhe/vasco-seabra-e-o-estoril-arouca-o-jogo-comeca-num-quadro-em-branco-e-temos-de-ser-nos-a-escrever-nele"),
+    "Marítimo": ("direct", "medium", "Mitchell van der Gaag", "Built on defensive organisation and winning duels", "https://www.record.pt/futebol/futebol-nacional/liga-betclic/maritimo/detalhe/van-der-gaag-apos-maritimo-voltar-a-pontuar-quebramos-essa-sequencia-e-isso-foi-importante"),
+    "Vitória SC": ("press", "medium", "Tiago Margarido", "'Open-chested and offensive', aggressive; 17.8 shots a game", "https://www.abola.pt/noticias/tiago-margarido-e-o-derbi-inspiracao-no-jogo-que-o-vitoria-fez-ha-dois-anos-2026083011540317383"),
+    "Moreirense": ("low_block", "medium", "Vasco Botelho da Costa", "Wants more of the ball, but defends lower against stronger sides; 36% possession", "https://www.record.pt/futebol/futebol-nacional/liga-betclic/moreirense/amp/vasco-botelho-da-costa-queremos-ser-uma-equipa-com-capacidade-para-lutar-pela-vitoria-em-qualquer-jogo"),
+    "Casa Pia": ("pragmatic", "low", "Filipe Coelho", "No documented approach yet; the side defended in a back five last season", "https://www.abola.pt/noticias/casa-pia-em-alpendorada-nao-vamos-olhar-para-este-jogo-de-forma-diferente-2026101714334966270"),
+    "Rio Ave": ("pragmatic", "low", "Sotiris Silaidopoulos", "Promises 'aggression and passion'; moved from a 3-4-3 to a 4-2-3-1", "https://observador.pt/2026/05/15/silaidopoulos-promete-rio-ave-com-agressividade-e-paixao-frente-ao-casa-pia-e-ja-planeia-a-proxima-temporada/"),
+    "Sporting CP": ("possession", "medium", "Rui Borges", "Switched to a 4-3-3 this season with new principles of play; 55% possession", "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/a-nova-formula-do-sporting-como-rui-borges-espera-potenciar-o-4x3x3-e-dar-maior-liberdade-a-doumbia"),
+    # La Liga
+    "Athletic Club": ("press", "high", "Edin Terzić", "Very aggressive press, very quick in possession, fast transitions (Dortmund)", "https://www.futbolfantasy.com/laliga/noticias/148063-analisis-de-edin-terzic-presion-con-sentido-y-flexibilidad-para-reactivar-al-athletic"),
+    "Sevilla": ("direct", "high", "Luis García Plaza", "Compact and disciplined; the ball is a tool: direct play, crosses, quick transitions", "https://www.futbolfantasy.com/laliga/noticias/141624-luis-garcia-plaza-sobriedad-y-ambicion-para-el-sevilla-filosofia-idea-y-estilo-de-juego"),
+    "Osasuna": ("low_block", "medium", "Luis Miguel Ramis", "Best defence in Segunda with Burgos; defends well in his half, attacks fast off mistakes", "https://www.noticiasdenavarra.com/osasuna/2026/06/10/llega-ramis-osasuna-entrenador-sobrio-orden-11182099.html"),
+    "Real Betis": ("press", "medium", "Manuel Pellegrini", "Moved from a patient game to transitions with runners; struggles against deep blocks", "https://beticismo.substack.com/p/las-posibilidades-tacticas-del-betis"),
+    "Levante": ("press", "medium", "Luís Castro", "High press and quick transitions down the flanks; calls himself an offensive coach", "https://www.futbolfantasy.com/laliga/noticias/137802-luis-castro-se-presenta-y-habla-de-identidad-proyecto-y-ambicion-para-reactivar-al-levante"),
+    "Espanyol": ("direct", "low", "Manolo González", "Sources conflict (proactive model v intense and balanced); 16 fouls a game", "https://el1900.com/como-jugara-espanyol-manolo-gonzalez/"),
+    "Getafe": ("direct", "high", "José Bordalás", "Bordalás: duels, intensity, direct play and set pieces; 39% possession, 14 fouls a game", "https://www.eldesmarque.com/futbol/liga-1a-division/20260618/banquillos-laliga-2026-2027-nuevos-entrenadores_18_019482771.html"),
+    # Serie A
+    "Monza": ("press", "high", "Ivan Jurić", "Man-to-man pressing all over the pitch, immediate verticality, concedes a lot", "https://www.pianetalecce.it/news/27472072198/lecce-monza-numeri-e-caratteristiche-della-squadra-di-juric"),
+    "Sassuolo": ("possession", "medium", "Alberto Aquilani", "Builds from the back, 4-3-3 with a deep playmaker; the keeper is the first playmaker", "https://ultimouomo.com/guida-al-sassuolo-serie-a-2026-27-possibile-formazione-fantacalcio-come-giochera"),
+    "Lecce": ("low_block", "medium", "Eusebio Di Francesco", "4-3-3 built on wingers, but a compact 5-3-2 low block without the ball", "https://www.sportellate.it/2026/07/29/di-francesco-scuse-lecce/"),
+    "Cagliari": ("low_block", "medium", "Fabio Pisacane", "'Vertical football': mixes short build-up and direct balls; 38% possession, 0.5 conceded", "https://www.gianlucadimarzio.com/news-calcio/cagliari-pisacane-il-calcio-verticale-nato-sconfitto-malattia-493858"),
+    "Parma": ("low_block", "low", "Carlos Cuesta (reportedly dismissed)", "Deep and compact under Cuesta, who was reportedly dismissed after 5 matchdays; style may change", "https://www.pazzidifanta.com/news/parma-genoa-formazioni-ufficiali-quinta-giornata-serie-a-2026-27-459444"),
+    # Bundesliga
+    "Bayer Leverkusen": ("possession", "high", "Carles Martínez Novell", "La Masia school: modern possession football, controlled build-up, aggressive counter-press", "https://www.bundesliga.com/de/bundesliga/news/carles-martinez-novell-bayer-04-leverkusen-trainer-funf-dinge-37695"),
+    "Union Berlin": ("press", "medium", "Mauro Lustrinelli", "'The end of pragmatism': courage, offensive solutions, high press plus an active block", "https://www.sportschau.de/regional/rbb/rbb-union-berlin-strategiewechsel-mit-neuem-trainer-lustrinelli-100.html"),
+    "VfB Stuttgart": ("possession", "medium", "Sebastian Hoeneß", "Possession-based positional play since 2023; 57% possession", "https://www.kicker.de/vfb-stuttgart/team-trainer"),
+    "Werder Bremen": ("press", "medium", "Daniel Thioune", "Fast, aggressive transition football: win it early, 'depth before width'", "https://www.deichstube.de/news/werder-bremen-daniel-thioune-wie-spielt-neuer-trainer-spielstil-analyse-bundesliga-taktik-formation-zr-94158894.html"),
+    "Hamburger SV": ("pragmatic", "medium", "Merlin Polzin", "Tailors the plan to each opponent rather than one fixed idea", "https://moinvolkspark.de/artikel/von-ausfaellen-und-anpassung-polzins-hsv-rezept"),
+    "Schalke 04": ("press", "medium", "Miron Muslić", "'Our game is defined by aggression and intensity', an active style", "https://pt.soccerway.com/noticias/futebol-2-bundesliga-miron-muslic-quer-levar-o-schalke-de-volta-ao-topo-e-um-gigante-do-futebol/0pGniBLM"),
+    "1. FC Köln": ("possession", "low", "René Wagner", "4-2-3-1 that is active on the ball, data-driven", "https://www.getfootballnewsgermany.com/2026/bundesliga-koln-preview-26/"),
+    "FC Augsburg": ("low_block", "low", "Manuel Baum", "Defensive organisation first; tried a 3-4-3 in pre-season", "https://www.getfootballnewsgermany.com/2026/bundesliga-augsburg-preview-26/"),
+    # Eredivisie
+    "Feyenoord": ("press", "high", "Giovanni van Bronckhorst", "High intensity, aggressive pressing, tempo (learnt as Slot's assistant at Liverpool)", "https://1908.nl/artikelen/van-bronckhorst-schetst-gewenste-speelstijl-altijd-aan-staan"),
+    "Go Ahead Eagles": ("chaos", "medium", "Joseph Oosting", "Plays its own game whoever the opponent, creates a lot, concedes a lot", "https://www.vi.nl/pro/wel-creeren-niet-belonen-go-ahead-eagles-doet-zichzelf-tekort"),
+    "NEC": ("possession", "medium", "Dick Schreuder", "Praised for an attractive playing philosophy; 59% possession", "https://www.forzanec.nl/nieuws/oosting-kijkt-met-bewondering-naar-opmars-nec/"),
+    # Premier League
+    "Coventry City": ("pragmatic", "medium", "Frank Lampard", "Back-three build-up, short and direct mixed, wide press; more compact lately", "https://www.squawka.com/en/features/tactical-analysis-coventry-finding-their-feet/"),
+}
+
+# Coaches named in the season lists, for clubs whose style still rests on stats.
+COACHES = {
+    "AZ": "Leeroy Echteld", "FC Twente": "John van den Brom", "FC Groningen": "Dick Lukkien",
+    "Sparta Rotterdam": "Rogier Meijer", "Utrecht": "Anthony Correia", "Excelsior": "Ruben den Uil",
+    "PEC Zwolle": "Henry van der Vegt", "Fortuna Sittard": "Danny Buijs", "Willem II": "John Stegeman",
+    "Ipswich Town": "Gary O'Neil", "Elversberg": "Vincent Wagner", "Racing Santander": "José Alberto López",
+    "Rayo Vallecano": "Beñat San José", "Acad. Viseu": "Bruno Pinheiro", "Alverca": "Sérgio Ferreira",
+    "Estrela": "Pepa", "Udinese": "Kosta Runjaić",
+}
+
 # Long-standing club identities for European clubs outside our leagues (not checked for 2026-27).
 IDENTITIES = {
     "RB Salzburg": ("press", "Red Bull school: gegenpress and vertical attacks"),
@@ -219,7 +288,11 @@ def main():
     for team, s in stats.items():
         league = LEAGUE.get(s.get("league"))
         numbers = {k: s[k] for k in ("games", "possession", "shots", "shots_against", "goals", "goals_against", "fouls")}
-        if team in PICKS or team in COACH_PICKS:
+        if team in DEEP_PICKS:
+            profile, conf, coach, why, url = DEEP_PICKS[team]
+            clubs[team] = {"league": league, "profile": profile, "confidence": conf, "coach": coach,
+                           "why": why, "source": url, "basis": "research (deeper pass)", "stats": numbers}
+        elif team in PICKS or team in COACH_PICKS:
             profile, conf, coach, why, src = COACH_PICKS.get(team) or PICKS[team]
             data_profile, _ = from_stats(s)
             if conf == "medium" and data_profile == profile and src:
@@ -229,7 +302,7 @@ def main():
                            "stats": numbers}
         elif league:
             profile, why = from_stats(s)
-            clubs[team] = {"league": league, "profile": profile, "confidence": "low", "coach": None,
+            clubs[team] = {"league": league, "profile": profile, "confidence": "low", "coach": COACHES.get(team),
                            "why": why, "source": None, "basis": "stats", "stats": numbers}
         elif team in IDENTITIES:
             profile, why = IDENTITIES[team]
