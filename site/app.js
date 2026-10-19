@@ -348,12 +348,21 @@ async function pollLive() {
 function paintLive(node) {
   const info = live.get(node.dataset.espn);
   const strip = node.querySelector(".live");
-  if (!info || info.state === "pre") { strip.hidden = true; return; }
+  const mid = node.querySelector(".versus:not(.compact) .vs-mid");
+  if (!info || info.state === "pre") {
+    strip.hidden = true;
+    if (mid) { mid.textContent = "v"; mid.classList.remove("scored"); mid.setAttribute("aria-hidden", "true"); }
+    return;
+  }
+  // Live tag and clock centred on top; the score takes the place of the "v" between the teams.
   strip.hidden = false;
   strip.classList.toggle("on", info.state === "in");
-  strip.replaceChildren(
-    el("span", { class: "live-tag" }, info.state === "in" ? `LIVE ${info.clock}` : info.clock),
-    el("span", { class: "live-score" }, `${info.homeScore} – ${info.awayScore}`));
+  strip.replaceChildren(el("span", { class: "live-tag" }, info.state === "in" ? `LIVE ${info.clock}` : info.clock));
+  if (mid) {
+    mid.textContent = `${info.homeScore} – ${info.awayScore}`;
+    mid.classList.add("scored");
+    mid.removeAttribute("aria-hidden");
+  }
   const centre = node.querySelector(".centre");
   if (centre && !centre.hidden) paintCentre(node);
 }
@@ -423,7 +432,7 @@ function versus(m, sides, withTeams) {
     formBar(m.forms?.[name]),
     facts?.length ? el("ul", { class: "vs-facts" }, facts.map(f => el("li", {}, f))) : null);
   return el("div", { class: "versus" + (withTeams ? "" : " compact") },
-    col(m.home, sides?.home), el("div", { class: "vs-line", "aria-hidden": "true" }, el("span", {}, "v")), col(m.away, sides?.away));
+    col(m.home, sides?.home), el("div", { class: "vs-line" }, el("span", { class: "vs-mid", "aria-hidden": "true" }, "v")), col(m.away, sides?.away));
 }
 
 // Last 5 results, oldest on the left: green win, grey draw, red loss.
@@ -496,8 +505,8 @@ function card(m) {
       m.must ? el("span", { class: "badge" }, "Must-watch") : null,
       m.rec ? el("span", { class: "badge rec" }, "Recommended") : null),
     el("div", { class: "score", "aria-label": `Score ${m.score} out of 100` }, String(m.score)),
-    versus(m, m.story_sides, true),
     el("div", { class: "live", hidden: "" }),
+    versus(m, m.story_sides, true),
     m.story_sides ? (m.story_sides.both.length ? el("div", { class: "story both" }, m.story_sides.both.join(" · ")) : null)
       : m.story ? el("div", { class: "story" }, m.story) : null,
     watchLine(m));

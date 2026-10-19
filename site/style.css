@@ -133,6 +133,7 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px s
 .vs-line { align-self: stretch; display: grid; place-items: center; position: relative; min-height: 100%; }
 .vs-line::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: var(--line); }
 .vs-line span { position: relative; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--muted); background: var(--card); padding: 4px 0; align-self: start; margin-top: 12px; }
+.vs-line .vs-mid.scored { font-size: 1.25rem; font-weight: 750; color: var(--ink); white-space: nowrap; font-variant-numeric: tabular-nums; padding: 2px 0; margin-top: 6px; }
 .versus.compact { margin-top: 10px; }
 .form-bar { display: inline-flex; gap: 4px; }
 .form-bar .dot { width: 10px; height: 10px; border-radius: 50%; }
@@ -188,7 +189,7 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 
 /* Live scores */
 .live {
-  grid-column: 1; display: flex; gap: 10px; align-items: center;
+  grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; justify-content: center;
   font-size: 0.85rem; font-variant-numeric: tabular-nums;
 }
 .live-tag {
@@ -197,7 +198,6 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
   background: var(--bar); color: var(--ink);
 }
 .live.on .live-tag { background: var(--live); color: #fff; animation: pulse 2s ease-in-out infinite; }
-.live-score { font-weight: 750; font-size: 1rem; }
 @keyframes pulse { 50% { opacity: 0.6; } }
 @media (prefers-reduced-motion: reduce) { .live.on .live-tag { animation: none; } }
 
