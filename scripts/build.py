@@ -40,6 +40,7 @@ def build(now=None):
     now = now or datetime.now(timezone.utc)
     config = json.loads((ROOT / "config" / "scoring.json").read_text(encoding="utf-8"))
     registry = teams.load(ROOT)
+    STYLES.update(load_styles(registry))
     fd_matches, tables = load_fd(OUTPUT / "raw" / "fd", registry)
     eu_matches, eu_tables, warnings = load_europe(OUTPUT / "europe_matches.json", registry)
     tables.update(eu_tables)
@@ -112,6 +113,7 @@ def build(now=None):
            "weights": {k: v for k, v in config["weights"].items() if v},
            "matches": ranked, "warnings": warnings,
            "crests": {t: CRESTS[t] for t in {x for m in ranked for x in (m["home"], m["away"])} if t in CRESTS},
+           "styles": {t: v for t, v in STYLES.items() if t in {x for m in ranked for x in (m["home"], m["away"])}},
            "unmatched_teams": sorted(registry.unmatched)}
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     write_results(matches, espn_ids, us_tv, registry, now)
@@ -150,6 +152,25 @@ def add_team_forms(results, registry):
         rows.sort(key=lambda r: r["kickoff_utc"])
 
 
+STYLES = {}
+
+
+def load_styles(registry):
+    """Team -> play style (data/play_styles.json), keyed by our team names, for chips and My Style."""
+    path = ROOT / "data" / "play_styles.json"
+    if not path.exists():
+        return {}
+    out = {}
+    for name, c in json.loads(path.read_text(encoding="utf-8"))["clubs"].items():
+        entry = {"style": c["profile"], "confidence": c["confidence"]}
+        out[name] = entry
+        # The style file uses ESPN's spelling for some clubs ("Slavia Prague", "C.D. Nacional").
+        key = registry.by_name.get(norm(name))
+        if key:
+            out.setdefault(key, entry)
+    return out
+
+
 def search_aliases(registry):
     """Every name a club goes by (teams.csv aliases, football-data.org names), for the search bar."""
     names = {}
@@ -173,7 +194,8 @@ def write_results(matches, espn_ids, us_tv, registry, now):
     teams_seen = {t for r in rows for t in (r["home"], r["away"])}
     aliases = {k: v for k, v in search_aliases(registry).items() if k in teams_seen}
     out = {"generated_at": now.astimezone(PARIS).isoformat(), "matches": rows, "aliases": aliases,
-           "crests": {t: CRESTS[t] for t in teams_seen if t in CRESTS}}
+           "crests": {t: CRESTS[t] for t in teams_seen if t in CRESTS},
+           "styles": {t: v for t, v in STYLES.items() if t in teams_seen}}
     (OUTPUT / "results.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 

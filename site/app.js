@@ -74,6 +74,57 @@ const PROFILES = {  // strongest slider -> what we call you
   closeness: "The Purist",
 };
 const FEED_KEY = "mr.feed";
+
+// ---------- My Style: how you like football to be played ----------
+
+const STYLE_INFO = {
+  possession: ["🎯", "Possession & control", "Tiki-taka, patient build-up"],
+  press: ["⚡", "High press & transition", "Win it high, attack fast"],
+  low_block: ["🧱", "Low block & counter", "Compact, deep, strike on the break"],
+  direct: ["💪", "Direct & physical", "Long balls, duels, set pieces"],
+  chaos: ["🎢", "All-out attack", "Open games, risks at both ends"],
+  pragmatic: ["♟️", "Pragmatic", "Adapt, control risk, manage the game"],
+};
+const STYLE_LEVELS = ["Avoid", "Not really", "Neutral", "Like", "Love"];  // -1 .. 1
+const STYLE_POINTS = 12;   // a match with two teams you love gains up to 12 points
+const CLASH_POINTS = 6;    // opposite philosophies meeting
+const CLASHES = [["possession", "low_block"], ["possession", "press"], ["press", "low_block"], ["chaos", "pragmatic"]];
+const STYLE_KEY = "mr.style";
+const STYLE_QUIZ = [
+  { q: "What pace do you enjoy?", a: [
+    ["Fast and vertical, end to end", { press: 1, chaos: 1, direct: 0.5, possession: -0.5 }],
+    ["Slow, patient build-up", { possession: 1, pragmatic: 0.5, chaos: -0.5 }],
+    ["Depends on the game", {}],
+  ] },
+  { q: "Tiki-taka or counter-attacks?", a: [
+    ["Tiki-taka: keep the ball, wear them down", { possession: 1, low_block: -0.5 }],
+    ["Counters: sit, wait, strike", { low_block: 1, press: 0.5, possession: -0.5 }],
+    ["Both have their charm", {}],
+  ] },
+  { q: "A team hunting the ball in the opponent's box…", a: [
+    ["That's the best thing in football", { press: 1 }],
+    ["Fine either way", {}],
+    ["I prefer teams that pick their moment", { low_block: 0.5, pragmatic: 0.5, press: -0.5 }],
+  ] },
+  { q: "A 4–4 with defenders all over the place:", a: [
+    ["Yes please", { chaos: 1, pragmatic: -0.5 }],
+    ["I'd rather watch a tactical battle", { pragmatic: 1, chaos: -1 }],
+    ["Fun once in a while", {}],
+  ] },
+  { q: "Long balls, duels and set pieces:", a: [
+    ["Proper football. Love it", { direct: 1 }],
+    ["Not really my thing", { direct: -1 }],
+    ["No strong feelings", {}],
+  ] },
+  { q: "Possession side against a deep block, or press against build-up: a clash of styles…", a: [
+    ["That's what makes a game interesting", { __clash: true }],
+    ["Doesn't matter to me", { __clash: false }],
+  ] },
+];
+const STYLE_PROFILES = {
+  possession: "The Tiki-Taka Purist", press: "The Heavy-Metal Fan", low_block: "The Counter-Attack Connoisseur",
+  direct: "The Old-School Romantic", chaos: "The Chaos Lover", pragmatic: "The Chess Player",
+};
 const ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer";
 const LIVE_POLL_MS = 30000;
 const STAT_ROWS = [  // ESPN boxscore label -> what we show
@@ -88,6 +139,8 @@ const COMP_KEY = "mr.competitions";
 
 let data = null;
 let feed = load(FEED_KEY, { mults: {}, profile: null });  // slider multipliers, quiz profile
+let myStyle = load(STYLE_KEY, { prefs: {}, clash: false, profile: null });  // style -> -1..1
+const teamStyles = {};  // team -> {style, confidence}
 let tv = null;        // broadcasters.json: rights per competition and country
 let country = null;   // ISO code: picked by hand, else from the device time zone
 let favourites = new Set(load(FAV_KEY, []));
@@ -187,6 +240,26 @@ function isFavourite(team) {
 }
 
 // Re-score with this device's favourites: the base score and bonus come from the pipeline.
+// Points from My Style: average of how much you like each team's style, plus a clash bonus.
+function styleBonus(m) {
+  const styles = [teamStyles[m.home]?.style, teamStyles[m.away]?.style].filter(Boolean);
+  if (!styles.length) return { points: 0, text: "" };
+  const avg = styles.reduce((t, st) => t + (myStyle.prefs[st] ?? 0), 0) / styles.length;
+  let points = Math.round(STYLE_POINTS * avg), text = "";
+  const clash = myStyle.clash && styles.length === 2 &&
+    CLASHES.some(([a, b]) => (styles[0] === a && styles[1] === b) || (styles[0] === b && styles[1] === a));
+  if (clash) points += CLASH_POINTS;
+  if (points) text = `${points > 0 ? "+" : ""}${points} My Style` + (clash ? " (clash of styles)" : "");
+  return { points, text, clash };
+}
+
+function styleChip(name) {
+  const st = teamStyles[name]?.style;
+  if (!st) return null;
+  const [icon, label] = STYLE_INFO[st];
+  return el("span", { class: "style-chip", title: label, "aria-label": label }, icon);
+}
+
 function mult(signal, b) {
   const key = signal === "stakes" ? (STAKE_KIND[b.kind] || "title") : signal;
   return feed.mults[key] ?? 1;
@@ -205,10 +278,11 @@ function rescore(m) {
   const base = wm > 0 ? raw * (w / wm) : 0;
   const fav = isFavourite(m.home) || isFavourite(m.away);
   const boost = fav ? data.favourite_boost : 0;
-  const score = Math.min(100, Math.round(100 * (base + m.competition_bonus + (m.stage_bonus || 0)) / data.scale_reference) + boost);
+  const sb = styleBonus(m);
+  const score = Math.max(0, Math.min(100, Math.round(100 * (base + m.competition_bonus + (m.stage_bonus || 0)) / data.scale_reference) + boost + sb.points));
   const must = score >= data.must_watch_threshold || (m.tier1_rivalry && (feed.mults.rivalry ?? 1) > 0);
   const rec = !must && score >= data.recommended_threshold;
-  return { ...m, score, boost, fav, must, rec, parts, personalBase: Math.round(base * 10) / 10 };
+  return { ...m, score, boost, fav, must, rec, parts, personalBase: Math.round(base * 10) / 10, styleBonus: sb };
 }
 
 const dayFmt = new Intl.DateTimeFormat("en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Paris" });
@@ -341,7 +415,7 @@ function crest(name) {
 // A team name with its badge; `after` puts the badge on the right (away side of a result).
 function team(name, after = false) {
   const label = isFavourite(name) ? el("span", { class: "fav" }, "★ " + name) : el("span", {}, name);
-  return el("span", { class: "team" }, after ? [label, crest(name)] : [crest(name), label]);
+  return el("span", { class: "team" }, after ? [styleChip(name), label, crest(name)] : [crest(name), label, styleChip(name)]);
 }
 
 function breakdown(m) {
@@ -360,8 +434,15 @@ function breakdown(m) {
   if (m.competition_bonus) extras.push(`+${m.competition_bonus} ${m.competition} bonus`);
   if (m.stage_bonus) extras.push(`+${m.stage_bonus} knockout round`);
   if (m.tier1_rivalry) extras.push("Must-watch: tier-1 rivalry");
+  if (m.styleBonus?.text) extras.push(m.styleBonus.text);
   const personal = Object.keys(feed.mults).length ? ` (${m.personalBase} with My Feed)` : "";
-  return el("div", { class: "breakdown" }, rows,
+  const styleLine = [m.home, m.away].filter(t => teamStyles[t]).map(t => {
+    const [icon, label] = STYLE_INFO[teamStyles[t].style];
+    return `${t}: ${icon} ${label}`;
+  });
+  return el("div", { class: "breakdown" },
+    styleLine.length ? el("p", { class: "styles-line" }, styleLine.join(" · ")) : null,
+    rows,
     el("p", { class: "extras" }, `Signals ${m.base} pts${personal}`, extras.length ? " · " + extras.join(" · ") : "",
       ` · ${data.scale_reference} pts = 100`));
 }
@@ -491,6 +572,7 @@ async function renderResults() {
     results = await fetchJson(RESULTS_SOURCES);
     if (!results) { list.replaceChildren(el("p", { class: "empty" }, "Couldn't load results.")); return; }
     for (const [k, v] of Object.entries(results.crests || {})) crests[k] ??= v;
+    for (const [k, v] of Object.entries(results.styles || {})) teamStyles[k] ??= v;
   }
   const q = fold(document.getElementById("search").value || "");
   const found = results.matches.filter(m => !hidden.has(m.competition) && matchesQuery(m, q));
@@ -651,10 +733,100 @@ function setupFeed() {
   document.getElementById("feed-name").textContent = feed.profile || (Object.keys(feed.mults).length ? "Custom" : "");
 }
 
+// ---------- My Style panel ----------
+
+function saveStyle() {
+  save(STYLE_KEY, myStyle);
+  const on = Object.values(myStyle.prefs).some(v => v) || myStyle.clash;
+  document.getElementById("open-style").classList.toggle("on", on);
+  document.getElementById("style-name").textContent = myStyle.profile || (on ? "Custom" : "");
+  render();
+}
+
+function drawStyleSliders() {
+  const box = document.getElementById("style-sliders");
+  box.replaceChildren(...Object.entries(STYLE_INFO).map(([id, [icon, label, hint]]) => {
+    const value = myStyle.prefs[id] ?? 0;
+    const out = el("output", {}, STYLE_LEVELS[(value + 1) * 2]);
+    const input = el("input", { type: "range", min: "-1", max: "1", step: "0.5", "aria-label": label });
+    input.value = String(value);
+    input.addEventListener("input", () => {
+      const v = Number(input.value);
+      out.textContent = STYLE_LEVELS[(v + 1) * 2];
+      myStyle = { ...myStyle, prefs: { ...myStyle.prefs, [id]: v }, profile: null };
+      saveStyle();
+    });
+    return el("div", { class: "slider" },
+      el("div", { class: "slider-head" }, el("strong", {}, `${icon} ${label}`), out),
+      input, el("span", { class: "hint" }, hint));
+  }));
+  const clash = document.getElementById("style-clash");
+  clash.checked = !!myStyle.clash;
+}
+
+function startStyleQuiz() {
+  const view = document.getElementById("style-quiz");
+  const prefs = {};
+  let clash = false;
+  document.getElementById("style-main").hidden = true;
+  view.hidden = false;
+  const step = i => {
+    if (i === STYLE_QUIZ.length) return finish();
+    const { q, a } = STYLE_QUIZ[i];
+    view.replaceChildren(
+      el("p", { class: "quiz-step" }, `Question ${i + 1} of ${STYLE_QUIZ.length}`),
+      el("div", { class: "quiz-bar" }, el("div", { style: `width:${(i / STYLE_QUIZ.length) * 100}%` })),
+      el("h3", {}, q),
+      ...a.map(([label, delta]) => el("button", { type: "button", class: "answer", onclick: () => {
+        for (const [k, v] of Object.entries(delta)) {
+          if (k === "__clash") clash = v;
+          else prefs[k] = Math.max(-1, Math.min(1, (prefs[k] ?? 0) + v));
+        }
+        step(i + 1);
+      } }, label)),
+      el("button", { type: "button", class: "link", onclick: endStyleQuiz }, "Cancel"));
+  };
+  const finish = () => {
+    const top = Object.entries(prefs).sort((x, y) => y[1] - x[1])[0];
+    const profile = top && top[1] > 0 ? STYLE_PROFILES[top[0]] : "The Open Mind";
+    myStyle = { prefs, clash, profile };
+    saveStyle();
+    const loved = Object.entries(prefs).filter(([, v]) => v > 0).sort((x, y) => y[1] - x[1]).map(([k]) => STYLE_INFO[k][0] + " " + STYLE_INFO[k][1]);
+    const picks = data.matches.map(rescore).filter(m => m.styleBonus.points > 0).sort((x, y) => y.score - x.score).slice(0, 3);
+    view.replaceChildren(
+      el("p", { class: "quiz-step" }, "Your football style"),
+      el("h3", { class: "profile" }, profile),
+      loved.length ? el("p", {}, "You enjoy: " + loved.join(", ")) : null,
+      picks.length ? el("p", {}, "Matches in your style this week:") : null,
+      picks.length ? el("ol", { class: "picks" }, picks.map(m => el("li", {}, `${m.home} v ${m.away} `, el("span", { class: "quiet" }, `(${m.score})`)))) : null,
+      el("button", { type: "button", class: "primary", onclick: () => { endStyleQuiz(); document.getElementById("mystyle").close(); } }, "See my matches"),
+      el("button", { type: "button", class: "link", onclick: endStyleQuiz }, "Fine-tune my style"));
+  };
+  step(0);
+}
+
+function endStyleQuiz() {
+  document.getElementById("style-quiz").hidden = true;
+  document.getElementById("style-main").hidden = false;
+  drawStyleSliders();
+}
+
+function setupStyle() {
+  const dialog = document.getElementById("mystyle");
+  document.getElementById("start-style-quiz").addEventListener("click", startStyleQuiz);
+  document.getElementById("open-style").addEventListener("click", () => { endStyleQuiz(); dialog.showModal(); });
+  document.getElementById("style-clash").addEventListener("change", e => { myStyle = { ...myStyle, clash: e.target.checked }; saveStyle(); });
+  document.getElementById("style-reset").addEventListener("click", () => { myStyle = { prefs: {}, clash: false, profile: null }; saveStyle(); drawStyleSliders(); });
+  const on = Object.values(myStyle.prefs).some(v => v) || myStyle.clash;
+  document.getElementById("open-style").classList.toggle("on", on);
+  document.getElementById("style-name").textContent = myStyle.profile || (on ? "Custom" : "");
+}
+
 Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   data = d;
   tv = t;
   Object.assign(crests, d.crests || {});
+  Object.assign(teamStyles, d.styles || {});
   setupCountry();
   const when = new Date(d.generated_at);
   document.getElementById("updated").textContent =
@@ -662,6 +834,7 @@ Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   renderChips();
   setupFavourites();
   setupFeed();
+  setupStyle();
   setupTabs();
   render();
   pollLive();

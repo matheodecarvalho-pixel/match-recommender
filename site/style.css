@@ -262,3 +262,16 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 .result-line .side.away .team { justify-content: flex-end; }
 .result-line .side { min-width: 0; }
 .teams { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+
+/* My Style */
+.feed-bar { display: flex; gap: 8px; flex-wrap: wrap; }
+.style-btn { border-color: var(--rec); color: var(--rec); background: var(--must-soft); }
+.style-btn.on { background: var(--rec); color: #fff; }
+#style-name:not(:empty)::before { content: "· "; }
+.style-cta { background: var(--rec); }
+.style-chip { font-size: 0.85em; line-height: 1; cursor: help; }
+.styles-line { font-size: 0.8rem; color: var(--muted); margin: 10px 0 0; }
+.clash { display: flex; gap: 10px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 0.9rem; }
+.clash input { width: 18px; height: 18px; accent-color: var(--rec); margin-top: 2px; }
+.link.inline { display: inline; margin: 0; }
+#style-main, #style-quiz { overflow-y: auto; padding-right: 6px; }

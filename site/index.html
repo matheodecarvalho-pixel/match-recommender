@@ -22,6 +22,7 @@
 
 <div class="wrap feed-bar">
   <button class="feed-btn" id="open-feed" type="button">✨ My Feed <span id="feed-name"></span></button>
+  <button class="feed-btn style-btn" id="open-style" type="button">🎨 My Style <span id="style-name"></span></button>
 </div>
 
 <nav class="controls wrap" aria-label="Filters">
@@ -60,6 +61,26 @@
       <p class="hint">Scores update instantly. Saved on this device only, nothing is sent anywhere.</p>
     </div>
     <div id="quiz" hidden></div>
+  </form>
+</dialog>
+
+<dialog id="mystyle">
+  <form method="dialog" class="fav-panel">
+    <div class="fav-head">
+      <h2>My Style</h2>
+      <button class="close" value="close" aria-label="Close">×</button>
+    </div>
+    <div id="style-main">
+      <button type="button" class="quiz-cta style-cta" id="start-style-quiz">
+        <strong>🎨 Find your football style</strong>
+        <span>Tiki-taka or counters? Fast or patient? Six questions, and matches played your way move up.</span>
+      </button>
+      <h3 class="feed-sub">Styles of play</h3>
+      <div id="style-sliders"></div>
+      <label class="clash"><input type="checkbox" id="style-clash"> <span><strong>Clash of styles</strong><br><span class="hint">Boost matches where opposite philosophies meet (possession v deep block, press v build-up)</span></span></label>
+      <p class="hint">Each team's style comes from research on its coach checked against its season stats. Saved on this device only. <button type="button" class="link inline" id="style-reset">Reset</button></p>
+    </div>
+    <div id="style-quiz" hidden></div>
   </form>
 </dialog>
 
