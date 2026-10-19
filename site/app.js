@@ -620,6 +620,45 @@ function setupTabs() {
   spoiler.addEventListener("change", () => { hideScores = spoiler.checked; save(SPOILER_KEY, hideScores); renderResults(); });
 }
 
+// ---------- Landing page and competitions panel ----------
+
+const LANDING_KEY = "mr.seenLanding";
+
+function showLanding(show) {
+  document.getElementById("landing").hidden = !show;
+  document.getElementById("app").hidden = show;
+  window.scrollTo(0, 0);
+}
+
+function setupShell() {
+  const enter = () => { save(LANDING_KEY, true); showLanding(false); };
+  document.getElementById("enter").addEventListener("click", enter);
+  document.getElementById("enter-quiz").addEventListener("click", () => {
+    enter();
+    endQuiz();
+    document.getElementById("feed").showModal();
+    startQuiz();
+  });
+  document.getElementById("home").addEventListener("click", () => showLanding(true));
+  const comps = document.getElementById("comps");
+  document.getElementById("open-comps").addEventListener("click", () => comps.showModal());
+  const setAll = hide => {
+    hidden = new Set(hide ? [...new Set(data.matches.map(m => m.competition))] : []);
+    save(COMP_KEY, [...hidden]);
+    renderChips();
+    render();
+  };
+  document.getElementById("comps-all").addEventListener("click", () => setAll(false));
+  document.getElementById("comps-none").addEventListener("click", () => setAll(true));
+}
+
+function compsLabel() {
+  const all = [...new Set(data.matches.map(m => m.competition))];
+  const shown = all.filter(c => !hidden.has(c));
+  document.getElementById("comps-label").textContent =
+    shown.length === all.length ? "All competitions" : shown.length === 1 ? shown[0] : `${shown.length} of ${all.length} competitions`;
+}
+
 function renderChips() {
   const comps = [...new Set(data.matches.map(m => m.competition))].sort();
   const box = document.getElementById("competitions");
@@ -629,10 +668,12 @@ function renderChips() {
       hidden.has(c) ? hidden.delete(c) : hidden.add(c);
       chip.setAttribute("aria-pressed", String(!hidden.has(c)));
       save(COMP_KEY, [...hidden]);
+      compsLabel();
       render();
     });
     return chip;
   }));
+  compsLabel();
 }
 
 function setupFavourites() {
@@ -841,6 +882,8 @@ function setupStyle() {
   document.getElementById("style-name").textContent = myStyle.profile || (on ? "Custom" : "");
 }
 
+showLanding(!load(LANDING_KEY, false));  // before the data arrives, so nothing flashes
+
 Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   data = d;
   tv = t;
@@ -855,6 +898,7 @@ Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   setupFeed();
   setupStyle();
   setupTabs();
+  setupShell();
   render();
   pollLive();
 }).catch(err => {

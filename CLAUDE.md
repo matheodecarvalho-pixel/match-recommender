@@ -1,4 +1,4 @@
-# Match Recommender: build brief
+# Eyeball: build brief
 
 A personal website that answers one question: **which football matches are worth watching this week, and why?**
 It ranks every match from the competitions below with a 0-100 "watchability" score and shows the reasons in one line.
@@ -37,6 +37,7 @@ scripts/scrape_europe.py  daily Europa + Conference League fixtures/results
 scripts/build_teams.py  regenerates teams.csv from the data files
 scripts/scrape_transfermarkt.py  squads + managers with previous club (twice a season)
 scripts/revenge.py      revenge flags from the newest Transfermarkt snapshot
+brand/                  logo files (SVG/PNG) and BRAND.md: colours, fonts, usage
 output/                 generated JSON (pipeline writes here)
 site/                   the website
 ```
@@ -76,6 +77,7 @@ Rules for scraping: identify the client in the User-Agent, wait at least 4 secon
 - Tap a card to see the score breakdown per signal (transparency is a core feature).
 - Filter by competition. Favourite teams picker, saved in `localStorage` (wrap in try/catch).
 - Works well on a phone.
+- Use the identity in `brand/BRAND.md`: night background, chalk text, emerald accent, Bricolage Grotesque + Instrument Sans, `brand/logo.svg` in the header, `brand/favicon.svg` as favicon.
 
 ## Build order
 

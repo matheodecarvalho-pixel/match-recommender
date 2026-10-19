@@ -73,7 +73,7 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site
-          cp site/* _site/
+          cp -r site/* _site/
           cp output/matches_ranked.json output/results.json data/broadcasters.json _site/
 
       - uses: actions/configure-pages@v5

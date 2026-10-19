@@ -3,35 +3,66 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Match Recommender</title>
-<meta name="description" content="Which football matches are worth watching this week, and why.">
+<title>eyeball</title>
+<meta name="description" content="Keep your eye on the right match: every game in Europe's top leagues ranked 0-100, with the reasons in one line.">
+<meta name="theme-color" content="#0F1A14">
+<link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="brand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="brand/app-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <h1>Worth watching</h1>
-    <p class="sub" id="updated">Loading…</p>
+
+<section id="landing" class="landing" hidden>
+  <div class="landing-inner">
+    <img class="landing-logo" src="brand/logo.svg" alt="eyeball logo: a football with an eye at its centre" width="220" height="220">
+    <h1 class="wordmark big">eyeball</h1>
+    <p class="tagline">Keep your eye on the right match.</p>
+    <p class="pitch">Every game in Europe's seven top leagues and the three European cups, scored 0 to 100 on how worth watching it is, with the reasons in one line.</p>
+    <ul class="facts">
+      <li><strong>10 competitions</strong><span>Re-ranked every morning</span></li>
+      <li><strong>Live scores</strong><span>Plus where to watch, in your country</span></li>
+      <li><strong>Your feed</strong><span>Tune it to the football you like</span></li>
+    </ul>
+    <div class="landing-cta">
+      <button type="button" class="primary" id="enter">See this week's matches</button>
+      <button type="button" class="secondary" id="enter-quiz">Personalise my feed</button>
+    </div>
+  </div>
+</section>
+
+<div id="app">
+<header class="appbar">
+  <div class="wrap appbar-inner">
+    <button type="button" class="brand-link" id="home" aria-label="eyeball home">
+      <img src="brand/logo.svg" alt="" width="34" height="34">
+      <span class="wordmark">eyeball</span>
+    </button>
+    <div class="appbar-tools">
+      <label class="tool country-pick" title="Where to watch: uses your device's time zone, nothing is sent anywhere">
+        <span aria-hidden="true">📺</span>
+        <select id="country" aria-label="Country for where to watch"></select>
+      </label>
+      <button class="tool fav-btn" id="open-favs" type="button" aria-label="Favourite teams">★ <span id="fav-count"></span></button>
+    </div>
   </div>
 </header>
 
-<div class="wrap tabs" role="tablist" aria-label="View">
-  <button type="button" role="tab" data-view="week" aria-selected="true">This week</button>
-  <button type="button" role="tab" data-view="results" aria-selected="false">Results</button>
+<div class="wrap controls-area">
+  <p class="sub" id="updated">Loading…</p>
+  <div class="tabs" role="tablist" aria-label="View">
+    <button type="button" role="tab" data-view="week" aria-selected="true">This week</button>
+    <button type="button" role="tab" data-view="results" aria-selected="false">Results</button>
+  </div>
+  <div class="feed-bar">
+    <button class="feed-btn" id="open-feed" type="button"><span>✨ My Feed</span> <span id="feed-name"></span></button>
+    <button class="feed-btn style-btn" id="open-style" type="button"><span>🎨 My Style</span> <span id="style-name"></span></button>
+  </div>
+  <button type="button" class="filter-btn" id="open-comps"><span aria-hidden="true">⛃</span> <span id="comps-label">All competitions</span> <span aria-hidden="true">▾</span></button>
 </div>
-
-<div class="wrap feed-bar">
-  <button class="feed-btn" id="open-feed" type="button">✨ My Feed <span id="feed-name"></span></button>
-  <button class="feed-btn style-btn" id="open-style" type="button">🎨 My Style <span id="style-name"></span></button>
-</div>
-
-<nav class="controls wrap" aria-label="Filters">
-  <div class="chips" id="competitions" role="group" aria-label="Competitions"></div>
-  <label class="country-pick" title="Where to watch: uses your device's time zone, nothing is sent anywhere">📺
-    <select id="country" aria-label="Country for where to watch"></select>
-  </label>
-  <button class="fav-btn" id="open-favs" type="button">★ Favourites <span id="fav-count"></span></button>
-</nav>
 
 <main class="wrap" id="days" aria-live="polite"></main>
 
@@ -84,22 +115,36 @@
   </form>
 </dialog>
 
+<dialog id="comps">
+  <form method="dialog" class="fav-panel">
+    <div class="fav-head">
+      <h2>Competitions</h2>
+      <button class="close" value="close" aria-label="Close">×</button>
+    </div>
+    <div class="chips wrap-chips" id="competitions" role="group" aria-label="Competitions"></div>
+    <div class="comps-actions">
+      <button type="button" class="link inline" id="comps-all">Show all</button>
+      <button type="button" class="link inline" id="comps-none">Hide all</button>
+    </div>
+  </form>
+</dialog>
+
 <dialog id="favs">
   <form method="dialog" class="fav-panel">
     <div class="fav-head">
       <h2>Favourite teams</h2>
       <button class="close" value="close" aria-label="Close">×</button>
     </div>
-    <p class="hint">Their matches get a +<span id="boost"></span> boost. Saved on this device.</p>
+    <p class="hint">Their matches are outlined in gold and come first each day<span id="boost" hidden></span>. Saved on this device.</p>
     <input type="search" id="fav-search" placeholder="Search teams" autocomplete="off">
     <div class="fav-list" id="fav-list"></div>
   </form>
 </dialog>
 
 <footer class="wrap foot">
-  Scores 0–100 from form, stakes, goals, rivalry, closeness, records and revenge games.
-  Tap a match to see why.
+  <span class="wordmark small">eyeball</span> scores every match 0–100 from form, stakes, goals, big clubs, rivalries, revenge, surprise teams and close games. Tap a match to see why.
 </footer>
+</div>
 
 <script src="app.js"></script>
 </body>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-212 -212 424 424" role="img" aria-label="Eyeball logo: a football whose centre patch is an eye with a multicoloured iris, ringed by the flags of France, Spain, Italy, Germany and England">
+<defs>
+<clipPath id="ball-eyeball"><circle cx="0" cy="0" r="200"></circle></clipPath>
+<clipPath id="eye-eyeball"><path d="M -82 0 Q 0 -90 82 0 Q 0 90 -82 0 Z"></path></clipPath>
+<clipPath id="p0-eyeball"><polygon points="0.0,-118.0 -47.6,-152.5 -29.4,-208.5 29.4,-208.5 47.6,-152.5"></polygon></clipPath>
+<clipPath id="p1-eyeball"><polygon points="112.2,-36.5 130.4,-92.4 189.2,-92.4 207.3,-36.5 159.8,-1.9"></polygon></clipPath>
+<clipPath id="p2-eyeball"><polygon points="69.4,95.5 128.1,95.5 146.3,151.4 98.7,185.9 51.2,151.4"></polygon></clipPath>
+<clipPath id="p3-eyeball"><polygon points="-69.4,95.5 -51.2,151.4 -98.7,185.9 -146.3,151.4 -128.1,95.5"></polygon></clipPath>
+<clipPath id="p4-eyeball"><polygon points="-112.2,-36.5 -159.8,-1.9 -207.3,-36.5 -189.2,-92.4 -130.4,-92.4"></polygon></clipPath>
+</defs>
+<circle cx="0" cy="0" r="200" fill="#F2EFE6"></circle>
+<g clip-path="url(#ball-eyeball)">
+<g fill="#0F1A14">
+<polygon points="0.0,-118.0 -47.6,-152.5 -29.4,-208.5 29.4,-208.5 47.6,-152.5"></polygon>
+<polygon points="112.2,-36.5 130.4,-92.4 189.2,-92.4 207.3,-36.5 159.8,-1.9"></polygon>
+<polygon points="69.4,95.5 128.1,95.5 146.3,151.4 98.7,185.9 51.2,151.4"></polygon>
+<polygon points="-69.4,95.5 -51.2,151.4 -98.7,185.9 -146.3,151.4 -128.1,95.5"></polygon>
+<polygon points="-112.2,-36.5 -159.8,-1.9 -207.3,-36.5 -189.2,-92.4 -130.4,-92.4"></polygon>
+</g>
+<g opacity="1">
+<g clip-path="url(#p0-eyeball)">
+<rect x="-51.6" y="-212.5" width="34.4" height="98.5" fill="#0055A4"></rect>
+<rect x="-17.2" y="-212.5" width="34.4" height="98.5" fill="#FFFFFF"></rect>
+<rect x="17.2" y="-212.5" width="34.4" height="98.5" fill="#EF4135"></rect>
+</g>
+<g clip-path="url(#p1-eyeball)">
+<rect x="108.2" y="-96.4" width="103.1" height="24.6" fill="#AA151B"></rect>
+<rect x="108.2" y="-71.8" width="103.1" height="49.3" fill="#F1BF00"></rect>
+<rect x="108.2" y="-22.5" width="103.1" height="24.6" fill="#AA151B"></rect>
+</g>
+<g clip-path="url(#p2-eyeball)">
+<rect x="47.2" y="91.5" width="34.4" height="98.4" fill="#009246"></rect>
+<rect x="81.6" y="91.5" width="34.4" height="98.4" fill="#FFFFFF"></rect>
+<rect x="115.9" y="91.5" width="34.4" height="98.4" fill="#CE2B37"></rect>
+</g>
+<g clip-path="url(#p3-eyeball)">
+<rect x="-150.3" y="91.5" width="103.1" height="32.8" fill="#000000"></rect>
+<rect x="-150.3" y="124.3" width="103.1" height="32.8" fill="#DD0000"></rect>
+<rect x="-150.3" y="157.1" width="103.1" height="32.8" fill="#FFCE00"></rect>
+</g>
+<g clip-path="url(#p4-eyeball)">
+<rect x="-211.3" y="-96.4" width="103.1" height="98.5" fill="#FFFFFF"></rect>
+<rect x="-168.8" y="-96.4" width="18" height="98.5" fill="#CE1124"></rect>
+<rect x="-211.3" y="-60.9" width="103.1" height="18" fill="#CE1124"></rect>
+</g>
+</g>
+<g fill="none" stroke="#0F1A14" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+<polygon points="0.0,-118.0 -47.6,-152.5 -29.4,-208.5 29.4,-208.5 47.6,-152.5"></polygon>
+<polygon points="112.2,-36.5 130.4,-92.4 189.2,-92.4 207.3,-36.5 159.8,-1.9"></polygon>
+<polygon points="69.4,95.5 128.1,95.5 146.3,151.4 98.7,185.9 51.2,151.4"></polygon>
+<polygon points="-69.4,95.5 -51.2,151.4 -98.7,185.9 -146.3,151.4 -128.1,95.5"></polygon>
+<polygon points="-112.2,-36.5 -159.8,-1.9 -207.3,-36.5 -189.2,-92.4 -130.4,-92.4"></polygon>
+<line x1="0.0" y1="-45.0" x2="0.0" y2="-118.0"></line>
+<line x1="61.2" y1="-19.9" x2="112.2" y2="-36.5"></line>
+<line x1="28.7" y1="39.5" x2="69.4" y2="95.5"></line>
+<line x1="-28.7" y1="39.5" x2="-69.4" y2="95.5"></line>
+<line x1="-61.2" y1="-19.9" x2="-112.2" y2="-36.5"></line>
+<line x1="47.6" y1="-152.5" x2="130.4" y2="-92.4"></line>
+<line x1="159.8" y1="-1.9" x2="128.1" y2="95.5"></line>
+<line x1="51.2" y1="151.4" x2="-51.2" y2="151.4"></line>
+<line x1="-128.1" y1="95.5" x2="-159.8" y2="-1.9"></line>
+<line x1="-130.4" y1="-92.4" x2="-47.6" y2="-152.5"></line>
+</g>
+</g>
+<path d="M -82 0 Q 0 -90 82 0 Q 0 90 -82 0 Z" fill="#F2EFE6"></path>
+<g clip-path="url(#eye-eyeball)">
+<circle cx="0" cy="0" r="40" fill="#129A55"></circle>
+<circle cx="0" cy="0" r="40" fill="none" stroke="#0F1A14" stroke-width="3.5"></circle>
+<circle cx="0" cy="0" r="16" fill="#0F1A14"></circle>
+<circle cx="8.5" cy="-8.5" r="5.5" fill="#F2EFE6"></circle>
+</g>
+<path d="M -82 0 Q 0 -90 82 0 Q 0 90 -82 0 Z" fill="none" stroke="#0F1A14" stroke-width="7" stroke-linejoin="round"></path>
+<circle cx="0" cy="0" r="200" fill="none" stroke="#0F1A14" stroke-width="10"></circle>
+</svg>
