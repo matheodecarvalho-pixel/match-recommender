@@ -36,8 +36,8 @@ def sort_key(m):
     return (not m["must_watch"], -m["score"], m["kickoff_paris"])
 
 
-def build(now=None):
-    now = now or datetime.now(timezone.utc)
+def load_inputs(now):
+    """Everything scoring needs, loaded once: matches, tables, rivalries, revenge, stature, history."""
     config = json.loads((ROOT / "config" / "scoring.json").read_text(encoding="utf-8"))
     registry = teams.load(ROOT)
     STYLES.update(load_styles(registry))
@@ -54,8 +54,6 @@ def build(now=None):
     moves = revenge.Revenge(snapshot, registry, config["signals"]["revenge"], warnings)
 
     european = euro_results.load(ROOT, registry)
-    elims = euro_results.eliminations(european)
-    meetings = euro_results.european_meetings(ROOT)
     stature_path = ROOT / "data" / "club_stature.json"
     clubs = json.loads(stature_path.read_text(encoding="utf-8"))["clubs"] if stature_path.exists() else {}
     if not clubs:
@@ -65,36 +63,49 @@ def build(now=None):
     history = json.loads(history_path.read_text(encoding="utf-8"))["leagues"] if history_path.exists() else {}
     add_team_forms(results, registry)
     ids_path = OUTPUT / "espn_ids.json"
-    espn_ids = json.loads(ids_path.read_text(encoding="utf-8")) if ids_path.exists() else {}
     europe_path = OUTPUT / "europe_matches.json"
-    us_tv = {m["id"]: m.get("us_tv", []) for m in json.loads(europe_path.read_text(encoding="utf-8"))["matches"]} \
-        if europe_path.exists() else {}
+    return {"config": config, "registry": registry, "matches": matches, "tables": tables, "eu_tables": eu_tables,
+            "results": results, "rivalries": rivalries, "chases": chases, "moves": moves, "european": european,
+            "elims": euro_results.eliminations(european), "meetings": euro_results.european_meetings(ROOT),
+            "clubs": clubs, "history": history, "warnings": warnings,
+            "espn_ids": json.loads(ids_path.read_text(encoding="utf-8")) if ids_path.exists() else {},
+            "us_tv": {m["id"]: m.get("us_tv", []) for m in json.loads(europe_path.read_text(encoding="utf-8"))["matches"]}
+            if europe_path.exists() else {}}
+
+
+def score_fixture(m, inp, tables, knockout, chases=True):
+    """Score one match against the given tables (today's, or rebuilt as they stood before kickoff)."""
+    config = inp["config"]
+    extras = {"knockout": m["competition"] in knockout, "stature": inp["clubs"], "history": inp["history"],
+              "record_chases": [c for team in (m["home"], m["away"]) for c in inp["chases"].get(team, [])
+                                if c["competition"] == m["competition"]] if chases else [],
+              "revenge": inp["moves"].flags(m["home"], m["away"], m["kickoff_utc"]),
+              "club_revenge": euro_results.club_revenge(m["home"], m["away"], m["kickoff_utc"], inp["european"],
+                                                        inp["elims"], config["signals"]["revenge"]),
+              "european_meetings": inp["meetings"].get("-".join(str(i) for i in sorted(m["fd_ids"])))
+              if m.get("fd_ids") else None}
+    ctx = context(m, inp["results"], tables, inp["rivalries"], config, extras)
+    tier1 = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and config["must_watch"]["tier_1_rivalry_always"]
+    result = score_match(ctx, config)
+    kickoff = m["kickoff_utc"].astimezone(PARIS)
+    return {"id": m["id"], "competition": m["competition"],
+            "kickoff_paris": kickoff.isoformat(), "day": kickoff.date().isoformat(),
+            "home": m["home"], "away": m["away"], **result,
+            "tier1_rivalry": tier1, "espn": espn_link(m, inp["espn_ids"], inp["us_tv"])}
+
+
+def build(now=None):
+    now = now or datetime.now(timezone.utc)
+    inp = load_inputs(now)
+    config, registry, matches, warnings = inp["config"], inp["registry"], inp["matches"], inp["warnings"]
+    espn_ids, us_tv = inp["espn_ids"], inp["us_tv"]
 
     # After the 8 league-phase rounds, every Europa/Conference match is a knockout.
-    knockout = {comp for comp, table in eu_tables.items() if table and min(r["played"] for r in table) >= 8}
+    knockout = {comp for comp, table in inp["eu_tables"].items() if table and min(r["played"] for r in table) >= 8}
 
     end = now + timedelta(days=config["window_days"])
-    ranked = []
-    for m in matches:
-        if m["status"] != "upcoming" or not (now - timedelta(hours=2) <= m["kickoff_utc"] < end):
-            continue
-        extras = {"knockout": m["competition"] in knockout, "stature": clubs, "history": history,
-                  "record_chases": [c for team in (m["home"], m["away"]) for c in chases.get(team, [])
-                                    if c["competition"] == m["competition"]],
-                  "revenge": moves.flags(m["home"], m["away"], m["kickoff_utc"]),
-                  "club_revenge": euro_results.club_revenge(m["home"], m["away"], m["kickoff_utc"], european,
-                                                            elims, config["signals"]["revenge"]),
-                  "european_meetings": meetings.get("-".join(str(i) for i in sorted(m["fd_ids"])))
-                  if m.get("fd_ids") else None}
-        ctx = context(m, results, tables, rivalries, config, extras)
-        extras["tier1"] = bool(ctx["rivalry"]) and ctx["rivalry"]["tier"] == 1 and \
-            config["must_watch"]["tier_1_rivalry_always"]
-        result = score_match(ctx, config)
-        kickoff = m["kickoff_utc"].astimezone(PARIS)
-        ranked.append({"id": m["id"], "competition": m["competition"],
-                       "kickoff_paris": kickoff.isoformat(), "day": kickoff.date().isoformat(),
-                       "home": m["home"], "away": m["away"], **result,
-                       "tier1_rivalry": bool(extras.get("tier1")), "espn": espn_link(m, espn_ids, us_tv)})
+    ranked = [score_fixture(m, inp, inp["tables"], knockout) for m in matches
+              if m["status"] == "upcoming" and now - timedelta(hours=2) <= m["kickoff_utc"] < end]
 
     # A competition with fixtures still to play but none in the window is suspicious
     # (a bad API response once dropped the whole Champions League without any error).
@@ -117,6 +128,10 @@ def build(now=None):
            "unmatched_teams": sorted(registry.unmatched)}
     (OUTPUT / "matches_ranked.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     archive = update_archive(ranked, now)
+    added = reconstruct(archive, inp)
+    if added:
+        save_archive(archive)
+        print(f"{added} past matches given a rebuilt pre-match score")
     write_results(matches, espn_ids, us_tv, registry, now, archive)
     return out
 
@@ -198,8 +213,84 @@ def update_archive(ranked, now):
     for m in ranked:
         if datetime.fromisoformat(m["kickoff_paris"]) > now:
             archive[m["id"]] = {**frozen(m), "frozen_at": now.astimezone(PARIS).isoformat()}
-    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, separators=(",", ":"), sort_keys=True), encoding="utf-8")
+    save_archive(archive)
     return archive
+
+
+def save_archive(archive):
+    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, separators=(",", ":"), sort_keys=True), encoding="utf-8")
+
+
+# The group that forms one table in each competition (European cups: league phase only).
+# ESPN games cached before the stage was recorded have none; europe_matches.json holds only the league phase.
+TABLE_STAGES = {"Champions League": {"LEAGUE_STAGE"}, "Europa League": {"league-phase", None},
+                "Conference League": {"league-phase", None}}
+
+
+def in_table(m):
+    stages = TABLE_STAGES.get(m["competition"])
+    return stages is None or m["stage"] in stages
+
+
+def table_before(matches, competition, before, adjust=None):
+    """A competition's table from its results before a kickoff: points, then goal difference, then goals.
+
+    Head-to-head tie-breaks are ignored. `adjust` adds points the results don't explain (deductions).
+    """
+    rows = {}
+    for m in matches:
+        if m["competition"] != competition or not in_table(m):
+            continue
+        for side in ("home", "away"):
+            rows.setdefault(m[side], {"team": m[side], "played": 0, "points": (adjust or {}).get(m[side], 0), "gd": 0, "gf": 0})
+        if m["status"] != "finished" or m["home_goals"] is None or m["kickoff_utc"] >= before:
+            continue
+        for side, gf, ga in (("home", m["home_goals"], m["away_goals"]), ("away", m["away_goals"], m["home_goals"])):
+            r = rows[m[side]]
+            r["played"] += 1
+            r["points"] += 3 if gf > ga else 1 if gf == ga else 0
+            r["gd"] += gf - ga
+            r["gf"] += gf
+    table = sorted(rows.values(), key=lambda r: (-r["points"], -r["gd"], -r["gf"], r["team"]))
+    return [{"team": r["team"], "position": i, "played": r["played"], "points": r["points"]}
+            for i, r in enumerate(table, 1)]
+
+
+def deductions(matches, tables, competition, now):
+    """Points in the published table that the results don't explain (a sanction), per team."""
+    rebuilt = {r["team"]: r for r in table_before(matches, competition, now)}
+    out = {}
+    for r in tables.get(competition) or []:
+        mine = rebuilt.get(r["team"])
+        if mine and mine["played"] == r["played"] and mine["points"] != r["points"]:
+            out[r["team"]] = r["points"] - mine["points"]
+    return out
+
+
+def reconstruct(archive, inp, now=None):
+    """Give every finished match without a frozen score one rebuilt from the data as it stood before kickoff.
+
+    Form, goals, tables, revenge and European history are all cut at the kickoff. Club stature and the
+    5-season league history are today's (they barely move within a season). Marked "reconstructed".
+    """
+    now = now or datetime.now(timezone.utc)
+    matches = inp["matches"]
+    comps = {m["competition"] for m in matches}
+    adjust = {c: deductions(matches, inp["tables"], c, now) for c in comps}
+    added = 0
+    for m in matches:
+        if m["status"] != "finished" or m["home_goals"] is None or m["id"] in archive:
+            continue
+        tables = {c: table_before(matches, c, m["kickoff_utc"], adjust[c]) for c in comps}
+        if not in_table(m):
+            tables.pop(m["competition"], None)  # a qualifier or play-off: no table to read
+        knockout = {c for c in TABLE_STAGES if c != "Champions League" and tables.get(c)
+                    and min(r["played"] for r in tables[c]) >= 8}
+        scored = score_fixture(m, inp, tables, knockout, chases=False)
+        archive[m["id"]] = {**frozen(scored), "frozen_at": m["kickoff_utc"].astimezone(PARIS).isoformat(),
+                            "reconstructed": True}
+        added += 1
+    return added
 
 
 def write_results(matches, espn_ids, us_tv, registry, now, archive=None):

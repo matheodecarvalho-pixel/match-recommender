@@ -546,7 +546,8 @@ function resultRow(m) {
         const before = pastScore(m);
         const note = before
           ? el("p", { class: "before" }, el("strong", {}, `Before kickoff: ${before.score}/100`), before.must ? " · Must-watch" : before.rec ? " · Recommended" : "",
-              before.story ? el("span", { class: "quiet block" }, before.story) : null)
+              before.story ? el("span", { class: "quiet block" }, before.story) : null,
+              m.interest.reconstructed ? el("span", { class: "quiet block" }, "Rebuilt afterwards from the form, tables and results as they stood before kickoff.") : null)
           : el("p", { class: "quiet" }, "No pre-match score: played before the site started rating matches.");
         if (m.espn) { centre.replaceChildren(el("p", { class: "quiet" }, "Loading…")); await ensureEvent(m); await paintCentre(node); centre.prepend(note); }
         else centre.replaceChildren(note, el("p", { class: "quiet" }, "No match details for this game."));
@@ -573,7 +574,7 @@ function interestPill(m) {
   const p = pastScore(m);
   if (!p) return null;
   const cls = p.must ? "interest must" : p.rec ? "interest rec" : "interest";
-  return el("span", { class: cls, title: "Worth-watching score before kickoff" }, `${p.score}`);
+  return el("span", { class: cls, title: m.interest.reconstructed ? "Worth-watching score before kickoff (rebuilt from pre-match data)" : "Worth-watching score before kickoff" }, `${p.score}`);
 }
 
 async function renderResults() {
