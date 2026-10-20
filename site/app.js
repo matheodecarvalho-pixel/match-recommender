@@ -930,6 +930,20 @@ function setupStyle() {
   document.getElementById("style-name").textContent = myStyle.profile || (on ? "Custom" : "");
 }
 
+// A tab left open (or restored by the phone) keeps the page it had. When it comes back into view,
+// check for a newer daily update and reload if there is one.
+function watchForUpdates(shown) {
+  let last = 0;
+  document.addEventListener("visibilitychange", async () => {
+    if (document.visibilityState !== "visible" || Date.now() - last < 60e3) return;
+    last = Date.now();
+    try {
+      const r = await fetch(SOURCES[0], { cache: "no-cache" });
+      if (r.ok && (await r.json()).generated_at !== shown) location.reload();
+    } catch { /* offline: keep what is on screen */ }
+  });
+}
+
 showLanding(!load(LANDING_KEY, false));  // before the data arrives, so nothing flashes
 
 Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
@@ -949,6 +963,7 @@ Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
   setupShell();
   render();
   pollLive();
+  watchForUpdates(d.generated_at);
 }).catch(err => {
   document.getElementById("updated").textContent = "Couldn't load matches: " + err.message;
 });
