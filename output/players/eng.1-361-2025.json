@@ -1,0 +1,434 @@
+{
+ "team": "Newcastle United",
+ "league": "eng.1",
+ "espn_id": "361",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "161715",
+   "name": "Nick Pope",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 27.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 89.0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "236015",
+   "name": "Aaron Ramsdale",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 12.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 24.0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "106139",
+   "name": "Lewis Hall",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 30.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 25.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 39.0
+   }
+  },
+  {
+   "id": "143637",
+   "name": "Kieran Trippier",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 21.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "172922",
+   "name": "Emil Krafth",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "179233",
+   "name": "Fabian Schär",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 16.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 17.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "198138",
+   "name": "Dan Burn",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 9.0,
+    "appearances": 29.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "274633",
+   "name": "Sven Botman",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 25.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "299641",
+   "name": "Tino Livramento",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 17.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "303444",
+   "name": "Malick Thiaw",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 35.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 28.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 52.0
+   }
+  },
+  {
+   "id": "346874",
+   "name": "Alex Murphy",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "172836",
+   "name": "Jacob Murphy",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 33.0,
+    "subIns": 14.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 42.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "202232",
+   "name": "Joelinton",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 10.0,
+    "appearances": 27.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 32.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "218522",
+   "name": "Bruno Guimarães",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 29.0,
+    "subIns": 2.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 23.0,
+    "totalShots": 42.0,
+    "totalGoals": 9.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "243386",
+   "name": "Harvey Barnes",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 37.0,
+    "subIns": 18.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 21.0,
+    "totalShots": 58.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "259517",
+   "name": "Joe Willock",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 24.0,
+    "subIns": 14.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 17.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "261047",
+   "name": "Sandro Tonali",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 36.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 37.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "286090",
+   "name": "Jacob Ramsey",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 13.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "298349",
+   "name": "Nick Woltemade",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 33.0,
+    "subIns": 9.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 32.0,
+    "totalGoals": 8.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "349078",
+   "name": "Lewis Miley",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 23.0,
+    "subIns": 8.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "224077",
+   "name": "Yoane Wissa",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 19.0,
+    "subIns": 15.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "268782",
+   "name": "Anthony Gordon",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 26.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 48.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "296622",
+   "name": "Anthony Elanga",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 32.0,
+    "subIns": 18.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 17.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "319431",
+   "name": "William Osula",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 24.0,
+    "subIns": 16.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 23.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "358245",
+   "name": "Sean Neave",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  }
+ ]
+}

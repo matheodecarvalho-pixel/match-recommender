@@ -1,0 +1,400 @@
+{
+ "team": "Napoli",
+ "league": "ita.1",
+ "espn_id": "114",
+ "season": 2026,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "209746",
+   "name": "Alex Meret",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 15.0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "219531",
+   "name": "Vanja Milinkovic-Savic",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 5.0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "148974",
+   "name": "Leonardo Spinazzola",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "155904",
+   "name": "Giovanni Di Lorenzo",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "205576",
+   "name": "Amir Rrahmani",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "234881",
+   "name": "Mathías Olivera",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "261594",
+   "name": "Sam Beukema",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "282585",
+   "name": "Benoît Badiashile",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 3.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "297360",
+   "name": "Rafa Marín",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 6.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "346622",
+   "name": "Costantino Favasuli",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "134947",
+   "name": "Kevin De Bruyne",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 10.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "188412",
+   "name": "Stanislav Lobotka",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 5.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "215721",
+   "name": "Frank Anguissa",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "255850",
+   "name": "Scott McTominay",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "274217",
+   "name": "Billy Gilmour",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "332411",
+   "name": "Antonio Vergara",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 3.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "188306",
+   "name": "Matteo Politano",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 6.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "245637",
+   "name": "David Neres",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "255344",
+   "name": "Noa Lang",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 9.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "282564",
+   "name": "Lorenzo Lucca",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "309273",
+   "name": "Rasmus Højlund",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 12.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "319697",
+   "name": "Alisson Santos",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 14.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "339953",
+   "name": "Giovane",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  }
+ ]
+}

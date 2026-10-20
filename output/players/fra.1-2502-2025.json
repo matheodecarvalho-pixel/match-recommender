@@ -1,0 +1,502 @@
+{
+ "team": "Nice",
+ "league": "fra.1",
+ "espn_id": "2502",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "157963",
+   "name": "Maxime Dupé",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 20.0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "241029",
+   "name": "Yehvann Diouf",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 26.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 93.0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "130165",
+   "name": "Dante",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 12.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "232089",
+   "name": "Jonathan Clauss",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 30.0,
+    "subIns": 2.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 23.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 54.0
+   }
+  },
+  {
+   "id": "265234",
+   "name": "Ali Abdi",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 22.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "265923",
+   "name": "Melvin Bard",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 29.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 15.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 51.0
+   }
+  },
+  {
+   "id": "319161",
+   "name": "Antoine Mendy",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 25.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 17.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "357205",
+   "name": "Kojo Peprah Oppong",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 29.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 43.0
+   }
+  },
+  {
+   "id": "358975",
+   "name": "Moïse Bombito",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 2.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "370703",
+   "name": "Juma Bah",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 26.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 42.0
+   }
+  },
+  {
+   "id": "404832",
+   "name": "Brad-Hamilton Mantsounga",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "176816",
+   "name": "Morgan Sanson",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 31.0,
+    "subIns": 11.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 19.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 39.0
+   }
+  },
+  {
+   "id": "240672",
+   "name": "Tanguy Ndombele",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "255192",
+   "name": "Youssouf Ndayishimiye",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "276260",
+   "name": "Charles Vanhoutte",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 26.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "276995",
+   "name": "Sofiane Diop",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 33.0,
+    "subIns": 7.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 54.0,
+    "totalGoals": 8.0,
+    "saves": 0,
+    "goalsConceded": 43.0
+   }
+  },
+  {
+   "id": "287078",
+   "name": "Hicham Boudaoui",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 25.0,
+    "subIns": 7.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 21.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "292769",
+   "name": "Salis Abdul Samed",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 18.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "357425",
+   "name": "Djibril Coulibaly",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "362061",
+   "name": "Tom Louchet",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 1.0,
+    "appearances": 27.0,
+    "subIns": 13.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 21.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "397392",
+   "name": "Gabin Bernardeau",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "416460",
+   "name": "Everton Pereira",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "282597",
+   "name": "Isak Jansson",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 22.0,
+    "subIns": 15.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 17.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "290081",
+   "name": "Tiago Gouveia",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 15.0,
+    "subIns": 10.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 12.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "304151",
+   "name": "Kevin Carlos",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 23.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 22.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "306557",
+   "name": "Mohamed-Ali Cho",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 25.0,
+    "subIns": 4.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 31.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 35.0
+   }
+  },
+  {
+   "id": "311118",
+   "name": "Elye Wahi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 14.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 23.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "379066",
+   "name": "Kail Boudache",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 13.0,
+    "subIns": 10.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "399717",
+   "name": "Zoumana Diallo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

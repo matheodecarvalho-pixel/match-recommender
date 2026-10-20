@@ -1,0 +1,451 @@
+{
+ "team": "Ajax",
+ "league": "ned.1",
+ "espn_id": "139",
+ "season": 2026,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "140740",
+   "name": "Marc-André ter Stegen",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 22.0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "238919",
+   "name": "Maarten Paes",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 3.0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "214401",
+   "name": "Thilo Kehrer",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 5.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "240353",
+   "name": "Caio Henrique",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "241392",
+   "name": "Owen Wijndal",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "305590",
+   "name": "Youri Baas",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 8.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "333312",
+   "name": "Anton Gaaei",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "351281",
+   "name": "Lucas Rosa",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 5.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "368818",
+   "name": "Dies Janse",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 3.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "384127",
+   "name": "Aaron Bouwman",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 6.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 2.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "403588",
+   "name": "Jofre Torrents",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "168993",
+   "name": "Davy Klaassen",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 9.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 12.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "195226",
+   "name": "Sofyan Amrabat",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "197628",
+   "name": "Julian Brandt",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 9.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 19.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "232810",
+   "name": "Yves Bissouma",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "325609",
+   "name": "Oscar Gloukh",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 9.0,
+    "subIns": 1.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 30.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "381074",
+   "name": "Jorthy Mokio",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 9.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 14.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "403927",
+   "name": "Abdellah Ouazane",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 9.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "149577",
+   "name": "Steven Berghuis",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 6.0,
+    "subIns": 0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 16.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "212231",
+   "name": "Viktor Tsygankov",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 4.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "219284",
+   "name": "Kasper Dolberg",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 2.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 16.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "295861",
+   "name": "Oliver Edvardsen",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "304571",
+   "name": "Marcos Leonardo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "305372",
+   "name": "Tolu Arokodare",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 24.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "317404",
+   "name": "Simon Adingra",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "397492",
+   "name": "Rayane Bounida",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  }
+ ]
+}

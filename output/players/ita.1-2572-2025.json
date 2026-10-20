@@ -1,0 +1,383 @@
+{
+ "team": "Como",
+ "league": "ita.1",
+ "espn_id": "2572",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "214740",
+   "name": "Jean Butez",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 38.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 88.0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "172998",
+   "name": "Alberto Moreno",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 19.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 11.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "175887",
+   "name": "Marc-Oliver Kempf",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 34.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 21.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "181060",
+   "name": "Edoardo Goldaniga",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "192146",
+   "name": "Álex Valle",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 5.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "196860",
+   "name": "Diego Carlos",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 27.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "221436",
+   "name": "Mërgim Vojvoda",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 30.0,
+    "subIns": 11.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 18.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "292199",
+   "name": "Ignace van der Brempt",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 20.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "323273",
+   "name": "Ivan Smolcic",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 28.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 12.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "380318",
+   "name": "Jacobo Ramón",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 11.0,
+    "appearances": 32.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 39.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "150225",
+   "name": "Sergi Roberto",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 20.0,
+    "subIns": 15.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "265912",
+   "name": "Maxence Caqueret",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 30.0,
+    "subIns": 13.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 18.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "291285",
+   "name": "Lucas Da Cunha",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 36.0,
+    "subIns": 5.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 41.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "309241",
+   "name": "Máximo Perrone",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 36.0,
+    "subIns": 3.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 18.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "311475",
+   "name": "Martin Baturina",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 29.0,
+    "subIns": 12.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 28.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "337970",
+   "name": "Nico Paz",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 35.0,
+    "subIns": 2.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 48.0,
+    "totalShots": 121.0,
+    "totalGoals": 12.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "154446",
+   "name": "Álvaro Morata",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 26.0,
+    "subIns": 17.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 23.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "260262",
+   "name": "Nicolas Kühn",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 23.0,
+    "subIns": 17.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "262071",
+   "name": "Anastasios Douvikas",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 38.0,
+    "subIns": 13.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 30.0,
+    "totalShots": 66.0,
+    "totalGoals": 14.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "337858",
+   "name": "Jayden Addai",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 12.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 13.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "364742",
+   "name": "Assane Diao",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 17.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 30.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "387491",
+   "name": "Jesús Rodriguez",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 31.0,
+    "subIns": 13.0,
+    "goalAssists": 9.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 45.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  }
+ ]
+}

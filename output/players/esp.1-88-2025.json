@@ -1,0 +1,417 @@
+{
+ "team": "Espanyol",
+ "league": "esp.1",
+ "espn_id": "88",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "179211",
+   "name": "Marko Dmitrovic",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 37.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 133.0,
+    "goalsConceded": 54.0
+   }
+  },
+  {
+   "id": "307419",
+   "name": "Ángel Fortuño",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 2.0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "133259",
+   "name": "Leandro Cabrera",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 37.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 40.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 55.0
+   }
+  },
+  {
+   "id": "184488",
+   "name": "José Salinas",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 11.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "261199",
+   "name": "Fernando Calero",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 28.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 12.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "271904",
+   "name": "Carlos Romero",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 36.0,
+    "subIns": 0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 42.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 47.0
+   }
+  },
+  {
+   "id": "273291",
+   "name": "Miguel Rubio",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 12.0,
+    "subIns": 11.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "310682",
+   "name": "Omar El Hilali",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 36.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 46.0
+   }
+  },
+  {
+   "id": "319781",
+   "name": "Rubén Sánchez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 21.0,
+    "subIns": 13.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "323737",
+   "name": "Clemens Riedel",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 20.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "196914",
+   "name": "Pere Milla",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 6.0,
+    "appearances": 33.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 21.0,
+    "totalShots": 59.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "235875",
+   "name": "Charles Pickel",
+   "position": "D",
+   "stats": {
+    "redCards": 2.0,
+    "yellowCards": 2.0,
+    "appearances": 24.0,
+    "subIns": 20.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 10.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "255272",
+   "name": "Edu Expósito",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 36.0,
+    "subIns": 4.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 44.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "260242",
+   "name": "Pol Lozano",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 10.0,
+    "appearances": 33.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 17.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "307915",
+   "name": "Urko Gonzalez",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 36.0,
+    "subIns": 8.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 18.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "309838",
+   "name": "Ramón Terrats",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 29.0,
+    "subIns": 17.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "135422",
+   "name": "Enrique García",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 37.0,
+    "subIns": 20.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 27.0,
+    "totalShots": 60.0,
+    "totalGoals": 8.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "260243",
+   "name": "Javier Puado",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 10.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 15.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "283741",
+   "name": "Cyril Ngonge",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 9.0,
+    "subIns": 3.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "306520",
+   "name": "Tyrhys Dolan",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 5.0,
+    "appearances": 36.0,
+    "subIns": 8.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 34.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 39.0
+   }
+  },
+  {
+   "id": "307270",
+   "name": "Jofre Carreras",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 26.0,
+    "subIns": 17.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 23.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "318773",
+   "name": "Roberto Fernández",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 38.0,
+    "subIns": 13.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 23.0,
+    "totalShots": 59.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 35.0
+   }
+  },
+  {
+   "id": "368332",
+   "name": "Antoniu Roca",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 13.0,
+    "subIns": 10.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "371566",
+   "name": "Lluc Castell",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

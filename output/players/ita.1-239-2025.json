@@ -1,0 +1,451 @@
+{
+ "team": "Torino",
+ "league": "ita.1",
+ "espn_id": "239",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "241414",
+   "name": "Alberto Paleari",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 29.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 82.0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "271445",
+   "name": "Franco Israel",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 9.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 24.0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "129285",
+   "name": "Marcus Holmgren Pedersen",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 6.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "152044",
+   "name": "Cristiano Biraghi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 14.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "200562",
+   "name": "Guillermo Maripán",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 27.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 18.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "239120",
+   "name": "Adrian Ismajli",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 25.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "242601",
+   "name": "Enzo Ebosse",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 17.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "274258",
+   "name": "Saúl Coco",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 35.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 55.0
+   }
+  },
+  {
+   "id": "298030",
+   "name": "Niels Nkounkou",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 11.0,
+    "subIns": 8.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "303001",
+   "name": "Valentino Lazaro",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 31.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 48.0
+   }
+  },
+  {
+   "id": "304217",
+   "name": "Rafael Obrador",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 16.0,
+    "subIns": 2.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "367690",
+   "name": "Luca Marianucci",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 12.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "107960",
+   "name": "Matteo Prati",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 33.0,
+    "subIns": 11.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 31.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "159324",
+   "name": "Adrien Tamèze",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 24.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "206378",
+   "name": "Nikola Vlasic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 37.0,
+    "subIns": 1.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 49.0,
+    "totalGoals": 8.0,
+    "saves": 0,
+    "goalsConceded": 57.0
+   }
+  },
+  {
+   "id": "260004",
+   "name": "Ivan Ilic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 8.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "282642",
+   "name": "Faustino Anjorin",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 15.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "330707",
+   "name": "Emirhan Ilkhan",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 19.0,
+    "subIns": 6.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "336394",
+   "name": "Cesare Casadei",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 33.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 35.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "338266",
+   "name": "Gvidas Gineitis",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 29.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 27.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "189974",
+   "name": "Giovanni Simeone",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 32.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 28.0,
+    "totalShots": 79.0,
+    "totalGoals": 11.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "193644",
+   "name": "Duván Zapata",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 28.0,
+    "subIns": 17.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 34.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "213725",
+   "name": "Ché Adams",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 33.0,
+    "subIns": 14.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 18.0,
+    "totalShots": 53.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "245538",
+   "name": "Sandro Kulenovic",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 13.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "277865",
+   "name": "Zakaria Aboukhlal",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 15.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "367743",
+   "name": "Alieu Njie",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 15.0,
+    "subIns": 13.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 6.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  }
+ ]
+}

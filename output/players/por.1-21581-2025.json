@@ -1,0 +1,468 @@
+{
+ "team": "Casa Pia",
+ "league": "por.1",
+ "espn_id": "21581",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "46976",
+   "name": "Ricardo Batista",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 6.0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "228458",
+   "name": "Patrick Sequeira",
+   "position": "G",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 80.0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "104172",
+   "name": "José Fonte",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 18.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 9.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "149660",
+   "name": "André Geraldes",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 26.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "248860",
+   "name": "Gaizka Larrazabal",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 21.0,
+    "totalShots": 48.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 53.0
+   }
+  },
+  {
+   "id": "258918",
+   "name": "Abdu Conté",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 22.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "283147",
+   "name": "Kaique Rocha",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "328225",
+   "name": "Joao Goulart",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 25.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "373713",
+   "name": "Pedro Rosas",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 9.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "386143",
+   "name": "Kaly",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 12.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "156818",
+   "name": "Sebastián Pérez",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 27.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "285846",
+   "name": "Lawrence Ofori",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 16.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "301593",
+   "name": "David Sousa",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 13.0,
+    "appearances": 26.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 19.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "324002",
+   "name": "Iyad Mohamed",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 22.0,
+    "subIns": 13.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "336585",
+   "name": "Rafael Brito",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 25.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 11.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "347073",
+   "name": "João Marques",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 13.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "421533",
+   "name": "Abdu Dafe",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "201763",
+   "name": "Cassiano",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 5.0,
+    "appearances": 31.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 29.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "231196",
+   "name": "Jeremy Livolant",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 33.0,
+    "subIns": 1.0,
+    "goalAssists": 8.0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 46.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 53.0
+   }
+  },
+  {
+   "id": "297156",
+   "name": "Kelian Nsona",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 10.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 5.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "303822",
+   "name": "Clau Mendes",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 1.0,
+    "appearances": 13.0,
+    "subIns": 11.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 9.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "307846",
+   "name": "Tiago Morais",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 19.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 13.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "316614",
+   "name": "Xander Severina",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "330211",
+   "name": "Dailon Livramento",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 24.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 22.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "337004",
+   "name": "Korede Osundina",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 11.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "351529",
+   "name": "Kiki Silva",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "380131",
+   "name": "Kevin Prieto",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 11.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  }
+ ]
+}

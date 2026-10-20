@@ -1,0 +1,417 @@
+{
+ "team": "Borussia Dortmund",
+ "league": "ger.1",
+ "espn_id": "124",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "238544",
+   "name": "Gregor Kobel",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 34.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 89.0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "186263",
+   "name": "Niklas Süle",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 11.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "220703",
+   "name": "Ramy Bensebaini",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 21.0,
+    "subIns": 6.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 17.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "220714",
+   "name": "Waldemar Anton",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 32.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 16.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "222991",
+   "name": "Julian Ryerson",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 31.0,
+    "subIns": 5.0,
+    "goalAssists": 15.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 12.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "286828",
+   "name": "Nico Schlotterbeck",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 28.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 32.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "297084",
+   "name": "Yan Couto",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 19.0,
+    "subIns": 8.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 9.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "310709",
+   "name": "Daniel Svensson",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 33.0,
+    "subIns": 6.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 12.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "372034",
+   "name": "Almugera Kabar",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "387437",
+   "name": "Filippo Mané",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "413817",
+   "name": "Luca Reggiani",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 8.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "159142",
+   "name": "Emre Can",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 9.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 5.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "173907",
+   "name": "Marcel Sabitzer",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 26.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "197628",
+   "name": "Julian Brandt",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 29.0,
+    "subIns": 12.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 18.0,
+    "totalShots": 37.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "225563",
+   "name": "Salih Özcan",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 11.0,
+    "subIns": 11.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "281122",
+   "name": "Felix Nmecha",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 29.0,
+    "subIns": 4.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 33.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "294317",
+   "name": "Carney Chukwuemeka",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 28.0,
+    "subIns": 20.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 18.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "324820",
+   "name": "Jobe Bellingham",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 32.0,
+    "subIns": 12.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 19.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "186381",
+   "name": "Serhou Guirassy",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 33.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 40.0,
+    "totalShots": 84.0,
+    "totalGoals": 17.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "274913",
+   "name": "Karim Adeyemi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 28.0,
+    "subIns": 13.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 31.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "290639",
+   "name": "Maximilian Beier",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 32.0,
+    "subIns": 8.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 50.0,
+    "totalGoals": 9.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "291629",
+   "name": "Fábio Silva",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 21.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 23.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "403781",
+   "name": "Mathis Albert",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "403833",
+   "name": "Samuele Inácio",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 7.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 9.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  }
+ ]
+}

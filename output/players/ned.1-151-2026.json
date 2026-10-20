@@ -1,0 +1,366 @@
+{
+ "team": "Sparta Rotterdam",
+ "league": "ned.1",
+ "espn_id": "151",
+ "season": 2026,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "167731",
+   "name": "Filip Bednarek",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 10.0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "177022",
+   "name": "Michael Brouwer",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 22.0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "149301",
+   "name": "Bruno Martins Indi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 8.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "188458",
+   "name": "Bas Kuipers",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 9.0,
+    "subIns": 0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "272032",
+   "name": "Boyd Reith",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "300260",
+   "name": "Teo Quintero",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "368324",
+   "name": "Nick Verschuren",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 9.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "388712",
+   "name": "Marvin Young",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 9.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 8.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "415046",
+   "name": "Lushendry Martes",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 9.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 8.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "142517",
+   "name": "Jens Toornstra",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 6.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 4.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "304485",
+   "name": "Julian Baas",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 6.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "318782",
+   "name": "Isaac Babadi",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "364725",
+   "name": "Alwande Roaldsøy",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "379191",
+   "name": "Cedric Hatenboer",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "408739",
+   "name": "Robin Van Cruijsen",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 10.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "231832",
+   "name": "Mitchell van Bergen",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 10.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "297252",
+   "name": "Shunsuke Mito",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "310292",
+   "name": "Joel Ideho",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "320298",
+   "name": "Casper Terho",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 8.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "324585",
+   "name": "Milan Zonneveld",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 9.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 24.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "382572",
+   "name": "Andrej Kostic",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  }
+ ]
+}

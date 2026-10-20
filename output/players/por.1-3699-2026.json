@@ -1,0 +1,383 @@
+{
+ "team": "Gil Vicente",
+ "league": "por.1",
+ "espn_id": "3699",
+ "season": 2026,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "266667",
+   "name": "Lucão",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 11.0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "169400",
+   "name": "Ricardo Esgaio",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "183070",
+   "name": "Buatu",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "266675",
+   "name": "Weverson",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "313888",
+   "name": "Marvin Elimbi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "354375",
+   "name": "Antonio Espigares",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "400593",
+   "name": "José Silva",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "402224",
+   "name": "David Moreira",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "332042",
+   "name": "Santi García",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "338296",
+   "name": "Zé Carlos",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "358927",
+   "name": "Martín Fernández",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "364640",
+   "name": "Diogo Prioste",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "379497",
+   "name": "Guilherme Gomes",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "405552",
+   "name": "Gil Martins",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "3100746",
+   "name": "Andreas Lausen",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "123865",
+   "name": "Hector Hernández",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 7.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 17.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "172285",
+   "name": "Murilo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "223292",
+   "name": "Mohamed Kaba",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "303866",
+   "name": "Joelson Mendes",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "358444",
+   "name": "Tidjany Touré",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "382870",
+   "name": "Walace França",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "407341",
+   "name": "Agustín Moreira",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  }
+ ]
+}

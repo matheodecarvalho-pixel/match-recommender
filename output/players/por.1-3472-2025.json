@@ -1,0 +1,451 @@
+{
+ "team": "Nacional",
+ "league": "por.1",
+ "espn_id": "3472",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "236200",
+   "name": "Lucas França",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 6.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 18.0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "332352",
+   "name": "Kaique",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 28.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 87.0,
+    "goalsConceded": 35.0
+   }
+  },
+  {
+   "id": "124019",
+   "name": "João Aurélio",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 21.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "225543",
+   "name": "Léo Santos",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 12.0,
+    "appearances": 31.0,
+    "subIns": 1.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 24.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "251494",
+   "name": "Lenny Vallier",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 14.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "269954",
+   "name": "Ulisses",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 5.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "317232",
+   "name": "Zé Vitor",
+   "position": "D",
+   "stats": {
+    "redCards": 2.0,
+    "yellowCards": 6.0,
+    "appearances": 30.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 35.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "318200",
+   "name": "Alan Nuñez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 21.0,
+    "subIns": 3.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "351497",
+   "name": "José Gomes",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 27.0,
+    "subIns": 1.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 19.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "351581",
+   "name": "Francisco Gonçalves",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 10.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "165576",
+   "name": "André Sousa",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 12.0,
+    "subIns": 11.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "183972",
+   "name": "Filipe Soares",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 18.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "216371",
+   "name": "Matheus Dias",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 7.0,
+    "appearances": 31.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 19.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 39.0
+   }
+  },
+  {
+   "id": "228403",
+   "name": "Liziero",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 28.0,
+    "subIns": 1.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 25.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "306580",
+   "name": "Miguel Baeza",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 14.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "318755",
+   "name": "Chiheb Labidi",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 6.0,
+    "appearances": 28.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 23.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "335241",
+   "name": "Daniel Júnior",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 17.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 18.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "346832",
+   "name": "Joel Silva",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "351579",
+   "name": "Martim Gustavo",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "406871",
+   "name": "Deivison",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "82009",
+   "name": "Jesús Ramírez",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 45.0,
+    "totalShots": 108.0,
+    "totalGoals": 18.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "177690",
+   "name": "Lucas João",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 19.0,
+    "subIns": 18.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "215279",
+   "name": "Witi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 26.0,
+    "subIns": 16.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 18.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "265388",
+   "name": "Paulinho",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 26.0,
+    "totalShots": 61.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 35.0
+   }
+  },
+  {
+   "id": "297072",
+   "name": "Gabriel Veron",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 14.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "369840",
+   "name": "Pablo Ruan",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 23.0,
+    "subIns": 15.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 17.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "team": "AZ",
+ "league": "ned.1",
+ "espn_id": "140",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "130177",
+   "name": "Jeroen Zoet",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 11.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 31.0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "150166",
+   "name": "Hobie Verhulst",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 2.0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "332466",
+   "name": "Rome-Jayden Owusu-Oduro",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 23.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 71.0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "261596",
+   "name": "Mees De Wit",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 31.0,
+    "subIns": 2.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 20.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "299530",
+   "name": "Denso Kasius",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 17.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 25.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "306510",
+   "name": "Alexandre Penetra",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 16.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 48.0
+   }
+  },
+  {
+   "id": "318531",
+   "name": "Maxim Dekker",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "329972",
+   "name": "Wouter Goes",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 33.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 6.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 44.0
+   }
+  },
+  {
+   "id": "333892",
+   "name": "Seiya Maikuma",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "340532",
+   "name": "Billy Van Duijl",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "343924",
+   "name": "Elijah Dijkstra",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 20.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "362961",
+   "name": "Rion Ichihara",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "379193",
+   "name": "Mateo Chávez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 20.0,
+    "subIns": 11.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "150199",
+   "name": "Jordy Clasie",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 12.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "269610",
+   "name": "Peer Koopmeiners",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 29.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 31.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "287279",
+   "name": "Sven Mijnans",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 30.0,
+    "subIns": 3.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 36.0,
+    "totalShots": 84.0,
+    "totalGoals": 11.0,
+    "saves": 0,
+    "goalsConceded": 42.0
+   }
+  },
+  {
+   "id": "353365",
+   "name": "Kees Smit",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 26.0,
+    "subIns": 3.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 38.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "380172",
+   "name": "Rio Robbemond",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "380174",
+   "name": "Kasper Boogaard",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 11.0,
+    "subIns": 3.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "382643",
+   "name": "Matej Sin",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 12.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 9.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "266593",
+   "name": "Ibrahim Sadiq",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 20.0,
+    "subIns": 15.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 21.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "268688",
+   "name": "Jizz Hornkamp",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 22.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 24.0,
+    "totalShots": 43.0,
+    "totalGoals": 10.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "279790",
+   "name": "Troy Parrott",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 3.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 43.0,
+    "totalShots": 88.0,
+    "totalGoals": 16.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "309651",
+   "name": "Isak Jensen",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 33.0,
+    "subIns": 10.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 35.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "332465",
+   "name": "Mexx Meerdink",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 19.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 36.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "338775",
+   "name": "Ro-Zangelo Daal",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 24.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 25.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "338959",
+   "name": "Weslley Patati",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 27.0,
+    "subIns": 9.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 46.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "389354",
+   "name": "Ayoub Oufkir",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 24.0,
+    "subIns": 17.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 30.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "398766",
+   "name": "Wassim Bouziane",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "408528",
+   "name": "Bendegúz Kovács",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

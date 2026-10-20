@@ -1,0 +1,451 @@
+{
+ "team": "Amadora",
+ "league": "por.1",
+ "espn_id": "21610",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "130499",
+   "name": "Renan Ribeiro",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 34.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 97.0,
+    "goalsConceded": 54.0
+   }
+  },
+  {
+   "id": "373606",
+   "name": "David Grilo",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 2.0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "247701",
+   "name": "Bruno Langa",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 11.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "295087",
+   "name": "Jefferson Encada",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 26.0,
+    "subIns": 9.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "297764",
+   "name": "Luan Patrick",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 5.0,
+    "appearances": 31.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 52.0
+   }
+  },
+  {
+   "id": "303631",
+   "name": "Bernardo Schappo",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 26.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "306290",
+   "name": "Yahya Kalley",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "328921",
+   "name": "Issiar Dramé",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "342146",
+   "name": "Stefan Lekovic",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 1.0,
+    "appearances": 9.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 8.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "352178",
+   "name": "Max Scholze",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 11.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "402890",
+   "name": "Otávio",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 22.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "340086",
+   "name": "Tom Moustier",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 10.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "351541",
+   "name": "Paulo Moreira",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 7.0,
+    "appearances": 29.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 14.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 49.0
+   }
+  },
+  {
+   "id": "357717",
+   "name": "Robinho",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 23.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "364988",
+   "name": "Kevin Höög Jansson",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 14.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "399285",
+   "name": "Alex Sola",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 16.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "418107",
+   "name": "Eddy Doué",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 14.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 4.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "216290",
+   "name": "Rodrigo Pinho",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 29.0,
+    "subIns": 17.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 41.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "250059",
+   "name": "Jovane Cabral",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 27.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 23.0,
+    "totalShots": 55.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "267578",
+   "name": "Ianis Stoica",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 33.0,
+    "subIns": 13.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 36.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "276819",
+   "name": "Sydney van Hooijdonk",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 10.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "279137",
+   "name": "Bilal Brahimi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "319827",
+   "name": "Abraham Marcus",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 1.0,
+    "appearances": 31.0,
+    "subIns": 1.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 44.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 41.0
+   }
+  },
+  {
+   "id": "332252",
+   "name": "Leandro Antonetti",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 12.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "364655",
+   "name": "Jorge Meireles",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 22.0,
+    "subIns": 15.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "399173",
+   "name": "Alisson Souza",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  }
+ ]
+}

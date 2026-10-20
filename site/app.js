@@ -521,8 +521,11 @@ function card(m) {
 function render() {
   document.getElementById("days").hidden = view !== "week";
   document.getElementById("results").hidden = view !== "results";
+  document.getElementById("team").hidden = view !== "team";
+  document.getElementById("filter-row").hidden = view === "team";
   document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.view === view)));
   if (view === "results") return renderResults();
+  if (view === "team") return renderTeam();
   const matches = data.matches.map(rescore).filter(m => !hidden.has(m.competition));
   const byDay = new Map();
   for (const m of matches) {
@@ -750,75 +753,225 @@ function setupFavourites() {
   document.getElementById("open-favs").addEventListener("click", () => { draw(); dialog.showModal(); });
 }
 
-// ---------- My team: a season calendar to subscribe to ----------
+// ---------- My team tab ----------
 
 const MYTEAM_KEY = "mr.myTeam";
 const EUROPEAN = new Set(["Champions League", "Europa League", "Conference League"]);
+let teamIndex = null;   // calendars/index.json: every team with a page and a calendar
+let teamPicking = false;
+const teamPages = new Map();
 
-function setupMyTeam() {
-  const dialog = document.getElementById("myteam");
-  const list = document.getElementById("myteam-list");
-  const search = document.getElementById("myteam-search");
-  const chosen = document.getElementById("myteam-chosen");
-  let index = null;
-  let mine = load(MYTEAM_KEY, null);
+const feedUrl = row => new URL(`calendars/${row.file}`, location.href).href;
+const webcal = row => feedUrl(row).replace(/^https?:/, "webcal:");
+const pageFile = row => `teams/${row.file.replace(/\.ics$/, ".json")}`;
+const shortDate = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", timeZone: "Europe/Paris" });
+const fixtureDate = new Intl.DateTimeFormat("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "Europe/Paris" });
 
-  const feedUrl = row => new URL(`calendars/${row.file}`, location.href).href;
-  const webcal = row => feedUrl(row).replace(/^https?:/, "webcal:");
+function section(title, ...body) {
+  return el("section", { class: "tm-section" }, el("h2", {}, title), ...body);
+}
 
-  function paintButton() {
-    const row = index?.find(r => r.team === mine);
-    const icon = document.getElementById("myteam-icon");
-    const img = row?.crest ? el("img", { src: row.crest, alt: "", width: "20", height: "20", class: "myteam-crest" }) : null;
-    icon.replaceChildren(img || "📅");
-  }
+function teamPicker(mine) {
+  const favs = [...new Set([...data.favourites, ...favourites])].filter(t => teamIndex.some(r => r.team === t));
+  const chips = favs.map(t => el("button", { type: "button", class: "tm-chip", "aria-pressed": String(t === mine),
+    onclick: () => { save(MYTEAM_KEY, t); teamPicking = false; renderTeam(); } }, crest(t), t));
+  const other = el("button", { type: "button", class: "tm-chip other", onclick: () => { teamPicking = true; renderTeam(); } },
+    mine && !favs.includes(mine) ? [crest(mine), mine, " · change"] : "Pick a team");
+  return el("div", { class: "tm-picker" },
+    el("p", { class: "hint" }, favs.length ? "Your favourite teams (★). Tap one to open its page." : "Pick your team. Teams you star with ★ also show up here."),
+    el("div", { class: "tm-chips" }, chips, other));
+}
 
-  function drawChosen() {
-    const row = index?.find(r => r.team === mine);
-    document.getElementById("myteam-hint").hidden = !!row;
-    if (!row) { chosen.replaceChildren(); return; }
-    const copy = el("button", { type: "button", class: "cal-link" }, "Copy the calendar link");
-    copy.addEventListener("click", async () => {
-      try { await navigator.clipboard.writeText(feedUrl(row)); copy.textContent = "Link copied"; }
-      catch { copy.textContent = feedUrl(row); }
-    });
-    const only = row.competitions.every(c => EUROPEAN.has(c)) ? " (European matches only: we don't follow its league)" : "";
-    chosen.replaceChildren(el("div", { class: "myteam-card" },
-      el("div", { class: "myteam-head" }, crest(row.team), el("strong", {}, row.team),
-        el("button", { type: "button", class: "link inline", onclick: () => { mine = null; save(MYTEAM_KEY, null); paintButton(); drawChosen(); draw(); } }, "Change")),
-      el("p", { class: "hint" }, `Every ${row.team} match this season${only}: ${row.competitions.join(", ")}. A reminder 1 hour before kickoff. Moved or postponed matches update in your calendar on their own.`),
-      el("div", { class: "cal-links" },
-        el("a", { class: "cal-link primary", href: webcal(row) }, "Apple Calendar (iPhone, Mac)"),
-        el("a", { class: "cal-link", href: "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal(row)), target: "_blank", rel: "noopener" }, "Google Calendar"),
-        el("a", { class: "cal-link", href: `https://outlook.live.com/calendar/0/addfromweb?url=${encodeURIComponent(feedUrl(row))}&name=${encodeURIComponent(row.team + " · eyeball")}`, target: "_blank", rel: "noopener" }, "Outlook"),
-        copy),
-      el("p", { class: "hint" }, "Google Calendar doesn't use a subscribed calendar's own reminders: in its settings, open this calendar and add a notification 1 hour before. Matches without a kickoff time yet show as all-day until the league sets it.")));
-  }
-
-  function draw() {
-    if (!index) return;
-    search.hidden = !!mine && !!index.find(r => r.team === mine);
-    list.hidden = search.hidden;
-    if (list.hidden) return;
-    const q = fold(search.value.trim());
-    list.replaceChildren(...index.filter(r => fold(r.team).includes(q)).map(r =>
-      el("button", { type: "button", class: "team-pick", onclick: () => { mine = r.team; save(MYTEAM_KEY, mine); search.value = ""; paintButton(); drawChosen(); draw(); } },
+function teamSearch() {
+  const input = el("input", { type: "search", id: "team-search", placeholder: "Search any team", autocomplete: "off", "aria-label": "Search any team" });
+  const list = el("div", { class: "fav-list" });
+  const draw = () => {
+    const q = fold(input.value.trim());
+    list.replaceChildren(...teamIndex.filter(r => fold(r.team).includes(q)).map(r =>
+      el("button", { type: "button", class: "team-pick", onclick: () => { save(MYTEAM_KEY, r.team); teamPicking = false; renderTeam(); } },
         crest(r.team) || el("span", { class: "crest-gap small" }), el("span", {}, r.team), el("span", { class: "quiet" }, r.competitions.join(" · ")))));
-  }
+  };
+  input.addEventListener("input", draw);
+  draw();
+  setTimeout(() => input.focus(), 0);
+  return el("div", { class: "tm-search" }, input, list);
+}
 
-  search.addEventListener("input", draw);
-  document.getElementById("open-myteam").addEventListener("click", async () => {
-    dialog.showModal();
-    if (!index) {
-      list.replaceChildren(el("p", { class: "quiet" }, "Loading teams…"));
-      index = await fetchJson(["calendars/index.json"]);
-      if (!index) { list.replaceChildren(el("p", { class: "empty" }, "Couldn't load the team list. Try again in a moment.")); return; }
-      for (const r of index) if (r.crest) crests[r.team] ??= r.crest;
-    }
-    drawChosen();
-    draw();
+function calendarButtons(row) {
+  const copy = el("button", { type: "button", class: "cal-link" }, "Copy the calendar link");
+  copy.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(feedUrl(row)); copy.textContent = "Link copied"; }
+    catch { copy.textContent = feedUrl(row); }
   });
-  if (mine) fetchJson(["calendars/index.json"]).then(i => { index = i; paintButton(); });
+  const only = row.competitions.every(c => EUROPEAN.has(c)) ? " (European matches only: we don't follow its league)" : "";
+  return el("details", { class: "tm-cal" },
+    el("summary", {}, "📅 Add the whole season to my calendar"),
+    el("p", { class: "hint" }, `Every ${row.team} match this season${only}, with a reminder 1 hour before kickoff. Moved or postponed matches update in your calendar on their own.`),
+    el("div", { class: "cal-links" },
+      el("a", { class: "cal-link primary", href: webcal(row) }, "Apple Calendar (iPhone, Mac)"),
+      el("a", { class: "cal-link", href: "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal(row)), target: "_blank", rel: "noopener" }, "Google Calendar"),
+      el("a", { class: "cal-link", href: `https://outlook.live.com/calendar/0/addfromweb?url=${encodeURIComponent(feedUrl(row))}&name=${encodeURIComponent(row.team + " · eyeball")}`, target: "_blank", rel: "noopener" }, "Outlook"),
+      copy),
+    el("p", { class: "hint" }, "Google Calendar doesn't use a subscribed calendar's own reminders: in its settings, open this calendar and add a notification 1 hour before. Matches without a kickoff time yet show as all-day until the league sets it."));
+}
+
+function resultLetter(r) {
+  return el("span", { class: "res " + r }, r);
+}
+
+function teamHeader(p) {
+  const t = p.table;
+  const style = p.style && STYLE_INFO[p.style.style];
+  return el("div", { class: "tm-header" },
+    crest(p.team) ? el("img", { class: "tm-crest", src: crests[p.team], alt: "" }) : null,
+    el("h2", { class: "tm-name" }, p.team),
+    t ? el("p", { class: "tm-place" }, el("strong", {}, ordinal(t.position)), ` in ${p.league} · ${t.points} pts from ${t.played}`) : null,
+    formBar(p.form),
+    style ? el("p", { class: "quiet" }, `${style[0]} ${style[1]}`) : null);
+}
+
+function nextMatch(p, row) {
+  const n = p.next[0];
+  if (!n) return section("Next match", el("p", { class: "quiet" }, "No fixture scheduled yet."), calendarButtons(row));
+  const live = data.matches.find(m => m.id === n.id);
+  const body = live ? card(rescore(live)) : el("div", { class: "card tm-fixture" },
+    el("div", { class: "meta" }, el("span", {}, n.time_confirmed ? `${fixtureDate.format(new Date(n.kickoff_paris))}, ${timeFmt.format(new Date(n.kickoff_paris))}` : `${fixtureDate.format(new Date(n.kickoff_paris))}, time to be set`), el("span", {}, n.competition)),
+    el("div", { class: "teams" }, team(n.home), " v ", team(n.away)),
+    el("p", { class: "quiet" }, "Its eyeball score comes out in the week of the match."),
+    watchLine(n));
+  return section("Next match", body, calendarButtons(row));
+}
+
+function headToHead(p) {
+  const h = p.head_to_head;
+  if (!h) return null;
+  return section(`Head-to-head with ${h.opponent}`,
+    el("p", { class: "tm-tally" }, el("span", { class: "res W" }, `${h.wins} W`), el("span", { class: "res D" }, `${h.draws} D`), el("span", { class: "res L" }, `${h.losses} L`),
+      el("span", { class: "quiet" }, ` in the last ${h.meetings.length} meetings`)),
+    el("ul", { class: "tm-list" }, h.meetings.map(x => el("li", {},
+      resultLetter(x.result), el("span", {}, `${x.score} ${x.at_home ? "at home" : "away"}`),
+      el("span", { class: "quiet" }, `${x.competition} · ${shortDate.format(new Date(x.date))} ${x.date.slice(0, 4)}`)))));
+}
+
+function tableSlice(p) {
+  const t = p.table;
+  if (!t) return null;
+  const top = t.rows[0].team === t.leader.team ? null : el("p", { class: "quiet" }, `Leaders: ${t.leader.team}, ${t.leader.points} pts`);
+  return section(`${p.league} table`, top,
+    el("table", { class: "tm-table" }, el("tbody", {}, t.rows.map(r => el("tr", { class: r.team === p.team ? "me" : "" },
+      el("td", { class: "num" }, String(r.position)), el("td", {}, team(r.team)), el("td", { class: "num quiet" }, `${r.played} pl`),
+      el("td", { class: "num" }, `${r.points} pts`), el("td", { class: "num quiet" }, r.team === p.team ? "" : gapLabel(r.points - t.points)))))));
+}
+
+function gapLabel(d) {
+  return d > 0 ? `+${d}` : d < 0 ? `${d}` : "level";
+}
+
+function lastSeason(p) {
+  if (!p.vs_last_season?.length) return null;
+  return section("Points vs last season", el("ul", { class: "tm-list" }, p.vs_last_season.map(r => {
+    const now = `${r.points} pts from ${r.games} game${r.games === 1 ? "" : "s"}`;
+    const then = r.last_points === undefined
+      ? (r.last_competition ? `not enough ${r.last_competition} games last season to compare` : `not in ${EUROPEAN.has(r.competition) ? "a European league phase" : r.competition} last season`)
+      : `${r.last_points} at the same point last season${r.last_competition && r.last_competition !== r.competition ? ` (${r.last_competition})` : ""}`;
+    return el("li", {}, el("strong", {}, r.competition), el("span", {}, now),
+      r.diff !== undefined ? el("span", { class: "delta " + (r.diff > 0 ? "up" : r.diff < 0 ? "down" : "") }, gapLabel(r.diff)) : null,
+      el("span", { class: "quiet block" }, then));
+  })));
+}
+
+function numbers(p) {
+  const n = p.numbers;
+  if (!n) return null;
+  const wdl = r => `${r[0]}W ${r[1]}D ${r[2]}L`;
+  const facts = [
+    ["Home", wdl(n.home)], ["Away", wdl(n.away)],
+    ["Scored per game", n.scored_per_game], ["Conceded per game", n.conceded_per_game],
+    ["Clean sheets", n.clean_sheets],
+    ["Current run", n.win_run >= 2 ? `${n.win_run} wins in a row` : n.unbeaten_run >= 2 ? `${n.unbeaten_run} unbeaten` : "—"],
+    n.biggest_win ? ["Biggest win", `${n.biggest_win.score} v ${n.biggest_win.opponent}`] : null,
+    n.worst_defeat ? ["Worst defeat", `${n.worst_defeat.score} v ${n.worst_defeat.opponent}`] : null,
+  ].filter(Boolean);
+  return section(`Season in numbers · ${n.games} games, all competitions`,
+    el("dl", { class: "tm-numbers" }, facts.map(([k, v]) => el("div", {}, el("dt", {}, k), el("dd", {}, String(v))))));
+}
+
+function recentResults(p) {
+  if (!p.results.length) return null;
+  const list = el("ul", { class: "tm-list" });
+  let shown = 0;
+  const more = el("button", { type: "button", class: "more" }, "Show all");
+  const draw = () => {
+    shown = shown ? p.results.length : 8;
+    list.replaceChildren(...p.results.slice(0, shown).map(r => {
+      const home = r.home === p.team;
+      const gf = home ? r.home_goals : r.away_goals, ga = home ? r.away_goals : r.home_goals;
+      return el("li", {}, resultLetter(gf > ga ? "W" : gf < ga ? "L" : "D"),
+        el("span", {}, `${r.home} ${r.home_goals}–${r.away_goals} ${r.away}`),
+        el("span", { class: "quiet" }, `${r.competition} · ${shortDate.format(new Date(r.date))}`),
+        r.interest != null ? el("span", { class: "interest", title: "Worth-watching score before kickoff" }, String(r.interest)) : null);
+    }));
+    more.hidden = shown >= p.results.length;
+  };
+  more.addEventListener("click", draw);
+  draw();
+  return section("Results", list, more);
+}
+
+function comingUp(p) {
+  const rest = p.next.slice(1);
+  if (!rest.length) return null;
+  return section("Coming up", el("ul", { class: "tm-list" }, rest.map(n => el("li", {},
+    el("span", { class: "tm-when" }, n.time_confirmed ? fixtureDate.format(new Date(n.kickoff_paris)) : fixtureDate.format(new Date(n.kickoff_paris)) + "*"),
+    el("span", {}, `${n.at_home ? "v" : "at"} ${n.opponent}`, n.opponent_position ? el("span", { class: "pos" }, String(n.opponent_position)) : null),
+    el("span", { class: "quiet block" }, [n.competition, n.rivalry, ...n.revenge].filter(Boolean).join(" · ")),
+    n.score != null ? el("span", { class: "interest" + (n.must_watch ? " must" : n.recommended ? " rec" : "") }, String(n.score)) : null))),
+    p.next.slice(1).some(n => !n.time_confirmed) ? el("p", { class: "hint" }, "* Kickoff time not set yet.") : null);
+}
+
+function playerLists(p) {
+  const pl = p.players;
+  if (!pl) return section("Players", el("p", { class: "quiet" }, "No player stats for this club: ESPN only covers the 7 leagues we follow."));
+  const list = (title, rows, fmt, note) => rows?.length ? el("div", { class: "tm-players" }, el("h3", {}, title),
+    el("ol", {}, rows.map(r => el("li", {}, el("span", {}, r.name, r.position ? el("span", { class: "quiet" }, ` ${r.position}`) : null),
+      el("strong", {}, fmt(r))))), note ? el("p", { class: "hint" }, note) : null) : null;
+  const change = r => `${r.value} (was ${r.was}${r.last_club ? `, ${r.last_club}` : ""})`;
+  return section(`Players · ${LEAGUE_NAMES[pl.league] || "league"} stats`,
+    el("div", { class: "tm-grid" },
+      list("Top scorers", pl.scorers, r => `${r.value} in ${r.apps}`),
+      list("Assists", pl.assists, r => `${r.value} in ${r.apps}`),
+      list("Shots on target per game", pl.shots_on_target, r => r.value),
+      list("Most starts", pl.most_used, r => r.value),
+      list("Up on last season", pl.up, change, "Goals + assists per game, against last season (at least 5 games now, 10 then)."),
+      list("Down on last season", pl.down, change)),
+    el("p", { class: "hint" }, "From ESPN's player stats. Match ratings aren't available for free, so these are goals, assists, shots and games."));
+}
+
+const LEAGUE_NAMES = { "eng.1": "Premier League", "esp.1": "La Liga", "ita.1": "Serie A", "ger.1": "Bundesliga",
+  "fra.1": "Ligue 1", "ned.1": "Eredivisie", "por.1": "Primeira Liga" };
+
+async function renderTeam() {
+  const root = document.getElementById("team");
+  if (!teamIndex) {
+    root.replaceChildren(el("p", { class: "empty" }, "Loading teams…"));
+    teamIndex = await fetchJson(["calendars/index.json"]);
+    if (!teamIndex) { root.replaceChildren(el("p", { class: "empty" }, "Couldn't load the team list. Try again in a moment.")); return; }
+    for (const r of teamIndex) if (r.crest) crests[r.team] ??= r.crest;
+  }
+  const mine = load(MYTEAM_KEY, null);
+  const row = teamIndex.find(r => r.team === mine);
+  if (teamPicking || !row) { root.replaceChildren(teamPicker(mine), teamSearch()); return; }
+  root.replaceChildren(teamPicker(mine), el("p", { class: "empty" }, "Loading…"));
+  let p = teamPages.get(mine);
+  if (!p) {
+    p = await fetchJson([pageFile(row)]);
+    if (!p) { root.replaceChildren(teamPicker(mine), el("p", { class: "empty" }, "Couldn't load this team. Try again in a moment.")); return; }
+    teamPages.set(mine, p);
+  }
+  if (load(MYTEAM_KEY, null) !== mine) return;  // picked another team while loading
+  root.replaceChildren(teamPicker(mine), teamHeader(p),
+    p.story.length ? section("Season so far", el("ul", { class: "tm-story" }, p.story.map(s => el("li", {}, s)))) : null,
+    nextMatch(p, row), headToHead(p), tableSlice(p), lastSeason(p), numbers(p), recentResults(p), comingUp(p), playerLists(p));
 }
 
 // ---------- My Feed panel ----------
@@ -1028,7 +1181,6 @@ Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
     `${d.matches.length} matches in the next ${d.window_days} days · updated ${dayFmt.format(when)}, ${timeFmt.format(when)}`;
   renderChips();
   setupFavourites();
-  setupMyTeam();
   setupFeed();
   setupStyle();
   setupTabs();

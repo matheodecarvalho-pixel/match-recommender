@@ -1,0 +1,468 @@
+{
+ "team": "Valencia",
+ "league": "esp.1",
+ "espn_id": "94",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "165334",
+   "name": "Stole Dimitrievski",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 20.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 52.0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "323970",
+   "name": "Julen Agirrezabala",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 54.0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "157739",
+   "name": "Dimitri Foulquier",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 15.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "178747",
+   "name": "José Gayà",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 6.0,
+    "appearances": 32.0,
+    "subIns": 1.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "184717",
+   "name": "Renzo Saravia",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 5.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "189804",
+   "name": "Jesús Vázquez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 24.0,
+    "subIns": 17.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "231697",
+   "name": "Eray Cömert",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 17.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 11.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "241117",
+   "name": "Mouctar Diakhaby",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 8.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 4.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "260902",
+   "name": "Unai Núñez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 13.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "275983",
+   "name": "Thierry Correia",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 24.0,
+    "subIns": 7.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "300927",
+   "name": "Copete",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 21.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 13.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "330552",
+   "name": "César Tárrega",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 32.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 41.0
+   }
+  },
+  {
+   "id": "332342",
+   "name": "Rubén Iranzo",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "16340",
+   "name": "Javier Guerra",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 36.0,
+    "subIns": 11.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 31.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "192403",
+   "name": "Baptiste Santamaria",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 19.0,
+    "subIns": 12.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 6.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "212185",
+   "name": "Guido Rodríguez",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 16.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 15.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "231603",
+   "name": "Pepelu",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 31.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 24.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "248681",
+   "name": "Filip Ugrinic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 27.0,
+    "subIns": 10.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 20.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "280381",
+   "name": "Lucas Beltrán",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 27.0,
+    "subIns": 11.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 34.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "286604",
+   "name": "André Almeida",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 22.0,
+    "subIns": 11.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "211770",
+   "name": "Umar Sadiq",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 25.0,
+    "subIns": 15.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 29.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "231618",
+   "name": "Arnaut Danjuma",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 30.0,
+    "subIns": 12.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 36.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "253763",
+   "name": "Dani Raba",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 13.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 10.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "264177",
+   "name": "Luis Rioja",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 37.0,
+    "subIns": 6.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 43.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "267477",
+   "name": "Hugo Duro",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 36.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 36.0,
+    "totalGoals": 10.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "291435",
+   "name": "Largie Ramazani",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 27.0,
+    "subIns": 16.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 19.0,
+    "totalShots": 51.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "324504",
+   "name": "Diego López",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 34.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 28.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  }
+ ]
+}

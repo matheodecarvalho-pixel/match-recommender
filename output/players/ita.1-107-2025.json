@@ -1,0 +1,451 @@
+{
+ "team": "Bologna",
+ "league": "ita.1",
+ "espn_id": "107",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "179358",
+   "name": "Lukasz Skorupski",
+   "position": "G",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 1.0,
+    "appearances": 19.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 33.0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "245626",
+   "name": "Federico Ravaglia",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 17.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 50.0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "388880",
+   "name": "Massimo Pessina",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 6.0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "68070",
+   "name": "Lorenzo De Silvestri",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 12.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "139008",
+   "name": "João Mário",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 20.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "170670",
+   "name": "Charalampos Lykogiannis",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 10.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "227697",
+   "name": "Jhon Lucumí",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 29.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "250707",
+   "name": "Nicolo Casale",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 12.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "261616",
+   "name": "Juan Miranda",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 32.0,
+    "subIns": 3.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "272867",
+   "name": "Torbjørn Heggem",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 0,
+    "appearances": 27.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "291560",
+   "name": "Nadir Zortea",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 32.0,
+    "subIns": 16.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "309110",
+   "name": "Martin Vitík",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 19.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "361818",
+   "name": "Eivind Helland",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 6.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "152600",
+   "name": "Remo Freuler",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 29.0,
+    "subIns": 3.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "202429",
+   "name": "Lewis Ferguson",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 5.0,
+    "appearances": 27.0,
+    "subIns": 10.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "228333",
+   "name": "Nikola Moro",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 30.0,
+    "subIns": 11.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 22.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "275015",
+   "name": "Simon Sohm",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "276654",
+   "name": "Tommaso Pobega",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 2.0,
+    "appearances": 26.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 25.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "118279",
+   "name": "Jon Rowe",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 28.0,
+    "subIns": 11.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 48.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "180956",
+   "name": "Federico Bernardeschi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 17.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 39.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "234426",
+   "name": "Riccardo Orsolini",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 35.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 31.0,
+    "totalShots": 82.0,
+    "totalGoals": 10.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "238407",
+   "name": "Jens Odgaard",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 26.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 35.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "250284",
+   "name": "Santiago Castro",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 35.0,
+    "subIns": 9.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 63.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "266280",
+   "name": "Thijs Dallinga",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 23.0,
+    "subIns": 14.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 23.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "287790",
+   "name": "Nicolò Cambiaghi",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 11.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 24.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "331231",
+   "name": "Benjamín Domínguez",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 15.0,
+    "subIns": 9.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 12.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  }
+ ]
+}

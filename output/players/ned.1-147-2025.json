@@ -1,0 +1,468 @@
+{
+ "team": "NEC",
+ "league": "ned.1",
+ "espn_id": "147",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "137783",
+   "name": "Jasper Cillessen",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 7.0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "292223",
+   "name": "Gonzalo Crettaz",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 31.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 104.0,
+    "goalsConceded": 49.0
+   }
+  },
+  {
+   "id": "306435",
+   "name": "Rijk Janse",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "140350",
+   "name": "Bram Nuytinck",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "154521",
+   "name": "Jetro Willems",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "218237",
+   "name": "Eli Dasa",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 22.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 21.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "223312",
+   "name": "Thomas Ouwejan",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "239999",
+   "name": "Philippe Sandler",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 7.0,
+    "appearances": 25.0,
+    "subIns": 2.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "306806",
+   "name": "Ahmetcan Kaplan",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 10.0,
+    "appearances": 25.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 42.0
+   }
+  },
+  {
+   "id": "332960",
+   "name": "Brayann Pereira",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 24.0,
+    "subIns": 11.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "335203",
+   "name": "Deveron Fonville",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 16.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "116893",
+   "name": "Tjaronn Chery",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 45.0,
+    "totalShots": 107.0,
+    "totalGoals": 10.0,
+    "saves": 0,
+    "goalsConceded": 49.0
+   }
+  },
+  {
+   "id": "276579",
+   "name": "Darko Nejasmic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 27.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "285471",
+   "name": "Willum Thór Willumsson",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "296510",
+   "name": "Dirk Proper",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 22.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 10.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "308227",
+   "name": "Isak Hansen-Aarøen",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "340685",
+   "name": "Noé Lebreton",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 22.0,
+    "subIns": 7.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 40.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "341715",
+   "name": "Kodai Sano",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 34.0,
+    "subIns": 0,
+    "goalAssists": 7.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 34.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 53.0
+   }
+  },
+  {
+   "id": "346896",
+   "name": "Sami Ouaissa",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 5.0,
+    "appearances": 32.0,
+    "subIns": 0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 22.0,
+    "totalShots": 62.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 48.0
+   }
+  },
+  {
+   "id": "408764",
+   "name": "Sam De Laat",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "122954",
+   "name": "Bryan Linssen",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 32.0,
+    "subIns": 1.0,
+    "goalAssists": 7.0,
+    "shotsOnTarget": 32.0,
+    "totalShots": 70.0,
+    "totalGoals": 11.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "156836",
+   "name": "Virgil Misidjan",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 17.0,
+    "subIns": 13.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "238016",
+   "name": "Koki Ogawa",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 26.0,
+    "subIns": 9.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 18.0,
+    "totalShots": 43.0,
+    "totalGoals": 8.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "272224",
+   "name": "Danilo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 11.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "281525",
+   "name": "Youssef El Kachati",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 19.0,
+    "subIns": 18.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 22.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "337855",
+   "name": "Basar Önal",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 29.0,
+    "subIns": 4.0,
+    "goalAssists": 7.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 48.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "363412",
+   "name": "Kevin Kers",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

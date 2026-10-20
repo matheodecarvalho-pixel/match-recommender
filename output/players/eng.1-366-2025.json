@@ -1,0 +1,400 @@
+{
+ "team": "Sunderland",
+ "league": "eng.1",
+ "espn_id": "366",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "301449",
+   "name": "Robin Roefs",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 35.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 109.0,
+    "goalsConceded": 46.0
+   }
+  },
+  {
+   "id": "307800",
+   "name": "Melker Ellborg",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 10.0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "191574",
+   "name": "Luke O'Nien",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 1.0,
+    "appearances": 12.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "214188",
+   "name": "Nordi Mukiele",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 32.0,
+    "subIns": 0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 26.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "215401",
+   "name": "Omar Alderete",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 33.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 24.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "230081",
+   "name": "Reinildo Mandava",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 7.0,
+    "appearances": 25.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "264828",
+   "name": "Lutsharel Geertruida",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 28.0,
+    "subIns": 11.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "282645",
+   "name": "Danny Ballard",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 29.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 26.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "301487",
+   "name": "Dennis Cirkin",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 8.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "149981",
+   "name": "Granit Xhaka",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 34.0,
+    "subIns": 2.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 21.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 39.0
+   }
+  },
+  {
+   "id": "288340",
+   "name": "Enzo Le Fée",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 36.0,
+    "subIns": 3.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 36.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 43.0
+   }
+  },
+  {
+   "id": "290207",
+   "name": "Trai Hume",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 38.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 34.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 42.0
+   }
+  },
+  {
+   "id": "318090",
+   "name": "Nilson Angulo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 8.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "324991",
+   "name": "Habib Diarra",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 20.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 26.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "340240",
+   "name": "Noah Sadiki",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 18.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 42.0
+   }
+  },
+  {
+   "id": "356295",
+   "name": "Chris Rigg",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "169661",
+   "name": "Bertrand Traoré",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 12.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "265915",
+   "name": "Wilson Isidor",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 32.0,
+    "subIns": 21.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 43.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "282229",
+   "name": "Brian Brobbey",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 31.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 18.0,
+    "totalShots": 36.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "323084",
+   "name": "Romaine Mundle",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 14.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "332862",
+   "name": "Eliezer Mayenda",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 20.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 13.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "360062",
+   "name": "Chemsdine Talbi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 28.0,
+    "subIns": 12.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 25.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "417825",
+   "name": "Jocelin Ta Bi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

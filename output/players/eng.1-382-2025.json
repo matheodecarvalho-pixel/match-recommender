@@ -1,0 +1,434 @@
+{
+ "team": "Manchester City",
+ "league": "eng.1",
+ "espn_id": "382",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "217092",
+   "name": "Gianluigi Donnarumma",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 34.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 78.0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "307118",
+   "name": "James Trafford",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 14.0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "157974",
+   "name": "John Stones",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 9.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "159248",
+   "name": "Nathan Aké",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "234878",
+   "name": "Rúben Dias",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 26.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 10.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "265907",
+   "name": "Marc Guéhi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 35.0,
+    "subIns": 0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 32.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 35.0
+   }
+  },
+  {
+   "id": "272512",
+   "name": "Rayan Aït-Nouri",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 17.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 10.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "299910",
+   "name": "Josko Gvardiol",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 18.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 17.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "325564",
+   "name": "Rico Lewis",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 11.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "347046",
+   "name": "Max Alleyne",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "362211",
+   "name": "Abdukodir Khusanov",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 21.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "154595",
+   "name": "Mateo Kovacic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "199833",
+   "name": "Bernardo Silva",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 10.0,
+    "appearances": 38.0,
+    "subIns": 4.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 30.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "231828",
+   "name": "Rodri",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 21.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 16.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "250787",
+   "name": "Phil Foden",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 33.0,
+    "subIns": 10.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 19.0,
+    "totalShots": 55.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "261328",
+   "name": "Tijjani Reijnders",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 28.0,
+    "subIns": 9.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 49.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "298008",
+   "name": "Rayan Cherki",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 33.0,
+    "subIns": 14.0,
+    "goalAssists": 12.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 55.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "303785",
+   "name": "Matheus Nunes",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 34.0,
+    "subIns": 2.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "323986",
+   "name": "Nico González",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 25.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 14.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "328464",
+   "name": "Nico O'Reilly",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 34.0,
+    "subIns": 5.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 41.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "253989",
+   "name": "Erling Haaland",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 35.0,
+    "subIns": 1.0,
+    "goalAssists": 8.0,
+    "shotsOnTarget": 59.0,
+    "totalShots": 126.0,
+    "totalGoals": 27.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "273292",
+   "name": "Antoine Semenyo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 37.0,
+    "subIns": 0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 41.0,
+    "totalShots": 83.0,
+    "totalGoals": 17.0,
+    "saves": 0,
+    "goalsConceded": 52.0
+   }
+  },
+  {
+   "id": "283672",
+   "name": "Jérémy Doku",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 30.0,
+    "subIns": 11.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 39.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "303745",
+   "name": "Omar Marmoush",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 21.0,
+    "subIns": 13.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 30.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "304470",
+   "name": "Sávio",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 24.0,
+    "subIns": 17.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  }
+ ]
+}

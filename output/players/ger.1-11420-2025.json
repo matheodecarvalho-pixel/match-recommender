@@ -1,0 +1,434 @@
+{
+ "team": "RB Leipzig",
+ "league": "ger.1",
+ "espn_id": "11420",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "119620",
+   "name": "Péter Gulácsi",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 23.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 53.0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "277377",
+   "name": "Maarten Vandevoordt",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 12.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 30.0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "162162",
+   "name": "Willi Orbán",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 20.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 46.0
+   }
+  },
+  {
+   "id": "201803",
+   "name": "Lukas Klostermann",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "220711",
+   "name": "Benjamin Henrichs",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 17.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 4.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "249548",
+   "name": "David Raum",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 30.0,
+    "subIns": 1.0,
+    "goalAssists": 7.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 24.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "258963",
+   "name": "Ridle Baku",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 32.0,
+    "subIns": 4.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 30.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "304740",
+   "name": "El Chadaille Bitshiabu",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 11.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "319100",
+   "name": "Castello Lukeba",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 26.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "365367",
+   "name": "Kosta Nedeljkovic",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "368003",
+   "name": "Max Finkgrafe",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 13.0,
+    "subIns": 8.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 4.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "238886",
+   "name": "Xaver Schlager",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 26.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 21.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "274897",
+   "name": "Christoph Baumgartner",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 10.0,
+    "appearances": 33.0,
+    "subIns": 1.0,
+    "goalAssists": 8.0,
+    "shotsOnTarget": 34.0,
+    "totalShots": 81.0,
+    "totalGoals": 13.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "305956",
+   "name": "Nicolas Seiwald",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 33.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 19.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "319368",
+   "name": "Antonio Nusa",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 31.0,
+    "subIns": 7.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 61.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "330233",
+   "name": "Ezechiel Banzuzi",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 24.0,
+    "subIns": 22.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 15.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "364897",
+   "name": "Assan Ouédraogo",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 19.0,
+    "subIns": 6.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 27.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "372232",
+   "name": "Andrija Maksimovic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "310131",
+   "name": "Johan Bakayoko",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 20.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 24.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "324766",
+   "name": "Rômulo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 30.0,
+    "subIns": 3.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 27.0,
+    "totalShots": 63.0,
+    "totalGoals": 9.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "357683",
+   "name": "Brajan Gruda",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 13.0,
+    "subIns": 5.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 22.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "362794",
+   "name": "Conrad Harder",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 21.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 42.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "366911",
+   "name": "Tidiam Gomis",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 16.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 9.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "402479",
+   "name": "Yan Diomande",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 33.0,
+    "subIns": 5.0,
+    "goalAssists": 8.0,
+    "shotsOnTarget": 26.0,
+    "totalShots": 53.0,
+    "totalGoals": 12.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "413839",
+   "name": "Samba Konate",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

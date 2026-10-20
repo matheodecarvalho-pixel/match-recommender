@@ -1,0 +1,451 @@
+{
+ "team": "Crystal Palace",
+ "league": "eng.1",
+ "espn_id": "384",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "195738",
+   "name": "Walter Benítez",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 3.0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "234172",
+   "name": "Dean Henderson",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 37.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 106.0,
+    "goalsConceded": 51.0
+   }
+  },
+  {
+   "id": "127865",
+   "name": "Nathaniel Clyne",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 10.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "146679",
+   "name": "Daniel Muñoz",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 29.0,
+    "subIns": 0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 27.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "228319",
+   "name": "Borna Sosa",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "265918",
+   "name": "Maxence Lacroix",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 35.0,
+    "subIns": 0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 24.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "272585",
+   "name": "Chris Richards",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 33.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 42.0
+   }
+  },
+  {
+   "id": "300853",
+   "name": "Tyrick Mitchell",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 38.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 19.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 47.0
+   }
+  },
+  {
+   "id": "307870",
+   "name": "Chadi Riad",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 9.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "386252",
+   "name": "Jaydee Canvot",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 20.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "168421",
+   "name": "Will Hughes",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 31.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 17.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "197399",
+   "name": "Jefferson Lerma",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 31.0,
+    "subIns": 13.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 19.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "219362",
+   "name": "Daichi Kamada",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 19.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "291468",
+   "name": "Justin Devenny",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 21.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "297370",
+   "name": "Yéremy Pino",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 34.0,
+    "subIns": 8.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 45.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "333419",
+   "name": "Adam Wharton",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 34.0,
+    "subIns": 5.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 32.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 43.0
+   }
+  },
+  {
+   "id": "345213",
+   "name": "Kaden Rodney",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "363444",
+   "name": "Rio Cardines",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "386256",
+   "name": "Christantus Uche",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 14.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "241012",
+   "name": "Ismaïla Sarr",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 28.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 21.0,
+    "totalShots": 48.0,
+    "totalGoals": 9.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "241187",
+   "name": "Jean-Philippe Mateta",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 32.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 32.0,
+    "totalShots": 63.0,
+    "totalGoals": 12.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "252747",
+   "name": "Jørgen Strand Larsen",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 36.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 44.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 41.0
+   }
+  },
+  {
+   "id": "259486",
+   "name": "Eddie Nketiah",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 12.0,
+    "subIns": 10.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 15.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "288924",
+   "name": "Evann Guessand",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 21.0,
+    "subIns": 12.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "291307",
+   "name": "Brennan Johnson",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 34.0,
+    "subIns": 15.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 23.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "408511",
+   "name": "Joél Drakes-Thomas",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,451 @@
+{
+ "team": "Cagliari",
+ "league": "ita.1",
+ "espn_id": "2925",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "278987",
+   "name": "Elia Caprile",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 38.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 122.0,
+    "goalsConceded": 53.0
+   }
+  },
+  {
+   "id": "196901",
+   "name": "Yerry Mina",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 3.0,
+    "appearances": 26.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 11.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "252372",
+   "name": "Alberto Dossena",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 12.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "275943",
+   "name": "Gabriele Zappa",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 31.0,
+    "subIns": 13.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "322913",
+   "name": "Adam Obert",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 8.0,
+    "appearances": 35.0,
+    "subIns": 2.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "332684",
+   "name": "Zé Pedro",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 23.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "361506",
+   "name": "Juan Rodríguez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 17.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 3.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "362486",
+   "name": "Marco Palestra",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 37.0,
+    "subIns": 3.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 29.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 46.0
+   }
+  },
+  {
+   "id": "384126",
+   "name": "Othniël Raterink",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "387036",
+   "name": "Riyad Idrissi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 23.0,
+    "subIns": 19.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 6.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "186437",
+   "name": "Alessandro Deiola",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 20.0,
+    "subIns": 3.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 22.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "197263",
+   "name": "Luca Mazzitelli",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 18.0,
+    "subIns": 9.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 15.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "252385",
+   "name": "Michael Folorunsho",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 27.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 36.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "272745",
+   "name": "Michel Adopo",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 38.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 28.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 46.0
+   }
+  },
+  {
+   "id": "276692",
+   "name": "Gianluca Gaetano",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 33.0,
+    "subIns": 12.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 34.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "347018",
+   "name": "Sulemana",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 19.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "407930",
+   "name": "Joseph Liteta",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  },
+  {
+   "id": "162640",
+   "name": "Leonardo Pavoletti",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 13.0,
+    "subIns": 12.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "170755",
+   "name": "Andrea Belotti",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 6.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "285937",
+   "name": "Mattia Felici",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 12.0,
+    "subIns": 8.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 9.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "286929",
+   "name": "Sebastiano Esposito",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 36.0,
+    "subIns": 2.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 57.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "286948",
+   "name": "Gennaro Borrelli",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 27.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 30.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "345212",
+   "name": "Semih Kiliçsoy",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 22.0,
+    "subIns": 11.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 17.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "381354",
+   "name": "Agustín Albarracín",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "407931",
+   "name": "Yael Trepy",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 8.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "418819",
+   "name": "Paul Mendy",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 9.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 15.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 6.0
+   }
+  }
+ ]
+}

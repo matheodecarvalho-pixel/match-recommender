@@ -1,0 +1,434 @@
+{
+ "team": "Napoli",
+ "league": "ita.1",
+ "espn_id": "114",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "198082",
+   "name": "Nikita Contini",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "209746",
+   "name": "Alex Meret",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 11.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 21.0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "219531",
+   "name": "Vanja Milinkovic-Savic",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 27.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 56.0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "148974",
+   "name": "Leonardo Spinazzola",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 32.0,
+    "subIns": 10.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 21.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "155904",
+   "name": "Giovanni Di Lorenzo",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 26.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 25.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "170663",
+   "name": "Juan Jesus",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 8.0,
+    "appearances": 24.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "205576",
+   "name": "Amir Rrahmani",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 21.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 15.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "234881",
+   "name": "Mathías Olivera",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 25.0,
+    "subIns": 10.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "252605",
+   "name": "Alessandro Buongiorno",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 33.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 8.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "260188",
+   "name": "Pasquale Mazzocchi",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 0,
+    "appearances": 16.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "261594",
+   "name": "Sam Beukema",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 24.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 8.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "290044",
+   "name": "Miguel Gutiérrez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 28.0,
+    "subIns": 13.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "134947",
+   "name": "Kevin De Bruyne",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 5.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 27.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "188412",
+   "name": "Stanislav Lobotka",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 32.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "215721",
+   "name": "Frank Anguissa",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 18.0,
+    "subIns": 4.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 23.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "237435",
+   "name": "Eljif Elmas",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 33.0,
+    "subIns": 13.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 27.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "255850",
+   "name": "Scott McTominay",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 33.0,
+    "subIns": 2.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 34.0,
+    "totalShots": 101.0,
+    "totalGoals": 10.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "274217",
+   "name": "Billy Gilmour",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 17.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "332411",
+   "name": "Antonio Vergara",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 12.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "139437",
+   "name": "Romelu Lukaku",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 5.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "188306",
+   "name": "Matteo Politano",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 34.0,
+    "subIns": 8.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 49.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "245637",
+   "name": "David Neres",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 16.0,
+    "subIns": 6.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 17.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "309273",
+   "name": "Rasmus Højlund",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 33.0,
+    "subIns": 1.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 25.0,
+    "totalShots": 60.0,
+    "totalGoals": 12.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "319697",
+   "name": "Alisson Santos",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 14.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 29.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "339953",
+   "name": "Giovane",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 33.0,
+    "subIns": 12.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 27.0,
+    "totalShots": 56.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  }
+ ]
+}

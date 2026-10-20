@@ -1,0 +1,417 @@
+{
+ "team": "Borussia Mönchengladbach",
+ "league": "ger.1",
+ "espn_id": "268",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "238536",
+   "name": "Moritz Nicolas",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 34.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 136.0,
+    "goalsConceded": 53.0
+   }
+  },
+  {
+   "id": "202642",
+   "name": "Marvin Friedrich",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "206863",
+   "name": "Kevin Diks",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 30.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 23.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 43.0
+   }
+  },
+  {
+   "id": "212237",
+   "name": "Nico Elvedi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 0,
+    "totalShots": 9.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 50.0
+   }
+  },
+  {
+   "id": "272135",
+   "name": "Joe Scally",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 32.0,
+    "subIns": 3.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 16.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "323061",
+   "name": "Fabio Chiarodia",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 15.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "328492",
+   "name": "Kota Takai",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 8.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "346617",
+   "name": "Lukas Ullrich",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 23.0,
+    "subIns": 9.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 10.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "175006",
+   "name": "Kevin Stöger",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 23.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "196029",
+   "name": "Franck Honorat",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 28.0,
+    "subIns": 4.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 17.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "238527",
+   "name": "Florian Neuhaus",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 17.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 22.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "258876",
+   "name": "Robin Hack",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 8.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "275805",
+   "name": "Philipp Sander",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 30.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 25.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 39.0
+   }
+  },
+  {
+   "id": "290230",
+   "name": "Giovanni Reyna",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 19.0,
+    "subIns": 15.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 7.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "304793",
+   "name": "Jens Castrop",
+   "position": "M",
+   "stats": {
+    "redCards": 2.0,
+    "yellowCards": 2.0,
+    "appearances": 26.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 30.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "307364",
+   "name": "Rocco Reitz",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 8.0,
+    "appearances": 31.0,
+    "subIns": 0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 47.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 47.0
+   }
+  },
+  {
+   "id": "330239",
+   "name": "Hugo Bolin",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 13.0,
+    "subIns": 8.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "337079",
+   "name": "Yannick Engelhardt",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 31.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 21.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "408539",
+   "name": "Wael Mohya",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 15.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 10.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "184869",
+   "name": "Haris Tabakovic",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 32.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 27.0,
+    "totalShots": 67.0,
+    "totalGoals": 13.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "185906",
+   "name": "Tim Kleindienst",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "271352",
+   "name": "Shuto Machino",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 32.0,
+    "subIns": 23.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 26.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "371484",
+   "name": "Alejo Sarco",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "386420",
+   "name": "Jan Urbich",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,502 @@
+{
+ "team": "Tottenham Hotspur",
+ "league": "eng.1",
+ "espn_id": "367",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "204082",
+   "name": "Guglielmo Vicario",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 31.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 83.0,
+    "goalsConceded": 50.0
+   }
+  },
+  {
+   "id": "324393",
+   "name": "Antonín Kinsky",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 10.0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "6327",
+   "name": "Ben Davies",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 3.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 2.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "96970",
+   "name": "Cristian Romero",
+   "position": "D",
+   "stats": {
+    "redCards": 2.0,
+    "yellowCards": 9.0,
+    "appearances": 24.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 17.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "250543",
+   "name": "Kevin Danso",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 24.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 11.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "267711",
+   "name": "Djed Spence",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 30.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 13.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "268533",
+   "name": "Pedro Porro",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 10.0,
+    "appearances": 34.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 32.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "290076",
+   "name": "Destiny Udogie",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 20.0,
+    "subIns": 6.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "296512",
+   "name": "Micky van de Ven",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 9.0,
+    "appearances": 35.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 16.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 47.0
+   }
+  },
+  {
+   "id": "310216",
+   "name": "Radu Dragusin",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 10.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "371532",
+   "name": "Souza",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "387932",
+   "name": "James Rowswell",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "403835",
+   "name": "Jun'Ai Byfield",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "194450",
+   "name": "James Maddison",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "215772",
+   "name": "Rodrigo Bentancur",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 26.0,
+    "subIns": 3.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "224144",
+   "name": "João Palhinha",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 33.0,
+    "subIns": 10.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 33.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "232810",
+   "name": "Yves Bissouma",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 11.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 17.0
+   }
+  },
+  {
+   "id": "266599",
+   "name": "Mohammed Kudus",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 19.0,
+    "subIns": 0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 26.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "266696",
+   "name": "Conor Gallagher",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 16.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "297337",
+   "name": "Pape Matar Sarr",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 26.0,
+    "subIns": 13.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 17.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "328050",
+   "name": "Archie Gray",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 24.0,
+    "subIns": 6.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 11.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "332962",
+   "name": "Xavi Simons",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 5.0,
+    "appearances": 28.0,
+    "subIns": 9.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 42.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "356379",
+   "name": "Lucas Bergvall",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 23.0,
+    "subIns": 12.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "372016",
+   "name": "Callum Olusesi",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "156799",
+   "name": "Richarlison",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 32.0,
+    "subIns": 12.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 26.0,
+    "totalShots": 61.0,
+    "totalGoals": 11.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "194115",
+   "name": "Dominic Solanke",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 15.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 20.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "252971",
+   "name": "Randal Kolo Muani",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 30.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "325042",
+   "name": "Mathys Tel",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 31.0,
+    "subIns": 18.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 35.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "345687",
+   "name": "Wilson Odobert",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 24.0,
+    "subIns": 14.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 22.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "team": "Inter",
+ "league": "ita.1",
+ "espn_id": "110",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "93197",
+   "name": "Yann Sommer",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 65.0,
+    "goalsConceded": 30.0
+   }
+  },
+  {
+   "id": "181322",
+   "name": "Raffaele Di Gennaro",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "240533",
+   "name": "Josep Martínez",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 5.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 10.0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "91873",
+   "name": "Matteo Darmian",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "141443",
+   "name": "Stefan de Vrij",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 11.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "148842",
+   "name": "Francesco Acerbi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 18.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "194748",
+   "name": "Federico Dimarco",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 35.0,
+    "subIns": 5.0,
+    "goalAssists": 17.0,
+    "shotsOnTarget": 22.0,
+    "totalShots": 65.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "213248",
+   "name": "Denzel Dumfries",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 20.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 23.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "214562",
+   "name": "Manuel Akanji",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 33.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 23.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "249280",
+   "name": "Alessandro Bastoni",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 28.0,
+    "subIns": 0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 17.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "266660",
+   "name": "Yann Bisseck",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 23.0,
+    "subIns": 2.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 12.0,
+    "totalShots": 25.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "271769",
+   "name": "Carlos Augusto",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 34.0,
+    "subIns": 16.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "387835",
+   "name": "Matteo Cocchi",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "147625",
+   "name": "Henrikh Mkhitaryan",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 30.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 43.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 12.0
+   }
+  },
+  {
+   "id": "170785",
+   "name": "Hakan Çalhanoglu",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 22.0,
+    "subIns": 2.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 50.0,
+    "totalGoals": 9.0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "177782",
+   "name": "Piotr Zielinski",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 34.0,
+    "subIns": 12.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 29.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "204441",
+   "name": "Nicolò Barella",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 34.0,
+    "subIns": 3.0,
+    "goalAssists": 8.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 35.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "250850",
+   "name": "Davide Frattesi",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 22.0,
+    "subIns": 19.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "319167",
+   "name": "Andy Diouf",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 19.0,
+    "subIns": 15.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "341494",
+   "name": "Petar Sucic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 34.0,
+    "subIns": 13.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 22.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "364026",
+   "name": "Luka Topalovic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "217331",
+   "name": "Marcus Thuram",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 29.0,
+    "subIns": 5.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 29.0,
+    "totalShots": 74.0,
+    "totalGoals": 13.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "219713",
+   "name": "Lautaro Martínez",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 30.0,
+    "subIns": 3.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 39.0,
+    "totalShots": 92.0,
+    "totalGoals": 17.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "286369",
+   "name": "Luis Henrique",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 30.0,
+    "subIns": 12.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "309185",
+   "name": "Ange-Yoan Bonny",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 33.0,
+    "subIns": 23.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 22.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "362674",
+   "name": "Pio Esposito",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 35.0,
+    "subIns": 20.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 23.0,
+    "totalShots": 57.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "402778",
+   "name": "Matteo Lavelli",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "409051",
+   "name": "Mattia Mosconi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  }
+ ]
+}

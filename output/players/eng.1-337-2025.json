@@ -1,0 +1,417 @@
+{
+ "team": "Brentford",
+ "league": "eng.1",
+ "espn_id": "337",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "275599",
+   "name": "Caoimhín Kelleher",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 37.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 110.0,
+    "goalsConceded": 49.0
+   }
+  },
+  {
+   "id": "311527",
+   "name": "Hákon Valdimarsson",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 1.0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "206173",
+   "name": "Kristoffer Ajer",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 27.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "206761",
+   "name": "Rico Henry",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 25.0,
+    "subIns": 11.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "241093",
+   "name": "Ethan Pinnock",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "270507",
+   "name": "Sepp van den Berg",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 32.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 23.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 41.0
+   }
+  },
+  {
+   "id": "279780",
+   "name": "Nathan Collins",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 35.0,
+    "subIns": 3.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 44.0
+   }
+  },
+  {
+   "id": "283940",
+   "name": "Aaron Hickey",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 21.0,
+    "subIns": 13.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "284490",
+   "name": "Keane Lewis-Potter",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 36.0,
+    "subIns": 14.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 31.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "356640",
+   "name": "Michael Kayode",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 37.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 9.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 49.0
+   }
+  },
+  {
+   "id": "127262",
+   "name": "Jordan Henderson",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 32.0,
+    "subIns": 10.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "225564",
+   "name": "Vitaly Janelt",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 8.0,
+    "appearances": 25.0,
+    "subIns": 10.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 21.0
+   }
+  },
+  {
+   "id": "227472",
+   "name": "Mathias Jensen",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 36.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 8.0,
+    "totalShots": 29.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 33.0
+   }
+  },
+  {
+   "id": "231049",
+   "name": "Fábio Carvalho",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 6.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "246309",
+   "name": "Josh Dasilva",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "308932",
+   "name": "Mikkel Damsgaard",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 33.0,
+    "subIns": 9.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 29.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "310958",
+   "name": "Kevin Schade",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 6.0,
+    "appearances": 35.0,
+    "subIns": 3.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 24.0,
+    "totalShots": 57.0,
+    "totalGoals": 8.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "315530",
+   "name": "Dango Ouattara",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 32.0,
+    "subIns": 7.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 56.0,
+    "totalGoals": 7.0,
+    "saves": 0,
+    "goalsConceded": 35.0
+   }
+  },
+  {
+   "id": "321081",
+   "name": "Antoni Milambo",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "342029",
+   "name": "Yehor Yarmoliuk",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 37.0,
+    "subIns": 7.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 42.0
+   }
+  },
+  {
+   "id": "357477",
+   "name": "Romelle Donovan",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 4.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "227794",
+   "name": "Reiss Nelson",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 10.0,
+    "subIns": 10.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "301894",
+   "name": "Igor Thiago",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 38.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 43.0,
+    "totalShots": 84.0,
+    "totalGoals": 22.0,
+    "saves": 0,
+    "goalsConceded": 50.0
+   }
+  },
+  {
+   "id": "394418",
+   "name": "Kaye Furo",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

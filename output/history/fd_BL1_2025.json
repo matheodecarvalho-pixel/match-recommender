@@ -1,0 +1,7043 @@
+{
+ "season": 2025,
+ "matches": [
+  {
+   "id": 540406,
+   "utcDate": "2025-08-22T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 6,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540407,
+   "utcDate": "2025-08-23T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540408,
+   "utcDate": "2025-08-23T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540409,
+   "utcDate": "2025-08-23T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540412,
+   "utcDate": "2025-08-23T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540414,
+   "utcDate": "2025-08-23T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540413,
+   "utcDate": "2025-08-23T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540410,
+   "utcDate": "2025-08-24T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540411,
+   "utcDate": "2025-08-24T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540423,
+   "utcDate": "2025-08-29T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540416,
+   "utcDate": "2025-08-30T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540417,
+   "utcDate": "2025-08-30T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540418,
+   "utcDate": "2025-08-30T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540421,
+   "utcDate": "2025-08-30T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540420,
+   "utcDate": "2025-08-30T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540419,
+   "utcDate": "2025-08-31T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540415,
+   "utcDate": "2025-08-31T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540422,
+   "utcDate": "2025-08-31T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540425,
+   "utcDate": "2025-09-12T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540426,
+   "utcDate": "2025-09-13T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540427,
+   "utcDate": "2025-09-13T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540429,
+   "utcDate": "2025-09-13T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540430,
+   "utcDate": "2025-09-13T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540432,
+   "utcDate": "2025-09-13T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540424,
+   "utcDate": "2025-09-13T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 5,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540431,
+   "utcDate": "2025-09-14T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540428,
+   "utcDate": "2025-09-14T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540438,
+   "utcDate": "2025-09-19T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540437,
+   "utcDate": "2025-09-20T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540439,
+   "utcDate": "2025-09-20T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540440,
+   "utcDate": "2025-09-20T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540441,
+   "utcDate": "2025-09-20T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540436,
+   "utcDate": "2025-09-20T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540434,
+   "utcDate": "2025-09-21T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540433,
+   "utcDate": "2025-09-21T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540435,
+   "utcDate": "2025-09-21T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540442,
+   "utcDate": "2025-09-26T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540444,
+   "utcDate": "2025-09-27T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540446,
+   "utcDate": "2025-09-27T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540448,
+   "utcDate": "2025-09-27T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540449,
+   "utcDate": "2025-09-27T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540445,
+   "utcDate": "2025-09-27T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 6
+    }
+   }
+  },
+  {
+   "id": 540443,
+   "utcDate": "2025-09-28T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540450,
+   "utcDate": "2025-09-28T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540447,
+   "utcDate": "2025-09-28T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540458,
+   "utcDate": "2025-10-03T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540451,
+   "utcDate": "2025-10-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540453,
+   "utcDate": "2025-10-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540454,
+   "utcDate": "2025-10-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540457,
+   "utcDate": "2025-10-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540452,
+   "utcDate": "2025-10-04T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540455,
+   "utcDate": "2025-10-05T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540459,
+   "utcDate": "2025-10-05T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540456,
+   "utcDate": "2025-10-05T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540465,
+   "utcDate": "2025-10-17T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540462,
+   "utcDate": "2025-10-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540463,
+   "utcDate": "2025-10-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540464,
+   "utcDate": "2025-10-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540467,
+   "utcDate": "2025-10-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540468,
+   "utcDate": "2025-10-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540460,
+   "utcDate": "2025-10-18T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540461,
+   "utcDate": "2025-10-19T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540466,
+   "utcDate": "2025-10-19T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540472,
+   "utcDate": "2025-10-24T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540470,
+   "utcDate": "2025-10-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540475,
+   "utcDate": "2025-10-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 6
+    }
+   }
+  },
+  {
+   "id": 540476,
+   "utcDate": "2025-10-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540477,
+   "utcDate": "2025-10-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540474,
+   "utcDate": "2025-10-25T13:45:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540471,
+   "utcDate": "2025-10-25T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540469,
+   "utcDate": "2025-10-26T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540473,
+   "utcDate": "2025-10-26T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540482,
+   "utcDate": "2025-10-31T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540479,
+   "utcDate": "2025-11-01T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540480,
+   "utcDate": "2025-11-01T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540483,
+   "utcDate": "2025-11-01T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540484,
+   "utcDate": "2025-11-01T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540485,
+   "utcDate": "2025-11-01T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540478,
+   "utcDate": "2025-11-01T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540486,
+   "utcDate": "2025-11-02T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540481,
+   "utcDate": "2025-11-02T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540490,
+   "utcDate": "2025-11-07T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540487,
+   "utcDate": "2025-11-08T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 6,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540493,
+   "utcDate": "2025-11-08T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540494,
+   "utcDate": "2025-11-08T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540495,
+   "utcDate": "2025-11-08T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540492,
+   "utcDate": "2025-11-08T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540489,
+   "utcDate": "2025-11-09T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540491,
+   "utcDate": "2025-11-09T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540488,
+   "utcDate": "2025-11-09T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540498,
+   "utcDate": "2025-11-21T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540496,
+   "utcDate": "2025-11-22T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 6,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540497,
+   "utcDate": "2025-11-22T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540500,
+   "utcDate": "2025-11-22T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540501,
+   "utcDate": "2025-11-22T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540503,
+   "utcDate": "2025-11-22T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540504,
+   "utcDate": "2025-11-22T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540499,
+   "utcDate": "2025-11-23T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540502,
+   "utcDate": "2025-11-23T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540510,
+   "utcDate": "2025-11-28T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540505,
+   "utcDate": "2025-11-29T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540509,
+   "utcDate": "2025-11-29T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540511,
+   "utcDate": "2025-11-29T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540512,
+   "utcDate": "2025-11-29T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540506,
+   "utcDate": "2025-11-29T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540513,
+   "utcDate": "2025-11-30T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540507,
+   "utcDate": "2025-11-30T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540508,
+   "utcDate": "2025-11-30T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540515,
+   "utcDate": "2025-12-05T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540517,
+   "utcDate": "2025-12-06T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 5
+    }
+   }
+  },
+  {
+   "id": 540518,
+   "utcDate": "2025-12-06T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540519,
+   "utcDate": "2025-12-06T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540520,
+   "utcDate": "2025-12-06T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540522,
+   "utcDate": "2025-12-06T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540516,
+   "utcDate": "2025-12-06T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 6,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540521,
+   "utcDate": "2025-12-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540514,
+   "utcDate": "2025-12-07T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540529,
+   "utcDate": "2025-12-12T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540525,
+   "utcDate": "2025-12-13T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540528,
+   "utcDate": "2025-12-13T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540530,
+   "utcDate": "2025-12-13T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540531,
+   "utcDate": "2025-12-13T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540524,
+   "utcDate": "2025-12-13T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540526,
+   "utcDate": "2025-12-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540523,
+   "utcDate": "2025-12-14T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540527,
+   "utcDate": "2025-12-14T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540532,
+   "utcDate": "2025-12-19T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540535,
+   "utcDate": "2025-12-20T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540536,
+   "utcDate": "2025-12-20T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540537,
+   "utcDate": "2025-12-20T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540539,
+   "utcDate": "2025-12-20T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540540,
+   "utcDate": "2025-12-20T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540534,
+   "utcDate": "2025-12-20T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540533,
+   "utcDate": "2025-12-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540538,
+   "utcDate": "2025-12-21T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540543,
+   "utcDate": "2026-01-09T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540544,
+   "utcDate": "2026-01-10T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540547,
+   "utcDate": "2026-01-10T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540549,
+   "utcDate": "2026-01-10T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540542,
+   "utcDate": "2026-01-10T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540546,
+   "utcDate": "2026-01-11T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540541,
+   "utcDate": "2026-01-11T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 8,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540553,
+   "utcDate": "2026-01-13T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540550,
+   "utcDate": "2026-01-13T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540551,
+   "utcDate": "2026-01-13T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540554,
+   "utcDate": "2026-01-14T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540552,
+   "utcDate": "2026-01-14T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540556,
+   "utcDate": "2026-01-14T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 5,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540557,
+   "utcDate": "2026-01-14T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540555,
+   "utcDate": "2026-01-15T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540560,
+   "utcDate": "2026-01-16T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540561,
+   "utcDate": "2026-01-17T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540563,
+   "utcDate": "2026-01-17T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540564,
+   "utcDate": "2026-01-17T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540566,
+   "utcDate": "2026-01-17T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540567,
+   "utcDate": "2026-01-17T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540559,
+   "utcDate": "2026-01-17T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 5
+    }
+   }
+  },
+  {
+   "id": 540565,
+   "utcDate": "2026-01-18T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540562,
+   "utcDate": "2026-01-18T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540576,
+   "utcDate": "2026-01-23T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540569,
+   "utcDate": "2026-01-24T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540570,
+   "utcDate": "2026-01-24T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540572,
+   "utcDate": "2026-01-24T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540573,
+   "utcDate": "2026-01-24T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540574,
+   "utcDate": "2026-01-24T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540568,
+   "utcDate": "2026-01-24T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540571,
+   "utcDate": "2026-01-25T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540575,
+   "utcDate": "2026-01-25T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540545,
+   "utcDate": "2026-01-27T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540548,
+   "utcDate": "2026-01-27T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540582,
+   "utcDate": "2026-01-30T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540578,
+   "utcDate": "2026-01-31T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540580,
+   "utcDate": "2026-01-31T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540581,
+   "utcDate": "2026-01-31T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540583,
+   "utcDate": "2026-01-31T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540584,
+   "utcDate": "2026-01-31T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540577,
+   "utcDate": "2026-01-31T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540579,
+   "utcDate": "2026-02-01T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540585,
+   "utcDate": "2026-02-01T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540587,
+   "utcDate": "2026-02-06T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540588,
+   "utcDate": "2026-02-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540590,
+   "utcDate": "2026-02-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540591,
+   "utcDate": "2026-02-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540592,
+   "utcDate": "2026-02-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540594,
+   "utcDate": "2026-02-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540586,
+   "utcDate": "2026-02-07T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540589,
+   "utcDate": "2026-02-08T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540593,
+   "utcDate": "2026-02-08T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 5,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540597,
+   "utcDate": "2026-02-13T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540595,
+   "utcDate": "2026-02-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540596,
+   "utcDate": "2026-02-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540598,
+   "utcDate": "2026-02-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540600,
+   "utcDate": "2026-02-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540601,
+   "utcDate": "2026-02-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540603,
+   "utcDate": "2026-02-14T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540602,
+   "utcDate": "2026-02-15T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540599,
+   "utcDate": "2026-02-15T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540612,
+   "utcDate": "2026-02-20T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540604,
+   "utcDate": "2026-02-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540605,
+   "utcDate": "2026-02-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540610,
+   "utcDate": "2026-02-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540611,
+   "utcDate": "2026-02-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540606,
+   "utcDate": "2026-02-21T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540609,
+   "utcDate": "2026-02-22T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540607,
+   "utcDate": "2026-02-22T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540608,
+   "utcDate": "2026-02-22T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540621,
+   "utcDate": "2026-02-27T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540615,
+   "utcDate": "2026-02-28T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540618,
+   "utcDate": "2026-02-28T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540619,
+   "utcDate": "2026-02-28T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540620,
+   "utcDate": "2026-02-28T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540613,
+   "utcDate": "2026-02-28T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540617,
+   "utcDate": "2026-03-01T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540614,
+   "utcDate": "2026-03-01T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540616,
+   "utcDate": "2026-03-01T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540558,
+   "utcDate": "2026-03-04T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540627,
+   "utcDate": "2026-03-06T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540622,
+   "utcDate": "2026-03-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540626,
+   "utcDate": "2026-03-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540628,
+   "utcDate": "2026-03-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540629,
+   "utcDate": "2026-03-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540630,
+   "utcDate": "2026-03-07T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540624,
+   "utcDate": "2026-03-07T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540623,
+   "utcDate": "2026-03-08T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540625,
+   "utcDate": "2026-03-08T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540637,
+   "utcDate": "2026-03-13T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540631,
+   "utcDate": "2026-03-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540634,
+   "utcDate": "2026-03-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540635,
+   "utcDate": "2026-03-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540638,
+   "utcDate": "2026-03-14T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540639,
+   "utcDate": "2026-03-14T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540632,
+   "utcDate": "2026-03-15T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540636,
+   "utcDate": "2026-03-15T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540633,
+   "utcDate": "2026-03-15T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540647,
+   "utcDate": "2026-03-20T19:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 5,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540640,
+   "utcDate": "2026-03-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540643,
+   "utcDate": "2026-03-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540645,
+   "utcDate": "2026-03-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540646,
+   "utcDate": "2026-03-21T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540648,
+   "utcDate": "2026-03-21T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540641,
+   "utcDate": "2026-03-22T14:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540642,
+   "utcDate": "2026-03-22T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540644,
+   "utcDate": "2026-03-22T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 5
+    }
+   }
+  },
+  {
+   "id": 540649,
+   "utcDate": "2026-04-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540651,
+   "utcDate": "2026-04-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540652,
+   "utcDate": "2026-04-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540653,
+   "utcDate": "2026-04-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 6,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540654,
+   "utcDate": "2026-04-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540656,
+   "utcDate": "2026-04-04T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540650,
+   "utcDate": "2026-04-04T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540655,
+   "utcDate": "2026-04-05T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540657,
+   "utcDate": "2026-04-05T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540665,
+   "utcDate": "2026-04-10T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540659,
+   "utcDate": "2026-04-11T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540660,
+   "utcDate": "2026-04-11T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540663,
+   "utcDate": "2026-04-11T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540664,
+   "utcDate": "2026-04-11T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540658,
+   "utcDate": "2026-04-11T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 5
+    }
+   }
+  },
+  {
+   "id": 540662,
+   "utcDate": "2026-04-12T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540666,
+   "utcDate": "2026-04-12T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540661,
+   "utcDate": "2026-04-12T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540673,
+   "utcDate": "2026-04-17T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540674,
+   "utcDate": "2026-04-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540675,
+   "utcDate": "2026-04-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540667,
+   "utcDate": "2026-04-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540671,
+   "utcDate": "2026-04-18T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540669,
+   "utcDate": "2026-04-18T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540672,
+   "utcDate": "2026-04-19T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540670,
+   "utcDate": "2026-04-19T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540668,
+   "utcDate": "2026-04-19T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540682,
+   "utcDate": "2026-04-24T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540676,
+   "utcDate": "2026-04-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 4
+    }
+   }
+  },
+  {
+   "id": 540677,
+   "utcDate": "2026-04-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540678,
+   "utcDate": "2026-04-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540681,
+   "utcDate": "2026-04-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540683,
+   "utcDate": "2026-04-25T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540684,
+   "utcDate": "2026-04-25T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540680,
+   "utcDate": "2026-04-26T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540679,
+   "utcDate": "2026-04-26T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540688,
+   "utcDate": "2026-05-02T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540690,
+   "utcDate": "2026-05-02T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540691,
+   "utcDate": "2026-05-02T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 3,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540692,
+   "utcDate": "2026-05-02T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540693,
+   "utcDate": "2026-05-02T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540687,
+   "utcDate": "2026-05-02T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540686,
+   "utcDate": "2026-05-03T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540685,
+   "utcDate": "2026-05-03T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540689,
+   "utcDate": "2026-05-03T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540696,
+   "utcDate": "2026-05-08T18:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "awayTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540695,
+   "utcDate": "2026-05-09T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "awayTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540698,
+   "utcDate": "2026-05-09T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "awayTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540699,
+   "utcDate": "2026-05-09T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "awayTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540701,
+   "utcDate": "2026-05-09T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "awayTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540694,
+   "utcDate": "2026-05-09T16:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "awayTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540697,
+   "utcDate": "2026-05-10T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "awayTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540702,
+   "utcDate": "2026-05-10T15:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "awayTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540700,
+   "utcDate": "2026-05-10T17:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "awayTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540703,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "awayTeam": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540704,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 44,
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim"
+   },
+   "awayTeam": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 0,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540705,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "awayTeam": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540706,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "awayTeam": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 2,
+     "away": 2
+    }
+   }
+  },
+  {
+   "id": 540707,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 20,
+    "name": "FC St. Pauli 1910",
+    "shortName": "St. Pauli"
+   },
+   "awayTeam": {
+    "id": 11,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg"
+   },
+   "score": {
+    "winner": "AWAY_TEAM",
+    "fullTime": {
+     "home": 1,
+     "away": 3
+    }
+   }
+  },
+  {
+   "id": 540708,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "awayTeam": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540709,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "awayTeam": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 540710,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "awayTeam": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 5,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 540711,
+   "utcDate": "2026-05-16T13:30:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "homeTeam": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "awayTeam": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "score": {
+    "winner": "DRAW",
+    "fullTime": {
+     "home": 1,
+     "away": 1
+    }
+   }
+  }
+ ]
+}

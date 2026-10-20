@@ -1,0 +1,400 @@
+{
+ "team": "Fulham",
+ "league": "eng.1",
+ "espn_id": "370",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "153765",
+   "name": "Bernd Leno",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 38.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 98.0,
+    "goalsConceded": 51.0
+   }
+  },
+  {
+   "id": "190974",
+   "name": "Kenny Tete",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 22.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 16.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "196081",
+   "name": "Joachim Andersen",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 7.0,
+    "appearances": 33.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 44.0
+   }
+  },
+  {
+   "id": "197163",
+   "name": "Timothy Castagne",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 30.0,
+    "subIns": 10.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 14.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "222396",
+   "name": "Antonee Robinson",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 22.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "230963",
+   "name": "Issa Diop",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 13.0,
+    "subIns": 5.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "252031",
+   "name": "Jorge Cuenca",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 15.0,
+    "subIns": 4.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 11.0
+   }
+  },
+  {
+   "id": "263110",
+   "name": "Calvin Bassey",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 30.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 13.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "140033",
+   "name": "Tom Cairney",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 24.0,
+    "subIns": 18.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 17.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "175063",
+   "name": "Alex Iwobi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 39.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "193246",
+   "name": "Harrison Reed",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "218998",
+   "name": "Sander Berge",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 35.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 15.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "222300",
+   "name": "Sasa Lukic",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 26.0,
+    "subIns": 6.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 18.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "241328",
+   "name": "Ryan Sessegnon",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 27.0,
+    "subIns": 7.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "266697",
+   "name": "Emile Smith Rowe",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 37.0,
+    "subIns": 15.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 36.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "307111",
+   "name": "Oscar Bobb",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 23.0,
+    "subIns": 12.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "330764",
+   "name": "Kevin",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 26.0,
+    "subIns": 17.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 25.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 15.0
+   }
+  },
+  {
+   "id": "409541",
+   "name": "Josh King",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 32.0,
+    "subIns": 17.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 26.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 18.0
+   }
+  },
+  {
+   "id": "167060",
+   "name": "Raúl Jiménez",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 36.0,
+    "subIns": 9.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 19.0,
+    "totalShots": 74.0,
+    "totalGoals": 9.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "194801",
+   "name": "Harry Wilson",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 7.0,
+    "appearances": 36.0,
+    "subIns": 4.0,
+    "goalAssists": 7.0,
+    "shotsOnTarget": 25.0,
+    "totalShots": 78.0,
+    "totalGoals": 10.0,
+    "saves": 0,
+    "goalsConceded": 38.0
+   }
+  },
+  {
+   "id": "228298",
+   "name": "Samuel Chukwueze",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 23.0,
+    "subIns": 13.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 25.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "301525",
+   "name": "Rodrigo Muniz",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 21.0,
+    "subIns": 11.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 32.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "369363",
+   "name": "Jonah Kusi-Asare",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 7.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  }
+ ]
+}

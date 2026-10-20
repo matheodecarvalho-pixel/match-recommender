@@ -1,0 +1,400 @@
+{
+ "team": "Leeds United",
+ "league": "eng.1",
+ "espn_id": "357",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "130877",
+   "name": "Karl Darlow",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 22.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 63.0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "252406",
+   "name": "Lucas Perri",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 16.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 38.0,
+    "goalsConceded": 29.0
+   }
+  },
+  {
+   "id": "223454",
+   "name": "Sam Byram",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "231863",
+   "name": "James Justin",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 29.0,
+    "subIns": 8.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 24.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "232325",
+   "name": "Joe Rodon",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 35.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 18.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 53.0
+   }
+  },
+  {
+   "id": "241317",
+   "name": "Ethan Ampadu",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 10.0,
+    "appearances": 35.0,
+    "subIns": 0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 26.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 49.0
+   }
+  },
+  {
+   "id": "243408",
+   "name": "Jayden Bogle",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 34.0,
+    "subIns": 2.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 18.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 44.0
+   }
+  },
+  {
+   "id": "246771",
+   "name": "Pascal Struijk",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 34.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 31.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 48.0
+   }
+  },
+  {
+   "id": "250166",
+   "name": "Gabriel Gudmundsson",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 32.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 18.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "271130",
+   "name": "Sebastiaan Bornauw",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 12.0,
+    "subIns": 7.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "274649",
+   "name": "Jaka Bijol",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 25.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 15.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "30116",
+   "name": "Ilia Gruev",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 23.0,
+    "subIns": 8.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "203072",
+   "name": "Daniel James",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 19.0,
+    "subIns": 13.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 14.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 16.0
+   }
+  },
+  {
+   "id": "251658",
+   "name": "Sean Longstaff",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 23.0,
+    "subIns": 13.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "253173",
+   "name": "Ao Tanaka",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 28.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 17.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "259653",
+   "name": "Brenden Aaronson",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 37.0,
+    "subIns": 7.0,
+    "goalAssists": 5.0,
+    "shotsOnTarget": 17.0,
+    "totalShots": 47.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 32.0
+   }
+  },
+  {
+   "id": "304802",
+   "name": "Anton Stach",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 29.0,
+    "subIns": 1.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 55.0,
+    "totalGoals": 5.0,
+    "saves": 0,
+    "goalsConceded": 36.0
+   }
+  },
+  {
+   "id": "318284",
+   "name": "Facundo Buonanotte",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "197717",
+   "name": "Dominic Calvert-Lewin",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 35.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 34.0,
+    "totalShots": 74.0,
+    "totalGoals": 14.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "245562",
+   "name": "Joël Piroe",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 16.0,
+    "subIns": 14.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 14.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "258956",
+   "name": "Lukas Nmecha",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 31.0,
+    "subIns": 21.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 30.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "270641",
+   "name": "Noah Okafor",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 28.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 35.0,
+    "totalGoals": 8.0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "297784",
+   "name": "Wilfried Gnonto",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 23.0,
+    "subIns": 19.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 10.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,502 @@
+{
+ "team": "Athletic Club",
+ "league": "esp.1",
+ "espn_id": "93",
+ "season": 2025,
+ "fetched": "2026-10-20",
+ "players": [
+  {
+   "id": "222375",
+   "name": "Unai Simón",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 37.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 100.0,
+    "goalsConceded": 54.0
+   }
+  },
+  {
+   "id": "347411",
+   "name": "Álex Padilla",
+   "position": "G",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 4.0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "133768",
+   "name": "Yuri Berchiche",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 5.0,
+    "appearances": 32.0,
+    "subIns": 1.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 24.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 40.0
+   }
+  },
+  {
+   "id": "159317",
+   "name": "Aymeric Laporte",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 25.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 15.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 35.0
+   }
+  },
+  {
+   "id": "217225",
+   "name": "Yeray",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "222369",
+   "name": "Iñigo Lekue",
+   "position": "D",
+   "stats": {
+    "redCards": 2.0,
+    "yellowCards": 2.0,
+    "appearances": 11.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "245839",
+   "name": "Andoni Gorosabel",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 24.0,
+    "subIns": 9.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 5.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 26.0
+   }
+  },
+  {
+   "id": "274016",
+   "name": "Dani Vivian",
+   "position": "D",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 8.0,
+    "appearances": 31.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 6.0,
+    "totalShots": 17.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 44.0
+   }
+  },
+  {
+   "id": "300876",
+   "name": "Jesús Areso",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 26.0,
+    "subIns": 12.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "308254",
+   "name": "Aitor Paredes",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 19.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 13.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 28.0
+   }
+  },
+  {
+   "id": "379707",
+   "name": "Adama Boiro",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 14.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 20.0
+   }
+  },
+  {
+   "id": "157708",
+   "name": "Iñigo Ruiz de Galarreta",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 9.0,
+    "appearances": 34.0,
+    "subIns": 4.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 20.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "222373",
+   "name": "Mikel Vesga",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 23.0,
+    "subIns": 22.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 3.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 13.0
+   }
+  },
+  {
+   "id": "276996",
+   "name": "Robert Navarro",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 32.0,
+    "subIns": 22.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 10.0,
+    "totalShots": 21.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "291616",
+   "name": "Oihan Sancet",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 28.0,
+    "subIns": 6.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 15.0,
+    "totalShots": 48.0,
+    "totalGoals": 4.0,
+    "saves": 0,
+    "goalsConceded": 25.0
+   }
+  },
+  {
+   "id": "318785",
+   "name": "Beñat Prados",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 2.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "362376",
+   "name": "Unai Gómez",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 26.0,
+    "subIns": 14.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 23.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 24.0
+   }
+  },
+  {
+   "id": "377792",
+   "name": "Mikel Jauregizar",
+   "position": "M",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 36.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 11.0,
+    "totalShots": 39.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 45.0
+   }
+  },
+  {
+   "id": "403371",
+   "name": "Alejandro Rego",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 6.0,
+    "appearances": 29.0,
+    "subIns": 18.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 12.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 23.0
+   }
+  },
+  {
+   "id": "414350",
+   "name": "Selton Sánchez",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 7.0,
+    "subIns": 5.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 4.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "415364",
+   "name": "Eder García",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 2.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "209579",
+   "name": "Álex Berenguer",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 4.0,
+    "appearances": 31.0,
+    "subIns": 6.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 44.0,
+    "totalGoals": 2.0,
+    "saves": 0,
+    "goalsConceded": 31.0
+   }
+  },
+  {
+   "id": "214412",
+   "name": "Iñaki Williams",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 30.0,
+    "subIns": 5.0,
+    "goalAssists": 6.0,
+    "shotsOnTarget": 20.0,
+    "totalShots": 57.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 34.0
+   }
+  },
+  {
+   "id": "231905",
+   "name": "Gorka Guruzeta",
+   "position": "F",
+   "stats": {
+    "redCards": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 35.0,
+    "subIns": 7.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 32.0,
+    "totalShots": 84.0,
+    "totalGoals": 10.0,
+    "saves": 0,
+    "goalsConceded": 37.0
+   }
+  },
+  {
+   "id": "312146",
+   "name": "Nico Williams",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 25.0,
+    "subIns": 5.0,
+    "goalAssists": 3.0,
+    "shotsOnTarget": 16.0,
+    "totalShots": 46.0,
+    "totalGoals": 6.0,
+    "saves": 0,
+    "goalsConceded": 27.0
+   }
+  },
+  {
+   "id": "323971",
+   "name": "Nico Serrano",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 16.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 16.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 7.0
+   }
+  },
+  {
+   "id": "354205",
+   "name": "Urko Izeta",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 2.0,
+    "appearances": 13.0,
+    "subIns": 12.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 11.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "393762",
+   "name": "Maroan Sannadi",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 1.0,
+    "appearances": 10.0,
+    "subIns": 8.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 8.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 8.0
+   }
+  },
+  {
+   "id": "414464",
+   "name": "Asier Hierro",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  }
+ ]
+}

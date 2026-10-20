@@ -49,6 +49,9 @@ jobs:
       - name: Link fixtures to ESPN games (live scores on the site)
         run: python scripts/espn_ids.py
 
+      - name: Player season stats for team pages (ESPN, only clubs that played since the last fetch)
+        run: python scripts/fetch_players.py
+
       - name: Recent form of European opponents outside our 7 leagues
         run: python scripts/fetch_team_forms.py
 
@@ -79,6 +82,8 @@ jobs:
           cp output/matches_ranked.json output/results.json data/broadcasters.json _site/
           # One subscribable season calendar per team (calendars/<team>.ics).
           python scripts/calendars.py _site/calendars
+          # One page of data per team for the My team tab (teams/<team>.json).
+          python scripts/team_pages.py _site/teams
           # A new file name for every deploy, so browsers never keep an old app.js or style.css.
           sed -i -E "s/(app\.js|style\.css)\"/\1?v=${GITHUB_SHA::7}\"/g" _site/index.html
 

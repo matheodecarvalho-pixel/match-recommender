@@ -46,7 +46,6 @@
         <span aria-hidden="true">📺</span>
         <select id="country" aria-label="Country for where to watch"></select>
       </label>
-      <button class="tool myteam-btn" id="open-myteam" type="button" aria-label="My team: season calendar"><span id="myteam-icon" aria-hidden="true">📅</span></button>
       <button class="tool fav-btn" id="open-favs" type="button" aria-label="Favourite teams">★ <span id="fav-count"></span></button>
     </div>
   </div>
@@ -57,12 +56,13 @@
   <div class="tabs" role="tablist" aria-label="View">
     <button type="button" role="tab" data-view="week" aria-selected="true">This week</button>
     <button type="button" role="tab" data-view="results" aria-selected="false">Results</button>
+    <button type="button" role="tab" data-view="team" aria-selected="false">My team</button>
   </div>
-  <div class="feed-bar">
+  <div class="feed-bar" id="feed-bar">
     <button class="feed-btn" id="open-feed" type="button"><span>✨ My Feed</span> <span id="feed-name"></span></button>
     <button class="feed-btn style-btn" id="open-style" type="button"><span>🎨 My Style</span> <span id="style-name"></span></button>
   </div>
-  <div class="filter-row">
+  <div class="filter-row" id="filter-row">
     <button type="button" class="filter-btn" id="open-comps"><span aria-hidden="true">⛃</span> <span id="comps-label">All competitions</span> <span aria-hidden="true">▾</span></button>
     <div class="sort" role="group" aria-label="Order of matches in each day">
       <button type="button" data-sort="score" aria-pressed="true">Best first</button>
@@ -72,6 +72,8 @@
 </div>
 
 <main class="wrap" id="days" aria-live="polite"></main>
+
+<main class="wrap" id="team" hidden></main>
 
 <main class="wrap" id="results" hidden>
   <div class="results-tools">
@@ -133,19 +135,6 @@
       <button type="button" class="link inline" id="comps-all">Show all</button>
       <button type="button" class="link inline" id="comps-none">Hide all</button>
     </div>
-  </form>
-</dialog>
-
-<dialog id="myteam">
-  <form method="dialog" class="fav-panel">
-    <div class="fav-head">
-      <h2>My team</h2>
-      <button class="close" value="close" aria-label="Close">×</button>
-    </div>
-    <div id="myteam-chosen"></div>
-    <p class="hint" id="myteam-hint">Pick the team you follow and add its whole season to your calendar.</p>
-    <input type="search" id="myteam-search" placeholder="Search teams" autocomplete="off" aria-label="Search teams">
-    <div class="fav-list" id="myteam-list"></div>
   </form>
 </dialog>
 
