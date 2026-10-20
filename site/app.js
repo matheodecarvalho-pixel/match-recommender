@@ -191,7 +191,9 @@ function watchInfo(m) {
   const entry = tv.rights?.[m.competition]?.[country];
   if (!entry) return null;
   // Some channels only show the final (M6 has the Champions League final in France).
-  const channels = m.stage === "FINAL" && entry.final ? [...entry.channels, ...entry.final] : entry.channels;
+  // Some clubs sell their own home games (Benfica on BTV); the final can add a free channel (M6).
+  const base = entry.home_channels?.[m.home] || entry.channels;
+  const channels = m.stage === "FINAL" && entry.final ? [...base, ...entry.final] : base;
   return { ...entry, channels, perMatch: false };
 }
 

@@ -1,5 +1,5 @@
 {
- "_about": "Researched where-to-watch entries for gaps in the Wikipedia tables (domestic rights and competitions without a table). Each entry has its source and the date it was checked. These win over Wikipedia for the same competition and country. Left out on purpose because no clear 2026-27 source was found: Serie A in Italy, Primeira Liga in Portugal and France, Bundesliga in Portugal.",
+ "_about": "Researched where-to-watch entries for gaps in the Wikipedia tables (domestic rights and competitions without a table). Each entry has its source and the date it was checked. These win over Wikipedia for the same competition and country. Sources are official league sites where they list channels (Serie A, Liga Portugal), else TV guides.",
  "rights": {
   "Premier League": {
    "GB": {
@@ -73,6 +73,13 @@
     ],
     "source": "https://cybernews.com/stream-online/how-to-watch-2-bundesliga-2026-27-live-streams-and-tv-channels/",
     "checked": "2026-10-18"
+   },
+   "PT": {
+    "channels": [
+     "DAZN"
+    ],
+    "source": "https://www.abola.pt/noticias/onde-da-a-bola-hoje-pode-ver-em-direto-na-tv-2026101012511255479",
+    "checked": "2026-10-20"
    }
   },
   "Eredivisie": {
@@ -114,6 +121,28 @@
     ],
     "source": "https://worldsoccertalk.com/primeira-liga-tv-schedule/",
     "checked": "2026-10-18"
+   },
+   "PT": {
+    "channels": [
+     "Sport TV"
+    ],
+    "home_channels": {
+     "Benfica": [
+      "BTV"
+     ],
+     "Moreirense": [
+      "TVI"
+     ]
+    },
+    "source": "https://www.ligaportugal.pt/noticias/28531/horarios-definidos-ate-a-12.a-jornada",
+    "checked": "2026-10-20"
+   },
+   "FR": {
+    "channels": [
+     "beIN SPORTS"
+    ],
+    "source": "https://www.footmercato.net/programme-tv/portugal/primeira-liga",
+    "checked": "2026-10-20"
    }
   },
   "Europa League": {
@@ -202,6 +231,16 @@
     "final": [
      "M6"
     ]
+   }
+  },
+  "Serie A": {
+   "IT": {
+    "channels": [
+     "DAZN",
+     "Sky"
+    ],
+    "source": "https://www.legaseriea.it/it/serie-a",
+    "checked": "2026-10-20"
    }
   }
  }

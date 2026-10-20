@@ -36,6 +36,8 @@ HISTORY = ROOT / "output" / "europe_history"
 HISTORY_MONTHS = 13  # club revenge looks back 12 months; one extra for safety
 AHEAD_MONTHS = 9  # fixtures for team calendars: this month to the end of the season
 OUT = ROOT / "output" / "europe_matches.json"
+H2H = ROOT / "output" / "h2h_espn.json"
+H2H_DAYS = 8  # head-to-heads for the coming week's games (team pages)
 
 STATUS = {"STATUS_SCHEDULED": "scheduled", "STATUS_FULL_TIME": "finished",
           "STATUS_FINAL_AET": "finished", "STATUS_FINAL_PEN": "finished",
@@ -142,6 +144,36 @@ def fixtures_ahead(fetcher, slug, name, today, warnings):
     return out
 
 
+def head_to_heads(fetcher, matches, today, warnings):
+    """Last meetings (ESPN's "season series", up to 5) for each Europa/Conference League game in the
+    coming days, kept per game; fetched once."""
+    cache = json.loads(H2H.read_text(encoding="utf-8")) if H2H.exists() else {}
+    horizon = (datetime.combine(today, datetime.min.time(), tzinfo=timezone.utc) + timedelta(days=H2H_DAYS)).isoformat()
+    slugs = {name: slug for slug, name in COMPETITIONS.items()}
+    for m in matches:
+        if m["status"] != "scheduled" or m["id"] in cache or m["kickoff_utc"] > horizon:
+            continue
+        try:
+            data = fetcher.get(f"{BASE}/site/v2/sports/soccer/{slugs[m['competition']]}/summary", event=m["id"])
+        except requests.RequestException as e:
+            warnings.append(f"head-to-head {m['home']} v {m['away']}: request failed ({e})")
+            continue
+        meetings = []
+        for series in data.get("seasonseries") or []:
+            if series.get("type") != "head-to-head":
+                continue
+            for e in series.get("events", []):
+                if not (e.get("statusType") or {}).get("completed"):
+                    continue
+                side = {c["homeAway"]: c for c in e["competitors"]}
+                meetings.append({"date": e["date"][:10], "competition": e.get("competitionName") or "",
+                                 "home_espn_id": side["home"]["team"]["id"], "away_espn_id": side["away"]["team"]["id"],
+                                 "home_goals": int(side["home"].get("score") or 0), "away_goals": int(side["away"].get("score") or 0)})
+        cache[m["id"]] = {"fetched": today.isoformat(), "home_espn_id": m["home_espn_id"],
+                          "away_espn_id": m["away_espn_id"], "meetings": meetings}
+    H2H.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+
 def past_months(today, count):
     """First day of each of the `count` months before the current one, oldest first."""
     months, y, m = [], today.year, today.month
@@ -203,6 +235,7 @@ def run(back=3, ahead=10, since=None):
             "fixtures_ahead": sorted({m["id"]: m for m in later}.values(), key=lambda m: m["kickoff_utc"]),
             # Finished matches from the months before this one (club revenge looks back a year).
             "history": sorted({m["id"]: m for m in history}.values(), key=lambda m: m["kickoff_utc"])}
+    head_to_heads(fetcher, data["matches"], today, warnings)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(data['matches'])} matches saved to {OUT.relative_to(ROOT)}")

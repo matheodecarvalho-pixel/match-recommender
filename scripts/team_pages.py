@@ -174,7 +174,7 @@ def players(team):
 
 # ---------- the page ----------
 
-def team_page(team, inp, ranked, archive, before, h2h):
+def team_page(team, inp, ranked, archive, before, h2h, h2h_espn):
     matches = sorted((m for m in inp["matches"] if team in (m["home"], m["away"])), key=lambda m: m["kickoff_utc"])
     played = [m for m in matches if m["status"] == "finished" and m["home_goals"] is not None]
     upcoming = [m for m in matches if m["status"] == "upcoming"]
@@ -262,7 +262,15 @@ def team_page(team, inp, ranked, archive, before, h2h):
                 f, a = (x["home_goals"], x["away_goals"]) if home else (x["away_goals"], x["home_goals"])
                 meetings.append({"date": x["date"], "competition": x["competition"], "at_home": home,
                                  "score": f"{f}-{a}", "result": result(f, a)})
-        else:
+        elif nxt["id"].startswith("espn-") and nxt["id"][5:] in h2h_espn:
+            entry = h2h_espn[nxt["id"][5:]]
+            mine = entry["home_espn_id"] if nxt["home"] == team else entry["away_espn_id"]
+            for x in entry["meetings"]:
+                home = x["home_espn_id"] == mine
+                f, a = (x["home_goals"], x["away_goals"]) if home else (x["away_goals"], x["home_goals"])
+                meetings.append({"date": x["date"], "competition": x["competition"], "at_home": home,
+                                 "score": f"{f}-{a}", "result": result(f, a)})
+        if not meetings:
             for m in before + [{**m, "kickoff": m["kickoff_utc"].isoformat()} for m in played]:
                 if {m["home"], m["away"]} == {team, opp}:
                     f, a = (m["home_goals"], m["away_goals"]) if m["home"] == team else (m["away_goals"], m["home_goals"])
@@ -329,10 +337,12 @@ def main(out_dir):
     archive = json.loads(archive_path.read_text(encoding="utf-8")) if archive_path.exists() else {}
     h2h_path = OUTPUT / "h2h_next.json"
     h2h = json.loads(h2h_path.read_text(encoding="utf-8")) if h2h_path.exists() else {}
+    espn_path = OUTPUT / "h2h_espn.json"
+    h2h_espn = json.loads(espn_path.read_text(encoding="utf-8")) if espn_path.exists() else {}
     before = last_season(registry)
     teams = {t for m in inp["matches"] for t in (m["home"], m["away"])}
     for team in sorted(teams):
-        page = team_page(team, inp, ranked, archive, before, h2h)
+        page = team_page(team, inp, ranked, archive, before, h2h, h2h_espn)
         (out / f"{slug(team)}.json").write_text(json.dumps(page, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(teams)} team pages written to {out}")
 
