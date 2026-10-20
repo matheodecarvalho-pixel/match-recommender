@@ -44,7 +44,10 @@ def load_fd(raw_dir, registry):
                 "kickoff_utc": _utc(m["utcDate"]),
                 "home": registry.from_fd(m["homeTeam"]), "away": registry.from_fd(m["awayTeam"]),
                 "status": status, "home_goals": full.get("home"), "away_goals": full.get("away"),
-                "fd_ids": (m["homeTeam"]["id"], m["awayTeam"]["id"])})
+                "fd_ids": (m["homeTeam"]["id"], m["awayTeam"]["id"]),
+                # SCHEDULED means the date is set but not the kickoff time (it shows as 00:00).
+                "time_confirmed": m["status"] != "SCHEDULED",
+                "postponed": m["status"] in ("POSTPONED", "SUSPENDED", "CANCELLED")})
         spath = raw_dir / f"{code}_standings.json"
         if spath.exists():
             for s in json.loads(spath.read_text(encoding="utf-8"))["standings"]:
@@ -63,7 +66,9 @@ def load_europe(path, registry):
                       "played": r["played"], "points": r["points"]} for r in rows]
               for comp, rows in data.get("standings", {}).items() if rows}
     matches = []
-    for m in data["matches"]:
+    # The rest of the season's fixtures (team calendars); the daily window wins for the same game.
+    seen = {m["id"] for m in data["matches"]}
+    for m in data["matches"] + [f for f in data.get("fixtures_ahead", []) if f["id"] not in seen]:
         for side in ("home", "away"):
             CRESTS.setdefault(registry.from_espn(m[f"{side}_espn_id"], m[side]), ESPN_LOGO.format(m[f"{side}_espn_id"]))
         status = {"finished": "finished", "scheduled": "upcoming", "live": "upcoming"}.get(m["status"], "other")
@@ -72,7 +77,8 @@ def load_europe(path, registry):
             "kickoff_utc": _utc(m["kickoff_utc"]),
             "home": registry.from_espn(m["home_espn_id"], m["home"]),
             "away": registry.from_espn(m["away_espn_id"], m["away"]),
-            "status": status, "home_goals": m.get("home_goals"), "away_goals": m.get("away_goals")})
+            "status": status, "home_goals": m.get("home_goals"), "away_goals": m.get("away_goals"),
+            "time_confirmed": True, "postponed": m["status"] in ("postponed", "cancelled")})
     return matches, tables, list(data.get("warnings", []))
 
 

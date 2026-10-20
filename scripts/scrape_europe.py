@@ -34,6 +34,7 @@ DELAY_SECONDS = 4
 CACHE = ROOT / "output" / "europe_cache"
 HISTORY = ROOT / "output" / "europe_history"
 HISTORY_MONTHS = 13  # club revenge looks back 12 months; one extra for safety
+AHEAD_MONTHS = 9  # fixtures for team calendars: this month to the end of the season
 OUT = ROOT / "output" / "europe_matches.json"
 
 STATUS = {"STATUS_SCHEDULED": "scheduled", "STATUS_FULL_TIME": "finished",
@@ -125,6 +126,22 @@ def month_matches(fetcher, slug, name, month, today, warnings):
     return matches
 
 
+def fixtures_ahead(fetcher, slug, name, today, warnings):
+    """The rest of the season's fixtures, one request per month (for team calendars). Never cached:
+    kickoff times and dates move."""
+    out, y, m = [], today.year, today.month
+    for _ in range(AHEAD_MONTHS):
+        try:
+            data = fetcher.get(f"{BASE}/site/v2/sports/soccer/{slug}/scoreboard", dates=f"{y}{m:02d}", limit=300)
+            out.extend(r for r in parse(data, name) if r["status"] != "finished")
+        except requests.RequestException as e:
+            warnings.append(f"{name} {y}-{m:02d} fixtures: request failed ({e})")
+        y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+        if (y, m) > (today.year + (today.month > 6), 6):
+            break  # the season ends in May
+    return out
+
+
 def past_months(today, count):
     """First day of each of the `count` months before the current one, oldest first."""
     months, y, m = [], today.year, today.month
@@ -157,7 +174,7 @@ def run(back=3, ahead=10, since=None):
     fetcher = Fetcher()
     today = date.today()
     start = since or today - timedelta(days=back)
-    found, history, tables, warnings = [], [], {}, []
+    found, history, later, tables, warnings = [], [], [], {}, []
     for slug, name in COMPETITIONS.items():
         for month in past_months(today, HISTORY_MONTHS):
             history.extend(month_matches(fetcher, slug, name, month, today, warnings))
@@ -176,11 +193,14 @@ def run(back=3, ahead=10, since=None):
         if not window and (today.month >= 9 or today.month <= 5):
             warnings.append(f"{name}: 0 matches between {back} days ago and {ahead} days ahead")
         tables[name] = standings(fetcher, slug, name, warnings)
+        later.extend(fixtures_ahead(fetcher, slug, name, today, warnings))
 
     unique = {m["id"]: m for m in found}
     data = {"fetched_at": datetime.now(PARIS).isoformat(), "source": "ESPN public JSON feed",
             "matches": sorted(unique.values(), key=lambda m: (m["kickoff_utc"], m["competition"], m["home"])),
             "standings": tables, "warnings": warnings,
+            # Every fixture still to play this season, for the team calendars.
+            "fixtures_ahead": sorted({m["id"]: m for m in later}.values(), key=lambda m: m["kickoff_utc"]),
             # Finished matches from the months before this one (club revenge looks back a year).
             "history": sorted({m["id"]: m for m in history}.values(), key=lambda m: m["kickoff_utc"])}
     OUT.parent.mkdir(parents=True, exist_ok=True)

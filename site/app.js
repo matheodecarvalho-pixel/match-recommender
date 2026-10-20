@@ -750,6 +750,77 @@ function setupFavourites() {
   document.getElementById("open-favs").addEventListener("click", () => { draw(); dialog.showModal(); });
 }
 
+// ---------- My team: a season calendar to subscribe to ----------
+
+const MYTEAM_KEY = "mr.myTeam";
+const EUROPEAN = new Set(["Champions League", "Europa League", "Conference League"]);
+
+function setupMyTeam() {
+  const dialog = document.getElementById("myteam");
+  const list = document.getElementById("myteam-list");
+  const search = document.getElementById("myteam-search");
+  const chosen = document.getElementById("myteam-chosen");
+  let index = null;
+  let mine = load(MYTEAM_KEY, null);
+
+  const feedUrl = row => new URL(`calendars/${row.file}`, location.href).href;
+  const webcal = row => feedUrl(row).replace(/^https?:/, "webcal:");
+
+  function paintButton() {
+    const row = index?.find(r => r.team === mine);
+    const icon = document.getElementById("myteam-icon");
+    const img = row?.crest ? el("img", { src: row.crest, alt: "", width: "20", height: "20", class: "myteam-crest" }) : null;
+    icon.replaceChildren(img || "📅");
+  }
+
+  function drawChosen() {
+    const row = index?.find(r => r.team === mine);
+    document.getElementById("myteam-hint").hidden = !!row;
+    if (!row) { chosen.replaceChildren(); return; }
+    const copy = el("button", { type: "button", class: "cal-link" }, "Copy the calendar link");
+    copy.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(feedUrl(row)); copy.textContent = "Link copied"; }
+      catch { copy.textContent = feedUrl(row); }
+    });
+    const only = row.competitions.every(c => EUROPEAN.has(c)) ? " (European matches only: we don't follow its league)" : "";
+    chosen.replaceChildren(el("div", { class: "myteam-card" },
+      el("div", { class: "myteam-head" }, crest(row.team), el("strong", {}, row.team),
+        el("button", { type: "button", class: "link inline", onclick: () => { mine = null; save(MYTEAM_KEY, null); paintButton(); drawChosen(); draw(); } }, "Change")),
+      el("p", { class: "hint" }, `Every ${row.team} match this season${only}: ${row.competitions.join(", ")}. A reminder 1 hour before kickoff. Moved or postponed matches update in your calendar on their own.`),
+      el("div", { class: "cal-links" },
+        el("a", { class: "cal-link primary", href: webcal(row) }, "Apple Calendar (iPhone, Mac)"),
+        el("a", { class: "cal-link", href: "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal(row)), target: "_blank", rel: "noopener" }, "Google Calendar"),
+        el("a", { class: "cal-link", href: `https://outlook.live.com/calendar/0/addfromweb?url=${encodeURIComponent(feedUrl(row))}&name=${encodeURIComponent(row.team + " · eyeball")}`, target: "_blank", rel: "noopener" }, "Outlook"),
+        copy),
+      el("p", { class: "hint" }, "Google Calendar doesn't use a subscribed calendar's own reminders: in its settings, open this calendar and add a notification 1 hour before. Matches without a kickoff time yet show as all-day until the league sets it.")));
+  }
+
+  function draw() {
+    if (!index) return;
+    search.hidden = !!mine && !!index.find(r => r.team === mine);
+    list.hidden = search.hidden;
+    if (list.hidden) return;
+    const q = fold(search.value.trim());
+    list.replaceChildren(...index.filter(r => fold(r.team).includes(q)).map(r =>
+      el("button", { type: "button", class: "team-pick", onclick: () => { mine = r.team; save(MYTEAM_KEY, mine); search.value = ""; paintButton(); drawChosen(); draw(); } },
+        crest(r.team) || el("span", { class: "crest-gap small" }), el("span", {}, r.team), el("span", { class: "quiet" }, r.competitions.join(" · ")))));
+  }
+
+  search.addEventListener("input", draw);
+  document.getElementById("open-myteam").addEventListener("click", async () => {
+    dialog.showModal();
+    if (!index) {
+      list.replaceChildren(el("p", { class: "quiet" }, "Loading teams…"));
+      index = await fetchJson(["calendars/index.json"]);
+      if (!index) { list.replaceChildren(el("p", { class: "empty" }, "Couldn't load the team list. Try again in a moment.")); return; }
+      for (const r of index) if (r.crest) crests[r.team] ??= r.crest;
+    }
+    drawChosen();
+    draw();
+  });
+  if (mine) fetchJson(["calendars/index.json"]).then(i => { index = i; paintButton(); });
+}
+
 // ---------- My Feed panel ----------
 
 function saveFeed() {
@@ -957,6 +1028,7 @@ Promise.all([fetchData(), fetchJson(TV_SOURCES)]).then(([d, t]) => {
     `${d.matches.length} matches in the next ${d.window_days} days · updated ${dayFmt.format(when)}, ${timeFmt.format(when)}`;
   renderChips();
   setupFavourites();
+  setupMyTeam();
   setupFeed();
   setupStyle();
   setupTabs();

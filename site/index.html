@@ -46,6 +46,7 @@
         <span aria-hidden="true">📺</span>
         <select id="country" aria-label="Country for where to watch"></select>
       </label>
+      <button class="tool myteam-btn" id="open-myteam" type="button" aria-label="My team: season calendar"><span id="myteam-icon" aria-hidden="true">📅</span></button>
       <button class="tool fav-btn" id="open-favs" type="button" aria-label="Favourite teams">★ <span id="fav-count"></span></button>
     </div>
   </div>
@@ -132,6 +133,19 @@
       <button type="button" class="link inline" id="comps-all">Show all</button>
       <button type="button" class="link inline" id="comps-none">Hide all</button>
     </div>
+  </form>
+</dialog>
+
+<dialog id="myteam">
+  <form method="dialog" class="fav-panel">
+    <div class="fav-head">
+      <h2>My team</h2>
+      <button class="close" value="close" aria-label="Close">×</button>
+    </div>
+    <div id="myteam-chosen"></div>
+    <p class="hint" id="myteam-hint">Pick the team you follow and add its whole season to your calendar.</p>
+    <input type="search" id="myteam-search" placeholder="Search teams" autocomplete="off" aria-label="Search teams">
+    <div class="fav-list" id="myteam-list"></div>
   </form>
 </dialog>
 
