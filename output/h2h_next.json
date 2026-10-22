@@ -1775,6 +1775,31 @@
    }
   ]
  },
+ "470-5890": {
+  "fetched": "2026-10-22",
+  "meetings": [
+   {
+    "away": "US Lecce",
+    "away_goals": 1,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2024-03-03",
+    "home": "Frosinone Calcio",
+    "home_goals": 1,
+    "home_id": 470
+   },
+   {
+    "away": "Frosinone Calcio",
+    "away_goals": 1,
+    "away_id": 470,
+    "competition": "Serie A",
+    "date": "2023-12-16",
+    "home": "US Lecce",
+    "home_goals": 2,
+    "home_id": 5890
+   }
+  ]
+ },
  "471-7397": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -6366,6 +6391,91 @@
     "home": "Udinese Calcio",
     "home_goals": 1,
     "home_id": 115
+   }
+  ]
+ },
+ "99-102": {
+  "fetched": "2026-10-22",
+  "meetings": [
+   {
+    "away": "Atalanta BC",
+    "away_goals": 1,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2026-05-22",
+    "home": "ACF Fiorentina",
+    "home_goals": 1,
+    "home_id": 99
+   },
+   {
+    "away": "ACF Fiorentina",
+    "away_goals": 0,
+    "away_id": 99,
+    "competition": "Serie A",
+    "date": "2025-11-30",
+    "home": "Atalanta BC",
+    "home_goals": 2,
+    "home_id": 102
+   },
+   {
+    "away": "Atalanta BC",
+    "away_goals": 0,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2025-03-30",
+    "home": "ACF Fiorentina",
+    "home_goals": 1,
+    "home_id": 99
+   },
+   {
+    "away": "ACF Fiorentina",
+    "away_goals": 2,
+    "away_id": 99,
+    "competition": "Serie A",
+    "date": "2024-09-15",
+    "home": "Atalanta BC",
+    "home_goals": 3,
+    "home_id": 102
+   },
+   {
+    "away": "ACF Fiorentina",
+    "away_goals": 3,
+    "away_id": 99,
+    "competition": "Serie A",
+    "date": "2024-06-02",
+    "home": "Atalanta BC",
+    "home_goals": 2,
+    "home_id": 102
+   },
+   {
+    "away": "Atalanta BC",
+    "away_goals": 2,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2023-09-17",
+    "home": "ACF Fiorentina",
+    "home_goals": 3,
+    "home_id": 99
+   },
+   {
+    "away": "Atalanta BC",
+    "away_goals": 1,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2023-04-17",
+    "home": "ACF Fiorentina",
+    "home_goals": 1,
+    "home_id": 99
+   },
+   {
+    "away": "ACF Fiorentina",
+    "away_goals": 0,
+    "away_id": 99,
+    "competition": "Serie A",
+    "date": "2022-10-02",
+    "home": "Atalanta BC",
+    "home_goals": 1,
+    "home_id": 102
    }
   ]
  },
