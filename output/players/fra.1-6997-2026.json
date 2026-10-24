@@ -3,7 +3,7 @@
  "league": "fra.1",
  "espn_id": "6997",
  "season": 2026,
- "fetched": "2026-10-20",
+ "fetched": "2026-10-24",
  "players": [
   {
    "id": "286433",
@@ -326,6 +326,23 @@
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 0
+   }
+  },
+  {
+   "id": "398380",
+   "name": "Djylian N'Guessan",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
    }
   },
   {

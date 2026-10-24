@@ -3,7 +3,7 @@
  "league": "ger.1",
  "espn_id": "268",
  "season": 2026,
- "fetched": "2026-10-20",
+ "fetched": "2026-10-24",
  "players": [
   {
    "id": "238536",
@@ -12,14 +12,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
-    "saves": 33.0,
-    "goalsConceded": 20.0
+    "saves": 36.0,
+    "goalsConceded": 22.0
    }
   },
   {
@@ -63,14 +63,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 4.0,
+    "appearances": 5.0,
     "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 1.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 9.0
    }
   },
   {
@@ -79,15 +79,49 @@
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 6.0,
+    "yellowCards": 2.0,
+    "appearances": 7.0,
+    "subIns": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 7.0,
+    "totalGoals": 3.0,
+    "saves": 0,
+    "goalsConceded": 14.0
+   }
+  },
+  {
+   "id": "276082",
+   "name": "Yukhym Konoplia",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
     "subIns": 1.0,
     "goalAssists": 0,
-    "shotsOnTarget": 2.0,
-    "totalShots": 6.0,
-    "totalGoals": 2.0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 13.0
+    "goalsConceded": 1.0
+   }
+  },
+  {
+   "id": "291817",
+   "name": "Lion Schweers",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
    }
   },
   {
@@ -97,14 +131,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 2.0,
+    "appearances": 3.0,
     "subIns": 1.0,
     "goalAssists": 0,
-    "shotsOnTarget": 0,
-    "totalShots": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 2.0
+    "goalsConceded": 3.0
    }
   },
   {
@@ -114,14 +148,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 3.0,
-    "subIns": 2.0,
+    "appearances": 4.0,
+    "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 8.0
    }
   },
   {
@@ -130,15 +164,15 @@
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 5.0,
+    "yellowCards": 2.0,
+    "appearances": 6.0,
     "subIns": 0,
     "goalAssists": 2.0,
     "shotsOnTarget": 1.0,
     "totalShots": 8.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 13.0
+    "goalsConceded": 15.0
    }
   },
   {
@@ -198,15 +232,15 @@
    "position": "M",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 3.0,
+    "yellowCards": 2.0,
+    "appearances": 4.0,
     "subIns": 0,
     "goalAssists": 1.0,
-    "shotsOnTarget": 2.0,
-    "totalShots": 3.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 6.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 8.0
    }
   },
   {
@@ -216,14 +250,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 6.0,
-    "subIns": 3.0,
+    "appearances": 7.0,
+    "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
-    "totalShots": 2.0,
+    "totalShots": 3.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 8.0
+    "goalsConceded": 9.0
    }
   },
   {
@@ -233,14 +267,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
     "totalShots": 10.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 20.0
+    "goalsConceded": 22.0
    }
   },
   {
@@ -250,14 +284,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 6.0,
-    "totalShots": 16.0,
+    "totalShots": 18.0,
     "totalGoals": 2.0,
     "saves": 0,
-    "goalsConceded": 16.0
+    "goalsConceded": 18.0
    }
   },
   {
@@ -266,15 +300,15 @@
    "position": "M",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 2.0,
+    "yellowCards": 2.0,
+    "appearances": 3.0,
     "subIns": 1.0,
-    "goalAssists": 0,
+    "goalAssists": 1.0,
     "shotsOnTarget": 0,
-    "totalShots": 1.0,
+    "totalShots": 2.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 2.0
+    "goalsConceded": 4.0
    }
   },
   {
@@ -284,8 +318,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 4.0,
-    "subIns": 3.0,
+    "appearances": 5.0,
+    "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 2.0,
@@ -301,14 +335,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 3.0,
-    "goalAssists": 0,
-    "shotsOnTarget": 3.0,
-    "totalShots": 7.0,
-    "totalGoals": 1.0,
+    "goalAssists": 1.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 11.0,
+    "totalGoals": 2.0,
     "saves": 0,
-    "goalsConceded": 12.0
+    "goalsConceded": 13.0
    }
   },
   {
@@ -386,14 +420,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 3.0,
-    "appearances": 4.0,
+    "appearances": 5.0,
     "subIns": 4.0,
     "goalAssists": 0,
-    "shotsOnTarget": 1.0,
-    "totalShots": 6.0,
-    "totalGoals": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 9.0,
+    "totalGoals": 2.0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 8.0
    }
   },
   {
