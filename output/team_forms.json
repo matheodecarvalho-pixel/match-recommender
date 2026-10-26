@@ -972,7 +972,7 @@
   "name": "Torreense"
  },
  "21922": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-07-14T17:30Z",
@@ -1531,7 +1531,7 @@
   "name": "RB Salzburg"
  },
  "2980": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-08-30T12:30Z",
@@ -2028,7 +2028,7 @@
   "name": "SK Sturm Graz"
  },
  "432": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-08-29T18:30Z",
@@ -2221,7 +2221,7 @@
   "name": "Olympiacos"
  },
  "436": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-08-30T18:30Z",
@@ -2373,15 +2373,8 @@
   "name": "Anderlecht"
  },
  "4411": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
-   {
-    "date": "2026-08-29T17:30Z",
-    "ga": 0,
-    "gf": 3,
-    "league": "Austrian Bundesliga",
-    "opponent": "SC Rheindorf Altach"
-   },
    {
     "date": "2026-09-01T17:30Z",
     "ga": 1,
@@ -2444,6 +2437,13 @@
     "gf": 3,
     "league": "UEFA Champions League",
     "opponent": "Sporting CP"
+   },
+   {
+    "date": "2026-10-25T16:00Z",
+    "ga": 3,
+    "gf": 1,
+    "league": "Austrian Bundesliga",
+    "opponent": "RB Salzburg"
    }
   ],
   "name": "LASK Linz"
@@ -2670,7 +2670,7 @@
   "name": "Levski Sofia"
  },
  "493": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-09-10T16:45Z",
@@ -2704,7 +2704,7 @@
   "name": "Shakhtar Donetsk"
  },
  "494": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-09-10T19:00Z",
@@ -2731,15 +2731,8 @@
   "name": "Slavia Prague"
  },
  "510": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
-   {
-    "date": "2026-08-26T19:00Z",
-    "ga": 1,
-    "gf": 3,
-    "league": "UEFA Champions League Qualifying",
-    "opponent": "Dinamo Zagreb"
-   },
    {
     "date": "2026-08-30T15:00Z",
     "ga": 1,
@@ -2802,12 +2795,19 @@
     "gf": 1,
     "league": "UEFA Champions League",
     "opponent": "Aston Villa"
+   },
+   {
+    "date": "2026-10-25T13:30Z",
+    "ga": 1,
+    "gf": 3,
+    "league": "Norwegian Eliteserien",
+    "opponent": "Tromso"
    }
   ],
   "name": "Viking FK"
  },
  "521": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-07-21T16:00Z",
@@ -2876,15 +2876,8 @@
   "name": "Slovan Bratislava"
  },
  "570": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
-   {
-    "date": "2026-08-15T18:45Z",
-    "ga": 0,
-    "gf": 3,
-    "league": "Belgian Pro League",
-    "opponent": "Oud-Heverlee Leuven"
-   },
    {
     "date": "2026-08-23T16:30Z",
     "ga": 0,
@@ -2947,6 +2940,13 @@
     "gf": 3,
     "league": "UEFA Champions League",
     "opponent": "Lens"
+   },
+   {
+    "date": "2026-10-25T15:00Z",
+    "ga": 2,
+    "gf": 3,
+    "league": "Belgian Pro League",
+    "opponent": "Sint-Truidense"
    }
   ],
   "name": "Club Brugge"
@@ -3718,7 +3718,7 @@
   "name": "KuPS Kuopio"
  },
  "887": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "matches": [
    {
     "date": "2026-08-26T19:00Z",

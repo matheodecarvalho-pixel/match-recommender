@@ -6,17 +6,17 @@
   "team_games": 10,
   "streak": 1
  },
+ "41302": {
+  "name": "Brynjolfur Darri Willumsson",
+  "team": "FC Groningen",
+  "goals": 8,
+  "team_games": 9,
+  "streak": 0
+ },
  "243902": {
   "name": "Milan Zonneveld",
   "team": "Sparta Rotterdam",
   "goals": 7,
-  "team_games": 9,
-  "streak": 0
- },
- "41302": {
-  "name": "Brynjolfur Darri Willumsson",
-  "team": "FC Groningen",
-  "goals": 6,
   "team_games": 9,
   "streak": 0
  },
@@ -38,6 +38,20 @@
   "name": "Jacob Trenskow",
   "team": "SC Heerenveen",
   "goals": 6,
+  "team_games": 10,
+  "streak": 0
+ },
+ "7688": {
+  "name": "Guus Til",
+  "team": "PSV",
+  "goals": 6,
+  "team_games": 9,
+  "streak": 0
+ },
+ "244466": {
+  "name": "Anis Moussa",
+  "team": "Feyenoord",
+  "goals": 6,
   "team_games": 9,
   "streak": 0
  },
@@ -52,14 +66,14 @@
   "name": "Artem Stepanov",
   "team": "Utrecht",
   "goals": 5,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "178013": {
   "name": "Rafik el Arguioui",
   "team": "SC Cambuur",
   "goals": 5,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "215554": {
@@ -76,13 +90,6 @@
   "team_games": 9,
   "streak": 0
  },
- "7688": {
-  "name": "Guus Til",
-  "team": "PSV",
-  "goals": 5,
-  "team_games": 9,
-  "streak": 0
- },
  "115116": {
   "name": "Sven Mijnans",
   "team": "PSV",
@@ -90,25 +97,25 @@
   "team_games": 9,
   "streak": 0
  },
- "244466": {
-  "name": "Anis Moussa",
-  "team": "Feyenoord",
+ "120981": {
+  "name": "Toluwalas Arokodare",
+  "team": "Ajax",
   "goals": 5,
   "team_games": 9,
-  "streak": 0
+  "streak": null
  },
  "177650": {
   "name": "Ilyes Hamache",
   "team": "SC Cambuur",
   "goals": 5,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "150305": {
   "name": "Nicolas Binder",
   "team": "SC Cambuur",
   "goals": 5,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "189601": {
@@ -150,15 +157,8 @@
   "name": "Koen Kostons",
   "team": "PEC Zwolle",
   "goals": 4,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
- },
- "120981": {
-  "name": "Toluwalas Arokodare",
-  "team": "Ajax",
-  "goals": 4,
-  "team_games": 9,
-  "streak": null
  },
  "7697": {
   "name": "Wout Weghorst",
@@ -192,7 +192,7 @@
   "name": "Devin Haen",
   "team": "Willem II",
   "goals": 3,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "249025": {
@@ -220,7 +220,7 @@
   "name": "Yannick Eduardo",
   "team": "ADO Den Haag",
   "goals": 3,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "119460": {
@@ -269,8 +269,8 @@
   "name": "Nigel Thomas",
   "team": "ADO Den Haag",
   "goals": 3,
-  "team_games": 9,
-  "streak": null
+  "team_games": 10,
+  "streak": 0
  },
  "7841": {
   "name": "Davy Klaassen",
@@ -283,7 +283,7 @@
   "name": "Angel Alarcon",
   "team": "Utrecht",
   "goals": 3,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "179498": {
@@ -311,14 +311,14 @@
   "name": "Adrian Blake",
   "team": "Utrecht",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "82116": {
   "name": "Luca Oyen",
   "team": "SC Heerenveen",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "254333": {
@@ -367,14 +367,21 @@
   "name": "Elias Sørensen",
   "team": "PEC Zwolle",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
+ },
+ "282165": {
+  "name": "Abdellah Ouazane",
+  "team": "Ajax",
+  "goals": 2,
+  "team_games": 9,
+  "streak": null
  },
  "137564": {
   "name": "Maxence Rivera",
   "team": "SC Heerenveen",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "7432": {
@@ -388,14 +395,14 @@
   "name": "Matisse Didden",
   "team": "Utrecht",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "150603": {
   "name": "Evan Rottier",
   "team": "ADO Den Haag",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "2004": {
@@ -423,14 +430,14 @@
   "name": "Uriël van Aalst",
   "team": "Willem II",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "214414": {
   "name": "Oliver Braude",
   "team": "SC Heerenveen",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "3558": {
@@ -458,15 +465,15 @@
   "name": "Nolhan Courtens",
   "team": "SC Heerenveen",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "125914": {
   "name": "Ringo Meerveld",
   "team": "SC Heerenveen",
   "goals": 2,
-  "team_games": 9,
-  "streak": null
+  "team_games": 10,
+  "streak": 0
  },
  "171423": {
   "name": "Ronald Koeman Jr.",
@@ -479,8 +486,22 @@
   "name": "Dani de Wit",
   "team": "Utrecht",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
+ },
+ "182241": {
+  "name": "Noe Lebreton",
+  "team": "NEC",
+  "goals": 2,
+  "team_games": 9,
+  "streak": null
+ },
+ "246761": {
+  "name": "Sondre Ørjasæter",
+  "team": "FC Twente",
+  "goals": 2,
+  "team_games": 9,
+  "streak": null
  },
  "7350": {
   "name": "Robin Pröpper",
@@ -514,7 +535,7 @@
   "name": "Yoann Cathline",
   "team": "Utrecht",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "45647": {
@@ -531,11 +552,18 @@
   "team_games": 9,
   "streak": 0
  },
+ "7470": {
+  "name": "Jens Toornstra",
+  "team": "Sparta Rotterdam",
+  "goals": 2,
+  "team_games": 9,
+  "streak": null
+ },
  "67920": {
   "name": "Thijs Oosting",
   "team": "PEC Zwolle",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "57281": {
@@ -626,7 +654,7 @@
   "name": "Thomas Verheydt",
   "team": "Willem II",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "81552": {
@@ -667,34 +695,6 @@
  "153600": {
   "name": "Daan Rots",
   "team": "FC Twente",
-  "goals": 1,
-  "team_games": 9,
-  "streak": 0
- },
- "282165": {
-  "name": "Abdellah Ouazane",
-  "team": "Ajax",
-  "goals": 1,
-  "team_games": 9,
-  "streak": null
- },
- "221767": {
-  "name": "Nick Verschuren",
-  "team": "Sparta Rotterdam",
-  "goals": 1,
-  "team_games": 9,
-  "streak": 0
- },
- "7548": {
-  "name": "Nick Viergever",
-  "team": "PEC Zwolle",
-  "goals": 1,
-  "team_games": 9,
-  "streak": 0
- },
- "261269": {
-  "name": "Nesto Groen",
-  "team": "Excelsior",
   "goals": 1,
   "team_games": 9,
   "streak": 0

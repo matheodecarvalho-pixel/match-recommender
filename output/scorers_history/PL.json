@@ -3,6 +3,20 @@
   "name": "Erling Haaland",
   "team": "Manchester City",
   "goals": 9,
+  "team_games": 8,
+  "streak": 0
+ },
+ "6486": {
+  "name": "Alexander Isak",
+  "team": "Liverpool",
+  "goals": 6,
+  "team_games": 7,
+  "streak": null
+ },
+ "6396": {
+  "name": "Marcus Tavernier",
+  "team": "AFC Bournemouth",
+  "goals": 5,
   "team_games": 7,
   "streak": null
  },
@@ -10,36 +24,22 @@
   "name": "João Pedro",
   "team": "Chelsea",
   "goals": 5,
-  "team_games": 7,
-  "streak": null
- },
- "6486": {
-  "name": "Alexander Isak",
-  "team": "Liverpool",
-  "goals": 5,
-  "team_games": 7,
-  "streak": null
- },
- "6396": {
-  "name": "Marcus Tavernier",
-  "team": "AFC Bournemouth",
-  "goals": 4,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "82140": {
   "name": "Morgan Rogers",
   "team": "Chelsea",
   "goals": 4,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "133242": {
   "name": "Rayan Cherki",
   "team": "Manchester City",
   "goals": 4,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "8626": {
   "name": "Bryan Mbeumo",
@@ -52,22 +52,22 @@
   "name": "Nicolas Jackson",
   "team": "Aston Villa",
   "goals": 4,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "99813": {
   "name": "Bukayo Saka",
   "team": "Arsenal",
   "goals": 3,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "171995": {
   "name": "Thierno Barry",
   "team": "Everton",
   "goals": 3,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "190851": {
   "name": "Jack Hinshelwood",
@@ -80,8 +80,8 @@
   "name": "Pedro Neto",
   "team": "Chelsea",
   "goals": 3,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "8273": {
   "name": "Pascal Groß",
@@ -132,18 +132,25 @@
   "team_games": 7,
   "streak": null
  },
+ "131260": {
+  "name": "Evanilson",
+  "team": "AFC Bournemouth",
+  "goals": 3,
+  "team_games": 7,
+  "streak": null
+ },
  "171": {
   "name": "Kai Havertz",
   "team": "Arsenal",
   "goals": 2,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "7427": {
   "name": "Martin Ødegaard",
   "team": "Arsenal",
   "goals": 2,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "176628": {
@@ -157,8 +164,8 @@
   "name": "Kiernan Dewsbury Hall",
   "team": "Everton",
   "goals": 2,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "101910": {
   "name": "Keane Lewis-Potter",
@@ -199,15 +206,15 @@
   "name": "Joshua King",
   "team": "Fulham",
   "goals": 2,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "144892": {
   "name": "Cole Palmer",
   "team": "Chelsea",
   "goals": 2,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "77641": {
   "name": "Dan Ndoye",
@@ -237,6 +244,13 @@
   "team_games": 8,
   "streak": 0
  },
+ "8076": {
+  "name": "Harvey Barnes",
+  "team": "Newcastle United",
+  "goals": 2,
+  "team_games": 7,
+  "streak": null
+ },
  "4184": {
   "name": "Jayden Bogle",
   "team": "Leeds United",
@@ -262,7 +276,7 @@
   "name": "Bruno Guimarães",
   "team": "Arsenal",
   "goals": 2,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "145613": {
@@ -276,36 +290,29 @@
   "name": "Johan Manzambi",
   "team": "Aston Villa",
   "goals": 2,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "4417": {
   "name": "Antoine Semenyo",
   "team": "Manchester City",
   "goals": 2,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "3320": {
   "name": "Jordan Henderson",
   "team": "Chelsea",
   "goals": 2,
-  "team_games": 7,
-  "streak": null
- },
- "131260": {
-  "name": "Evanilson",
-  "team": "AFC Bournemouth",
-  "goals": 2,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "114123": {
   "name": "Jack Rudoni",
   "team": "Coventry City",
   "goals": 2,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "6451": {
   "name": "Semi Ajayi",
@@ -353,15 +360,15 @@
   "name": "Marc Guéhi",
   "team": "Manchester City",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "122266": {
   "name": "Joško Gvardiol",
   "team": "Manchester City",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "7459": {
   "name": "Cody Gakpo",
@@ -381,8 +388,8 @@
   "name": "Gonzalo García",
   "team": "Fulham",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "4091": {
   "name": "Morgan Gibbs-White",
@@ -402,8 +409,8 @@
   "name": "James Tarkowski",
   "team": "Everton",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "110807": {
   "name": "Liam Millar",
@@ -430,8 +437,8 @@
   "name": "Romeo Lavia",
   "team": "Chelsea",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "9053": {
   "name": "Chuba Akpom",
@@ -439,13 +446,6 @@
   "goals": 1,
   "team_games": 8,
   "streak": 0
- },
- "8076": {
-  "name": "Harvey Barnes",
-  "team": "Newcastle United",
-  "goals": 1,
-  "team_games": 7,
-  "streak": null
  },
  "111437": {
   "name": "Jacob Ramsey",
@@ -472,8 +472,8 @@
   "name": "César Palacios",
   "team": "Fulham",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "8065": {
   "name": "Ben Chilwell",
@@ -486,8 +486,8 @@
   "name": "Tyrique George",
   "team": "Everton",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "124244": {
   "name": "Benjamin Šeško",
@@ -500,8 +500,8 @@
   "name": "Ainsley Maitland-Niles",
   "team": "Everton",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "213425": {
   "name": "Anan Khalaili",
@@ -528,8 +528,8 @@
   "name": "Alysson",
   "team": "Aston Villa",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "256339": {
   "name": "Igor Jesus",
@@ -591,21 +591,21 @@
   "name": "Emiliano Buendía",
   "team": "Aston Villa",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "119265": {
   "name": "Conor Gallagher",
   "team": "Tottenham Hotspur",
   "goals": 1,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "98566": {
   "name": "Jan Paul van Hecke",
   "team": "Tottenham Hotspur",
   "goals": 1,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "270273": {
@@ -633,15 +633,15 @@
   "name": "Jay Dasilva",
   "team": "Coventry City",
   "goals": 1,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "102603": {
   "name": "Enzo Fernández",
   "team": "Manchester City",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "30842": {
   "name": "Matheus Cunha",
@@ -661,7 +661,7 @@
   "name": "Riccardo Calafiori",
   "team": "Arsenal",
   "goals": 1,
-  "team_games": 7,
+  "team_games": 8,
   "streak": 0
  },
  "147891": {
@@ -675,8 +675,8 @@
   "name": "Ryan Sessegnon",
   "team": "Fulham",
   "goals": 1,
-  "team_games": 7,
-  "streak": null
+  "team_games": 8,
+  "streak": 0
  },
  "270889": {
   "name": "Abdoul Ouattara",
