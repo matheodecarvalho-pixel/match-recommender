@@ -3,7 +3,7 @@
  "league": "ned.1",
  "espn_id": "142",
  "season": 2026,
- "fetched": "2026-10-20",
+ "fetched": "2026-10-26",
  "players": [
   {
    "id": "335870",
@@ -12,14 +12,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
-    "saves": 21.0,
-    "goalsConceded": 10.0
+    "saves": 27.0,
+    "goalsConceded": 11.0
    }
   },
   {
@@ -29,14 +29,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 8.0,
+    "appearances": 9.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 2.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 5.0
+    "goalsConceded": 6.0
    }
   },
   {
@@ -62,15 +62,15 @@
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 0,
-    "appearances": 7.0,
+    "yellowCards": 1.0,
+    "appearances": 8.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
     "totalShots": 5.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 8.0
    }
   },
   {
@@ -80,8 +80,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 5.0,
-    "subIns": 3.0,
+    "appearances": 6.0,
+    "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
     "totalShots": 5.0,
@@ -97,14 +97,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 0,
     "goalAssists": 1.0,
     "shotsOnTarget": 0,
     "totalShots": 6.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 10.0
+    "goalsConceded": 11.0
    }
   },
   {
@@ -114,14 +114,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 0,
     "goalAssists": 5.0,
-    "shotsOnTarget": 2.0,
-    "totalShots": 12.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 14.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 9.0
+    "goalsConceded": 10.0
    }
   },
   {
@@ -147,15 +147,15 @@
    "position": "M",
    "stats": {
     "redCards": 0,
-    "yellowCards": 2.0,
-    "appearances": 9.0,
+    "yellowCards": 3.0,
+    "appearances": 10.0,
     "subIns": 1.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 0,
     "totalShots": 3.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 7.0
    }
   },
   {
@@ -176,20 +176,37 @@
    }
   },
   {
+   "id": "287461",
+   "name": "Jakub Moder",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
    "id": "313354",
    "name": "Oussama Targhaline",
    "position": "M",
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 8.0,
+    "appearances": 9.0,
     "subIns": 3.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 0,
     "totalShots": 5.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 7.0
    }
   },
   {
@@ -199,14 +216,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 1.0,
-    "goalAssists": 1.0,
-    "shotsOnTarget": 8.0,
-    "totalShots": 18.0,
+    "goalAssists": 2.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 19.0,
     "totalGoals": 4.0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 8.0
    }
   },
   {
@@ -216,8 +233,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 6.0,
-    "subIns": 4.0,
+    "appearances": 7.0,
+    "subIns": 5.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
     "totalShots": 1.0,
@@ -233,14 +250,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 0,
     "goalAssists": 4.0,
     "shotsOnTarget": 11.0,
     "totalShots": 21.0,
     "totalGoals": 5.0,
     "saves": 0,
-    "goalsConceded": 10.0
+    "goalsConceded": 11.0
    }
   },
   {
@@ -250,8 +267,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 4.0,
-    "subIns": 4.0,
+    "appearances": 5.0,
+    "subIns": 5.0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
     "totalShots": 6.0,
@@ -300,15 +317,15 @@
    "position": "F",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 8.0,
+    "yellowCards": 2.0,
+    "appearances": 9.0,
     "subIns": 0,
     "goalAssists": 1.0,
-    "shotsOnTarget": 9.0,
-    "totalShots": 23.0,
-    "totalGoals": 5.0,
+    "shotsOnTarget": 13.0,
+    "totalShots": 28.0,
+    "totalGoals": 6.0,
     "saves": 0,
-    "goalsConceded": 9.0
+    "goalsConceded": 10.0
    }
   },
   {
@@ -318,14 +335,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 8.0,
+    "appearances": 9.0,
     "subIns": 3.0,
     "goalAssists": 1.0,
-    "shotsOnTarget": 11.0,
-    "totalShots": 20.0,
+    "shotsOnTarget": 14.0,
+    "totalShots": 25.0,
     "totalGoals": 5.0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 7.0
    }
   },
   {

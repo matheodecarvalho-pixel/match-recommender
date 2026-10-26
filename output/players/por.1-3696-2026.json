@@ -3,7 +3,7 @@
  "league": "por.1",
  "espn_id": "3696",
  "season": 2026,
- "fetched": "2026-10-20",
+ "fetched": "2026-10-26",
  "players": [
   {
    "id": "75433",
@@ -12,14 +12,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 8.0,
+    "appearances": 9.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
-    "saves": 23.0,
-    "goalsConceded": 15.0
+    "saves": 29.0,
+    "goalsConceded": 16.0
    }
   },
   {
@@ -46,14 +46,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 1.0,
     "goalAssists": 0,
     "shotsOnTarget": 3.0,
-    "totalShots": 7.0,
+    "totalShots": 9.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 9.0
+    "goalsConceded": 10.0
    }
   },
   {
@@ -62,15 +62,15 @@
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 3.0,
-    "appearances": 8.0,
+    "yellowCards": 4.0,
+    "appearances": 9.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 1.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 15.0
+    "goalsConceded": 16.0
    }
   },
   {
@@ -80,14 +80,31 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 5.0,
+    "appearances": 6.0,
     "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 1.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 3.0
+    "goalsConceded": 4.0
+   }
+  },
+  {
+   "id": "393761",
+   "name": "Álvaro Martínez",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 1.0
    }
   },
   {
@@ -114,14 +131,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 8.0,
+    "appearances": 9.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
-    "totalShots": 4.0,
+    "totalShots": 5.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 15.0
+    "goalsConceded": 16.0
    }
   },
   {
@@ -131,14 +148,14 @@
    "stats": {
     "redCards": 1.0,
     "yellowCards": 1.0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
     "totalShots": 2.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 9.0
+    "goalsConceded": 10.0
    }
   },
   {
@@ -148,12 +165,12 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 8.0,
+    "appearances": 9.0,
     "subIns": 0,
     "goalAssists": 0,
-    "shotsOnTarget": 2.0,
-    "totalShots": 8.0,
-    "totalGoals": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 2.0,
     "saves": 0,
     "goalsConceded": 11.0
    }
@@ -165,14 +182,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 8.0,
-    "subIns": 5.0,
+    "appearances": 9.0,
+    "subIns": 6.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 12.0
+    "goalsConceded": 13.0
    }
   },
   {
@@ -182,14 +199,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 6.0,
-    "subIns": 4.0,
+    "appearances": 7.0,
+    "subIns": 5.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 1.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 7.0
    }
   },
   {
@@ -199,12 +216,12 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 0,
     "goalAssists": 0,
-    "shotsOnTarget": 2.0,
-    "totalShots": 4.0,
-    "totalGoals": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 6.0,
+    "totalGoals": 2.0,
     "saves": 0,
     "goalsConceded": 7.0
    }
@@ -250,7 +267,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 4.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 0,
@@ -284,14 +301,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 8.0,
-    "subIns": 3.0,
+    "appearances": 9.0,
+    "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 4.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 12.0
+    "goalsConceded": 13.0
    }
   },
   {
@@ -301,11 +318,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 3.0,
+    "appearances": 4.0,
     "subIns": 0,
     "goalAssists": 1.0,
-    "shotsOnTarget": 3.0,
-    "totalShots": 5.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 8.0,
     "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 0
@@ -335,14 +352,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 5.0,
-    "subIns": 5.0,
+    "appearances": 6.0,
+    "subIns": 6.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
     "totalShots": 3.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 4.0
+    "goalsConceded": 5.0
    }
   },
   {
@@ -352,12 +369,12 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 3.0,
     "goalAssists": 1.0,
-    "shotsOnTarget": 2.0,
-    "totalShots": 7.0,
-    "totalGoals": 1.0,
+    "shotsOnTarget": 3.0,
+    "totalShots": 10.0,
+    "totalGoals": 2.0,
     "saves": 0,
     "goalsConceded": 4.0
    }

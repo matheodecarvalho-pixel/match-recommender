@@ -3,7 +3,7 @@
  "league": "esp.1",
  "espn_id": "93",
  "season": 2026,
- "fetched": "2026-10-22",
+ "fetched": "2026-10-26",
  "players": [
   {
    "id": "222375",
@@ -12,13 +12,13 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
-    "saves": 25.0,
+    "saves": 26.0,
     "goalsConceded": 9.0
    }
   },
@@ -29,12 +29,12 @@
    "stats": {
     "redCards": 1.0,
     "yellowCards": 3.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 0,
     "goalAssists": 0,
-    "shotsOnTarget": 1.0,
-    "totalShots": 15.0,
-    "totalGoals": 0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 16.0,
+    "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 4.0
    }
@@ -74,6 +74,23 @@
    }
   },
   {
+   "id": "274016",
+   "name": "Dani Vivian",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
    "id": "300876",
    "name": "Jesús Areso",
    "position": "D",
@@ -97,12 +114,12 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 2.0,
     "goalAssists": 0,
-    "shotsOnTarget": 1.0,
-    "totalShots": 1.0,
-    "totalGoals": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 2.0,
+    "totalGoals": 2.0,
     "saves": 0,
     "goalsConceded": 4.0
    }
@@ -131,7 +148,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 4.0,
+    "appearances": 5.0,
     "subIns": 1.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
@@ -148,7 +165,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 3.0,
-    "appearances": 8.0,
+    "appearances": 9.0,
     "subIns": 1.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 1.0,
@@ -193,6 +210,23 @@
    }
   },
   {
+   "id": "318785",
+   "name": "Beñat Prados",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
    "id": "377792",
    "name": "Mikel Jauregizar",
    "position": "M",
@@ -215,9 +249,9 @@
    "position": "M",
    "stats": {
     "redCards": 0,
-    "yellowCards": 3.0,
-    "appearances": 7.0,
-    "subIns": 1.0,
+    "yellowCards": 4.0,
+    "appearances": 8.0,
+    "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
     "totalShots": 1.0,
@@ -233,11 +267,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
-    "totalShots": 5.0,
+    "totalShots": 6.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 6.0
@@ -250,8 +284,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 2.0,
-    "subIns": 2.0,
+    "appearances": 3.0,
+    "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
@@ -267,12 +301,12 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 4.0,
-    "goalAssists": 1.0,
-    "shotsOnTarget": 4.0,
-    "totalShots": 11.0,
-    "totalGoals": 2.0,
+    "goalAssists": 4.0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 13.0,
+    "totalGoals": 3.0,
     "saves": 0,
     "goalsConceded": 7.0
    }
@@ -284,12 +318,12 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 9.0,
+    "appearances": 10.0,
     "subIns": 1.0,
     "goalAssists": 2.0,
-    "shotsOnTarget": 6.0,
-    "totalShots": 16.0,
-    "totalGoals": 1.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 19.0,
+    "totalGoals": 2.0,
     "saves": 0,
     "goalsConceded": 6.0
    }
@@ -318,11 +352,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
-    "totalShots": 13.0,
+    "totalShots": 15.0,
     "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 3.0
@@ -369,7 +403,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 5.0,
+    "appearances": 6.0,
     "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
@@ -377,6 +411,40 @@
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 3.0
+   }
+  },
+  {
+   "id": "422929",
+   "name": "Christian Imga",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "3106512",
+   "name": "Jesús Vizcay Hurtado",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
    }
   }
  ]
