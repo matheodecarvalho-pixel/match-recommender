@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-28T12:47:27.231246+01:00",
+ "fetched_at": "2026-10-29T11:14:12.678273+01:00",
  "source": "ESPN public JSON feed",
  "matches": [
   {
@@ -1391,6 +1391,22 @@
    "winner": "away"
   },
   {
+   "id": "401915551",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-04T15:30:00+00:00",
+   "kickoff_paris": "2026-11-04T16:30:00+01:00",
+   "home": "Stade Rennais",
+   "home_espn_id": "169",
+   "away": "Olympiacos",
+   "away_espn_id": "435",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
    "id": "401915831",
    "competition": "Conference League",
    "kickoff_utc": "2026-11-05T17:45:00+00:00",
@@ -1655,22 +1671,6 @@
    "home_espn_id": "433",
    "away": "AFC Bournemouth",
    "away_espn_id": "349",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915551",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Stade Rennais",
-   "home_espn_id": "169",
-   "away": "Olympiacos",
-   "away_espn_id": "435",
    "status": "scheduled",
    "stage": "league-phase",
    "season": 2026,
@@ -2624,6 +2624,22 @@
  "warnings": [],
  "fixtures_ahead": [
   {
+   "id": "401915551",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-04T15:30:00+00:00",
+   "kickoff_paris": "2026-11-04T16:30:00+01:00",
+   "home": "Stade Rennais",
+   "home_espn_id": "169",
+   "away": "Olympiacos",
+   "away_espn_id": "435",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
    "id": "401915534",
    "competition": "Europa League",
    "kickoff_utc": "2026-11-05T17:45:00+00:00",
@@ -2744,22 +2760,6 @@
    "home_espn_id": "433",
    "away": "AFC Bournemouth",
    "away_espn_id": "349",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915551",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Stade Rennais",
-   "home_espn_id": "169",
-   "away": "Olympiacos",
-   "away_espn_id": "435",
    "status": "scheduled",
    "stage": "league-phase",
    "season": 2026,
