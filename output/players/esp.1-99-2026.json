@@ -3,7 +3,7 @@
  "league": "esp.1",
  "espn_id": "99",
  "season": 2026,
- "fetched": "2026-10-24",
+ "fetched": "2026-11-01",
  "players": [
   {
    "id": "240624",
@@ -12,14 +12,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 9.0,
+    "appearances": 11.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
-    "saves": 34.0,
-    "goalsConceded": 18.0
+    "saves": 40.0,
+    "goalsConceded": 21.0
    }
   },
   {
@@ -29,14 +29,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
-    "subIns": 2.0,
+    "appearances": 8.0,
+    "subIns": 3.0,
     "goalAssists": 0,
-    "shotsOnTarget": 0,
-    "totalShots": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 2.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 8.0
+    "goalsConceded": 9.0
    }
   },
   {
@@ -46,20 +46,20 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 6.0,
+    "appearances": 8.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 9.0
+    "goalsConceded": 12.0
    }
   },
   {
    "id": "213535",
    "name": "Moussa Diarra",
-   "position": "D",
+   "position": "F",
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
@@ -80,59 +80,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 2.0,
+    "appearances": 3.0,
     "subIns": 0,
-    "goalAssists": 0,
-    "shotsOnTarget": 0,
-    "totalShots": 1.0,
-    "totalGoals": 0,
-    "saves": 0,
-    "goalsConceded": 6.0
-   }
-  },
-  {
-   "id": "262061",
-   "name": "Juan Berrocal",
-   "position": "D",
-   "stats": {
-    "redCards": 0,
-    "yellowCards": 0,
-    "appearances": 2.0,
-    "subIns": 1.0,
-    "goalAssists": 0,
-    "shotsOnTarget": 0,
-    "totalShots": 1.0,
-    "totalGoals": 0,
-    "saves": 0,
-    "goalsConceded": 1.0
-   }
-  },
-  {
-   "id": "319783",
-   "name": "Ángel Recio",
-   "position": "D",
-   "stats": {
-    "redCards": 0,
-    "yellowCards": 0,
-    "appearances": 9.0,
-    "subIns": 0,
-    "goalAssists": 0,
-    "shotsOnTarget": 1.0,
-    "totalShots": 7.0,
-    "totalGoals": 0,
-    "saves": 0,
-    "goalsConceded": 18.0
-   }
-  },
-  {
-   "id": "331785",
-   "name": "Carlos Puga",
-   "position": "D",
-   "stats": {
-    "redCards": 0,
-    "yellowCards": 3.0,
-    "appearances": 8.0,
-    "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 1.0,
@@ -142,20 +91,71 @@
    }
   },
   {
+   "id": "262061",
+   "name": "Juan Berrocal",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 3.0,
+    "subIns": 2.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "319783",
+   "name": "Ángel Recio",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 10.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 7.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "331785",
+   "name": "Carlos Puga",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 3.0,
+    "appearances": 10.0,
+    "subIns": 3.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 1.0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 10.0
+   }
+  },
+  {
    "id": "376166",
    "name": "Rafa Garrido",
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 9.0,
+    "yellowCards": 2.0,
+    "appearances": 11.0,
     "subIns": 1.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 0,
-    "totalShots": 1.0,
+    "totalShots": 3.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 16.0
+    "goalsConceded": 19.0
    }
   },
   {
@@ -165,14 +165,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 2.0,
+    "appearances": 4.0,
     "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
-    "totalShots": 2.0,
+    "totalShots": 3.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 3.0
+    "goalsConceded": 5.0
    }
   },
   {
@@ -216,14 +216,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 1.0,
-    "subIns": 1.0,
+    "appearances": 3.0,
+    "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
-    "totalShots": 0,
+    "totalShots": 1.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 0
+    "goalsConceded": 1.0
    }
   },
   {
@@ -233,14 +233,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 3.0,
-    "appearances": 8.0,
+    "appearances": 10.0,
     "subIns": 8.0,
-    "goalAssists": 0,
+    "goalAssists": 1.0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 9.0
    }
   },
   {
@@ -249,15 +249,15 @@
    "position": "M",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 8.0,
+    "yellowCards": 2.0,
+    "appearances": 10.0,
     "subIns": 1.0,
     "goalAssists": 0,
-    "shotsOnTarget": 3.0,
-    "totalShots": 4.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 7.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 11.0
+    "goalsConceded": 13.0
    }
   },
   {
@@ -267,14 +267,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 8.0,
+    "appearances": 10.0,
     "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
-    "totalShots": 3.0,
+    "totalShots": 4.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 10.0
    }
   },
   {
@@ -284,14 +284,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 5.0,
-    "subIns": 2.0,
+    "appearances": 7.0,
+    "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
     "totalShots": 10.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 7.0
    }
   },
   {
@@ -335,11 +335,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 2.0,
-    "subIns": 1.0,
+    "appearances": 3.0,
+    "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
-    "totalShots": 1.0,
+    "totalShots": 2.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 1.0
@@ -351,15 +351,15 @@
    "position": "F",
    "stats": {
     "redCards": 0,
-    "yellowCards": 3.0,
-    "appearances": 9.0,
+    "yellowCards": 4.0,
+    "appearances": 11.0,
     "subIns": 1.0,
     "goalAssists": 0,
     "shotsOnTarget": 4.0,
     "totalShots": 15.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 16.0
+    "goalsConceded": 19.0
    }
   },
   {
@@ -403,14 +403,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 5.0,
+    "appearances": 7.0,
     "subIns": 4.0,
     "goalAssists": 0,
-    "shotsOnTarget": 5.0,
-    "totalShots": 10.0,
-    "totalGoals": 3.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 15.0,
+    "totalGoals": 5.0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 9.0
    }
   },
   {
@@ -420,14 +420,31 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 9.0,
-    "subIns": 1.0,
+    "appearances": 11.0,
+    "subIns": 3.0,
     "goalAssists": 0,
-    "shotsOnTarget": 6.0,
-    "totalShots": 21.0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 23.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 18.0
+    "goalsConceded": 19.0
+   }
+  },
+  {
+   "id": "3110513",
+   "name": "Juani",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
    }
   }
  ]

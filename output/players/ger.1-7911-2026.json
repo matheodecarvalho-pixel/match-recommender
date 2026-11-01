@@ -3,7 +3,7 @@
  "league": "ger.1",
  "espn_id": "7911",
  "season": 2026,
- "fetched": "2026-10-26",
+ "fetched": "2026-11-01",
  "players": [
   {
    "id": "138213",
@@ -12,14 +12,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 0,
     "totalGoals": 0,
-    "saves": 15.0,
-    "goalsConceded": 14.0
+    "saves": 17.0,
+    "goalsConceded": 16.0
    }
   },
   {
@@ -63,14 +63,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 5.0,
+    "appearances": 6.0,
     "subIns": 1.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 4.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 5.0
+    "goalsConceded": 7.0
    }
   },
   {
@@ -80,14 +80,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 1.0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
-    "totalShots": 10.0,
+    "totalShots": 11.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 12.0
+    "goalsConceded": 14.0
    }
   },
   {
@@ -165,14 +165,48 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 1.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
     "totalShots": 4.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 7.0
+    "goalsConceded": 9.0
+   }
+  },
+  {
+   "id": "403802",
+   "name": "Natnael Abraha",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 2.0
+   }
+  },
+  {
+   "id": "418789",
+   "name": "Valentin Lässig",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
    }
   },
   {
@@ -182,14 +216,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 3.0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
-    "totalShots": 8.0,
+    "totalShots": 10.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 12.0
+    "goalsConceded": 14.0
    }
   },
   {
@@ -233,14 +267,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
     "totalShots": 5.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 14.0
+    "goalsConceded": 16.0
    }
   },
   {
@@ -261,20 +295,37 @@
    }
   },
   {
+   "id": "407682",
+   "name": "Cajetan Lenz",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
    "id": "139520",
    "name": "Andrej Kramaric",
    "position": "F",
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 7.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 2.0,
     "totalShots": 5.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 3.0
+    "goalsConceded": 5.0
    }
   },
   {
@@ -284,14 +335,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 1.0,
     "goalAssists": 1.0,
-    "shotsOnTarget": 7.0,
-    "totalShots": 19.0,
+    "shotsOnTarget": 9.0,
+    "totalShots": 22.0,
     "totalGoals": 2.0,
     "saves": 0,
-    "goalsConceded": 9.0
+    "goalsConceded": 10.0
    }
   },
   {
@@ -301,14 +352,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 5.0,
-    "subIns": 1.0,
+    "appearances": 6.0,
+    "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 4.0,
     "totalShots": 13.0,
     "totalGoals": 1.0,
     "saves": 0,
-    "goalsConceded": 6.0
+    "goalsConceded": 7.0
    }
   },
   {
@@ -318,14 +369,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 5.0,
+    "appearances": 6.0,
     "subIns": 2.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 4.0,
-    "totalShots": 12.0,
+    "totalShots": 19.0,
     "totalGoals": 0,
     "saves": 0,
-    "goalsConceded": 2.0
+    "goalsConceded": 4.0
    }
   },
   {
@@ -335,14 +386,14 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 1.0,
     "goalAssists": 2.0,
     "shotsOnTarget": 4.0,
-    "totalShots": 6.0,
+    "totalShots": 9.0,
     "totalGoals": 2.0,
     "saves": 0,
-    "goalsConceded": 11.0
+    "goalsConceded": 13.0
    }
   },
   {
@@ -360,6 +411,40 @@
     "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 5.0
+   }
+  },
+  {
+   "id": "3099575",
+   "name": "Jykese Fields",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
+   }
+  },
+  {
+   "id": "3105981",
+   "name": "Muhammed Yasin Batuhan Zor",
+   "position": "F",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
    }
   }
  ]

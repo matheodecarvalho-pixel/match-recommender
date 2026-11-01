@@ -3,8 +3,25 @@
  "league": "ger.1",
  "espn_id": "268",
  "season": 2026,
- "fetched": "2026-10-24",
+ "fetched": "2026-11-01",
  "players": [
+  {
+   "id": "149297",
+   "name": "Daniel Batz",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 4.0,
+    "goalsConceded": 0
+   }
+  },
   {
    "id": "238536",
    "name": "Moritz Nicolas",
@@ -46,8 +63,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 4.0,
-    "subIns": 0,
+    "appearances": 5.0,
+    "subIns": 1.0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
     "totalShots": 5.0,
@@ -62,12 +79,12 @@
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 0,
-    "appearances": 5.0,
+    "yellowCards": 1.0,
+    "appearances": 6.0,
     "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
-    "totalShots": 1.0,
+    "totalShots": 2.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 9.0
@@ -80,11 +97,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 1.0,
     "goalAssists": 1.0,
-    "shotsOnTarget": 3.0,
-    "totalShots": 7.0,
+    "shotsOnTarget": 4.0,
+    "totalShots": 8.0,
     "totalGoals": 3.0,
     "saves": 0,
     "goalsConceded": 14.0
@@ -130,12 +147,12 @@
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 0,
-    "appearances": 3.0,
+    "yellowCards": 1.0,
+    "appearances": 4.0,
     "subIns": 1.0,
     "goalAssists": 0,
-    "shotsOnTarget": 1.0,
-    "totalShots": 1.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 2.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 3.0
@@ -165,11 +182,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 6.0,
+    "appearances": 7.0,
     "subIns": 0,
     "goalAssists": 2.0,
     "shotsOnTarget": 1.0,
-    "totalShots": 8.0,
+    "totalShots": 9.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 15.0
@@ -233,7 +250,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 4.0,
+    "appearances": 5.0,
     "subIns": 0,
     "goalAssists": 1.0,
     "shotsOnTarget": 3.0,
@@ -250,11 +267,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 4.0,
     "goalAssists": 0,
-    "shotsOnTarget": 0,
-    "totalShots": 3.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 6.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 9.0
@@ -267,14 +284,31 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
-    "totalShots": 10.0,
+    "totalShots": 11.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 22.0
+   }
+  },
+  {
+   "id": "304793",
+   "name": "Jens Castrop",
+   "position": "M",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 0,
+    "goalsConceded": 0
    }
   },
   {
@@ -301,7 +335,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 3.0,
+    "appearances": 4.0,
     "subIns": 1.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 0,
@@ -335,11 +369,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 7.0,
+    "appearances": 8.0,
     "subIns": 3.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 5.0,
-    "totalShots": 11.0,
+    "totalShots": 13.0,
     "totalGoals": 2.0,
     "saves": 0,
     "goalsConceded": 13.0
@@ -386,8 +420,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 6.0,
-    "subIns": 3.0,
+    "appearances": 7.0,
+    "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 3.0,
     "totalShots": 6.0,
@@ -403,11 +437,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 1.0,
-    "subIns": 1.0,
+    "appearances": 2.0,
+    "subIns": 2.0,
     "goalAssists": 0,
-    "shotsOnTarget": 0,
-    "totalShots": 1.0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 3.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 2.0
@@ -420,7 +454,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 3.0,
-    "appearances": 5.0,
+    "appearances": 6.0,
     "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 2.0,
