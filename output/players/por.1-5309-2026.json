@@ -3,7 +3,7 @@
  "league": "por.1",
  "espn_id": "5309",
  "season": 2026,
- "fetched": "2026-10-24",
+ "fetched": "2026-11-03",
  "players": [
   {
    "id": "312523",
@@ -23,17 +23,34 @@
    }
   },
   {
+   "id": "358241",
+   "name": "Lucas Furtado",
+   "position": "G",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 2.0,
+    "subIns": 0,
+    "goalAssists": 0,
+    "shotsOnTarget": 0,
+    "totalShots": 0,
+    "totalGoals": 0,
+    "saves": 3.0,
+    "goalsConceded": 0
+   }
+  },
+  {
    "id": "275239",
    "name": "Toni Borevkovic",
    "position": "D",
    "stats": {
     "redCards": 0,
-    "yellowCards": 2.0,
-    "appearances": 3.0,
+    "yellowCards": 4.0,
+    "appearances": 5.0,
     "subIns": 1.0,
     "goalAssists": 0,
-    "shotsOnTarget": 1.0,
-    "totalShots": 2.0,
+    "shotsOnTarget": 2.0,
+    "totalShots": 3.0,
     "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 4.0
@@ -63,11 +80,11 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 2.0,
+    "appearances": 4.0,
     "subIns": 0,
     "goalAssists": 0,
-    "shotsOnTarget": 0,
-    "totalShots": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 1.0
@@ -97,14 +114,31 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 8.0,
+    "appearances": 10.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 3.0,
-    "totalShots": 10.0,
+    "totalShots": 13.0,
     "totalGoals": 0,
     "saves": 0,
     "goalsConceded": 10.0
+   }
+  },
+  {
+   "id": "361427",
+   "name": "Yeimar Mosquera",
+   "position": "D",
+   "stats": {
+    "redCards": 0,
+    "yellowCards": 0,
+    "appearances": 1.0,
+    "subIns": 1.0,
+    "goalAssists": 0,
+    "shotsOnTarget": 1.0,
+    "totalShots": 1.0,
+    "totalGoals": 1.0,
+    "saves": 0,
+    "goalsConceded": 0
    }
   },
   {
@@ -131,7 +165,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 8.0,
+    "appearances": 10.0,
     "subIns": 2.0,
     "goalAssists": 1.0,
     "shotsOnTarget": 2.0,
@@ -147,12 +181,12 @@
    "position": "M",
    "stats": {
     "redCards": 0,
-    "yellowCards": 1.0,
-    "appearances": 8.0,
+    "yellowCards": 2.0,
+    "appearances": 10.0,
     "subIns": 1.0,
-    "goalAssists": 0,
+    "goalAssists": 1.0,
     "shotsOnTarget": 6.0,
-    "totalShots": 18.0,
+    "totalShots": 19.0,
     "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 9.0
@@ -165,9 +199,9 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 2.0,
-    "subIns": 1.0,
-    "goalAssists": 1.0,
+    "appearances": 4.0,
+    "subIns": 3.0,
+    "goalAssists": 2.0,
     "shotsOnTarget": 2.0,
     "totalShots": 3.0,
     "totalGoals": 0,
@@ -182,7 +216,7 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 8.0,
+    "appearances": 10.0,
     "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
@@ -216,8 +250,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 8.0,
-    "subIns": 2.0,
+    "appearances": 10.0,
+    "subIns": 4.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 2.0,
@@ -233,8 +267,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 0,
-    "appearances": 2.0,
-    "subIns": 2.0,
+    "appearances": 3.0,
+    "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 0,
     "totalShots": 1.0,
@@ -249,8 +283,8 @@
    "position": "M",
    "stats": {
     "redCards": 0,
-    "yellowCards": 2.0,
-    "appearances": 8.0,
+    "yellowCards": 3.0,
+    "appearances": 10.0,
     "subIns": 2.0,
     "goalAssists": 0,
     "shotsOnTarget": 1.0,
@@ -301,29 +335,29 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 4.0,
+    "appearances": 6.0,
     "subIns": 1.0,
     "goalAssists": 0,
-    "shotsOnTarget": 2.0,
-    "totalShots": 9.0,
-    "totalGoals": 0,
+    "shotsOnTarget": 5.0,
+    "totalShots": 15.0,
+    "totalGoals": 2.0,
     "saves": 0,
     "goalsConceded": 3.0
    }
   },
   {
    "id": "252095",
-   "name": "Oumar Camara",
-   "position": "F",
+   "name": "Oumar Tourad Camara",
+   "position": "M",
    "stats": {
     "redCards": 0,
     "yellowCards": 1.0,
-    "appearances": 8.0,
+    "appearances": 10.0,
     "subIns": 3.0,
     "goalAssists": 0,
-    "shotsOnTarget": 3.0,
-    "totalShots": 9.0,
-    "totalGoals": 0,
+    "shotsOnTarget": 7.0,
+    "totalShots": 22.0,
+    "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 9.0
    }
@@ -335,11 +369,11 @@
    "stats": {
     "redCards": 1.0,
     "yellowCards": 0,
-    "appearances": 6.0,
-    "subIns": 1.0,
+    "appearances": 8.0,
+    "subIns": 3.0,
     "goalAssists": 0,
     "shotsOnTarget": 4.0,
-    "totalShots": 21.0,
+    "totalShots": 22.0,
     "totalGoals": 1.0,
     "saves": 0,
     "goalsConceded": 5.0
@@ -351,8 +385,8 @@
    "position": "F",
    "stats": {
     "redCards": 0,
-    "yellowCards": 3.0,
-    "appearances": 7.0,
+    "yellowCards": 4.0,
+    "appearances": 9.0,
     "subIns": 0,
     "goalAssists": 0,
     "shotsOnTarget": 7.0,
@@ -386,8 +420,8 @@
    "stats": {
     "redCards": 0,
     "yellowCards": 2.0,
-    "appearances": 8.0,
-    "subIns": 4.0,
+    "appearances": 9.0,
+    "subIns": 5.0,
     "goalAssists": 3.0,
     "shotsOnTarget": 0,
     "totalShots": 10.0,

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T14:59:13.860288+01:00",
+ "generated_at": "2026-11-03T12:10:42.571126+01:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 0,
@@ -25,8 +25,8 @@
    "day": "2026-11-08",
    "home": "Atlético Madrid",
    "away": "Barcelona",
-   "score": 93,
-   "base": 86.0,
+   "score": 94,
+   "base": 86.1,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -55,8 +55,8 @@
      "reason": "Wins in last 5: 4 v 3"
     },
     "stakes": {
-     "value": 0.568,
-     "points": 11.4,
+     "value": 0.574,
+     "points": 11.5,
      "kind": "stakes_title",
      "reason": "Title race: 2 pts between them"
     },
@@ -177,13 +177,13 @@
    "day": "2026-11-03",
    "home": "Barcelona",
    "away": "Aston Villa",
-   "score": 83,
-   "base": 71.8,
+   "score": 85,
+   "base": 73.5,
    "competition_bonus": 5,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
-   "must_watch": false,
+   "must_watch": true,
    "recommended": true,
    "story": "Heavyweights: #8 v #11 in the UEFA rankings · Wins in last 5: 3 v 4 · Fight for a top-8 spot",
    "story_sides": {
@@ -239,8 +239,9 @@
      "reason": "Heavyweights: #8 v #11 in the UEFA rankings"
     },
     "par": {
-     "value": 0.0,
-     "points": 0.0
+     "value": 0.167,
+     "points": 1.7,
+     "kind": "par_under"
     }
    },
    "tier1_rivalry": false,
@@ -901,6 +902,293 @@
    }
   },
   {
+   "id": "fd-575382",
+   "competition": "Champions League",
+   "stage": "LEAGUE_STAGE",
+   "kickoff_paris": "2026-11-03T21:00:00+01:00",
+   "day": "2026-11-03",
+   "home": "Villarreal",
+   "away": "Paris Saint-Germain",
+   "score": 77,
+   "base": 65.7,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": true,
+   "story": "Wins in last 5: 2 v 5 · Fight for a top-8 spot · 3.9 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "4.8 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.733,
+     "points": 18.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 2 v 5"
+    },
+    "stakes": {
+     "value": 0.75,
+     "points": 15.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.975,
+     "points": 14.6,
+     "kind": "entertainment",
+     "reason": "3.9 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.478,
+     "points": 2.4
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.656,
+     "points": 13.1
+    },
+    "par": {
+     "value": 0.233,
+     "points": 2.3,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Villarreal": 19,
+    "Paris Saint-Germain": 1
+   },
+   "forms": {
+    "Villarreal": [
+     [
+      "W",
+      "3-1",
+      "Napoli"
+     ],
+     [
+      "D",
+      "0-0",
+      "Elche"
+     ],
+     [
+      "L",
+      "3-4",
+      "Liverpool"
+     ],
+     [
+      "W",
+      "2-1",
+      "Valencia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Espanyol"
+     ]
+    ],
+    "Paris Saint-Germain": [
+     [
+      "W",
+      "4-2",
+      "Manchester City"
+     ],
+     [
+      "W",
+      "3-1",
+      "Strasbourg"
+     ],
+     [
+      "W",
+      "4-2",
+      "Barcelona"
+     ],
+     [
+      "W",
+      "2-0",
+      "Lyon"
+     ],
+     [
+      "W",
+      "5-1",
+      "Le Havre"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401915309",
+    "league": "uefa.champions",
+    "teams": [
+     "102",
+     "160"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-558529",
+   "competition": "Serie A",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-08T20:45:00+01:00",
+   "day": "2026-11-08",
+   "home": "Fiorentina",
+   "away": "Juventus",
+   "score": 77,
+   "base": 71.0,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": true,
+   "story": "3.3 goals per game lately · Nicolò Fagioli faces his former club · Fiorentina-Juventus rivalry",
+   "story_sides": {
+    "home": [
+     "4.0 goals per game lately",
+     "Nicolò Fagioli faces his former club"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Fiorentina-Juventus rivalry"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.367,
+     "points": 9.2
+    },
+    "stakes": {
+     "value": 0.263,
+     "points": 5.3,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.825,
+     "points": 12.4,
+     "kind": "entertainment",
+     "reason": "3.3 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.6,
+     "points": 9.0,
+     "kind": "rivalry",
+     "reason": "Fiorentina-Juventus rivalry"
+    },
+    "closeness": {
+     "value": 0.636,
+     "points": 3.2
+    },
+    "revenge": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "revenge",
+     "reason": "Nicolò Fagioli faces his former club"
+    },
+    "big_match": {
+     "value": 0.661,
+     "points": 13.2
+    },
+    "par": {
+     "value": 0.867,
+     "points": 8.7,
+     "kind": "par_under",
+     "reason": "Fiorentina usually finish 9th: under par"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Fiorentina": 16,
+    "Juventus": 7
+   },
+   "forms": {
+    "Fiorentina": [
+     [
+      "L",
+      "1-2",
+      "Genoa"
+     ],
+     [
+      "L",
+      "1-3",
+      "Como"
+     ],
+     [
+      "L",
+      "1-2",
+      "Inter"
+     ],
+     [
+      "D",
+      "2-2",
+      "Atalanta"
+     ],
+     [
+      "W",
+      "4-2",
+      "Sassuolo"
+     ]
+    ],
+    "Juventus": [
+     [
+      "L",
+      "0-3",
+      "Lazio"
+     ],
+     [
+      "D",
+      "2-2",
+      "Rennes"
+     ],
+     [
+      "W",
+      "2-0",
+      "Lecce"
+     ],
+     [
+      "L",
+      "0-2",
+      "Genoa"
+     ],
+     [
+      "W",
+      "2-0",
+      "Napoli"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401875003",
+    "league": "ita.1",
+    "teams": [
+     "109",
+     "111"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-558839",
    "competition": "Eredivisie",
    "stage": "REGULAR_SEASON",
@@ -1179,292 +1467,6 @@
     "teams": [
      "493",
      "2250"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
-   "id": "fd-575382",
-   "competition": "Champions League",
-   "stage": "LEAGUE_STAGE",
-   "kickoff_paris": "2026-11-03T21:00:00+01:00",
-   "day": "2026-11-03",
-   "home": "Villarreal",
-   "away": "Paris Saint-Germain",
-   "score": 75,
-   "base": 64.1,
-   "competition_bonus": 5,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": true,
-   "story": "Wins in last 5: 2 v 5 · Fight for a top-8 spot · 3.9 goals per game lately",
-   "story_sides": {
-    "home": [
-     "3.0 goals per game lately"
-    ],
-    "away": [
-     "4.8 goals per game lately"
-    ],
-    "both": [
-     "Fight for a top-8 spot"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.733,
-     "points": 18.3,
-     "kind": "form",
-     "reason": "Wins in last 5: 2 v 5"
-    },
-    "stakes": {
-     "value": 0.75,
-     "points": 15.0,
-     "kind": "stakes_cutoff",
-     "reason": "Fight for a top-8 spot"
-    },
-    "entertainment": {
-     "value": 0.975,
-     "points": 14.6,
-     "kind": "entertainment",
-     "reason": "3.9 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.478,
-     "points": 2.4
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.656,
-     "points": 13.1
-    },
-    "par": {
-     "value": 0.067,
-     "points": 0.7,
-     "kind": "par_under"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Villarreal": 19,
-    "Paris Saint-Germain": 1
-   },
-   "forms": {
-    "Villarreal": [
-     [
-      "W",
-      "3-1",
-      "Napoli"
-     ],
-     [
-      "D",
-      "0-0",
-      "Elche"
-     ],
-     [
-      "L",
-      "3-4",
-      "Liverpool"
-     ],
-     [
-      "W",
-      "2-1",
-      "Valencia"
-     ],
-     [
-      "L",
-      "0-1",
-      "Espanyol"
-     ]
-    ],
-    "Paris Saint-Germain": [
-     [
-      "W",
-      "4-2",
-      "Manchester City"
-     ],
-     [
-      "W",
-      "3-1",
-      "Strasbourg"
-     ],
-     [
-      "W",
-      "4-2",
-      "Barcelona"
-     ],
-     [
-      "W",
-      "2-0",
-      "Lyon"
-     ],
-     [
-      "W",
-      "5-1",
-      "Le Havre"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401915309",
-    "league": "uefa.champions",
-    "teams": [
-     "102",
-     "160"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
-   "id": "fd-558529",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T20:45:00+01:00",
-   "day": "2026-11-08",
-   "home": "Fiorentina",
-   "away": "Juventus",
-   "score": 75,
-   "base": 68.6,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": true,
-   "story": "2.9 goals per game lately · Nicolò Fagioli faces his former club · Fiorentina usually finish 9th: under par",
-   "story_sides": {
-    "home": [
-     "3.2 goals per game lately",
-     "Nicolò Fagioli faces his former club",
-     "Usually finish 9th: under par"
-    ],
-    "away": [
-     "2.6 goals per game lately"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.3,
-     "points": 7.5
-    },
-    "stakes": {
-     "value": 0.258,
-     "points": 5.2,
-     "kind": "stakes_europe"
-    },
-    "entertainment": {
-     "value": 0.725,
-     "points": 10.9,
-     "kind": "entertainment",
-     "reason": "2.9 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.6,
-     "points": 9.0,
-     "kind": "rivalry",
-     "reason": "Fiorentina-Juventus rivalry"
-    },
-    "closeness": {
-     "value": 0.551,
-     "points": 2.8
-    },
-    "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "revenge",
-     "reason": "Nicolò Fagioli faces his former club"
-    },
-    "big_match": {
-     "value": 0.661,
-     "points": 13.2
-    },
-    "par": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "par_under",
-     "reason": "Fiorentina usually finish 9th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Fiorentina": 17,
-    "Juventus": 7
-   },
-   "forms": {
-    "Fiorentina": [
-     [
-      "D",
-      "1-1",
-      "Napoli"
-     ],
-     [
-      "L",
-      "1-2",
-      "Genoa"
-     ],
-     [
-      "L",
-      "1-3",
-      "Como"
-     ],
-     [
-      "L",
-      "1-2",
-      "Inter"
-     ],
-     [
-      "D",
-      "2-2",
-      "Atalanta"
-     ]
-    ],
-    "Juventus": [
-     [
-      "L",
-      "0-3",
-      "Lazio"
-     ],
-     [
-      "D",
-      "2-2",
-      "Rennes"
-     ],
-     [
-      "W",
-      "2-0",
-      "Lecce"
-     ],
-     [
-      "L",
-      "0-2",
-      "Genoa"
-     ],
-     [
-      "W",
-      "2-0",
-      "Napoli"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401875003",
-    "league": "ita.1",
-    "teams": [
-     "109",
-     "111"
     ],
     "us_tv": [
      "Paramount+"
@@ -2198,8 +2200,8 @@
    "day": "2026-11-08",
    "home": "Manchester United",
    "away": "Aston Villa",
-   "score": 71,
-   "base": 65.6,
+   "score": 72,
+   "base": 65.8,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -2225,7 +2227,7 @@
      "points": 11.7
     },
     "stakes": {
-     "value": 0.234,
+     "value": 0.237,
      "points": 4.7,
      "kind": "stakes_europe"
     },
@@ -2240,8 +2242,8 @@
      "points": 0.0
     },
     "closeness": {
-     "value": 0.427,
-     "points": 2.1
+     "value": 0.459,
+     "points": 2.3
     },
     "revenge": {
      "value": 1.0,
@@ -2265,7 +2267,7 @@
    "tier1_rivalry": false,
    "positions": {
     "Manchester United": 17,
-    "Aston Villa": 9
+    "Aston Villa": 10
    },
    "forms": {
     "Manchester United": [
@@ -3737,7 +3739,7 @@
    "home": "Napoli",
    "away": "Lazio",
    "score": 62,
-   "base": 57.4,
+   "base": 57.5,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -3763,8 +3765,8 @@
      "reason": "Wins in last 5: 2 v 5"
     },
     "stakes": {
-     "value": 0.258,
-     "points": 5.2,
+     "value": 0.263,
+     "points": 5.3,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -3878,7 +3880,7 @@
    "home": "Inter",
    "away": "Como",
    "score": 62,
-   "base": 57.1,
+   "base": 57.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -3906,8 +3908,8 @@
      "reason": "Both teams in form"
     },
     "stakes": {
-     "value": 0.516,
-     "points": 10.3,
+     "value": 0.526,
+     "points": 10.5,
      "kind": "stakes_title",
      "reason": "Title race: 2 pts between them"
     },
@@ -4137,144 +4139,6 @@
      "494",
      "359"
     ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
-   "id": "espn-401915528",
-   "competition": "Europa League",
-   "stage": "league-phase",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "day": "2026-11-05",
-   "home": "Sparta Prague",
-   "away": "AFC Bournemouth",
-   "score": 60,
-   "base": 50.6,
-   "competition_bonus": 5,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 2 v 5 · Fight for a top-8 spot · 3.2 goals per game lately",
-   "story_sides": {
-    "home": [
-     "3.8 goals per game lately"
-    ],
-    "away": [
-     "2.6 goals per game lately"
-    ],
-    "both": [
-     "Fight for a top-8 spot"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.733,
-     "points": 18.3,
-     "kind": "form",
-     "reason": "Wins in last 5: 2 v 5"
-    },
-    "stakes": {
-     "value": 0.75,
-     "points": 15.0,
-     "kind": "stakes_cutoff",
-     "reason": "Fight for a top-8 spot"
-    },
-    "entertainment": {
-     "value": 0.8,
-     "points": 12.0,
-     "kind": "entertainment",
-     "reason": "3.2 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.564,
-     "points": 2.8
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.25,
-     "points": 2.5,
-     "kind": "par_over"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Sparta Prague": 16,
-    "AFC Bournemouth": 3
-   },
-   "forms": {
-    "Sparta Prague": [
-     [
-      "L",
-      "0-3",
-      "Lyon"
-     ],
-     [
-      "W",
-      "4-1",
-      "Ararat-Armenia"
-     ],
-     [
-      "W",
-      "5-3",
-      "Vysocina Jihlava"
-     ],
-     [
-      "D",
-      "1-1",
-      "Lillestrom"
-     ],
-     [
-      "L",
-      "0-1",
-      "Olympiacos"
-     ]
-    ],
-    "AFC Bournemouth": [
-     [
-      "W",
-      "3-0",
-      "SK Sturm Graz"
-     ],
-     [
-      "W",
-      "2-0",
-      "Sunderland"
-     ],
-     [
-      "W",
-      "3-0",
-      "AC Milan"
-     ],
-     [
-      "W",
-      "3-0",
-      "Manchester United"
-     ],
-     [
-      "W",
-      "2-0",
-      "Leeds United"
-     ]
-    ]
-   },
-   "espn": {
-    "league": "uefa.europa",
-    "id": "401915528",
     "us_tv": [
      "Paramount+"
     ]
@@ -4553,6 +4417,144 @@
    "espn": {
     "league": "uefa.europa",
     "id": "401915526",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "espn-401915528",
+   "competition": "Europa League",
+   "stage": "league-phase",
+   "kickoff_paris": "2026-11-05T18:45:00+01:00",
+   "day": "2026-11-05",
+   "home": "Sparta Prague",
+   "away": "AFC Bournemouth",
+   "score": 59,
+   "base": 48.9,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 2 v 5 · Fight for a top-8 spot · 3.2 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-8 spot"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.733,
+     "points": 18.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 2 v 5"
+    },
+    "stakes": {
+     "value": 0.75,
+     "points": 15.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
+    },
+    "entertainment": {
+     "value": 0.8,
+     "points": 12.0,
+     "kind": "entertainment",
+     "reason": "3.2 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.564,
+     "points": 2.8
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.083,
+     "points": 0.8,
+     "kind": "par_over"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Sparta Prague": 16,
+    "AFC Bournemouth": 3
+   },
+   "forms": {
+    "Sparta Prague": [
+     [
+      "L",
+      "0-3",
+      "Lyon"
+     ],
+     [
+      "W",
+      "4-1",
+      "Ararat-Armenia"
+     ],
+     [
+      "W",
+      "5-3",
+      "Vysocina Jihlava"
+     ],
+     [
+      "D",
+      "1-1",
+      "Lillestrom"
+     ],
+     [
+      "L",
+      "0-1",
+      "Olympiacos"
+     ]
+    ],
+    "AFC Bournemouth": [
+     [
+      "W",
+      "3-0",
+      "SK Sturm Graz"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "3-0",
+      "AC Milan"
+     ],
+     [
+      "W",
+      "3-0",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "2-0",
+      "Leeds United"
+     ]
+    ]
+   },
+   "espn": {
+    "league": "uefa.europa",
+    "id": "401915528",
     "us_tv": [
      "Paramount+"
     ]
@@ -4979,19 +4981,18 @@
    "day": "2026-11-05",
    "home": "Benfica",
    "away": "Lech Poznan",
-   "score": 57,
-   "base": 47.6,
+   "score": 55,
+   "base": 45.3,
    "competition_bonus": 5,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "3.7 goals per game lately · Wins in last 5: 4 v 0 · Benfica 8 pts off the top: under par",
+   "story": "Wins in last 5: 5 v 0 · 3.4 goals per game lately",
    "story_sides": {
     "home": [
-     "3.8 goals per game lately",
-     "8 pts off the top: under par"
+     "3.2 goals per game lately"
     ],
     "away": [
      "3.6 goals per game lately"
@@ -5000,10 +5001,10 @@
    },
    "breakdown": {
     "form": {
-     "value": 0.5,
-     "points": 12.5,
+     "value": 0.6,
+     "points": 15.0,
      "kind": "form",
-     "reason": "Wins in last 5: 4 v 0"
+     "reason": "Wins in last 5: 5 v 0"
     },
     "stakes": {
      "value": 0.375,
@@ -5011,18 +5012,18 @@
      "kind": "stakes_cutoff"
     },
     "entertainment": {
-     "value": 0.925,
-     "points": 13.9,
+     "value": 0.85,
+     "points": 12.8,
      "kind": "entertainment",
-     "reason": "3.7 goals per game lately"
+     "reason": "3.4 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.229,
-     "points": 1.1
+     "value": 0.149,
+     "points": 0.7
     },
     "revenge": {
      "value": 0.0,
@@ -5033,10 +5034,8 @@
      "points": 9.3
     },
     "par": {
-     "value": 0.333,
-     "points": 3.3,
-     "kind": "giant_gap",
-     "reason": "Benfica 8 pts off the top: under par"
+     "value": 0.0,
+     "points": 0.0
     }
    },
    "tier1_rivalry": false,
@@ -5046,11 +5045,6 @@
    },
    "forms": {
     "Benfica": [
-     [
-      "L",
-      "1-3",
-      "Porto"
-     ],
      [
       "W",
       "2-0",
@@ -5070,6 +5064,11 @@
       "W",
       "2-1",
       "Santa Clara"
+     ],
+     [
+      "W",
+      "1-0",
+      "Alverca"
      ]
     ],
     "Lech Poznan": [
@@ -5109,291 +5108,6 @@
    }
   },
   {
-   "id": "espn-401915830",
-   "competition": "Conference League",
-   "stage": "league-phase",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "day": "2026-11-05",
-   "home": "Atalanta",
-   "away": "Kairat Almaty",
-   "score": 56,
-   "base": 46.8,
-   "competition_bonus": 5,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "3.8 goals per game lately · Fight for a top-24 spot · Atalanta usually finish 5th: under par",
-   "story_sides": {
-    "home": [
-     "4.6 goals per game lately",
-     "Usually finish 5th: under par"
-    ],
-    "away": [
-     "3.0 goals per game lately"
-    ],
-    "both": [
-     "Fight for a top-24 spot"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.2,
-     "points": 5.0
-    },
-    "stakes": {
-     "value": 0.5,
-     "points": 10.0,
-     "kind": "stakes_cutoff",
-     "reason": "Fight for a top-24 spot"
-    },
-    "entertainment": {
-     "value": 0.95,
-     "points": 14.2,
-     "kind": "entertainment",
-     "reason": "3.8 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.619,
-     "points": 3.1
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.258,
-     "points": 5.2
-    },
-    "par": {
-     "value": 0.933,
-     "points": 9.3,
-     "kind": "par_under",
-     "reason": "Atalanta usually finish 5th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Atalanta": 15,
-    "Kairat Almaty": 31
-   },
-   "forms": {
-    "Atalanta": [
-     [
-      "W",
-      "3-1",
-      "Pafos"
-     ],
-     [
-      "L",
-      "2-3",
-      "AC Milan"
-     ],
-     [
-      "L",
-      "0-2",
-      "Ajax"
-     ],
-     [
-      "D",
-      "4-4",
-      "Frosinone"
-     ],
-     [
-      "D",
-      "2-2",
-      "Fiorentina"
-     ]
-    ],
-    "Kairat Almaty": [
-     [
-      "L",
-      "0-1",
-      "Levski Sofia"
-     ],
-     [
-      "L",
-      "0-3",
-      "Anderlecht"
-     ],
-     [
-      "L",
-      "0-3",
-      "Anderlecht"
-     ],
-     [
-      "D",
-      "1-1",
-      "Riga FC"
-     ],
-     [
-      "L",
-      "1-5",
-      "Panathinaikos"
-     ]
-    ]
-   },
-   "espn": {
-    "league": "uefa.europa.conf",
-    "id": "401915830",
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
-   "id": "fd-564740",
-   "competition": "La Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-06T21:00:00+01:00",
-   "day": "2026-11-06",
-   "home": "Sevilla",
-   "away": "Alavés",
-   "score": 55,
-   "base": 50.7,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "3.6 goals per game lately · Fight for Europe · Jon Guridi faces his former club",
-   "story_sides": {
-    "home": [
-     "4.2 goals per game lately",
-     "Jon Guridi faces his former club"
-    ],
-    "away": [
-     "3.0 goals per game lately"
-    ],
-    "both": [
-     "Fight for Europe"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.2,
-     "points": 5.0
-    },
-    "stakes": {
-     "value": 0.568,
-     "points": 11.4,
-     "kind": "stakes_europe",
-     "reason": "Fight for Europe"
-    },
-    "entertainment": {
-     "value": 0.9,
-     "points": 13.5,
-     "kind": "entertainment",
-     "reason": "3.6 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.82,
-     "points": 4.1,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "revenge",
-     "reason": "Jon Guridi faces his former club"
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.667,
-     "points": 6.7,
-     "kind": "par_over",
-     "reason": "Sevilla usually finish 12th: punching above their weight"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Sevilla": 6,
-    "Alavés": 10
-   },
-   "forms": {
-    "Sevilla": [
-     [
-      "L",
-      "1-3",
-      "Barcelona"
-     ],
-     [
-      "D",
-      "3-3",
-      "Levante"
-     ],
-     [
-      "L",
-      "1-4",
-      "Real Madrid"
-     ],
-     [
-      "W",
-      "2-0",
-      "Osasuna"
-     ],
-     [
-      "L",
-      "1-3",
-      "Getafe"
-     ]
-    ],
-    "Alavés": [
-     [
-      "D",
-      "0-0",
-      "Athletic Club"
-     ],
-     [
-      "L",
-      "1-2",
-      "Atlético Madrid"
-     ],
-     [
-      "L",
-      "1-2",
-      "Celta Vigo"
-     ],
-     [
-      "D",
-      "1-1",
-      "Málaga"
-     ],
-     [
-      "L",
-      "1-6",
-      "Barcelona"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401882809",
-    "league": "esp.1",
-    "teams": [
-     "243",
-     "96"
-    ],
-    "us_tv": [
-     "ESPN Deportes",
-     "ESPN+"
-    ]
-   }
-  },
-  {
    "id": "fd-558536",
    "competition": "Serie A",
    "stage": "REGULAR_SEASON",
@@ -5402,7 +5116,7 @@
    "home": "Genoa",
    "away": "AC Milan",
    "score": 55,
-   "base": 50.9,
+   "base": 51.0,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -5430,8 +5144,8 @@
      "reason": "Wins in last 5: 4 v 3"
     },
     "stakes": {
-     "value": 0.258,
-     "points": 5.2,
+     "value": 0.263,
+     "points": 5.3,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -5663,6 +5377,144 @@
      "4411",
      "521"
     ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "espn-401915830",
+   "competition": "Conference League",
+   "stage": "league-phase",
+   "kickoff_paris": "2026-11-05T18:45:00+01:00",
+   "day": "2026-11-05",
+   "home": "Atalanta",
+   "away": "Kairat Almaty",
+   "score": 54,
+   "base": 44.4,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.7 goals per game lately · Fight for a top-24 spot · Atalanta usually finish 5th: under par",
+   "story_sides": {
+    "home": [
+     "4.4 goals per game lately",
+     "Usually finish 5th: under par"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.1,
+     "points": 2.5
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 0.925,
+     "points": 13.9,
+     "kind": "entertainment",
+     "reason": "3.7 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.699,
+     "points": 3.5
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.258,
+     "points": 5.2
+    },
+    "par": {
+     "value": 0.933,
+     "points": 9.3,
+     "kind": "par_under",
+     "reason": "Atalanta usually finish 5th: under par"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Atalanta": 15,
+    "Kairat Almaty": 31
+   },
+   "forms": {
+    "Atalanta": [
+     [
+      "L",
+      "2-3",
+      "AC Milan"
+     ],
+     [
+      "L",
+      "0-2",
+      "Ajax"
+     ],
+     [
+      "D",
+      "4-4",
+      "Frosinone"
+     ],
+     [
+      "D",
+      "2-2",
+      "Fiorentina"
+     ],
+     [
+      "L",
+      "0-3",
+      "Parma"
+     ]
+    ],
+    "Kairat Almaty": [
+     [
+      "L",
+      "0-1",
+      "Levski Sofia"
+     ],
+     [
+      "L",
+      "0-3",
+      "Anderlecht"
+     ],
+     [
+      "L",
+      "0-3",
+      "Anderlecht"
+     ],
+     [
+      "D",
+      "1-1",
+      "Riga FC"
+     ],
+     [
+      "L",
+      "1-5",
+      "Panathinaikos"
+     ]
+    ]
+   },
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915830",
     "us_tv": [
      "Paramount+"
     ]
@@ -5976,7 +5828,7 @@
      "points": 10.8
     },
     "stakes": {
-     "value": 0.234,
+     "value": 0.237,
      "points": 4.7,
      "kind": "stakes_europe"
     },
@@ -6076,292 +5928,6 @@
     "teams": [
      "384",
      "364"
-    ],
-    "us_tv": []
-   }
-  },
-  {
-   "id": "fd-558538",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T15:00:00+01:00",
-   "day": "2026-11-08",
-   "home": "Monza",
-   "away": "Atalanta",
-   "score": 53,
-   "base": 48.5,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "4.4 goals per game lately · Atalanta usually finish 5th: under par · Ivan Jurić faces his former club",
-   "story_sides": {
-    "home": [
-     "4.2 goals per game lately",
-     "Ivan Jurić faces his former club"
-    ],
-    "away": [
-     "4.6 goals per game lately",
-     "Usually finish 5th: under par"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.267,
-     "points": 6.7
-    },
-    "stakes": {
-     "value": 0.258,
-     "points": 5.2,
-     "kind": "stakes_relegation"
-    },
-    "entertainment": {
-     "value": 1.0,
-     "points": 15.0,
-     "kind": "entertainment",
-     "reason": "4.4 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.852,
-     "points": 4.3,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.8,
-     "points": 8.0,
-     "kind": "revenge",
-     "reason": "Ivan Jurić faces his former club"
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.933,
-     "points": 9.3,
-     "kind": "par_under",
-     "reason": "Atalanta usually finish 5th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Monza": 16,
-    "Atalanta": 13
-   },
-   "forms": {
-    "Monza": [
-     [
-      "L",
-      "1-3",
-      "Lazio"
-     ],
-     [
-      "W",
-      "4-0",
-      "Cagliari"
-     ],
-     [
-      "L",
-      "2-3",
-      "Torino"
-     ],
-     [
-      "L",
-      "1-4",
-      "Napoli"
-     ],
-     [
-      "L",
-      "1-2",
-      "Bologna"
-     ]
-    ],
-    "Atalanta": [
-     [
-      "W",
-      "3-1",
-      "Pafos"
-     ],
-     [
-      "L",
-      "2-3",
-      "AC Milan"
-     ],
-     [
-      "L",
-      "0-2",
-      "Ajax"
-     ],
-     [
-      "D",
-      "4-4",
-      "Frosinone"
-     ],
-     [
-      "D",
-      "2-2",
-      "Fiorentina"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401874800",
-    "league": "ita.1",
-    "teams": [
-     "4007",
-     "105"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
-   "id": "fd-567346",
-   "competition": "Primeira Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-02T21:15:00+01:00",
-   "day": "2026-11-02",
-   "home": "Gil Vicente",
-   "away": "Vitória SC",
-   "score": 52,
-   "base": 47.4,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Zé Carlos faces his former club · 2.3 goals per game lately · Vitória SC usually finish 6th: under par",
-   "story_sides": {
-    "home": [
-     "Zé Carlos faces his former club",
-     "2.2 goals per game lately"
-    ],
-    "away": [
-     "2.4 goals per game lately",
-     "Usually finish 6th: under par"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.4,
-     "points": 10.0
-    },
-    "stakes": {
-     "value": 0.288,
-     "points": 5.8,
-     "kind": "stakes_relegation"
-    },
-    "entertainment": {
-     "value": 0.575,
-     "points": 8.6,
-     "kind": "entertainment",
-     "reason": "2.3 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.77,
-     "points": 3.9,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "revenge",
-     "reason": "Zé Carlos faces his former club"
-    },
-    "big_match": {
-     "value": 0.068,
-     "points": 1.4
-    },
-    "par": {
-     "value": 0.767,
-     "points": 7.7,
-     "kind": "par_under",
-     "reason": "Vitória SC usually finish 6th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Gil Vicente": 8,
-    "Vitória SC": 13
-   },
-   "forms": {
-    "Gil Vicente": [
-     [
-      "L",
-      "1-3",
-      "Benfica"
-     ],
-     [
-      "D",
-      "1-1",
-      "Marítimo"
-     ],
-     [
-      "W",
-      "1-0",
-      "Moreirense"
-     ],
-     [
-      "W",
-      "2-1",
-      "Braga"
-     ],
-     [
-      "L",
-      "0-1",
-      "Porto"
-     ]
-    ],
-    "Vitória SC": [
-     [
-      "D",
-      "0-0",
-      "Casa Pia"
-     ],
-     [
-      "L",
-      "1-2",
-      "Acad. Viseu"
-     ],
-     [
-      "D",
-      "1-1",
-      "Moreirense"
-     ],
-     [
-      "L",
-      "0-2",
-      "Benfica"
-     ],
-     [
-      "W",
-      "5-0",
-      "Marítimo"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401885407",
-    "league": "por.1",
-    "teams": [
-     "3699",
-     "5309"
     ],
     "us_tv": []
    }
@@ -6806,7 +6372,7 @@
      "points": 5.8
     },
     "stakes": {
-     "value": 0.234,
+     "value": 0.237,
      "points": 4.7,
      "kind": "stakes_title"
     },
@@ -6908,6 +6474,150 @@
     "teams": [
      "393",
      "382"
+    ],
+    "us_tv": []
+   }
+  },
+  {
+   "id": "fd-559630",
+   "competition": "Ligue 1",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-08T20:45:00+01:00",
+   "day": "2026-11-08",
+   "home": "Lens",
+   "away": "Marseille",
+   "score": 52,
+   "base": 47.4,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 2 v 3 · 3.1 goals per game lately · Fight for Europe",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "3.6 goals per game lately"
+    ],
+    "both": [
+     "Fight for Europe",
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.5,
+     "points": 12.5,
+     "kind": "form",
+     "reason": "Wins in last 5: 2 v 3"
+    },
+    "stakes": {
+     "value": 0.529,
+     "points": 10.6,
+     "kind": "stakes_europe",
+     "reason": "Fight for Europe"
+    },
+    "entertainment": {
+     "value": 0.775,
+     "points": 11.6,
+     "kind": "entertainment",
+     "reason": "3.1 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.814,
+     "points": 4.1,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.279,
+     "points": 5.6
+    },
+    "par": {
+     "value": 0.3,
+     "points": 3.0,
+     "kind": "par_under",
+     "reason": "Lens usually finish 5th: under par"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Lens": 9,
+    "Marseille": 6
+   },
+   "forms": {
+    "Lens": [
+     [
+      "L",
+      "0-2",
+      "Sporting CP"
+     ],
+     [
+      "W",
+      "3-1",
+      "Troyes"
+     ],
+     [
+      "L",
+      "0-3",
+      "Club Brugge"
+     ],
+     [
+      "W",
+      "2-1",
+      "Paris FC"
+     ],
+     [
+      "L",
+      "0-1",
+      "Lille"
+     ]
+    ],
+    "Marseille": [
+     [
+      "L",
+      "0-1",
+      "Olympiacos"
+     ],
+     [
+      "W",
+      "5-2",
+      "Angers"
+     ],
+     [
+      "L",
+      "0-1",
+      "SK Sturm Graz"
+     ],
+     [
+      "W",
+      "4-3",
+      "Le Havre"
+     ],
+     [
+      "W",
+      "2-0",
+      "Toulouse"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401876404",
+    "league": "fra.1",
+    "teams": [
+     "175",
+     "176"
     ],
     "us_tv": []
    }
@@ -7215,7 +6925,7 @@
      "reason": "Wins in last 5: 1 v 5"
     },
     "stakes": {
-     "value": 0.284,
+     "value": 0.287,
      "points": 5.7,
      "kind": "stakes_title"
     },
@@ -7323,150 +7033,6 @@
    }
   },
   {
-   "id": "fd-559630",
-   "competition": "Ligue 1",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T20:45:00+01:00",
-   "day": "2026-11-08",
-   "home": "Lens",
-   "away": "Marseille",
-   "score": 51,
-   "base": 47.3,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 2 v 3 · 3.1 goals per game lately · Fight for Europe",
-   "story_sides": {
-    "home": [
-     "2.6 goals per game lately"
-    ],
-    "away": [
-     "3.6 goals per game lately"
-    ],
-    "both": [
-     "Fight for Europe",
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.5,
-     "points": 12.5,
-     "kind": "form",
-     "reason": "Wins in last 5: 2 v 3"
-    },
-    "stakes": {
-     "value": 0.523,
-     "points": 10.5,
-     "kind": "stakes_europe",
-     "reason": "Fight for Europe"
-    },
-    "entertainment": {
-     "value": 0.775,
-     "points": 11.6,
-     "kind": "entertainment",
-     "reason": "3.1 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.814,
-     "points": 4.1,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.279,
-     "points": 5.6
-    },
-    "par": {
-     "value": 0.3,
-     "points": 3.0,
-     "kind": "par_under",
-     "reason": "Lens usually finish 5th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Lens": 9,
-    "Marseille": 6
-   },
-   "forms": {
-    "Lens": [
-     [
-      "L",
-      "0-2",
-      "Sporting CP"
-     ],
-     [
-      "W",
-      "3-1",
-      "Troyes"
-     ],
-     [
-      "L",
-      "0-3",
-      "Club Brugge"
-     ],
-     [
-      "W",
-      "2-1",
-      "Paris FC"
-     ],
-     [
-      "L",
-      "0-1",
-      "Lille"
-     ]
-    ],
-    "Marseille": [
-     [
-      "L",
-      "0-1",
-      "Olympiacos"
-     ],
-     [
-      "W",
-      "5-2",
-      "Angers"
-     ],
-     [
-      "L",
-      "0-1",
-      "SK Sturm Graz"
-     ],
-     [
-      "W",
-      "4-3",
-      "Le Havre"
-     ],
-     [
-      "W",
-      "2-0",
-      "Toulouse"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401876404",
-    "league": "fra.1",
-    "teams": [
-     "175",
-     "176"
-    ],
-    "us_tv": []
-   }
-  },
-  {
    "id": "fd-559637",
    "competition": "Ligue 1",
    "stage": "REGULAR_SEASON",
@@ -7501,8 +7067,8 @@
      "reason": "Wins in last 5: 2 v 3"
     },
     "stakes": {
-     "value": 0.261,
-     "points": 5.2,
+     "value": 0.265,
+     "points": 5.3,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -7516,8 +7082,8 @@
      "points": 0.0
     },
     "closeness": {
-     "value": 0.629,
-     "points": 3.1
+     "value": 0.594,
+     "points": 3.0
     },
     "revenge": {
      "value": 1.0,
@@ -7536,7 +7102,7 @@
    },
    "tier1_rivalry": false,
    "positions": {
-    "Auxerre": 13,
+    "Auxerre": 14,
     "Paris FC": 4
    },
    "forms": {
@@ -7603,6 +7169,294 @@
      "6851"
     ],
     "us_tv": []
+   }
+  },
+  {
+   "id": "fd-558538",
+   "competition": "Serie A",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-08T15:00:00+01:00",
+   "day": "2026-11-08",
+   "home": "Monza",
+   "away": "Atalanta",
+   "score": 50,
+   "base": 45.9,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "4.3 goals per game lately · Atalanta usually finish 5th: under par · Ivan Jurić faces his former club",
+   "story_sides": {
+    "home": [
+     "4.2 goals per game lately",
+     "Ivan Jurić faces his former club"
+    ],
+    "away": [
+     "4.4 goals per game lately",
+     "Usually finish 5th: under par"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.167,
+     "points": 4.2
+    },
+    "stakes": {
+     "value": 0.263,
+     "points": 5.3,
+     "kind": "stakes_relegation"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.3 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.815,
+     "points": 4.1,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.8,
+     "points": 8.0,
+     "kind": "revenge",
+     "reason": "Ivan Jurić faces his former club"
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.933,
+     "points": 9.3,
+     "kind": "par_under",
+     "reason": "Atalanta usually finish 5th: under par"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Monza": 18,
+    "Atalanta": 13
+   },
+   "forms": {
+    "Monza": [
+     [
+      "L",
+      "1-3",
+      "Lazio"
+     ],
+     [
+      "W",
+      "4-0",
+      "Cagliari"
+     ],
+     [
+      "L",
+      "2-3",
+      "Torino"
+     ],
+     [
+      "L",
+      "1-4",
+      "Napoli"
+     ],
+     [
+      "L",
+      "1-2",
+      "Bologna"
+     ]
+    ],
+    "Atalanta": [
+     [
+      "L",
+      "2-3",
+      "AC Milan"
+     ],
+     [
+      "L",
+      "0-2",
+      "Ajax"
+     ],
+     [
+      "D",
+      "4-4",
+      "Frosinone"
+     ],
+     [
+      "D",
+      "2-2",
+      "Fiorentina"
+     ],
+     [
+      "L",
+      "0-3",
+      "Parma"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401874800",
+    "league": "ita.1",
+    "teams": [
+     "4007",
+     "105"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "fd-564747",
+   "competition": "La Liga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-08T18:30:00+01:00",
+   "day": "2026-11-08",
+   "home": "Villarreal",
+   "away": "Getafe",
+   "score": 50,
+   "base": 46.2,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.4 goals per game lately · Kiko Femenía faces his former club · Evenly matched",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "3.8 goals per game lately",
+     "Kiko Femenía faces his former club"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.4,
+     "points": 10.0
+    },
+    "stakes": {
+     "value": 0.287,
+     "points": 5.7,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.85,
+     "points": 12.8,
+     "kind": "entertainment",
+     "reason": "3.4 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.82,
+     "points": 4.1,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "revenge",
+     "reason": "Kiko Femenía faces his former club"
+    },
+    "big_match": {
+     "value": 0.066,
+     "points": 1.3
+    },
+    "par": {
+     "value": 0.233,
+     "points": 2.3,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Villarreal": 9,
+    "Getafe": 13
+   },
+   "forms": {
+    "Villarreal": [
+     [
+      "W",
+      "3-1",
+      "Napoli"
+     ],
+     [
+      "D",
+      "0-0",
+      "Elche"
+     ],
+     [
+      "L",
+      "3-4",
+      "Liverpool"
+     ],
+     [
+      "W",
+      "2-1",
+      "Valencia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Espanyol"
+     ]
+    ],
+    "Getafe": [
+     [
+      "D",
+      "1-1",
+      "CSU Craiova"
+     ],
+     [
+      "D",
+      "1-1",
+      "Rayo Vallecano"
+     ],
+     [
+      "L",
+      "2-5",
+      "FC Lugano"
+     ],
+     [
+      "L",
+      "0-4",
+      "Athletic Club"
+     ],
+     [
+      "W",
+      "3-1",
+      "Sevilla"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401882807",
+    "league": "esp.1",
+    "teams": [
+     "102",
+     "2922"
+    ],
+    "us_tv": [
+     "ESPN+"
+    ]
    }
   },
   {
@@ -7880,6 +7734,151 @@
    }
   },
   {
+   "id": "fd-564740",
+   "competition": "La Liga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-06T21:00:00+01:00",
+   "day": "2026-11-06",
+   "home": "Sevilla",
+   "away": "Alavés",
+   "score": 49,
+   "base": 44.8,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.6 goals per game lately · Jon Guridi faces his former club · Sevilla usually finish 12th: punching above their weight",
+   "story_sides": {
+    "home": [
+     "4.2 goals per game lately",
+     "Jon Guridi faces his former club",
+     "Usually finish 12th: punching above their weight"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.2,
+     "points": 5.0
+    },
+    "stakes": {
+     "value": 0.287,
+     "points": 5.7,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.9,
+     "points": 13.5,
+     "kind": "entertainment",
+     "reason": "3.6 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.789,
+     "points": 3.9,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "revenge",
+     "reason": "Jon Guridi faces his former club"
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.667,
+     "points": 6.7,
+     "kind": "par_over",
+     "reason": "Sevilla usually finish 12th: punching above their weight"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Sevilla": 6,
+    "Alavés": 11
+   },
+   "forms": {
+    "Sevilla": [
+     [
+      "L",
+      "1-3",
+      "Barcelona"
+     ],
+     [
+      "D",
+      "3-3",
+      "Levante"
+     ],
+     [
+      "L",
+      "1-4",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "2-0",
+      "Osasuna"
+     ],
+     [
+      "L",
+      "1-3",
+      "Getafe"
+     ]
+    ],
+    "Alavés": [
+     [
+      "D",
+      "0-0",
+      "Athletic Club"
+     ],
+     [
+      "L",
+      "1-2",
+      "Atlético Madrid"
+     ],
+     [
+      "L",
+      "1-2",
+      "Celta Vigo"
+     ],
+     [
+      "D",
+      "1-1",
+      "Málaga"
+     ],
+     [
+      "L",
+      "1-6",
+      "Barcelona"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401882809",
+    "league": "esp.1",
+    "teams": [
+     "243",
+     "96"
+    ],
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
+  },
+  {
    "id": "fd-564739",
    "competition": "La Liga",
    "stage": "REGULAR_SEASON",
@@ -7888,17 +7887,17 @@
    "home": "Osasuna",
    "away": "Athletic Club",
    "score": 49,
-   "base": 45.1,
+   "base": 44.7,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "2.8 goals per game lately · Jesús Areso faces his former club · Osasuna usually finish 11th: under par",
+   "story": "2.7 goals per game lately · Jesús Areso faces his former club · Osasuna usually finish 11th: under par",
    "story_sides": {
     "home": [
-     "3.4 goals per game lately",
+     "3.2 goals per game lately",
      "Usually finish 11th: under par"
     ],
     "away": [
@@ -7913,15 +7912,15 @@
      "points": 10.0
     },
     "stakes": {
-     "value": 0.284,
+     "value": 0.287,
      "points": 5.7,
      "kind": "stakes_europe"
     },
     "entertainment": {
-     "value": 0.7,
-     "points": 10.5,
+     "value": 0.675,
+     "points": 10.1,
      "kind": "entertainment",
-     "reason": "2.8 goals per game lately"
+     "reason": "2.7 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
@@ -7956,11 +7955,6 @@
    "forms": {
     "Osasuna": [
      [
-      "L",
-      "0-4",
-      "Atlético Madrid"
-     ],
-     [
       "D",
       "1-1",
       "Rayo Vallecano"
@@ -7979,6 +7973,11 @@
       "L",
       "0-2",
       "Sevilla"
+     ],
+     [
+      "L",
+      "1-2",
+      "Deportivo La Coruña"
      ]
     ],
     "Athletic Club": [
@@ -8023,149 +8022,6 @@
    }
   },
   {
-   "id": "fd-564743",
-   "competition": "La Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T16:15:00+01:00",
-   "day": "2026-11-08",
-   "home": "Real Sociedad",
-   "away": "Rayo Vallecano",
-   "score": 49,
-   "base": 44.7,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 3 v 2 · 3.4 goals per game lately · Evenly matched",
-   "story_sides": {
-    "home": [
-     "4.2 goals per game lately"
-    ],
-    "away": [
-     "2.6 goals per game lately"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.6,
-     "points": 15.0,
-     "kind": "form",
-     "reason": "Wins in last 5: 3 v 2"
-    },
-    "stakes": {
-     "value": 0.284,
-     "points": 5.7,
-     "kind": "stakes_europe"
-    },
-    "entertainment": {
-     "value": 0.85,
-     "points": 12.8,
-     "kind": "entertainment",
-     "reason": "3.4 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.757,
-     "points": 3.8,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.335,
-     "points": 6.7
-    },
-    "par": {
-     "value": 0.067,
-     "points": 0.7,
-     "kind": "par_over"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Real Sociedad": 5,
-    "Rayo Vallecano": 11
-   },
-   "forms": {
-    "Real Sociedad": [
-     [
-      "D",
-      "1-1",
-      "Union St.-Gilloise"
-     ],
-     [
-      "W",
-      "5-2",
-      "Málaga"
-     ],
-     [
-      "W",
-      "6-0",
-      "Lillestrom"
-     ],
-     [
-      "W",
-      "2-1",
-      "Levante"
-     ],
-     [
-      "L",
-      "1-2",
-      "Athletic Club"
-     ]
-    ],
-    "Rayo Vallecano": [
-     [
-      "W",
-      "2-1",
-      "Espanyol"
-     ],
-     [
-      "D",
-      "1-1",
-      "Osasuna"
-     ],
-     [
-      "D",
-      "1-1",
-      "Getafe"
-     ],
-     [
-      "L",
-      "0-3",
-      "Elche"
-     ],
-     [
-      "W",
-      "3-0",
-      "Celta Vigo"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401882810",
-    "league": "esp.1",
-    "teams": [
-     "89",
-     "101"
-    ],
-    "us_tv": [
-     "ESPN+"
-    ]
-   }
-  },
-  {
    "id": "fd-567349",
    "competition": "Primeira Liga",
    "stage": "REGULAR_SEASON",
@@ -8174,7 +8030,7 @@
    "home": "Vitória SC",
    "away": "Porto",
    "score": 49,
-   "base": 44.8,
+   "base": 44.9,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -8198,8 +8054,8 @@
      "points": 11.7
     },
     "stakes": {
-     "value": 0.288,
-     "points": 5.8,
+     "value": 0.294,
+     "points": 5.9,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -8239,11 +8095,6 @@
    "forms": {
     "Vitória SC": [
      [
-      "D",
-      "0-0",
-      "Casa Pia"
-     ],
-     [
       "L",
       "1-2",
       "Acad. Viseu"
@@ -8262,6 +8113,11 @@
       "W",
       "5-0",
       "Marítimo"
+     ],
+     [
+      "D",
+      "0-0",
+      "Gil Vicente"
      ]
     ],
     "Porto": [
@@ -8860,29 +8716,28 @@
    }
   },
   {
-   "id": "fd-564747",
+   "id": "fd-564743",
    "competition": "La Liga",
    "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T18:30:00+01:00",
+   "kickoff_paris": "2026-11-08T16:15:00+01:00",
    "day": "2026-11-08",
-   "home": "Villarreal",
-   "away": "Getafe",
+   "home": "Real Sociedad",
+   "away": "Rayo Vallecano",
    "score": 48,
-   "base": 44.6,
+   "base": 44.5,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "3.4 goals per game lately · Kiko Femenía faces his former club · Evenly matched",
+   "story": "Wins in last 5: 3 v 2 · 3.4 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
-     "3.0 goals per game lately"
+     "4.2 goals per game lately"
     ],
     "away": [
-     "3.8 goals per game lately",
-     "Kiko Femenía faces his former club"
+     "2.6 goals per game lately"
     ],
     "both": [
      "Evenly matched"
@@ -8890,11 +8745,13 @@
    },
    "breakdown": {
     "form": {
-     "value": 0.4,
-     "points": 10.0
+     "value": 0.6,
+     "points": 15.0,
+     "kind": "form",
+     "reason": "Wins in last 5: 3 v 2"
     },
     "stakes": {
-     "value": 0.284,
+     "value": 0.287,
      "points": 5.7,
      "kind": "stakes_europe"
     },
@@ -8909,94 +8766,92 @@
      "points": 0.0
     },
     "closeness": {
-     "value": 0.82,
-     "points": 4.1,
+     "value": 0.726,
+     "points": 3.6,
      "kind": "closeness",
      "reason": "Evenly matched"
     },
     "revenge": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "revenge",
-     "reason": "Kiko Femenía faces his former club"
+     "value": 0.0,
+     "points": 0.0
     },
     "big_match": {
-     "value": 0.066,
-     "points": 1.3
+     "value": 0.335,
+     "points": 6.7
     },
     "par": {
      "value": 0.067,
      "points": 0.7,
-     "kind": "par_under"
+     "kind": "par_over"
     }
    },
    "tier1_rivalry": false,
    "positions": {
-    "Villarreal": 8,
-    "Getafe": 12
+    "Real Sociedad": 5,
+    "Rayo Vallecano": 12
    },
    "forms": {
-    "Villarreal": [
-     [
-      "W",
-      "3-1",
-      "Napoli"
-     ],
+    "Real Sociedad": [
      [
       "D",
-      "0-0",
-      "Elche"
+      "1-1",
+      "Union St.-Gilloise"
      ],
      [
-      "L",
-      "3-4",
-      "Liverpool"
+      "W",
+      "5-2",
+      "Málaga"
+     ],
+     [
+      "W",
+      "6-0",
+      "Lillestrom"
      ],
      [
       "W",
       "2-1",
-      "Valencia"
+      "Levante"
      ],
      [
       "L",
-      "0-1",
-      "Espanyol"
+      "1-2",
+      "Athletic Club"
      ]
     ],
-    "Getafe": [
+    "Rayo Vallecano": [
      [
-      "D",
-      "1-1",
-      "CSU Craiova"
+      "W",
+      "2-1",
+      "Espanyol"
      ],
      [
       "D",
       "1-1",
-      "Rayo Vallecano"
+      "Osasuna"
+     ],
+     [
+      "D",
+      "1-1",
+      "Getafe"
      ],
      [
       "L",
-      "2-5",
-      "FC Lugano"
-     ],
-     [
-      "L",
-      "0-4",
-      "Athletic Club"
+      "0-3",
+      "Elche"
      ],
      [
       "W",
-      "3-1",
-      "Sevilla"
+      "3-0",
+      "Celta Vigo"
      ]
     ]
    },
    "espn": {
-    "id": "401882807",
+    "id": "401882810",
     "league": "esp.1",
     "teams": [
-     "102",
-     "2922"
+     "89",
+     "101"
     ],
     "us_tv": [
      "ESPN+"
@@ -9012,7 +8867,7 @@
    "home": "Rennes",
    "away": "Lille",
    "score": 47,
-   "base": 43.5,
+   "base": 43.6,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -9037,8 +8892,8 @@
      "points": 10.0
     },
     "stakes": {
-     "value": 0.261,
-     "points": 5.2,
+     "value": 0.265,
+     "points": 5.3,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -9559,150 +9414,6 @@
    }
   },
   {
-   "id": "fd-558541",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-02T18:30:00+01:00",
-   "day": "2026-11-02",
-   "home": "Sassuolo",
-   "away": "Fiorentina",
-   "score": 45,
-   "base": 41.3,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "3.7 goals per game lately · Relegation battle · Fiorentina usually finish 9th: under par",
-   "story_sides": {
-    "home": [
-     "4.2 goals per game lately"
-    ],
-    "away": [
-     "3.2 goals per game lately",
-     "Usually finish 9th: under par"
-    ],
-    "both": [
-     "Relegation battle"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.1,
-     "points": 2.5
-    },
-    "stakes": {
-     "value": 0.516,
-     "points": 10.3,
-     "kind": "stakes_relegation",
-     "reason": "Relegation battle"
-    },
-    "entertainment": {
-     "value": 0.925,
-     "points": 13.9,
-     "kind": "entertainment",
-     "reason": "3.7 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.91,
-     "points": 4.6,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 1.0,
-     "points": 10.0,
-     "kind": "par_under",
-     "reason": "Fiorentina usually finish 9th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Sassuolo": 15,
-    "Fiorentina": 17
-   },
-   "forms": {
-    "Sassuolo": [
-     [
-      "L",
-      "1-2",
-      "Monza"
-     ],
-     [
-      "D",
-      "1-1",
-      "AC Milan"
-     ],
-     [
-      "L",
-      "2-4",
-      "Frosinone"
-     ],
-     [
-      "L",
-      "0-2",
-      "Como"
-     ],
-     [
-      "L",
-      "2-6",
-      "Lazio"
-     ]
-    ],
-    "Fiorentina": [
-     [
-      "D",
-      "1-1",
-      "Napoli"
-     ],
-     [
-      "L",
-      "1-2",
-      "Genoa"
-     ],
-     [
-      "L",
-      "1-3",
-      "Como"
-     ],
-     [
-      "L",
-      "1-2",
-      "Inter"
-     ],
-     [
-      "D",
-      "2-2",
-      "Atalanta"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401874963",
-    "league": "ita.1",
-    "teams": [
-     "3997",
-     "109"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
    "id": "espn-401915826",
    "competition": "Conference League",
    "stage": "league-phase",
@@ -10123,7 +9834,7 @@
    "home": "Sporting CP",
    "away": "Moreirense",
    "score": 45,
-   "base": 41.6,
+   "base": 41.7,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -10151,8 +9862,8 @@
      "reason": "Wins in last 5: 3 v 3"
     },
     "stakes": {
-     "value": 0.288,
-     "points": 5.8,
+     "value": 0.294,
+     "points": 5.9,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -10258,58 +9969,195 @@
    }
   },
   {
-   "id": "espn-401915741",
-   "competition": "Conference League",
-   "stage": "league-phase",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "day": "2026-11-05",
-   "home": "Mjällby AIF",
-   "away": "Borac Banja Luka",
-   "score": 44,
-   "base": 35.5,
-   "competition_bonus": 5,
+   "id": "fd-559632",
+   "competition": "Ligue 1",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-08T17:15:00+01:00",
+   "day": "2026-11-08",
+   "home": "Brest",
+   "away": "Lyon",
+   "score": 45,
+   "base": 41.4,
+   "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "Fight for a top-8 spot · 2.4 goals per game lately · Evenly matched",
+   "story": "Wins in last 5: 2 v 3 · 3.1 goals per game lately",
    "story_sides": {
     "home": [
-     "2.0 goals per game lately"
+     "3.2 goals per game lately"
     ],
     "away": [
-     "2.8 goals per game lately"
+     "3.0 goals per game lately"
     ],
-    "both": [
-     "Fight for a top-8 spot",
-     "Evenly matched"
-    ]
+    "both": []
    },
    "breakdown": {
     "form": {
-     "value": 0.467,
-     "points": 11.7
+     "value": 0.533,
+     "points": 13.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 2 v 3"
     },
     "stakes": {
-     "value": 0.5,
-     "points": 10.0,
-     "kind": "stakes_cutoff",
-     "reason": "Fight for a top-8 spot"
+     "value": 0.265,
+     "points": 5.3,
+     "kind": "stakes_title"
     },
     "entertainment": {
-     "value": 0.6,
-     "points": 9.0,
+     "value": 0.775,
+     "points": 11.6,
      "kind": "entertainment",
-     "reason": "2.4 goals per game lately"
+     "reason": "3.1 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.966,
-     "points": 4.8,
+     "value": 0.7,
+     "points": 3.5
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.286,
+     "points": 5.7
+    },
+    "par": {
+     "value": 0.2,
+     "points": 2.0,
+     "kind": "par_over"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Brest": 10,
+    "Lyon": 3
+   },
+   "forms": {
+    "Brest": [
+     [
+      "L",
+      "1-2",
+      "Auxerre"
+     ],
+     [
+      "W",
+      "5-1",
+      "Angers"
+     ],
+     [
+      "D",
+      "1-1",
+      "Lille"
+     ],
+     [
+      "L",
+      "1-2",
+      "Nice"
+     ],
+     [
+      "W",
+      "2-0",
+      "Lorient"
+     ]
+    ],
+    "Lyon": [
+     [
+      "W",
+      "3-2",
+      "Crystal Palace"
+     ],
+     [
+      "W",
+      "2-1",
+      "Nice"
+     ],
+     [
+      "L",
+      "0-3",
+      "Hoffenheim"
+     ],
+     [
+      "L",
+      "0-2",
+      "Paris Saint-Germain"
+     ],
+     [
+      "W",
+      "2-0",
+      "Angers"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401876410",
+    "league": "fra.1",
+    "teams": [
+     "6997",
+     "167"
+    ],
+    "us_tv": []
+   }
+  },
+  {
+   "id": "espn-401915831",
+   "competition": "Conference League",
+   "stage": "league-phase",
+   "kickoff_paris": "2026-11-05T18:45:00+01:00",
+   "day": "2026-11-05",
+   "home": "AGF",
+   "away": "Braga",
+   "score": 44,
+   "base": 35.1,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Fight for a top-24 spot · 2.2 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.0 goals per game lately"
+    ],
+    "away": [
+     "2.4 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot",
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.367,
+     "points": 9.2
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 0.55,
+     "points": 8.2,
+     "kind": "entertainment",
+     "reason": "2.2 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.802,
+     "points": 4.0,
      "kind": "closeness",
      "reason": "Evenly matched"
     },
@@ -10322,74 +10170,76 @@
      "points": 0.0
     },
     "par": {
-     "value": 0.0,
-     "points": 0.0
+     "value": 0.367,
+     "points": 3.7,
+     "kind": "par_under",
+     "reason": "Braga usually finish 4th: under par"
     }
    },
    "tier1_rivalry": false,
    "positions": {
-    "Mjällby AIF": 12,
-    "Borac Banja Luka": 14
+    "AGF": 26,
+    "Braga": 16
    },
    "forms": {
-    "Mjällby AIF": [
-     [
-      "W",
-      "2-0",
-      "Inter D'Escaldes"
-     ],
+    "AGF": [
      [
       "L",
       "0-1",
-      "Västerås SK"
+      "KAA Gent"
      ],
      [
       "D",
       "1-1",
-      "Iberia 1999"
+      "F.C. København"
      ],
      [
-      "L",
-      "0-2",
-      "Hammarby IF"
+      "D",
+      "1-1",
+      "Egnatia"
      ],
      [
       "W",
       "2-1",
-      "Örgryte IS"
-     ]
-    ],
-    "Borac Banja Luka": [
-     [
-      "W",
-      "3-1",
-      "Vikingur Reykjavik"
+      "Viborg FF"
      ],
      [
       "L",
-      "0-3",
-      "Radnik Bijeljina"
-     ],
+      "0-2",
+      "Brøndby IF"
+     ]
+    ],
+    "Braga": [
      [
-      "D",
-      "1-1",
-      "Vojvodina"
+      "L",
+      "0-3",
+      "F.C. København"
      ],
      [
       "L",
       "1-2",
-      "Panathinaikos"
+      "Gil Vicente"
      ],
      [
       "W",
       "2-0",
-      "KuPS Kuopio"
+      "KAA Gent"
+     ],
+     [
+      "L",
+      "0-1",
+      "Nacional"
+     ],
+     [
+      "W",
+      "3-0",
+      "Famalicão"
      ]
     ]
    },
    "espn": {
     "league": "uefa.europa.conf",
-    "id": "401915741",
+    "id": "401915831",
     "us_tv": [
      "Paramount+"
     ]
@@ -10674,6 +10524,145 @@
    }
   },
   {
+   "id": "fd-560634",
+   "competition": "Premier League",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-06T21:00:00+01:00",
+   "day": "2026-11-06",
+   "home": "Everton",
+   "away": "Coventry City",
+   "score": 44,
+   "base": 40.4,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 2 v 3 · Everton usually finish 15th: punching above their weight · 2.5 goals per game lately",
+   "story_sides": {
+    "home": [
+     "Usually finish 15th: punching above their weight",
+     "2.0 goals per game lately"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.533,
+     "points": 13.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 2 v 3"
+    },
+    "stakes": {
+     "value": 0.237,
+     "points": 4.7,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.625,
+     "points": 9.4,
+     "kind": "entertainment",
+     "reason": "2.5 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.662,
+     "points": 3.3
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.967,
+     "points": 9.7,
+     "kind": "par_over",
+     "reason": "Everton usually finish 15th: punching above their weight"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Everton": 7,
+    "Coventry City": 16
+   },
+   "forms": {
+    "Everton": [
+     [
+      "W",
+      "1-0",
+      "Ipswich Town"
+     ],
+     [
+      "D",
+      "2-2",
+      "Hull City"
+     ],
+     [
+      "L",
+      "0-2",
+      "Chelsea"
+     ],
+     [
+      "L",
+      "0-2",
+      "Arsenal"
+     ],
+     [
+      "W",
+      "1-0",
+      "Newcastle United"
+     ]
+    ],
+    "Coventry City": [
+     [
+      "W",
+      "1-0",
+      "Nottingham Forest"
+     ],
+     [
+      "W",
+      "4-1",
+      "Newcastle United"
+     ],
+     [
+      "L",
+      "1-3",
+      "Tottenham Hotspur"
+     ],
+     [
+      "L",
+      "0-1",
+      "Fulham"
+     ],
+     [
+      "W",
+      "3-1",
+      "Sunderland"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401879242",
+    "league": "eng.1",
+    "teams": [
+     "368",
+     "388"
+    ],
+    "us_tv": []
+   }
+  },
+  {
    "id": "fd-565848",
    "competition": "Bundesliga",
    "stage": "REGULAR_SEASON",
@@ -10809,149 +10798,6 @@
      "3841"
     ],
     "us_tv": []
-   }
-  },
-  {
-   "id": "fd-558545",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-02T20:45:00+01:00",
-   "day": "2026-11-02",
-   "home": "Atalanta",
-   "away": "Parma",
-   "score": 43,
-   "base": 39.2,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "3.5 goals per game lately · Atalanta usually finish 5th: under par · Evenly matched",
-   "story_sides": {
-    "home": [
-     "4.6 goals per game lately",
-     "Usually finish 5th: under par"
-    ],
-    "away": [
-     "2.4 goals per game lately"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.3,
-     "points": 7.5
-    },
-    "stakes": {
-     "value": 0.258,
-     "points": 5.2,
-     "kind": "stakes_relegation"
-    },
-    "entertainment": {
-     "value": 0.875,
-     "points": 13.1,
-     "kind": "entertainment",
-     "reason": "3.5 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.815,
-     "points": 4.1,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.933,
-     "points": 9.3,
-     "kind": "par_under",
-     "reason": "Atalanta usually finish 5th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Atalanta": 13,
-    "Parma": 18
-   },
-   "forms": {
-    "Atalanta": [
-     [
-      "W",
-      "3-1",
-      "Pafos"
-     ],
-     [
-      "L",
-      "2-3",
-      "AC Milan"
-     ],
-     [
-      "L",
-      "0-2",
-      "Ajax"
-     ],
-     [
-      "D",
-      "4-4",
-      "Frosinone"
-     ],
-     [
-      "D",
-      "2-2",
-      "Fiorentina"
-     ]
-    ],
-    "Parma": [
-     [
-      "W",
-      "2-1",
-      "Genoa"
-     ],
-     [
-      "L",
-      "0-3",
-      "Inter"
-     ],
-     [
-      "L",
-      "0-3",
-      "Torino"
-     ],
-     [
-      "L",
-      "1-2",
-      "Lazio"
-     ],
-     [
-      "D",
-      "0-0",
-      "Udinese"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401874971",
-    "league": "ita.1",
-    "teams": [
-     "105",
-     "115"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
    }
   },
   {
@@ -11263,7 +11109,7 @@
      "reason": "Wins in last 5: 3 v 2"
     },
     "stakes": {
-     "value": 0.234,
+     "value": 0.237,
      "points": 4.7,
      "kind": "stakes_title"
     },
@@ -11517,21 +11363,21 @@
    "home": "Santa Clara",
    "away": "Gil Vicente",
    "score": 43,
-   "base": 39.8,
+   "base": 39.5,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "Wins in last 5: 3 v 2 · Santa Clara usually finish 11th: punching above their weight · 2.0 goals per game lately",
+   "story": "Wins in last 5: 3 v 2 · Santa Clara usually finish 11th: punching above their weight · 1.6 goals per game lately",
    "story_sides": {
     "home": [
      "Usually finish 11th: punching above their weight",
      "1.8 goals per game lately"
     ],
     "away": [
-     "2.2 goals per game lately"
+     "1.4 goals per game lately"
     ],
     "both": [
      "Evenly matched"
@@ -11539,29 +11385,29 @@
    },
    "breakdown": {
     "form": {
-     "value": 0.567,
-     "points": 14.2,
+     "value": 0.6,
+     "points": 15.0,
      "kind": "form",
      "reason": "Wins in last 5: 3 v 2"
     },
     "stakes": {
-     "value": 0.288,
-     "points": 5.8,
+     "value": 0.294,
+     "points": 5.9,
      "kind": "stakes_europe"
     },
     "entertainment": {
-     "value": 0.5,
-     "points": 7.5,
+     "value": 0.4,
+     "points": 6.0,
      "kind": "entertainment",
-     "reason": "2.0 goals per game lately"
+     "reason": "1.6 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.779,
-     "points": 3.9,
+     "value": 0.841,
+     "points": 4.2,
      "kind": "closeness",
      "reason": "Evenly matched"
     },
@@ -11583,7 +11429,7 @@
    "tier1_rivalry": false,
    "positions": {
     "Santa Clara": 4,
-    "Gil Vicente": 8
+    "Gil Vicente": 7
    },
    "forms": {
     "Santa Clara": [
@@ -11615,11 +11461,6 @@
     ],
     "Gil Vicente": [
      [
-      "L",
-      "1-3",
-      "Benfica"
-     ],
-     [
       "D",
       "1-1",
       "Marítimo"
@@ -11638,6 +11479,11 @@
       "L",
       "0-1",
       "Porto"
+     ],
+     [
+      "D",
+      "0-0",
+      "Vitória SC"
      ]
     ]
    },
@@ -11649,145 +11495,6 @@
      "3699"
     ],
     "us_tv": []
-   }
-  },
-  {
-   "id": "espn-401915831",
-   "competition": "Conference League",
-   "stage": "league-phase",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "day": "2026-11-05",
-   "home": "AGF",
-   "away": "Braga",
-   "score": 42,
-   "base": 33.4,
-   "competition_bonus": 5,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Fight for a top-24 spot · 2.2 goals per game lately · Evenly matched",
-   "story_sides": {
-    "home": [
-     "2.0 goals per game lately"
-    ],
-    "away": [
-     "2.4 goals per game lately"
-    ],
-    "both": [
-     "Fight for a top-24 spot",
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.367,
-     "points": 9.2
-    },
-    "stakes": {
-     "value": 0.5,
-     "points": 10.0,
-     "kind": "stakes_cutoff",
-     "reason": "Fight for a top-24 spot"
-    },
-    "entertainment": {
-     "value": 0.55,
-     "points": 8.2,
-     "kind": "entertainment",
-     "reason": "2.2 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.802,
-     "points": 4.0,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.2,
-     "points": 2.0,
-     "kind": "par_under"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "AGF": 26,
-    "Braga": 16
-   },
-   "forms": {
-    "AGF": [
-     [
-      "L",
-      "0-1",
-      "KAA Gent"
-     ],
-     [
-      "D",
-      "1-1",
-      "F.C. København"
-     ],
-     [
-      "D",
-      "1-1",
-      "Egnatia"
-     ],
-     [
-      "W",
-      "2-1",
-      "Viborg FF"
-     ],
-     [
-      "L",
-      "0-2",
-      "Brøndby IF"
-     ]
-    ],
-    "Braga": [
-     [
-      "L",
-      "0-3",
-      "F.C. København"
-     ],
-     [
-      "L",
-      "1-2",
-      "Gil Vicente"
-     ],
-     [
-      "W",
-      "2-0",
-      "KAA Gent"
-     ],
-     [
-      "L",
-      "0-1",
-      "Nacional"
-     ],
-     [
-      "W",
-      "3-0",
-      "Famalicão"
-     ]
-    ]
-   },
-   "espn": {
-    "league": "uefa.europa.conf",
-    "id": "401915831",
-    "us_tv": [
-     "Paramount+"
-    ]
    }
   },
   {
@@ -11919,6 +11626,141 @@
    "espn": {
     "league": "uefa.europa.conf",
     "id": "401915742",
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
+   "id": "espn-401915740",
+   "competition": "Conference League",
+   "stage": "league-phase",
+   "kickoff_paris": "2026-11-05T21:00:00+01:00",
+   "day": "2026-11-05",
+   "home": "F.C. København",
+   "away": "Iberia 1999",
+   "score": 42,
+   "base": 33.6,
+   "competition_bonus": 5,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "2.7 goals per game lately · Fight for a top-24 spot",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "2.8 goals per game lately"
+    ],
+    "both": [
+     "Fight for a top-24 spot"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.433,
+     "points": 10.8
+    },
+    "stakes": {
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-24 spot"
+    },
+    "entertainment": {
+     "value": 0.675,
+     "points": 10.1,
+     "kind": "entertainment",
+     "reason": "2.7 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.541,
+     "points": 2.7
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "F.C. København": 10,
+    "Iberia 1999": 29
+   },
+   "forms": {
+    "F.C. København": [
+     [
+      "W",
+      "3-0",
+      "Braga"
+     ],
+     [
+      "D",
+      "1-1",
+      "AGF"
+     ],
+     [
+      "D",
+      "2-2",
+      "Red Star Belgrade"
+     ],
+     [
+      "D",
+      "1-1",
+      "Odense Boldklub"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sønderjyske Fodbold"
+     ]
+    ],
+    "Iberia 1999": [
+     [
+      "W",
+      "2-1",
+      "Larne"
+     ],
+     [
+      "L",
+      "0-4",
+      "Jagiellonia Bialystok"
+     ],
+     [
+      "L",
+      "1-2",
+      "Jagiellonia Bialystok"
+     ],
+     [
+      "L",
+      "0-2",
+      "Sint-Truidense"
+     ],
+     [
+      "D",
+      "1-1",
+      "Mjällby AIF"
+     ]
+    ]
+   },
+   "espn": {
+    "league": "uefa.europa.conf",
+    "id": "401915740",
     "us_tv": [
      "Paramount+"
     ]
@@ -12062,145 +11904,6 @@
    }
   },
   {
-   "id": "fd-567347",
-   "competition": "Primeira Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-07T19:00:00+01:00",
-   "day": "2026-11-07",
-   "home": "Alverca",
-   "away": "Casa Pia",
-   "score": 42,
-   "base": 38.5,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 3 v 2 · 2.7 goals per game lately · Casa Pia usually finish 11th: under par",
-   "story_sides": {
-    "home": [
-     "2.8 goals per game lately"
-    ],
-    "away": [
-     "2.6 goals per game lately",
-     "Usually finish 11th: under par"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.5,
-     "points": 12.5,
-     "kind": "form",
-     "reason": "Wins in last 5: 3 v 2"
-    },
-    "stakes": {
-     "value": 0.288,
-     "points": 5.8,
-     "kind": "stakes_relegation"
-    },
-    "entertainment": {
-     "value": 0.675,
-     "points": 10.1,
-     "kind": "entertainment",
-     "reason": "2.7 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.673,
-     "points": 3.4
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.667,
-     "points": 6.7,
-     "kind": "par_under",
-     "reason": "Casa Pia usually finish 11th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Alverca": 10,
-    "Casa Pia": 17
-   },
-   "forms": {
-    "Alverca": [
-     [
-      "L",
-      "1-2",
-      "Braga"
-     ],
-     [
-      "W",
-      "3-1",
-      "Nacional"
-     ],
-     [
-      "W",
-      "1-0",
-      "Rio Ave"
-     ],
-     [
-      "W",
-      "4-1",
-      "Famalicão"
-     ],
-     [
-      "L",
-      "0-1",
-      "Arouca"
-     ]
-    ],
-    "Casa Pia": [
-     [
-      "L",
-      "1-4",
-      "Porto"
-     ],
-     [
-      "W",
-      "2-1",
-      "Estoril Praia"
-     ],
-     [
-      "L",
-      "0-1",
-      "Santa Clara"
-     ],
-     [
-      "W",
-      "2-0",
-      "Amadora"
-     ],
-     [
-      "L",
-      "0-2",
-      "Sporting CP"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401885402",
-    "league": "por.1",
-    "teams": [
-     "21613",
-     "21581"
-    ],
-    "us_tv": []
-   }
-  },
-  {
    "id": "fd-558840",
    "competition": "Eredivisie",
    "stage": "REGULAR_SEASON",
@@ -12339,140 +12042,141 @@
    }
   },
   {
-   "id": "fd-559632",
-   "competition": "Ligue 1",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T17:15:00+01:00",
-   "day": "2026-11-08",
-   "home": "Brest",
-   "away": "Lyon",
-   "score": 42,
-   "base": 39.0,
-   "competition_bonus": 0,
+   "id": "espn-401915741",
+   "competition": "Conference League",
+   "stage": "league-phase",
+   "kickoff_paris": "2026-11-05T18:45:00+01:00",
+   "day": "2026-11-05",
+   "home": "Mjällby AIF",
+   "away": "Borac Banja Luka",
+   "score": 41,
+   "base": 32.8,
+   "competition_bonus": 5,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "3.0 goals per game lately · Brest usually finish 10th: under par",
+   "story": "Fight for a top-8 spot · 2.2 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
-     "3.0 goals per game lately",
-     "Usually finish 10th: under par"
+     "1.6 goals per game lately"
     ],
     "away": [
-     "3.0 goals per game lately"
+     "2.8 goals per game lately"
     ],
-    "both": []
+    "both": [
+     "Fight for a top-8 spot",
+     "Evenly matched"
+    ]
    },
    "breakdown": {
     "form": {
-     "value": 0.433,
-     "points": 10.8
+     "value": 0.4,
+     "points": 10.0
     },
     "stakes": {
-     "value": 0.261,
-     "points": 5.2,
-     "kind": "stakes_title"
+     "value": 0.5,
+     "points": 10.0,
+     "kind": "stakes_cutoff",
+     "reason": "Fight for a top-8 spot"
     },
     "entertainment": {
-     "value": 0.75,
-     "points": 11.2,
+     "value": 0.55,
+     "points": 8.2,
      "kind": "entertainment",
-     "reason": "3.0 goals per game lately"
+     "reason": "2.2 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.478,
-     "points": 2.4
+     "value": 0.912,
+     "points": 4.6,
+     "kind": "closeness",
+     "reason": "Evenly matched"
     },
     "revenge": {
      "value": 0.0,
      "points": 0.0
     },
     "big_match": {
-     "value": 0.286,
-     "points": 5.7
+     "value": 0.0,
+     "points": 0.0
     },
     "par": {
-     "value": 0.367,
-     "points": 3.7,
-     "kind": "par_under",
-     "reason": "Brest usually finish 10th: under par"
+     "value": 0.0,
+     "points": 0.0
     }
    },
    "tier1_rivalry": false,
    "positions": {
-    "Brest": 14,
-    "Lyon": 3
+    "Mjällby AIF": 12,
+    "Borac Banja Luka": 14
    },
    "forms": {
-    "Brest": [
+    "Mjällby AIF": [
      [
       "L",
       "0-1",
-      "Paris Saint-Germain"
-     ],
-     [
-      "L",
-      "1-2",
-      "Auxerre"
-     ],
-     [
-      "W",
-      "5-1",
-      "Angers"
+      "Västerås SK"
      ],
      [
       "D",
       "1-1",
-      "Lille"
-     ],
-     [
-      "L",
-      "1-2",
-      "Nice"
-     ]
-    ],
-    "Lyon": [
-     [
-      "W",
-      "3-2",
-      "Crystal Palace"
-     ],
-     [
-      "W",
-      "2-1",
-      "Nice"
-     ],
-     [
-      "L",
-      "0-3",
-      "Hoffenheim"
+      "Iberia 1999"
      ],
      [
       "L",
       "0-2",
-      "Paris Saint-Germain"
+      "Hammarby IF"
+     ],
+     [
+      "W",
+      "2-1",
+      "Örgryte IS"
+     ],
+     [
+      "D",
+      "0-0",
+      "Kalmar FF"
+     ]
+    ],
+    "Borac Banja Luka": [
+     [
+      "W",
+      "3-1",
+      "Vikingur Reykjavik"
+     ],
+     [
+      "L",
+      "0-3",
+      "Radnik Bijeljina"
+     ],
+     [
+      "D",
+      "1-1",
+      "Vojvodina"
+     ],
+     [
+      "L",
+      "1-2",
+      "Panathinaikos"
      ],
      [
       "W",
       "2-0",
-      "Angers"
+      "KuPS Kuopio"
      ]
     ]
    },
    "espn": {
-    "id": "401876410",
-    "league": "fra.1",
-    "teams": [
-     "6997",
-     "167"
-    ],
-    "us_tv": []
+    "league": "uefa.europa.conf",
+    "id": "401915741",
+    "us_tv": [
+     "Paramount+"
+    ]
    }
   },
   {
@@ -12616,7 +12320,7 @@
    "home": "Famalicão",
    "away": "Arouca",
    "score": 41,
-   "base": 38.0,
+   "base": 38.1,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -12644,8 +12348,8 @@
      "reason": "Wins in last 5: 2 v 3"
     },
     "stakes": {
-     "value": 0.288,
-     "points": 5.8,
+     "value": 0.294,
+     "points": 5.9,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -12751,279 +12455,6 @@
    }
   },
   {
-   "id": "fd-567342",
-   "competition": "Primeira Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-02T21:15:00+01:00",
-   "day": "2026-11-02",
-   "home": "Benfica",
-   "away": "Alverca",
-   "score": 40,
-   "base": 36.4,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 4 v 3 · 3.3 goals per game lately · Benfica 8 pts off the top: under par",
-   "story_sides": {
-    "home": [
-     "3.8 goals per game lately",
-     "8 pts off the top: under par"
-    ],
-    "away": [
-     "2.8 goals per game lately"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.7,
-     "points": 17.5,
-     "kind": "form",
-     "reason": "Wins in last 5: 4 v 3"
-    },
-    "stakes": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "entertainment": {
-     "value": 0.825,
-     "points": 12.4,
-     "kind": "entertainment",
-     "reason": "3.3 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.638,
-     "points": 3.2
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.333,
-     "points": 3.3,
-     "kind": "giant_gap",
-     "reason": "Benfica 8 pts off the top: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Benfica": 2,
-    "Alverca": 10
-   },
-   "forms": {
-    "Benfica": [
-     [
-      "L",
-      "1-3",
-      "Porto"
-     ],
-     [
-      "W",
-      "2-0",
-      "Vitória SC"
-     ],
-     [
-      "W",
-      "4-1",
-      "Celtic"
-     ],
-     [
-      "W",
-      "4-1",
-      "Omonia Nicosia"
-     ],
-     [
-      "W",
-      "2-1",
-      "Santa Clara"
-     ]
-    ],
-    "Alverca": [
-     [
-      "L",
-      "1-2",
-      "Braga"
-     ],
-     [
-      "W",
-      "3-1",
-      "Nacional"
-     ],
-     [
-      "W",
-      "1-0",
-      "Rio Ave"
-     ],
-     [
-      "W",
-      "4-1",
-      "Famalicão"
-     ],
-     [
-      "L",
-      "0-1",
-      "Arouca"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401885403",
-    "league": "por.1",
-    "teams": [
-     "1929",
-     "21613"
-    ],
-    "us_tv": []
-   }
-  },
-  {
-   "id": "espn-401915740",
-   "competition": "Conference League",
-   "stage": "league-phase",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "day": "2026-11-05",
-   "home": "F.C. København",
-   "away": "Iberia 1999",
-   "score": 40,
-   "base": 31.9,
-   "competition_bonus": 5,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.8 goals per game lately · Fight for a top-24 spot",
-   "story_sides": {
-    "home": [
-     "2.8 goals per game lately"
-    ],
-    "away": [
-     "2.8 goals per game lately"
-    ],
-    "both": [
-     "Fight for a top-24 spot"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.333,
-     "points": 8.3
-    },
-    "stakes": {
-     "value": 0.5,
-     "points": 10.0,
-     "kind": "stakes_cutoff",
-     "reason": "Fight for a top-24 spot"
-    },
-    "entertainment": {
-     "value": 0.7,
-     "points": 10.5,
-     "kind": "entertainment",
-     "reason": "2.8 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.621,
-     "points": 3.1
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.0,
-     "points": 0.0
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "F.C. København": 10,
-    "Iberia 1999": 29
-   },
-   "forms": {
-    "F.C. København": [
-     [
-      "L",
-      "1-2",
-      "FC Midtjylland"
-     ],
-     [
-      "W",
-      "3-0",
-      "Braga"
-     ],
-     [
-      "D",
-      "1-1",
-      "AGF"
-     ],
-     [
-      "D",
-      "2-2",
-      "Red Star Belgrade"
-     ],
-     [
-      "D",
-      "1-1",
-      "Odense Boldklub"
-     ]
-    ],
-    "Iberia 1999": [
-     [
-      "W",
-      "2-1",
-      "Larne"
-     ],
-     [
-      "L",
-      "0-4",
-      "Jagiellonia Bialystok"
-     ],
-     [
-      "L",
-      "1-2",
-      "Jagiellonia Bialystok"
-     ],
-     [
-      "L",
-      "0-2",
-      "Sint-Truidense"
-     ],
-     [
-      "D",
-      "1-1",
-      "Mjällby AIF"
-     ]
-    ]
-   },
-   "espn": {
-    "league": "uefa.europa.conf",
-    "id": "401915740",
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
    "id": "fd-558535",
    "competition": "Serie A",
    "stage": "REGULAR_SEASON",
@@ -13031,8 +12462,8 @@
    "day": "2026-11-07",
    "home": "Parma",
    "away": "Bologna",
-   "score": 40,
-   "base": 36.7,
+   "score": 41,
+   "base": 37.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -13059,8 +12490,8 @@
      "reason": "Wins in last 5: 1 v 4"
     },
     "stakes": {
-     "value": 0.258,
-     "points": 5.2,
+     "value": 0.263,
+     "points": 5.3,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -13076,8 +12507,8 @@
      "reason": "Derby dell'Emilia"
     },
     "closeness": {
-     "value": 0.502,
-     "points": 2.5
+     "value": 0.597,
+     "points": 3.0
     },
     "revenge": {
      "value": 0.0,
@@ -13094,16 +12525,11 @@
    },
    "tier1_rivalry": false,
    "positions": {
-    "Parma": 18,
+    "Parma": 15,
     "Bologna": 9
    },
    "forms": {
     "Parma": [
-     [
-      "W",
-      "2-1",
-      "Genoa"
-     ],
      [
       "L",
       "0-3",
@@ -13123,6 +12549,11 @@
       "D",
       "0-0",
       "Udinese"
+     ],
+     [
+      "W",
+      "3-0",
+      "Atalanta"
      ]
     ],
     "Bologna": [
@@ -13166,56 +12597,57 @@
    }
   },
   {
-   "id": "fd-560637",
-   "competition": "Premier League",
+   "id": "fd-567347",
+   "competition": "Primeira Liga",
    "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T15:00:00+01:00",
-   "day": "2026-11-08",
-   "home": "Ipswich Town",
-   "away": "AFC Bournemouth",
-   "score": 40,
-   "base": 37.1,
+   "kickoff_paris": "2026-11-07T19:00:00+01:00",
+   "day": "2026-11-07",
+   "home": "Alverca",
+   "away": "Casa Pia",
+   "score": 41,
+   "base": 37.9,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "Wins in last 5: 1 v 5 · 2.8 goals per game lately",
+   "story": "Wins in last 5: 3 v 2 · 2.5 goals per game lately · Casa Pia usually finish 11th: under par",
    "story_sides": {
     "home": [
-     "3.0 goals per game lately"
+     "2.4 goals per game lately"
     ],
     "away": [
-     "2.6 goals per game lately"
+     "2.6 goals per game lately",
+     "Usually finish 11th: under par"
     ],
     "both": []
    },
    "breakdown": {
     "form": {
-     "value": 0.667,
-     "points": 16.7,
+     "value": 0.5,
+     "points": 12.5,
      "kind": "form",
-     "reason": "Wins in last 5: 1 v 5"
+     "reason": "Wins in last 5: 3 v 2"
     },
     "stakes": {
-     "value": 0.234,
-     "points": 4.7,
-     "kind": "stakes_europe"
+     "value": 0.294,
+     "points": 5.9,
+     "kind": "stakes_relegation"
     },
     "entertainment": {
-     "value": 0.7,
-     "points": 10.5,
+     "value": 0.625,
+     "points": 9.4,
      "kind": "entertainment",
-     "reason": "2.8 goals per game lately"
+     "reason": "2.5 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.544,
-     "points": 2.7
+     "value": 0.673,
+     "points": 3.4
     },
     "revenge": {
      "value": 0.0,
@@ -13226,78 +12658,79 @@
      "points": 0.0
     },
     "par": {
-     "value": 0.25,
-     "points": 2.5,
-     "kind": "par_over"
+     "value": 0.667,
+     "points": 6.7,
+     "kind": "par_under",
+     "reason": "Casa Pia usually finish 11th: under par"
     }
    },
    "tier1_rivalry": false,
    "positions": {
-    "Ipswich Town": 13,
-    "AFC Bournemouth": 7
+    "Alverca": 10,
+    "Casa Pia": 17
    },
    "forms": {
-    "Ipswich Town": [
+    "Alverca": [
+     [
+      "W",
+      "3-1",
+      "Nacional"
+     ],
+     [
+      "W",
+      "1-0",
+      "Rio Ave"
+     ],
+     [
+      "W",
+      "4-1",
+      "Famalicão"
+     ],
      [
       "L",
       "0-1",
-      "Everton"
+      "Arouca"
+     ],
+     [
+      "L",
+      "0-1",
+      "Benfica"
+     ]
+    ],
+    "Casa Pia": [
+     [
+      "L",
+      "1-4",
+      "Porto"
      ],
      [
       "W",
       "2-1",
-      "Fulham"
+      "Estoril Praia"
      ],
      [
       "L",
-      "2-3",
-      "Manchester City"
-     ],
-     [
-      "D",
-      "1-1",
-      "Nottingham Forest"
-     ],
-     [
-      "D",
-      "2-2",
-      "Hull City"
-     ]
-    ],
-    "AFC Bournemouth": [
-     [
-      "W",
-      "3-0",
-      "SK Sturm Graz"
+      "0-1",
+      "Santa Clara"
      ],
      [
       "W",
       "2-0",
-      "Sunderland"
+      "Amadora"
      ],
      [
-      "W",
-      "3-0",
-      "AC Milan"
-     ],
-     [
-      "W",
-      "3-0",
-      "Manchester United"
-     ],
-     [
-      "W",
-      "2-0",
-      "Leeds United"
+      "L",
+      "0-2",
+      "Sporting CP"
      ]
     ]
    },
    "espn": {
-    "id": "401878759",
-    "league": "eng.1",
+    "id": "401885402",
+    "league": "por.1",
     "teams": [
-     "373",
-     "349"
+     "21613",
+     "21581"
     ],
     "us_tv": []
    }
@@ -13437,151 +12870,6 @@
     ],
     "us_tv": [
      "ESPN+"
-    ]
-   }
-  },
-  {
-   "id": "fd-559641",
-   "competition": "Ligue 1",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-02T20:45:00+01:00",
-   "day": "2026-11-02",
-   "home": "Lorient",
-   "away": "Brest",
-   "score": 39,
-   "base": 36.2,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.4 goals per game lately · Derby Breton · Evenly matched",
-   "story_sides": {
-    "home": [
-     "1.8 goals per game lately"
-    ],
-    "away": [
-     "3.0 goals per game lately"
-    ],
-    "both": [
-     "Derby Breton",
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.4,
-     "points": 10.0
-    },
-    "stakes": {
-     "value": 0.261,
-     "points": 5.2,
-     "kind": "stakes_relegation"
-    },
-    "entertainment": {
-     "value": 0.6,
-     "points": 9.0,
-     "kind": "entertainment",
-     "reason": "2.4 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.3,
-     "points": 4.5,
-     "kind": "rivalry",
-     "reason": "Derby Breton"
-    },
-    "closeness": {
-     "value": 0.752,
-     "points": 3.8,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.367,
-     "points": 3.7,
-     "kind": "par_under",
-     "reason": "Brest usually finish 10th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Lorient": 10,
-    "Brest": 14
-   },
-   "forms": {
-    "Lorient": [
-     [
-      "D",
-      "2-2",
-      "Toulouse"
-     ],
-     [
-      "L",
-      "1-2",
-      "Le Mans"
-     ],
-     [
-      "W",
-      "1-0",
-      "Paris FC"
-     ],
-     [
-      "W",
-      "1-0",
-      "Monaco"
-     ],
-     [
-      "D",
-      "0-0",
-      "Angers"
-     ]
-    ],
-    "Brest": [
-     [
-      "L",
-      "0-1",
-      "Paris Saint-Germain"
-     ],
-     [
-      "L",
-      "1-2",
-      "Auxerre"
-     ],
-     [
-      "W",
-      "5-1",
-      "Angers"
-     ],
-     [
-      "D",
-      "1-1",
-      "Lille"
-     ],
-     [
-      "L",
-      "1-2",
-      "Nice"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401876419",
-    "league": "fra.1",
-    "teams": [
-     "273",
-     "6997"
-    ],
-    "us_tv": [
-     "beIn Sports"
     ]
    }
   },
@@ -13861,6 +13149,282 @@
    }
   },
   {
+   "id": "fd-559638",
+   "competition": "Ligue 1",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-06T20:45:00+01:00",
+   "day": "2026-11-06",
+   "home": "Toulouse",
+   "away": "Strasbourg",
+   "score": 39,
+   "base": 36.0,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "3.3 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "3.8 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.367,
+     "points": 9.2
+    },
+    "stakes": {
+     "value": 0.265,
+     "points": 5.3,
+     "kind": "stakes_relegation"
+    },
+    "entertainment": {
+     "value": 0.825,
+     "points": 12.4,
+     "kind": "entertainment",
+     "reason": "3.3 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.831,
+     "points": 4.2,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.147,
+     "points": 2.9
+    },
+    "par": {
+     "value": 0.2,
+     "points": 2.0,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Toulouse": 12,
+    "Strasbourg": 13
+   },
+   "forms": {
+    "Toulouse": [
+     [
+      "W",
+      "3-2",
+      "Le Havre"
+     ],
+     [
+      "D",
+      "2-2",
+      "Monaco"
+     ],
+     [
+      "W",
+      "3-0",
+      "Le Mans"
+     ],
+     [
+      "D",
+      "0-0",
+      "Troyes"
+     ],
+     [
+      "L",
+      "0-2",
+      "Marseille"
+     ]
+    ],
+    "Strasbourg": [
+     [
+      "L",
+      "1-2",
+      "Paris FC"
+     ],
+     [
+      "L",
+      "1-2",
+      "Nice"
+     ],
+     [
+      "L",
+      "1-3",
+      "Paris Saint-Germain"
+     ],
+     [
+      "L",
+      "0-3",
+      "Rennes"
+     ],
+     [
+      "W",
+      "5-1",
+      "Auxerre"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401876405",
+    "league": "fra.1",
+    "teams": [
+     "179",
+     "180"
+    ],
+    "us_tv": []
+   }
+  },
+  {
+   "id": "fd-558531",
+   "competition": "Serie A",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-07T20:45:00+01:00",
+   "day": "2026-11-07",
+   "home": "Roma",
+   "away": "Sassuolo",
+   "score": 39,
+   "base": 35.7,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "4.9 goals per game lately",
+   "story_sides": {
+    "home": [
+     "5.0 goals per game lately"
+    ],
+    "away": [
+     "4.8 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.467,
+     "points": 11.7
+    },
+    "stakes": {
+     "value": 0.263,
+     "points": 5.3,
+     "kind": "stakes_title"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.9 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.238,
+     "points": 1.2
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.25,
+     "points": 2.5,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Roma": 3,
+    "Sassuolo": 17
+   },
+   "forms": {
+    "Roma": [
+     [
+      "W",
+      "2-0",
+      "Genoa"
+     ],
+     [
+      "W",
+      "4-0",
+      "Sl. Bratislava"
+     ],
+     [
+      "D",
+      "3-3",
+      "Napoli"
+     ],
+     [
+      "W",
+      "4-2",
+      "Cagliari"
+     ],
+     [
+      "W",
+      "5-2",
+      "Udinese"
+     ]
+    ],
+    "Sassuolo": [
+     [
+      "D",
+      "1-1",
+      "AC Milan"
+     ],
+     [
+      "L",
+      "2-4",
+      "Frosinone"
+     ],
+     [
+      "L",
+      "0-2",
+      "Como"
+     ],
+     [
+      "L",
+      "2-6",
+      "Lazio"
+     ],
+     [
+      "L",
+      "2-4",
+      "Fiorentina"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401874803",
+    "league": "ita.1",
+    "teams": [
+     "104",
+     "3997"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-558537",
    "competition": "Serie A",
    "stage": "REGULAR_SEASON",
@@ -13869,7 +13433,7 @@
    "home": "Venezia",
    "away": "Udinese",
    "score": 38,
-   "base": 35.2,
+   "base": 35.4,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -13895,8 +13459,8 @@
      "points": 3.3
     },
     "stakes": {
-     "value": 0.516,
-     "points": 10.3,
+     "value": 0.526,
+     "points": 10.5,
      "kind": "stakes_relegation",
      "reason": "Relegation battle"
     },
@@ -14013,7 +13577,7 @@
    "home": "Cagliari",
    "away": "Frosinone",
    "score": 38,
-   "base": 35.2,
+   "base": 35.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -14036,8 +13600,8 @@
      "points": 9.2
     },
     "stakes": {
-     "value": 0.258,
-     "points": 5.2,
+     "value": 0.263,
+     "points": 5.3,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -14150,7 +13714,7 @@
    "home": "Paris Saint-Germain",
    "away": "Troyes",
    "score": 38,
-   "base": 34.7,
+   "base": 34.8,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -14175,8 +13739,8 @@
      "reason": "Wins in last 5: 5 v 1"
     },
     "stakes": {
-     "value": 0.261,
-     "points": 5.2,
+     "value": 0.265,
+     "points": 5.3,
      "kind": "stakes_title"
     },
     "entertainment": {
@@ -14278,6 +13842,143 @@
    }
   },
   {
+   "id": "fd-560637",
+   "competition": "Premier League",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-08T15:00:00+01:00",
+   "day": "2026-11-08",
+   "home": "Ipswich Town",
+   "away": "AFC Bournemouth",
+   "score": 38,
+   "base": 35.4,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 1 v 5 · 2.8 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "2.6 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.667,
+     "points": 16.7,
+     "kind": "form",
+     "reason": "Wins in last 5: 1 v 5"
+    },
+    "stakes": {
+     "value": 0.237,
+     "points": 4.7,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.7,
+     "points": 10.5,
+     "kind": "entertainment",
+     "reason": "2.8 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.544,
+     "points": 2.7
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.083,
+     "points": 0.8,
+     "kind": "par_over"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Ipswich Town": 14,
+    "AFC Bournemouth": 8
+   },
+   "forms": {
+    "Ipswich Town": [
+     [
+      "L",
+      "0-1",
+      "Everton"
+     ],
+     [
+      "W",
+      "2-1",
+      "Fulham"
+     ],
+     [
+      "L",
+      "2-3",
+      "Manchester City"
+     ],
+     [
+      "D",
+      "1-1",
+      "Nottingham Forest"
+     ],
+     [
+      "D",
+      "2-2",
+      "Hull City"
+     ]
+    ],
+    "AFC Bournemouth": [
+     [
+      "W",
+      "3-0",
+      "SK Sturm Graz"
+     ],
+     [
+      "W",
+      "2-0",
+      "Sunderland"
+     ],
+     [
+      "W",
+      "3-0",
+      "AC Milan"
+     ],
+     [
+      "W",
+      "3-0",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "2-0",
+      "Leeds United"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401878759",
+    "league": "eng.1",
+    "teams": [
+     "373",
+     "349"
+    ],
+    "us_tv": []
+   }
+  },
+  {
    "id": "fd-559634",
    "competition": "Ligue 1",
    "stage": "REGULAR_SEASON",
@@ -14286,7 +13987,7 @@
    "home": "Angers",
    "away": "Nice",
    "score": 38,
-   "base": 34.7,
+   "base": 34.8,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -14311,8 +14012,8 @@
      "reason": "Wins in last 5: 1 v 4"
     },
     "stakes": {
-     "value": 0.261,
-     "points": 5.2,
+     "value": 0.265,
+     "points": 5.3,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -14422,20 +14123,20 @@
    "home": "Fulham",
    "away": "Newcastle United",
    "score": 37,
-   "base": 33.8,
+   "base": 34.0,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "2.5 goals per game lately · Evenly matched · Newcastle United usually finish 8th: under par",
+   "story": "2.1 goals per game lately · Newcastle United usually finish 8th: under par · Evenly matched",
    "story_sides": {
     "home": [
      "1.8 goals per game lately"
     ],
     "away": [
-     "3.2 goals per game lately",
+     "2.4 goals per game lately",
      "Usually finish 8th: under par"
     ],
     "both": [
@@ -14448,23 +14149,23 @@
      "points": 11.7
     },
     "stakes": {
-     "value": 0.234,
+     "value": 0.237,
      "points": 4.7,
      "kind": "stakes_relegation"
     },
     "entertainment": {
-     "value": 0.625,
-     "points": 9.4,
+     "value": 0.525,
+     "points": 7.9,
      "kind": "entertainment",
-     "reason": "2.5 goals per game lately"
+     "reason": "2.1 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.852,
-     "points": 4.3,
+     "value": 0.884,
+     "points": 4.4,
      "kind": "closeness",
      "reason": "Evenly matched"
     },
@@ -14477,8 +14178,8 @@
      "points": 0.0
     },
     "par": {
-     "value": 0.367,
-     "points": 3.7,
+     "value": 0.533,
+     "points": 5.3,
      "kind": "par_under",
      "reason": "Newcastle United usually finish 8th: under par"
     }
@@ -14486,7 +14187,7 @@
    "tier1_rivalry": false,
    "positions": {
     "Fulham": 15,
-    "Newcastle United": 12
+    "Newcastle United": 13
    },
    "forms": {
     "Fulham": [
@@ -14518,11 +14219,6 @@
     ],
     "Newcastle United": [
      [
-      "L",
-      "1-4",
-      "Leeds United"
-     ],
-     [
       "W",
       "2-1",
       "Hull City"
@@ -14541,6 +14237,11 @@
       "W",
       "2-0",
       "Crystal Palace"
+     ],
+     [
+      "L",
+      "0-1",
+      "Everton"
      ]
     ]
    },
@@ -14550,6 +14251,142 @@
     "teams": [
      "370",
      "361"
+    ],
+    "us_tv": []
+   }
+  },
+  {
+   "id": "fd-567352",
+   "competition": "Primeira Liga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-07T16:30:00+01:00",
+   "day": "2026-11-07",
+   "home": "Nacional",
+   "away": "Acad. Viseu",
+   "score": 37,
+   "base": 33.6,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 1 v 5 · 2.9 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.0 goals per game lately"
+    ],
+    "away": [
+     "2.8 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.6,
+     "points": 15.0,
+     "kind": "form",
+     "reason": "Wins in last 5: 1 v 5"
+    },
+    "stakes": {
+     "value": 0.294,
+     "points": 5.9,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.725,
+     "points": 10.9,
+     "kind": "entertainment",
+     "reason": "2.9 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.362,
+     "points": 1.8
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Nacional": 15,
+    "Acad. Viseu": 6
+   },
+   "forms": {
+    "Nacional": [
+     [
+      "L",
+      "1-3",
+      "Alverca"
+     ],
+     [
+      "L",
+      "0-4",
+      "Famalicão"
+     ],
+     [
+      "L",
+      "2-3",
+      "Rio Ave"
+     ],
+     [
+      "W",
+      "1-0",
+      "Braga"
+     ],
+     [
+      "L",
+      "0-1",
+      "Arouca"
+     ]
+    ],
+    "Acad. Viseu": [
+     [
+      "W",
+      "2-1",
+      "Vitória SC"
+     ],
+     [
+      "W",
+      "2-0",
+      "Amadora"
+     ],
+     [
+      "W",
+      "2-1",
+      "Estoril Praia"
+     ],
+     [
+      "W",
+      "2-1",
+      "Sporting CP"
+     ],
+     [
+      "W",
+      "2-1",
+      "Rio Ave"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401885398",
+    "league": "por.1",
+    "teams": [
+     "3472",
+     "21607"
     ],
     "us_tv": []
    }
@@ -14693,143 +14530,6 @@
    }
   },
   {
-   "id": "fd-558531",
-   "competition": "Serie A",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-07T20:45:00+01:00",
-   "day": "2026-11-07",
-   "home": "Roma",
-   "away": "Sassuolo",
-   "score": 37,
-   "base": 33.7,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "4.6 goals per game lately",
-   "story_sides": {
-    "home": [
-     "5.0 goals per game lately"
-    ],
-    "away": [
-     "4.2 goals per game lately"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.467,
-     "points": 11.7
-    },
-    "stakes": {
-     "value": 0.258,
-     "points": 5.2,
-     "kind": "stakes_title"
-    },
-    "entertainment": {
-     "value": 1.0,
-     "points": 15.0,
-     "kind": "entertainment",
-     "reason": "4.6 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.301,
-     "points": 1.5
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.033,
-     "points": 0.3,
-     "kind": "par_over"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Roma": 3,
-    "Sassuolo": 15
-   },
-   "forms": {
-    "Roma": [
-     [
-      "W",
-      "2-0",
-      "Genoa"
-     ],
-     [
-      "W",
-      "4-0",
-      "Sl. Bratislava"
-     ],
-     [
-      "D",
-      "3-3",
-      "Napoli"
-     ],
-     [
-      "W",
-      "4-2",
-      "Cagliari"
-     ],
-     [
-      "W",
-      "5-2",
-      "Udinese"
-     ]
-    ],
-    "Sassuolo": [
-     [
-      "L",
-      "1-2",
-      "Monza"
-     ],
-     [
-      "D",
-      "1-1",
-      "AC Milan"
-     ],
-     [
-      "L",
-      "2-4",
-      "Frosinone"
-     ],
-     [
-      "L",
-      "0-2",
-      "Como"
-     ],
-     [
-      "L",
-      "2-6",
-      "Lazio"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401874803",
-    "league": "ita.1",
-    "teams": [
-     "104",
-     "3997"
-    ],
-    "us_tv": [
-     "Paramount+"
-    ]
-   }
-  },
-  {
    "id": "fd-560636",
    "competition": "Premier League",
    "stage": "REGULAR_SEASON",
@@ -14861,7 +14561,7 @@
      "points": 11.7
     },
     "stakes": {
-     "value": 0.234,
+     "value": 0.237,
      "points": 4.7,
      "kind": "stakes_relegation"
     },
@@ -14965,283 +14665,6 @@
    }
   },
   {
-   "id": "fd-560632",
-   "competition": "Premier League",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-07T13:30:00+01:00",
-   "day": "2026-11-07",
-   "home": "Leeds United",
-   "away": "Tottenham Hotspur",
-   "score": 36,
-   "base": 33.4,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.2 goals per game lately · Leeds United usually finish 17th: punching above their weight · Evenly matched",
-   "story_sides": {
-    "home": [
-     "1.4 goals per game lately",
-     "Usually finish 17th: punching above their weight"
-    ],
-    "away": [
-     "3.0 goals per game lately"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.433,
-     "points": 10.8
-    },
-    "stakes": {
-     "value": 0.234,
-     "points": 4.7,
-     "kind": "stakes_europe"
-    },
-    "entertainment": {
-     "value": 0.55,
-     "points": 8.2,
-     "kind": "entertainment",
-     "reason": "2.2 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.719,
-     "points": 3.6,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.611,
-     "points": 6.1,
-     "kind": "par_over",
-     "reason": "Leeds United usually finish 17th: punching above their weight"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Leeds United": 11,
-    "Tottenham Hotspur": 8
-   },
-   "forms": {
-    "Leeds United": [
-     [
-      "D",
-      "0-0",
-      "Crystal Palace"
-     ],
-     [
-      "L",
-      "1-2",
-      "Arsenal"
-     ],
-     [
-      "D",
-      "1-1",
-      "Manchester United"
-     ],
-     [
-      "D",
-      "0-0",
-      "Sunderland"
-     ],
-     [
-      "L",
-      "0-2",
-      "AFC Bournemouth"
-     ]
-    ],
-    "Tottenham Hotspur": [
-     [
-      "L",
-      "2-3",
-      "Aston Villa"
-     ],
-     [
-      "D",
-      "1-1",
-      "Manchester United"
-     ],
-     [
-      "W",
-      "3-1",
-      "Coventry City"
-     ],
-     [
-      "W",
-      "2-0",
-      "Chelsea"
-     ],
-     [
-      "W",
-      "2-0",
-      "Crystal Palace"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401878758",
-    "league": "eng.1",
-    "teams": [
-     "357",
-     "367"
-    ],
-    "us_tv": []
-   }
-  },
-  {
-   "id": "fd-567352",
-   "competition": "Primeira Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-07T16:30:00+01:00",
-   "day": "2026-11-07",
-   "home": "Nacional",
-   "away": "Acad. Viseu",
-   "score": 36,
-   "base": 33.5,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 1 v 5 · 2.9 goals per game lately",
-   "story_sides": {
-    "home": [
-     "3.0 goals per game lately"
-    ],
-    "away": [
-     "2.8 goals per game lately"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.6,
-     "points": 15.0,
-     "kind": "form",
-     "reason": "Wins in last 5: 1 v 5"
-    },
-    "stakes": {
-     "value": 0.288,
-     "points": 5.8,
-     "kind": "stakes_europe"
-    },
-    "entertainment": {
-     "value": 0.725,
-     "points": 10.9,
-     "kind": "entertainment",
-     "reason": "2.9 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.362,
-     "points": 1.8
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.0,
-     "points": 0.0
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Nacional": 15,
-    "Acad. Viseu": 6
-   },
-   "forms": {
-    "Nacional": [
-     [
-      "L",
-      "1-3",
-      "Alverca"
-     ],
-     [
-      "L",
-      "0-4",
-      "Famalicão"
-     ],
-     [
-      "L",
-      "2-3",
-      "Rio Ave"
-     ],
-     [
-      "W",
-      "1-0",
-      "Braga"
-     ],
-     [
-      "L",
-      "0-1",
-      "Arouca"
-     ]
-    ],
-    "Acad. Viseu": [
-     [
-      "W",
-      "2-1",
-      "Vitória SC"
-     ],
-     [
-      "W",
-      "2-0",
-      "Amadora"
-     ],
-     [
-      "W",
-      "2-1",
-      "Estoril Praia"
-     ],
-     [
-      "W",
-      "2-1",
-      "Sporting CP"
-     ],
-     [
-      "W",
-      "2-1",
-      "Rio Ave"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401885398",
-    "league": "por.1",
-    "teams": [
-     "3472",
-     "21607"
-    ],
-    "us_tv": []
-   }
-  },
-  {
    "id": "fd-567354",
    "competition": "Primeira Liga",
    "stage": "REGULAR_SEASON",
@@ -15250,7 +14673,7 @@
    "home": "Rio Ave",
    "away": "Braga",
    "score": 36,
-   "base": 33.0,
+   "base": 33.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -15274,8 +14697,8 @@
      "points": 8.3
     },
     "stakes": {
-     "value": 0.288,
-     "points": 5.8,
+     "value": 0.294,
+     "points": 5.9,
      "kind": "stakes_relegation"
     },
     "entertainment": {
@@ -15289,8 +14712,8 @@
      "points": 0.0
     },
     "closeness": {
-     "value": 0.629,
-     "points": 3.1
+     "value": 0.664,
+     "points": 3.3
     },
     "revenge": {
      "value": 0.0,
@@ -15310,7 +14733,7 @@
    "tier1_rivalry": false,
    "positions": {
     "Rio Ave": 16,
-    "Braga": 7
+    "Braga": 8
    },
    "forms": {
     "Rio Ave": [
@@ -15387,7 +14810,7 @@
    "home": "Málaga",
    "away": "Racing Santander",
    "score": 35,
-   "base": 32.5,
+   "base": 32.6,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -15413,8 +14836,8 @@
      "points": 5.0
     },
     "stakes": {
-     "value": 0.568,
-     "points": 11.4,
+     "value": 0.574,
+     "points": 11.5,
      "kind": "stakes_relegation",
      "reason": "Relegation battle"
     },
@@ -15555,7 +14978,7 @@
      "reason": "Wins in last 5: 2 v 3"
     },
     "stakes": {
-     "value": 0.284,
+     "value": 0.287,
      "points": 5.7,
      "kind": "stakes_relegation"
     },
@@ -15660,6 +15083,283 @@
    }
   },
   {
+   "id": "fd-567355",
+   "competition": "Primeira Liga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-08T21:30:00+01:00",
+   "day": "2026-11-08",
+   "home": "Amadora",
+   "away": "Benfica",
+   "score": 35,
+   "base": 31.8,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 0 v 5 · 3.0 goals per game lately",
+   "story_sides": {
+    "home": [
+     "2.8 goals per game lately"
+    ],
+    "away": [
+     "3.2 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.533,
+     "points": 13.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 0 v 5"
+    },
+    "stakes": {
+     "value": 0.294,
+     "points": 5.9,
+     "kind": "stakes_title"
+    },
+    "entertainment": {
+     "value": 0.75,
+     "points": 11.2,
+     "kind": "entertainment",
+     "reason": "3.0 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.274,
+     "points": 1.4
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Amadora": 12,
+    "Benfica": 2
+   },
+   "forms": {
+    "Amadora": [
+     [
+      "D",
+      "3-3",
+      "Rio Ave"
+     ],
+     [
+      "L",
+      "0-2",
+      "Acad. Viseu"
+     ],
+     [
+      "L",
+      "0-1",
+      "Arouca"
+     ],
+     [
+      "L",
+      "0-2",
+      "Casa Pia"
+     ],
+     [
+      "L",
+      "1-2",
+      "Moreirense"
+     ]
+    ],
+    "Benfica": [
+     [
+      "W",
+      "2-0",
+      "Vitória SC"
+     ],
+     [
+      "W",
+      "4-1",
+      "Celtic"
+     ],
+     [
+      "W",
+      "4-1",
+      "Omonia Nicosia"
+     ],
+     [
+      "W",
+      "2-1",
+      "Santa Clara"
+     ],
+     [
+      "W",
+      "1-0",
+      "Alverca"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401885401",
+    "league": "por.1",
+    "teams": [
+     "21610",
+     "1929"
+    ],
+    "us_tv": []
+   }
+  },
+  {
+   "id": "fd-560632",
+   "competition": "Premier League",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-07T13:30:00+01:00",
+   "day": "2026-11-07",
+   "home": "Leeds United",
+   "away": "Tottenham Hotspur",
+   "score": 34,
+   "base": 31.7,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "2.2 goals per game lately · Leeds United usually finish 17th: punching above their weight · Evenly matched",
+   "story_sides": {
+    "home": [
+     "1.4 goals per game lately",
+     "Usually finish 17th: punching above their weight"
+    ],
+    "away": [
+     "3.0 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.433,
+     "points": 10.8
+    },
+    "stakes": {
+     "value": 0.237,
+     "points": 4.7,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.55,
+     "points": 8.2,
+     "kind": "entertainment",
+     "reason": "2.2 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.719,
+     "points": 3.6,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.444,
+     "points": 4.4,
+     "kind": "par_over",
+     "reason": "Leeds United usually finish 17th: punching above their weight"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Leeds United": 12,
+    "Tottenham Hotspur": 9
+   },
+   "forms": {
+    "Leeds United": [
+     [
+      "D",
+      "0-0",
+      "Crystal Palace"
+     ],
+     [
+      "L",
+      "1-2",
+      "Arsenal"
+     ],
+     [
+      "D",
+      "1-1",
+      "Manchester United"
+     ],
+     [
+      "D",
+      "0-0",
+      "Sunderland"
+     ],
+     [
+      "L",
+      "0-2",
+      "AFC Bournemouth"
+     ]
+    ],
+    "Tottenham Hotspur": [
+     [
+      "L",
+      "2-3",
+      "Aston Villa"
+     ],
+     [
+      "D",
+      "1-1",
+      "Manchester United"
+     ],
+     [
+      "W",
+      "3-1",
+      "Coventry City"
+     ],
+     [
+      "W",
+      "2-0",
+      "Chelsea"
+     ],
+     [
+      "W",
+      "2-0",
+      "Crystal Palace"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401878758",
+    "league": "eng.1",
+    "teams": [
+     "357",
+     "367"
+    ],
+    "us_tv": []
+   }
+  },
+  {
    "id": "fd-558532",
    "competition": "Serie A",
    "stage": "REGULAR_SEASON",
@@ -15668,7 +15368,7 @@
    "home": "Torino",
    "away": "Lecce",
    "score": 34,
-   "base": 31.6,
+   "base": 31.7,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -15693,8 +15393,8 @@
      "points": 10.0
     },
     "stakes": {
-     "value": 0.258,
-     "points": 5.2,
+     "value": 0.263,
+     "points": 5.3,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -16078,562 +15778,6 @@
    }
   },
   {
-   "id": "fd-564731",
-   "competition": "La Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-02T21:00:00+01:00",
-   "day": "2026-11-02",
-   "home": "Deportivo La Coruña",
-   "away": "Osasuna",
-   "score": 32,
-   "base": 29.3,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.8 goals per game lately · Evenly matched · Osasuna usually finish 11th: under par",
-   "story_sides": {
-    "home": [
-     "2.2 goals per game lately"
-    ],
-    "away": [
-     "3.4 goals per game lately",
-     "Usually finish 11th: under par"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.2,
-     "points": 5.0
-    },
-    "stakes": {
-     "value": 0.284,
-     "points": 5.7,
-     "kind": "stakes_relegation"
-    },
-    "entertainment": {
-     "value": 0.7,
-     "points": 10.5,
-     "kind": "entertainment",
-     "reason": "2.8 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.884,
-     "points": 4.4,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.367,
-     "points": 3.7,
-     "kind": "par_under",
-     "reason": "Osasuna usually finish 11th: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Deportivo La Coruña": 13,
-    "Osasuna": 15
-   },
-   "forms": {
-    "Deportivo La Coruña": [
-     [
-      "L",
-      "0-1",
-      "Sevilla"
-     ],
-     [
-      "D",
-      "1-1",
-      "Real Betis"
-     ],
-     [
-      "L",
-      "2-3",
-      "Real Sociedad"
-     ],
-     [
-      "D",
-      "1-1",
-      "Levante"
-     ],
-     [
-      "L",
-      "0-1",
-      "Atlético Madrid"
-     ]
-    ],
-    "Osasuna": [
-     [
-      "L",
-      "0-4",
-      "Atlético Madrid"
-     ],
-     [
-      "D",
-      "1-1",
-      "Rayo Vallecano"
-     ],
-     [
-      "L",
-      "2-5",
-      "Real Betis"
-     ],
-     [
-      "W",
-      "2-0",
-      "Racing Santander"
-     ],
-     [
-      "L",
-      "0-2",
-      "Sevilla"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401882824",
-    "league": "esp.1",
-    "teams": [
-     "90",
-     "97"
-    ],
-    "us_tv": [
-     "ESPN Deportes",
-     "ESPN+"
-    ]
-   }
-  },
-  {
-   "id": "fd-559638",
-   "competition": "Ligue 1",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-06T20:45:00+01:00",
-   "day": "2026-11-06",
-   "home": "Toulouse",
-   "away": "Strasbourg",
-   "score": 32,
-   "base": 29.0,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "3.3 goals per game lately · Evenly matched",
-   "story_sides": {
-    "home": [
-     "2.8 goals per game lately"
-    ],
-    "away": [
-     "3.8 goals per game lately"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.367,
-     "points": 9.2
-    },
-    "stakes": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "entertainment": {
-     "value": 0.825,
-     "points": 12.4,
-     "kind": "entertainment",
-     "reason": "3.3 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.831,
-     "points": 4.2,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.147,
-     "points": 2.9
-    },
-    "par": {
-     "value": 0.033,
-     "points": 0.3,
-     "kind": "par_under"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Toulouse": 11,
-    "Strasbourg": 12
-   },
-   "forms": {
-    "Toulouse": [
-     [
-      "W",
-      "3-2",
-      "Le Havre"
-     ],
-     [
-      "D",
-      "2-2",
-      "Monaco"
-     ],
-     [
-      "W",
-      "3-0",
-      "Le Mans"
-     ],
-     [
-      "D",
-      "0-0",
-      "Troyes"
-     ],
-     [
-      "L",
-      "0-2",
-      "Marseille"
-     ]
-    ],
-    "Strasbourg": [
-     [
-      "L",
-      "1-2",
-      "Paris FC"
-     ],
-     [
-      "L",
-      "1-2",
-      "Nice"
-     ],
-     [
-      "L",
-      "1-3",
-      "Paris Saint-Germain"
-     ],
-     [
-      "L",
-      "0-3",
-      "Rennes"
-     ],
-     [
-      "W",
-      "5-1",
-      "Auxerre"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401876405",
-    "league": "fra.1",
-    "teams": [
-     "179",
-     "180"
-    ],
-    "us_tv": []
-   }
-  },
-  {
-   "id": "fd-560634",
-   "competition": "Premier League",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-06T21:00:00+01:00",
-   "day": "2026-11-06",
-   "home": "Everton",
-   "away": "Coventry City",
-   "score": 32,
-   "base": 29.6,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.4 goals per game lately · Evenly matched",
-   "story_sides": {
-    "home": [
-     "1.8 goals per game lately"
-    ],
-    "away": [
-     "3.0 goals per game lately"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.467,
-     "points": 11.7
-    },
-    "stakes": {
-     "value": 0.234,
-     "points": 4.7,
-     "kind": "stakes_relegation"
-    },
-    "entertainment": {
-     "value": 0.6,
-     "points": 9.0,
-     "kind": "entertainment",
-     "reason": "2.4 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.83,
-     "points": 4.2,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.0,
-     "points": 0.0
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Everton": 14,
-    "Coventry City": 16
-   },
-   "forms": {
-    "Everton": [
-     [
-      "D",
-      "0-0",
-      "Tottenham Hotspur"
-     ],
-     [
-      "W",
-      "1-0",
-      "Ipswich Town"
-     ],
-     [
-      "D",
-      "2-2",
-      "Hull City"
-     ],
-     [
-      "L",
-      "0-2",
-      "Chelsea"
-     ],
-     [
-      "L",
-      "0-2",
-      "Arsenal"
-     ]
-    ],
-    "Coventry City": [
-     [
-      "W",
-      "1-0",
-      "Nottingham Forest"
-     ],
-     [
-      "W",
-      "4-1",
-      "Newcastle United"
-     ],
-     [
-      "L",
-      "1-3",
-      "Tottenham Hotspur"
-     ],
-     [
-      "L",
-      "0-1",
-      "Fulham"
-     ],
-     [
-      "W",
-      "3-1",
-      "Sunderland"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401879242",
-    "league": "eng.1",
-    "teams": [
-     "368",
-     "388"
-    ],
-    "us_tv": []
-   }
-  },
-  {
-   "id": "fd-560640",
-   "competition": "Premier League",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-07T16:00:00+01:00",
-   "day": "2026-11-07",
-   "home": "Arsenal",
-   "away": "Hull City",
-   "score": 32,
-   "base": 29.6,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "Wins in last 5: 4 v 0 · 2.5 goals per game lately",
-   "story_sides": {
-    "home": [
-     "2.2 goals per game lately"
-    ],
-    "away": [
-     "2.8 goals per game lately"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.533,
-     "points": 13.3,
-     "kind": "form",
-     "reason": "Wins in last 5: 4 v 0"
-    },
-    "stakes": {
-     "value": 0.234,
-     "points": 4.7,
-     "kind": "stakes_title"
-    },
-    "entertainment": {
-     "value": 0.625,
-     "points": 9.4,
-     "kind": "entertainment",
-     "reason": "2.5 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.449,
-     "points": 2.2
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.0,
-     "points": 0.0
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Arsenal": 1,
-    "Hull City": 10
-   },
-   "forms": {
-    "Arsenal": [
-     [
-      "W",
-      "3-0",
-      "Lille"
-     ],
-     [
-      "W",
-      "1-0",
-      "Nottingham Forest"
-     ],
-     [
-      "D",
-      "2-2",
-      "Bayern Munich"
-     ],
-     [
-      "W",
-      "2-0",
-      "Everton"
-     ],
-     [
-      "W",
-      "1-0",
-      "Liverpool"
-     ]
-    ],
-    "Hull City": [
-     [
-      "L",
-      "1-2",
-      "Newcastle United"
-     ],
-     [
-      "D",
-      "2-2",
-      "Everton"
-     ],
-     [
-      "L",
-      "0-1",
-      "Fulham"
-     ],
-     [
-      "D",
-      "1-1",
-      "Brentford"
-     ],
-     [
-      "D",
-      "2-2",
-      "Ipswich Town"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401878760",
-    "league": "eng.1",
-    "teams": [
-     "359",
-     "306"
-    ],
-    "us_tv": []
-   }
-  },
-  {
    "id": "fd-564742",
    "competition": "La Liga",
    "stage": "REGULAR_SEASON",
@@ -16641,8 +15785,8 @@
    "day": "2026-11-08",
    "home": "Celta Vigo",
    "away": "Levante",
-   "score": 32,
-   "base": 29.9,
+   "score": 33,
+   "base": 30.1,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -16665,7 +15809,7 @@
      "points": 10.0
     },
     "stakes": {
-     "value": 0.284,
+     "value": 0.287,
      "points": 5.7,
      "kind": "stakes_europe"
     },
@@ -16680,8 +15824,8 @@
      "points": 0.0
     },
     "closeness": {
-     "value": 0.662,
-     "points": 3.3
+     "value": 0.694,
+     "points": 3.5
     },
     "revenge": {
      "value": 0.0,
@@ -16698,7 +15842,7 @@
    },
    "tier1_rivalry": false,
    "positions": {
-    "Celta Vigo": 9,
+    "Celta Vigo": 10,
     "Levante": 18
    },
    "forms": {
@@ -16770,6 +15914,142 @@
    }
   },
   {
+   "id": "fd-560640",
+   "competition": "Premier League",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-07T16:00:00+01:00",
+   "day": "2026-11-07",
+   "home": "Arsenal",
+   "away": "Hull City",
+   "score": 32,
+   "base": 29.5,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 4 v 0 · 2.5 goals per game lately",
+   "story_sides": {
+    "home": [
+     "2.2 goals per game lately"
+    ],
+    "away": [
+     "2.8 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.533,
+     "points": 13.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 4 v 0"
+    },
+    "stakes": {
+     "value": 0.237,
+     "points": 4.7,
+     "kind": "stakes_title"
+    },
+    "entertainment": {
+     "value": 0.625,
+     "points": 9.4,
+     "kind": "entertainment",
+     "reason": "2.5 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.418,
+     "points": 2.1
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Arsenal": 1,
+    "Hull City": 11
+   },
+   "forms": {
+    "Arsenal": [
+     [
+      "W",
+      "3-0",
+      "Lille"
+     ],
+     [
+      "W",
+      "1-0",
+      "Nottingham Forest"
+     ],
+     [
+      "D",
+      "2-2",
+      "Bayern Munich"
+     ],
+     [
+      "W",
+      "2-0",
+      "Everton"
+     ],
+     [
+      "W",
+      "1-0",
+      "Liverpool"
+     ]
+    ],
+    "Hull City": [
+     [
+      "L",
+      "1-2",
+      "Newcastle United"
+     ],
+     [
+      "D",
+      "2-2",
+      "Everton"
+     ],
+     [
+      "L",
+      "0-1",
+      "Fulham"
+     ],
+     [
+      "D",
+      "1-1",
+      "Brentford"
+     ],
+     [
+      "D",
+      "2-2",
+      "Ipswich Town"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401878760",
+    "league": "eng.1",
+    "teams": [
+     "359",
+     "306"
+    ],
+    "us_tv": []
+   }
+  },
+  {
    "id": "fd-567348",
    "competition": "Primeira Liga",
    "stage": "REGULAR_SEASON",
@@ -16778,14 +16058,14 @@
    "home": "Estoril Praia",
    "away": "Marítimo",
    "score": 31,
-   "base": 28.1,
+   "base": 28.4,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "3.1 goals per game lately · Relegation battle · Evenly matched",
+   "story": "Relegation battle · 3.1 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
      "3.0 goals per game lately"
@@ -16804,8 +16084,8 @@
      "points": 0.8
     },
     "stakes": {
-     "value": 0.575,
-     "points": 11.5,
+     "value": 0.588,
+     "points": 11.8,
      "kind": "stakes_relegation",
      "reason": "Relegation battle"
     },
@@ -16918,7 +16198,7 @@
    "home": "Le Mans",
    "away": "Monaco",
    "score": 31,
-   "base": 28.6,
+   "base": 28.7,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
@@ -16941,8 +16221,8 @@
      "points": 9.2
     },
     "stakes": {
-     "value": 0.261,
-     "points": 5.2,
+     "value": 0.265,
+     "points": 5.3,
      "kind": "stakes_europe"
     },
     "entertainment": {
@@ -17052,47 +16332,47 @@
    "day": "2026-11-08",
    "home": "Le Havre",
    "away": "Lorient",
-   "score": 31,
-   "base": 28.6,
+   "score": 30,
+   "base": 27.3,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "3.2 goals per game lately",
+   "story": "3.0 goals per game lately",
    "story_sides": {
     "home": [
      "4.6 goals per game lately"
     ],
     "away": [
-     "1.8 goals per game lately"
+     "1.4 goals per game lately"
     ],
     "both": []
    },
    "breakdown": {
     "form": {
-     "value": 0.267,
-     "points": 6.7
+     "value": 0.233,
+     "points": 5.8
     },
     "stakes": {
-     "value": 0.261,
-     "points": 5.2,
+     "value": 0.265,
+     "points": 5.3,
      "kind": "stakes_relegation"
     },
     "entertainment": {
-     "value": 0.8,
-     "points": 12.0,
+     "value": 0.75,
+     "points": 11.2,
      "kind": "entertainment",
-     "reason": "3.2 goals per game lately"
+     "reason": "3.0 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.504,
-     "points": 2.5
+     "value": 0.566,
+     "points": 2.8
     },
     "revenge": {
      "value": 0.0,
@@ -17111,7 +16391,7 @@
    "tier1_rivalry": false,
    "positions": {
     "Le Havre": 18,
-    "Lorient": 10
+    "Lorient": 11
    },
    "forms": {
     "Le Havre": [
@@ -17143,11 +16423,6 @@
     ],
     "Lorient": [
      [
-      "D",
-      "2-2",
-      "Toulouse"
-     ],
-     [
       "L",
       "1-2",
       "Le Mans"
@@ -17166,6 +16441,11 @@
       "D",
       "0-0",
       "Angers"
+     ],
+     [
+      "L",
+      "0-2",
+      "Brest"
      ]
     ]
    },
@@ -17180,165 +16460,28 @@
    }
   },
   {
-   "id": "fd-567355",
-   "competition": "Primeira Liga",
+   "id": "fd-564745",
+   "competition": "La Liga",
    "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-08T21:30:00+01:00",
-   "day": "2026-11-08",
-   "home": "Amadora",
-   "away": "Benfica",
-   "score": 31,
-   "base": 28.3,
+   "kickoff_paris": "2026-11-07T16:15:00+01:00",
+   "day": "2026-11-07",
+   "home": "Espanyol",
+   "away": "Deportivo La Coruña",
+   "score": 28,
+   "base": 26.1,
    "competition_bonus": 0,
    "stage_bonus": 0,
    "favourite_boost": 0,
    "favourite": false,
    "must_watch": false,
    "recommended": false,
-   "story": "3.3 goals per game lately · Benfica 8 pts off the top: under par",
+   "story": "2.4 goals per game lately · Evenly matched",
    "story_sides": {
     "home": [
-     "2.8 goals per game lately"
+     "2.2 goals per game lately"
     ],
     "away": [
-     "3.8 goals per game lately",
-     "8 pts off the top: under par"
-    ],
-    "both": []
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.433,
-     "points": 10.8
-    },
-    "stakes": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "entertainment": {
-     "value": 0.825,
-     "points": 12.4,
-     "kind": "entertainment",
-     "reason": "3.3 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.354,
-     "points": 1.8
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.333,
-     "points": 3.3,
-     "kind": "giant_gap",
-     "reason": "Benfica 8 pts off the top: under par"
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Amadora": 12,
-    "Benfica": 2
-   },
-   "forms": {
-    "Amadora": [
-     [
-      "D",
-      "3-3",
-      "Rio Ave"
-     ],
-     [
-      "L",
-      "0-2",
-      "Acad. Viseu"
-     ],
-     [
-      "L",
-      "0-1",
-      "Arouca"
-     ],
-     [
-      "L",
-      "0-2",
-      "Casa Pia"
-     ],
-     [
-      "L",
-      "1-2",
-      "Moreirense"
-     ]
-    ],
-    "Benfica": [
-     [
-      "L",
-      "1-3",
-      "Porto"
-     ],
-     [
-      "W",
-      "2-0",
-      "Vitória SC"
-     ],
-     [
-      "W",
-      "4-1",
-      "Celtic"
-     ],
-     [
-      "W",
-      "4-1",
-      "Omonia Nicosia"
-     ],
-     [
-      "W",
-      "2-1",
-      "Santa Clara"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401885401",
-    "league": "por.1",
-    "teams": [
-     "21610",
-     "1929"
-    ],
-    "us_tv": []
-   }
-  },
-  {
-   "id": "fd-560622",
-   "competition": "Premier League",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-02T21:00:00+01:00",
-   "day": "2026-11-02",
-   "home": "Newcastle United",
-   "away": "Everton",
-   "score": 29,
-   "base": 26.9,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.5 goals per game lately · Evenly matched · Newcastle United usually finish 8th: under par",
-   "story_sides": {
-    "home": [
-     "3.2 goals per game lately",
-     "Usually finish 8th: under par"
-    ],
-    "away": [
-     "1.8 goals per game lately"
+     "2.6 goals per game lately"
     ],
     "both": [
      "Evenly matched"
@@ -17346,26 +16489,27 @@
    },
    "breakdown": {
     "form": {
-     "value": 0.367,
-     "points": 9.2
+     "value": 0.3,
+     "points": 7.5
     },
     "stakes": {
-     "value": 0.0,
-     "points": 0.0
+     "value": 0.287,
+     "points": 5.7,
+     "kind": "stakes_europe"
     },
     "entertainment": {
-     "value": 0.625,
-     "points": 9.4,
+     "value": 0.6,
+     "points": 9.0,
      "kind": "entertainment",
-     "reason": "2.5 goals per game lately"
+     "reason": "2.4 goals per game lately"
     },
     "rivalry": {
      "value": 0.0,
      "points": 0.0
     },
     "closeness": {
-     "value": 0.91,
-     "points": 4.6,
+     "value": 0.784,
+     "points": 3.9,
      "kind": "closeness",
      "reason": "Evenly matched"
     },
@@ -17378,83 +16522,81 @@
      "points": 0.0
     },
     "par": {
-     "value": 0.367,
-     "points": 3.7,
-     "kind": "par_under",
-     "reason": "Newcastle United usually finish 8th: under par"
+     "value": 0.0,
+     "points": 0.0
     }
    },
    "tier1_rivalry": false,
    "positions": {
-    "Newcastle United": 12,
-    "Everton": 14
+    "Espanyol": 14,
+    "Deportivo La Coruña": 8
    },
    "forms": {
-    "Newcastle United": [
+    "Espanyol": [
      [
       "L",
-      "1-4",
-      "Leeds United"
+      "1-3",
+      "Elche"
      ],
      [
-      "W",
-      "2-1",
-      "Hull City"
-     ],
-     [
-      "L",
-      "1-4",
-      "Coventry City"
+      "D",
+      "1-1",
+      "Málaga"
      ],
      [
       "L",
       "0-1",
-      "Aston Villa"
+      "Atlético Madrid"
      ],
      [
-      "W",
-      "2-0",
-      "Crystal Palace"
-     ]
-    ],
-    "Everton": [
-     [
-      "D",
-      "0-0",
-      "Tottenham Hotspur"
+      "L",
+      "1-2",
+      "Racing Santander"
      ],
      [
       "W",
       "1-0",
-      "Ipswich Town"
+      "Villarreal"
+     ]
+    ],
+    "Deportivo La Coruña": [
+     [
+      "D",
+      "1-1",
+      "Real Betis"
+     ],
+     [
+      "L",
+      "2-3",
+      "Real Sociedad"
      ],
      [
       "D",
-      "2-2",
-      "Hull City"
+      "1-1",
+      "Levante"
      ],
      [
       "L",
-      "0-2",
-      "Chelsea"
+      "0-1",
+      "Atlético Madrid"
      ],
      [
-      "L",
-      "0-2",
-      "Arsenal"
+      "W",
+      "2-1",
+      "Osasuna"
      ]
     ]
    },
    "espn": {
-    "id": "401878762",
-    "league": "eng.1",
+    "id": "401882813",
+    "league": "esp.1",
     "teams": [
-     "361",
-     "368"
+     "88",
+     "90"
     ],
     "us_tv": [
-     "USA Net",
-     "Universo"
+     "ESPN Deportes",
+     "ESPN+"
     ]
    }
   },
@@ -17592,342 +16734,202 @@
     ],
     "us_tv": []
    }
-  },
-  {
-   "id": "fd-564745",
-   "competition": "La Liga",
-   "stage": "REGULAR_SEASON",
-   "kickoff_paris": "2026-11-07T16:15:00+01:00",
-   "day": "2026-11-07",
-   "home": "Espanyol",
-   "away": "Deportivo La Coruña",
-   "score": 19,
-   "base": 17.8,
-   "competition_bonus": 0,
-   "stage_bonus": 0,
-   "favourite_boost": 0,
-   "favourite": false,
-   "must_watch": false,
-   "recommended": false,
-   "story": "2.2 goals per game lately · Evenly matched",
-   "story_sides": {
-    "home": [
-     "2.2 goals per game lately"
-    ],
-    "away": [
-     "2.2 goals per game lately"
-    ],
-    "both": [
-     "Evenly matched"
-    ]
-   },
-   "breakdown": {
-    "form": {
-     "value": 0.2,
-     "points": 5.0
-    },
-    "stakes": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "entertainment": {
-     "value": 0.55,
-     "points": 8.2,
-     "kind": "entertainment",
-     "reason": "2.2 goals per game lately"
-    },
-    "rivalry": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "closeness": {
-     "value": 0.915,
-     "points": 4.6,
-     "kind": "closeness",
-     "reason": "Evenly matched"
-    },
-    "revenge": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "big_match": {
-     "value": 0.0,
-     "points": 0.0
-    },
-    "par": {
-     "value": 0.0,
-     "points": 0.0
-    }
-   },
-   "tier1_rivalry": false,
-   "positions": {
-    "Espanyol": 14,
-    "Deportivo La Coruña": 13
-   },
-   "forms": {
-    "Espanyol": [
-     [
-      "L",
-      "1-3",
-      "Elche"
-     ],
-     [
-      "D",
-      "1-1",
-      "Málaga"
-     ],
-     [
-      "L",
-      "0-1",
-      "Atlético Madrid"
-     ],
-     [
-      "L",
-      "1-2",
-      "Racing Santander"
-     ],
-     [
-      "W",
-      "1-0",
-      "Villarreal"
-     ]
-    ],
-    "Deportivo La Coruña": [
-     [
-      "L",
-      "0-1",
-      "Sevilla"
-     ],
-     [
-      "D",
-      "1-1",
-      "Real Betis"
-     ],
-     [
-      "L",
-      "2-3",
-      "Real Sociedad"
-     ],
-     [
-      "D",
-      "1-1",
-      "Levante"
-     ],
-     [
-      "L",
-      "0-1",
-      "Atlético Madrid"
-     ]
-    ]
-   },
-   "espn": {
-    "id": "401882813",
-    "league": "esp.1",
-    "teams": [
-     "88",
-     "90"
-    ],
-    "us_tv": [
-     "ESPN Deportes",
-     "ESPN+"
-    ]
-   }
   }
  ],
  "warnings": [],
  "crests": {
-  "Sporting CP": "https://crests.football-data.org/498.png",
-  "AGF": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
-  "Monaco": "https://crests.football-data.org/548.png",
-  "Paris FC": "https://crests.football-data.org/1045.png",
-  "Bodø/Glimt": "https://crests.football-data.org/5721.png",
-  "SC Paderborn": "https://crests.football-data.org/29.png",
-  "Real Betis": "https://crests.football-data.org/90.png",
-  "NK Celje": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
-  "Brest": "https://crests.football-data.org/512.png",
-  "Alavés": "https://crests.football-data.org/263.png",
-  "Everton": "https://crests.football-data.org/62.png",
-  "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-  "Panathinaikos": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
-  "FC Midtjylland": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
-  "Heart of Midlothian": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
-  "Iberia 1999": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
-  "Fulham": "https://crests.football-data.org/63.png",
-  "Levski Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
-  "Inter": "https://crests.football-data.org/108.png",
-  "Santa Clara": "https://crests.football-data.org/5530.png",
-  "Telstar": "https://crests.football-data.org/1912.png",
-  "Udinese": "https://crests.football-data.org/115.png",
-  "RB Leipzig": "https://crests.football-data.org/721.png",
-  "Lazio": "https://crests.football-data.org/110.png",
-  "SK Brann": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
+  "Crystal Palace": "https://crests.football-data.org/354.png",
   "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
-  "Amadora": "https://crests.football-data.org/9136.png",
-  "1. FC Köln": "https://crests.football-data.org/1.png",
-  "Lecce": "https://crests.football-data.org/5890.png",
-  "Troyes": "https://crests.football-data.org/531.png",
-  "LASK": "https://crests.football-data.org/2016.png",
-  "Auxerre": "https://crests.football-data.org/519.png",
-  "FC Twente": "https://crests.football-data.org/666.png",
-  "Bayern Munich": "https://crests.football-data.org/5.png",
-  "Brighton & Hove Albion": "https://crests.football-data.org/397.png",
-  "Union Berlin": "https://crests.football-data.org/28.png",
-  "Rayo Vallecano": "https://crests.football-data.org/87.png",
-  "Nice": "https://crests.football-data.org/522.png",
-  "Borac Banja Luka": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
-  "Racing Santander": "https://crests.football-data.org/5335.png",
-  "KAA Gent": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
-  "Lens": "https://crests.football-data.org/546.png",
-  "Estoril Praia": "https://crests.football-data.org/582.png",
-  "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
-  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
-  "Juventus": "https://crests.football-data.org/109.png",
-  "SK Sturm Graz": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
-  "Aston Villa": "https://crests.football-data.org/58.png",
-  "Red Star Belgrade": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
-  "Levante": "https://crests.football-data.org/88.png",
-  "Sparta Rotterdam": "https://crests.football-data.org/6806.png",
-  "PEC Zwolle": "https://crests.football-data.org/684.png",
-  "Newcastle United": "https://crests.football-data.org/67.png",
-  "Chelsea": "https://crests.football-data.org/61.png",
+  "Casa Pia": "https://crests.football-data.org/6618.png",
+  "Osasuna": "https://crests.football-data.org/79.png",
   "Mjällby AIF": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
-  "FC Thun": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
-  "Union St.-Gilloise": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
-  "Fenerbahçe": "https://crests.football-data.org/613.png",
-  "Tottenham Hotspur": "https://crests.football-data.org/73.png",
-  "Sassuolo": "https://crests.football-data.org/471.png",
-  "Hamburger SV": "https://crests.football-data.org/7.png",
-  "Gil Vicente": "https://crests.football-data.org/5533.png",
-  "Rennes": "https://crests.football-data.org/529.png",
-  "Braga": "https://crests.football-data.org/5613.png",
-  "Porto": "https://crests.football-data.org/503.png",
-  "Famalicão": "https://crests.football-data.org/5531.png",
-  "Genoa": "https://crests.football-data.org/107.png",
-  "Napoli": "https://crests.football-data.org/113.png",
-  "Hapoel Be'er": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
-  "RB Salzburg": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
-  "Parma": "https://crests.football-data.org/112.png",
-  "Coventry City": "https://crests.football-data.org/1076.png",
+  "PEC Zwolle": "https://crests.football-data.org/684.png",
+  "Borussia Dortmund": "https://crests.football-data.org/4.png",
+  "Lyon": "https://crests.football-data.org/523.png",
+  "Monaco": "https://crests.football-data.org/548.png",
+  "Nottingham Forest": "https://crests.football-data.org/351.png",
   "Acad. Viseu": "https://crests.football-data.org/5527.png",
-  "CSKA Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
+  "LASK": "https://crests.football-data.org/2016.png",
+  "Santa Clara": "https://crests.football-data.org/5530.png",
+  "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+  "Bodø/Glimt": "https://crests.football-data.org/5721.png",
+  "Auxerre": "https://crests.football-data.org/519.png",
+  "Hapoel Be'er": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+  "Hull City": "https://crests.football-data.org/322.png",
+  "Sporting CP": "https://crests.football-data.org/498.png",
+  "Valencia": "https://crests.football-data.org/95.png",
+  "Getafe": "https://crests.football-data.org/82.png",
+  "Moreirense": "https://crests.football-data.org/583.png",
+  "Tottenham Hotspur": "https://crests.football-data.org/73.png",
+  "AZ": "https://crests.football-data.org/682.png",
+  "Villarreal": "https://crests.football-data.org/94.png",
+  "Benfica": "https://crests.football-data.org/1903.png",
+  "Sl. Bratislava": "https://crests.football-data.org/7509.png",
+  "Real Sociedad": "https://crests.football-data.org/92.png",
+  "Marítimo": "https://crests.football-data.org/5575.png",
+  "F.C. København": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+  "Marseille": "https://crests.football-data.org/516.png",
+  "AC Milan": "https://crests.football-data.org/98.png",
+  "Ararat-Armenia": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+  "Slavia Praha": "https://crests.football-data.org/930.png",
+  "Lech Poznan": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
+  "Athletic Club": "https://crests.football-data.org/77.png",
+  "Rayo Vallecano": "https://crests.football-data.org/87.png",
+  "Genoa": "https://crests.football-data.org/107.png",
+  "NEC": "https://crests.football-data.org/1915.png",
+  "AGF": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
+  "Jablonec": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
+  "Cagliari": "https://crests.football-data.org/104.png",
+  "Vitória SC": "https://crests.football-data.org/5543.png",
+  "Sint-Truidense": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
+  "Aston Villa": "https://crests.football-data.org/58.png",
+  "OFI Crete": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+  "Riga FC": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
+  "ADO Den Haag": "https://crests.football-data.org/680.png",
+  "Werder Bremen": "https://crests.football-data.org/12.png",
+  "FC Midtjylland": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
+  "PAE AEK": "https://crests.football-data.org/1899.png",
+  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
   "Ferencvaros": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
   "Viktoria Plzen": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
-  "Málaga": "https://crests.football-data.org/84.png",
-  "Real Madrid": "https://crests.football-data.org/86.png",
-  "Como": "https://crests.football-data.org/7397.png",
-  "Alverca": "https://crests.football-data.org/7822.png",
-  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
-  "Moreirense": "https://crests.football-data.org/583.png",
-  "Bologna": "https://crests.football-data.org/103.png",
-  "Torreense": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
-  "Club Brugge": "https://crests.football-data.org/851.png",
-  "Torino": "https://crests.football-data.org/586.png",
-  "Inter D'Escaldes": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png",
-  "Shaktar": "https://crests.football-data.org/1887.png",
-  "Olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
-  "Marítimo": "https://crests.football-data.org/5575.png",
-  "OFI Crete": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
-  "Sparta Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
-  "Osasuna": "https://crests.football-data.org/79.png",
-  "Angers": "https://crests.football-data.org/532.png",
-  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
-  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
-  "Anderlecht": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
-  "Athletic Club": "https://crests.football-data.org/77.png",
-  "Hajduk Split": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
-  "SC Freiburg": "https://crests.football-data.org/17.png",
-  "SC Cambuur": "https://crests.football-data.org/1909.png",
-  "Utrecht": "https://crests.football-data.org/676.png",
-  "F.C. København": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
-  "Atlético Madrid": "https://crests.football-data.org/78.png",
-  "Hoffenheim": "https://crests.football-data.org/2.png",
-  "Fiorentina": "https://crests.football-data.org/99.png",
-  "AZ": "https://crests.football-data.org/682.png",
-  "Sl. Bratislava": "https://crests.football-data.org/7509.png",
-  "Atalanta": "https://crests.football-data.org/102.png",
-  "Getafe": "https://crests.football-data.org/82.png",
-  "Elche": "https://crests.football-data.org/285.png",
-  "Toulouse": "https://crests.football-data.org/511.png",
-  "Le Mans": "https://crests.football-data.org/535.png",
-  "Riga FC": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
-  "Leeds United": "https://crests.football-data.org/341.png",
-  "Lorient": "https://crests.football-data.org/525.png",
-  "Vitória SC": "https://crests.football-data.org/5543.png",
-  "PAE AEK": "https://crests.football-data.org/1899.png",
-  "Roma": "https://crests.football-data.org/100.png",
-  "Monza": "https://crests.football-data.org/5911.png",
-  "Galatasaray": "https://crests.football-data.org/610.png",
-  "Nacional": "https://crests.football-data.org/5529.png",
-  "Fortuna Sittard": "https://crests.football-data.org/1920.png",
-  "Bayer Leverkusen": "https://crests.football-data.org/3.png",
-  "Lincoln Red Imps": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
-  "Excelsior": "https://crests.football-data.org/670.png",
-  "Sevilla": "https://crests.football-data.org/559.png",
-  "Espanyol": "https://crests.football-data.org/80.png",
-  "Celta Vigo": "https://crests.football-data.org/558.png",
-  "Lillestrom": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
-  "Crystal Palace": "https://crests.football-data.org/354.png",
-  "Manchester United": "https://crests.football-data.org/66.png",
-  "Jagiellonia Bialystok": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
-  "Arsenal": "https://crests.football-data.org/57.png",
-  "Liverpool": "https://crests.football-data.org/64.png",
-  "Dinamo Zagreb": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
   "Pafos": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
-  "Viking": "https://crests.football-data.org/5720.png",
-  "Marseille": "https://crests.football-data.org/516.png",
-  "ADO Den Haag": "https://crests.football-data.org/680.png",
-  "Jablonec": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
-  "Egnatia": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
-  "Werder Bremen": "https://crests.football-data.org/12.png",
-  "Sunderland": "https://crests.football-data.org/71.png",
-  "Manchester City": "https://crests.football-data.org/65.png",
-  "Lille": "https://crests.football-data.org/521.png",
-  "Ajax": "https://crests.football-data.org/678.png",
-  "Sint-Truidense": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
-  "Villarreal": "https://crests.football-data.org/94.png",
-  "Feyenoord": "https://crests.football-data.org/675.png",
-  "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-  "Benfica": "https://crests.football-data.org/1903.png",
-  "Valencia": "https://crests.football-data.org/95.png",
-  "Real Sociedad": "https://crests.football-data.org/92.png",
-  "Nottingham Forest": "https://crests.football-data.org/351.png",
-  "Ipswich Town": "https://crests.football-data.org/349.png",
-  "SC Heerenveen": "https://crests.football-data.org/673.png",
-  "Sabah FK": "https://crests.football-data.org/10233.png",
-  "FC Groningen": "https://crests.football-data.org/677.png",
-  "Strasbourg": "https://crests.football-data.org/576.png",
-  "Willem II": "https://crests.football-data.org/672.png",
-  "Mainz": "https://crests.football-data.org/15.png",
-  "Brentford": "https://crests.football-data.org/402.png",
-  "Casa Pia": "https://crests.football-data.org/6618.png",
-  "Omonia Nicosia": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
-  "Celtic": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
-  "Elversberg": "https://crests.football-data.org/719.png",
-  "Lech Poznan": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
-  "FC Lugano": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
-  "Borussia Dortmund": "https://crests.football-data.org/4.png",
-  "KuPS Kuopio": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
-  "FC Augsburg": "https://crests.football-data.org/16.png",
+  "Atlético Madrid": "https://crests.football-data.org/78.png",
   "Frosinone": "https://crests.football-data.org/470.png",
-  "Lyon": "https://crests.football-data.org/523.png",
-  "Hull City": "https://crests.football-data.org/322.png",
-  "NEC": "https://crests.football-data.org/1915.png",
-  "PSV": "https://crests.football-data.org/674.png",
-  "Barcelona": "https://crests.football-data.org/81.png",
-  "Venezia": "https://crests.football-data.org/454.png",
+  "SC Heerenveen": "https://crests.football-data.org/673.png",
+  "Brest": "https://crests.football-data.org/512.png",
+  "Ipswich Town": "https://crests.football-data.org/349.png",
+  "1. FC Köln": "https://crests.football-data.org/1.png",
+  "Elche": "https://crests.football-data.org/285.png",
+  "Utrecht": "https://crests.football-data.org/676.png",
+  "Lille": "https://crests.football-data.org/521.png",
+  "Sunderland": "https://crests.football-data.org/71.png",
+  "Celta Vigo": "https://crests.football-data.org/558.png",
+  "Fenerbahçe": "https://crests.football-data.org/613.png",
+  "Napoli": "https://crests.football-data.org/113.png",
+  "Rennes": "https://crests.football-data.org/529.png",
+  "Levski Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+  "Heart of Midlothian": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+  "Lincoln Red Imps": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
+  "Torino": "https://crests.football-data.org/586.png",
+  "Estoril Praia": "https://crests.football-data.org/582.png",
+  "Brighton & Hove Albion": "https://crests.football-data.org/397.png",
+  "Sassuolo": "https://crests.football-data.org/471.png",
+  "Sparta Rotterdam": "https://crests.football-data.org/6806.png",
+  "Lens": "https://crests.football-data.org/546.png",
+  "Ajax": "https://crests.football-data.org/678.png",
+  "Viking": "https://crests.football-data.org/5720.png",
+  "Strasbourg": "https://crests.football-data.org/576.png",
   "Rio Ave": "https://crests.football-data.org/496.png",
-  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
-  "VfB Stuttgart": "https://crests.football-data.org/10.png",
-  "Le Havre": "https://crests.football-data.org/533.png",
-  "Slavia Praha": "https://crests.football-data.org/930.png",
-  "Go Ahead Eagles": "https://crests.football-data.org/718.png",
-  "Cagliari": "https://crests.football-data.org/104.png",
-  "Schalke 04": "https://crests.football-data.org/6.png",
-  "AC Milan": "https://crests.football-data.org/98.png",
-  "Arouca": "https://crests.football-data.org/712.png",
+  "Red Star Belgrade": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
+  "Lecce": "https://crests.football-data.org/5890.png",
+  "Roma": "https://crests.football-data.org/100.png",
+  "Bayer Leverkusen": "https://crests.football-data.org/3.png",
+  "Dinamo Zagreb": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+  "Liverpool": "https://crests.football-data.org/64.png",
+  "Real Madrid": "https://crests.football-data.org/86.png",
+  "Atalanta": "https://crests.football-data.org/102.png",
+  "Iberia 1999": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
+  "Panathinaikos": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+  "Celtic": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+  "Galatasaray": "https://crests.football-data.org/610.png",
+  "FC Groningen": "https://crests.football-data.org/677.png",
+  "Lazio": "https://crests.football-data.org/110.png",
   "FC Nordsjælland": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
-  "Ararat-Armenia": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
-  "Kauno Zalgiris": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png"
+  "Hajduk Split": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
+  "Troyes": "https://crests.football-data.org/531.png",
+  "Union Berlin": "https://crests.football-data.org/28.png",
+  "Excelsior": "https://crests.football-data.org/670.png",
+  "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
+  "Espanyol": "https://crests.football-data.org/80.png",
+  "SK Sturm Graz": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+  "Willem II": "https://crests.football-data.org/672.png",
+  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
+  "Telstar": "https://crests.football-data.org/1912.png",
+  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
+  "Manchester United": "https://crests.football-data.org/66.png",
+  "Go Ahead Eagles": "https://crests.football-data.org/718.png",
+  "Shaktar": "https://crests.football-data.org/1887.png",
+  "Everton": "https://crests.football-data.org/62.png",
+  "Le Havre": "https://crests.football-data.org/533.png",
+  "Inter": "https://crests.football-data.org/108.png",
+  "Hoffenheim": "https://crests.football-data.org/2.png",
+  "Sparta Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+  "Alverca": "https://crests.football-data.org/7822.png",
+  "Málaga": "https://crests.football-data.org/84.png",
+  "Real Betis": "https://crests.football-data.org/90.png",
+  "Borac Banja Luka": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
+  "Inter D'Escaldes": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png",
+  "Levante": "https://crests.football-data.org/88.png",
+  "Le Mans": "https://crests.football-data.org/535.png",
+  "Elversberg": "https://crests.football-data.org/719.png",
+  "Fortuna Sittard": "https://crests.football-data.org/1920.png",
+  "Paris FC": "https://crests.football-data.org/1045.png",
+  "Newcastle United": "https://crests.football-data.org/67.png",
+  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
+  "SC Freiburg": "https://crests.football-data.org/17.png",
+  "Leeds United": "https://crests.football-data.org/341.png",
+  "Mainz": "https://crests.football-data.org/15.png",
+  "Gil Vicente": "https://crests.football-data.org/5533.png",
+  "Arsenal": "https://crests.football-data.org/57.png",
+  "Club Brugge": "https://crests.football-data.org/851.png",
+  "Union St.-Gilloise": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+  "FC Twente": "https://crests.football-data.org/666.png",
+  "Brentford": "https://crests.football-data.org/402.png",
+  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
+  "Alavés": "https://crests.football-data.org/263.png",
+  "SC Paderborn": "https://crests.football-data.org/29.png",
+  "Porto": "https://crests.football-data.org/503.png",
+  "Amadora": "https://crests.football-data.org/9136.png",
+  "Olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+  "Arouca": "https://crests.football-data.org/712.png",
+  "SC Cambuur": "https://crests.football-data.org/1909.png",
+  "Lillestrom": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
+  "Juventus": "https://crests.football-data.org/109.png",
+  "Braga": "https://crests.football-data.org/5613.png",
+  "Kauno Zalgiris": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
+  "Coventry City": "https://crests.football-data.org/1076.png",
+  "Bologna": "https://crests.football-data.org/103.png",
+  "Chelsea": "https://crests.football-data.org/61.png",
+  "Venezia": "https://crests.football-data.org/454.png",
+  "Toulouse": "https://crests.football-data.org/511.png",
+  "Fiorentina": "https://crests.football-data.org/99.png",
+  "Sabah FK": "https://crests.football-data.org/10233.png",
+  "Torreense": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+  "FC Thun": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
+  "Hamburger SV": "https://crests.football-data.org/7.png",
+  "Manchester City": "https://crests.football-data.org/65.png",
+  "Angers": "https://crests.football-data.org/532.png",
+  "RB Salzburg": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+  "Nice": "https://crests.football-data.org/522.png",
+  "Nacional": "https://crests.football-data.org/5529.png",
+  "SK Brann": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
+  "Egnatia": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
+  "FC Lugano": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
+  "Famalicão": "https://crests.football-data.org/5531.png",
+  "Monza": "https://crests.football-data.org/5911.png",
+  "KuPS Kuopio": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
+  "Barcelona": "https://crests.football-data.org/81.png",
+  "Fulham": "https://crests.football-data.org/63.png",
+  "Sevilla": "https://crests.football-data.org/559.png",
+  "Anderlecht": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
+  "Lorient": "https://crests.football-data.org/525.png",
+  "VfB Stuttgart": "https://crests.football-data.org/10.png",
+  "PSV": "https://crests.football-data.org/674.png",
+  "Jagiellonia Bialystok": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+  "Schalke 04": "https://crests.football-data.org/6.png",
+  "RB Leipzig": "https://crests.football-data.org/721.png",
+  "Omonia Nicosia": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+  "Como": "https://crests.football-data.org/7397.png",
+  "KAA Gent": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
+  "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+  "NK Celje": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+  "CSKA Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
+  "Bayern Munich": "https://crests.football-data.org/5.png",
+  "Parma": "https://crests.football-data.org/112.png",
+  "Racing Santander": "https://crests.football-data.org/5335.png",
+  "Udinese": "https://crests.football-data.org/115.png",
+  "Feyenoord": "https://crests.football-data.org/675.png",
+  "FC Augsburg": "https://crests.football-data.org/16.png"
  },
  "styles": {
   "1. FC Köln": {
