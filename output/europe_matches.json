@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-04T14:25:16.751204+01:00",
+ "fetched_at": "2026-11-05T12:12:38.866268+01:00",
  "source": "ESPN public JSON feed",
  "matches": [
   {
@@ -1399,12 +1399,15 @@
    "home_espn_id": "169",
    "away": "Olympiacos",
    "away_espn_id": "435",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 0,
+   "winner": null
   },
   {
    "id": "401915831",
@@ -1970,9 +1973,18 @@
  "standings": {
   "Europa League": [
    {
+    "team": "Olympiacos",
+    "espn_id": "435",
+    "position": 1,
+    "played": 4,
+    "points": 10,
+    "goals_for": 4,
+    "goals_against": 1
+   },
+   {
     "team": "Benfica",
     "espn_id": "1929",
-    "position": 1,
+    "position": 2,
     "played": 3,
     "points": 9,
     "goals_for": 10,
@@ -1981,7 +1993,7 @@
    {
     "team": "Bayer Leverkusen",
     "espn_id": "131",
-    "position": 2,
+    "position": 3,
     "played": 3,
     "points": 9,
     "goals_for": 8,
@@ -1990,7 +2002,7 @@
    {
     "team": "AFC Bournemouth",
     "espn_id": "349",
-    "position": 3,
+    "position": 4,
     "played": 3,
     "points": 9,
     "goals_for": 8,
@@ -1999,20 +2011,11 @@
    {
     "team": "Ferencvaros",
     "espn_id": "622",
-    "position": 4,
+    "position": 5,
     "played": 3,
     "points": 9,
     "goals_for": 9,
     "goals_against": 3
-   },
-   {
-    "team": "Olympiacos",
-    "espn_id": "435",
-    "position": 5,
-    "played": 3,
-    "points": 9,
-    "goals_for": 4,
-    "goals_against": 1
    },
    {
     "team": "Union St.-Gilloise",
@@ -2069,22 +2072,22 @@
     "goals_against": 4
    },
    {
+    "team": "Stade Rennais",
+    "espn_id": "169",
+    "position": 12,
+    "played": 4,
+    "points": 6,
+    "goals_for": 4,
+    "goals_against": 3
+   },
+   {
     "team": "Lyon",
     "espn_id": "167",
-    "position": 12,
+    "position": 13,
     "played": 3,
     "points": 6,
     "goals_for": 5,
     "goals_against": 6
-   },
-   {
-    "team": "Stade Rennais",
-    "espn_id": "169",
-    "position": 13,
-    "played": 3,
-    "points": 5,
-    "goals_for": 4,
-    "goals_against": 3
    },
    {
     "team": "Real Sociedad",
@@ -2623,22 +2626,6 @@
  },
  "warnings": [],
  "fixtures_ahead": [
-  {
-   "id": "401915551",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-04T15:30:00+00:00",
-   "kickoff_paris": "2026-11-04T16:30:00+01:00",
-   "home": "Stade Rennais",
-   "home_espn_id": "169",
-   "away": "Olympiacos",
-   "away_espn_id": "435",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
   {
    "id": "401915534",
    "competition": "Europa League",
