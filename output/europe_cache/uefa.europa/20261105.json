@@ -10,12 +10,15 @@
    "home_espn_id": "103",
    "away": "Ferencvaros",
    "away_espn_id": "622",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915538",
@@ -26,12 +29,15 @@
    "home_espn_id": "441",
    "away": "RB Salzburg",
    "away_espn_id": "2790",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915526",
@@ -42,12 +48,15 @@
    "home_espn_id": "384",
    "away": "TSG Hoffenheim",
    "away_espn_id": "7911",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 1,
+   "winner": null
   },
   {
    "id": "401915536",
@@ -58,12 +67,15 @@
    "home_espn_id": "490",
    "away": "Jagiellonia Bialystok",
    "away_espn_id": "11505",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915527",
@@ -74,12 +86,15 @@
    "home_espn_id": "987",
    "away": "Viktoria Plzen",
    "away_espn_id": "11706",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 1,
+   "winner": "away"
   },
   {
    "id": "401915535",
@@ -90,12 +105,15 @@
    "home_espn_id": "147",
    "away": "Omonia Nicosia",
    "away_espn_id": "617",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915537",
@@ -106,12 +124,16 @@
    "home_espn_id": "89",
    "away": "Lyon",
    "away_espn_id": "167",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
+    "CBSSN",
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 1,
+   "winner": null
   },
   {
    "id": "401915528",
@@ -122,12 +144,15 @@
    "home_espn_id": "433",
    "away": "AFC Bournemouth",
    "away_espn_id": "349",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 3,
+   "winner": "away"
   },
   {
    "id": "401915529",
@@ -138,12 +163,15 @@
    "home_espn_id": "140",
    "away": "Juventus",
    "away_espn_id": "111",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915533",
@@ -154,12 +182,16 @@
    "home_espn_id": "131",
    "away": "Marseille",
    "away_espn_id": "176",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
+    "CBSSN",
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 1,
+   "winner": "away"
   },
   {
    "id": "401915525",
@@ -170,12 +202,15 @@
    "home_espn_id": "1929",
    "away": "Lech Poznan",
    "away_espn_id": "2990",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915531",
@@ -186,12 +221,15 @@
    "home_espn_id": "85",
    "away": "Union St.-Gilloise",
    "away_espn_id": "5807",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915522",
@@ -202,12 +240,15 @@
    "home_espn_id": "256",
    "away": "Besiktas",
    "away_espn_id": "1895",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 2,
+   "winner": "home"
   },
   {
    "id": "401915532",
@@ -218,12 +259,15 @@
    "home_espn_id": "13083",
    "away": "OFI Crete",
    "away_espn_id": "1010",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915524",
@@ -234,12 +278,15 @@
    "home_espn_id": "3746",
    "away": "NK Celje",
    "away_espn_id": "3362",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 3,
+   "winner": "away"
   },
   {
    "id": "401915523",
@@ -250,12 +297,15 @@
    "home_espn_id": "366",
    "away": "Dinamo Zagreb",
    "away_espn_id": "597",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915530",
@@ -266,12 +316,15 @@
    "home_espn_id": "21615",
    "away": "Ararat-Armenia",
    "away_espn_id": "20024",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 2,
+   "winner": "home"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T14:37:36.817284+01:00",
+ "fetched_at": "2026-11-06T12:08:49.207437+01:00",
  "source": "ESPN public JSON feed",
  "matches": [
   {
@@ -1418,12 +1418,15 @@
    "home_espn_id": "7853",
    "away": "Braga",
    "away_espn_id": "2994",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 0,
+   "winner": null
   },
   {
    "id": "401915830",
@@ -1434,12 +1437,15 @@
    "home_espn_id": "105",
    "away": "Kairat Almaty",
    "away_espn_id": "2528",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 1,
+   "winner": null
   },
   {
    "id": "401915829",
@@ -1450,12 +1456,15 @@
    "home_espn_id": "572",
    "away": "Ajax Amsterdam",
    "away_espn_id": "139",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 6,
+   "winner": "away"
   },
   {
    "id": "401915828",
@@ -1466,12 +1475,15 @@
    "home_espn_id": "3024",
    "away": "Heart of Midlothian",
    "away_espn_id": "262",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915826",
@@ -1482,12 +1494,15 @@
    "home_espn_id": "8169",
    "away": "KAA Gent",
    "away_espn_id": "3611",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 0,
+   "winner": null
   },
   {
    "id": "401915742",
@@ -1498,12 +1513,15 @@
    "home_espn_id": "17856",
    "away": "Hajduk Split",
    "away_espn_id": "489",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915741",
@@ -1514,12 +1532,15 @@
    "home_espn_id": "20301",
    "away": "Borac Banja Luka",
    "away_espn_id": "20710",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915827",
@@ -1530,12 +1551,15 @@
    "home_espn_id": "2290",
    "away": "Inter D'Escaldes",
    "away_espn_id": "20703",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915825",
@@ -1546,12 +1570,15 @@
    "home_espn_id": "997",
    "away": "SC Freiburg",
    "away_espn_id": "126",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 1,
+   "winner": "away"
   },
   {
    "id": "401915534",
@@ -1562,12 +1589,15 @@
    "home_espn_id": "103",
    "away": "Ferencvaros",
    "away_espn_id": "622",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915538",
@@ -1578,12 +1608,15 @@
    "home_espn_id": "441",
    "away": "RB Salzburg",
    "away_espn_id": "2790",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915526",
@@ -1594,12 +1627,15 @@
    "home_espn_id": "384",
    "away": "TSG Hoffenheim",
    "away_espn_id": "7911",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 1,
+   "winner": null
   },
   {
    "id": "401915536",
@@ -1610,12 +1646,15 @@
    "home_espn_id": "490",
    "away": "Jagiellonia Bialystok",
    "away_espn_id": "11505",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915527",
@@ -1626,12 +1665,15 @@
    "home_espn_id": "987",
    "away": "Viktoria Plzen",
    "away_espn_id": "11706",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 1,
+   "winner": "away"
   },
   {
    "id": "401915535",
@@ -1642,12 +1684,15 @@
    "home_espn_id": "147",
    "away": "Omonia Nicosia",
    "away_espn_id": "617",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915537",
@@ -1658,12 +1703,16 @@
    "home_espn_id": "89",
    "away": "Lyon",
    "away_espn_id": "167",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
+    "CBSSN",
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 1,
+   "winner": null
   },
   {
    "id": "401915528",
@@ -1674,12 +1723,15 @@
    "home_espn_id": "433",
    "away": "AFC Bournemouth",
    "away_espn_id": "349",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 3,
+   "winner": "away"
   },
   {
    "id": "401915824",
@@ -1690,12 +1742,15 @@
    "home_espn_id": "174",
    "away": "FC Nordsjælland",
    "away_espn_id": "3101",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915817",
@@ -1706,12 +1761,15 @@
    "home_espn_id": "8089",
    "away": "Egnatia",
    "away_espn_id": "21943",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915740",
@@ -1722,12 +1780,15 @@
    "home_espn_id": "909",
    "away": "Iberia 1999",
    "away_espn_id": "20025",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915823",
@@ -1738,12 +1799,15 @@
    "home_espn_id": "7672",
    "away": "Kauno Zalgiris",
    "away_espn_id": "20028",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 0,
+   "winner": "home"
   },
   {
    "id": "401915822",
@@ -1754,12 +1818,15 @@
    "home_espn_id": "152",
    "away": "Pafos",
    "away_espn_id": "22281",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915821",
@@ -1770,12 +1837,15 @@
    "home_espn_id": "2922",
    "away": "Brighton & Hove Albion",
    "away_espn_id": "331",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 1,
+   "winner": "away"
   },
   {
    "id": "401915819",
@@ -1786,12 +1856,15 @@
    "home_espn_id": "443",
    "away": "CSKA Sofia",
    "away_espn_id": "10834",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915818",
@@ -1802,12 +1875,15 @@
    "home_espn_id": "19246",
    "away": "Jablonec",
    "away_espn_id": "7922",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 1,
+   "winner": null
   },
   {
    "id": "401915820",
@@ -1818,12 +1894,15 @@
    "home_espn_id": "936",
    "away": "SK Brann",
    "away_espn_id": "620",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 1,
+   "winner": null
   },
   {
    "id": "401915529",
@@ -1834,12 +1913,15 @@
    "home_espn_id": "140",
    "away": "Juventus",
    "away_espn_id": "111",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915533",
@@ -1850,12 +1932,16 @@
    "home_espn_id": "131",
    "away": "Marseille",
    "away_espn_id": "176",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
+    "CBSSN",
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 1,
+   "winner": "away"
   },
   {
    "id": "401915525",
@@ -1866,12 +1952,15 @@
    "home_espn_id": "1929",
    "away": "Lech Poznan",
    "away_espn_id": "2990",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 1,
+   "winner": "home"
   },
   {
    "id": "401915531",
@@ -1882,12 +1971,15 @@
    "home_espn_id": "85",
    "away": "Union St.-Gilloise",
    "away_espn_id": "5807",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 1,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915522",
@@ -1898,12 +1990,15 @@
    "home_espn_id": "256",
    "away": "Besiktas",
    "away_espn_id": "1895",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 2,
+   "winner": "home"
   },
   {
    "id": "401915532",
@@ -1914,12 +2009,15 @@
    "home_espn_id": "13083",
    "away": "OFI Crete",
    "away_espn_id": "1010",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915524",
@@ -1930,12 +2028,15 @@
    "home_espn_id": "3746",
    "away": "NK Celje",
    "away_espn_id": "3362",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 2,
+   "away_goals": 3,
+   "winner": "away"
   },
   {
    "id": "401915523",
@@ -1946,12 +2047,15 @@
    "home_espn_id": "366",
    "away": "Dinamo Zagreb",
    "away_espn_id": "597",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 0,
+   "away_goals": 2,
+   "winner": "away"
   },
   {
    "id": "401915530",
@@ -1962,111 +2066,159 @@
    "home_espn_id": "21615",
    "away": "Ararat-Armenia",
    "away_espn_id": "20024",
-   "status": "scheduled",
+   "status": "finished",
    "stage": "league-phase",
    "season": 2026,
    "us_tv": [
     "Paramount+"
-   ]
+   ],
+   "home_goals": 3,
+   "away_goals": 2,
+   "winner": "home"
   }
  ],
  "standings": {
   "Europa League": [
    {
+    "team": "Benfica",
+    "espn_id": "1929",
+    "position": 1,
+    "played": 4,
+    "points": 12,
+    "goals_for": 13,
+    "goals_against": 3
+   },
+   {
+    "team": "AFC Bournemouth",
+    "espn_id": "349",
+    "position": 2,
+    "played": 4,
+    "points": 12,
+    "goals_for": 11,
+    "goals_against": 2
+   },
+   {
+    "team": "Ferencvaros",
+    "espn_id": "622",
+    "position": 3,
+    "played": 4,
+    "points": 12,
+    "goals_for": 11,
+    "goals_against": 3
+   },
+   {
+    "team": "Union St.-Gilloise",
+    "espn_id": "5807",
+    "position": 4,
+    "played": 4,
+    "points": 10,
+    "goals_for": 10,
+    "goals_against": 2
+   },
+   {
+    "team": "Juventus",
+    "espn_id": "111",
+    "position": 5,
+    "played": 4,
+    "points": 10,
+    "goals_for": 11,
+    "goals_against": 4
+   },
+   {
     "team": "Olympiacos",
     "espn_id": "435",
-    "position": 1,
+    "position": 6,
     "played": 4,
     "points": 10,
     "goals_for": 4,
     "goals_against": 1
    },
    {
-    "team": "Benfica",
-    "espn_id": "1929",
-    "position": 2,
-    "played": 3,
-    "points": 9,
-    "goals_for": 10,
-    "goals_against": 2
-   },
-   {
     "team": "Bayer Leverkusen",
     "espn_id": "131",
-    "position": 3,
-    "played": 3,
-    "points": 9,
-    "goals_for": 8,
-    "goals_against": 0
-   },
-   {
-    "team": "AFC Bournemouth",
-    "espn_id": "349",
-    "position": 4,
-    "played": 3,
-    "points": 9,
-    "goals_for": 8,
-    "goals_against": 1
-   },
-   {
-    "team": "Ferencvaros",
-    "espn_id": "622",
-    "position": 5,
-    "played": 3,
-    "points": 9,
-    "goals_for": 9,
-    "goals_against": 3
-   },
-   {
-    "team": "Union St.-Gilloise",
-    "espn_id": "5807",
-    "position": 6,
-    "played": 3,
-    "points": 7,
-    "goals_for": 8,
-    "goals_against": 1
-   },
-   {
-    "team": "Juventus",
-    "espn_id": "111",
     "position": 7,
-    "played": 3,
-    "points": 7,
-    "goals_for": 9,
-    "goals_against": 3
+    "played": 4,
+    "points": 9,
+    "goals_for": 8,
+    "goals_against": 1
    },
    {
     "team": "Besiktas",
     "espn_id": "1895",
     "position": 8,
-    "played": 3,
+    "played": 4,
     "points": 7,
-    "goals_for": 9,
-    "goals_against": 5
+    "goals_for": 11,
+    "goals_against": 8
+   },
+   {
+    "team": "Dinamo Zagreb",
+    "espn_id": "597",
+    "position": 9,
+    "played": 4,
+    "points": 7,
+    "goals_for": 5,
+    "goals_against": 4
+   },
+   {
+    "team": "Levski Sofia",
+    "espn_id": "490",
+    "position": 10,
+    "played": 4,
+    "points": 7,
+    "goals_for": 4,
+    "goals_against": 3
    },
    {
     "team": "Sunderland",
     "espn_id": "366",
-    "position": 9,
-    "played": 3,
+    "position": 11,
+    "played": 4,
     "points": 7,
     "goals_for": 4,
-    "goals_against": 2
+    "goals_against": 4
+   },
+   {
+    "team": "NEC Nijmegen",
+    "espn_id": "147",
+    "position": 12,
+    "played": 4,
+    "points": 7,
+    "goals_for": 8,
+    "goals_against": 9
+   },
+   {
+    "team": "Lyon",
+    "espn_id": "167",
+    "position": 13,
+    "played": 4,
+    "points": 7,
+    "goals_for": 6,
+    "goals_against": 7
    },
    {
     "team": "AZ Alkmaar",
     "espn_id": "140",
-    "position": 10,
-    "played": 3,
+    "position": 14,
+    "played": 4,
     "points": 6,
-    "goals_for": 6,
-    "goals_against": 2
+    "goals_for": 7,
+    "goals_against": 4
    },
    {
-    "team": "Omonia Nicosia",
-    "espn_id": "617",
-    "position": 11,
-    "played": 3,
+    "team": "Anderlecht",
+    "espn_id": "441",
+    "position": 15,
+    "played": 4,
+    "points": 6,
+    "goals_for": 6,
+    "goals_against": 3
+   },
+   {
+    "team": "OFI Crete",
+    "espn_id": "1010",
+    "position": 16,
+    "played": 4,
     "points": 6,
     "goals_for": 5,
     "goals_against": 4
@@ -2074,1118 +2226,513 @@
    {
     "team": "Stade Rennais",
     "espn_id": "169",
-    "position": 12,
+    "position": 17,
     "played": 4,
     "points": 6,
     "goals_for": 4,
     "goals_against": 3
    },
    {
-    "team": "Lyon",
-    "espn_id": "167",
-    "position": 13,
-    "played": 3,
+    "team": "Omonia Nicosia",
+    "espn_id": "617",
+    "position": 18,
+    "played": 4,
     "points": 6,
-    "goals_for": 5,
-    "goals_against": 6
+    "goals_for": 6,
+    "goals_against": 7
+   },
+   {
+    "team": "Torreense",
+    "espn_id": "21615",
+    "position": 19,
+    "played": 4,
+    "points": 6,
+    "goals_for": 7,
+    "goals_against": 9
    },
    {
     "team": "Real Sociedad",
     "espn_id": "89",
-    "position": 14,
-    "played": 3,
-    "points": 4,
-    "goals_for": 8,
-    "goals_against": 3
+    "position": 20,
+    "played": 4,
+    "points": 5,
+    "goals_for": 9,
+    "goals_against": 4
    },
    {
     "team": "Crystal Palace",
     "espn_id": "384",
-    "position": 15,
-    "played": 3,
-    "points": 4,
-    "goals_for": 8,
-    "goals_against": 5
+    "position": 21,
+    "played": 4,
+    "points": 5,
+    "goals_for": 9,
+    "goals_against": 6
    },
    {
     "team": "Sparta Prague",
     "espn_id": "433",
-    "position": 16,
-    "played": 3,
-    "points": 4,
-    "goals_for": 5,
-    "goals_against": 3
-   },
-   {
-    "team": "Levski Sofia",
-    "espn_id": "490",
-    "position": 17,
-    "played": 3,
-    "points": 4,
-    "goals_for": 3,
-    "goals_against": 3
-   },
-   {
-    "team": "Dinamo Zagreb",
-    "espn_id": "597",
-    "position": 18,
-    "played": 3,
-    "points": 4,
-    "goals_for": 3,
-    "goals_against": 4
-   },
-   {
-    "team": "SK Sturm Graz",
-    "espn_id": "3746",
-    "position": 19,
-    "played": 3,
-    "points": 4,
-    "goals_for": 1,
-    "goals_against": 3
-   },
-   {
-    "team": "NEC Nijmegen",
-    "espn_id": "147",
-    "position": 20,
-    "played": 3,
-    "points": 4,
-    "goals_for": 5,
-    "goals_against": 8
-   },
-   {
-    "team": "RB Salzburg",
-    "espn_id": "2790",
-    "position": 21,
-    "played": 3,
-    "points": 4,
-    "goals_for": 3,
-    "goals_against": 6
-   },
-   {
-    "team": "Anderlecht",
-    "espn_id": "441",
     "position": 22,
-    "played": 3,
-    "points": 3,
-    "goals_for": 4,
-    "goals_against": 3
+    "played": 4,
+    "points": 4,
+    "goals_for": 6,
+    "goals_against": 6
    },
    {
     "team": "TSG Hoffenheim",
     "espn_id": "7911",
     "position": 23,
-    "played": 3,
-    "points": 3,
-    "goals_for": 5,
-    "goals_against": 5
-   },
-   {
-    "team": "AC Milan",
-    "espn_id": "103",
-    "position": 24,
-    "played": 3,
-    "points": 3,
-    "goals_for": 4,
-    "goals_against": 5
-   },
-   {
-    "team": "Celta Vigo",
-    "espn_id": "85",
-    "position": 25,
-    "played": 3,
-    "points": 3,
-    "goals_for": 3,
-    "goals_against": 4
-   },
-   {
-    "team": "OFI Crete",
-    "espn_id": "1010",
-    "position": 26,
-    "played": 3,
-    "points": 3,
-    "goals_for": 3,
-    "goals_against": 4
-   },
-   {
-    "team": "Jagiellonia Bialystok",
-    "espn_id": "11505",
-    "position": 27,
-    "played": 3,
-    "points": 3,
-    "goals_for": 4,
+    "played": 4,
+    "points": 4,
+    "goals_for": 6,
     "goals_against": 6
    },
    {
-    "team": "Torreense",
-    "espn_id": "21615",
-    "position": 28,
-    "played": 3,
-    "points": 3,
-    "goals_for": 4,
-    "goals_against": 7
+    "team": "SK Sturm Graz",
+    "espn_id": "3746",
+    "position": 24,
+    "played": 4,
+    "points": 4,
+    "goals_for": 3,
+    "goals_against": 6
    },
    {
     "team": "NK Celje",
     "espn_id": "3362",
-    "position": 29,
-    "played": 3,
-    "points": 1,
-    "goals_for": 2,
-    "goals_against": 7
+    "position": 25,
+    "played": 4,
+    "points": 4,
+    "goals_for": 5,
+    "goals_against": 9
    },
    {
-    "team": "Hapoel Be'er",
-    "espn_id": "13083",
-    "position": 30,
-    "played": 3,
-    "points": 1,
-    "goals_for": 1,
+    "team": "RB Salzburg",
+    "espn_id": "2790",
+    "position": 26,
+    "played": 4,
+    "points": 4,
+    "goals_for": 3,
+    "goals_against": 8
+   },
+   {
+    "team": "Celta Vigo",
+    "espn_id": "85",
+    "position": 27,
+    "played": 4,
+    "points": 3,
+    "goals_for": 4,
     "goals_against": 6
    },
    {
-    "team": "Lillestrom",
-    "espn_id": "987",
-    "position": 31,
-    "played": 3,
-    "points": 1,
-    "goals_for": 2,
-    "goals_against": 9
+    "team": "AC Milan",
+    "espn_id": "103",
+    "position": 28,
+    "played": 4,
+    "points": 3,
+    "goals_for": 4,
+    "goals_against": 7
    },
    {
-    "team": "Lech Poznan",
-    "espn_id": "2990",
-    "position": 32,
-    "played": 3,
-    "points": 1,
-    "goals_for": 1,
-    "goals_against": 9
+    "team": "Jagiellonia Bialystok",
+    "espn_id": "11505",
+    "position": 29,
+    "played": 4,
+    "points": 3,
+    "goals_for": 4,
+    "goals_against": 7
    },
    {
     "team": "Viktoria Plzen",
     "espn_id": "11706",
-    "position": 33,
-    "played": 3,
-    "points": 0,
-    "goals_for": 2,
+    "position": 30,
+    "played": 4,
+    "points": 3,
+    "goals_for": 3,
     "goals_against": 7
    },
    {
     "team": "Marseille",
     "espn_id": "176",
-    "position": 34,
-    "played": 3,
-    "points": 0,
-    "goals_for": 1,
+    "position": 31,
+    "played": 4,
+    "points": 3,
+    "goals_for": 2,
     "goals_against": 6
    },
    {
     "team": "Celtic",
     "espn_id": "256",
+    "position": 32,
+    "played": 4,
+    "points": 3,
+    "goals_for": 6,
+    "goals_against": 11
+   },
+   {
+    "team": "Hapoel Be'er",
+    "espn_id": "13083",
+    "position": 33,
+    "played": 4,
+    "points": 1,
+    "goals_for": 1,
+    "goals_against": 8
+   },
+   {
+    "team": "Lillestrom",
+    "espn_id": "987",
+    "position": 34,
+    "played": 4,
+    "points": 1,
+    "goals_for": 2,
+    "goals_against": 10
+   },
+   {
+    "team": "Lech Poznan",
+    "espn_id": "2990",
     "position": 35,
-    "played": 3,
-    "points": 0,
-    "goals_for": 3,
-    "goals_against": 9
+    "played": 4,
+    "points": 1,
+    "goals_for": 2,
+    "goals_against": 12
    },
    {
     "team": "Ararat-Armenia",
     "espn_id": "20024",
     "position": 36,
-    "played": 3,
+    "played": 4,
     "points": 0,
-    "goals_for": 2,
-    "goals_against": 11
+    "goals_for": 4,
+    "goals_against": 14
    }
   ],
   "Conference League": [
    {
-    "team": "Panathinaikos",
-    "espn_id": "443",
-    "position": 1,
-    "played": 2,
-    "points": 6,
-    "goals_for": 7,
-    "goals_against": 2
-   },
-   {
     "team": "FC Lugano",
     "espn_id": "7672",
-    "position": 2,
-    "played": 2,
-    "points": 6,
-    "goals_for": 8,
+    "position": 1,
+    "played": 3,
+    "points": 9,
+    "goals_for": 11,
     "goals_against": 4
    },
    {
-    "team": "SK Brann",
-    "espn_id": "620",
-    "position": 3,
-    "played": 2,
-    "points": 6,
-    "goals_for": 6,
-    "goals_against": 2
-   },
-   {
-    "team": "Trabzonspor",
-    "espn_id": "997",
-    "position": 4,
-    "played": 2,
-    "points": 6,
-    "goals_for": 6,
-    "goals_against": 2
+    "team": "Panathinaikos",
+    "espn_id": "443",
+    "position": 2,
+    "played": 3,
+    "points": 9,
+    "goals_for": 9,
+    "goals_against": 3
    },
    {
     "team": "FC Twente",
     "espn_id": "152",
-    "position": 5,
-    "played": 2,
-    "points": 6,
-    "goals_for": 5,
-    "goals_against": 1
+    "position": 3,
+    "played": 3,
+    "points": 9,
+    "goals_for": 8,
+    "goals_against": 2
    },
    {
     "team": "AS Monaco",
     "espn_id": "174",
+    "position": 4,
+    "played": 3,
+    "points": 9,
+    "goals_for": 7,
+    "goals_against": 1
+   },
+   {
+    "team": "Brighton & Hove Albion",
+    "espn_id": "331",
+    "position": 5,
+    "played": 3,
+    "points": 7,
+    "goals_for": 5,
+    "goals_against": 0
+   },
+   {
+    "team": "SK Brann",
+    "espn_id": "620",
     "position": 6,
-    "played": 2,
-    "points": 6,
+    "played": 3,
+    "points": 7,
+    "goals_for": 7,
+    "goals_against": 3
+   },
+   {
+    "team": "F.C. København",
+    "espn_id": "909",
+    "position": 7,
+    "played": 3,
+    "points": 7,
+    "goals_for": 7,
+    "goals_against": 3
+   },
+   {
+    "team": "CSU Craiova",
+    "espn_id": "8089",
+    "position": 8,
+    "played": 3,
+    "points": 7,
+    "goals_for": 6,
+    "goals_against": 2
+   },
+   {
+    "team": "Mjällby AIF",
+    "espn_id": "20301",
+    "position": 9,
+    "played": 3,
+    "points": 7,
     "goals_for": 5,
     "goals_against": 1
    },
    {
     "team": "Sint-Truidense",
     "espn_id": "936",
-    "position": 7,
-    "played": 2,
-    "points": 6,
-    "goals_for": 3,
-    "goals_against": 0
-   },
-   {
-    "team": "Hajduk Split",
-    "espn_id": "489",
-    "position": 8,
-    "played": 2,
-    "points": 6,
-    "goals_for": 3,
-    "goals_against": 1
-   },
-   {
-    "team": "Brighton & Hove Albion",
-    "espn_id": "331",
-    "position": 9,
-    "played": 2,
-    "points": 4,
-    "goals_for": 4,
-    "goals_against": 0
-   },
-   {
-    "team": "F.C. København",
-    "espn_id": "909",
     "position": 10,
-    "played": 2,
-    "points": 4,
-    "goals_for": 5,
-    "goals_against": 2
-   },
-   {
-    "team": "CSU Craiova",
-    "espn_id": "8089",
-    "position": 11,
-    "played": 2,
-    "points": 4,
+    "played": 3,
+    "points": 7,
     "goals_for": 4,
-    "goals_against": 2
-   },
-   {
-    "team": "Mjällby AIF",
-    "espn_id": "20301",
-    "position": 12,
-    "played": 2,
-    "points": 4,
-    "goals_for": 3,
     "goals_against": 1
    },
    {
     "team": "Ajax Amsterdam",
     "espn_id": "139",
+    "position": 11,
+    "played": 3,
+    "points": 6,
+    "goals_for": 9,
+    "goals_against": 3
+   },
+   {
+    "team": "Trabzonspor",
+    "espn_id": "997",
+    "position": 12,
+    "played": 3,
+    "points": 6,
+    "goals_for": 6,
+    "goals_against": 3
+   },
+   {
+    "team": "Hajduk Split",
+    "espn_id": "489",
     "position": 13,
-    "played": 2,
-    "points": 3,
+    "played": 3,
+    "points": 6,
     "goals_for": 3,
     "goals_against": 2
    },
    {
-    "team": "Borac Banja Luka",
-    "espn_id": "20710",
+    "team": "SC Freiburg",
+    "espn_id": "126",
     "position": 14,
-    "played": 2,
-    "points": 3,
-    "goals_for": 3,
-    "goals_against": 2
+    "played": 3,
+    "points": 6,
+    "goals_for": 4,
+    "goals_against": 5
+   },
+   {
+    "team": "Red Star Belgrade",
+    "espn_id": "2290",
+    "position": 15,
+    "played": 3,
+    "points": 4,
+    "goals_for": 6,
+    "goals_against": 6
    },
    {
     "team": "Atalanta",
     "espn_id": "105",
-    "position": 15,
-    "played": 2,
-    "points": 3,
-    "goals_for": 3,
-    "goals_against": 3
+    "position": 16,
+    "played": 3,
+    "points": 4,
+    "goals_for": 4,
+    "goals_against": 4
    },
    {
     "team": "Braga",
     "espn_id": "2994",
-    "position": 16,
-    "played": 2,
-    "points": 3,
+    "position": 17,
+    "played": 3,
+    "points": 4,
     "goals_for": 2,
     "goals_against": 3
    },
    {
     "team": "KAA Gent",
     "espn_id": "3611",
-    "position": 17,
-    "played": 2,
-    "points": 3,
-    "goals_for": 1,
-    "goals_against": 2
-   },
-   {
-    "team": "SC Freiburg",
-    "espn_id": "126",
     "position": 18,
-    "played": 2,
-    "points": 3,
-    "goals_for": 3,
-    "goals_against": 5
-   },
-   {
-    "team": "FC Nordsjælland",
-    "espn_id": "3101",
-    "position": 19,
-    "played": 2,
-    "points": 2,
-    "goals_for": 3,
-    "goals_against": 3
-   },
-   {
-    "team": "Egnatia",
-    "espn_id": "21943",
-    "position": 20,
-    "played": 2,
-    "points": 2,
-    "goals_for": 2,
+    "played": 3,
+    "points": 4,
+    "goals_for": 1,
     "goals_against": 2
    },
    {
     "team": "Riga FC",
     "espn_id": "19246",
+    "position": 19,
+    "played": 3,
+    "points": 3,
+    "goals_for": 3,
+    "goals_against": 3
+   },
+   {
+    "team": "FC Thun",
+    "espn_id": "3024",
+    "position": 20,
+    "played": 3,
+    "points": 3,
+    "goals_for": 3,
+    "goals_against": 3
+   },
+   {
+    "team": "Borac Banja Luka",
+    "espn_id": "20710",
     "position": 21,
-    "played": 2,
-    "points": 2,
-    "goals_for": 2,
-    "goals_against": 2
-   },
-   {
-    "team": "Red Star Belgrade",
-    "espn_id": "2290",
-    "position": 22,
-    "played": 2,
-    "points": 1,
-    "goals_for": 4,
-    "goals_against": 5
-   },
-   {
-    "team": "CSKA Sofia",
-    "espn_id": "10834",
-    "position": 23,
-    "played": 2,
-    "points": 1,
+    "played": 3,
+    "points": 3,
     "goals_for": 3,
     "goals_against": 4
    },
    {
-    "team": "Jablonec",
-    "espn_id": "7922",
-    "position": 24,
-    "played": 2,
-    "points": 1,
-    "goals_for": 2,
-    "goals_against": 3
+    "team": "Lincoln Red Imps",
+    "espn_id": "17856",
+    "position": 22,
+    "played": 3,
+    "points": 3,
+    "goals_for": 3,
+    "goals_against": 6
    },
    {
-    "team": "FC Midtjylland",
-    "espn_id": "572",
-    "position": 25,
-    "played": 2,
-    "points": 1,
-    "goals_for": 1,
-    "goals_against": 2
+    "team": "Jablonec",
+    "espn_id": "7922",
+    "position": 23,
+    "played": 3,
+    "points": 2,
+    "goals_for": 3,
+    "goals_against": 4
    },
    {
     "team": "AGF",
     "espn_id": "7853",
-    "position": 26,
-    "played": 2,
-    "points": 1,
+    "position": 24,
+    "played": 3,
+    "points": 2,
     "goals_for": 1,
     "goals_against": 2
    },
    {
-    "team": "Pafos",
-    "espn_id": "22281",
-    "position": 27,
-    "played": 2,
-    "points": 1,
+    "team": "FC Nordsjælland",
+    "espn_id": "3101",
+    "position": 25,
+    "played": 3,
+    "points": 2,
+    "goals_for": 3,
+    "goals_against": 5
+   },
+   {
+    "team": "Egnatia",
+    "espn_id": "21943",
+    "position": 26,
+    "played": 3,
+    "points": 2,
     "goals_for": 2,
     "goals_against": 4
    },
    {
-    "team": "Heart of Midlothian",
-    "espn_id": "262",
+    "team": "Kairat Almaty",
+    "espn_id": "2528",
+    "position": 27,
+    "played": 3,
+    "points": 2,
+    "goals_for": 3,
+    "goals_against": 7
+   },
+   {
+    "team": "CSKA Sofia",
+    "espn_id": "10834",
     "position": 28,
-    "played": 2,
+    "played": 3,
     "points": 1,
-    "goals_for": 1,
-    "goals_against": 3
+    "goals_for": 4,
+    "goals_against": 6
    },
    {
     "team": "Iberia 1999",
     "espn_id": "20025",
     "position": 29,
-    "played": 2,
+    "played": 3,
     "points": 1,
-    "goals_for": 1,
-    "goals_against": 3
+    "goals_for": 2,
+    "goals_against": 5
+   },
+   {
+    "team": "Pafos",
+    "espn_id": "22281",
+    "position": 30,
+    "played": 3,
+    "points": 1,
+    "goals_for": 3,
+    "goals_against": 7
    },
    {
     "team": "Getafe",
     "espn_id": "2922",
-    "position": 30,
-    "played": 2,
+    "position": 31,
+    "played": 3,
     "points": 1,
     "goals_for": 3,
-    "goals_against": 6
+    "goals_against": 7
    },
    {
-    "team": "Kairat Almaty",
-    "espn_id": "2528",
-    "position": 31,
-    "played": 2,
-    "points": 1,
-    "goals_for": 2,
-    "goals_against": 6
-   },
-   {
-    "team": "FC Thun",
-    "espn_id": "3024",
+    "team": "Heart of Midlothian",
+    "espn_id": "262",
     "position": 32,
-    "played": 2,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 2
-   },
-   {
-    "team": "Lincoln Red Imps",
-    "espn_id": "17856",
-    "position": 33,
-    "played": 2,
-    "points": 0,
+    "played": 3,
+    "points": 1,
     "goals_for": 2,
     "goals_against": 6
    },
    {
     "team": "KuPS Kuopio",
     "espn_id": "8169",
-    "position": 34,
-    "played": 2,
-    "points": 0,
+    "position": 33,
+    "played": 3,
+    "points": 1,
     "goals_for": 2,
     "goals_against": 6
+   },
+   {
+    "team": "FC Midtjylland",
+    "espn_id": "572",
+    "position": 34,
+    "played": 3,
+    "points": 1,
+    "goals_for": 2,
+    "goals_against": 8
    },
    {
     "team": "Inter D'Escaldes",
     "espn_id": "20703",
     "position": 35,
-    "played": 2,
+    "played": 3,
     "points": 0,
-    "goals_for": 1,
-    "goals_against": 5
+    "goals_for": 2,
+    "goals_against": 7
    },
    {
     "team": "Kauno Zalgiris",
     "espn_id": "20028",
     "position": 36,
-    "played": 2,
+    "played": 3,
     "points": 0,
     "goals_for": 1,
-    "goals_against": 8
+    "goals_against": 11
    }
   ]
  },
  "warnings": [],
  "fixtures_ahead": [
-  {
-   "id": "401915534",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "AC Milan",
-   "home_espn_id": "103",
-   "away": "Ferencvaros",
-   "away_espn_id": "622",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915538",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Anderlecht",
-   "home_espn_id": "441",
-   "away": "RB Salzburg",
-   "away_espn_id": "2790",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915526",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Crystal Palace",
-   "home_espn_id": "384",
-   "away": "TSG Hoffenheim",
-   "away_espn_id": "7911",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915536",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Levski Sofia",
-   "home_espn_id": "490",
-   "away": "Jagiellonia Bialystok",
-   "away_espn_id": "11505",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915527",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Lillestrom",
-   "home_espn_id": "987",
-   "away": "Viktoria Plzen",
-   "away_espn_id": "11706",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915535",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "NEC Nijmegen",
-   "home_espn_id": "147",
-   "away": "Omonia Nicosia",
-   "away_espn_id": "617",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915537",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Real Sociedad",
-   "home_espn_id": "89",
-   "away": "Lyon",
-   "away_espn_id": "167",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915528",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Sparta Prague",
-   "home_espn_id": "433",
-   "away": "AFC Bournemouth",
-   "away_espn_id": "349",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915831",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "AGF",
-   "home_espn_id": "7853",
-   "away": "Braga",
-   "away_espn_id": "2994",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915830",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Atalanta",
-   "home_espn_id": "105",
-   "away": "Kairat Almaty",
-   "away_espn_id": "2528",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915829",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "FC Midtjylland",
-   "home_espn_id": "572",
-   "away": "Ajax Amsterdam",
-   "away_espn_id": "139",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915828",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "FC Thun",
-   "home_espn_id": "3024",
-   "away": "Heart of Midlothian",
-   "away_espn_id": "262",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915826",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "KuPS Kuopio",
-   "home_espn_id": "8169",
-   "away": "KAA Gent",
-   "away_espn_id": "3611",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915742",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Lincoln Red Imps",
-   "home_espn_id": "17856",
-   "away": "Hajduk Split",
-   "away_espn_id": "489",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915741",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Mjällby AIF",
-   "home_espn_id": "20301",
-   "away": "Borac Banja Luka",
-   "away_espn_id": "20710",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915827",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Red Star Belgrade",
-   "home_espn_id": "2290",
-   "away": "Inter D'Escaldes",
-   "away_espn_id": "20703",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915825",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T17:45:00+00:00",
-   "kickoff_paris": "2026-11-05T18:45:00+01:00",
-   "home": "Trabzonspor",
-   "home_espn_id": "997",
-   "away": "SC Freiburg",
-   "away_espn_id": "126",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915529",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "AZ Alkmaar",
-   "home_espn_id": "140",
-   "away": "Juventus",
-   "away_espn_id": "111",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915533",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Bayer Leverkusen",
-   "home_espn_id": "131",
-   "away": "Marseille",
-   "away_espn_id": "176",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915525",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Benfica",
-   "home_espn_id": "1929",
-   "away": "Lech Poznan",
-   "away_espn_id": "2990",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915531",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Celta Vigo",
-   "home_espn_id": "85",
-   "away": "Union St.-Gilloise",
-   "away_espn_id": "5807",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915522",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Celtic",
-   "home_espn_id": "256",
-   "away": "Besiktas",
-   "away_espn_id": "1895",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915532",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Hapoel Be'er",
-   "home_espn_id": "13083",
-   "away": "OFI Crete",
-   "away_espn_id": "1010",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915524",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "SK Sturm Graz",
-   "home_espn_id": "3746",
-   "away": "NK Celje",
-   "away_espn_id": "3362",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915523",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Sunderland",
-   "home_espn_id": "366",
-   "away": "Dinamo Zagreb",
-   "away_espn_id": "597",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915530",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Torreense",
-   "home_espn_id": "21615",
-   "away": "Ararat-Armenia",
-   "away_espn_id": "20024",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915824",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "AS Monaco",
-   "home_espn_id": "174",
-   "away": "FC Nordsjælland",
-   "away_espn_id": "3101",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915817",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "CSU Craiova",
-   "home_espn_id": "8089",
-   "away": "Egnatia",
-   "away_espn_id": "21943",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915740",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "F.C. København",
-   "home_espn_id": "909",
-   "away": "Iberia 1999",
-   "away_espn_id": "20025",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915823",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "FC Lugano",
-   "home_espn_id": "7672",
-   "away": "Kauno Zalgiris",
-   "away_espn_id": "20028",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915822",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "FC Twente",
-   "home_espn_id": "152",
-   "away": "Pafos",
-   "away_espn_id": "22281",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915821",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Getafe",
-   "home_espn_id": "2922",
-   "away": "Brighton & Hove Albion",
-   "away_espn_id": "331",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915819",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Panathinaikos",
-   "home_espn_id": "443",
-   "away": "CSKA Sofia",
-   "away_espn_id": "10834",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915818",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Riga FC",
-   "home_espn_id": "19246",
-   "away": "Jablonec",
-   "away_espn_id": "7922",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915820",
-   "competition": "Conference League",
-   "kickoff_utc": "2026-11-05T20:00:00+00:00",
-   "kickoff_paris": "2026-11-05T21:00:00+01:00",
-   "home": "Sint-Truidense",
-   "home_espn_id": "936",
-   "away": "SK Brann",
-   "away_espn_id": "620",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
   {
    "id": "401915816",
    "competition": "Conference League",
