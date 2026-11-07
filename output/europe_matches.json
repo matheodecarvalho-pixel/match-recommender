@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T14:22:30.878286+01:00",
+ "fetched_at": "2026-11-07T11:29:27.149329+01:00",
  "source": "ESPN public JSON feed",
  "matches": [
   {
@@ -3422,6 +3422,22 @@
    ]
   },
   {
+   "id": "401915487",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-12-10T17:45:00+00:00",
+   "kickoff_paris": "2026-12-10T18:45:00+01:00",
+   "home": "NK Celje",
+   "home_espn_id": "3362",
+   "away": "Olympiacos",
+   "away_espn_id": "435",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
    "id": "401915498",
    "competition": "Europa League",
    "kickoff_utc": "2026-12-10T17:45:00+00:00",
@@ -3702,22 +3718,6 @@
    "home_espn_id": "167",
    "away": "Union St.-Gilloise",
    "away_espn_id": "5807",
-   "status": "scheduled",
-   "stage": "league-phase",
-   "season": 2026,
-   "us_tv": [
-    "Paramount+"
-   ]
-  },
-  {
-   "id": "401915487",
-   "competition": "Europa League",
-   "kickoff_utc": "2026-12-10T20:00:00+00:00",
-   "kickoff_paris": "2026-12-10T21:00:00+01:00",
-   "home": "NK Celje",
-   "home_espn_id": "3362",
-   "away": "Olympiacos",
-   "away_espn_id": "435",
    "status": "scheduled",
    "stage": "league-phase",
    "season": 2026,
