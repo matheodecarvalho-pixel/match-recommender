@@ -10,14 +10,14 @@
   "name": "Donyell Malen",
   "team": "Roma",
   "goals": 8,
-  "team_games": 10,
-  "streak": 2
+  "team_games": 11,
+  "streak": 0
  },
  "169216": {
   "name": "Antonio Raimondo",
   "team": "Frosinone",
   "goals": 8,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "120679": {
@@ -52,15 +52,15 @@
   "name": "Daniel Maldini",
   "team": "Cagliari",
   "goals": 5,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "40786": {
   "name": "Giacomo Calò",
   "team": "Frosinone",
   "goals": 5,
-  "team_games": 10,
-  "streak": 2
+  "team_games": 11,
+  "streak": 0
  },
  "3654": {
   "name": "Kevin De Bruyne",
@@ -80,8 +80,15 @@
   "name": "Che Adams",
   "team": "Torino",
   "goals": 4,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
+ },
+ "261273": {
+  "name": "Rodrigo Mora",
+  "team": "Roma",
+  "goals": 4,
+  "team_games": 11,
+  "streak": 3
  },
  "67743": {
   "name": "Milutin Osmajić",
@@ -143,7 +150,7 @@
   "name": "Niccolo Pisilli",
   "team": "Roma",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "7567": {
@@ -171,15 +178,8 @@
   "name": "Matias Soule",
   "team": "Roma",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
- },
- "261273": {
-  "name": "Rodrigo Mora",
-  "team": "Roma",
-  "goals": 3,
-  "team_games": 10,
-  "streak": 2
  },
  "203511": {
   "name": "Nico Paz",
@@ -199,29 +199,29 @@
   "name": "Simone Lontani",
   "team": "Parma",
   "goals": 3,
-  "team_games": 10,
-  "streak": 1
+  "team_games": 11,
+  "streak": 0
  },
  "211564": {
   "name": "Giorgi Kvernadze",
   "team": "Frosinone",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "183018": {
   "name": "Vasilije Adzic",
   "team": "Sassuolo",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "2040": {
   "name": "Federico Bernardeschi",
   "team": "Bologna",
   "goals": 3,
-  "team_games": 10,
-  "streak": 1
+  "team_games": 11,
+  "streak": 0
  },
  "145": {
   "name": "Christian Pulisic",
@@ -234,7 +234,7 @@
   "name": "Samuel Mbangula",
   "team": "Bologna",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "822": {
@@ -269,14 +269,14 @@
   "name": "Tiago Gabriel",
   "team": "Lecce",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "125523": {
   "name": "Cas Odenthal",
   "team": "Sassuolo",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "101431": {
@@ -290,7 +290,7 @@
   "name": "Domenico Berardi",
   "team": "Sassuolo",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "218474": {
@@ -313,6 +313,13 @@
   "goals": 2,
   "team_games": 10,
   "streak": 0
+ },
+ "32703": {
+  "name": "Mario Hermoso",
+  "team": "Roma",
+  "goals": 2,
+  "team_games": 11,
+  "streak": 1
  },
  "265567": {
   "name": "Jay Robinson",
@@ -339,14 +346,14 @@
   "name": "Lassana Coulibaly",
   "team": "Lecce",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "114054": {
   "name": "Sebastiano Esposito",
   "team": "Sassuolo",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "8990": {
@@ -367,7 +374,7 @@
   "name": "José Romero",
   "team": "Parma",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "167689": {
@@ -388,14 +395,14 @@
   "name": "Sandro Kulenović",
   "team": "Torino",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "102395": {
   "name": "Manu Koné",
   "team": "Roma",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "2158": {
@@ -419,6 +426,13 @@
   "team_games": 10,
   "streak": null
  },
+ "1886": {
+  "name": "Riccardo Orsolini",
+  "team": "Bologna",
+  "goals": 2,
+  "team_games": 11,
+  "streak": null
+ },
  "2016": {
   "name": "Andrea Pinamonti",
   "team": "Lazio",
@@ -430,28 +444,35 @@
   "name": "Kristian Thorstvedt",
   "team": "Sassuolo",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "99013": {
   "name": "Tommaso Pobega",
   "team": "Bologna",
   "goals": 2,
-  "team_games": 10,
-  "streak": null
+  "team_games": 11,
+  "streak": 0
  },
  "290391": {
   "name": "Emanuele Lulli",
   "team": "Roma",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
+ },
+ "167394": {
+  "name": "Konan N'Dri",
+  "team": "Lecce",
+  "goals": 2,
+  "team_games": 11,
+  "streak": null
  },
  "1789": {
   "name": "Giovanni Simeone",
   "team": "Torino",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "7905": {
@@ -465,7 +486,7 @@
   "name": "Leonardo Balerdi",
   "team": "Roma",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "97537": {
@@ -479,21 +500,21 @@
   "name": "Romano Schmid",
   "team": "Frosinone",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "161370": {
   "name": "M'Bala Nzola",
   "team": "Cagliari",
   "goals": 2,
-  "team_games": 10,
-  "streak": null
+  "team_games": 11,
+  "streak": 0
  },
  "129635": {
   "name": "Daniel Birligea",
   "team": "Frosinone",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "246508": {
@@ -507,8 +528,8 @@
   "name": "Armand Lauriente",
   "team": "Sassuolo",
   "goals": 2,
-  "team_games": 10,
-  "streak": null
+  "team_games": 11,
+  "streak": 0
  },
  "193": {
   "name": "Yann Aurel Bisseck",
@@ -528,14 +549,14 @@
   "name": "Alessandro Romano",
   "team": "Cagliari",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "226967": {
   "name": "Olaf Gorter",
   "team": "Lecce",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "114117": {
@@ -549,14 +570,14 @@
   "name": "Cristian Volpato",
   "team": "Sassuolo",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "217391": {
   "name": "Pietro Comuzzo",
   "team": "Torino",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "64243": {
@@ -577,7 +598,7 @@
   "name": "Gabriele Bracaglia",
   "team": "Frosinone",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "45680": {
@@ -605,14 +626,7 @@
   "name": "Rolando Mandragora",
   "team": "Torino",
   "goals": 1,
-  "team_games": 10,
-  "streak": 0
- },
- "32703": {
-  "name": "Mario Hermoso",
-  "team": "Roma",
-  "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "98549": {
@@ -633,21 +647,21 @@
   "name": "Josh Doig",
   "team": "Sassuolo",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "102591": {
   "name": "Roberto Piccoli",
   "team": "Bologna",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "24217": {
   "name": "Artem Dovbyk",
   "team": "Bologna",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "153130": {
@@ -681,20 +695,6 @@
  "152787": {
   "name": "Matteo Cancellieri",
   "team": "Lazio",
-  "goals": 1,
-  "team_games": 10,
-  "streak": 0
- },
- "292394": {
-  "name": "Paul Mendy",
-  "team": "Cagliari",
-  "goals": 1,
-  "team_games": 10,
-  "streak": 0
- },
- "2681": {
-  "name": "Gianluca Scamacca",
-  "team": "Atalanta",
   "goals": 1,
   "team_games": 10,
   "streak": 0
