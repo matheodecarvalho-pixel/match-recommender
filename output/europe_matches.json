@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-08T13:20:33.299174+01:00",
+ "fetched_at": "2026-11-09T12:50:25.375441+01:00",
  "source": "ESPN public JSON feed",
  "matches": [
   {
@@ -2731,7 +2731,10 @@
    }
   ]
  },
- "warnings": [],
+ "warnings": [
+  "Europa League: 0 matches between 3 days ago and 10 days ahead",
+  "Conference League: 0 matches between 3 days ago and 10 days ahead"
+ ],
  "fixtures_ahead": [
   {
    "id": "401915816",
