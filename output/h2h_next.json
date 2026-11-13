@@ -199,6 +199,101 @@
    }
   ]
  },
+ "1-5": {
+  "fetched": "2026-11-13",
+  "meetings": [
+   {
+    "away": "1. FC Köln",
+    "away_goals": 1,
+    "away_id": 1,
+    "competition": "Bundesliga",
+    "date": "2026-05-16",
+    "home": "FC Bayern München",
+    "home_goals": 5,
+    "home_id": 5
+   },
+   {
+    "away": "FC Bayern München",
+    "away_goals": 3,
+    "away_id": 5,
+    "competition": "Bundesliga",
+    "date": "2026-01-14",
+    "home": "1. FC Köln",
+    "home_goals": 1,
+    "home_id": 1
+   },
+   {
+    "away": "1. FC Köln",
+    "away_goals": 0,
+    "away_id": 1,
+    "competition": "Bundesliga",
+    "date": "2024-04-13",
+    "home": "FC Bayern München",
+    "home_goals": 2,
+    "home_id": 5
+   },
+   {
+    "away": "FC Bayern München",
+    "away_goals": 1,
+    "away_id": 5,
+    "competition": "Bundesliga",
+    "date": "2023-11-24",
+    "home": "1. FC Köln",
+    "home_goals": 0,
+    "home_id": 1
+   },
+   {
+    "away": "FC Bayern München",
+    "away_goals": 2,
+    "away_id": 5,
+    "competition": "Bundesliga",
+    "date": "2023-05-27",
+    "home": "1. FC Köln",
+    "home_goals": 1,
+    "home_id": 1
+   },
+   {
+    "away": "1. FC Köln",
+    "away_goals": 1,
+    "away_id": 1,
+    "competition": "Bundesliga",
+    "date": "2023-01-24",
+    "home": "FC Bayern München",
+    "home_goals": 1,
+    "home_id": 5
+   },
+   {
+    "away": "FC Bayern München",
+    "away_goals": 4,
+    "away_id": 5,
+    "competition": "Bundesliga",
+    "date": "2022-01-15",
+    "home": "1. FC Köln",
+    "home_goals": 0,
+    "home_id": 1
+   },
+   {
+    "away": "1. FC Köln",
+    "away_goals": 2,
+    "away_id": 1,
+    "competition": "Bundesliga",
+    "date": "2021-08-22",
+    "home": "FC Bayern München",
+    "home_goals": 3,
+    "home_id": 5
+   },
+   {
+    "away": "1. FC Köln",
+    "away_goals": 1,
+    "away_id": 1,
+    "competition": "Bundesliga",
+    "date": "2021-02-27",
+    "home": "FC Bayern München",
+    "home_goals": 5,
+    "home_id": 5
+   }
+  ]
+ },
  "1-6": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -7251,6 +7346,10 @@
    }
   ]
  },
+ "531-533": {
+  "fetched": "2026-11-13",
+  "meetings": []
+ },
  "531-535": {
   "fetched": "2026-10-24",
   "meetings": []
@@ -13250,6 +13349,101 @@
     "home": "CA Osasuna",
     "home_goals": 2,
     "home_id": 79
+   }
+  ]
+ },
+ "77-80": {
+  "fetched": "2026-11-13",
+  "meetings": [
+   {
+    "away": "Athletic Club",
+    "away_goals": 0,
+    "away_id": 77,
+    "competition": "Primera Division",
+    "date": "2026-05-13",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 2,
+    "home_id": 80
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 2,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2025-12-22",
+    "home": "Athletic Club",
+    "home_goals": 1,
+    "home_id": 77
+   },
+   {
+    "away": "Athletic Club",
+    "away_goals": 1,
+    "away_id": 77,
+    "competition": "Primera Division",
+    "date": "2025-02-16",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 1,
+    "home_id": 80
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 1,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2024-10-19",
+    "home": "Athletic Club",
+    "home_goals": 4,
+    "home_id": 77
+   },
+   {
+    "away": "Athletic Club",
+    "away_goals": 2,
+    "away_id": 77,
+    "competition": "Primera Division",
+    "date": "2023-04-08",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 1,
+    "home_id": 80
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 1,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2022-09-04",
+    "home": "Athletic Club",
+    "home_goals": 0,
+    "home_id": 77
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 1,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2022-02-07",
+    "home": "Athletic Club",
+    "home_goals": 2,
+    "home_id": 77
+   },
+   {
+    "away": "Athletic Club",
+    "away_goals": 1,
+    "away_id": 77,
+    "competition": "Primera Division",
+    "date": "2021-10-26",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 1,
+    "home_id": 80
+   },
+   {
+    "away": "Athletic Club",
+    "away_goals": 1,
+    "away_id": 77,
+    "competition": "Primera Division",
+    "date": "2020-01-25",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 1,
+    "home_id": 80
    }
   ]
  },
