@@ -3752,6 +3752,10 @@
    }
   ]
  },
+ "263-560": {
+  "fetched": "2026-11-13",
+  "meetings": []
+ },
  "3-10": {
   "fetched": "2026-10-24",
   "meetings": [
@@ -9321,6 +9325,101 @@
     "home": "Coventry City FC",
     "home_goals": 4,
     "home_id": 1076
+   }
+  ]
+ },
+ "63-65": {
+  "fetched": "2026-11-13",
+  "meetings": [
+   {
+    "away": "Fulham FC",
+    "away_goals": 0,
+    "away_id": 63,
+    "competition": "Premier League",
+    "date": "2026-02-11",
+    "home": "Manchester City FC",
+    "home_goals": 3,
+    "home_id": 65
+   },
+   {
+    "away": "Manchester City FC",
+    "away_goals": 5,
+    "away_id": 65,
+    "competition": "Premier League",
+    "date": "2025-12-02",
+    "home": "Fulham FC",
+    "home_goals": 4,
+    "home_id": 63
+   },
+   {
+    "away": "Manchester City FC",
+    "away_goals": 2,
+    "away_id": 65,
+    "competition": "Premier League",
+    "date": "2025-05-25",
+    "home": "Fulham FC",
+    "home_goals": 0,
+    "home_id": 63
+   },
+   {
+    "away": "Fulham FC",
+    "away_goals": 2,
+    "away_id": 63,
+    "competition": "Premier League",
+    "date": "2024-10-05",
+    "home": "Manchester City FC",
+    "home_goals": 3,
+    "home_id": 65
+   },
+   {
+    "away": "Manchester City FC",
+    "away_goals": 4,
+    "away_id": 65,
+    "competition": "Premier League",
+    "date": "2024-05-11",
+    "home": "Fulham FC",
+    "home_goals": 0,
+    "home_id": 63
+   },
+   {
+    "away": "Fulham FC",
+    "away_goals": 1,
+    "away_id": 63,
+    "competition": "Premier League",
+    "date": "2023-09-02",
+    "home": "Manchester City FC",
+    "home_goals": 5,
+    "home_id": 65
+   },
+   {
+    "away": "Manchester City FC",
+    "away_goals": 2,
+    "away_id": 65,
+    "competition": "Premier League",
+    "date": "2023-04-30",
+    "home": "Fulham FC",
+    "home_goals": 1,
+    "home_id": 63
+   },
+   {
+    "away": "Fulham FC",
+    "away_goals": 1,
+    "away_id": 63,
+    "competition": "Premier League",
+    "date": "2022-11-05",
+    "home": "Manchester City FC",
+    "home_goals": 2,
+    "home_id": 65
+   },
+   {
+    "away": "Manchester City FC",
+    "away_goals": 3,
+    "away_id": 65,
+    "competition": "Premier League",
+    "date": "2021-03-13",
+    "home": "Fulham FC",
+    "home_goals": 0,
+    "home_id": 63
    }
   ]
  },
