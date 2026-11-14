@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T14:34:31.444313+01:00",
+ "generated_at": "2026-11-14T11:47:09.729762+01:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 0,
@@ -16,13 +16,465 @@
   "par": 10,
   "closeness": 5
  },
- "matches": [],
+ "matches": [
+  {
+   "id": "fd-565859",
+   "competition": "Bundesliga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-20T20:30:00+01:00",
+   "day": "2026-11-20",
+   "home": "Bayern Munich",
+   "away": "1. FC Köln",
+   "score": 39,
+   "base": 36.2,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 3 v 1 · 2.6 goals per game lately",
+   "story_sides": {
+    "home": [
+     "3.4 goals per game lately"
+    ],
+    "away": [
+     "1.8 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.533,
+     "points": 13.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 3 v 1"
+    },
+    "stakes": {
+     "value": 0.265,
+     "points": 5.3,
+     "kind": "stakes_title"
+    },
+    "entertainment": {
+     "value": 0.65,
+     "points": 9.8,
+     "kind": "entertainment",
+     "reason": "2.6 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.346,
+     "points": 1.7
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.245,
+     "points": 4.9
+    },
+    "par": {
+     "value": 0.125,
+     "points": 1.2,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Bayern Munich": 1,
+    "1. FC Köln": 15
+   },
+   "forms": {
+    "Bayern Munich": [
+     [
+      "D",
+      "2-2",
+      "Arsenal"
+     ],
+     [
+      "W",
+      "3-1",
+      "SC Freiburg"
+     ],
+     [
+      "D",
+      "2-2",
+      "Borussia Dortmund"
+     ],
+     [
+      "W",
+      "2-0",
+      "Atlético Madrid"
+     ],
+     [
+      "W",
+      "2-1",
+      "Mainz"
+     ]
+    ],
+    "1. FC Köln": [
+     [
+      "W",
+      "2-1",
+      "Borussia Mönchengladbach"
+     ],
+     [
+      "L",
+      "0-1",
+      "Eintracht Frankfurt"
+     ],
+     [
+      "D",
+      "0-0",
+      "Schalke 04"
+     ],
+     [
+      "D",
+      "1-1",
+      "Union Berlin"
+     ],
+     [
+      "L",
+      "1-2",
+      "Bayer Leverkusen"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401884736",
+    "league": "ger.1",
+    "teams": [
+     "132",
+     "122"
+    ],
+    "us_tv": []
+   }
+  },
+  {
+   "id": "fd-559622",
+   "competition": "Ligue 1",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-20T20:45:00+01:00",
+   "day": "2026-11-20",
+   "home": "Troyes",
+   "away": "Le Havre",
+   "score": 35,
+   "base": 32.5,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Relegation battle · 2.9 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "1.8 goals per game lately"
+    ],
+    "away": [
+     "4.0 goals per game lately"
+    ],
+    "both": [
+     "Relegation battle",
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.133,
+     "points": 3.3
+    },
+    "stakes": {
+     "value": 0.588,
+     "points": 11.8,
+     "kind": "stakes_relegation",
+     "reason": "Relegation battle"
+    },
+    "entertainment": {
+     "value": 0.725,
+     "points": 10.9,
+     "kind": "entertainment",
+     "reason": "2.9 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.858,
+     "points": 4.3,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.222,
+     "points": 2.2,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Troyes": 17,
+    "Le Havre": 18
+   },
+   "forms": {
+    "Troyes": [
+     [
+      "L",
+      "0-2",
+      "Marseille"
+     ],
+     [
+      "L",
+      "1-3",
+      "Lens"
+     ],
+     [
+      "D",
+      "0-0",
+      "Toulouse"
+     ],
+     [
+      "W",
+      "2-0",
+      "Le Mans"
+     ],
+     [
+      "L",
+      "0-1",
+      "Paris Saint-Germain"
+     ]
+    ],
+    "Le Havre": [
+     [
+      "L",
+      "0-1",
+      "Lille"
+     ],
+     [
+      "L",
+      "1-3",
+      "Auxerre"
+     ],
+     [
+      "L",
+      "3-4",
+      "Marseille"
+     ],
+     [
+      "L",
+      "1-5",
+      "Paris Saint-Germain"
+     ],
+     [
+      "L",
+      "0-2",
+      "Lorient"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401876395",
+    "league": "fra.1",
+    "teams": [
+     "170",
+     "3236"
+    ],
+    "us_tv": []
+   }
+  },
+  {
+   "id": "fd-564748",
+   "competition": "La Liga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-20T21:00:00+01:00",
+   "day": "2026-11-20",
+   "home": "Athletic Club",
+   "away": "Espanyol",
+   "score": 31,
+   "base": 28.3,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "2.0 goals per game lately · Evenly matched",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "1.4 goals per game lately"
+    ],
+    "both": [
+     "Evenly matched"
+    ]
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.433,
+     "points": 10.8
+    },
+    "stakes": {
+     "value": 0.313,
+     "points": 6.3,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.5,
+     "points": 7.5,
+     "kind": "entertainment",
+     "reason": "2.0 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.731,
+     "points": 3.7,
+     "kind": "closeness",
+     "reason": "Evenly matched"
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.0,
+     "points": 0.0
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Athletic Club": 7,
+    "Espanyol": 13
+   },
+   "forms": {
+    "Athletic Club": [
+     [
+      "D",
+      "0-0",
+      "Valencia"
+     ],
+     [
+      "L",
+      "1-3",
+      "Levante"
+     ],
+     [
+      "W",
+      "4-0",
+      "Getafe"
+     ],
+     [
+      "W",
+      "2-1",
+      "Real Sociedad"
+     ],
+     [
+      "D",
+      "1-1",
+      "Osasuna"
+     ]
+    ],
+    "Espanyol": [
+     [
+      "D",
+      "1-1",
+      "Málaga"
+     ],
+     [
+      "L",
+      "0-1",
+      "Atlético Madrid"
+     ],
+     [
+      "L",
+      "1-2",
+      "Racing Santander"
+     ],
+     [
+      "W",
+      "1-0",
+      "Villarreal"
+     ],
+     [
+      "D",
+      "0-0",
+      "Deportivo La Coruña"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401882805",
+    "league": "esp.1",
+    "teams": [
+     "93",
+     "88"
+    ],
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
+   }
+  }
+ ],
  "warnings": [
   "Europa League: 0 matches between 3 days ago and 10 days ahead",
   "Conference League: 0 matches between 3 days ago and 10 days ahead"
  ],
- "crests": {},
- "styles": {},
+ "crests": {
+  "Bayern Munich": "https://crests.football-data.org/5.png",
+  "Athletic Club": "https://crests.football-data.org/77.png",
+  "Troyes": "https://crests.football-data.org/531.png",
+  "Le Havre": "https://crests.football-data.org/533.png",
+  "Espanyol": "https://crests.football-data.org/80.png",
+  "1. FC Köln": "https://crests.football-data.org/1.png"
+ },
+ "styles": {
+  "1. FC Köln": {
+   "style": "pragmatic",
+   "confidence": "high"
+  },
+  "Athletic Club": {
+   "style": "press",
+   "confidence": "high"
+  },
+  "Bayern Munich": {
+   "style": "possession",
+   "confidence": "high"
+  },
+  "Espanyol": {
+   "style": "direct",
+   "confidence": "high"
+  },
+  "Le Havre": {
+   "style": "press",
+   "confidence": "high"
+  },
+  "Troyes": {
+   "style": "low_block",
+   "confidence": "high"
+  }
+ },
  "unmatched_teams": [
   "ESPN: AEK Athens (887)",
   "ESPN: AEK Larnaca (4039)",

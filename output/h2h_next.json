@@ -697,6 +697,81 @@
    }
   ]
  },
+ "100-112": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "AS Roma",
+    "away_goals": 3,
+    "away_id": 100,
+    "competition": "Serie A",
+    "date": "2026-05-10",
+    "home": "Parma Calcio 1913",
+    "home_goals": 2,
+    "home_id": 112
+   },
+   {
+    "away": "Parma Calcio 1913",
+    "away_goals": 1,
+    "away_id": 112,
+    "competition": "Serie A",
+    "date": "2025-10-29",
+    "home": "AS Roma",
+    "home_goals": 2,
+    "home_id": 100
+   },
+   {
+    "away": "AS Roma",
+    "away_goals": 1,
+    "away_id": 100,
+    "competition": "Serie A",
+    "date": "2025-02-16",
+    "home": "Parma Calcio 1913",
+    "home_goals": 0,
+    "home_id": 112
+   },
+   {
+    "away": "Parma Calcio 1913",
+    "away_goals": 0,
+    "away_id": 112,
+    "competition": "Serie A",
+    "date": "2024-12-22",
+    "home": "AS Roma",
+    "home_goals": 5,
+    "home_id": 100
+   },
+   {
+    "away": "AS Roma",
+    "away_goals": 0,
+    "away_id": 100,
+    "competition": "Serie A",
+    "date": "2021-03-14",
+    "home": "Parma Calcio 1913",
+    "home_goals": 2,
+    "home_id": 112
+   },
+   {
+    "away": "Parma Calcio 1913",
+    "away_goals": 0,
+    "away_id": 112,
+    "competition": "Serie A",
+    "date": "2020-11-22",
+    "home": "AS Roma",
+    "home_goals": 3,
+    "home_id": 100
+   },
+   {
+    "away": "Parma Calcio 1913",
+    "away_goals": 1,
+    "away_id": 112,
+    "competition": "Serie A",
+    "date": "2020-07-08",
+    "home": "AS Roma",
+    "home_goals": 2,
+    "home_id": 100
+   }
+  ]
+ },
  "100-113": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -1552,6 +1627,51 @@
     "date": "2023-10-29",
     "home": "Cagliari Calcio",
     "home_goals": 4,
+    "home_id": 104
+   }
+  ]
+ },
+ "104-7397": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Como 1907",
+    "away_goals": 2,
+    "away_id": 7397,
+    "competition": "Serie A",
+    "date": "2026-03-07",
+    "home": "Cagliari Calcio",
+    "home_goals": 1,
+    "home_id": 104
+   },
+   {
+    "away": "Cagliari Calcio",
+    "away_goals": 0,
+    "away_id": 104,
+    "competition": "Serie A",
+    "date": "2025-11-08",
+    "home": "Como 1907",
+    "home_goals": 0,
+    "home_id": 7397
+   },
+   {
+    "away": "Cagliari Calcio",
+    "away_goals": 1,
+    "away_id": 104,
+    "competition": "Serie A",
+    "date": "2025-05-10",
+    "home": "Como 1907",
+    "home_goals": 3,
+    "home_id": 7397
+   },
+   {
+    "away": "Como 1907",
+    "away_goals": 1,
+    "away_id": 7397,
+    "competition": "Serie A",
+    "date": "2024-08-26",
+    "home": "Cagliari Calcio",
+    "home_goals": 1,
     "home_id": 104
    }
   ]
@@ -2421,6 +2541,101 @@
    }
   ]
  },
+ "110-5890": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "SS Lazio",
+    "away_goals": 0,
+    "away_id": 110,
+    "competition": "Serie A",
+    "date": "2026-01-24",
+    "home": "US Lecce",
+    "home_goals": 0,
+    "home_id": 5890
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 0,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2025-11-23",
+    "home": "SS Lazio",
+    "home_goals": 2,
+    "home_id": 110
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 1,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2025-05-25",
+    "home": "SS Lazio",
+    "home_goals": 0,
+    "home_id": 110
+   },
+   {
+    "away": "SS Lazio",
+    "away_goals": 2,
+    "away_id": 110,
+    "competition": "Serie A",
+    "date": "2024-12-21",
+    "home": "US Lecce",
+    "home_goals": 1,
+    "home_id": 5890
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 0,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2024-01-14",
+    "home": "SS Lazio",
+    "home_goals": 1,
+    "home_id": 110
+   },
+   {
+    "away": "SS Lazio",
+    "away_goals": 1,
+    "away_id": 110,
+    "competition": "Serie A",
+    "date": "2023-08-20",
+    "home": "US Lecce",
+    "home_goals": 2,
+    "home_id": 5890
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 2,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2023-05-12",
+    "home": "SS Lazio",
+    "home_goals": 2,
+    "home_id": 110
+   },
+   {
+    "away": "SS Lazio",
+    "away_goals": 1,
+    "away_id": 110,
+    "competition": "Serie A",
+    "date": "2023-01-04",
+    "home": "US Lecce",
+    "home_goals": 2,
+    "home_id": 5890
+   },
+   {
+    "away": "SS Lazio",
+    "away_goals": 1,
+    "away_id": 110,
+    "competition": "Serie A",
+    "date": "2020-07-07",
+    "home": "US Lecce",
+    "home_goals": 2,
+    "home_id": 5890
+   }
+  ]
+ },
  "112-115": {
   "fetched": "2026-10-21",
   "meetings": [
@@ -2503,6 +2718,111 @@
  "113-5721": {
   "fetched": "2026-10-20",
   "meetings": []
+ },
+ "113-586": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Torino FC",
+    "away_goals": 1,
+    "away_id": 586,
+    "competition": "Serie A",
+    "date": "2026-03-06",
+    "home": "SSC Napoli",
+    "home_goals": 2,
+    "home_id": 113
+   },
+   {
+    "away": "SSC Napoli",
+    "away_goals": 0,
+    "away_id": 113,
+    "competition": "Serie A",
+    "date": "2025-10-18",
+    "home": "Torino FC",
+    "home_goals": 1,
+    "home_id": 586
+   },
+   {
+    "away": "Torino FC",
+    "away_goals": 0,
+    "away_id": 586,
+    "competition": "Serie A",
+    "date": "2025-04-27",
+    "home": "SSC Napoli",
+    "home_goals": 2,
+    "home_id": 113
+   },
+   {
+    "away": "SSC Napoli",
+    "away_goals": 1,
+    "away_id": 113,
+    "competition": "Serie A",
+    "date": "2024-12-01",
+    "home": "Torino FC",
+    "home_goals": 0,
+    "home_id": 586
+   },
+   {
+    "away": "Torino FC",
+    "away_goals": 1,
+    "away_id": 586,
+    "competition": "Serie A",
+    "date": "2024-03-08",
+    "home": "SSC Napoli",
+    "home_goals": 1,
+    "home_id": 113
+   },
+   {
+    "away": "SSC Napoli",
+    "away_goals": 0,
+    "away_id": 113,
+    "competition": "Serie A",
+    "date": "2024-01-07",
+    "home": "Torino FC",
+    "home_goals": 3,
+    "home_id": 586
+   },
+   {
+    "away": "SSC Napoli",
+    "away_goals": 4,
+    "away_id": 113,
+    "competition": "Serie A",
+    "date": "2023-03-19",
+    "home": "Torino FC",
+    "home_goals": 0,
+    "home_id": 586
+   },
+   {
+    "away": "Torino FC",
+    "away_goals": 1,
+    "away_id": 586,
+    "competition": "Serie A",
+    "date": "2022-10-01",
+    "home": "SSC Napoli",
+    "home_goals": 3,
+    "home_id": 113
+   },
+   {
+    "away": "SSC Napoli",
+    "away_goals": 1,
+    "away_id": 113,
+    "competition": "Serie A",
+    "date": "2022-05-07",
+    "home": "Torino FC",
+    "home_goals": 0,
+    "home_id": 586
+   },
+   {
+    "away": "Torino FC",
+    "away_goals": 0,
+    "away_id": 586,
+    "competition": "Serie A",
+    "date": "2021-10-17",
+    "home": "SSC Napoli",
+    "home_goals": 1,
+    "home_id": 113
+   }
+  ]
  },
  "113-5911": {
   "fetched": "2026-10-21",
@@ -3143,6 +3463,10 @@
    }
   ]
  },
+ "17-719": {
+  "fetched": "2026-11-14",
+  "meetings": []
+ },
  "18-29": {
   "fetched": "2026-10-24",
   "meetings": [
@@ -3503,6 +3827,111 @@
    }
   ]
  },
+ "2-19": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "TSG 1899 Hoffenheim",
+    "away_goals": 3,
+    "away_id": 2,
+    "competition": "Bundesliga",
+    "date": "2026-01-24",
+    "home": "Eintracht Frankfurt",
+    "home_goals": 1,
+    "home_id": 19
+   },
+   {
+    "away": "Eintracht Frankfurt",
+    "away_goals": 3,
+    "away_id": 19,
+    "competition": "Bundesliga",
+    "date": "2025-08-30",
+    "home": "TSG 1899 Hoffenheim",
+    "home_goals": 1,
+    "home_id": 2
+   },
+   {
+    "away": "Eintracht Frankfurt",
+    "away_goals": 2,
+    "away_id": 19,
+    "competition": "Bundesliga",
+    "date": "2025-01-26",
+    "home": "TSG 1899 Hoffenheim",
+    "home_goals": 2,
+    "home_id": 2
+   },
+   {
+    "away": "TSG 1899 Hoffenheim",
+    "away_goals": 1,
+    "away_id": 2,
+    "competition": "Bundesliga",
+    "date": "2024-08-31",
+    "home": "Eintracht Frankfurt",
+    "home_goals": 3,
+    "home_id": 19
+   },
+   {
+    "away": "TSG 1899 Hoffenheim",
+    "away_goals": 1,
+    "away_id": 2,
+    "competition": "Bundesliga",
+    "date": "2024-03-10",
+    "home": "Eintracht Frankfurt",
+    "home_goals": 3,
+    "home_id": 19
+   },
+   {
+    "away": "Eintracht Frankfurt",
+    "away_goals": 3,
+    "away_id": 19,
+    "competition": "Bundesliga",
+    "date": "2023-10-21",
+    "home": "TSG 1899 Hoffenheim",
+    "home_goals": 1,
+    "home_id": 2
+   },
+   {
+    "away": "Eintracht Frankfurt",
+    "away_goals": 1,
+    "away_id": 19,
+    "competition": "Bundesliga",
+    "date": "2023-05-06",
+    "home": "TSG 1899 Hoffenheim",
+    "home_goals": 3,
+    "home_id": 2
+   },
+   {
+    "away": "TSG 1899 Hoffenheim",
+    "away_goals": 2,
+    "away_id": 2,
+    "competition": "Bundesliga",
+    "date": "2022-11-09",
+    "home": "Eintracht Frankfurt",
+    "home_goals": 4,
+    "home_id": 19
+   },
+   {
+    "away": "TSG 1899 Hoffenheim",
+    "away_goals": 2,
+    "away_id": 2,
+    "competition": "Bundesliga",
+    "date": "2022-04-23",
+    "home": "Eintracht Frankfurt",
+    "home_goals": 2,
+    "home_id": 19
+   },
+   {
+    "away": "Eintracht Frankfurt",
+    "away_goals": 2,
+    "away_id": 19,
+    "competition": "Bundesliga",
+    "date": "2021-12-04",
+    "home": "TSG 1899 Hoffenheim",
+    "home_goals": 3,
+    "home_id": 2
+   }
+  ]
+ },
  "2-3": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -3756,6 +4185,101 @@
   "fetched": "2026-11-13",
   "meetings": []
  },
+ "28-721": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "1. FC Union Berlin",
+    "away_goals": 1,
+    "away_id": 28,
+    "competition": "Bundesliga",
+    "date": "2026-04-24",
+    "home": "RB Leipzig",
+    "home_goals": 3,
+    "home_id": 721
+   },
+   {
+    "away": "RB Leipzig",
+    "away_goals": 1,
+    "away_id": 721,
+    "competition": "Bundesliga",
+    "date": "2025-12-12",
+    "home": "1. FC Union Berlin",
+    "home_goals": 3,
+    "home_id": 28
+   },
+   {
+    "away": "RB Leipzig",
+    "away_goals": 0,
+    "away_id": 721,
+    "competition": "Bundesliga",
+    "date": "2025-02-01",
+    "home": "1. FC Union Berlin",
+    "home_goals": 0,
+    "home_id": 28
+   },
+   {
+    "away": "1. FC Union Berlin",
+    "away_goals": 0,
+    "away_id": 28,
+    "competition": "Bundesliga",
+    "date": "2024-09-14",
+    "home": "RB Leipzig",
+    "home_goals": 0,
+    "home_id": 721
+   },
+   {
+    "away": "1. FC Union Berlin",
+    "away_goals": 0,
+    "away_id": 28,
+    "competition": "Bundesliga",
+    "date": "2024-02-04",
+    "home": "RB Leipzig",
+    "home_goals": 2,
+    "home_id": 721
+   },
+   {
+    "away": "RB Leipzig",
+    "away_goals": 3,
+    "away_id": 721,
+    "competition": "Bundesliga",
+    "date": "2023-09-03",
+    "home": "1. FC Union Berlin",
+    "home_goals": 0,
+    "home_id": 28
+   },
+   {
+    "away": "1. FC Union Berlin",
+    "away_goals": 2,
+    "away_id": 28,
+    "competition": "Bundesliga",
+    "date": "2023-02-11",
+    "home": "RB Leipzig",
+    "home_goals": 1,
+    "home_id": 721
+   },
+   {
+    "away": "RB Leipzig",
+    "away_goals": 1,
+    "away_id": 721,
+    "competition": "Bundesliga",
+    "date": "2022-08-20",
+    "home": "1. FC Union Berlin",
+    "home_goals": 2,
+    "home_id": 28
+   },
+   {
+    "away": "1. FC Union Berlin",
+    "away_goals": 2,
+    "away_id": 28,
+    "competition": "Bundesliga",
+    "date": "2022-04-23",
+    "home": "RB Leipzig",
+    "home_goals": 1,
+    "home_id": 721
+   }
+  ]
+ },
  "3-10": {
   "fetched": "2026-10-24",
   "meetings": [
@@ -3838,6 +4362,21 @@
     "home": "Bayer 04 Leverkusen",
     "home_goals": 2,
     "home_id": 3
+   }
+  ]
+ },
+ "3-29": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Bayer 04 Leverkusen",
+    "away_goals": 4,
+    "away_id": 3,
+    "competition": "Bundesliga",
+    "date": "2020-01-19",
+    "home": "SC Paderborn 07",
+    "home_goals": 1,
+    "home_id": 29
    }
   ]
  },
@@ -3996,6 +4535,111 @@
    }
   ]
  },
+ "351-1044": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "AFC Bournemouth",
+    "away_goals": 1,
+    "away_id": 1044,
+    "competition": "Premier League",
+    "date": "2026-05-24",
+    "home": "Nottingham Forest FC",
+    "home_goals": 1,
+    "home_id": 351
+   },
+   {
+    "away": "Nottingham Forest FC",
+    "away_goals": 0,
+    "away_id": 351,
+    "competition": "Premier League",
+    "date": "2025-10-26",
+    "home": "AFC Bournemouth",
+    "home_goals": 2,
+    "home_id": 1044
+   },
+   {
+    "away": "Nottingham Forest FC",
+    "away_goals": 0,
+    "away_id": 351,
+    "competition": "Premier League",
+    "date": "2025-01-25",
+    "home": "AFC Bournemouth",
+    "home_goals": 5,
+    "home_id": 1044
+   },
+   {
+    "away": "AFC Bournemouth",
+    "away_goals": 1,
+    "away_id": 1044,
+    "competition": "Premier League",
+    "date": "2024-08-17",
+    "home": "Nottingham Forest FC",
+    "home_goals": 1,
+    "home_id": 351
+   },
+   {
+    "away": "Nottingham Forest FC",
+    "away_goals": 1,
+    "away_id": 351,
+    "competition": "Premier League",
+    "date": "2024-02-04",
+    "home": "AFC Bournemouth",
+    "home_goals": 1,
+    "home_id": 1044
+   },
+   {
+    "away": "AFC Bournemouth",
+    "away_goals": 3,
+    "away_id": 1044,
+    "competition": "Premier League",
+    "date": "2023-12-23",
+    "home": "Nottingham Forest FC",
+    "home_goals": 2,
+    "home_id": 351
+   },
+   {
+    "away": "Nottingham Forest FC",
+    "away_goals": 1,
+    "away_id": 351,
+    "competition": "Premier League",
+    "date": "2023-01-21",
+    "home": "AFC Bournemouth",
+    "home_goals": 1,
+    "home_id": 1044
+   },
+   {
+    "away": "AFC Bournemouth",
+    "away_goals": 3,
+    "away_id": 1044,
+    "competition": "Premier League",
+    "date": "2022-09-03",
+    "home": "Nottingham Forest FC",
+    "home_goals": 2,
+    "home_id": 351
+   },
+   {
+    "away": "Nottingham Forest FC",
+    "away_goals": 0,
+    "away_id": 351,
+    "competition": "Championship",
+    "date": "2022-05-03",
+    "home": "AFC Bournemouth",
+    "home_goals": 1,
+    "home_id": 1044
+   },
+   {
+    "away": "AFC Bournemouth",
+    "away_goals": 2,
+    "away_id": 1044,
+    "competition": "Championship",
+    "date": "2021-08-14",
+    "home": "Nottingham Forest FC",
+    "home_goals": 1,
+    "home_id": 351
+   }
+  ]
+ },
  "351-402": {
   "fetched": "2026-10-24",
   "meetings": [
@@ -4100,6 +4744,10 @@
     "home_id": 351
    }
   ]
+ },
+ "354-1076": {
+  "fetched": "2026-11-14",
+  "meetings": []
  },
  "397-402": {
   "fetched": "2026-11-01",
@@ -4209,6 +4857,111 @@
  "4-10233": {
   "fetched": "2026-10-20",
   "meetings": []
+ },
+ "4-18": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Borussia Dortmund",
+    "away_goals": 0,
+    "away_id": 4,
+    "competition": "Bundesliga",
+    "date": "2026-05-03",
+    "home": "Borussia Mönchengladbach",
+    "home_goals": 1,
+    "home_id": 18
+   },
+   {
+    "away": "Borussia Mönchengladbach",
+    "away_goals": 0,
+    "away_id": 18,
+    "competition": "Bundesliga",
+    "date": "2025-12-19",
+    "home": "Borussia Dortmund",
+    "home_goals": 2,
+    "home_id": 4
+   },
+   {
+    "away": "Borussia Mönchengladbach",
+    "away_goals": 2,
+    "away_id": 18,
+    "competition": "Bundesliga",
+    "date": "2025-04-20",
+    "home": "Borussia Dortmund",
+    "home_goals": 3,
+    "home_id": 4
+   },
+   {
+    "away": "Borussia Dortmund",
+    "away_goals": 1,
+    "away_id": 4,
+    "competition": "Bundesliga",
+    "date": "2024-12-07",
+    "home": "Borussia Mönchengladbach",
+    "home_goals": 1,
+    "home_id": 18
+   },
+   {
+    "away": "Borussia Dortmund",
+    "away_goals": 2,
+    "away_id": 4,
+    "competition": "Bundesliga",
+    "date": "2024-04-13",
+    "home": "Borussia Mönchengladbach",
+    "home_goals": 1,
+    "home_id": 18
+   },
+   {
+    "away": "Borussia Mönchengladbach",
+    "away_goals": 2,
+    "away_id": 18,
+    "competition": "Bundesliga",
+    "date": "2023-11-25",
+    "home": "Borussia Dortmund",
+    "home_goals": 4,
+    "home_id": 4
+   },
+   {
+    "away": "Borussia Mönchengladbach",
+    "away_goals": 2,
+    "away_id": 18,
+    "competition": "Bundesliga",
+    "date": "2023-05-13",
+    "home": "Borussia Dortmund",
+    "home_goals": 5,
+    "home_id": 4
+   },
+   {
+    "away": "Borussia Dortmund",
+    "away_goals": 2,
+    "away_id": 4,
+    "competition": "Bundesliga",
+    "date": "2022-11-11",
+    "home": "Borussia Mönchengladbach",
+    "home_goals": 4,
+    "home_id": 18
+   },
+   {
+    "away": "Borussia Mönchengladbach",
+    "away_goals": 0,
+    "away_id": 18,
+    "competition": "Bundesliga",
+    "date": "2022-02-20",
+    "home": "Borussia Dortmund",
+    "home_goals": 6,
+    "home_id": 4
+   },
+   {
+    "away": "Borussia Dortmund",
+    "away_goals": 0,
+    "away_id": 4,
+    "competition": "Bundesliga",
+    "date": "2021-09-25",
+    "home": "Borussia Mönchengladbach",
+    "home_goals": 1,
+    "home_id": 18
+   }
+  ]
  },
  "4-19": {
   "fetched": "2026-10-20",
@@ -5608,6 +6361,91 @@
    }
   ]
  },
+ "511-546": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Toulouse FC",
+    "away_goals": 2,
+    "away_id": 511,
+    "competition": "Ligue 1",
+    "date": "2026-04-17",
+    "home": "Racing Club de Lens",
+    "home_goals": 3,
+    "home_id": 546
+   },
+   {
+    "away": "Racing Club de Lens",
+    "away_goals": 3,
+    "away_id": 546,
+    "competition": "Ligue 1",
+    "date": "2026-01-02",
+    "home": "Toulouse FC",
+    "home_goals": 0,
+    "home_id": 511
+   },
+   {
+    "away": "Racing Club de Lens",
+    "away_goals": 1,
+    "away_id": 546,
+    "competition": "Ligue 1",
+    "date": "2025-05-10",
+    "home": "Toulouse FC",
+    "home_goals": 1,
+    "home_id": 511
+   },
+   {
+    "away": "Toulouse FC",
+    "away_goals": 1,
+    "away_id": 511,
+    "competition": "Ligue 1",
+    "date": "2025-01-05",
+    "home": "Racing Club de Lens",
+    "home_goals": 0,
+    "home_id": 546
+   },
+   {
+    "away": "Racing Club de Lens",
+    "away_goals": 2,
+    "away_id": 546,
+    "competition": "Ligue 1",
+    "date": "2024-01-28",
+    "home": "Toulouse FC",
+    "home_goals": 0,
+    "home_id": 511
+   },
+   {
+    "away": "Toulouse FC",
+    "away_goals": 1,
+    "away_id": 511,
+    "competition": "Ligue 1",
+    "date": "2023-09-24",
+    "home": "Racing Club de Lens",
+    "home_goals": 2,
+    "home_id": 546
+   },
+   {
+    "away": "Racing Club de Lens",
+    "away_goals": 1,
+    "away_id": 546,
+    "competition": "Ligue 1",
+    "date": "2023-05-02",
+    "home": "Toulouse FC",
+    "home_goals": 0,
+    "home_id": 511
+   },
+   {
+    "away": "Toulouse FC",
+    "away_goals": 0,
+    "away_id": 511,
+    "competition": "Ligue 1",
+    "date": "2022-10-28",
+    "home": "Racing Club de Lens",
+    "home_goals": 3,
+    "home_id": 546
+   }
+  ]
+ },
  "511-576": {
   "fetched": "2026-10-30",
   "meetings": [
@@ -6008,6 +6846,111 @@
    }
   ]
  },
+ "512-576": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "RC Strasbourg Alsace",
+    "away_goals": 2,
+    "away_id": 576,
+    "competition": "Ligue 1",
+    "date": "2026-05-13",
+    "home": "Stade Brestois 29",
+    "home_goals": 1,
+    "home_id": 512
+   },
+   {
+    "away": "Stade Brestois 29",
+    "away_goals": 2,
+    "away_id": 512,
+    "competition": "Ligue 1",
+    "date": "2025-11-30",
+    "home": "RC Strasbourg Alsace",
+    "home_goals": 1,
+    "home_id": 576
+   },
+   {
+    "away": "Stade Brestois 29",
+    "away_goals": 0,
+    "away_id": 512,
+    "competition": "Ligue 1",
+    "date": "2025-02-23",
+    "home": "RC Strasbourg Alsace",
+    "home_goals": 0,
+    "home_id": 576
+   },
+   {
+    "away": "RC Strasbourg Alsace",
+    "away_goals": 1,
+    "away_id": 576,
+    "competition": "Ligue 1",
+    "date": "2024-11-30",
+    "home": "Stade Brestois 29",
+    "home_goals": 3,
+    "home_id": 512
+   },
+   {
+    "away": "Stade Brestois 29",
+    "away_goals": 3,
+    "away_id": 512,
+    "competition": "Ligue 1",
+    "date": "2024-02-24",
+    "home": "RC Strasbourg Alsace",
+    "home_goals": 0,
+    "home_id": 576
+   },
+   {
+    "away": "RC Strasbourg Alsace",
+    "away_goals": 1,
+    "away_id": 576,
+    "competition": "Ligue 1",
+    "date": "2023-12-07",
+    "home": "Stade Brestois 29",
+    "home_goals": 1,
+    "home_id": 512
+   },
+   {
+    "away": "Stade Brestois 29",
+    "away_goals": 1,
+    "away_id": 512,
+    "competition": "Ligue 1",
+    "date": "2023-03-05",
+    "home": "RC Strasbourg Alsace",
+    "home_goals": 0,
+    "home_id": 576
+   },
+   {
+    "away": "RC Strasbourg Alsace",
+    "away_goals": 1,
+    "away_id": 576,
+    "competition": "Ligue 1",
+    "date": "2022-09-04",
+    "home": "Stade Brestois 29",
+    "home_goals": 1,
+    "home_id": 512
+   },
+   {
+    "away": "RC Strasbourg Alsace",
+    "away_goals": 1,
+    "away_id": 576,
+    "competition": "Ligue 1",
+    "date": "2022-05-07",
+    "home": "Stade Brestois 29",
+    "home_goals": 0,
+    "home_id": 512
+   },
+   {
+    "away": "Stade Brestois 29",
+    "away_goals": 1,
+    "away_id": 512,
+    "competition": "Ligue 1",
+    "date": "2021-08-29",
+    "home": "RC Strasbourg Alsace",
+    "home_goals": 3,
+    "home_id": 576
+   }
+  ]
+ },
  "516-533": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -6207,6 +7150,71 @@
   "fetched": "2026-10-20",
   "meetings": []
  },
+ "519-548": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "AJ Auxerre",
+    "away_goals": 2,
+    "away_id": 519,
+    "competition": "Ligue 1",
+    "date": "2026-04-19",
+    "home": "AS Monaco FC",
+    "home_goals": 2,
+    "home_id": 548
+   },
+   {
+    "away": "AS Monaco FC",
+    "away_goals": 2,
+    "away_id": 548,
+    "competition": "Ligue 1",
+    "date": "2025-09-13",
+    "home": "AJ Auxerre",
+    "home_goals": 1,
+    "home_id": 519
+   },
+   {
+    "away": "AJ Auxerre",
+    "away_goals": 2,
+    "away_id": 519,
+    "competition": "Ligue 1",
+    "date": "2025-02-01",
+    "home": "AS Monaco FC",
+    "home_goals": 4,
+    "home_id": 548
+   },
+   {
+    "away": "AS Monaco FC",
+    "away_goals": 3,
+    "away_id": 548,
+    "competition": "Ligue 1",
+    "date": "2024-09-14",
+    "home": "AJ Auxerre",
+    "home_goals": 0,
+    "home_id": 519
+   },
+   {
+    "away": "AJ Auxerre",
+    "away_goals": 2,
+    "away_id": 519,
+    "competition": "Ligue 1",
+    "date": "2023-02-01",
+    "home": "AS Monaco FC",
+    "home_goals": 3,
+    "home_id": 548
+   },
+   {
+    "away": "AS Monaco FC",
+    "away_goals": 3,
+    "away_id": 548,
+    "competition": "Ligue 1",
+    "date": "2022-12-28",
+    "home": "AJ Auxerre",
+    "home_goals": 2,
+    "home_id": 519
+   }
+  ]
+ },
  "519-576": {
   "fetched": "2026-10-25",
   "meetings": [
@@ -6269,6 +7277,101 @@
     "home": "AJ Auxerre",
     "home_goals": 1,
     "home_id": 519
+   }
+  ]
+ },
+ "521-523": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Lille OSC",
+    "away_goals": 0,
+    "away_id": 521,
+    "competition": "Ligue 1",
+    "date": "2026-02-01",
+    "home": "Olympique Lyonnais",
+    "home_goals": 1,
+    "home_id": 523
+   },
+   {
+    "away": "Olympique Lyonnais",
+    "away_goals": 1,
+    "away_id": 523,
+    "competition": "Ligue 1",
+    "date": "2025-09-28",
+    "home": "Lille OSC",
+    "home_goals": 0,
+    "home_id": 521
+   },
+   {
+    "away": "Lille OSC",
+    "away_goals": 1,
+    "away_id": 521,
+    "competition": "Ligue 1",
+    "date": "2025-04-05",
+    "home": "Olympique Lyonnais",
+    "home_goals": 2,
+    "home_id": 523
+   },
+   {
+    "away": "Olympique Lyonnais",
+    "away_goals": 1,
+    "away_id": 523,
+    "competition": "Ligue 1",
+    "date": "2024-11-01",
+    "home": "Lille OSC",
+    "home_goals": 1,
+    "home_id": 521
+   },
+   {
+    "away": "Olympique Lyonnais",
+    "away_goals": 4,
+    "away_id": 523,
+    "competition": "Ligue 1",
+    "date": "2024-05-06",
+    "home": "Lille OSC",
+    "home_goals": 3,
+    "home_id": 521
+   },
+   {
+    "away": "Lille OSC",
+    "away_goals": 2,
+    "away_id": 521,
+    "competition": "Ligue 1",
+    "date": "2023-11-26",
+    "home": "Olympique Lyonnais",
+    "home_goals": 0,
+    "home_id": 523
+   },
+   {
+    "away": "Olympique Lyonnais",
+    "away_goals": 3,
+    "away_id": 523,
+    "competition": "Ligue 1",
+    "date": "2023-03-10",
+    "home": "Lille OSC",
+    "home_goals": 3,
+    "home_id": 521
+   },
+   {
+    "away": "Lille OSC",
+    "away_goals": 0,
+    "away_id": 521,
+    "competition": "Ligue 1",
+    "date": "2022-10-30",
+    "home": "Olympique Lyonnais",
+    "home_goals": 1,
+    "home_id": 523
+   },
+   {
+    "away": "Lille OSC",
+    "away_goals": 1,
+    "away_id": 521,
+    "competition": "Ligue 1",
+    "date": "2022-02-27",
+    "home": "Olympique Lyonnais",
+    "home_goals": 0,
+    "home_id": 523
    }
   ]
  },
@@ -6594,6 +7697,101 @@
  "521-610": {
   "fetched": "2026-10-20",
   "meetings": []
+ },
+ "522-524": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Paris Saint-Germain FC",
+    "away_goals": 4,
+    "away_id": 524,
+    "competition": "Ligue 1",
+    "date": "2026-03-21",
+    "home": "OGC Nice",
+    "home_goals": 0,
+    "home_id": 522
+   },
+   {
+    "away": "OGC Nice",
+    "away_goals": 0,
+    "away_id": 522,
+    "competition": "Ligue 1",
+    "date": "2025-11-01",
+    "home": "Paris Saint-Germain FC",
+    "home_goals": 1,
+    "home_id": 524
+   },
+   {
+    "away": "OGC Nice",
+    "away_goals": 3,
+    "away_id": 522,
+    "competition": "Ligue 1",
+    "date": "2025-04-25",
+    "home": "Paris Saint-Germain FC",
+    "home_goals": 1,
+    "home_id": 524
+   },
+   {
+    "away": "Paris Saint-Germain FC",
+    "away_goals": 1,
+    "away_id": 524,
+    "competition": "Ligue 1",
+    "date": "2024-10-06",
+    "home": "OGC Nice",
+    "home_goals": 1,
+    "home_id": 522
+   },
+   {
+    "away": "Paris Saint-Germain FC",
+    "away_goals": 2,
+    "away_id": 524,
+    "competition": "Ligue 1",
+    "date": "2024-05-15",
+    "home": "OGC Nice",
+    "home_goals": 1,
+    "home_id": 522
+   },
+   {
+    "away": "OGC Nice",
+    "away_goals": 3,
+    "away_id": 522,
+    "competition": "Ligue 1",
+    "date": "2023-09-15",
+    "home": "Paris Saint-Germain FC",
+    "home_goals": 2,
+    "home_id": 524
+   },
+   {
+    "away": "Paris Saint-Germain FC",
+    "away_goals": 2,
+    "away_id": 524,
+    "competition": "Ligue 1",
+    "date": "2023-04-08",
+    "home": "OGC Nice",
+    "home_goals": 0,
+    "home_id": 522
+   },
+   {
+    "away": "OGC Nice",
+    "away_goals": 1,
+    "away_id": 522,
+    "competition": "Ligue 1",
+    "date": "2022-10-01",
+    "home": "Paris Saint-Germain FC",
+    "home_goals": 2,
+    "home_id": 524
+   },
+   {
+    "away": "Paris Saint-Germain FC",
+    "away_goals": 0,
+    "away_id": 524,
+    "competition": "Ligue 1",
+    "date": "2022-03-05",
+    "home": "OGC Nice",
+    "home_goals": 1,
+    "home_id": 522
+   }
+  ]
  },
  "522-529": {
   "fetched": "2026-10-24",
@@ -8163,6 +9361,91 @@
    }
   ]
  },
+ "57-67": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Newcastle United FC",
+    "away_goals": 0,
+    "away_id": 67,
+    "competition": "Premier League",
+    "date": "2026-04-25",
+    "home": "Arsenal FC",
+    "home_goals": 1,
+    "home_id": 57
+   },
+   {
+    "away": "Arsenal FC",
+    "away_goals": 2,
+    "away_id": 57,
+    "competition": "Premier League",
+    "date": "2025-09-28",
+    "home": "Newcastle United FC",
+    "home_goals": 1,
+    "home_id": 67
+   },
+   {
+    "away": "Newcastle United FC",
+    "away_goals": 0,
+    "away_id": 67,
+    "competition": "Premier League",
+    "date": "2025-05-18",
+    "home": "Arsenal FC",
+    "home_goals": 1,
+    "home_id": 57
+   },
+   {
+    "away": "Arsenal FC",
+    "away_goals": 0,
+    "away_id": 57,
+    "competition": "Premier League",
+    "date": "2024-11-02",
+    "home": "Newcastle United FC",
+    "home_goals": 1,
+    "home_id": 67
+   },
+   {
+    "away": "Newcastle United FC",
+    "away_goals": 1,
+    "away_id": 67,
+    "competition": "Premier League",
+    "date": "2024-02-24",
+    "home": "Arsenal FC",
+    "home_goals": 4,
+    "home_id": 57
+   },
+   {
+    "away": "Arsenal FC",
+    "away_goals": 0,
+    "away_id": 57,
+    "competition": "Premier League",
+    "date": "2023-11-04",
+    "home": "Newcastle United FC",
+    "home_goals": 1,
+    "home_id": 67
+   },
+   {
+    "away": "Arsenal FC",
+    "away_goals": 2,
+    "away_id": 57,
+    "competition": "Premier League",
+    "date": "2023-05-07",
+    "home": "Newcastle United FC",
+    "home_goals": 0,
+    "home_id": 67
+   },
+   {
+    "away": "Newcastle United FC",
+    "away_goals": 0,
+    "away_id": 67,
+    "competition": "Premier League",
+    "date": "2023-01-03",
+    "home": "Arsenal FC",
+    "home_goals": 0,
+    "home_id": 57
+   }
+  ]
+ },
  "57-930": {
   "fetched": "2026-10-28",
   "meetings": [
@@ -8503,6 +9786,31 @@
     "home": "Aston Villa FC",
     "home_goals": 2,
     "home_id": 58
+   }
+  ]
+ },
+ "58-71": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Sunderland AFC",
+    "away_goals": 3,
+    "away_id": 71,
+    "competition": "Premier League",
+    "date": "2026-04-19",
+    "home": "Aston Villa FC",
+    "home_goals": 4,
+    "home_id": 58
+   },
+   {
+    "away": "Aston Villa FC",
+    "away_goals": 1,
+    "away_id": 58,
+    "competition": "Premier League",
+    "date": "2025-09-21",
+    "home": "Sunderland AFC",
+    "home_goals": 1,
+    "home_id": 71
    }
   ]
  },
@@ -8910,6 +10218,51 @@
    }
   ]
  },
+ "6-10": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "VfB Stuttgart",
+    "away_goals": 1,
+    "away_id": 10,
+    "competition": "Bundesliga",
+    "date": "2023-02-25",
+    "home": "FC Schalke 04",
+    "home_goals": 2,
+    "home_id": 6
+   },
+   {
+    "away": "FC Schalke 04",
+    "away_goals": 1,
+    "away_id": 6,
+    "competition": "Bundesliga",
+    "date": "2022-09-03",
+    "home": "VfB Stuttgart",
+    "home_goals": 1,
+    "home_id": 10
+   },
+   {
+    "away": "FC Schalke 04",
+    "away_goals": 1,
+    "away_id": 6,
+    "competition": "Bundesliga",
+    "date": "2021-02-27",
+    "home": "VfB Stuttgart",
+    "home_goals": 5,
+    "home_id": 10
+   },
+   {
+    "away": "VfB Stuttgart",
+    "away_goals": 1,
+    "away_id": 10,
+    "competition": "Bundesliga",
+    "date": "2020-10-30",
+    "home": "FC Schalke 04",
+    "home_goals": 1,
+    "home_id": 6
+   }
+  ]
+ },
  "6-721": {
   "fetched": "2026-10-24",
   "meetings": [
@@ -8962,6 +10315,81 @@
     "home": "FC Schalke 04",
     "home_goals": 0,
     "home_id": 6
+   }
+  ]
+ },
+ "61-341": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Leeds United FC",
+    "away_goals": 2,
+    "away_id": 341,
+    "competition": "Premier League",
+    "date": "2026-02-10",
+    "home": "Chelsea FC",
+    "home_goals": 2,
+    "home_id": 61
+   },
+   {
+    "away": "Chelsea FC",
+    "away_goals": 1,
+    "away_id": 61,
+    "competition": "Premier League",
+    "date": "2025-12-03",
+    "home": "Leeds United FC",
+    "home_goals": 3,
+    "home_id": 341
+   },
+   {
+    "away": "Leeds United FC",
+    "away_goals": 0,
+    "away_id": 341,
+    "competition": "Premier League",
+    "date": "2023-03-04",
+    "home": "Chelsea FC",
+    "home_goals": 1,
+    "home_id": 61
+   },
+   {
+    "away": "Chelsea FC",
+    "away_goals": 0,
+    "away_id": 61,
+    "competition": "Premier League",
+    "date": "2022-08-21",
+    "home": "Leeds United FC",
+    "home_goals": 3,
+    "home_id": 341
+   },
+   {
+    "away": "Chelsea FC",
+    "away_goals": 3,
+    "away_id": 61,
+    "competition": "Premier League",
+    "date": "2022-05-11",
+    "home": "Leeds United FC",
+    "home_goals": 0,
+    "home_id": 341
+   },
+   {
+    "away": "Leeds United FC",
+    "away_goals": 2,
+    "away_id": 341,
+    "competition": "Premier League",
+    "date": "2021-12-11",
+    "home": "Chelsea FC",
+    "home_goals": 3,
+    "home_id": 61
+   },
+   {
+    "away": "Chelsea FC",
+    "away_goals": 0,
+    "away_id": 61,
+    "competition": "Premier League",
+    "date": "2021-03-13",
+    "home": "Leeds United FC",
+    "home_goals": 0,
+    "home_id": 341
    }
   ]
  },
@@ -10754,6 +12182,71 @@
    }
   ]
  },
+ "670-675": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "SBV Excelsior",
+    "away_goals": 1,
+    "away_id": 670,
+    "competition": "Eredivisie",
+    "date": "2026-03-15",
+    "home": "Feyenoord Rotterdam",
+    "home_goals": 2,
+    "home_id": 675
+   },
+   {
+    "away": "Feyenoord Rotterdam",
+    "away_goals": 2,
+    "away_id": 675,
+    "competition": "Eredivisie",
+    "date": "2025-08-16",
+    "home": "SBV Excelsior",
+    "home_goals": 1,
+    "home_id": 670
+   },
+   {
+    "away": "SBV Excelsior",
+    "away_goals": 0,
+    "away_id": 670,
+    "competition": "Eredivisie",
+    "date": "2024-05-19",
+    "home": "Feyenoord Rotterdam",
+    "home_goals": 4,
+    "home_id": 675
+   },
+   {
+    "away": "Feyenoord Rotterdam",
+    "away_goals": 4,
+    "away_id": 675,
+    "competition": "Eredivisie",
+    "date": "2023-11-25",
+    "home": "SBV Excelsior",
+    "home_goals": 2,
+    "home_id": 670
+   },
+   {
+    "away": "Feyenoord Rotterdam",
+    "away_goals": 2,
+    "away_id": 675,
+    "competition": "Eredivisie",
+    "date": "2023-05-07",
+    "home": "SBV Excelsior",
+    "home_goals": 0,
+    "home_id": 670
+   },
+   {
+    "away": "SBV Excelsior",
+    "away_goals": 1,
+    "away_id": 670,
+    "competition": "Eredivisie",
+    "date": "2022-11-13",
+    "home": "Feyenoord Rotterdam",
+    "home_goals": 5,
+    "home_id": 675
+   }
+  ]
+ },
  "670-677": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -11399,6 +12892,111 @@
    }
   ]
  },
+ "673-677": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "FC Groningen",
+    "away_goals": 2,
+    "away_id": 677,
+    "competition": "Eredivisie",
+    "date": "2026-01-18",
+    "home": "SC Heerenveen",
+    "home_goals": 0,
+    "home_id": 673
+   },
+   {
+    "away": "SC Heerenveen",
+    "away_goals": 1,
+    "away_id": 673,
+    "competition": "Eredivisie",
+    "date": "2025-08-16",
+    "home": "FC Groningen",
+    "home_goals": 2,
+    "home_id": 677
+   },
+   {
+    "away": "SC Heerenveen",
+    "away_goals": 0,
+    "away_id": 673,
+    "competition": "Eredivisie",
+    "date": "2025-01-25",
+    "home": "FC Groningen",
+    "home_goals": 1,
+    "home_id": 677
+   },
+   {
+    "away": "FC Groningen",
+    "away_goals": 1,
+    "away_id": 677,
+    "competition": "Eredivisie",
+    "date": "2024-09-22",
+    "home": "SC Heerenveen",
+    "home_goals": 2,
+    "home_id": 673
+   },
+   {
+    "away": "SC Heerenveen",
+    "away_goals": 2,
+    "away_id": 673,
+    "competition": "Eredivisie",
+    "date": "2023-03-19",
+    "home": "FC Groningen",
+    "home_goals": 0,
+    "home_id": 677
+   },
+   {
+    "away": "FC Groningen",
+    "away_goals": 1,
+    "away_id": 677,
+    "competition": "Eredivisie",
+    "date": "2023-01-22",
+    "home": "SC Heerenveen",
+    "home_goals": 3,
+    "home_id": 673
+   },
+   {
+    "away": "FC Groningen",
+    "away_goals": 1,
+    "away_id": 677,
+    "competition": "Eredivisie",
+    "date": "2022-04-10",
+    "home": "SC Heerenveen",
+    "home_goals": 3,
+    "home_id": 673
+   },
+   {
+    "away": "SC Heerenveen",
+    "away_goals": 1,
+    "away_id": 673,
+    "competition": "Eredivisie",
+    "date": "2021-09-12",
+    "home": "FC Groningen",
+    "home_goals": 1,
+    "home_id": 677
+   },
+   {
+    "away": "SC Heerenveen",
+    "away_goals": 2,
+    "away_id": 673,
+    "competition": "Eredivisie",
+    "date": "2021-04-11",
+    "home": "FC Groningen",
+    "home_goals": 0,
+    "home_id": 677
+   },
+   {
+    "away": "FC Groningen",
+    "away_goals": 1,
+    "away_id": 677,
+    "competition": "Eredivisie",
+    "date": "2021-02-21",
+    "home": "SC Heerenveen",
+    "home_goals": 1,
+    "home_id": 673
+   }
+  ]
+ },
  "673-680": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -11475,6 +13073,101 @@
     "date": "2021-08-21",
     "home": "PSV",
     "home_goals": 4,
+    "home_id": 674
+   }
+  ]
+ },
+ "674-1915": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "NEC",
+    "away_goals": 3,
+    "away_id": 1915,
+    "competition": "Eredivisie",
+    "date": "2026-03-14",
+    "home": "PSV",
+    "home_goals": 2,
+    "home_id": 674
+   },
+   {
+    "away": "PSV",
+    "away_goals": 5,
+    "away_id": 674,
+    "competition": "Eredivisie",
+    "date": "2025-09-13",
+    "home": "NEC",
+    "home_goals": 3,
+    "home_id": 1915
+   },
+   {
+    "away": "PSV",
+    "away_goals": 3,
+    "away_id": 674,
+    "competition": "Eredivisie",
+    "date": "2025-02-01",
+    "home": "NEC",
+    "home_goals": 3,
+    "home_id": 1915
+   },
+   {
+    "away": "NEC",
+    "away_goals": 0,
+    "away_id": 1915,
+    "competition": "Eredivisie",
+    "date": "2024-09-14",
+    "home": "PSV",
+    "home_goals": 2,
+    "home_id": 674
+   },
+   {
+    "away": "PSV",
+    "away_goals": 1,
+    "away_id": 674,
+    "competition": "Eredivisie",
+    "date": "2024-03-30",
+    "home": "NEC",
+    "home_goals": 3,
+    "home_id": 1915
+   },
+   {
+    "away": "NEC",
+    "away_goals": 0,
+    "away_id": 1915,
+    "competition": "Eredivisie",
+    "date": "2023-09-16",
+    "home": "PSV",
+    "home_goals": 4,
+    "home_id": 674
+   },
+   {
+    "away": "PSV",
+    "away_goals": 4,
+    "away_id": 674,
+    "competition": "Eredivisie",
+    "date": "2023-04-01",
+    "home": "NEC",
+    "home_goals": 2,
+    "home_id": 1915
+   },
+   {
+    "away": "NEC",
+    "away_goals": 0,
+    "away_id": 1915,
+    "competition": "Eredivisie",
+    "date": "2022-10-30",
+    "home": "PSV",
+    "home_goals": 3,
+    "home_id": 674
+   },
+   {
+    "away": "NEC",
+    "away_goals": 2,
+    "away_id": 1915,
+    "competition": "Eredivisie",
+    "date": "2022-05-11",
+    "home": "PSV",
+    "home_goals": 3,
     "home_id": 674
    }
   ]
@@ -11770,6 +13463,51 @@
     "home": "Feyenoord Rotterdam",
     "home_goals": 3,
     "home_id": 675
+   }
+  ]
+ },
+ "676-1909": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "FC Utrecht",
+    "away_goals": 3,
+    "away_id": 676,
+    "competition": "Eredivisie",
+    "date": "2023-05-06",
+    "home": "SC Cambuur-Leeuwarden",
+    "home_goals": 0,
+    "home_id": 1909
+   },
+   {
+    "away": "SC Cambuur-Leeuwarden",
+    "away_goals": 0,
+    "away_id": 1909,
+    "competition": "Eredivisie",
+    "date": "2022-08-13",
+    "home": "FC Utrecht",
+    "home_goals": 0,
+    "home_id": 676
+   },
+   {
+    "away": "SC Cambuur-Leeuwarden",
+    "away_goals": 2,
+    "away_id": 1909,
+    "competition": "Eredivisie",
+    "date": "2022-02-05",
+    "home": "FC Utrecht",
+    "home_goals": 3,
+    "home_id": 676
+   },
+   {
+    "away": "FC Utrecht",
+    "away_goals": 1,
+    "away_id": 676,
+    "competition": "Eredivisie",
+    "date": "2021-11-21",
+    "home": "SC Cambuur-Leeuwarden",
+    "home_goals": 2,
+    "home_id": 1909
    }
   ]
  },
@@ -12638,6 +14376,31 @@
    }
   ]
  },
+ "684-1912": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Telstar 1963",
+    "away_goals": 1,
+    "away_id": 1912,
+    "competition": "Eredivisie",
+    "date": "2026-01-31",
+    "home": "PEC Zwolle",
+    "home_goals": 4,
+    "home_id": 684
+   },
+   {
+    "away": "PEC Zwolle",
+    "away_goals": 2,
+    "away_id": 684,
+    "competition": "Eredivisie",
+    "date": "2025-08-15",
+    "home": "Telstar 1963",
+    "home_goals": 0,
+    "home_id": 1912
+   }
+  ]
+ },
  "684-718": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -13267,6 +15030,31 @@
     "date": "2021-01-02",
     "home": "Tottenham Hotspur FC",
     "home_goals": 3,
+    "home_id": 73
+   }
+  ]
+ },
+ "73-349": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Tottenham Hotspur FC",
+    "away_goals": 4,
+    "away_id": 73,
+    "competition": "Premier League",
+    "date": "2025-02-22",
+    "home": "Ipswich Town FC",
+    "home_goals": 1,
+    "home_id": 349
+   },
+   {
+    "away": "Ipswich Town FC",
+    "away_goals": 2,
+    "away_id": 349,
+    "competition": "Premier League",
+    "date": "2024-11-10",
+    "home": "Tottenham Hotspur FC",
+    "home_goals": 1,
     "home_id": 73
    }
   ]
@@ -14632,6 +16420,101 @@
   "fetched": "2026-10-25",
   "meetings": []
  },
+ "86-558": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Real Madrid CF",
+    "away_goals": 2,
+    "away_id": 86,
+    "competition": "Primera Division",
+    "date": "2026-03-06",
+    "home": "RC Celta de Vigo",
+    "home_goals": 1,
+    "home_id": 558
+   },
+   {
+    "away": "RC Celta de Vigo",
+    "away_goals": 2,
+    "away_id": 558,
+    "competition": "Primera Division",
+    "date": "2025-12-07",
+    "home": "Real Madrid CF",
+    "home_goals": 0,
+    "home_id": 86
+   },
+   {
+    "away": "RC Celta de Vigo",
+    "away_goals": 2,
+    "away_id": 558,
+    "competition": "Primera Division",
+    "date": "2025-05-04",
+    "home": "Real Madrid CF",
+    "home_goals": 3,
+    "home_id": 86
+   },
+   {
+    "away": "Real Madrid CF",
+    "away_goals": 2,
+    "away_id": 86,
+    "competition": "Primera Division",
+    "date": "2024-10-19",
+    "home": "RC Celta de Vigo",
+    "home_goals": 1,
+    "home_id": 558
+   },
+   {
+    "away": "RC Celta de Vigo",
+    "away_goals": 0,
+    "away_id": 558,
+    "competition": "Primera Division",
+    "date": "2024-03-10",
+    "home": "Real Madrid CF",
+    "home_goals": 4,
+    "home_id": 86
+   },
+   {
+    "away": "Real Madrid CF",
+    "away_goals": 1,
+    "away_id": 86,
+    "competition": "Primera Division",
+    "date": "2023-08-25",
+    "home": "RC Celta de Vigo",
+    "home_goals": 0,
+    "home_id": 558
+   },
+   {
+    "away": "RC Celta de Vigo",
+    "away_goals": 0,
+    "away_id": 558,
+    "competition": "Primera Division",
+    "date": "2023-04-22",
+    "home": "Real Madrid CF",
+    "home_goals": 2,
+    "home_id": 86
+   },
+   {
+    "away": "Real Madrid CF",
+    "away_goals": 4,
+    "away_id": 86,
+    "competition": "Primera Division",
+    "date": "2022-08-20",
+    "home": "RC Celta de Vigo",
+    "home_goals": 1,
+    "home_id": 558
+   },
+   {
+    "away": "Real Madrid CF",
+    "away_goals": 2,
+    "away_id": 86,
+    "competition": "Primera Division",
+    "date": "2022-04-02",
+    "home": "RC Celta de Vigo",
+    "home_goals": 1,
+    "home_id": 558
+   }
+  ]
+ },
  "86-721": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -15037,6 +16920,111 @@
    }
   ]
  },
+ "87-95": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 1,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2026-05-14",
+    "home": "Valencia CF",
+    "home_goals": 1,
+    "home_id": 95
+   },
+   {
+    "away": "Valencia CF",
+    "away_goals": 1,
+    "away_id": 95,
+    "competition": "Primera Division",
+    "date": "2025-12-01",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 1,
+    "home_id": 87
+   },
+   {
+    "away": "Valencia CF",
+    "away_goals": 1,
+    "away_id": 95,
+    "competition": "Primera Division",
+    "date": "2025-04-19",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 1,
+    "home_id": 87
+   },
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 1,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2024-12-07",
+    "home": "Valencia CF",
+    "home_goals": 0,
+    "home_id": 95
+   },
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 0,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2024-05-12",
+    "home": "Valencia CF",
+    "home_goals": 0,
+    "home_id": 95
+   },
+   {
+    "away": "Valencia CF",
+    "away_goals": 1,
+    "away_id": 95,
+    "competition": "Primera Division",
+    "date": "2023-12-19",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 0,
+    "home_id": 87
+   },
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 1,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2023-04-03",
+    "home": "Valencia CF",
+    "home_goals": 1,
+    "home_id": 95
+   },
+   {
+    "away": "Valencia CF",
+    "away_goals": 1,
+    "away_id": 95,
+    "competition": "Primera Division",
+    "date": "2022-09-10",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 2,
+    "home_id": 87
+   },
+   {
+    "away": "Valencia CF",
+    "away_goals": 1,
+    "away_id": 95,
+    "competition": "Primera Division",
+    "date": "2022-04-11",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 1,
+    "home_id": 87
+   },
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 1,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2021-11-27",
+    "home": "Valencia CF",
+    "home_goals": 1,
+    "home_id": 95
+   }
+  ]
+ },
  "88-558": {
   "fetched": "2026-11-01",
   "meetings": [
@@ -15389,6 +17377,101 @@
     "home": "Real Betis Balompié",
     "home_goals": 0,
     "home_id": 90
+   }
+  ]
+ },
+ "90-559": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Sevilla FC",
+    "away_goals": 2,
+    "away_id": 559,
+    "competition": "Primera Division",
+    "date": "2026-03-01",
+    "home": "Real Betis Balompié",
+    "home_goals": 2,
+    "home_id": 90
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 2,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2025-11-30",
+    "home": "Sevilla FC",
+    "home_goals": 0,
+    "home_id": 559
+   },
+   {
+    "away": "Sevilla FC",
+    "away_goals": 1,
+    "away_id": 559,
+    "competition": "Primera Division",
+    "date": "2025-03-30",
+    "home": "Real Betis Balompié",
+    "home_goals": 2,
+    "home_id": 90
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 0,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2024-10-06",
+    "home": "Sevilla FC",
+    "home_goals": 1,
+    "home_id": 559
+   },
+   {
+    "away": "Sevilla FC",
+    "away_goals": 1,
+    "away_id": 559,
+    "competition": "Primera Division",
+    "date": "2024-04-28",
+    "home": "Real Betis Balompié",
+    "home_goals": 1,
+    "home_id": 90
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 1,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2023-11-12",
+    "home": "Sevilla FC",
+    "home_goals": 1,
+    "home_id": 559
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 0,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2023-05-21",
+    "home": "Sevilla FC",
+    "home_goals": 0,
+    "home_id": 559
+   },
+   {
+    "away": "Sevilla FC",
+    "away_goals": 1,
+    "away_id": 559,
+    "competition": "Primera Division",
+    "date": "2022-11-06",
+    "home": "Real Betis Balompié",
+    "home_goals": 1,
+    "home_id": 90
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 1,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2022-02-27",
+    "home": "Sevilla FC",
+    "home_goals": 2,
+    "home_id": 559
    }
   ]
  },
