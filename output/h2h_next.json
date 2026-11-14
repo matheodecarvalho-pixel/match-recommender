@@ -2171,6 +2171,51 @@
    }
   ]
  },
+ "109-454": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Juventus FC",
+    "away_goals": 3,
+    "away_id": 109,
+    "competition": "Serie A",
+    "date": "2025-05-25",
+    "home": "Venezia FC",
+    "home_goals": 2,
+    "home_id": 454
+   },
+   {
+    "away": "Venezia FC",
+    "away_goals": 2,
+    "away_id": 454,
+    "competition": "Serie A",
+    "date": "2024-12-14",
+    "home": "Juventus FC",
+    "home_goals": 2,
+    "home_id": 109
+   },
+   {
+    "away": "Venezia FC",
+    "away_goals": 1,
+    "away_id": 454,
+    "competition": "Serie A",
+    "date": "2022-05-01",
+    "home": "Juventus FC",
+    "home_goals": 2,
+    "home_id": 109
+   },
+   {
+    "away": "Juventus FC",
+    "away_goals": 1,
+    "away_id": 109,
+    "competition": "Serie A",
+    "date": "2021-12-11",
+    "home": "Venezia FC",
+    "home_goals": 1,
+    "home_id": 454
+   }
+  ]
+ },
  "109-5890": {
   "fetched": "2026-10-20",
   "meetings": [
@@ -11754,6 +11799,71 @@
     "home": "FC Twente '65",
     "home_goals": 4,
     "home_id": 666
+   }
+  ]
+ },
+ "666-672": {
+  "fetched": "2026-11-14",
+  "meetings": [
+   {
+    "away": "Willem II Tilburg",
+    "away_goals": 2,
+    "away_id": 672,
+    "competition": "Eredivisie",
+    "date": "2025-01-12",
+    "home": "FC Twente '65",
+    "home_goals": 6,
+    "home_id": 666
+   },
+   {
+    "away": "FC Twente '65",
+    "away_goals": 1,
+    "away_id": 666,
+    "competition": "Eredivisie",
+    "date": "2024-11-02",
+    "home": "Willem II Tilburg",
+    "home_goals": 0,
+    "home_id": 672
+   },
+   {
+    "away": "FC Twente '65",
+    "away_goals": 1,
+    "away_id": 666,
+    "competition": "Eredivisie",
+    "date": "2022-01-22",
+    "home": "Willem II Tilburg",
+    "home_goals": 0,
+    "home_id": 672
+   },
+   {
+    "away": "Willem II Tilburg",
+    "away_goals": 1,
+    "away_id": 672,
+    "competition": "Eredivisie",
+    "date": "2021-10-17",
+    "home": "FC Twente '65",
+    "home_goals": 1,
+    "home_id": 666
+   },
+   {
+    "away": "Willem II Tilburg",
+    "away_goals": 1,
+    "away_id": 672,
+    "competition": "Eredivisie",
+    "date": "2021-03-06",
+    "home": "FC Twente '65",
+    "home_goals": 1,
+    "home_id": 666
+   },
+   {
+    "away": "FC Twente '65",
+    "away_goals": 3,
+    "away_id": 666,
+    "competition": "Eredivisie",
+    "date": "2020-10-17",
+    "home": "Willem II Tilburg",
+    "home_goals": 0,
+    "home_id": 672
    }
   ]
  },

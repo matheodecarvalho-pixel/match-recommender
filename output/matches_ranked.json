@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T11:47:09.729762+01:00",
+ "generated_at": "2026-11-14T13:39:20.471303+01:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 0,
@@ -17,6 +17,144 @@
   "closeness": 5
  },
  "matches": [
+  {
+   "id": "fd-560643",
+   "competition": "Premier League",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-21T13:30:00+01:00",
+   "day": "2026-11-21",
+   "home": "Manchester City",
+   "away": "Fulham",
+   "score": 47,
+   "base": 43.2,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "2.8 goals per game lately · Oscar Bobb faces his former club",
+   "story_sides": {
+    "home": [
+     "3.8 goals per game lately"
+    ],
+    "away": [
+     "1.8 goals per game lately",
+     "Oscar Bobb faces his former club"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.467,
+     "points": 11.7
+    },
+    "stakes": {
+     "value": 0.263,
+     "points": 5.3,
+     "kind": "stakes_title"
+    },
+    "entertainment": {
+     "value": 0.7,
+     "points": 10.5,
+     "kind": "entertainment",
+     "reason": "2.8 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.568,
+     "points": 2.8
+    },
+    "revenge": {
+     "value": 1.0,
+     "points": 10.0,
+     "kind": "revenge",
+     "reason": "Oscar Bobb faces his former club"
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.292,
+     "points": 2.9,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Manchester City": 3,
+    "Fulham": 15
+   },
+   "forms": {
+    "Manchester City": [
+     [
+      "W",
+      "5-1",
+      "PAE AEK"
+     ],
+     [
+      "L",
+      "1-2",
+      "Aston Villa"
+     ],
+     [
+      "L",
+      "0-1",
+      "Brighton & Hove Albion"
+     ],
+     [
+      "W",
+      "3-2",
+      "RB Leipzig"
+     ],
+     [
+      "L",
+      "1-3",
+      "Nottingham Forest"
+     ]
+    ],
+    "Fulham": [
+     [
+      "L",
+      "1-2",
+      "Ipswich Town"
+     ],
+     [
+      "W",
+      "1-0",
+      "Hull City"
+     ],
+     [
+      "W",
+      "1-0",
+      "Coventry City"
+     ],
+     [
+      "D",
+      "1-1",
+      "Aston Villa"
+     ],
+     [
+      "D",
+      "1-1",
+      "Newcastle United"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401879233",
+    "league": "eng.1",
+    "teams": [
+     "382",
+     "370"
+    ],
+    "us_tv": []
+   }
+  },
   {
    "id": "fd-565859",
    "competition": "Bundesliga",
@@ -442,12 +580,14 @@
   "Conference League: 0 matches between 3 days ago and 10 days ahead"
  ],
  "crests": {
-  "Bayern Munich": "https://crests.football-data.org/5.png",
   "Athletic Club": "https://crests.football-data.org/77.png",
+  "Fulham": "https://crests.football-data.org/63.png",
+  "1. FC Köln": "https://crests.football-data.org/1.png",
   "Troyes": "https://crests.football-data.org/531.png",
-  "Le Havre": "https://crests.football-data.org/533.png",
   "Espanyol": "https://crests.football-data.org/80.png",
-  "1. FC Köln": "https://crests.football-data.org/1.png"
+  "Le Havre": "https://crests.football-data.org/533.png",
+  "Manchester City": "https://crests.football-data.org/65.png",
+  "Bayern Munich": "https://crests.football-data.org/5.png"
  },
  "styles": {
   "1. FC Köln": {
@@ -466,8 +606,16 @@
    "style": "direct",
    "confidence": "high"
   },
+  "Fulham": {
+   "style": "possession",
+   "confidence": "high"
+  },
   "Le Havre": {
    "style": "press",
+   "confidence": "high"
+  },
+  "Manchester City": {
+   "style": "possession",
    "confidence": "high"
   },
   "Troyes": {
