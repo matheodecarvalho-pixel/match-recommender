@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T12:16:45.935347+01:00",
+ "generated_at": "2026-11-15T14:05:34.817517+01:00",
  "window_days": 7,
  "favourites": [],
  "favourite_boost": 0,
@@ -1015,6 +1015,146 @@
      "146"
     ],
     "us_tv": []
+   }
+  },
+  {
+   "id": "fd-564749",
+   "competition": "La Liga",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-22T14:00:00+01:00",
+   "day": "2026-11-22",
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "score": 56,
+   "base": 51.1,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "4.1 goals per game lately · Wins in last 5: 3 v 2",
+   "story_sides": {
+    "home": [
+     "4.4 goals per game lately"
+    ],
+    "away": [
+     "3.8 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.5,
+     "points": 12.5,
+     "kind": "form",
+     "reason": "Wins in last 5: 3 v 2"
+    },
+    "stakes": {
+     "value": 0.313,
+     "points": 6.3,
+     "kind": "stakes_title"
+    },
+    "entertainment": {
+     "value": 1.0,
+     "points": 15.0,
+     "kind": "entertainment",
+     "reason": "4.1 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.699,
+     "points": 3.5
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.656,
+     "points": 13.1
+    },
+    "par": {
+     "value": 0.067,
+     "points": 0.7,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Barcelona": 1,
+    "Villarreal": 8
+   },
+   "forms": {
+    "Barcelona": [
+     [
+      "L",
+      "2-4",
+      "Paris Saint-Germain"
+     ],
+     [
+      "L",
+      "1-2",
+      "Real Madrid"
+     ],
+     [
+      "W",
+      "6-1",
+      "Alavés"
+     ],
+     [
+      "W",
+      "3-0",
+      "Aston Villa"
+     ],
+     [
+      "W",
+      "2-1",
+      "Atlético Madrid"
+     ]
+    ],
+    "Villarreal": [
+     [
+      "L",
+      "3-4",
+      "Liverpool"
+     ],
+     [
+      "W",
+      "2-1",
+      "Valencia"
+     ],
+     [
+      "L",
+      "0-1",
+      "Espanyol"
+     ],
+     [
+      "L",
+      "0-6",
+      "Paris Saint-Germain"
+     ],
+     [
+      "W",
+      "2-0",
+      "Getafe"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401882804",
+    "league": "esp.1",
+    "teams": [
+     "83",
+     "102"
+    ],
+    "us_tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ]
    }
   },
   {
@@ -4222,6 +4362,145 @@
    }
   },
   {
+   "id": "fd-558521",
+   "competition": "Serie A",
+   "stage": "REGULAR_SEASON",
+   "kickoff_paris": "2026-11-22T12:30:00+01:00",
+   "day": "2026-11-22",
+   "home": "Juventus",
+   "away": "Venezia",
+   "score": 32,
+   "base": 29.9,
+   "competition_bonus": 0,
+   "stage_bonus": 0,
+   "favourite_boost": 0,
+   "favourite": false,
+   "must_watch": false,
+   "recommended": false,
+   "story": "Wins in last 5: 3 v 2 · 2.1 goals per game lately",
+   "story_sides": {
+    "home": [
+     "2.6 goals per game lately"
+    ],
+    "away": [
+     "1.6 goals per game lately"
+    ],
+    "both": []
+   },
+   "breakdown": {
+    "form": {
+     "value": 0.533,
+     "points": 13.3,
+     "kind": "form",
+     "reason": "Wins in last 5: 3 v 2"
+    },
+    "stakes": {
+     "value": 0.289,
+     "points": 5.8,
+     "kind": "stakes_europe"
+    },
+    "entertainment": {
+     "value": 0.525,
+     "points": 7.9,
+     "kind": "entertainment",
+     "reason": "2.1 goals per game lately"
+    },
+    "rivalry": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "closeness": {
+     "value": 0.514,
+     "points": 2.6
+    },
+    "revenge": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "big_match": {
+     "value": 0.0,
+     "points": 0.0
+    },
+    "par": {
+     "value": 0.033,
+     "points": 0.3,
+     "kind": "par_under"
+    }
+   },
+   "tier1_rivalry": false,
+   "positions": {
+    "Juventus": 7,
+    "Venezia": 19
+   },
+   "forms": {
+    "Juventus": [
+     [
+      "W",
+      "2-0",
+      "Lecce"
+     ],
+     [
+      "L",
+      "0-2",
+      "Genoa"
+     ],
+     [
+      "W",
+      "2-0",
+      "Napoli"
+     ],
+     [
+      "W",
+      "2-1",
+      "AZ"
+     ],
+     [
+      "D",
+      "2-2",
+      "Fiorentina"
+     ]
+    ],
+    "Venezia": [
+     [
+      "W",
+      "1-0",
+      "Napoli"
+     ],
+     [
+      "L",
+      "0-1",
+      "Genoa"
+     ],
+     [
+      "L",
+      "0-2",
+      "Inter"
+     ],
+     [
+      "L",
+      "0-1",
+      "Como"
+     ],
+     [
+      "W",
+      "2-1",
+      "Udinese"
+     ]
+    ]
+   },
+   "espn": {
+    "id": "401875008",
+    "league": "ita.1",
+    "teams": [
+     "111",
+     "17530"
+    ],
+    "us_tv": [
+     "Paramount+"
+    ]
+   }
+  },
+  {
    "id": "fd-564748",
    "competition": "La Liga",
    "stage": "REGULAR_SEASON",
@@ -4921,76 +5200,80 @@
   "Conference League: 0 matches between 3 days ago and 10 days ahead"
  ],
  "crests": {
-  "SC Freiburg": "https://crests.football-data.org/17.png",
-  "Sunderland": "https://crests.football-data.org/71.png",
-  "Real Betis": "https://crests.football-data.org/90.png",
-  "Real Madrid": "https://crests.football-data.org/86.png",
-  "Coventry City": "https://crests.football-data.org/1076.png",
-  "Newcastle United": "https://crests.football-data.org/67.png",
-  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
-  "Bayern Munich": "https://crests.football-data.org/5.png",
-  "Toulouse": "https://crests.football-data.org/511.png",
-  "Le Havre": "https://crests.football-data.org/533.png",
-  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
-  "VfB Stuttgart": "https://crests.football-data.org/10.png",
-  "Valencia": "https://crests.football-data.org/95.png",
-  "Excelsior": "https://crests.football-data.org/670.png",
-  "1. FC Köln": "https://crests.football-data.org/1.png",
-  "NEC": "https://crests.football-data.org/1915.png",
-  "SC Heerenveen": "https://crests.football-data.org/673.png",
-  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
-  "Troyes": "https://crests.football-data.org/531.png",
-  "Feyenoord": "https://crests.football-data.org/675.png",
-  "Espanyol": "https://crests.football-data.org/80.png",
-  "Roma": "https://crests.football-data.org/100.png",
-  "FC Groningen": "https://crests.football-data.org/677.png",
+  "Hoffenheim": "https://crests.football-data.org/2.png",
+  "Celta Vigo": "https://crests.football-data.org/558.png",
   "Lazio": "https://crests.football-data.org/110.png",
-  "Arsenal": "https://crests.football-data.org/57.png",
-  "SC Cambuur": "https://crests.football-data.org/1909.png",
-  "Union Berlin": "https://crests.football-data.org/28.png",
-  "FC Twente": "https://crests.football-data.org/666.png",
-  "Willem II": "https://crests.football-data.org/672.png",
+  "Valencia": "https://crests.football-data.org/95.png",
   "Auxerre": "https://crests.football-data.org/519.png",
+  "Fulham": "https://crests.football-data.org/63.png",
+  "FC Twente": "https://crests.football-data.org/666.png",
   "Como": "https://crests.football-data.org/7397.png",
-  "Utrecht": "https://crests.football-data.org/676.png",
-  "Nottingham Forest": "https://crests.football-data.org/351.png",
-  "Aston Villa": "https://crests.football-data.org/58.png",
   "SC Paderborn": "https://crests.football-data.org/29.png",
-  "Brest": "https://crests.football-data.org/512.png",
-  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
-  "Manchester City": "https://crests.football-data.org/65.png",
-  "Cagliari": "https://crests.football-data.org/104.png",
-  "RB Leipzig": "https://crests.football-data.org/721.png",
-  "Borussia Dortmund": "https://crests.football-data.org/4.png",
-  "Torino": "https://crests.football-data.org/586.png",
+  "Deportivo La Coruña": "https://crests.football-data.org/560.png",
+  "Real Madrid": "https://crests.football-data.org/86.png",
+  "Lecce": "https://crests.football-data.org/5890.png",
+  "SC Heerenveen": "https://crests.football-data.org/673.png",
+  "Espanyol": "https://crests.football-data.org/80.png",
   "Leeds United": "https://crests.football-data.org/341.png",
-  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
-  "Telstar": "https://crests.football-data.org/1912.png",
-  "Monaco": "https://crests.football-data.org/548.png",
-  "Napoli": "https://crests.football-data.org/113.png",
-  "Alavés": "https://crests.football-data.org/263.png",
   "Tottenham Hotspur": "https://crests.football-data.org/73.png",
-  "Parma": "https://crests.football-data.org/112.png",
-  "PSV": "https://crests.football-data.org/674.png",
-  "Sevilla": "https://crests.football-data.org/559.png",
-  "Chelsea": "https://crests.football-data.org/61.png",
+  "Napoli": "https://crests.football-data.org/113.png",
+  "Crystal Palace": "https://crests.football-data.org/354.png",
+  "PEC Zwolle": "https://crests.football-data.org/684.png",
+  "Brest": "https://crests.football-data.org/512.png",
+  "Aston Villa": "https://crests.football-data.org/58.png",
+  "SC Freiburg": "https://crests.football-data.org/17.png",
+  "Real Betis": "https://crests.football-data.org/90.png",
+  "Athletic Club": "https://crests.football-data.org/77.png",
+  "Excelsior": "https://crests.football-data.org/670.png",
+  "Lyon": "https://crests.football-data.org/523.png",
+  "Toulouse": "https://crests.football-data.org/511.png",
+  "VfB Stuttgart": "https://crests.football-data.org/10.png",
+  "Paris Saint-Germain": "https://crests.football-data.org/524.png",
+  "Troyes": "https://crests.football-data.org/531.png",
+  "1. FC Köln": "https://crests.football-data.org/1.png",
+  "Bayern Munich": "https://crests.football-data.org/5.png",
+  "Elversberg": "https://crests.football-data.org/719.png",
+  "Venezia": "https://crests.football-data.org/454.png",
+  "SC Cambuur": "https://crests.football-data.org/1909.png",
+  "Willem II": "https://crests.football-data.org/672.png",
+  "Rayo Vallecano": "https://crests.football-data.org/87.png",
+  "AFC Bournemouth": "https://crests.football-data.org/bournemouth.png",
+  "Lens": "https://crests.football-data.org/546.png",
+  "Feyenoord": "https://crests.football-data.org/675.png",
+  "NEC": "https://crests.football-data.org/1915.png",
+  "Borussia Dortmund": "https://crests.football-data.org/4.png",
   "Ipswich Town": "https://crests.football-data.org/349.png",
-  "Nice": "https://crests.football-data.org/522.png",
+  "Cagliari": "https://crests.football-data.org/104.png",
+  "Newcastle United": "https://crests.football-data.org/67.png",
+  "Parma": "https://crests.football-data.org/112.png",
+  "Nottingham Forest": "https://crests.football-data.org/351.png",
+  "PSV": "https://crests.football-data.org/674.png",
   "Lille": "https://crests.football-data.org/521.png",
   "Strasbourg": "https://crests.football-data.org/576.png",
-  "PEC Zwolle": "https://crests.football-data.org/684.png",
+  "Sunderland": "https://crests.football-data.org/71.png",
+  "Barcelona": "https://crests.football-data.org/81.png",
+  "Coventry City": "https://crests.football-data.org/1076.png",
+  "Le Havre": "https://crests.football-data.org/533.png",
+  "Nice": "https://crests.football-data.org/522.png",
+  "Juventus": "https://crests.football-data.org/109.png",
+  "FC Groningen": "https://crests.football-data.org/677.png",
+  "Alavés": "https://crests.football-data.org/263.png",
+  "Roma": "https://crests.football-data.org/100.png",
+  "Union Berlin": "https://crests.football-data.org/28.png",
+  "Chelsea": "https://crests.football-data.org/61.png",
+  "Sevilla": "https://crests.football-data.org/559.png",
   "Schalke 04": "https://crests.football-data.org/6.png",
-  "Fulham": "https://crests.football-data.org/63.png",
-  "Lyon": "https://crests.football-data.org/523.png",
-  "Elversberg": "https://crests.football-data.org/719.png",
-  "Celta Vigo": "https://crests.football-data.org/558.png",
+  "Arsenal": "https://crests.football-data.org/57.png",
+  "Eintracht Frankfurt": "https://crests.football-data.org/19.png",
+  "Torino": "https://crests.football-data.org/586.png",
+  "RB Leipzig": "https://crests.football-data.org/721.png",
+  "Telstar": "https://crests.football-data.org/1912.png",
+  "Manchester City": "https://crests.football-data.org/65.png",
+  "Monaco": "https://crests.football-data.org/548.png",
   "Bayer Leverkusen": "https://crests.football-data.org/3.png",
-  "Athletic Club": "https://crests.football-data.org/77.png",
-  "Hoffenheim": "https://crests.football-data.org/2.png",
-  "Rayo Vallecano": "https://crests.football-data.org/87.png",
-  "Lens": "https://crests.football-data.org/546.png",
-  "Lecce": "https://crests.football-data.org/5890.png",
-  "Crystal Palace": "https://crests.football-data.org/354.png"
+  "Borussia Mönchengladbach": "https://crests.football-data.org/18.png",
+  "Villarreal": "https://crests.football-data.org/94.png",
+  "Utrecht": "https://crests.football-data.org/676.png"
  },
  "styles": {
   "1. FC Köln": {
@@ -5019,6 +5302,10 @@
   },
   "Auxerre": {
    "style": "low_block",
+   "confidence": "high"
+  },
+  "Barcelona": {
+   "style": "possession",
    "confidence": "high"
   },
   "Bayer Leverkusen": {
@@ -5107,6 +5394,10 @@
   },
   "Ipswich Town": {
    "style": "low_block",
+   "confidence": "high"
+  },
+  "Juventus": {
+   "style": "possession",
    "confidence": "high"
   },
   "Lazio": {
@@ -5265,7 +5556,15 @@
    "style": "press",
    "confidence": "medium"
   },
+  "Venezia": {
+   "style": "possession",
+   "confidence": "high"
+  },
   "VfB Stuttgart": {
+   "style": "possession",
+   "confidence": "high"
+  },
+  "Villarreal": {
    "style": "possession",
    "confidence": "high"
   },
