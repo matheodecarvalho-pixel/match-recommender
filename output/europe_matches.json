@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T14:05:05.342467+01:00",
+ "fetched_at": "2026-11-16T12:43:25.195996+01:00",
  "source": "ESPN public JSON feed",
  "matches": [
   {
@@ -2075,6 +2075,582 @@
    "home_goals": 3,
    "away_goals": 2,
    "winner": "home"
+  },
+  {
+   "id": "401915816",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T15:30:00+00:00",
+   "kickoff_paris": "2026-11-26T16:30:00+01:00",
+   "home": "Kairat Almaty",
+   "home_espn_id": "2528",
+   "away": "Mjällby AIF",
+   "away_espn_id": "20301",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915815",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Ajax Amsterdam",
+   "home_espn_id": "139",
+   "away": "FC Thun",
+   "away_espn_id": "3024",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915814",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Brighton & Hove Albion",
+   "home_espn_id": "331",
+   "away": "CSU Craiova",
+   "away_espn_id": "8089",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915810",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Egnatia",
+   "home_espn_id": "21943",
+   "away": "Lincoln Red Imps",
+   "away_espn_id": "17856",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915811",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Heart of Midlothian",
+   "home_espn_id": "262",
+   "away": "AS Monaco",
+   "away_espn_id": "174",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915813",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Iberia 1999",
+   "home_espn_id": "20025",
+   "away": "Getafe",
+   "away_espn_id": "2922",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915812",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Jablonec",
+   "home_espn_id": "7922",
+   "away": "FC Lugano",
+   "away_espn_id": "7672",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915739",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Kauno Zalgiris",
+   "home_espn_id": "20028",
+   "away": "Riga FC",
+   "away_espn_id": "19246",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915809",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Pafos",
+   "home_espn_id": "22281",
+   "away": "FC Midtjylland",
+   "away_espn_id": "572",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915808",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "SK Brann",
+   "home_espn_id": "620",
+   "away": "AGF",
+   "away_espn_id": "7853",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915506",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Besiktas",
+   "home_espn_id": "1895",
+   "away": "Hapoel Be'er",
+   "away_espn_id": "13083",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915519",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Celta Vigo",
+   "home_espn_id": "85",
+   "away": "AFC Bournemouth",
+   "away_espn_id": "349",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915517",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Dinamo Zagreb",
+   "home_espn_id": "597",
+   "away": "Bayer Leverkusen",
+   "away_espn_id": "131",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915507",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Marseille",
+   "home_espn_id": "176",
+   "away": "Levski Sofia",
+   "away_espn_id": "490",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915521",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Olympiacos",
+   "home_espn_id": "435",
+   "away": "AC Milan",
+   "away_espn_id": "103",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915520",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "RB Salzburg",
+   "home_espn_id": "2790",
+   "away": "Ararat-Armenia",
+   "away_espn_id": "20024",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915508",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Union St.-Gilloise",
+   "home_espn_id": "5807",
+   "away": "Lech Poznan",
+   "away_espn_id": "2990",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915518",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T17:45:00+00:00",
+   "kickoff_paris": "2026-11-26T18:45:00+01:00",
+   "home": "Viktoria Plzen",
+   "home_espn_id": "11706",
+   "away": "Benfica",
+   "away_espn_id": "1929",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915806",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Borac Banja Luka",
+   "home_espn_id": "20710",
+   "away": "Atalanta",
+   "away_espn_id": "105",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915802",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Braga",
+   "home_espn_id": "2994",
+   "away": "KuPS Kuopio",
+   "away_espn_id": "8169",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915803",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "CSKA Sofia",
+   "home_espn_id": "10834",
+   "away": "Trabzonspor",
+   "away_espn_id": "997",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915807",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "FC Nordsjælland",
+   "home_espn_id": "3101",
+   "away": "Panathinaikos",
+   "away_espn_id": "443",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915805",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Hajduk Split",
+   "home_espn_id": "489",
+   "away": "Sint-Truidense",
+   "away_espn_id": "936",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915738",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Inter D'Escaldes",
+   "home_espn_id": "20703",
+   "away": "F.C. København",
+   "away_espn_id": "909",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915804",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "KAA Gent",
+   "home_espn_id": "3611",
+   "away": "Red Star Belgrade",
+   "away_espn_id": "2290",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915801",
+   "competition": "Conference League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "SC Freiburg",
+   "home_espn_id": "126",
+   "away": "FC Twente",
+   "away_espn_id": "152",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915504",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Crystal Palace",
+   "home_espn_id": "384",
+   "away": "Real Sociedad",
+   "away_espn_id": "89",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915516",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Ferencvaros",
+   "home_espn_id": "622",
+   "away": "NK Celje",
+   "away_espn_id": "3362",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915502",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Juventus",
+   "home_espn_id": "111",
+   "away": "Omonia Nicosia",
+   "away_espn_id": "617",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915501",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Lyon",
+   "home_espn_id": "167",
+   "away": "Lillestrom",
+   "away_espn_id": "987",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915505",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "NEC Nijmegen",
+   "home_espn_id": "147",
+   "away": "Stade Rennais",
+   "away_espn_id": "169",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915503",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "OFI Crete",
+   "home_espn_id": "1010",
+   "away": "Anderlecht",
+   "away_espn_id": "441",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915514",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Sparta Prague",
+   "home_espn_id": "433",
+   "away": "AZ Alkmaar",
+   "away_espn_id": "140",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915513",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Sunderland",
+   "home_espn_id": "366",
+   "away": "Jagiellonia Bialystok",
+   "away_espn_id": "11505",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915515",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "TSG Hoffenheim",
+   "home_espn_id": "7911",
+   "away": "SK Sturm Graz",
+   "away_espn_id": "3746",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
+  },
+  {
+   "id": "401915512",
+   "competition": "Europa League",
+   "kickoff_utc": "2026-11-26T20:00:00+00:00",
+   "kickoff_paris": "2026-11-26T21:00:00+01:00",
+   "home": "Torreense",
+   "home_espn_id": "21615",
+   "away": "Celtic",
+   "away_espn_id": "256",
+   "status": "scheduled",
+   "stage": "league-phase",
+   "season": 2026,
+   "us_tv": [
+    "Paramount+"
+   ]
   }
  ],
  "standings": {
@@ -2731,10 +3307,7 @@
    }
   ]
  },
- "warnings": [
-  "Europa League: 0 matches between 3 days ago and 10 days ahead",
-  "Conference League: 0 matches between 3 days ago and 10 days ahead"
- ],
+ "warnings": [],
  "fixtures_ahead": [
   {
    "id": "401915816",

@@ -11209,6 +11209,101 @@
   "fetched": "2026-10-30",
   "meetings": []
  },
+ "62-402": {
+  "fetched": "2026-11-16",
+  "meetings": [
+   {
+    "away": "Everton FC",
+    "away_goals": 2,
+    "away_id": 62,
+    "competition": "Premier League",
+    "date": "2026-04-11",
+    "home": "Brentford FC",
+    "home_goals": 2,
+    "home_id": 402
+   },
+   {
+    "away": "Brentford FC",
+    "away_goals": 4,
+    "away_id": 402,
+    "competition": "Premier League",
+    "date": "2026-01-04",
+    "home": "Everton FC",
+    "home_goals": 2,
+    "home_id": 62
+   },
+   {
+    "away": "Everton FC",
+    "away_goals": 1,
+    "away_id": 62,
+    "competition": "Premier League",
+    "date": "2025-02-26",
+    "home": "Brentford FC",
+    "home_goals": 1,
+    "home_id": 402
+   },
+   {
+    "away": "Brentford FC",
+    "away_goals": 0,
+    "away_id": 402,
+    "competition": "Premier League",
+    "date": "2024-11-23",
+    "home": "Everton FC",
+    "home_goals": 0,
+    "home_id": 62
+   },
+   {
+    "away": "Brentford FC",
+    "away_goals": 0,
+    "away_id": 402,
+    "competition": "Premier League",
+    "date": "2024-04-27",
+    "home": "Everton FC",
+    "home_goals": 1,
+    "home_id": 62
+   },
+   {
+    "away": "Everton FC",
+    "away_goals": 3,
+    "away_id": 62,
+    "competition": "Premier League",
+    "date": "2023-09-23",
+    "home": "Brentford FC",
+    "home_goals": 1,
+    "home_id": 402
+   },
+   {
+    "away": "Brentford FC",
+    "away_goals": 0,
+    "away_id": 402,
+    "competition": "Premier League",
+    "date": "2023-03-11",
+    "home": "Everton FC",
+    "home_goals": 1,
+    "home_id": 62
+   },
+   {
+    "away": "Everton FC",
+    "away_goals": 1,
+    "away_id": 62,
+    "competition": "Premier League",
+    "date": "2022-08-27",
+    "home": "Brentford FC",
+    "home_goals": 1,
+    "home_id": 402
+   },
+   {
+    "away": "Brentford FC",
+    "away_goals": 3,
+    "away_id": 402,
+    "competition": "Premier League",
+    "date": "2022-05-15",
+    "home": "Everton FC",
+    "home_goals": 2,
+    "home_id": 62
+   }
+  ]
+ },
  "62-67": {
   "fetched": "2026-10-26",
   "meetings": [
@@ -18202,6 +18297,71 @@
    }
   ]
  },
+ "88-285": {
+  "fetched": "2026-11-16",
+  "meetings": [
+   {
+    "away": "Elche CF",
+    "away_goals": 2,
+    "away_id": 285,
+    "competition": "Primera Division",
+    "date": "2026-01-23",
+    "home": "Levante UD",
+    "home_goals": 3,
+    "home_id": 88
+   },
+   {
+    "away": "Levante UD",
+    "away_goals": 0,
+    "away_id": 88,
+    "competition": "Primera Division",
+    "date": "2025-08-29",
+    "home": "Elche CF",
+    "home_goals": 2,
+    "home_id": 285
+   },
+   {
+    "away": "Elche CF",
+    "away_goals": 0,
+    "away_id": 285,
+    "competition": "Primera Division",
+    "date": "2022-02-25",
+    "home": "Levante UD",
+    "home_goals": 3,
+    "home_id": 88
+   },
+   {
+    "away": "Levante UD",
+    "away_goals": 1,
+    "away_id": 88,
+    "competition": "Primera Division",
+    "date": "2021-09-18",
+    "home": "Elche CF",
+    "home_goals": 1,
+    "home_id": 285
+   },
+   {
+    "away": "Levante UD",
+    "away_goals": 0,
+    "away_id": 88,
+    "competition": "Primera Division",
+    "date": "2021-04-24",
+    "home": "Elche CF",
+    "home_goals": 1,
+    "home_id": 285
+   },
+   {
+    "away": "Elche CF",
+    "away_goals": 1,
+    "away_id": 285,
+    "competition": "Primera Division",
+    "date": "2020-11-21",
+    "home": "Levante UD",
+    "home_goals": 1,
+    "home_id": 88
+   }
+  ]
+ },
  "88-558": {
   "fetched": "2026-11-01",
   "meetings": [
@@ -19653,6 +19813,71 @@
     "away_id": 471,
     "competition": "Serie A",
     "date": "2020-12-16",
+    "home": "ACF Fiorentina",
+    "home_goals": 1,
+    "home_id": 99
+   }
+  ]
+ },
+ "99-5911": {
+  "fetched": "2026-11-16",
+  "meetings": [
+   {
+    "away": "ACF Fiorentina",
+    "away_goals": 1,
+    "away_id": 99,
+    "competition": "Serie A",
+    "date": "2025-01-13",
+    "home": "AC Monza",
+    "home_goals": 2,
+    "home_id": 5911
+   },
+   {
+    "away": "AC Monza",
+    "away_goals": 2,
+    "away_id": 5911,
+    "competition": "Serie A",
+    "date": "2024-09-01",
+    "home": "ACF Fiorentina",
+    "home_goals": 2,
+    "home_id": 99
+   },
+   {
+    "away": "AC Monza",
+    "away_goals": 1,
+    "away_id": 5911,
+    "competition": "Serie A",
+    "date": "2024-05-13",
+    "home": "ACF Fiorentina",
+    "home_goals": 2,
+    "home_id": 99
+   },
+   {
+    "away": "ACF Fiorentina",
+    "away_goals": 1,
+    "away_id": 99,
+    "competition": "Serie A",
+    "date": "2023-12-22",
+    "home": "AC Monza",
+    "home_goals": 0,
+    "home_id": 5911
+   },
+   {
+    "away": "ACF Fiorentina",
+    "away_goals": 2,
+    "away_id": 99,
+    "competition": "Serie A",
+    "date": "2023-04-23",
+    "home": "AC Monza",
+    "home_goals": 3,
+    "home_id": 5911
+   },
+   {
+    "away": "AC Monza",
+    "away_goals": 1,
+    "away_id": 5911,
+    "competition": "Serie A",
+    "date": "2023-01-04",
     "home": "ACF Fiorentina",
     "home_goals": 1,
     "home_id": 99
