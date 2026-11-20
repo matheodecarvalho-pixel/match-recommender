@@ -3104,6 +3104,10 @@
    }
   ]
  },
+ "112-470": {
+  "fetched": "2026-11-20",
+  "meetings": []
+ },
  "113-503": {
   "fetched": "2026-10-28",
   "meetings": []
@@ -18528,6 +18532,91 @@
     "date": "2021-11-01",
     "home": "Rayo Vallecano de Madrid",
     "home_goals": 0,
+    "home_id": 87
+   }
+  ]
+ },
+ "87-90": {
+  "fetched": "2026-11-20",
+  "meetings": [
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 1,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2026-02-21",
+    "home": "Real Betis Balompié",
+    "home_goals": 1,
+    "home_id": 90
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 0,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2025-12-15",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 0,
+    "home_id": 87
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 2,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2025-05-15",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 2,
+    "home_id": 87
+   },
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 1,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2024-12-22",
+    "home": "Real Betis Balompié",
+    "home_goals": 1,
+    "home_id": 90
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 0,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2024-03-17",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 2,
+    "home_id": 87
+   },
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 0,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2023-09-02",
+    "home": "Real Betis Balompié",
+    "home_goals": 1,
+    "home_id": 90
+   },
+   {
+    "away": "Rayo Vallecano de Madrid",
+    "away_goals": 1,
+    "away_id": 87,
+    "competition": "Primera Division",
+    "date": "2023-05-15",
+    "home": "Real Betis Balompié",
+    "home_goals": 3,
+    "home_id": 90
+   },
+   {
+    "away": "Real Betis Balompié",
+    "away_goals": 2,
+    "away_id": 90,
+    "competition": "Primera Division",
+    "date": "2023-01-08",
+    "home": "Rayo Vallecano de Madrid",
+    "home_goals": 1,
     "home_id": 87
    }
   ]
