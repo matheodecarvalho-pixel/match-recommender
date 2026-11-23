@@ -1458,6 +1458,101 @@
    }
   ]
  },
+ "102-5890": {
+  "fetched": "2026-11-23",
+  "meetings": [
+   {
+    "away": "Atalanta BC",
+    "away_goals": 3,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2026-04-06",
+    "home": "US Lecce",
+    "home_goals": 0,
+    "home_id": 5890
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 1,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2025-09-14",
+    "home": "Atalanta BC",
+    "home_goals": 4,
+    "home_id": 102
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 1,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2025-04-27",
+    "home": "Atalanta BC",
+    "home_goals": 1,
+    "home_id": 102
+   },
+   {
+    "away": "Atalanta BC",
+    "away_goals": 4,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2024-08-19",
+    "home": "US Lecce",
+    "home_goals": 0,
+    "home_id": 5890
+   },
+   {
+    "away": "Atalanta BC",
+    "away_goals": 2,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2024-05-18",
+    "home": "US Lecce",
+    "home_goals": 0,
+    "home_id": 5890
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 0,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2023-12-30",
+    "home": "Atalanta BC",
+    "home_goals": 1,
+    "home_id": 102
+   },
+   {
+    "away": "US Lecce",
+    "away_goals": 2,
+    "away_id": 5890,
+    "competition": "Serie A",
+    "date": "2023-02-19",
+    "home": "Atalanta BC",
+    "home_goals": 1,
+    "home_id": 102
+   },
+   {
+    "away": "Atalanta BC",
+    "away_goals": 1,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2022-11-09",
+    "home": "US Lecce",
+    "home_goals": 2,
+    "home_id": 5890
+   },
+   {
+    "away": "Atalanta BC",
+    "away_goals": 7,
+    "away_id": 102,
+    "competition": "Serie A",
+    "date": "2020-03-01",
+    "home": "US Lecce",
+    "home_goals": 2,
+    "home_id": 5890
+   }
+  ]
+ },
  "102-5911": {
   "fetched": "2026-11-01",
   "meetings": [
@@ -4928,6 +5023,101 @@
     "date": "2021-04-26",
     "home": "Sport Lisboa e Benfica",
     "home_goals": 2,
+    "home_id": 1903
+   }
+  ]
+ },
+ "1903-5531": {
+  "fetched": "2026-11-23",
+  "meetings": [
+   {
+    "away": "Sport Lisboa e Benfica",
+    "away_goals": 2,
+    "away_id": 1903,
+    "competition": "Primeira Liga",
+    "date": "2026-05-02",
+    "home": "FC Famalicão",
+    "home_goals": 2,
+    "home_id": 5531
+   },
+   {
+    "away": "FC Famalicão",
+    "away_goals": 0,
+    "away_id": 5531,
+    "competition": "Primeira Liga",
+    "date": "2025-12-22",
+    "home": "Sport Lisboa e Benfica",
+    "home_goals": 1,
+    "home_id": 1903
+   },
+   {
+    "away": "FC Famalicão",
+    "away_goals": 0,
+    "away_id": 5531,
+    "competition": "Primeira Liga",
+    "date": "2025-01-17",
+    "home": "Sport Lisboa e Benfica",
+    "home_goals": 4,
+    "home_id": 1903
+   },
+   {
+    "away": "Sport Lisboa e Benfica",
+    "away_goals": 0,
+    "away_id": 1903,
+    "competition": "Primeira Liga",
+    "date": "2024-08-11",
+    "home": "FC Famalicão",
+    "home_goals": 2,
+    "home_id": 5531
+   },
+   {
+    "away": "Sport Lisboa e Benfica",
+    "away_goals": 0,
+    "away_id": 1903,
+    "competition": "Primeira Liga",
+    "date": "2024-05-05",
+    "home": "FC Famalicão",
+    "home_goals": 2,
+    "home_id": 5531
+   },
+   {
+    "away": "FC Famalicão",
+    "away_goals": 0,
+    "away_id": 5531,
+    "competition": "Primeira Liga",
+    "date": "2023-12-29",
+    "home": "Sport Lisboa e Benfica",
+    "home_goals": 3,
+    "home_id": 1903
+   },
+   {
+    "away": "FC Famalicão",
+    "away_goals": 0,
+    "away_id": 5531,
+    "competition": "Primeira Liga",
+    "date": "2023-03-03",
+    "home": "Sport Lisboa e Benfica",
+    "home_goals": 2,
+    "home_id": 1903
+   },
+   {
+    "away": "Sport Lisboa e Benfica",
+    "away_goals": 1,
+    "away_id": 1903,
+    "competition": "Primeira Liga",
+    "date": "2022-09-10",
+    "home": "FC Famalicão",
+    "home_goals": 0,
+    "home_id": 5531
+   },
+   {
+    "away": "FC Famalicão",
+    "away_goals": 0,
+    "away_id": 5531,
+    "competition": "Primeira Liga",
+    "date": "2022-04-23",
+    "home": "Sport Lisboa e Benfica",
+    "home_goals": 0,
     "home_id": 1903
    }
   ]
@@ -11809,6 +11999,91 @@
     "home": "CF Estrela da Amadora",
     "home_goals": 0,
     "home_id": 9136
+   }
+  ]
+ },
+ "5613-6618": {
+  "fetched": "2026-11-23",
+  "meetings": [
+   {
+    "away": "Sporting Clube de Braga",
+    "away_goals": 1,
+    "away_id": 5613,
+    "competition": "Primeira Liga",
+    "date": "2026-04-23",
+    "home": "Casa Pia AC",
+    "home_goals": 0,
+    "home_id": 6618
+   },
+   {
+    "away": "Casa Pia AC",
+    "away_goals": 0,
+    "away_id": 6618,
+    "competition": "Primeira Liga",
+    "date": "2025-10-26",
+    "home": "Sporting Clube de Braga",
+    "home_goals": 4,
+    "home_id": 5613
+   },
+   {
+    "away": "Sporting Clube de Braga",
+    "away_goals": 1,
+    "away_id": 5613,
+    "competition": "Primeira Liga",
+    "date": "2025-05-10",
+    "home": "Casa Pia AC",
+    "home_goals": 2,
+    "home_id": 6618
+   },
+   {
+    "away": "Casa Pia AC",
+    "away_goals": 2,
+    "away_id": 6618,
+    "competition": "Primeira Liga",
+    "date": "2024-12-29",
+    "home": "Sporting Clube de Braga",
+    "home_goals": 1,
+    "home_id": 5613
+   },
+   {
+    "away": "Casa Pia AC",
+    "away_goals": 3,
+    "away_id": 6618,
+    "competition": "Primeira Liga",
+    "date": "2024-05-05",
+    "home": "Sporting Clube de Braga",
+    "home_goals": 4,
+    "home_id": 5613
+   },
+   {
+    "away": "Sporting Clube de Braga",
+    "away_goals": 3,
+    "away_id": 5613,
+    "competition": "Primeira Liga",
+    "date": "2023-12-30",
+    "home": "Casa Pia AC",
+    "home_goals": 1,
+    "home_id": 6618
+   },
+   {
+    "away": "Sporting Clube de Braga",
+    "away_goals": 1,
+    "away_id": 5613,
+    "competition": "Primeira Liga",
+    "date": "2023-04-21",
+    "home": "Casa Pia AC",
+    "home_goals": 0,
+    "home_id": 6618
+   },
+   {
+    "away": "Casa Pia AC",
+    "away_goals": 1,
+    "away_id": 6618,
+    "competition": "Primeira Liga",
+    "date": "2022-11-06",
+    "home": "Sporting Clube de Braga",
+    "home_goals": 0,
+    "home_id": 5613
    }
   ]
  },
@@ -20788,6 +21063,101 @@
   "fetched": "2026-10-31",
   "meetings": []
  },
+ "80-82": {
+  "fetched": "2026-11-23",
+  "meetings": [
+   {
+    "away": "Getafe CF",
+    "away_goals": 2,
+    "away_id": 82,
+    "competition": "Primera Division",
+    "date": "2026-03-21",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 1,
+    "home_id": 80
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 1,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2025-12-13",
+    "home": "Getafe CF",
+    "home_goals": 0,
+    "home_id": 82
+   },
+   {
+    "away": "Getafe CF",
+    "away_goals": 0,
+    "away_id": 82,
+    "competition": "Primera Division",
+    "date": "2025-04-18",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 1,
+    "home_id": 80
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 0,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2024-12-09",
+    "home": "Getafe CF",
+    "home_goals": 1,
+    "home_id": 82
+   },
+   {
+    "away": "Getafe CF",
+    "away_goals": 0,
+    "away_id": 82,
+    "competition": "Primera Division",
+    "date": "2023-04-30",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 1,
+    "home_id": 80
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 2,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2023-01-15",
+    "home": "Getafe CF",
+    "home_goals": 1,
+    "home_id": 82
+   },
+   {
+    "away": "Getafe CF",
+    "away_goals": 0,
+    "away_id": 82,
+    "competition": "Primera Division",
+    "date": "2022-03-05",
+    "home": "RCD Espanyol de Barcelona",
+    "home_goals": 2,
+    "home_id": 80
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 1,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2021-10-31",
+    "home": "Getafe CF",
+    "home_goals": 2,
+    "home_id": 82
+   },
+   {
+    "away": "RCD Espanyol de Barcelona",
+    "away_goals": 0,
+    "away_id": 80,
+    "competition": "Primera Division",
+    "date": "2020-06-16",
+    "home": "Getafe CF",
+    "home_goals": 0,
+    "home_id": 82
+   }
+  ]
+ },
  "80-94": {
   "fetched": "2026-10-23",
   "meetings": [
@@ -23318,6 +23688,101 @@
     "away_id": 103,
     "competition": "Serie A",
     "date": "2022-04-04",
+    "home": "AC Milan",
+    "home_goals": 0,
+    "home_id": 98
+   }
+  ]
+ },
+ "98-104": {
+  "fetched": "2026-11-23",
+  "meetings": [
+   {
+    "away": "Cagliari Calcio",
+    "away_goals": 2,
+    "away_id": 104,
+    "competition": "Serie A",
+    "date": "2026-05-24",
+    "home": "AC Milan",
+    "home_goals": 1,
+    "home_id": 98
+   },
+   {
+    "away": "AC Milan",
+    "away_goals": 1,
+    "away_id": 98,
+    "competition": "Serie A",
+    "date": "2026-01-02",
+    "home": "Cagliari Calcio",
+    "home_goals": 0,
+    "home_id": 104
+   },
+   {
+    "away": "Cagliari Calcio",
+    "away_goals": 1,
+    "away_id": 104,
+    "competition": "Serie A",
+    "date": "2025-01-11",
+    "home": "AC Milan",
+    "home_goals": 1,
+    "home_id": 98
+   },
+   {
+    "away": "AC Milan",
+    "away_goals": 3,
+    "away_id": 98,
+    "competition": "Serie A",
+    "date": "2024-11-09",
+    "home": "Cagliari Calcio",
+    "home_goals": 3,
+    "home_id": 104
+   },
+   {
+    "away": "Cagliari Calcio",
+    "away_goals": 1,
+    "away_id": 104,
+    "competition": "Serie A",
+    "date": "2024-05-11",
+    "home": "AC Milan",
+    "home_goals": 5,
+    "home_id": 98
+   },
+   {
+    "away": "AC Milan",
+    "away_goals": 3,
+    "away_id": 98,
+    "competition": "Serie A",
+    "date": "2023-09-27",
+    "home": "Cagliari Calcio",
+    "home_goals": 1,
+    "home_id": 104
+   },
+   {
+    "away": "AC Milan",
+    "away_goals": 1,
+    "away_id": 98,
+    "competition": "Serie A",
+    "date": "2022-03-19",
+    "home": "Cagliari Calcio",
+    "home_goals": 0,
+    "home_id": 104
+   },
+   {
+    "away": "Cagliari Calcio",
+    "away_goals": 1,
+    "away_id": 104,
+    "competition": "Serie A",
+    "date": "2021-08-29",
+    "home": "AC Milan",
+    "home_goals": 4,
+    "home_id": 98
+   },
+   {
+    "away": "Cagliari Calcio",
+    "away_goals": 0,
+    "away_id": 104,
+    "competition": "Serie A",
+    "date": "2021-05-16",
     "home": "AC Milan",
     "home_goals": 0,
     "home_id": 98

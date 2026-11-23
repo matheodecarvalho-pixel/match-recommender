@@ -1,4 +1,11 @@
 {
+ "304": {
+  "name": "Niclas Füllkrug",
+  "team": "Werder Bremen",
+  "goals": 10,
+  "team_games": 10,
+  "streak": 1
+ },
  "1826": {
   "name": "Patrik Schick",
   "team": "Bayer Leverkusen",
@@ -6,12 +13,12 @@
   "team_games": 10,
   "streak": 3
  },
- "304": {
-  "name": "Niclas Füllkrug",
-  "team": "Werder Bremen",
-  "goals": 9,
-  "team_games": 9,
-  "streak": 0
+ "6661": {
+  "name": "Michael Gregoritsch",
+  "team": "FC Augsburg",
+  "goals": 7,
+  "team_games": 10,
+  "streak": 1
  },
  "113765": {
   "name": "Michael Olise",
@@ -31,8 +38,8 @@
   "name": "Phillip Tietz",
   "team": "Mainz",
   "goals": 6,
-  "team_games": 9,
-  "streak": 1
+  "team_games": 10,
+  "streak": 0
  },
  "82404": {
   "name": "Jonathan Burkardt",
@@ -68,13 +75,6 @@
   "goals": 5,
   "team_games": 10,
   "streak": 1
- },
- "6661": {
-  "name": "Michael Gregoritsch",
-  "team": "FC Augsburg",
-  "goals": 5,
-  "team_games": 9,
-  "streak": 0
  },
  "33242": {
   "name": "Ermedin Demirovic",
@@ -178,7 +178,7 @@
   "name": "Robin Fellhauer",
   "team": "FC Augsburg",
   "goals": 3,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "211796": {
@@ -192,15 +192,15 @@
   "name": "Anthony Caci",
   "team": "Mainz",
   "goals": 3,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "50215": {
   "name": "Miro Muheim",
   "team": "Hamburger SV",
   "goals": 3,
-  "team_games": 9,
-  "streak": 1
+  "team_games": 10,
+  "streak": 0
  },
  "6523": {
   "name": "Josha Vagnoman",
@@ -276,14 +276,14 @@
   "name": "Anton Kade",
   "team": "FC Augsburg",
   "goals": 2,
-  "team_games": 9,
-  "streak": 1
+  "team_games": 10,
+  "streak": 0
  },
  "178772": {
   "name": "Rodrigo Ribeiro",
   "team": "FC Augsburg",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "189873": {
@@ -297,14 +297,14 @@
   "name": "Eren Dinkci",
   "team": "Werder Bremen",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "61630": {
   "name": "Marco Grüll",
   "team": "Werder Bremen",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "144433": {
@@ -339,14 +339,21 @@
   "name": "Sheraldo Becker",
   "team": "Mainz",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
+ },
+ "137302": {
+  "name": "Ransford Königsdörffer",
+  "team": "Mainz",
+  "goals": 2,
+  "team_games": 10,
+  "streak": 1
  },
  "152692": {
   "name": "Fabian Rieder",
   "team": "FC Augsburg",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "99042": {
@@ -395,7 +402,7 @@
   "name": "Yussuf Poulsen",
   "team": "Hamburger SV",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "48988": {
@@ -437,14 +444,14 @@
   "name": "Ludovit Reis",
   "team": "Werder Bremen",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "150647": {
   "name": "Benedict Hollerbach",
   "team": "Mainz",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "177525": {
@@ -458,7 +465,7 @@
   "name": "Terem Moffi",
   "team": "Hamburger SV",
   "goals": 2,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "184533": {
@@ -510,6 +517,13 @@
   "team_games": 10,
   "streak": null
  },
+ "122949": {
+  "name": "Justin Njinmah",
+  "team": "Werder Bremen",
+  "goals": 2,
+  "team_games": 10,
+  "streak": null
+ },
  "1858": {
   "name": "Emmanuel Latte Lath",
   "team": "Union Berlin",
@@ -542,7 +556,7 @@
   "name": "Dariusz Stalmach",
   "team": "Werder Bremen",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "6836": {
@@ -570,28 +584,21 @@
   "name": "Philipp Mwene",
   "team": "Mainz",
   "goals": 1,
-  "team_games": 9,
-  "streak": 0
- },
- "137302": {
-  "name": "Ransford Königsdörffer",
-  "team": "Mainz",
-  "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "176899": {
   "name": "Arijon Ibrahimovic",
   "team": "FC Augsburg",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "608": {
   "name": "Alexis Claude Maurice",
   "team": "FC Augsburg",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "1847": {
@@ -640,7 +647,7 @@
   "name": "Nicolás Capaldo",
   "team": "Hamburger SV",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "7772": {
@@ -668,33 +675,26 @@
   "name": "Eric Martel",
   "team": "Mainz",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "6707": {
   "name": "Danny da Costa",
   "team": "Mainz",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "67408": {
   "name": "Calvin Brackelmann",
   "team": "FC Augsburg",
   "goals": 1,
-  "team_games": 9,
+  "team_games": 10,
   "streak": 0
  },
  "6555": {
   "name": "Mitchell Weiser",
   "team": "Werder Bremen",
-  "goals": 1,
-  "team_games": 9,
-  "streak": 0
- },
- "144953": {
-  "name": "Miguel Gutiérrez",
-  "team": "Bayer Leverkusen",
   "goals": 1,
   "team_games": 10,
   "streak": 0

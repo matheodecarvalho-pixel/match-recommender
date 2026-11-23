@@ -3,21 +3,21 @@
   "name": "Lassine Sinayoko",
   "team": "Paris FC",
   "goals": 9,
-  "team_games": 10,
-  "streak": 2
+  "team_games": 11,
+  "streak": 0
  },
  "8476": {
   "name": "Amine Gouiri",
   "team": "Marseille",
-  "goals": 7,
-  "team_games": 10,
-  "streak": 2
+  "goals": 8,
+  "team_games": 11,
+  "streak": 3
  },
  "149850": {
   "name": "Esteban Lepaul",
   "team": "Rennes",
   "goals": 7,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "128242": {
@@ -34,12 +34,26 @@
   "team_games": 11,
   "streak": 0
  },
+ "98299": {
+  "name": "Boulaye Dia",
+  "team": "Rennes",
+  "goals": 6,
+  "team_games": 11,
+  "streak": 3
+ },
  "3370": {
   "name": "Florian Thauvin",
   "team": "Lens",
   "goals": 5,
   "team_games": 11,
   "streak": 0
+ },
+ "124178": {
+  "name": "Louis Mafouta",
+  "team": "Le Mans",
+  "goals": 5,
+  "team_games": 11,
+  "streak": 1
  },
  "33154": {
   "name": "Ferrán Torres",
@@ -69,20 +83,6 @@
   "team_games": 11,
   "streak": 1
  },
- "98299": {
-  "name": "Boulaye Dia",
-  "team": "Rennes",
-  "goals": 5,
-  "team_games": 10,
-  "streak": 2
- },
- "124178": {
-  "name": "Louis Mafouta",
-  "team": "Le Mans",
-  "goals": 4,
-  "team_games": 10,
-  "streak": 0
- },
  "175942": {
   "name": "Kamory Doumbia",
   "team": "Brest",
@@ -94,7 +94,7 @@
   "name": "Sebastian Szymański",
   "team": "Rennes",
   "goals": 4,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "245336": {
@@ -150,7 +150,7 @@
   "name": "Adil Bourabaa",
   "team": "Le Mans",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "134600": {
@@ -199,15 +199,29 @@
   "name": "Amine Harit",
   "team": "Marseille",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "80754": {
   "name": "Himad Abdelli",
   "team": "Marseille",
   "goals": 3,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
+ },
+ "119703": {
+  "name": "Igor Paixão",
+  "team": "Marseille",
+  "goals": 3,
+  "team_games": 11,
+  "streak": 1
+ },
+ "8352": {
+  "name": "Maxime López",
+  "team": "Paris FC",
+  "goals": 3,
+  "team_games": 11,
+  "streak": 1
  },
  "246066": {
   "name": "Senny Mayulu",
@@ -234,8 +248,8 @@
   "name": "Keyliane Abdallah",
   "team": "Marseille",
   "goals": 2,
-  "team_games": 10,
-  "streak": 1
+  "team_games": 11,
+  "streak": 0
  },
  "183643": {
   "name": "Franjo Ivanovic",
@@ -269,8 +283,8 @@
   "name": "Jean-Victor Makengo",
   "team": "Lorient",
   "goals": 2,
-  "team_games": 10,
-  "streak": 1
+  "team_games": 11,
+  "streak": 0
  },
  "215579": {
   "name": "Mbwana Samatta",
@@ -283,7 +297,7 @@
   "name": "Amine El Ouazzani",
   "team": "Angers",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "119460": {
@@ -325,7 +339,7 @@
   "name": "Adrien Thomasson",
   "team": "Rennes",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "218468": {
@@ -346,14 +360,14 @@
   "name": "Pablo Pagis",
   "team": "Paris FC",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "278087": {
   "name": "Prosper Peter",
   "team": "Angers",
   "goals": 2,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "366": {
@@ -398,20 +412,6 @@
   "team_games": 11,
   "streak": null
  },
- "119703": {
-  "name": "Igor Paixão",
-  "team": "Marseille",
-  "goals": 2,
-  "team_games": 10,
-  "streak": 0
- },
- "8352": {
-  "name": "Maxime López",
-  "team": "Paris FC",
-  "goals": 2,
-  "team_games": 10,
-  "streak": 0
- },
  "8762": {
   "name": "Romain Faivre",
   "team": "Auxerre",
@@ -426,6 +426,13 @@
   "team_games": 11,
   "streak": 0
  },
+ "182267": {
+  "name": "Luca Koleosho",
+  "team": "Paris FC",
+  "goals": 2,
+  "team_games": 11,
+  "streak": null
+ },
  "189574": {
   "name": "Mika Godts",
   "team": "Paris Saint-Germain",
@@ -433,11 +440,18 @@
   "team_games": 11,
   "streak": 0
  },
+ "138969": {
+  "name": "Erwan Colas",
+  "team": "Le Mans",
+  "goals": 2,
+  "team_games": 11,
+  "streak": null
+ },
  "8093": {
   "name": "Pierre Emile Højbjerg",
   "team": "Marseille",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "129098": {
@@ -472,7 +486,7 @@
   "name": "Dame Guèye",
   "team": "Le Mans",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "215864": {
@@ -528,7 +542,7 @@
   "name": "Branco van den Boomen",
   "team": "Angers",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "204240": {
@@ -542,7 +556,7 @@
   "name": "Harouna Djibirin",
   "team": "Angers",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "299684": {
@@ -556,21 +570,21 @@
   "name": "Samir Chergui",
   "team": "Paris FC",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "565": {
   "name": "Vincent Marchetti",
   "team": "Paris FC",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "8695": {
   "name": "Valentin Rongier",
   "team": "Rennes",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "75196": {
@@ -598,7 +612,7 @@
   "name": "Mamadou Koné",
   "team": "Lorient",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "295761": {
@@ -626,35 +640,35 @@
   "name": "Przemysław Frankowski",
   "team": "Rennes",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "532": {
   "name": "Carlens Arcus",
   "team": "Angers",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "170398": {
   "name": "Ibrahima Baldé",
   "team": "Lorient",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "157596": {
   "name": "Noah Mbamba",
   "team": "Lorient",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "176335": {
   "name": "Lucas Calodat",
   "team": "Le Mans",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "151264": {
@@ -668,35 +682,21 @@
   "name": "Ilan Kebbal",
   "team": "Paris FC",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "456": {
   "name": "Habib Diallo",
   "team": "Le Mans",
   "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  },
  "153974": {
   "name": "Isak Jensen",
   "team": "Lorient",
   "goals": 1,
-  "team_games": 10,
-  "streak": 0
- },
- "185033": {
-  "name": "Amine Sbaï",
-  "team": "Angers",
-  "goals": 1,
-  "team_games": 10,
-  "streak": 0
- },
- "7910": {
-  "name": "Angel Gomes",
-  "team": "Marseille",
-  "goals": 1,
-  "team_games": 10,
+  "team_games": 11,
   "streak": 0
  }
 }
